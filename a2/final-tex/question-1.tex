@@ -1,0 +1,27 @@
+\chapter{Question 1}
+\label{intro}
+
+\textbf{Write a Python program that extracts 1000 unique links from Twitter.  You might want to take a look at:}
+\textbf{{\url{http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/}}}\\
+
+\textbf{But there are many other similar resources available on the web.  Note that only Twitter API 1.1 is currently available; version 1 code will no longer work.\\
+Also note that you need to verify that the final target URI (i.e., the one that responds with a 200) is unique.  You could have many different shortened URIs for www.cnn.com (t.co, bit.ly, goo.gl, etc.).\\
+You might want to use the search feature to find URIs, or you can pull them from the feed of someone famous (e.g., Tim O'Reilly).\\
+Hold on to this collection -- we'll use it later throughout the semester.}\\
+
+
+For solving the above problem I used Python programming language. Following are the steps I have taken to solve the given problem:
+\begin{itemize}
+\item For using the Twitter API, firstly I registered for a twitter application to generate a consumer key and consumer secret.
+\item Using the keys that are generated in the above step, I authenticated the application for requesting the tweets. 
+\item To fetch the tweet data I started researching for packages and found multiple of them but I decided to work with `tweepy'.
+\item Using `extractTweets.py', I used the tweet data that I received from the API and fetched tweet text, list of URIs in the tweet, tweet JSON and tweet id. This code is listed in Listing{\ref{lst:code1}}.
+\item While extracting the data mentioned above, program broke multiple times due to overloading, to resolve this issue I wrote an exception handler to wait with a sleep time of 60*15 and then continue.
+\item The data is processed in JSON format and written to a output file `tweet.json'.
+\item I loaded the JSON data from the above outputted file `tweet.json', and obtained the final URI with a HTTP response code 200 by checking if the URI has any redirects in its history. 
+\item To get unique URIs I stored all the final URIs obtained in the above step in a set data structure which has an inherent property of storing only unique data and have written into a file `uri.json'.
+\end{itemize}
+
+\textbf{Code Listing}
+\lstinputlisting[language=Python,caption=``Python code for extracting tweets and checking for re-directs if it is a 200ok and unique then save it.'',frame=single,breaklines=true,label=lst:code1,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/extractTweets.py}
+
