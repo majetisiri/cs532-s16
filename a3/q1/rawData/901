@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:app_id" content="527665067272298"/>
+    <meta name="fragment" content="!">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search Oximity News" />
+    <link rel="manifest" href="https://d248prrhso0s59.cloudfront.net/newsapp/ver/b9766/languages/manifest.json">
+    <title>Oximity</title>
+
+    <base href="/">
+
+    <script>
+    (function() {
+      function lowercase(text) {
+        return text && text.toLowerCase() || '';
+      }
+
+      var n = Number((/android (\d+(\.\d+)?)/.exec(lowercase((window.navigator || {}).userAgent)) || [])[1]);
+      if (n > 0 && n < 4.4) {
+        document.write('<link rel="stylesheet" href="https://d248prrhso0s59.cloudfront.net/newsapp/ver/b9766/css/proxima-ttf.css">');
+      } else {
+        document.write('<link rel="stylesheet" href="https://d248prrhso0s59.cloudfront.net/newsapp/ver/b9766/css/proxima.css">');
+      }
+    })();
+    </script>
+
+    <script type="text/javascript">
+    window.applicationVersionTag = 'b9766';
+
+    (function() {
+      var date = new Date();
+
+      window.debugTime = function(message, write) {
+        var tick = new Date().getTime() - date.getTime();
+        /*console.log("@",(tick), message);
+        $("#messages").append("<div>@ " + (tick) +  " " + message + "</div>");*/
+
+        if (write && !window.speedTestResult) {
+          window.speedTestResult = tick
+          window.speedTestResultTick = new Date().getTime()
+        }
+      }
+    }());
+
+
+    function decorateHostOrigin(fileName) {
+        if (Array.prototype.indexOf) {
+            var host = window.location.hostname;
+            if (/oximity\.com/.test(host) && !/localhost/.test(host)) {
+                fileName = "//d248prrhso0s59.cloudfront.net" + fileName;
+            }
+        }
+
+        return fileName
+    }
+
+    function loadResource(fileName, fileType) {
+        fileName = decorateHostOrigin(fileName);
+        loadResourcePlain(fileName, fileType);
+    }
+    function loadResourcePlain(fileName, fileType) {
+        if (fileType == "js") {
+            document.write('<script type="text/javascript" src="');
+            document.write(fileName);
+            document.write('"></scr' + 'ipt>');
+        } else if (fileType == "css") {
+            document.write('<link rel="stylesheet" type="text/css" href="');
+            document.write(fileName);
+            document.write('">');
+        }
+    }
+
+    /* debugging? */
+    /*
+    var debugParamPattern = /weinre_id=?([^&]*)/g
+    var match;
+    if (match = debugParamPattern.exec(window.location.search.substring(1))) {
+      window.WeinreServerId = match[1];
+
+      if (window.localStorage) {
+        localStorage["Debug:WeinreServerId"] = window.WeinreServerId;
+      }
+    }
+
+    if (window.localStorage) {
+      window.WeinreServerId = localStorage["Debug:WeinreServerId"];
+    }
+
+    if (window.WeinreServerId) {
+      console.log("WeinreServerId="+window.WeinreServerId);
+
+      var debugUrlPattern = /(https*:\/\/(.*?)\/)/
+      if (match = debugUrlPattern.exec(window.location)) {
+        window.WeinreServerURL = match[1];
+        console.log("WeinreServerURL="+window.WeinreServerURL);
+      }
+      loadResourcePlain(window.WeinreServerURL+"/target/target-script-min.js", "js")
+    }*/
+    </script>
+
+
+
+</head>
+
+<body class="menu-at-top {{!!$root.compileDirective.popup && 'popup-visible2'}} {{body.noscroll && 'noscroll' || ''}} {{lang == 'ar' && 'rtl' || 'ltr'}} {{currentPage}} {{showingHomepageAd && 'show-homepage-banner' || ''}} {{loggedIn && 'loggedIn' || ''}} {{currentPartner && 'whitelabel-partners-'+currentPartner || 'oximity-theme'}} {{$root.user.loggedInAsOtherUser && 'body-crm-warning'}}" lang="{{lang}}" page-init bindonce>
+<div id="fb-root"></div>
+<!--<div id="messages" style="position: absolute; background: white; top: 0px; left: 0px; padding 30px; color: black; z-index: 30000"></div>-->
+
+
+<!--[if lt IE 9]>
+    You are using an outdated browser version. To visit this site you have to upgrade your browser. We recommend a
+<a href="https://www.mozilla.org/firefox/">Firefox</a>,
+<a href="https://www.apple.com/safari/">Safari</a> or
+<a href="https://www.google.com/chrome/browser/">Chrome</a> browser.
+<![endif]-->
+
+<!--[if (gt IE 8)|!(IE)]><!-->
+
+
+<div id="body-container" class="{{body.noscroll && 'noscroll' || ''}}">
+    <div class="print-logo"><img ng-src="https://d248prrhso0s59.cloudfront.net/newsapp/ver/b9766/img/logo_print.png"/></div>
+    <div class="menu-overlay"></div>
+
+    <!-- Header holder -->
+    <!--<header-element ng-if="$root.currentPartner=='ninja'" which="ninja"></header-element>-->
+    <!--<header-element ng-if="$root.currentPartner=='irin'" which="irin"></header-element>-->
+    <!--<header-element ng-if="$root.currentPartner=='netrootsnation'" which="netrootsnation"></header-element>-->
+    <!--<header-element show-homepage-banner id="header" class="header-container-top" ng-if="!!shouldShowHeader" which="oximityTop"></header-element>-->
+
+    <header-element class="header-container-fixed" which="oximityFloat"></header-element>
+
+    <!-- NG-VIEW - here gets loaded the content for each route -->
+    <div id="content-container" ng-view></div>
+</div>
+
+<noscript>You must enable Javascript in your browser to be able to view this site</noscript>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>loadResource('/newsapp/ver/b9766/js/loader.min.js', 'js');</script>
+
+<!--<![endif]-->
+
+<!-- START Google Analytics API -->
+<script type="text/javascript" >
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+</script>
+
+<script type="text/javascript" >
+(function() {
+  var path, sampleRate;
+  sampleRate = 100;
+
+  ga('create', 'UA-39793259-1', {
+    'cookieDomain': 'oximity.com',
+    'siteSpeedSampleRate': 100,
+    'sampleRate': sampleRate
+  });
+
+  ga('require', 'displayfeatures');
+  ga('set', 'anonymizeIp', true);
+
+  path = window.location.pathname + (window.location.search || '');
+  if (path === '/' || !path) {
+    var hash = (('' + window.location.hash) || '/').replace("#", "").replace("!", "");
+    if (hash[0] == '/') {
+      path = hash + (window.location.search || '');
+    }
+  }
+
+  ga('send', 'pageview', {
+    'page': path
+  });
+})()
+
+</script>
+<!-- END Google Analytics API -->
+
+<div style="height: 0px; overflow: hidden; opacity: 0"> <img style="opacity: 0" src="/api/v1/newsletter/news.png"/></div>
+
+</body>
+</html>

@@ -1,0 +1,1459 @@
+<!DOCTYPE html><html lang="en" data-cast-api-enabled="true"><head><style name="www-roboto">@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v15/OLffGBTaF0XFOW1gnuHF0Z0EAVxt0G0biEntp43Qt6E.ttf)format('truetype');}</style><script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "E");document.fonts.load("500 10pt Roboto", "E");}</script><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, e, n) {ytcsi.gt(n).span[l] = (e ? e : +new Date()) - ytcsi.gt(n).tick[s];},setSpan: function(l, s, n) {ytcsi.gt(n).span[l] = s;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.perf = w.performance || w.mozPerformance ||w.msPerformance || w.webkitPerformance;ytcsi.setStart('dhs', ytcsi.perf ? ytcsi.perf.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = d.webkitVisibilityState ? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}})(window, document);</script><script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script>    <script>
+      ytcfg.set("SMALLER_SESSION_TEMPDATA_NAME", true);
+    </script>
+  <script>ytcfg.set("EXP_QUICK_FETCH_BISCOTTI", false);ytcfg.set("LACT", null);</script>
+  
+
+
+
+
+  <script>
+        (function(){var b={f:"content-snap-width-1",h:"content-snap-width-2",j:"content-snap-width-3"};function f(){var a=[],c;for(c in b)a.push(b[c]);return a}
+function g(a){var c=f().concat(["guide-pinned","show-guide"]),d=c.length,e=[];a.replace(/\S+/g,function(a){for(var k=0;k<d;k++)if(a==c[k])return;e.push(a)});
+return e}
+;function l(a,c,d){var e=document.getElementsByTagName("html")[0],h=g(e.className);a&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(h.push("guide-pinned"),c&&h.push("show-guide"));d&&(d=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&a&&c&&(d-=230),h.push(1262<=d?"content-snap-width-3":1056<=d?"content-snap-width-2":"content-snap-width-1"));e.className=h.join(" ")}
+var m=["yt","www","masthead","sizing","runBeforeBodyIsReady"],n=this;m[0]in n||!n.execScript||n.execScript("var "+m[0]);for(var p;m.length&&(p=m.shift());)m.length||void 0===l?n[p]?n=n[p]:n=n[p]={}:n[p]=l;})();
+
+      try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+
+    yt.www.masthead.sizing.runBeforeBodyIsReady(false,false,true);
+  </script>
+
+      <script src="//s.ytimg.com/yts/jsbin/scheduler-vflI19FXK/scheduler.js" type="text/javascript" name="scheduler/scheduler"></script>
+
+
+    <script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script>
+
+
+          <script src="//s.ytimg.com/yts/jsbin/player-en_US-vflCdE8nM/base.js" name="player/base"></script>
+
+
+
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vflKqrOi3.css" name="www-core">
+      <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-player-vflpKLlne.css" name="www-player">
+
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-pageframe-vflUA8MqU.css" name="www-pageframe">
+      <script>ytimg.preload("https:\/\/r8---sn-jvm-vg4l.googlevideo.com\/crossdomain.xml");ytimg.preload("https:\/\/r8---sn-jvm-vg4l.googlevideo.com\/generate_204");</script>
+
+
+<title>Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps) - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=en_US" title="YouTube Video Search"><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png" sizes="32x32"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png" sizes="48x48"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png" sizes="96x96"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png" sizes="144x144"><meta name="theme-color" content="#e62117"><link rel="canonical" href="https://www.youtube.com/watch?v=ZXQ4rKDADrs"><link rel="alternate" media="handheld" href="http://m.youtube.com/watch?v=ZXQ4rKDADrs"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/watch?v=ZXQ4rKDADrs"><link rel="shortlink" href="https://youtu.be/ZXQ4rKDADrs">      <meta name="title" content="Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)">
+
+      <meta name="description" content="A first attempt demo of the new Summon feature on the latest version of Remote S (by Rego Apps) for iOS. Now, using an Apple Watch, you can have your Tesla o...">
+
+      <meta name="keywords" content="Tesla, Summon, Apple Watch, Remote S, Rego Apps">
+
+        <link rel="alternate" href="android-app://com.google.android.youtube/http/www.youtube.com/watch?v=ZXQ4rKDADrs">
+    <link rel="alternate" href="ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=ZXQ4rKDADrs">
+
+      <link rel="alternate" type="application/json+oembed" href="http://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZXQ4rKDADrs&amp;format=json" title="Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)">
+  <link rel="alternate" type="text/xml+oembed" href="http://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZXQ4rKDADrs&amp;format=xml" title="Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)">
+
+        <meta property="og:site_name" content="YouTube">
+      <meta property="og:url" content="https://www.youtube.com/watch?v=ZXQ4rKDADrs">
+    <meta property="og:title" content="Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)">
+    <meta property="og:image" content="https://i.ytimg.com/vi/ZXQ4rKDADrs/maxresdefault.jpg">
+
+      <meta property="og:description" content="A first attempt demo of the new Summon feature on the latest version of Remote S (by Rego Apps) for iOS. Now, using an Apple Watch, you can have your Tesla o...">
+
+    <meta property="al:ios:app_store_id" content="544007664">
+    <meta property="al:ios:app_name" content="YouTube">
+      <meta property="al:ios:url" content="vnd.youtube://www.youtube.com/watch?v=ZXQ4rKDADrs&amp;feature=applinks">
+
+      <meta property="al:android:url" content="vnd.youtube://www.youtube.com/watch?v=ZXQ4rKDADrs&amp;feature=applinks">
+    <meta property="al:android:app_name" content="YouTube">
+    <meta property="al:android:package" content="com.google.android.youtube">
+    <meta property="al:web:url" content="https://www.youtube.com/watch?v=ZXQ4rKDADrs&amp;feature=applinks">
+
+    <meta property="og:type" content="video">
+        <meta property="og:video:url" content="https://www.youtube.com/embed/ZXQ4rKDADrs">
+        <meta property="og:video:secure_url" content="https://www.youtube.com/embed/ZXQ4rKDADrs">
+        <meta property="og:video:type" content="text/html">
+        <meta property="og:video:width" content="1280">
+        <meta property="og:video:height" content="720">
+        <meta property="og:video:url" content="http://www.youtube.com/v/ZXQ4rKDADrs?version=3&amp;autohide=1">
+        <meta property="og:video:secure_url" content="https://www.youtube.com/v/ZXQ4rKDADrs?version=3&amp;autohide=1">
+        <meta property="og:video:type" content="application/x-shockwave-flash">
+        <meta property="og:video:width" content="1280">
+        <meta property="og:video:height" content="720">
+
+        <meta property="og:video:tag" content="Tesla">
+        <meta property="og:video:tag" content="Summon">
+        <meta property="og:video:tag" content="Apple Watch">
+        <meta property="og:video:tag" content="Remote S">
+        <meta property="og:video:tag" content="Rego Apps">
+
+    <meta property="fb:app_id" content="87741124305">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@youtube">
+    <meta name="twitter:url" content="https://www.youtube.com/watch?v=ZXQ4rKDADrs">
+    <meta name="twitter:title" content="Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)">
+    <meta name="twitter:description" content="A first attempt demo of the new Summon feature on the latest version of Remote S (by Rego Apps) for iOS. Now, using an Apple Watch, you can have your Tesla o...">
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/ZXQ4rKDADrs/maxresdefault.jpg">
+    <meta name="twitter:app:name:iphone" content="YouTube">
+    <meta name="twitter:app:id:iphone" content="544007664">
+    <meta name="twitter:app:name:ipad" content="YouTube">
+    <meta name="twitter:app:id:ipad" content="544007664">
+      <meta name="twitter:app:url:iphone" content="vnd.youtube://www.youtube.com/watch?v=ZXQ4rKDADrs&amp;feature=applinks">
+      <meta name="twitter:app:url:ipad" content="vnd.youtube://www.youtube.com/watch?v=ZXQ4rKDADrs&amp;feature=applinks">
+    <meta name="twitter:app:name:googleplay" content="YouTube">
+    <meta name="twitter:app:id:googleplay" content="com.google.android.youtube">
+    <meta name="twitter:app:url:googleplay" content="https://www.youtube.com/watch?v=ZXQ4rKDADrs">
+      <meta name="twitter:player" content="https://www.youtube.com/embed/ZXQ4rKDADrs">
+      <meta name="twitter:player:width" content="1280">
+      <meta name="twitter:player:height" content="720">
+
+      <meta name=attribution content=yw706kE3zncfYK5cYbo21g/>  
+        <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-watch-transcript-vflp9_n_i.css" name="www-watch-transcript">
+
+</head>  <body dir="ltr" id="body" class="  ltr    exp-responsive exp-scrollable-guide   site-center-aligned site-as-giant-card appbar-hidden    visibility-logging-enabled   not-nirvana-dogfood  not-yt-legacy-css      flex-width-enabled      flex-width-enabled-snap    delayed-frame-styles-not-in  " data-spf-name="watch">
+<div id="early-body"></div><div id="body-container"><div id="a11y-announcements-container" role="alert"><div id="a11y-announcements-message"></div></div><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form><div id="masthead-positioner">    
+  <div id="yt-masthead-container" class="clearfix yt-base-gutter">  <button id="a11y-skip-nav" class="skip-nav" data-target-id="main" tabindex="3">
+Skip navigation
+  </button>
+<div id="yt-masthead"><div class="yt-masthead-logo-container ">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" type="button" onclick=";return false;" id="appbar-guide-button" aria-label="Guide" aria-controls="appbar-guide-menu"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span></span></button>
+  <div id="appbar-main-guide-notification-container"></div>
+<span id="yt-masthead-logo-fragment"><a href="/" class="yt-uix-sessionlink masthead-logo-renderer       spf-link " data-sessionlink="itct=CAUQsV4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0" id="logo-container" title="YouTube Home">  <span class="logo masthead-logo-renderer-logo yt-sprite" title="YouTube Home"></span>
+</a></span></div><div id="yt-masthead-signin"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ&amp;feature=mhsb" id="upload-btn"><span class="yt-uix-button-content">Upload</span></a><div class="signin-container "><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" role="link" href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=en&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3Dsign_in_button%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DZXQ4rKDADrs"><span class="yt-uix-button-content">Sign in</span></button></div></div><div id="yt-masthead-content"><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;" data-clicktracking="CAIQ7VAiEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;" tabindex="2" dir="ltr" id="search-btn"><span class="yt-uix-button-content">Search</span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><input id="masthead-search-term" autocomplete="off"  onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" placeholder="" title="Search"></div></form></div></div></div>
+    <div id="masthead-appbar-container" class="clearfix"><div id="masthead-appbar"><div id="appbar-content" class=""></div></div></div>
+
+</div><div id="masthead-positioner-height-offset"></div><div id="page-container"><div id="page" class="  watch        video-ZXQ4rKDADrs clearfix"><div id="guide" class="yt-scrollbar">    <div id="appbar-guide-menu" class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor">
+    <div id="guide-container">
+      <div class="guide-module-content guide-module-loading">
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+      </div>
+    </div>
+  </div>
+
+</div><div class="alerts-wrapper"><div id="alerts" class="content-alignment">    
+  <div id="editor-progress-alert-container"></div>
+  <div class="yt-alert yt-alert-default yt-alert-warn hid " id="editor-progress-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert"></div><div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Close" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Close</span></button></div></div>
+
+    <div id="edit-confirmation-alert"></div>
+  <div class="yt-alert yt-alert-actionable yt-alert-info hid " id="edit-confirmation-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message">
+    </div>
+</div><div class="yt-alert-buttons">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-yes" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-like-invert yt-sprite"></span></span><span class="yt-uix-button-content">Yeah, keep it</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-no" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-unlike-invert yt-sprite"></span></span><span class="yt-uix-button-content">Undo</span></button>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Close" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Close</span></button></div></div>
+
+
+
+</div></div><div id="header"></div><div id="player" class="  content-alignment       watch-small  " role="complementary"><div id="theater-background" class="player-height"></div>  <div id="player-mole-container">
+    <div id="player-unavailable" class="    hid    player-width player-height    player-unavailable ">
+              <img class="icon meh" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-icon="//s.ytimg.com/yts/img/meh7-vflGevej7.png" alt="">
+  <div class="content">
+    <h1 id="unavailable-message" class="message">
+              This video is unavailable.
+
+    </h1>
+    <div id="unavailable-submessage" class="submessage">
+    </div>
+  </div>
+
+
+    </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target player-api" tabIndex="-1"></div>
+        <script>if (window.ytcsi) {window.ytcsi.tick("cfg", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"html5":true,"assets":{"css":"\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflpKLlne.css","js":"\/\/s.ytimg.com\/yts\/jsbin\/player-en_US-vflCdE8nM\/base.js"},"sts":16841,"min_version":"8.0.0","url":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflLuenkD\/watch_as3.swf","messages":{"player_fallback":["Adobe Flash Player or an HTML5 supported browser is required for video playback.\u003cbr\u003e\u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eGet the latest Flash Player \u003c\/a\u003e\u003cbr\u003e\u003ca href=\"\/html5\"\u003eLearn more about upgrading to an HTML5 browser\u003c\/a\u003e"]},"url_v8":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflLuenkD\/cps.swf","args":{"allow_embed":"1","tag_for_child_directed":false,"iv_invideo_url":"https:\/\/www.youtube.com\/annotations_invideo?cap_hist=1\u0026video_id=ZXQ4rKDADrs","allow_ratings":"1","video_id":"ZXQ4rKDADrs","iv3_module":"1","cc_fonts_url":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflLuenkD\/fonts708.swf","adsense_video_doc_id":"yt_ZXQ4rKDADrs","cr":"US","shortform":true,"gapi_hint_params":"m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.x8c5wyFWS3c.O\/m=__features__\/am=AAQ\/rt=j\/d=1\/rs=AHpOoo8ImJKkzibS2HdaL0ElQ8igQWYsOg","iurlhq":"https:\/\/i.ytimg.com\/vi\/ZXQ4rKDADrs\/hqdefault.jpg","enablejsapi":"1","pltype":"content","cl":"114413187","pyv_ad_channel":"PyvWatchInRelated+PyvWatchNoAdX+PyvYTWatch+YtLoPri+afv_user_id_yw706kE3zncfYK5cYbo21g+afv_user_mark22digital+ivp+non_lpw+pw+yt_cid_30928604+yt_mpvid_86pbc0BYvewWXcrq+yt_no_360+yt_no_ap+yt_no_cp+yt_no_housead_in_auction+ytdevice_1+ytdevicever_1.20160211","timestamp":"1455580716","caption_translation_languages":"lc=af\u0026n=Afrikaans,lc=sq\u0026n=Albanian,lc=ar\u0026n=Arabic,lc=hy\u0026n=Armenian,lc=az\u0026n=Azerbaijani,lc=eu\u0026n=Basque,lc=be\u0026n=Belarusian,lc=bn\u0026n=Bengali,lc=bs\u0026n=Bosnian,lc=bg\u0026n=Bulgarian,lc=my\u0026n=Burmese,lc=ca\u0026n=Catalan,lc=ceb\u0026n=Cebuano,lc=zh-Hans\u0026n=Chinese+%28Simplified%29,lc=zh-Hant\u0026n=Chinese+%28Traditional%29,lc=hr\u0026n=Croatian,lc=cs\u0026n=Czech,lc=da\u0026n=Danish,lc=nl\u0026n=Dutch,lc=en\u0026n=English,lc=eo\u0026n=Esperanto,lc=et\u0026n=Estonian,lc=fil\u0026n=Filipino,lc=fi\u0026n=Finnish,lc=fr\u0026n=French,lc=gl\u0026n=Galician,lc=ka\u0026n=Georgian,lc=de\u0026n=German,lc=el\u0026n=Greek,lc=gu\u0026n=Gujarati,lc=ht\u0026n=Haitian+Creole,lc=ha\u0026n=Hausa,lc=iw\u0026n=Hebrew,lc=hi\u0026n=Hindi,lc=hmn\u0026n=Hmong,lc=hu\u0026n=Hungarian,lc=is\u0026n=Icelandic,lc=ig\u0026n=Igbo,lc=id\u0026n=Indonesian,lc=ga\u0026n=Irish,lc=it\u0026n=Italian,lc=ja\u0026n=Japanese,lc=jv\u0026n=Javanese,lc=kn\u0026n=Kannada,lc=kk\u0026n=Kazakh,lc=km\u0026n=Khmer,lc=ko\u0026n=Korean,lc=lo\u0026n=Lao,lc=la\u0026n=Latin,lc=lv\u0026n=Latvian,lc=lt\u0026n=Lithuanian,lc=mk\u0026n=Macedonian,lc=mg\u0026n=Malagasy,lc=ms\u0026n=Malay,lc=ml\u0026n=Malayalam,lc=mt\u0026n=Maltese,lc=mi\u0026n=Maori,lc=mr\u0026n=Marathi,lc=mn\u0026n=Mongolian,lc=ne\u0026n=Nepali,lc=no\u0026n=Norwegian,lc=ny\u0026n=Nyanja,lc=fa\u0026n=Persian,lc=pl\u0026n=Polish,lc=pt\u0026n=Portuguese,lc=pa\u0026n=Punjabi,lc=ro\u0026n=Romanian,lc=ru\u0026n=Russian,lc=sr\u0026n=Serbian,lc=si\u0026n=Sinhala,lc=sk\u0026n=Slovak,lc=sl\u0026n=Slovenian,lc=so\u0026n=Somali,lc=st\u0026n=Southern+Sotho,lc=es\u0026n=Spanish,lc=su\u0026n=Sundanese,lc=sw\u0026n=Swahili,lc=sv\u0026n=Swedish,lc=tg\u0026n=Tajik,lc=ta\u0026n=Tamil,lc=te\u0026n=Telugu,lc=th\u0026n=Thai,lc=tr\u0026n=Turkish,lc=uk\u0026n=Ukrainian,lc=ur\u0026n=Urdu,lc=uz\u0026n=Uzbek,lc=vi\u0026n=Vietnamese,lc=cy\u0026n=Welsh,lc=yi\u0026n=Yiddish,lc=yo\u0026n=Yoruba,lc=zu\u0026n=Zulu","midroll_prefetch_size":"1","thumbnail_url":"https:\/\/i.ytimg.com\/vi\/ZXQ4rKDADrs\/default.jpg","fmt_list":"22\/1280x720\/9\/0\/115,43\/640x360\/99\/0\/0,18\/640x360\/9\/0\/115,5\/426x240\/7\/0\/0,36\/320x180\/99\/1\/0,17\/176x144\/99\/1\/0","ldpj":"-24","fade_in_duration_milliseconds":"1000","ad_device":"1","vmap":"\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cvmap:VMAP xmlns:vmap=\"http:\/\/www.iab.net\/videosuite\/vmap\" xmlns:yt=\"http:\/\/youtube.com\" version=\"1.0\"\u003e\u003cvmap:AdBreak breakType=\"linear\" timeOffset=\"start\"\u003e\u003cvmap:AdSource allowMultipleAds = \"false\"\u003e\u003cvmap:VASTData\u003e\u003cVAST version=\"3.0\"\u003e\u003cAd\u003e\u003cWrapper\u003e\u003cAdSystem version=\"1\"\u003eYT:DoubleClick\u003c\/AdSystem\u003e\u003cVASTAdTagURI\u003e\u003c![CDATA[https:\/\/ad.doubleclick.net\/N4061\/pfadx\/com.ytpwatch.autosandvehicles;av=1;kpeid=yw706kE3zncfYK5cYbo21g;kpid=30928604;kpu=Mark22digital;kvid=ZXQ4rKDADrs;mpvid=86pbc0BYvewWXcrq;ssl=1;sz=480x361,480x70;tile=1;ord=1102954373;afv=1;ciu_szs=300x250,300x60;dc_dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ;dc_osd=2;dc_output=xml_vast3;dc_yt=1;dc_yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA;k2=47;k2=810;k2=815;k2=1380;k5=47_810_815_1380;kclg=1;kclt=1;kga=-1;kgg=-1;klg=en;kmyd=watch-longform-ad;ko=p;kr=F;ktype=gptc;kvlg=en;kvz=203;nlfb=1;pos=pre;tvid=5;yt1st=1;yt3pav=1;ytcat=2;ytdevice=1;ytdevicever=1.20160211;ytexp=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823;yt_ec=2;yt_ec2=12;yt_vrallowed=1;!c=30928604]]\u003e\u003c\/VASTAdTagURI\u003e\u003cImpression\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=2\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026aqi=]]\u003e\u003c\/Impression\u003e\u003cError\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=5\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026blocking_error=[BLOCKING_ERROR]\u0026error_msg=[ERROR_MSG]\u0026ima_error=[IMA_ERROR]\u0026internal_id=[INTERNAL_ID]\u0026error_code=[YT_ERROR_CODE]\u0026aqi=]]\u003e\u003c\/Error\u003e\u003cCreatives\u003e\u003cCreative\u003e\u003cNonLinearAds\u003e\u003cTrackingEvents\u003e\u003cTracking event=\"close\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=4\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003c\/TrackingEvents\u003e\u003cNonLinear\u003e\u003cNonLinearClickTracking\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=6\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=[AQI]]]\u003e\u003c\/NonLinearClickTracking\u003e\u003c\/NonLinear\u003e\u003c\/NonLinearAds\u003e\u003c\/Creative\u003e\u003cCreative\u003e\u003cLinear\u003e\u003cTrackingEvents\u003e\u003cTracking event=\"skip\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=7\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003cTracking event=\"complete\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=3\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003cTracking event=\"progress\" offset=\"00:00:30.000\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=8\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003c\/TrackingEvents\u003e\u003cVideoClicks\u003e\u003cClickTracking\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=6\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=]]\u003e\u003c\/ClickTracking\u003e\u003c\/VideoClicks\u003e\u003c\/Linear\u003e\u003c\/Creative\u003e\u003c\/Creatives\u003e\u003cExtensions\u003e\u003cExtension type=\"waterfall\" fallback_index=\"1\"\/\u003e\u003cExtension type=\"activeview\"\u003e\u003cCustomTracking\u003e\u003cTracking event=\"viewable_impression\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=11\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]]]\u003e\u003c\/Tracking\u003e\u003c\/CustomTracking\u003e\u003c\/Extension\u003e\u003c\/Extensions\u003e\u003c\/Wrapper\u003e\u003c\/Ad\u003e\u003cAd\u003e\u003cWrapper\u003e\u003cAdSystem version=\"1\"\u003eYT:AdSense\u003c\/AdSystem\u003e\u003cVASTAdTagURI\u003e\u003c![CDATA[https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=skippablevideo\u0026channel=Vertical_1380%2BVertical_47%2BVertical_810%2BVertical_815%2Bafv_instream%2Bafv_instream_us%2Bafv_user_id_yw706kE3zncfYK5cYbo21g%2Bafv_user_mark22digital%2Bivp%2Byt_cid_30928604%2Byt_mpvid_86pbc0BYvewWXcrq%2Byt_no_360%2Byt_no_ap%2Byt_no_cp%2Byt_no_housead_in_auction%2Bytdevice_1%2Bytdevicever_1.20160211%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026hl=en\u0026host=ca-host-pub-5498843050713944\u0026ht_id=11069942\u0026loeid=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823\u0026max_ad_duration=15000\u0026osd=2\u0026sdki=8001C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026video_cpm=6000000\u0026videoad_start_delay=0\u0026ytdevice=1\u0026ytdevicever=1.20160211\u0026yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA\u0026yt_vis=31]]\u003e\u003c\/VASTAdTagURI\u003e\u003cImpression\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=2\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026aqi=]]\u003e\u003c\/Impression\u003e\u003cError\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=5\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026blocking_error=[BLOCKING_ERROR]\u0026error_msg=[ERROR_MSG]\u0026ima_error=[IMA_ERROR]\u0026internal_id=[INTERNAL_ID]\u0026error_code=[YT_ERROR_CODE]\u0026aqi=]]\u003e\u003c\/Error\u003e\u003cCreatives\u003e\u003cCreative\u003e\u003cLinear\u003e\u003cTrackingEvents\u003e\u003cTracking event=\"skip\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=7\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003cTracking event=\"complete\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=3\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003cTracking event=\"progress\" offset=\"00:00:30.000\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=8\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003c\/TrackingEvents\u003e\u003cVideoClicks\u003e\u003cClickTracking\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=6\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=]]\u003e\u003c\/ClickTracking\u003e\u003c\/VideoClicks\u003e\u003c\/Linear\u003e\u003c\/Creative\u003e\u003c\/Creatives\u003e\u003cExtensions\u003e\u003cExtension type=\"waterfall\" fallback_index=\"2\"\/\u003e\u003cExtension type=\"activeview\"\u003e\u003cCustomTracking\u003e\u003cTracking event=\"viewable_impression\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=11\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]]]\u003e\u003c\/Tracking\u003e\u003c\/CustomTracking\u003e\u003c\/Extension\u003e\u003c\/Extensions\u003e\u003c\/Wrapper\u003e\u003c\/Ad\u003e\u003cAd\u003e\u003cWrapper\u003e\u003cAdSystem version=\"1\"\u003eYT:AdSense\u003c\/AdSystem\u003e\u003cVASTAdTagURI\u003e\u003c![CDATA[https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=text_image_flash\u0026channel=Vertical_1380%2BVertical_47%2BVertical_810%2BVertical_815%2Bafv_overlay%2Bafv_user_id_yw706kE3zncfYK5cYbo21g%2Bafv_user_mark22digital%2Binvideo_overlay_480x70_cat2%2Bivp%2Byt_cid_30928604%2Byt_mpvid_86pbc0BYvewWXcrq%2Byt_no_360%2Byt_no_ap%2Byt_no_cp%2Byt_no_housead_in_auction%2Bytdevice_1%2Bytdevicever_1.20160211%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026hl=en\u0026host=ca-host-pub-5498843050713944\u0026ht_id=11069942\u0026loeid=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823\u0026osd=2\u0026sdki=8001C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026videoad_start_delay=0\u0026ytdevice=1\u0026ytdevicever=1.20160211\u0026yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA\u0026yt_vis=31]]\u003e\u003c\/VASTAdTagURI\u003e\u003cImpression\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=2\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026aqi=]]\u003e\u003c\/Impression\u003e\u003cError\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=5\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026blocking_error=[BLOCKING_ERROR]\u0026error_msg=[ERROR_MSG]\u0026ima_error=[IMA_ERROR]\u0026internal_id=[INTERNAL_ID]\u0026error_code=[YT_ERROR_CODE]\u0026aqi=]]\u003e\u003c\/Error\u003e\u003cCreatives\u003e\u003cCreative\u003e\u003cNonLinearAds\u003e\u003cTrackingEvents\u003e\u003cTracking event=\"close\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=4\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=]]\u003e\u003c\/Tracking\u003e\u003c\/TrackingEvents\u003e\u003cNonLinear\u003e\u003cNonLinearClickTracking\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=6\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]\u0026ad_cpn=[AD_CPN]\u0026ad_id=[AD_ID]\u0026ad_len=[AD_LEN]\u0026ad_mt=[AD_MT]\u0026ad_sys=[AD_SYS]\u0026ad_v=[AD_V]\u0026i_x=[I_X]\u0026i_y=[I_Y]\u0026aqi=[AQI]]]\u003e\u003c\/NonLinearClickTracking\u003e\u003c\/NonLinear\u003e\u003c\/NonLinearAds\u003e\u003c\/Creative\u003e\u003c\/Creatives\u003e\u003cExtensions\u003e\u003cExtension type=\"waterfall\" fallback_index=\"3\"\/\u003e\u003cExtension type=\"activeview\"\u003e\u003cCustomTracking\u003e\u003cTracking event=\"viewable_impression\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=11\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026format=[FORMAT_NAMESPACE]_[FORMAT_TYPE]_[FORMAT_SUBTYPE]\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]]]\u003e\u003c\/Tracking\u003e\u003c\/CustomTracking\u003e\u003c\/Extension\u003e\u003c\/Extensions\u003e\u003c\/Wrapper\u003e\u003c\/Ad\u003e\u003c\/VAST\u003e\u003c\/vmap:VASTData\u003e\u003c\/vmap:AdSource\u003e\u003cvmap:TrackingEvents\u003e\u003cvmap:Tracking event=\"error\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=1\u0026device=1\u0026content_v=ZXQ4rKDADrs\u0026el=detailpage\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026devicever=1.20160211\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]]]\u003e\u003c\/vmap:Tracking\u003e\u003c\/vmap:TrackingEvents\u003e\u003cvmap:Extensions\u003e\u003cvmap:Extension type=\"YouTube\"\u003e\u003cyt:BreakProperty break_type=\"BREAK_TYPE_PRE_ROLL\"\/\u003e\u003c\/vmap:Extension\u003e\u003c\/vmap:Extensions\u003e\u003c\/vmap:AdBreak\u003e\u003cvmap:Extensions\u003e\u003cvmap:Extension type=\"YouTube\"\u003e\u003cTrackingDecoration match=\"^https?:\/\/((([a-z][a-z0-9.-]*\\.)?(youtube|corp\\.google).com\/api\/stats\/ads)|((www\\.)?youtube\\.com\/pagead\/psul))\" headers=\"device,user\"\/\u003e\u003cTrackingMacro match=\"^https?:\/\/(secure\\-uat\\-dpr\\.imrworldwide|g\\.scorecardresearch)\\.com\/\" macros=\"device_id\"\/\u003e\u003cRegexUriMacroValidator\u003e\u003cMacroToRegexUris macro=\"NIELSEN_DEVICE_ID\"\u003e\u003cRegexUri value=\"^https?:\/\/(secure\\-uat\\-dpr\\.imrworldwide|g\\.scorecardresearch)\\.com\/\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"COMSCORE_DEVICE_ID\"\u003e\u003cRegexUri value=\"^https?:\/\/(secure\\-uat\\-dpr\\.imrworldwide|g\\.scorecardresearch)\\.com\/\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"MOAT_INIT\"\u003e\u003cRegexUri value=\"^https?:\/\/yts\\.moatads\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pagead2\\.googlesyndication\\.com\/pagead\/gen_204\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"MOAT_VIEWABILITY\"\u003e\u003cRegexUri value=\"^https?:\/\/[^.]*\\.moatads\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pagead2\\.googlesyndication\\.com\/pagead\/gen_204\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pubads\\.g\\.doubleclick\\.net\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"GOOGLE_VIEWABILITY\"\u003e\u003cRegexUri value=\"^https?:\/\/pubads\\.g\\.doubleclick\\.net\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003c\/RegexUriMacroValidator\u003e\u003c\/vmap:Extension\u003e\u003c\/vmap:Extensions\u003e\u003c\/vmap:VMAP\u003e","loeid":"9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823","midroll_freqcap":"420.0","player_error_log_fraction":"1.0","ttsurl":"https:\/\/www.youtube.com\/api\/timedtext?asr_langs=fr%2Cru%2Cit%2Ces%2Cpt%2Cnl%2Cja%2Cen%2Cko%2Cde\u0026v=ZXQ4rKDADrs\u0026expire=1455605916\u0026key=yttt1\u0026hl=en_US\u0026sparams=asr_langs%2Ccaps%2Cv%2Cexpire\u0026caps=asr\u0026signature=61C8C5A6D81C1612C7707FB40E89589AD0F13C59.2D54DE77572ADC9EB7D35CE2EE6079C4B461AF9D","plid":"AAUr18uLzssms1AG","cid":"30928604","innertube_api_version":"v1","oid":"ejNDCZdbPrGeBMPOoYnugQ","no_get_video_log":"1","storyboard_spec":"https:\/\/i.ytimg.com\/sb\/ZXQ4rKDADrs\/storyboard3_L$L\/$N.jpg|48#27#100#10#10#0#default#IDSNrOD9p8N7oR6_JBcuhyZ7WFI|80#45#70#10#10#1000#M$M#_TAq87H3Oz5cwRR-OvHUjkevEJw|160#90#70#5#5#1000#M$M#LkjLgGa6NRIX_RLfmJM_Uv3HtNw","videostats_playback_base_url":"https:\/\/s.youtube.com\/api\/stats\/playback?of=3LHNEOcXECEQEV2RYrlUDw\u0026plid=AAUr18uLzssms1AG\u0026cl=114413187\u0026ns=yt\u0026len=69\u0026vm=CAEQAQ\u0026docid=ZXQ4rKDADrs\u0026ei=LGbCVuySFoGb-QWrgrvIBQ\u0026el=detailpage\u0026fexp=9412777%2C9412877%2C9415327%2C9416126%2C9420452%2C9422596%2C9423661%2C9423662%2C9425282%2C9425961%2C9426150%2C9426217%2C9427823","author":"Mark Schey","cc_module":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflLuenkD\/subtitle_module.swf","ptk":"yw706kE3zncfYK5cYbo21g","default_audio_track_index":"0","fade_in_start_milliseconds":"-3000","caption_tracks":"lc=en\u0026v=a.en\u0026u=https%3A%2F%2Fwww.youtube.com%2Fapi%2Ftimedtext%3Fasr_langs%3Dfr%252Cru%252Cit%252Ces%252Cpt%252Cnl%252Cja%252Cen%252Cko%252Cde%26v%3DZXQ4rKDADrs%26expire%3D1455605916%26key%3Dyttt1%26hl%3Den_US%26sparams%3Dasr_langs%252Ccaps%252Cv%252Cexpire%26caps%3Dasr%26signature%3D61C8C5A6D81C1612C7707FB40E89589AD0F13C59.2D54DE77572ADC9EB7D35CE2EE6079C4B461AF9D%26kind%3Dasr%26lang%3Den\u0026t=1\u0026n=English+%28auto-generated%29\u0026k=asr","ssl":"1","tmi":"1","url_encoded_fmt_stream_map":"type=video%2Fmp4%3B+codecs%3D%22avc1.64001F%2C+mp4a.40.2%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fratebypass%3Dyes%26mm%3D31%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D22%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26ipbits%3D0%26sparams%3Ddur%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DDFBFFB2DC6A95D5B3A1DFF774A774729BC64210E.DEF876B92D231150F3833B81A411CD502A9945C6%26sver%3D3%26dur%3D68.150%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789325819558%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026itag=22\u0026fallback_host=tc.v5.cache8.googlevideo.com\u0026quality=hd720,type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fratebypass%3Dyes%26mm%3D31%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D43%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26ipbits%3D0%26sparams%3Ddur%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D57486A98E47CB96B0553C30B1185D038AA68DD7B.08B6E6154495ECB22BAA7FFC01AC9A60C9C134AA%26sver%3D3%26dur%3D0.000%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454608527459565%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026itag=43\u0026fallback_host=tc.v11.cache5.googlevideo.com\u0026quality=medium,type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fratebypass%3Dyes%26mm%3D31%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D18%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26ipbits%3D0%26sparams%3Ddur%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DCBEF9AAADC672EE5CA4838A488E9C0634B9DA43A.C09E967FE508B44A051CC9E938EE0553A5FDC630%26sver%3D3%26dur%3D68.150%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789258471009%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026itag=18\u0026fallback_host=tc.v20.cache3.googlevideo.com\u0026quality=medium,type=video%2Fx-flv\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fitag%3D5%26ipbits%3D0%26mm%3D31%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26sparams%3Ddur%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1455580629%26upn%3DJC8EGhs_-pk%26mv%3Dm%26signature%3DA6AF8B20801E373D6B853FD91A0D5C5B606FF083.838734EF11D4F583FA129020C4855E47F8532A75%26requiressl%3Dyes%26mime%3Dvideo%252Fx-flv%26sver%3D3%26dur%3D68.153%26pl%3D21%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454605927628584%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823\u0026itag=5\u0026fallback_host=tc.v2.cache8.googlevideo.com\u0026quality=small,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fitag%3D36%26ipbits%3D0%26mm%3D31%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26sparams%3Ddur%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1455580629%26upn%3DJC8EGhs_-pk%26mv%3Dm%26signature%3DCC965E9D8E2E7E6981A640E0A85DC5CB38EEAD7D.D65546DC9BB63F2685D73758F48D83AD7138EC6F%26requiressl%3Dyes%26mime%3Dvideo%252F3gpp%26sver%3D3%26dur%3D68.220%26pl%3D21%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454605916630758%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823\u0026itag=36\u0026fallback_host=tc.v24.cache8.googlevideo.com\u0026quality=small,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fitag%3D17%26ipbits%3D0%26mm%3D31%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26sparams%3Ddur%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1455580629%26upn%3DJC8EGhs_-pk%26mv%3Dm%26signature%3DDDB346A320A4AE961DDD73713637655CA0E595A5.4115DA88F5E22D351C9DAD6268C6D36704D78BAC%26requiressl%3Dyes%26mime%3Dvideo%252F3gpp%26sver%3D3%26dur%3D68.220%26pl%3D21%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454605920225718%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823\u0026itag=17\u0026fallback_host=tc.v9.cache3.googlevideo.com\u0026quality=small","fade_out_duration_milliseconds":"1000","ucid":"UCyw706kE3zncfYK5cYbo21g","aftv":true,"show_content_thumbnail":true,"afv_ad_tag":"https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=skippablevideo\u0026channel=Vertical_1380%2BVertical_47%2BVertical_810%2BVertical_815%2Bafv_instream%2Bafv_instream_us%2Bafv_user_id_yw706kE3zncfYK5cYbo21g%2Bafv_user_mark22digital%2Bivp%2Byt_cid_30928604%2Byt_mpvid_86pbc0BYvewWXcrq%2Byt_no_360%2Byt_no_ap%2Byt_no_cp%2Byt_no_housead_in_auction%2Bytdevice_1%2Bytdevicever_1.20160211%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026hl=en\u0026host=ca-host-pub-5498843050713944\u0026ht_id=11069942\u0026loeid=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823\u0026max_ad_duration=15000\u0026osd=2\u0026sdki=8001C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026video_cpm=6000000\u0026ytdevice=1\u0026ytdevicever=1.20160211\u0026yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA\u0026yt_vis=31","as_launched_in_country":"1","watermark":",https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_watermark-vflHX6b6E.png,https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_hd_watermark-vflAzLcD6.png","invideo":true,"allow_html5_ads":"1","mpu":true,"ad_logging_flag":"1","eventid":"LGbCVuySFoGb-QWrgrvIBQ","loudness":"-33.9889984131","cc_load_policy":"2","of":"3LHNEOcXECEQEV2RYrlUDw","t":"1","innertube_api_key":"AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8","instream_long":false,"loaderUrl":"https:\/\/www.youtube.com\/watch?v=ZXQ4rKDADrs","fade_out_start_milliseconds":"0","sffb":true,"host_language":"en","innertube_context_client_version":"1.20160211","ad_flags":"0","apiary_host":"","account_playback_token":"QUFFLUhqbktTbTJXMWxRbTFiMTZxcFpNdFNqZWJFZENyd3xBQ3Jtc0ttX0NJWXpfb2cwNklkODdzdFB2N2VKMF9IRVppUmFXajBJRFVBcFlCeXBIUnpXd3l6WEllOGNKN0ZlR0dMaHNrNWtGUUVwMXZCbmxOZExFMHJwdnp0VFgyNGZsTlpIb3RMeUlMZ0thOFd2ZEJxMF9ONA==","length_seconds":"68","vm":"CAEQAQ","title":"Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)","cc3_module":"1","afv_ad_tag_restricted_to_instream":"https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=skippablevideo\u0026channel=Vertical_1380%2BVertical_47%2BVertical_810%2BVertical_815%2Bafv_instream%2Bafv_instream_us%2Bafv_user_id_yw706kE3zncfYK5cYbo21g%2Bafv_user_mark22digital%2Bivp%2Byt_cid_30928604%2Byt_mpvid_86pbc0BYvewWXcrq%2Byt_no_360%2Byt_no_ap%2Byt_no_cp%2Byt_no_housead_in_auction%2Bytdevice_1%2Bytdevicever_1.20160211%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026hl=en\u0026host=ca-host-pub-5498843050713944\u0026ht_id=11069942\u0026loeid=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823\u0026max_ad_duration=15000\u0026osd=2\u0026sdki=8001C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026video_cpm=6000000\u0026ytdevice=1\u0026ytdevicever=1.20160211\u0026yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA\u0026yt_vis=31","dynamic_allocation_ad_tag":"https:\/\/ad.doubleclick.net\/N4061\/pfadx\/com.ytpwatch.autosandvehicles;av=1;kpeid=yw706kE3zncfYK5cYbo21g;kpid=30928604;kpu=Mark22digital;kvid=ZXQ4rKDADrs;mpvid=86pbc0BYvewWXcrq;ssl=1;sz=480x361,480x70;tile=1;ord=2018505583;afv=1;afvbase=eJxdkstymzAUhp_GWtUe3YGFFk5sL5JFJ27jSzcaIWSjmIsKAsd5-sqQOm4ZDd_5_wO6nCOVSX9xRrQn65xKC9PbzNRA56qqTCE2pvFWq0IiEsMJfrhpGt2rGMF_JQtSHXppq9Y3RpX_Sdm1n07XmkbaTF7OEeSnJfmo9GH_zPQ-rTE63n9UquaEcWaP1qsiJGzvwvvipQ6_E5jgmEM6OqULp5Axd6mGD_venLc73fwec1UtCYe3WLlbqL_CvA5LqizsV6pOe1tXQyoL1dFGojvRh52hGYaIQ4zGhClkZryyhVNHMziuDc5BdYUHum4aUyhfNwJRxlgMI8RpxECWOvGY7z9-LvPv69fkbbvcLNab1Wrz9vRju3tqN69rspwvj_MXkBfCVCCvWy-0ml45dV06ZTSJY0ogC1OShFKQ-1BZgRDkSUIxKGoTZEIRjqLo25XxSEbwQI4wD8SQMnwlZsmgCefok4PPcDwyGX2OGByI0XUeHMWYgFK9y1DBrGvUtX4CcQYhqLoyuK1AoG4zgUGbnayIIUSPkAEv3aUX5l0XXWZA1xQi995NyHyCV2Gcz-fZpe58l5qZrsOVWg13NfDX7oU2z4v5omnB4IVeloLD4QF_WxUWveua-OpasGVvW0HQH1hy-TU;ciu_szs=300x250,300x60;dc_backfill=1;dc_dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ;dc_osd=2;dc_output=xml_vast3;dc_yt=1;dc_yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA;k2=47;k2=810;k2=815;k2=1380;k5=47_810_815_1380;kclg=1;kclt=1;kga=-1;kgg=-1;klg=en;kmyd=watch-longform-ad;ko=p;kr=F;ktype=gptc;kvlg=en;kvz=203;nlfb=1;tvid=5;yt1st=1;yt3pav=1;ytcat=2;ytdevice=1;ytdevicever=1.20160211;ytexp=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823;yt_ec=2;yt_ec2=12;yt_vrallowed=1;!c=30928604","iv_module":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflLuenkD\/iv_module.swf","afv_instream_max":"15000","view_count":"351117","ad_preroll":"1","token":"1","max_dynamic_allocation_ad_tag_length":"2040","iurlmq":"https:\/\/i.ytimg.com\/vi\/ZXQ4rKDADrs\/mqdefault.jpg","fflags":"send_presence_signal_vis_desktop=true\u0026dynamic_ad_break_pause_threshold_sec=0\u0026ios_path_probe_enabled=true\u0026tv_player_heartbeats=true\u0026yto_enable_watch_offer_module=true\u0026html5_playing_event_buffer_underrun=true\u0026creator_endscreens_enabled=false\u0026html5_always_underrun_on_empty_buffer=false\u0026html5_strip_emsg=true\u0026enable_stereo3d_ie_firefox_opera=true\u0026html5_multicam=true\u0026related_menu=false\u0026mweb_uniplayer_disable_adaptation=false\u0026html5_request_sizing_multiplier=0.8\u0026dash_html5_release_loader=false\u0026drawer_peek=false\u0026use_cougar_ads_ui=false\u0026html5_live_nonzero_first_segment_start_time=false\u0026enable_spherical3d_ie=true\u0026yto_enable_unlimited_landing_page_yto_features=true\u0026container_overflow=false\u0026mweb_cougar=false\u0026always_request_animation_frame=false\u0026disable_webgl_hack=false\u0026teaser_on_button_hover=false\u0026cards_drawer_auto_open_offset=-10000\u0026enable_ad_video_end_renderers=false\u0026tote_otf_inline_hls_manifests=true\u0026preload_based_on_input=false\u0026enable_why_this_ad_for_desktop=true\u0026video_wall_moving_thumbnails_autoplay=false\u0026share_panel_continue_playback=true\u0026new_ended_replay=false\u0026cards_drawer_auto_open=false\u0026html5_enable_cros_vp9=false\u0026dash_html5_refresh_mapping_interval=0\u0026autonav_notifications=false\u0026disable_skip_on_short_adsense=false\u0026merge_button_with_teaser=false\u0026ui_logging=false\u0026video_wall_redesign=false\u0026cards_drawer_auto_open_duration=-1\u0026video_wall_pagination=false\u0026quick_play_click=false\u0026new_cue_range_manager=false\u0026html5_dash_mpd_version=3\u0026event_log_respect_caller_args=true\u0026disable_new_pause_state3=true\u0026endscreen_redirect=false\u0026product_listing_ads_cards_drawer_auto_open=true\u0026log_backfill_requests=true\u0026new_stop_video3=true\u0026log_teaser_hover=false\u0026mweb_generate_cpn_on_page=false\u0026mweb_cougar_big_controls=false\u0026hover_card_for_video_card_teaser=false\u0026use_html5_ad_break_service=false\u0026yto_feature_hub_channel=false\u0026html5_force_play_on_suspend_event_limited=false\u0026log_it_display_tree=true\u0026native_controls_assume_media_volume=true\u0026html5_deadzone_multiplier=1.0\u0026dynamic_ad_break_seek_threshold_sec=0\u0026html5_live_disable_dg_pacing=false\u0026show_ads_pay_this_creator_info_card=false\u0026enable_spherical3d_firefox_opera=false\u0026better_mobile_in_player=false\u0026probability_to_show_skip_as_nonskip_on_short_adsense=0.0\u0026moving_thumbnails_autonav=false\u0026html5_enable_aac_51_clear=false\u0026yto_enable_ytr_promo_refresh_assets=true\u0026sidebar_renderers=true\u0026player_scaling_360p_to_720p=false\u0026html5_force_play_on_suspend_event=false\u0026enable_yt_music_lp=true\u0026combined_teaser_link=false\u0026enable_audio_cast=true\u0026video_wall_storyboards_mouse_x=false\u0026cleanup_text_overlay_spam_signals=false\u0026doubleclick_gpt_retagging=false\u0026hover_card_on_button_hover=false\u0026video_wall_moving_thumbnails_hover=false\u0026legacy_poster_behavior=true\u0026html5_live_only_stick_to_head=true\u0026white_noise_with_interval=false\u0026loop_video_settings_menu=false\u0026enable_dynamic_ad_break=false\u0026trueview_shopping_v2_rendering=false\u0026dash_html5_refresh_mapping_min_buffer=0\u0026enable_html5_spherical_direction_logging=true\u0026html5_crossorigin_video=false","afv":true,"csi_page_type":"watch,watch7ad_html5","cc_asr":"1","idpj":"-4","adaptive_fmts":"itag=266\u0026clen=165767670\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.640033%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D165767670%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D266%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DB6ADFB38FCB3D254352626ADADF1D0984CDDC11B.13773CFACFF6B923BF0399CA48144015F082B58D%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789706403652%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-713\u0026fps=30\u0026index=714-901\u0026bitrate=23208154\u0026size=3840x2160\u0026lmt=1454789706403652\u0026quality_label=2160p,itag=313\u0026clen=161693632\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D161693632%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D313%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D153752B129BAC6756290B1CD6B91A5853CBE3103.820D69F1C1AE1EC86320AE6D6EB3C0EADBF7D1FA%26sver%3D3%26dur%3D68.035%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454609939461498%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-242\u0026fps=30\u0026index=243-465\u0026bitrate=22645821\u0026size=3840x2160\u0026lmt=1454609939461498\u0026quality_label=2160p,itag=264\u0026clen=62017715\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.640032%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D62017715%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D264%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DCABA6230AAF5F59544E94322279F275B9E527FBE.6A5D2CA9AD96FB001BCC894C54578DD3029FE45F%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454793698376648%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-713\u0026fps=30\u0026index=714-901\u0026bitrate=10758750\u0026size=2560x1440\u0026lmt=1454793698376648\u0026quality_label=1440p,itag=271\u0026clen=74905660\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D74905660%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D271%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D391B25087579373E506AB7EC32FC926711A05888.287E01A1A4DCFB7796DD82EF428363AE019806DD%26sver%3D3%26dur%3D68.035%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454608951924894%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-242\u0026fps=30\u0026index=243-464\u0026bitrate=11495300\u0026size=2560x1440\u0026lmt=1454608951924894\u0026quality_label=1440p,itag=137\u0026clen=21101842\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.640028%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D21101842%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D137%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D2C30F7A9FD49A2E6549846C8534722037C16F4A4.19EE11660B18A9A54FF8BC3D05B68B9B46829C58%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789490052837%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-714\u0026fps=30\u0026index=715-902\u0026bitrate=3180899\u0026size=1920x1080\u0026lmt=1454789490052837\u0026quality_label=1080p,itag=248\u0026clen=20365078\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D20365078%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D248%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D8F61E2ED1F5697FA7F56B072F7E8F153CFFB2851.A3846CB7B2621A5EDE561912153AAF59B403A5AB%26sver%3D3%26dur%3D68.035%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454608636668191%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-242\u0026fps=30\u0026index=243-456\u0026bitrate=2639550\u0026size=1920x1080\u0026lmt=1454608636668191\u0026quality_label=1080p,itag=136\u0026clen=10528753\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401f%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D10528753%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D136%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D2D2D811B135E7FB1EB1209289D15EE91C65E4793.85F92245D8F79FA9FDC39B0685CF4EDE5F396D7A%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789980895704%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-712\u0026fps=30\u0026index=713-900\u0026bitrate=1675357\u0026size=1280x720\u0026lmt=1454789980895704\u0026quality_label=720p,itag=247\u0026clen=11086312\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D11086312%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D247%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DD9B7B13C91FE70DAD992097A061766EE6138EDAD.9B1A10CB281097AF775EC06BE44A7908EAE2ECC1%26sver%3D3%26dur%3D68.035%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454609256385100%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-242\u0026fps=30\u0026index=243-454\u0026bitrate=1501858\u0026size=1280x720\u0026lmt=1454609256385100\u0026quality_label=720p,itag=135\u0026clen=5278230\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401f%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D5278230%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D135%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D9E39BCC20860BB05FCF01044746BD0EB99EC409E.255D16C51B326D9CC3CB32DE23E4F7E14759F86D%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789980828706%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-712\u0026fps=30\u0026index=713-900\u0026bitrate=865831\u0026size=854x480\u0026lmt=1454789980828706\u0026quality_label=480p,itag=244\u0026clen=5452297\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D5452297%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D244%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D974F5492127E53B8CA591A9B342E78502A771D3B.3394BC77412C53FCB1CE0A103F1DA463C25116E6%26sver%3D3%26dur%3D68.035%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454609256286420%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-242\u0026fps=30\u0026index=243-454\u0026bitrate=760503\u0026size=854x480\u0026lmt=1454609256286420\u0026quality_label=480p,itag=134\u0026clen=2465016\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D2465016%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D134%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D83FC865E0ADA1D2418F2766D2CE02F9F0AF4A650.2B19CA4F4D83796E380EE4922FCA561510C47CF5%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789980634580%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-712\u0026fps=30\u0026index=713-900\u0026bitrate=407246\u0026size=640x360\u0026lmt=1454789980634580\u0026quality_label=360p,itag=243\u0026clen=3070765\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D3070765%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D243%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DCE5EE0C82F51E3C54BAD0D38E8B003B02C53043D.B5CC722396B80D71D9D7E6958D2471331CA1A2B6%26sver%3D3%26dur%3D68.035%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454609256189220%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-242\u0026fps=30\u0026index=243-454\u0026bitrate=411665\u0026size=640x360\u0026lmt=1454609256189220\u0026quality_label=360p,itag=133\u0026clen=2093955\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d4015%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D2093955%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D133%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D9AF11DA30A6390C2CB322D2336A52634CB955B84.CB274775143C1F574B5D58235FD695CA2970C7D4%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789980491157%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-712\u0026fps=30\u0026index=713-900\u0026bitrate=249365\u0026size=426x240\u0026lmt=1454789980491157\u0026quality_label=240p,itag=242\u0026clen=1634158\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D1634158%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D242%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D240E71F0FDA1B43F864BD292CC6CF5CFA39F9FF5.B8610A91C76EC1BAC1E46395ECAEDAB3DA94A689%26sver%3D3%26dur%3D68.035%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454609256164813%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-241\u0026fps=30\u0026index=242-453\u0026bitrate=224044\u0026size=426x240\u0026lmt=1454609256164813\u0026quality_label=240p,itag=160\u0026clen=936827\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d400c%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D936827%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fmp4%26pl%3D21%26itag%3D160%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D62046B31057E5CC62546164C04B198270733B140.6502285B9DB9489FBB2CD5EDA19A495F7C41ECDF%26sver%3D3%26dur%3D68.067%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789980618644%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-674\u0026fps=30\u0026index=675-862\u0026bitrate=111405\u0026size=256x144\u0026lmt=1454789980618644\u0026quality_label=144p,itag=278\u0026clen=820577\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D820577%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Dvideo%252Fwebm%26pl%3D21%26itag%3D278%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D4F3AC132036AF4BFB4549AE48DB84266A4222FE7.D14D8DFEB1EC942CD955CB052A7B9D70E22E8C95%26sver%3D3%26dur%3D68.001%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454609256117726%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026init=0-241\u0026fps=15\u0026index=242-452\u0026bitrate=109800\u0026size=256x144\u0026lmt=1454609256117726\u0026quality_label=144p,type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.2%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D810535%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Daudio%252Fmp4%26pl%3D21%26itag%3D140%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DC9606D2CC2650D46910393B7E877E40CCA19FB41.07A7133712ACAD6200C81EB905F323F6796237D0%26sver%3D3%26dur%3D68.150%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454789243616859%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026lmt=1454789243616859\u0026index=592-707\u0026bitrate=95679\u0026itag=140\u0026clen=810535\u0026init=0-591,type=audio%2Fwebm%3B+codecs%3D%22vorbis%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D663570%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Daudio%252Fwebm%26pl%3D21%26itag%3D171%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D4F15E578845594C4C0B6A40041703EADC912620C.0C0316EDE9B7FCF004EBDAD863B20EE24A86206F%26sver%3D3%26dur%3D68.085%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454608442733867%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026lmt=1454608442733867\u0026index=4083-4197\u0026bitrate=80985\u0026itag=171\u0026clen=663570\u0026init=0-4082,type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D412763%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Daudio%252Fwebm%26pl%3D21%26itag%3D249%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3D7195221A0058F973CF8780D5ACBFF209F0ED0E02.214104E3F588774F829EDF21D5C41BB99D8CBBF5%26sver%3D3%26dur%3D68.101%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454608442585429%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026lmt=1454608442585429\u0026index=272-385\u0026bitrate=50138\u0026itag=249\u0026clen=412763\u0026init=0-271,type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D526645%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Daudio%252Fwebm%26pl%3D21%26itag%3D250%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DAA96417446299BD5D9A0FB2C3F6B7819EBC22D08.8F1AC1BAF43FA2EC9F94D0EFB9FCEFF6A2758717%26sver%3D3%26dur%3D68.101%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454608442552288%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026lmt=1454608442552288\u0026index=272-386\u0026bitrate=64603\u0026itag=250\u0026clen=526645\u0026init=0-271,type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr8---sn-jvm-vg4l.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26clen%3D788945%26mn%3Dsn-jvm-vg4l%26ms%3Dau%26mt%3D1455580629%26mv%3Dm%26requiressl%3Dyes%26mime%3Daudio%252Fwebm%26pl%3D21%26itag%3D251%26keepalive%3Dyes%26ipbits%3D0%26fexp%3D9412777%252C9412877%252C9415327%252C9416126%252C9420452%252C9422596%252C9423661%252C9423662%252C9425282%252C9425961%252C9426150%252C9426217%252C9427823%26mm%3D31%26sparams%3Dclen%252Cdur%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26upn%3DJC8EGhs_-pk%26signature%3DC69CBFC30BD0973DD58E3538DF67EEF6ABE4EA61.8E5B77F06B765D5D13D75539A3E62CB260B7176C%26sver%3D3%26dur%3D68.101%26expire%3D1455602316%26key%3Dyt6%26ip%3D128.82.4.244%26lmt%3D1454608452230668%26source%3Dyoutube%26initcwndbps%3D28452500%26id%3Do-ACklrDIO4X4WYSZvP0cn0Soq_GqXKWnpS0cIw_3Xs5pg\u0026projection_type=1\u0026lmt=1454608452230668\u0026index=272-386\u0026bitrate=98898\u0026itag=251\u0026clen=788945\u0026init=0-271","apiary_host_firstparty":"","iurl":"https:\/\/i.ytimg.com\/vi\/ZXQ4rKDADrs\/hqdefault.jpg","dclk":true,"iurlsd":"https:\/\/i.ytimg.com\/vi\/ZXQ4rKDADrs\/sddefault.jpg","ismb":"227620000","trueview":true,"enabled_engage_types":"5,3,4","hl":"en_US","atc":"a=3\u0026b=vAdaz51TlCVtX_qNns5HBvzhUmQ\u0026c=1455580716\u0026d=1\u0026e=ZXQ4rKDADrs\u0026c3a=11\u0026c1a=1\u0026c6a=1\u0026hh=JpDwV0agfvaGr88Yahw-vSWyMN0","enablecsi":"1","apply_fade_on_midrolls":true,"fexp":"9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823","c":"WEB","ad3_module":"1","keywords":"Tesla,Summon,Apple Watch,Remote S,Rego Apps","iurlmaxres":"https:\/\/i.ytimg.com\/vi\/ZXQ4rKDADrs\/maxresdefault.jpg","iv_load_policy":"1","ptchn":"yw706kE3zncfYK5cYbo21g","is_listed":"1","afv_invideo_ad_tag":"https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=text_image_flash\u0026channel=Vertical_1380%2BVertical_47%2BVertical_810%2BVertical_815%2Bafv_overlay%2Bafv_user_id_yw706kE3zncfYK5cYbo21g%2Bafv_user_mark22digital%2Binvideo_overlay_480x70_cat2%2Bivp%2Byt_cid_30928604%2Byt_mpvid_86pbc0BYvewWXcrq%2Byt_no_360%2Byt_no_ap%2Byt_no_cp%2Byt_no_housead_in_auction%2Bytdevice_1%2Bytdevicever_1.20160211%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026hl=en\u0026host=ca-host-pub-5498843050713944\u0026ht_id=11069942\u0026loeid=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823\u0026osd=2\u0026sdki=8001C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FZXQ4rKDADrs\u0026ytdevice=1\u0026ytdevicever=1.20160211\u0026yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA\u0026yt_vis=31","ad_slots":"0","avg_rating":"4.92170810699","gut_tag":"\/4061\/ytpwatch","core_dbp":"ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ","excluded_ads":"46=14_14;66=15_2_1","show_pyv_in_related":true,"dbp":"ChwKFjNMSE5FT2NYRUNFUUVWMlJZcmxVRHcQASABEAEYAg","caption_audio_tracks":"v=0\u0026i=0","mpvid":"86pbc0BYvewWXcrq","cc_font":"Arial Unicode MS, arial, verdana, _sans","ad_tag":"https:\/\/ad.doubleclick.net\/N4061\/pfadx\/com.ytpwatch.autosandvehicles;av=1;kpeid=yw706kE3zncfYK5cYbo21g;kpid=30928604;kpu=Mark22digital;kvid=ZXQ4rKDADrs;mpvid=86pbc0BYvewWXcrq;ssl=1;sz=480x361,480x70;tile=1;ord=2018505583;afv=1;ciu_szs=300x250,300x60;dc_dbp=ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ;dc_osd=2;dc_output=xml_vast3;dc_yt=1;dc_yt_pt=APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA;k2=47;k2=810;k2=815;k2=1380;k5=47_810_815_1380;kclg=1;kclt=1;kga=-1;kgg=-1;klg=en;kmyd=watch-longform-ad;ko=p;kr=F;ktype=gptc;kvlg=en;kvz=203;nlfb=1;tvid=5;yt1st=1;yt3pav=1;ytcat=2;ytdevice=1;ytdevicever=1.20160211;ytexp=9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823;yt_ec=2;yt_ec2=12;yt_vrallowed=1;!c=30928604"},"params":{"allowfullscreen":"true","allowscriptaccess":"always","bgcolor":"#000000"},"url_v9as2":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflLuenkD\/cps.swf","attrs":{"id":"movie_player"}};ytplayer.load = function() {yt.player.Application.create("player-api", ytplayer.config);ytplayer.config.loaded = true;};(function() {if (!!window.yt && yt.player && yt.player.Application) {ytplayer.load();}}());</script>
+
+
+    <div id="watch-queue-mole" class="video-mole mole-collapsed hid"><div id="watch-queue" class="watch-playlist player-height"><div class="main-content"><div class="watch-queue-header"><div class="watch-queue-info"><div class="watch-queue-info-icon"><span class="tv-queue-list-icon yt-sprite"></span></div><h3 class="watch-queue-title">Watch Queue</h3><h3 class="tv-queue-title">Queue</h3><span class="tv-queue-details"></span></div><div class="watch-queue-control-bar control-bar-button"><div class="watch-queue-mole-info"><div class="watch-queue-control-bar-icon"><span class="watch-queue-icon yt-sprite"></span></div><div class="watch-queue-title-container"><span class="watch-queue-count"></span><span class="watch-queue-title">Watch Queue</span><span class="tv-queue-title">Queue</span></div></div>  <span class="dark-overflow-action-menu">
+    
+    
+    <button aria-label="Actions for the queue" class="flip control-bar-button yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty" type="button" aria-haspopup="true" onclick=";return false;" aria-expanded="false" ><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid" role="menu" aria-haspopup="true"><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" data-action="remove-all" >Remove all</span></li><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" data-action="disconnect" >Disconnect</span></li></ul></button>
+  </span>
+  <div class="watch-queue-controls">
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button prev-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Previous video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-prev yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button play-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Play"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-play yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button pause-watch-queue-button yt-uix-button-opacity yt-uix-tooltip hid yt-uix-tooltip" type="button" onclick=";return false;" title="Pause"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-pause yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button next-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Next video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-next yt-sprite"></span></span></button>
+  </div>
+</div></div><div class="watch-queue-items-container yt-scrollbar-dark yt-scrollbar"><ol class="watch-queue-items-list playlist-videos-list yt-uix-scroller" data-scroll-action="yt.www.watchqueue.loadThumbnails">  <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+</ol></div></div>  <div class="hid">
+    <div id="watch-queue-title-msg">
+Watch Queue
+    </div>
+
+    <div id="tv-queue-title-msg">Queue</div>
+
+    <div id="watch-queue-count-msg">
+__count__/__total__
+    </div>
+
+    <div id="watch-queue-loading-template">
+      <!--
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+      -->
+    </div>
+  </div>
+</div></div>
+    <div id="player-playlist" class="  content-alignment    watch-player-playlist  ">
+          
+
+    </div>
+
+  </div>
+
+  <div class="clear"></div>
+</div><div id="content" class="  content-alignment" role="main">      <div id="placeholder-player">
+    <div class="player-api player-width player-height"></div>
+  </div>
+
+  <div id="watch7-container" class="">
+      <div id="watch7-main-container">
+    <div id="watch7-main" class="clearfix">
+      <div id="watch7-preview" class="player-width player-height hid">
+      </div>
+      <div id="watch7-content" class="watch-main-col " itemscope itemid="" itemtype="http://schema.org/VideoObject"
+      >
+            <link itemprop="url" href="https://www.youtube.com/watch?v=ZXQ4rKDADrs">
+    <meta itemprop="name" content="Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)">
+    <meta itemprop="description" content="A first attempt demo of the new Summon feature on the latest version of Remote S (by Rego Apps) for iOS. Now, using an Apple Watch, you can have your Tesla o...">
+    <meta itemprop="paid" content="False">
+
+      <meta itemprop="channelId" content="UCyw706kE3zncfYK5cYbo21g">
+      <meta itemprop="videoId" content="ZXQ4rKDADrs">
+
+      <meta itemprop="duration" content="PT1M9S">
+      <meta itemprop="unlisted" content="False">
+
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="http://www.youtube.com/user/Mark22digital">
+        </span>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="https://plus.google.com/101403304718533271839">
+        </span>
+
+    <link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/ZXQ4rKDADrs/maxresdefault.jpg">
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+      <link itemprop="url" href="https://i.ytimg.com/vi/ZXQ4rKDADrs/maxresdefault.jpg">
+      <meta itemprop="width" content="1280">
+      <meta itemprop="height" content="720">
+    </span>
+
+      <link itemprop="embedURL" href="https://www.youtube.com/embed/ZXQ4rKDADrs">
+      <meta itemprop="playerType" content="HTML5 Flash">
+      <meta itemprop="width" content="1280">
+      <meta itemprop="height" content="720">
+
+      <meta itemprop="isFamilyFriendly" content="True">
+      <meta itemprop="regionsAllowed" content="AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW">
+      <meta itemprop="interactionCount" content="351117">
+      <meta itemprop="datePublished" content="2016-02-04">
+      <meta itemprop="genre" content="Autos &amp; Vehicles">
+
+              <div id="watch7-speedyg-area">
+      <div class="yt-alert yt-alert-actionable yt-alert-info hid " id="speedyg-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message">
+    </div>
+</div><div class="yt-alert-buttons"><a href="https://www.google.com/get/videoqualityreport/?v=ZXQ4rKDADrs" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-alert-info yt-uix-button-size-small" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ" id="speedyg-link" target="_blank"><span class="yt-uix-button-content">Find out why</span></a><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Close" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Close</span></button></div></div>
+    </div>
+
+        <div id="watch-header" class=" yt-card yt-card-has-padding">
+      <div id="watch7-headline" class="clearfix">
+    <div id="watch-headline-title">
+      <h1 class="yt watch-title-container" >
+        
+
+  <span id="eow-title" class="watch-title " dir="ltr" title="Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)">
+    Tesla Model S P85D Summon from Apple Watch (Remote S - Rego Apps)
+  </span>
+
+      </h1>
+    </div>
+  </div>
+
+    <div id="watch7-user-header" class=" spf-link ">  <a href="/user/Mark22digital" class="yt-uix-sessionlink yt-user-photo g-hovercard      spf-link " data-ytid="UCyw706kE3zncfYK5cYbo21g" data-sessionlink="itct=CDEQ4TkiEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0">
+      <span class="video-thumb  yt-thumb yt-thumb-48 g-hovercard"
+      data-ytid="UCyw706kE3zncfYK5cYbo21g"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img width="48" data-thumb="https://yt3.ggpht.com/-iQYtaA8tt6U/AAAAAAAAAAI/AAAAAAAAAAA/c9ayuGmm0s4/s88-c-k-no/photo.jpg" height="48" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Mark Schey" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+
+  </a>
+  <div class="yt-user-info">
+    <a href="/channel/UCyw706kE3zncfYK5cYbo21g" class="yt-uix-sessionlink g-hovercard      spf-link " data-ytid="UCyw706kE3zncfYK5cYbo21g" data-sessionlink="itct=CDEQ4TkiEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0" >Mark Schey</a>
+  </div>
+<span id="watch7-subscription-container"><span class=" yt-uix-button-subscription-container"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-subscribe-branded yt-uix-button-has-icon no-icon-markup yt-uix-subscription-button yt-can-buffer" type="button" onclick=";return false;" aria-busy="false" aria-live="polite" data-clicktracking="itct=CDIQmysiEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yBXdhdGNo" data-style-type="branded" data-channel-external-id="UCyw706kE3zncfYK5cYbo21g" data-href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=en&amp;passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3Dsubscribe%26action_handle_signin%3Dtrue%26hl%3Den%26continue_action%3DQUFFLUhqbmhCYzZoa0pjR2lTSWlmUUpKNXVfclV1RFRvUXxBQ3Jtc0tuRHlCMml3TUwzM0FFMWU2dUxRWTFiVkg0THRVazhGN1UwekltZURlRjM4MWp0cXdTSVVHV015dERfMGdxRWpaMmtKU0FsdGJyQzN3TjdMeW5IWTgyNG1SNWlzSVFlNWM3X0VLMnZNYmdKUlRrbkZkdnY2Z2VObmJSdFJmUDJTdnNDS3lVUkpWck5UbDV1dkJ1NFpMeFRYbUsxNU9qZkIyX2MyWUx3eWZMOTRNaUluYTJSUG0tNmtaci1vNHhwTzBBc0hiNFJzQzJpLTVIdTZqNllVWnQ0RDgzRkFB%26next%3D%252Fchannel%252FUCyw706kE3zncfYK5cYbo21g%26app%3Ddesktop"><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span></span></button><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon yt-uix-subscription-preferences-button" type="button" onclick=";return false;" aria-role="button" aria-label="Subscription preferences" aria-busy="false" aria-live="polite" data-channel-external-id="UCyw706kE3zncfYK5cYbo21g"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-subscription-preferences yt-sprite"></span></span></button><span class="yt-subscription-button-subscriber-count-branded-horizontal yt-subscriber-count" title="112" aria-label="112" tabindex="0">112</span><span class="yt-subscription-button-subscriber-count-branded-horizontal yt-short-subscriber-count" title="112" aria-label="112" tabindex="0">112</span>  
+  <div class="yt-uix-overlay "  data-overlay-style="primary" data-overlay-shape="tiny">
+    
+        <div class="yt-dialog hid ">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="subscription-preferences-overlay-content-container">
+    <div class="subscription-preferences-overlay-loading ">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+    <div class="subscription-preferences-overlay-content">
+    </div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+        Working...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+</span></span></div>
+    <div id="watch8-action-buttons" class="watch-action-buttons clearfix"><div id="watch8-secondary-actions" class="watch-secondary-actions yt-uix-button-group" data-button-toggle-group="optional">    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup yt-uix-clickcard-target addto-button pause-resume-autoplay yt-uix-tooltip" type="button" onclick=";return false;" title="Add to" data-orientation="vertical" data-position="bottomleft"><span class="yt-uix-button-content">Add to</span></button>
+        <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Want to watch this again later?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to add this video to a playlist.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=en&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3D__FEATURE__%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DZXQ4rKDADrs" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+    </span>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay action-panel-trigger action-panel-trigger-share   yt-uix-tooltip" type="button" onclick=";return false;" title="Share
+" data-trigger-for="action-panel-share" data-button-toggle="true"><span class="yt-uix-button-content">Share
+</span></button>
+<div class="yt-uix-menu " >  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay yt-uix-menu-trigger yt-uix-tooltip" type="button" onclick=";return false;" aria-pressed="false" role="button" aria-haspopup="true" id="action-panel-overflow-button" title="More actions"><span class="yt-uix-button-content">More</span></button>
+<div class="yt-uix-menu-content yt-ui-menu-content yt-uix-menu-content-hidden" role="menu"><ul id="action-panel-overflow-menu">  <li>
+      <span class="yt-uix-clickcard" data-card-class=report-card>
+          <button type="button" class="yt-ui-menu-item has-icon action-panel-trigger action-panel-trigger-report report-button yt-uix-clickcard-target"
+ data-orientation="horizontal" data-position="topright">
+    <span class="yt-ui-menu-item-label">Report</span>
+  </button>
+
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Need to report the video?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to report inappropriate content.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=en&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3D__FEATURE__%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DZXQ4rKDADrs" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+      </span>
+  </li>
+  <li>
+        <button type="button" class="yt-ui-menu-item has-icon yt-uix-menu-close-on-select action-panel-trigger action-panel-trigger-transcript"
+ data-trigger-for="action-panel-transcript">
+    <span class="yt-ui-menu-item-label">Transcript</span>
+  </button>
+
+  </li>
+</ul></div></div></div><div id="watch8-sentiment-actions"><div id="watch7-views-info"><div class="watch-view-count">351,117</div>
+  <div class="video-extras-sparkbars">
+    <div class="video-extras-sparkbar-likes" style="width: 98.0427046263%"></div>
+    <div class="video-extras-sparkbar-dislikes" style="width: 1.95729537367%"></div>
+  </div>
+</div>
+
+
+
+
+
+  <span class="like-button-renderer " data-button-toggle-group="optional" >
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" aria-label="like this video along with 551 other people" title="I like this" data-orientation="vertical" data-force-position="true" data-position="bottomright"><span class="yt-uix-button-content">551</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Like this video?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to make your opinion count.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=en&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3D__FEATURE__%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DZXQ4rKDADrs" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" aria-label="like this video along with 551 other people" title="Unlike" data-orientation="vertical" data-force-position="true" data-position="bottomright"><span class="yt-uix-button-content">552</span></button>
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" aria-label="dislike this video along with 11 other people" title="I dislike this" data-orientation="vertical" data-force-position="true" data-position="bottomright"><span class="yt-uix-button-content">11</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Don't like this video?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to make your opinion count.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=en&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3D__FEATURE__%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DZXQ4rKDADrs" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" aria-label="dislike this video along with 11 other people" title="I dislike this" data-orientation="vertical" data-force-position="true" data-position="bottomright"><span class="yt-uix-button-content">12</span></button>
+    </span>
+  </span>
+</div></div>
+  </div>
+
+
+
+      <div id="watch-action-panels" class="watch-action-panels yt-uix-button-panel hid yt-card yt-card-has-padding">
+      <div id="action-panel-share" class="action-panel-content hid">
+      <div id="watch-actions-share-loading">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="watch-actions-share-panel"></div>
+
+  </div>
+
+        <div id="action-panel-transcript" class="action-panel-content hid">
+    <div id="watch-actions-transcript-loading">
+      <div class="action-panel-loading">
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+      </div>
+    </div>
+      <div id="watch-actions-transcript" class="hid">
+    <h2 class="yt-card-title">
+Transcript
+    </h2>
+      <div id="caption-line-template" class="hid">
+    <!--
+    <div class="caption-line-time">
+      <div class="caption-line-start">__start__</div>
+    </div>
+    <div class="editable-line-text">
+      <span class="editable-line-text-original">__original__</span>
+      <label class="editable-line-text-current hid">__current__</label>
+      <textarea class="editable-line-text-input hid">__input__</textarea>
+    </div>
+    -->
+  </div>
+
+
+
+    <div id="watch-transcript-container" class="yt-scrollbar" >
+      <div id="watch-transcript-not-found" class="hid">
+The interactive transcript could not be loaded.
+      </div>
+
+      
+    </div>
+  </div>
+
+  </div>
+
+      <div id="action-panel-stats" class="action-panel-content hid">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-report" class="action-panel-content hid"
+      data-auth-required="true"
+  >
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+    
+  <div id="action-panel-rental-required" class="action-panel-content hid">
+      <div id="watch-actions-rental-required">
+    <strong>Rating is available when the video has been rented.</strong>
+  </div>
+
+  </div>
+
+  <div id="action-panel-error" class="action-panel-content hid">
+    <div class="action-panel-error">
+      This feature is not available right now. Please try again later.
+    </div>
+  </div>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup yt-uix-button-opacity yt-uix-close" type="button" onclick=";return false;" id="action-panel-dismiss" aria-label="Close" data-close-parent-id="watch8-action-panels"></button>
+  </div>
+
+  <div id="action-panel-details" class="action-panel-content yt-uix-expander yt-uix-expander-collapsed yt-card yt-card-has-padding"><div id="watch-description" class="yt-uix-button-panel"><div id="watch-description-content"><div id="watch-description-clip"><div id="watch-uploader-info"><strong class="watch-time-text">Published on Feb 4, 2016</strong></div><div id="watch-description-text" class=""><p id="eow-description" >A first attempt demo of the new Summon feature on the latest version of Remote S (by Rego Apps) for iOS. Now, using an Apple Watch, you can have your Tesla open the garage door and autonomously pull out of the garage. The Summon feature is 100% initiated by Remote S on the Apple Watch. If you want it to work without the keyfob nearby, you need to first trigger the "Keyless Start" in the app.<br /><br />To get the app: <a href="https://itunes.apple.com/us/app/remote-s-for-tesla/id991623777?mt=8" class="yt-uix-sessionlink  " data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ" rel="nofollow" target="_blank">https://itunes.apple.com/us/app/remot...</a><br /><br />NOTE: I am NOT associated with the developer. I'm just a user. But he has a donation page for a college fund for a friend of his: <a href="http://regoapps.com/collegefund/" class="yt-uix-sessionlink  " data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ" rel="nofollow" target="_blank">http://regoapps.com/collegefund/</a> If you found this video (or his work on making Summon work from an Apple Watch) interesting, please consider donating a few dollars.<br /><br />This video is being managed by Newsflare. To use this video for broadcast or in a commercial player go to: <a href="http://www.newsflare.com/video/61979/other/tesla-model-s-p85d-summon-from-apple-watch-remote-s-rego-apps" class="yt-uix-sessionlink  " data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ" rel="nofollow" target="_blank">http://www.newsflare.com/video/61979/...</a> or email: newsdesk@newsflare.com or call: +44 (0) 8432 895 191</p></div>  <div id="watch-description-extras" >
+    <ul class="watch-extras-section">
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      Category
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li><a href="/channel/UCHiJaXgDo_JnsfOmSe-HgzA" class="yt-uix-sessionlink g-hovercard      spf-link " data-ytid="UCHiJaXgDo_JnsfOmSe-HgzA" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ" >Autos &amp; Vehicles</a></li>
+    </ul>
+  </li>
+
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      License
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li>Standard YouTube License</li>
+    </ul>
+  </li>
+
+    </ul>
+  </div>
+</div></div></div>  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-collapsed-body yt-uix-gen204" type="button" onclick=";return false;" data-gen204="feature=watch-show-more-metadata"><span class="yt-uix-button-content">Show more</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-body" type="button" onclick=";return false;"><span class="yt-uix-button-content">Show less</span></button>
+</div>
+
+              <div class="cmt_iframe_holder" data-href="http://www.youtube.com/watch?v=ZXQ4rKDADrs" data-viewtype="FILTERED" style="display: none;"></div>
+
+    <div id="watch-discussion" class="branded-page-box yt-card">
+              
+  <div class="comments-iframe-container">
+    <div id="comments-test-iframe"></div>
+    <div id="distiller-spinner" class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+
+    </div>
+
+
+      </div>
+      <div id="watch7-sidebar" class="watch-sidebar">
+            <div id="placeholder-playlist" class="watch-playlist player-height  hid"></div>
+
+
+  <div id="watch7-sidebar-contents" class="watch-sidebar-gutter     yt-card yt-card-has-padding    yt-uix-expander yt-uix-expander-collapsed">
+      <div id="watch7-sidebar-offer">
+        
+      </div>
+
+    <div id="watch7-sidebar-ads">
+              <div id="watch-channel-brand-div" class="" >
+      <div id="watch-channel-brand-div-text">
+Advertisement
+      </div>
+      <div id="google_companion_ad_div">
+      </div>
+    </div>
+
+
+    </div>
+    <div id="watch7-sidebar-modules">
+          <div class="watch-sidebar-section">
+    <div class="autoplay-bar">
+      <div class="checkbox-on-off">
+       <label for="autoplay-checkbox">Autoplay</label>
+       <span class="autoplay-hovercard yt-uix-hovercard">
+          <span class="autoplay-info-icon yt-uix-button-opacity yt-uix-hovercard-target yt-sprite" data-orientation="vertical" data-position="topright"></span>
+<span class="yt-uix-hovercard-content">When autoplay is enabled, a suggested video will automatically play next.</span>        </span>
+          <span class="yt-uix-checkbox-on-off ">
+<input id="autoplay-checkbox" class="" type="checkbox"  checked><label for="autoplay-checkbox" id="autoplay-checkbox-label"><span class="checked"></span><span class="toggle"></span><span class="unchecked"></span></label>  </span>
+
+      </div>
+      <h4 class="watch-sidebar-head">
+          Up next
+      </h4>
+            <div class="watch-sidebar-body">
+      <ul class="video-list">
+        <li class="video-list-item related-list-item show-video-time">
+          
+
+    <div class="content-wrapper">
+    <a href="/watch?v=o5uqhTZPMaQ" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBcQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHYXV0b25hdki7nYCGypWOumU" rel="spf-prefetch" title="Summon and Perpendicular Autopark" data-visibility-tracking="CBcQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCk47yy09DqzaMB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-59203">
+    Summon and Perpendicular Autopark
+  </span>
+  <span class="accessible-description" id="description-id-59203">
+     - Duration: 4:15.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCSckVeHeOXslrMsozYmYIZA" data-name="autonav">Tesla Mirai</span></span>
+  <span class="stat view-count">25,678 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=o5uqhTZPMaQ" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBcQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHYXV0b25hdki7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBcQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCk47yy09DqzaMB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="o5uqhTZPMaQ"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/o5uqhTZPMaQ/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      4:15
+    </span>
+
+  </div>
+
+
+        </li>
+      </ul>
+    </div>
+
+    </div>
+  </div>
+
+        
+          <div class="watch-sidebar-section">
+      <hr class="watch-sidebar-separation-line">
+    <div class="watch-sidebar-body">
+      <ul id="watch-related" class="video-list">
+            <li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=tP7VdxVY6UQ" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCsQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Testing Tesla&#39;s Autopilot System At 70mph" data-visibility-tracking="CCsQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDE0uOq8a61_7QB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-435064">
+    Testing Tesla&#39;s Autopilot System At 70mph
+  </span>
+  <span class="accessible-description" id="description-id-435064">
+     - Duration: 12:57.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCNBbCOuAN1NZAuj0vPe_MkA" data-name="related">Car Throttle</span></span>
+  <span class="stat view-count">618,117 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=tP7VdxVY6UQ" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCsQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCsQpDAYACITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDE0uOq8a61_7QB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="tP7VdxVY6UQ"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/tP7VdxVY6UQ/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      12:57
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Bk50IuWXg-c" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCoQpDAYASITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="How to make a DIY Tesla Powerwall for $300" data-visibility-tracking="CCoQpDAYASITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDnh96sroSdpwY=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-32700">
+    How to make a DIY Tesla Powerwall for $300
+  </span>
+  <span class="accessible-description" id="description-id-32700">
+     - Duration: 13:12.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCcMfCkN1juSa49DJFYltOTw" data-name="related">jehugarcia</span></span>
+  <span class="stat view-count">116,749 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Bk50IuWXg-c" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCoQpDAYASITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCoQpDAYASITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDnh96sroSdpwY=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="Bk50IuWXg-c"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/Bk50IuWXg-c/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      13:12
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=j-Sqki-J8ZM" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCkQpDAYAiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Model S car fully controlled by Apple Watch" data-visibility-tracking="CCkQpDAYAiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCT46f8otKq8o8B" >
+  <span dir="ltr" class="title" aria-describedby="description-id-370005">
+    Tesla Model S car fully controlled by Apple Watch
+  </span>
+  <span class="accessible-description" id="description-id-370005">
+     - Duration: 6:43.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCxX3nvhS56Awti7OpbG-feQ" data-name="related">Rego Apps</span></span>
+  <span class="stat view-count">245,724 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=j-Sqki-J8ZM" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCkQpDAYAiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCkQpDAYAiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCT46f8otKq8o8B" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="j-Sqki-J8ZM"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/j-Sqki-J8ZM/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      6:43
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=L2bZ1CWqvbA" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCgQpDAYAyITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Model S Picks Owner up in the Rain using the new Summon Feature" data-visibility-tracking="CCgQpDAYAyITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCw-6qtwrq2sy8=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-41236">
+    Tesla Model S Picks Owner up in the Rain using the new Summon Feature
+  </span>
+  <span class="accessible-description" id="description-id-41236">
+     - Duration: 1:59.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCWeLPNowZvdzXwnCDxVyNEg" data-name="related">DragTimes</span></span>
+  <span class="stat view-count">226,335 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=L2bZ1CWqvbA" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCgQpDAYAyITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCgQpDAYAyITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCw-6qtwrq2sy8=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="L2bZ1CWqvbA"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/L2bZ1CWqvbA/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      1:59
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=PPbTdSr1X-w" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCcQpDAYBCITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="&#39; 2016 TESLA Model S P90D &#39; Test Drive &amp; Review /// Autobahn / City / Country /// - TheGetawayer" data-visibility-tracking="CCcQpDAYBCITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDsv9XX0u60-zw=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-350728">
+    &#39; 2016 TESLA Model S P90D &#39; Test Drive &amp; Review /// Autobahn / City / Country /// - TheGetawayer
+  </span>
+  <span class="accessible-description" id="description-id-350728">
+     - Duration: 19:24.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC3VF661-39deEmBx9VxQJLQ" data-name="related">TheGetawayer</span></span>
+  <span class="stat view-count">138,906 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=PPbTdSr1X-w" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCcQpDAYBCITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCcQpDAYBCITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDsv9XX0u60-zw=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="PPbTdSr1X-w"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/PPbTdSr1X-w/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      19:24
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=6HtlmNzqQdo" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCYQpDAYBSITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Model S - Official Walkthrough HD" data-visibility-tracking="CCYQpDAYBSITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDag6nnjbPZvegB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-843734">
+    Tesla Model S - Official Walkthrough HD
+  </span>
+  <span class="accessible-description" id="description-id-843734">
+     - Duration: 27:50.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC_3halIlXCYn_En2YeyN20Q" data-name="related">Tesla Schweiz (Community Channel)</span></span>
+  <span class="stat view-count">1,503,332 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=6HtlmNzqQdo" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCYQpDAYBSITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCYQpDAYBSITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDag6nnjbPZvegB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="6HtlmNzqQdo"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/6HtlmNzqQdo/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      27:50
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=cK14KaRhQ6w" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCUQpDAYBiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Model S P90D Road Trip 750 Miles In A Day First Drive" data-visibility-tracking="CCUQpDAYBiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCsh4WjmoXe1nA=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-567213">
+    Tesla Model S P90D Road Trip 750 Miles In A Day First Drive
+  </span>
+  <span class="accessible-description" id="description-id-567213">
+     - Duration: 9:14.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCfkC46IPEWDckN4Pg6Wn4qQ" data-name="related">Brian Makse</span></span>
+  <span class="stat view-count">25,187 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=cK14KaRhQ6w" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCUQpDAYBiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCUQpDAYBiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCsh4WjmoXe1nA=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="cK14KaRhQ6w"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/cK14KaRhQ6w/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      9:14
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=RWQ-dnpplaA" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCQQpDAYByITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="2015 Dodge Charger SRT Hellcat vs. 2015 Tesla Model S P85D! - Head 2 Head Ep. 65" data-visibility-tracking="CCQQpDAYByITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCgq6bT586PskU=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-611548">
+    2015 Dodge Charger SRT Hellcat vs. 2015 Tesla Model S P85D! - Head 2 Head Ep. 65
+  </span>
+  <span class="accessible-description" id="description-id-611548">
+     - Duration: 17:03.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCsAegdhiYLEoaFGuJFVrqFQ" data-name="related">Motor Trend Channel</span></span>
+  <span class="stat view-count">2,475,774 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=RWQ-dnpplaA" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCQQpDAYByITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCQQpDAYByITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCgq6bT586PskU=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="RWQ-dnpplaA"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/RWQ-dnpplaA/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      17:03
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=xsZaXIuApMk" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCMQpDAYCCITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="What it&#39;s really like to buy a Tesla" data-visibility-tracking="CCMQpDAYCCITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDJyYLcyMuW48YB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-593980">
+    What it&#39;s really like to buy a Tesla
+  </span>
+  <span class="accessible-description" id="description-id-593980">
+     - Duration: 3:27.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCF7hznHog_lCTbwxjj1jrPg" data-name="related">Yahoo</span></span>
+  <span class="stat view-count">483,267 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=xsZaXIuApMk" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCMQpDAYCCITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCMQpDAYCCITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDJyYLcyMuW48YB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="xsZaXIuApMk"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/xsZaXIuApMk/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      3:27
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=P8-Et8QSJH0" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCIQpDAYCSITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Model X P90D Review - Part I (4K)" data-visibility-tracking="CCIQpDAYCSITCOzYqdz8-soCFYFNvgodK8EOWSj4HUD9yMig_Jbh5z8=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-391234">
+    Tesla Model X P90D Review - Part I (4K)
+  </span>
+  <span class="accessible-description" id="description-id-391234">
+     - Duration: 4:24.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCkYbMy2RoRP-YiN4s5BJdRA" data-name="related">Marcus Adolfsson</span></span>
+  <span class="stat view-count">599,912 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=P8-Et8QSJH0" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCIQpDAYCSITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCIQpDAYCSITCOzYqdz8-soCFYFNvgodK8EOWSj4HUD9yMig_Jbh5z8=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="P8-Et8QSJH0"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/P8-Et8QSJH0/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      4:24
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Z1nsaCfbWhI" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCEQpDAYCiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Six Months using the Apple Watch" data-visibility-tracking="CCEQpDAYCiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCStO2-go37rGc=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-400664">
+    Six Months using the Apple Watch
+  </span>
+  <span class="accessible-description" id="description-id-400664">
+     - Duration: 7:43.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCRczP8hOkiS-y-_R5ZcAcHQ" data-name="related">Goopply</span></span>
+  <span class="stat view-count">133,493 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Z1nsaCfbWhI" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCEQpDAYCiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCEQpDAYCiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCStO2-go37rGc=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="Z1nsaCfbWhI"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/Z1nsaCfbWhI/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      7:43
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=uFSHc6koD5c" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCAQpDAYCyITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="When Elon Musk Takes Away Your Tesla" data-visibility-tracking="CCAQpDAYCyITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCXn6DJuu6hqrgB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-478830">
+    When Elon Musk Takes Away Your Tesla
+  </span>
+  <span class="accessible-description" id="description-id-478830">
+     - Duration: 5:14.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC1yBKRuGpC1tSM73A0ZjYjQ" data-name="related">The Young Turks</span></span>
+  <span class="stat view-count">116,880 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=uFSHc6koD5c" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCAQpDAYCyITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCAQpDAYCyITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCXn6DJuu6hqrgB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="uFSHc6koD5c"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/uFSHc6koD5c/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      5:14
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=zMQjcukphpA" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CB8QpDAYDCITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla motor hacked!" data-visibility-tracking="CB8QpDAYDCITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCQjabJru6I4swB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-853187">
+    Tesla motor hacked!
+  </span>
+  <span class="accessible-description" id="description-id-853187">
+     - Duration: 31:12.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC_w3wWRTlAdWDvSO859SqDA" data-name="related">Michal Elias</span></span>
+  <span class="stat view-count">500,158 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=zMQjcukphpA" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CB8QpDAYDCITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB8QpDAYDCITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCQjabJru6I4swB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="zMQjcukphpA"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/zMQjcukphpA/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      31:12
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=yRGy74AyT6A" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CB4QpDAYDSITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Motors: The Future of Electric Cars - Documentary" data-visibility-tracking="CB4QpDAYDSITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCgn8mB-N3siMkB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-320055">
+    Tesla Motors: The Future of Electric Cars - Documentary
+  </span>
+  <span class="accessible-description" id="description-id-320055">
+     - Duration: 43:00.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCH0cc2Yq9J4Wxs_aF0OwXdw" data-name="related">CarsWeLove1</span></span>
+  <span class="stat view-count">424,801 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=yRGy74AyT6A" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CB4QpDAYDSITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB4QpDAYDSITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCgn8mB-N3siMkB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="yRGy74AyT6A"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/yRGy74AyT6A/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      43:00
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=cnH3uU-dgY4" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CB0QpDAYDiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Surprising My Dad With a Brand New Tesla Model S" data-visibility-tracking="CB0QpDAYDiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCOg_b8lPf9uHI=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-673850">
+    Surprising My Dad With a Brand New Tesla Model S
+  </span>
+  <span class="accessible-description" id="description-id-673850">
+     - Duration: 7:06.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC58oTvqReFIzX-a9v_ZQFDg" data-name="related">bushwacker182</span></span>
+  <span class="stat view-count">2,776 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=cnH3uU-dgY4" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CB0QpDAYDiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB0QpDAYDiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCOg_b8lPf9uHI=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="cnH3uU-dgY4"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/cnH3uU-dgY4/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      7:06
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=_nQDU7HOStc" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBwQpDAYDyITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Model S P85D vs Ferrari F12 1/4 Mile Drag Racing" data-visibility-tracking="CBwQpDAYDyITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDXlbmOu-qAuv4B" >
+  <span dir="ltr" class="title" aria-describedby="description-id-294316">
+    Tesla Model S P85D vs Ferrari F12 1/4 Mile Drag Racing
+  </span>
+  <span class="accessible-description" id="description-id-294316">
+     - Duration: 1:33.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCWeLPNowZvdzXwnCDxVyNEg" data-name="related">DragTimes</span></span>
+  <span class="stat view-count">3,194,352 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=_nQDU7HOStc" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBwQpDAYDyITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBwQpDAYDyITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDXlbmOu-qAuv4B" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="_nQDU7HOStc"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/_nQDU7HOStc/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      1:33
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=sTtL-rbXMbI" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBsQpDAYECITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Delivery day for my Tesla Model S 70D! Plus using autopilot on the way home" data-visibility-tracking="CBsQpDAYECITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCy49y2q__SnbEB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-763096">
+    Delivery day for my Tesla Model S 70D! Plus using autopilot on the way home
+  </span>
+  <span class="accessible-description" id="description-id-763096">
+     - Duration: 6:15.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC1rMz1A-fbUzS2OMQO1UOgg" data-name="related">Tesla EVangelist</span></span>
+  <span class="stat view-count">21,096 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=sTtL-rbXMbI" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBsQpDAYECITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBsQpDAYECITCOzYqdz8-soCFYFNvgodK8EOWSj4HUCy49y2q__SnbEB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="sTtL-rbXMbI"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/sTtL-rbXMbI/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      6:15
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=nHLqjdAfDUQ" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBoQpDAYESITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla AutoPark V7.1 - Summon Feature" data-visibility-tracking="CBoQpDAYESITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDEmvyA3dG6uZwB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-579166">
+    Tesla AutoPark V7.1 - Summon Feature
+  </span>
+  <span class="accessible-description" id="description-id-579166">
+     - Duration: 4:08.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC3qQE2Zp89IOyrHJdDWmTZA" data-name="related">Ricco831</span></span>
+  <span class="stat view-count">567,761 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=nHLqjdAfDUQ" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBoQpDAYESITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBoQpDAYESITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDEmvyA3dG6uZwB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="nHLqjdAfDUQ"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/nHLqjdAfDUQ/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      4:08
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=8Cz9TBAwKto" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBkQpDAYEiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" rel="spf-prefetch" title="Tesla Model S Autopark with software 7.0" data-visibility-tracking="CBkQpDAYEiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDa1cCBwam_lvAB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-233540">
+    Tesla Model S Autopark with software 7.0
+  </span>
+  <span class="accessible-description" id="description-id-233540">
+     - Duration: 4:10.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCG1QcV31eoSaX4rE8avQL4A" data-name="related">Bjørn Nyland</span></span>
+  <span class="stat view-count">48,865 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=8Cz9TBAwKto" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBkQpDAYEiITCOzYqdz8-soCFYFNvgodK8EOWSj4HTIHcmVsYXRlZEi7nYCGypWOumU" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBkQpDAYEiITCOzYqdz8-soCFYFNvgodK8EOWSj4HUDa1cCBwam_lvAB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="8Cz9TBAwKto"><img width="120" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/8Cz9TBAwKto/default.jpg" height="90" alt="" aria-hidden="true" ></span></a>
+        <span class="video-time">
+      4:10
+    </span>
+
+  </div>
+
+</li>
+                  <div id="watch-more-related" class="hid">
+    <li id="watch-more-related-loading">
+Loading more suggestions...
+    </li>
+  </div>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander" type="button" onclick=";return false;" id="watch-more-related-button" data-continuation="CBQSFhILWlhRNHJLREFEcnPAAQDIAQDgAQEYAA%3D%3D" data-button-action="yt.www.watch.related.loadMore"><span class="yt-uix-button-content">Show more</span></button>
+
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="watch7-hidden-extras">
+      <div style="visibility: hidden; height: 0px; padding: 0px; overflow: hidden;">
+      <img src="//www.youtube-nocookie.com/gen_204?attributionpartner=yw706kE3zncfYK5cYbo21g" border="0" width="1" height="1">
+  </div>
+
+  </div>
+
+
+  </div>
+
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter force-layer"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" id="footer-logo-link" title="YouTube home" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ&amp;ved=CAEQpmEiEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0" class="yt-uix-sessionlink"><span class="footer-logo-icon yt-sprite"></span></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-key="language" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Language:
+  </span>
+  English
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-key="country" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Country:
+  </span>
+  Worldwide
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-key="safetymode" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Restricted Mode:
+  </span>
+Off
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+  </ul>
+<a href="/feed/history" class="yt-uix-button  footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=LGbCVuySFoGb-QWrgrvIBQ"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">History</span></a>    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" id="google-help" data-ghelp-tracking-param="" data-ghelp-anchor="google-help" data-load-chat-support=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Help
+</span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/">About</a></li>
+  <li><a href="//www.youtube.com/yt/press/">
+Press
+  </a></li>
+  <li><a href="//www.youtube.com/yt/copyright/">Copyright</a></li>
+  <li><a href="//www.youtube.com/yt/creators/">
+Creators
+  </a></li>
+  <li><a href="//www.youtube.com/yt/advertise/">
+Advertise
+  </a></li>
+  <li><a href="//www.youtube.com/yt/dev/">Developers</a></li>
+  <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Terms</a></li>
+  <li><a href="https://www.google.com/intl/en/policies/privacy/">Privacy</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/">
+Policy &amp; Safety
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=en" onclick="return yt.www.feedback.start(59);" class="reportbug">Send feedback</a></li>
+  <li><a href="/testtube">Try something new!</a></li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <div class="yt-dialog hid " id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+        Working...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="hidden-component-template-wrapper" class="hid">    <div id="shared-addto-watch-later-login" class="hid">
+      <a class="sign-in-link" href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=en&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3Dplaylist%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DZXQ4rKDADrs">Sign in</a> to add this to Watch Later
+
+    </div>
+  <div id="yt-uix-videoactionmenu-menu" class="yt-ui-menu-content">
+      <div class="hide-on-create-pl-panel">
+    <h3>
+Add to
+    </h3>
+  </div>
+  <div class="add-to-widget">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+        Loading playlists...
+    </span>
+  </p>
+
+  </div>
+
+  </div>
+</div>    <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;</script>
+  <script src="//s.ytimg.com/yts/jsbin/spf-vfljW6yZb/spf.js" type="text/javascript" name="spf/spf"></script>
+  <script src="//s.ytimg.com/yts/jsbin/www-en_US-vflt6YH5Q/base.js" name="www/base"></script>
+<script>spf.script.path({'www/': '//s.ytimg.com/yts/jsbin/www-en_US-vflt6YH5Q/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/angular_base": "www/common", "www/channels_accountupload": "www/common", "www/channels": "www/common", "www/dashboard": "www/common", "www/debugpolymer": "www/common", "www/downloadreports": "www/common", "www/experiments": "www/common", "www/feed": "www/common", "www/innertube": "www/common", "www/instant": "www/common", "www/legomap": "www/common", "www/live_chat": "www/common", "www/live_chat_moderation": "www/common", "www/promo_join_network": "www/common", "www/results_harlemshake": "www/common", "www/results": "www/common", "www/results_starwars": "www/common", "www/subscriptionmanager": "www/common", "www/unlimited": "www/common", "www/watch": "www/common", "www/ypc_bootstrap": "www/common", "www/ypc_core": "www/common", "www/ytstyles": "www/common", "www/channels_edit": "www/channels", "www/innertube_watchnext": "www/innertube", "www/live_broadcasts": "www/angular_base", "www/live_dashboard": "www/angular_base", "www/videomanager": "www/angular_base", "www/watch_autoplayrenderer": "www/watch", "www/watch_edit": "www/watch", "www/watch_editor": "www/watch", "www/watch_live": "www/watch", "www/watch_missilecommand": "www/watch", "www/watch_promos": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_transcript": "www/watch", "www/watch_videoshelf": "www/watch", "www/ct_advancedsearch": "www/videomanager", "www/my_videos": "www/videomanager"};spf.script.declare(ytdepmap);</script><script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>      <script>
+    yt.setConfig({
+      'VIDEO_ID': "ZXQ4rKDADrs",
+      'THUMB_LOADER_PAUSE_MS': 0,
+      'THUMB_LOADER_GROUP_PX': 400,
+      'THUMB_LOADER_IGNORE_FOLD': false,
+      'WAIT_TO_DELAYLOAD_FRAME_CSS': true,
+      'IS_UNAVAILABLE_PAGE': false,
+      'DROPDOWN_ARROW_URL': "https:\/\/s.ytimg.com\/yts\/img\/pixel-vfl3z5WfW.gif",
+      'AUTONAV_EXTRA_CHECK': false,
+
+      'JS_PAGE_MODULES': [
+        'www/watch',
+        'www/ypc_bootstrap',
+          'www/watch_transcript',
+          'www/watch_speedyg',
+          'www/watch_autoplayrenderer',
+        ''       ],
+
+
+      'REPORTVIDEO_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-reportvideo-vfl0FDpst\/www-reportvideo.js",
+      'REPORTVIDEO_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-watch-reportvideo-vflj4L8q2.css",
+
+
+      'TIMING_AFT_KEYS': ['pbp', 'pbs'],
+      'YPC_CAN_RATE_VIDEO': true,
+
+
+        'RELATED_PLAYER_ARGS': {"rvs":"short_view_count_text=\u0026length_seconds=255\u0026session_data=itct%3DCBUQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=o5uqhTZPMaQ\u0026endscreen_autoplay_session_data=autonav%3D1%26feature%3Drelated-auto%26playnext%3D1\u0026title=Summon+and+Perpendicular+Autopark\u0026author=Tesla+Mirai,short_view_count_text=\u0026length_seconds=777\u0026session_data=itct%3DCBQQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=tP7VdxVY6UQ\u0026title=Testing+Tesla%27s+Autopilot+System+At+70mph\u0026author=Car+Throttle,short_view_count_text=\u0026length_seconds=792\u0026session_data=itct%3DCBMQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=Bk50IuWXg-c\u0026title=How+to+make+a+DIY+Tesla+Powerwall+for+%24300\u0026author=jehugarcia,short_view_count_text=\u0026length_seconds=403\u0026session_data=itct%3DCBIQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=j-Sqki-J8ZM\u0026title=Tesla+Model+S+car+fully+controlled+by+Apple+Watch\u0026author=Rego+Apps,short_view_count_text=\u0026length_seconds=119\u0026session_data=itct%3DCBEQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=L2bZ1CWqvbA\u0026title=Tesla+Model+S+Picks+Owner+up+in+the+Rain+using+the+new+Summon+Feature\u0026author=DragTimes,short_view_count_text=\u0026length_seconds=1164\u0026session_data=itct%3DCBAQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=PPbTdSr1X-w\u0026title=%27+2016+TESLA+Model+S+P90D+%27+Test+Drive+%26+Review+%2F%2F%2F+Autobahn+%2F+City+%2F+Country+%2F%2F%2F+-+TheGetawayer\u0026author=TheGetawayer,short_view_count_text=\u0026length_seconds=1670\u0026session_data=itct%3DCA8QvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=6HtlmNzqQdo\u0026title=Tesla+Model+S+-+Official+Walkthrough+HD\u0026author=Tesla+Schweiz+%28Community+Channel%29,short_view_count_text=\u0026length_seconds=554\u0026session_data=itct%3DCA4QvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=cK14KaRhQ6w\u0026title=Tesla+Model+S+P90D+Road+Trip+750+Miles+In+A+Day+First+Drive\u0026author=Brian+Makse,short_view_count_text=\u0026length_seconds=1023\u0026session_data=itct%3DCA0QvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=RWQ-dnpplaA\u0026title=2015+Dodge+Charger+SRT+Hellcat+vs.+2015+Tesla+Model+S+P85D%21+-+Head+2+Head+Ep.+65\u0026author=Motor+Trend+Channel,short_view_count_text=\u0026length_seconds=207\u0026session_data=itct%3DCAwQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=xsZaXIuApMk\u0026title=What+it%27s+really+like+to+buy+a+Tesla\u0026author=Yahoo,short_view_count_text=\u0026length_seconds=264\u0026session_data=itct%3DCAsQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=P8-Et8QSJH0\u0026title=Tesla+Model+X+P90D+Review+-+Part+I+%284K%29\u0026author=Marcus+Adolfsson,short_view_count_text=\u0026length_seconds=463\u0026session_data=itct%3DCAoQvU4iEwjs2Knc_PrKAhWBTb4KHSvBDlko-B0yCWVuZHNjcmVlbki7nYCGypWOumU%253D\u0026id=Z1nsaCfbWhI\u0026title=Six+Months+using+the+Apple+Watch\u0026author=Goopply"},
+
+
+
+
+          'BG_P': "MncGetjwDe51DThyTc\/aMZzpk4DG+DPQHTfQmtIQdXTDeIMGVXth1y14chtmEc8WwwYo6VMSHiql4AezyVe7Q+P51VlQPe9xc554AA1ZdP20aJ1KCovrUzQLmRpZr4nXhMhGy4XRIpTX4kGiMOctf557U2GJl5q6mTyQBUdYKiM617IT7B+N9uJAZvDasIzSl8Dg5uGz5mMy7Dh\/J5GUmM\/YvTUmB5ait76ESDZwPvNVcv8ZdcvHzW\/dUeRrdzUZWMroEyuPqZ0ZiF2\/+431XeHVlvQNJWUJa3iu0WMMlQjG7lIyNNdQ0otkl4cv7CT6DoueqEFQq5tSY3nzsOYngaL+hsqnZATvLhDHlIpDrYsR2PnQdaopMm+3DJqpaAElfPxPFiaOkF9deEgBpaanKocfV+nlfS+69AMbNZyJ2lUAUdBdNi1kkFz3eWXlHdF7UlQoqdxcs8g708whxxYV7P4SsDOKE2ZEHi0+L7Y0JBOkKIvrIzGcfjebeDGrbyghRSDMxEmJfhiDTTwfmBDP\/p9zYGwiNE99Ffv7bl4Klx7zrxTLRqpzj3+GZozwqv3TjSeZWIHJXpGcToLRDGYvc2434O6LyrkPEj6JbJTvRl\/Qgl+VJW09YzYglj5vSFcdxkbJHDj0mPYPYZFyQYv+rIm9CbpZuIFUC+DzffOgCmXIVx5hRiIpSnVDekNWWLkNbf+Ojc9zZxtxzWjfKsWeq+Fddjk0Y7pxQ9by2qf56jt5Bx5yai+dcQiJ4+D60Q\/nDwEi45EdnvGUbzYl2Z735CVY7Vx2VIqCkm\/pZDKPyfa+T8mziGuaedlnxKocpJNmxGN3Kdnkj\/zM3Fq884GxOC41ri9IOJgzi6mRwy\/ijIYUHvMAlq16d2608\/tmHFinPD4HK9yhc\/1UcXim9lVVVKlOonntbkXZRk3YOPqZ+w8rSf\/loq7TLXXKes0AC1JRlySpnw\/7ywW6SQb33umsIlH6d+vZw1ndUlGs\/251cgoMlSZTbxab7NoYAp2yveWb07HFSoYCTsqAeXvpP20cBEiFXrK9OqkI2lnji1n6P7gFtEcV7bjnlerEVHQAe3MNFl1Pchz+UU4JLFwANeGQtpvYdMbanl\/ctlhavySuqxXsCwkxLTXXZJEYBd+QFG0ox0uPbZMoT1OehXuTwMAZ2Z6yIYa\/3UdGXRKqDGx1o88+VYsbpUIU9OhY5AfYQEF0cn5LWA8hFYi1dkUkPTKfSLZLQXJRylVCh16UTlybGJ3JbdkH2sxpj42DRXqeHpDLB3YhIqS4MUZtdWixebEyM\/cMhOq2NTbHR9MROoEEo80bsryweinMB47gRIrVwJwgcWeeSbDon3YRGnKV5\/Ej\/Rawmz5k8kg7hrkkTFphgiVcMc3P1Yvsdu5eynGjESDYEBL4iR\/2kYK4VZEveUWLYyHZG48jHfB21jcRA4HbuHUe1YZHnmaf\/EFz535QDARmad6qmjdPHz9KE3IIkw56s4mP09isl65cCsLg20p5FSIBXrCdTHCP3G6+0x3ZRvpsa31hSKm\/wL6vnQt0r5Sh1WeyGiV1yRkmmLgqWfsrMqDPwYXDbs1lYyNghWrl05\/T3Wbde2+Mnq1oMmpfbT3FBnhkkZ8RmKkj1z9yFX+c7cJJQY5IZS3Ei7PrU3u8EM9ERQX6JzXvcSZhCeFkL462088Bn0ewCApM3Co4ae0BVnpBYp0trUfUeNL\/FY8wcDS6qtRyEtEh8SgMU7NC78BUUzhTmRtr6dV8iGhO5nBhOl13arVTzKcUjgtz2P7WRJQdWgBkK\/JAkHBxvTCpncmeo4g5fhIn0tG24abPVLSYkKe4FvJFK8q8hckWSIfdbwXA93Nt9JBU91VK0RByipk+bwTgQFBFnUFJ6osG6R8mzqDNw++fpuXGFFa6ZVEwojtHcK6wy4cnRMTnIWYOtgH1aFum4QclyOZnfGbms69efKOO\/QoQxEE6QzKoBWJLUiZFo4RW9gESRUGq+xtFs\/8WQ26w43MFwdMuJ4Aixx9I0gOvlsWIJwyjj\/I4ZynJSTtGzaH3JBX2tLmIw3a0DtObd0l0TMmsAtzPbA7SCXo2oJeJBHFat+03allFcrxjss9TRhYIo+gINg1t81b6tXqPBeainQL+VDc5g8+pUxI12TbW61Rwk7AEaTJUIUkqp6c7nHZYY3HwrxLqe1Fl0ct9TNyu\/qXANUhOC79oupqnMvEc7TnrcthhbohDh7yxHW6G5XpBuDBKc1X4LfwwqK9ZEQH4zQwHb23JO9FQUhqXLkLaW6B1VIfFZqi0Gt+BD0hiOWuKWDQaIZ5iBgn6xSXpoc2vgc\/cYLYf77JSmeMMAWT\/3\/g4hGs1GzYuqzOMspJ6jXwe3UmLnSD23b7l1PPBnhT6P7kVL5DfDQ1C41SgY6f27u\/41zZyRKZB\/oKy0J7eScPHUG7o4Rasu76Kjh5BRddGhIx4NIPzOlcv42ifpdnuQsa9K19zsPgs0D9MQGntSWkJzw9LD01PJn2lSIrmI\/xp\/UCCmxr5lCIqmHXcDfpRD7KupimSWKCqKsnlBcBbKGy+PtJmB4an5J0+DXlCbguaNiUTF98RXrewkiHj2mjc9giEVBqp6WIVwB+wqiN8SB3Vm69E2DYWzLq0lNpC+ZEMnjvO6ZhPJg6XlUwEokyFuqaipe\/WgnGOnwFt2zQIE6apIHc2MZ9lfUzhS7oIfaGLfyvOXHoUxkyeSAn7QbzG7x3xSjeUPQF19XdLTNfPEeUPJx5iAiDkgCfSHRNFRjFxm4\/jThXENuH6InRwDTelbjdk7GAM+O8ESSLktsuh8Yv3GKzHAcKIV55A+d9W\/4xrCUKXN+gL8fSffm9S9F7UauWmM2BQ3yCc4p53hEjOuxUxVcaN\/CJCEaHpFWexanORiXYXsY82utj1Q4Hs4o0scWmrOYMpZqmeNJ6ZmJeSUpPyoa4ohB80iFvAjZQWhzuJ8UZamhhysgwARjT6a9VH2alEpN6ulvBRVAI421kKr93mlK8hOjOkP0rXup5on3\/l1wR9yL88Ac\/y6mAnVSegQ85CGKSB7hyUkQdwsqIMo4idrIdkHu4FsFWlEK+gPs2FKTMW5gQMY6oZ41GXMdfz0OhpPbIW1ga7hLaumXeXyfGax4uM76hS0x6gLo07Exo6B6snSqWb+q4XVzGdbWMSeEolHYfWyIHPwkbcTGoz8gcpjsSuXr7LjKpVpBsyiCO+CddMbILjRgpedzmwq0d92BYx3dS3WB+nS3ket54M8TVtN21nNdSMSsIqyGqsNHDLrf0WYJNQvAalEPtv1NCWzbfhvirnTDlp620sjbIYZsHGaMFdEfR1DpQhQanpdjwr2dH8LvavGlEflAbExi2iS8lHJ5cMcZvDCCcqDZn+TtseTJf4e4qgdUikJpNITKNpbfCQktrgusH2aV4\/MUAedk3mCSbVqDnoGpWTTXim9hRr2QQw\/mHX\/js609ILwfelFO4kpYXAZHYitu4ATPtR\/LHQNXF1i6LR1xboS6jqEf8827mWGsgbXS31xAZmbaKqXdTkIXe6KDTbX1XDkKdALQP3RtImyOGL6V3F91TaZkmtvATq3PCC8dniXtiWefY79jIBhDU2\/uVo5gZlUjCvP0o2\/ja1RwFhUloaOmq+cCeyP9Hcks9pQmBAj3Yfhc19pwcdXpkM05SxLpqcBe\/iV3wvdghf3ROrR1DLgiNZLpiJa\/YYt6VEKOrC0hbH0TwfWPp8Q9hwsQSyQNxL\/ZbDDmLtjQG7czrrdypK3RI4nYY5B9wgVcUkx8ntr58x9DCSCm7YpcImAvq\/Xqe7TB\/2qmxqOJ3eiUM\/F9Je21J6eUbA51mhYuCOBR6wb5KU+5xXu8qX8s1CiIl6uVITLnNDUgz2vuqQNECbCRkoj5W4N9ikzxXrYLBH6f6DVm2DMGmrklacdcPjh9Iuiay\/FQm9vdDwND\/WEnNQv1FC79p5WYdDbBDddWMwFtjaiIm4bo7+mHD9+AUduUvJ2rjhqatn8wjV+hkvYAP6mODNhxoEt+9HXJBRhyaZrHasDe2EUOkQ4oA\/ePbhy5qlfZk5c8lHLIC84bXK+o+8jcjgY2\/4T9WQGXfROSHiHJJV3qSIQglK9gS5y99fnhRobYd5oHv2dA57wg5xl7ichT+C\/s30k5GBcLOk\/CvhhN1ZOkT3roEQCSYrNcawRe2tZwXu3EMeR7HkK\/OLbXMy6KCOcTwwSy7OV3ATHLr286Rhf\/fkhMS+saEnUMjLGKr7M26OGvzcAsaeo4OoLma6GDon7lACNUOJdpy0yGgc\/djoiRqc3H2VN3qpx4Gyo+ax4hJuv0gfp+h1jZFbl8Z\/99edSabpOTXU3rdXOnBnI+vA\/wivlODJAfjnIUZcY2\/DFicojHweRQzLkABySausgZnflOcmq5S2ll5FICdGakUzGqUcEw30j6qnpXqPpoHZihyZxz1pRIzTm86U3KB1ECjeLcEdwf7aNjHpUKw3mVkj32EXhMYp3cswXjfe2d+OEn1uFBbAs9w+jT4DX5D\/HsZIS08kvqzSdlcwD0y\/MO3W8f9NhQRMSuaq\/cyAeUxnjmZq659GE94Bry9N64kYV+QdCaMPm\/Hi8KlHnmafJ6EQBTjsnm335sI6Pg3KL1rAtZTaCt\/xO\/E+FeeDushL+cuh2iYktlzH9yEl107PkaT\/UmJ+OFRM7l+0IlHVWFkVLAsuEviS4BRyHEWxkalB7F+SH6hAPrv3E+1DKZ0fmGOGyJQITNPquy9WG4tuyUzQyy4YcsD\/DEZg6IcULCOfVxpIXzWKwz\/g9LLgMhDfsN6W5i+ixBn+LewoebN2AfvQgnenAj\/lvYg2PhzMneab\/7aqkLs3D1eD\/Wqd5KBP+3T8xqsEhsNS2zasTmurb63cYDIx9ecqhuXsZHvAIzE4lZoqg8m+EUUZyHAbD6ropYQ6sGybzhGA\/SecTZc+vB12XZx0yCAx5laU2wTFD2pEGbN7zoThF9v2XkouN8hNNmeZ3mdYZGgfvilk8Tl0rVN\/nSuQCFN1mdRhaviPSOY\/l8oNHmQdHYtxCcDmMy+58Ut7f0vu\/u1W0zyTHGqcKDnM0rSqrcthyyfQsaWb7OvAq3krWN3tkk5MsLHE+c21NP5bnKPo1xUrgz\/XjDx4d0srfIwnPSzOhBOgUvXDvASsQ8taccUu472zDfCM1CooR77jAcXhJRzjhw4oiWc7ZdLKo2Dct0ikZSJUVbbDwdhqSpBOgv4wFmc9GSCRUMcPmlaaaDohKH0X1MtGhoaAC7OgvlTf8BrgTWAjSGvSjrDQyCIj5lgw9oSH+HWRS9mb7ienOAxAygypPZsYp60jNLEjwXJaCVnNK8Gu62wGHIUeuC3dl1fsRnng+zMFOpVoJro39rpR\/pedKgFTgL3BlYLexEC+q9I5d8kBmfUH1Hxa0J\/SgdhxHRXUblZBuCpXK1iRYz2bl7SJ+\/s+RfkrBbjLUkovlfH1\/YNWBND9Rb9BjJWXeuzsJLEY6Ayl3Fq2Cb4lexol4xPxwTjXAH5tAM\/NOhKrYf1Dy\/40l4rGfNzXcm5AMGHpcKLp6Okn46sJ4nXVRxHet1ONr2Vp9W59RdI232nBHtBAJZGZGqxTr0TlB1wmXDuVW+dnLxyL6767g8mfUWZbBoCQ3sJ9KlwJDETOnDsxau+2zfnmjqton4dWB27mYywabtZWV6M+tadDKuQp\/PR4jbhOvVvtUAgp\/KzduwzUOFjZYgchDWnAyUMSngVjXgfO9kgpyI6h+99wHguZWvXPL1pPD7XZMv3jhcrYndu05VjX2qsH6o+4iFj\/b58LvnDY7intl97qx1lMLSETxmW2NypFos8HVYKF4+xU1XuouSr38ZxKROxPG3fH5fZDw9bab4rGNljjzPB8u+TClQWHwzY568FHidJgxUerAf4CFV5qKgKUCnIPq86\/Y3hcKRQaPn3CazHJQmYNURzg+TpsZnOR5zEKIM9JLnRIvGxthUrQnNtmfQ8PgIdNuzhmfDPr71JaV4SVSJcH5\/D9VMGOZDWklwknTEXAVcScqfkyAHZGtY0+ItbpOiHyMJfwpQ9pMjmusLJzVfndFLZT7FgLXnQIan0LdNNR16M4vGHKyLtvUH+0ofXwzNxEj1\/35z3DxtAGXVAcWAyx7wHddazXR302\/EsONLDmtjKeNS8Vu7ikenF92g9CXA7A0UqYsLRcUgEowptZ4Se0wo2epR7i4PzFNox2yYkxGG2CckDCeW\/aEAGSDzalX7RmfeToFkXRW4T23JDGDLWW6tXO5ZnvhIyPKI0EA9F41X3D81Yfqy5pa5fG5D\/cI58stpnq+M4bBfMVuTur0Sfqn7zRBToectc4MbC9Vmp6RrS4KJ8OwzhcMEyZXI0q6aMljZlYc8tyTNPD2CzdS3l7WldEyLc5h1lII+OSu1yjdROi0WEjb8oY1FIP45TvVsxKGbhbNdNiM4gr9lOjgZLMGlCOj+rbQCt0ZCawcyZ1Kf033Fii+RsUHhEvbQ9lftmCuALXqzf2KMrNzw4MeEdud32VGgmpTjZP7BNK03rzUIbZXmVJiWp6wPZYGPWr814gZq0AjWyIAAw89HbPtCWvRGagU5DZyhqSSqG7Z3KKwi8eOvHAin3taUBy2UfwSjFIKl9zOQ42w5zvN4XcF6RxeV92y0BQt2ua1HadtSazTmgJC7pmHi6fCg1Ld0O8rZY6ShN4UdU2A9xpgK+N57lM9duEJhK+2tvvMs97GGfscSl8tU\/zQZsjEaPswKbEQ2m26AhIpPBrkj1hmB\/YM1B8FLzQaM\/MnwywsqO92QgkGSgM2SdZl989QDdcyXIpK9U1ApubobOwyAy91UhyL2G78VkidSUk1m+r5y8nZ7Es9pYBqkk8tB6SxWNY\/g\/J0doQHYqjJxkyqD8Y6K+sMO9dCt+S3QUWDe+Fj+V4LNONfQ7mrwGhMAmBxJfbwLqRd2OI3uWgjR43bXsdMXZwM\/oS+VQ4MH5wvGh5HFHk7bjTx3EwCwMCRu3pY9nZmYdaihYTUbqAEeFWf6Zk7EBUdsYB\/I0e9l1D\/FOigzEq9TLdgB\/58kklojvtSk1koE3TnagQIfVJSIG9Oiy0tESMYJXw9YRf+5OuPxLCG4JeslWBG8w3n3Paw7k40Hu+c5P66hHi2kqGPCyYNMR1Pq\/bif9eGFTs5gXDT5t9RTefqDHgKWyI28ky\/Y7OksFtyzLR71EtqCNNtL5\/8lPguPF3i29hbBA81wY8ztvA1T82ghP0LFDaoUd1efR7jT6OVSC2V6zazLGVwM3osjZAKEqY5Q0CtBfK4u7CruCTF0eRyvVKovuFfwVIRV92\/GtuQqvQnpdVYddqbORLd3czq0fJoCACasQkkaQ3C59rT0c+jzTvYw2mb7dmSgNqsZCF\/KtrH7oUWY\/A6RfIDgHQHxlnPDZAuJsHhXH6a530bKgbN\/PaYYNypv+zP+Pjwvo9T9xh7mtlf8\/DTlf30LWyGMizlEL9JAnC1R019+LjjQzYHziLJEOIgeSeNeXap\/2WB2tSMuWDu3uJ1ChH\/LDq3V1Wdx5u3bPxy6IHhEL9SOxxAKvqJJAmPC9kci0vEfCwlBxYpAfY8aKNzvzZ54E3XxX0WEvfa73kGdmMu5yDQ2kui0S4ixoL6lwhmEhhL4xFa\/EvTY9bF5jENVJ\/ENMLPPH4up6MP4VlfuzAHZJVqQRqG286TAkEkJ8ZH+\/6\/oMjTiWHIC17",
+          'BG_IU': "\/\/www.google.com\/js\/bg\/-Wxc5n6ag8mSVPmrosQZJ6hEHpQooK3Qr1Gxv0lUkvE.js",
+
+
+
+
+
+
+
+
+
+      'HL_LOCALE': "en_US",
+      'TTS_URL': "https:\/\/www.youtube.com\/api\/timedtext?asr_langs=fr%2Cru%2Cit%2Ces%2Cpt%2Cnl%2Cja%2Cen%2Cko%2Cde\u0026v=ZXQ4rKDADrs\u0026expire=1455605916\u0026key=yttt1\u0026hl=en_US\u0026sparams=asr_langs%2Ccaps%2Cv%2Cexpire\u0026caps=asr\u0026signature=61C8C5A6D81C1612C7707FB40E89589AD0F13C59.2D54DE77572ADC9EB7D35CE2EE6079C4B461AF9D",
+      'JS_DELAY_LOAD': 0,
+      'LIST_AUTO_PLAY_VALUE': 1,
+      'SHUFFLE_VALUE': 0,
+      'SKIP_RELATED_ADS': false,
+      'SKIP_TO_NEXT_VIDEO': false,
+      'RESUME_COOKIE_NAME': null,
+      'CONVERSION_CONFIG_DICT': {},
+      'RESOLUTION_TRACKING_ENABLED': false,
+      'MEMORY_TRACKING_ENABLED': false,
+      'NAVIGATION_TRACKING_ENABLED': false,
+      'WATCH_LEGAL_TEXT_ENABLE_AUTOSCROLL': false,
+      'SHARE_ON_VIDEO_END': true,
+      'SHARE_ON_VIDEO_START': false,
+      'ADS_DATA': {"show_instream":true,"pyv_vars":{"iframe_json":"{\"google_cust_age\":\"\",\"google_yt_pt\":\"APb3F2_yXqEzPn6-0YLRGsKy98nAWBwQpZFZg5BgZedAy6xUPABVUEbznPaW8I8wodLfHlOiojCJiJHd8xHEmNJpFVkX2i2hWvmVNNPdig4gCSUMtWVQ5KdiABTn0792UzFEkb92uBosSY7HsoJ99F4vk_u9xL0IlgU4GZn6EAUeGEU3Kwl0kNzqgg1hQTXlzlYBopCJ585D_RfHZBSp9-Wfxhr5odyy_k_fIlck6io4EqketG2Hhedgbkv9WOr9DJRvh1y6l5bzAE6i7avCXIGlT8VAlrLRhRFwo7oEBA\",\"google_language\":\"en\",\"google_max_num_ads\":1,\"google_ad_host_tier_id\":\"11069942\",\"google_only_pyv_ads\":true,\"google_lact\":\"\",\"google_ad_host\":\"ca-host-pub-5498843050713944\",\"google_ad_client\":\"ca-pub-6219811747049371\",\"google_tag_for_child_directed_treatment\":\"\",\"google_core_dbp\":\"ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ\",\"google_ad_block\":\"3\",\"google_ad_output\":\"js\",\"google_video_url_to_fetch\":\"\",\"google_ad_channel\":\"PyvWatchInRelated+PyvWatchNoAdX+PyvYTWatch+YtLoPri+afv_user_id_yw706kE3zncfYK5cYbo21g+afv_user_mark22digital+ivp+non_lpw+pw+yt_cid_30928604+yt_mpvid_86pbc0BYvewWXcrq+yt_no_360+yt_no_ap+yt_no_cp+yt_no_housead_in_auction+ytdevice_1+ytdevicever_1.20160211\",\"google_page_url\":\"http:\\\/\\\/www.youtube.com\\\/video\\\/ZXQ4rKDADrs\",\"google_cust_gender\":\"\",\"google_video_doc_id\":\"yt_ZXQ4rKDADrs\",\"google_eids\":\"\",\"google_loeid\":\"9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823\",\"google_ad_type\":\"text\"}"},"show_pyv":true,"gut_vars":{"tag":"\/4061\/ytpwatch"},"use_gut":true,"show_afv":true,"check_status":false,"afc_vars":{"ad_type":"image","alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div","ad_block":"2","core_dbp":"ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ","video_doc_id":"yt_ZXQ4rKDADrs","lact":"-1","ad_client":"ca-pub-6219811747049371","ad_host_tier_id":"11069942","ad_host":"ca-host-pub-5498843050713944","language":"en","format":"300x250_as","ad_channel":"0854550287+Vertical_1380+Vertical_47+Vertical_810+Vertical_815+afc_on_page+afv_user_id_yw706kE3zncfYK5cYbo21g+afv_user_mark22digital+ivp+yt_cid_30928604+yt_mpvid_86pbc0BYvewWXcrq+yt_no_360+yt_no_ap+yt_no_cp+yt_no_housead_in_auction+ytdevice_1+ytdevicever_1.20160211+ytel_detailpage+ytps_default","tag_for_child_directed_treatment":""},"show_afc":false,"afv_vars":{"google_video_doc_id":"yt_ZXQ4rKDADrs","google_ad_host":"ca-host-pub-5498843050713944","google_targeting":"","google_ad_height":"250","google_cust_age":"","google_lact":"-1","google_ad_client":"ca-pub-6219811747049371","google_tag_for_child_directed_treatment":"","google_core_dbp":"ChYzTEhORU9jWEVDRVFFVjJSWXJsVUR3EAEgAQ","google_scs":"","google_ad_channel":"0854550288+Vertical_1380+Vertical_47+Vertical_810+Vertical_815+afv_user_id_yw706kE3zncfYK5cYbo21g+afv_user_mark22digital+ivp+yt_cid_30928604+yt_mpvid_86pbc0BYvewWXcrq+yt_no_360+yt_no_ap+yt_no_cp+yt_no_housead_in_auction+ytdevice_1+ytdevicever_1.20160211+ytel_detailpage+ytps_default","google_language":"en","google_yt_pt":"APb3F28NtbG8EwlTnzgZ5RIlGFks58wGyv2HvlVC28tRCWaeTgit_YMvin01vadDOVW3olKAC2_WpMrVH-BAsoN01rOtUSEyVpvehmDGtwIToAS9BYJKKjVQSNj0b_FkRIgUnmpknIpLocQzQ-JI","google_ad_host_tier_id":"11069942","google_ad_format":"300x250_as","google_page_url":"http:\/\/www.youtube.com\/video\/ZXQ4rKDADrs","google_cust_gender":"","google_ad_type":"image","google_ad_block":"2","google_loeid":"9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823","google_eids":[],"google_alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div"}},
+      'PLAYBACK_ID': "AAUr18uLzssms1AG",
+      'IS_DISTILLER': true,
+      'SHARE_CAPTION': null,
+      'SHARE_REFERER': "",
+      'PLAYLIST_INDEX': null
+    });
+
+    yt.setMsg({
+      'EDITOR_AJAX_REQUEST_FAILED': "Something went wrong trying to get data from the server. Try again, or reload the page.",
+      'EDITOR_AJAX_REQUEST_503': "This functionality is not available right now. Please try again later.",
+        'HTML5_SUBS_ASR': "automatic captions",
+      'LOADING': "Loading..."    });
+
+      yt.setMsg('SPEEDYG_INFO', "Experiencing interruptions?");
+
+      yt.setMsg({
+    'UNBLOCK_USER': "Are you sure you want to unblock this user?",
+    'BLOCK_USER': "Are you sure you want to block this user?"
+  });
+  yt.setConfig('BLOCK_USER_AJAX_XSRF', 'QUFFLUhqa3VPa3dCYUpYZzV4ekpqRlBvYWI4ZGM4S1R5UXxBQ3Jtc0ttblZDNkJMVGh1clZiTzZBa1E2bE5OSDRPMlBNTWN6VjJXeHlEaDFFNUJqOVdTRnVWSmE1WGlJWlZ2cjROLWprYzBWTnVacUZkX29jR2U1WF9rcXBPczZUVU9aTHh6cC1Db21TR2tLV2pQMmFsa3JveFBDU3hQSF8wWklvdXgtZ2cwRUlTR0xXOG4yc1JLX21tOVFCbGRaSjY3Zmc=');
+
+
+    
+
+
+
+
+
+
+
+    
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+
+  </script>
+
+
+<script>yt.setConfig({GAPI_HINT_PARAMS: "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.x8c5wyFWS3c.O\/m=__features__\/am=AAQ\/rt=j\/d=1\/rs=AHpOoo8ImJKkzibS2HdaL0ElQ8igQWYsOg",INNERTUBE_API_KEY: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",APIARY_HOST: "",APIARY_HOST_FIRSTPARTY: "",INNERTUBE_API_VERSION: "v1",INNERTUBE_CONTEXT_CLIENT_VERSION: "1.20160211",'VISITOR_DATA': "CgtHNGZNUkR1ZEdJQQ%3D%3D",'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_LOCALE': "en_US",'INNERTUBE_CONTEXT_HL': "en",'INNERTUBE_CONTEXT_GL': "US"});yt.setConfig({"MENDEL_FLAG_GAME_METADATA_BOX_ART":false,"MENDEL_FLAG_CONSENT_URL_OVERRIDE":"","MENDEL_FLAG_OVERHAUL_CHAT_LOADING":true,"MENDEL_FLAG_GAME_METADATA_ON_WATCH":false,"MENDEL_FLAG_PLAYER_SWFCFG_CLEANUP":true});yt.setConfig({'EVENT_ID': "LGbCVuySFoGb-QWrgrvIBQ",'PAGE_NAME': "watch",'LOGGED_IN': false,'SESSION_INDEX': null,'VALID_SESSION_TEMPDATA_DOMAINS': ["www.youtube.com","gaming.youtube.com"],'PARENT_TRACKING_PARAMS': "",'FORMATS_FILE_SIZE_JS': ["%s B","%s KB","%s MB","%s GB","%s TB"],'DELEGATED_SESSION_ID': null,'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': true,'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflFcUrFs\/www-pageframe.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-en_US-vflt6YH5Q\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vflWd3pQq.css",'EXPERIMENT_FLAGS': {"pyv_search_dont_show_channel_ids":true,"gfeedback_for_signed_out_users_enabled":true},'GUIDE_DELAY_LOAD': true,'GUIDE_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-guide-vfl5Jqnht.css",'HIGH_CONTRAST_MODE_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-highcontrastmode-vflYzYXHF.css",'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflpKLlne.css"],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/player-en_US-vflCdE8nM\/base.js",''         ],'PREFETCH_LINKS': false,'PREFETCH_LINKS_MAX': 1,'PREFETCH_AUTOPLAY': false,'PREFETCH_AUTOPLAY_TIME': 0,'PREFETCH_AUTONAV': false,'PREBUFFER_MAX': 1,'PREBUFFER_LINKS': false,'PREBUFFER_AUTOPLAY': false,'PREBUFFER_AUTONAV': false,'WATCH_LATER_BUTTON': "\n\n  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" role=\"button\" title=\"Watch Later\" data-button-menu-id=\"shared-addto-watch-later-login\" data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_BUTTON': "  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" title=\"Queue\" data-style=\"tv-queue\" data-video-ids=\"__VIDEO_ID__\"\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_MENU': "  \u003cspan class=\"thumb-menu dark-overflow-action-menu video-actions\"\u003e\n    \u003cbutton type=\"button\" aria-expanded=\"false\" class=\"yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty\" onclick=\";return false;\" aria-haspopup=\"true\" \u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003cul class=\"watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid\"\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-next yt-uix-button-menu-item\" data-action=\"play-next\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003ePlay next\u003c\/span\u003e\u003c\/li\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-now yt-uix-button-menu-item\" data-action=\"play-now\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003ePlay now\u003c\/span\u003e\u003c\/li\u003e\u003c\/ul\u003e\u003c\/button\u003e\n  \u003c\/span\u003e\n",'SAFETY_MODE_PENDING': false,'LOCAL_DATE_TIME_CONFIG': {"weekendRange":[6,5],"formatShortDate":"MMM d, yyyy","formatWeekdayShortTime":"EE h:mm a","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"amPms":["AM","PM"],"formatShortTime":"h:mm a","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"formatLongDateOnly":"MMMM d, yyyy","firstWeekCutoffDay":3,"firstDayOfWeek":0,"shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"formatLongDate":"MMMM d, yyyy h:mm a","dateFormats":["MMMM d, yyyy h:mm a","MMMM d, yyyy","MMM d, yyyy","MMM d, yyyy"]},'PAGE_CL': 114413187,'PAGE_BUILD_LABEL': "youtube_20160211_RC1",'VARIANTS_CHECKSUM': "5d4202fc760df5e39f51290602cf50fe",'CLIENT_PROTOCOL': "HTTP\/1.1",'CLIENT_TRANSPORT': "tcp",'MDX_ENABLE_CASTV2': true,'MDX_ENABLE_QUEUE': true,'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "en",'FEEDBACK_LOCALE_EXTRAS': {"experiments":"9412777,9412877,9412901,9415048,9415327,9415398,9415575,9416038,9416126,9416475,9417035,9417482,9417664,9418543,9419979,9420240,9420289,9420304,9420395,9420409,9420452,9420790,9420951,9421404,9421625,9422152,9422250,9422376,9422523,9422575,9422596,9422849,9422852,9422928,9422972,9423057,9423119,9423155,9423185,9423438,9423465,9423553,9423555,9423645,9423649,9423661,9423662,9423704,9423768,9423911,9423990,9424105,9424159,9424225,9424255,9424262,9424666,9424672,9424678,9424785,9425033,9425282,9425330,9425413,9425553,9425931,9425961,9426095,9426110,9426150,9426154,9426217,9426542,9426994,9427021,9427068,9427175,9427237,9427294,9427388,9427491,9427610,9427655,9427693,9427823,9427894,9427989,9427994,9428071,9428083,9428120,9428151,9428158,9428476,9428511,9428516,9428704","logged_in":false,"accept_language":null,"is_partner":""}});   yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_CREATE_NEW_PLAYLIST': "Create new playlist\n",'ADDTO_CREATE_PLAYLIST_DYNAMIC_TITLE': "  $dynamic_title_placeholder (create new)\n",'ADDTO_WATCH_LATER': "Watch Later",'ADDTO_WATCH_LATER_ADDED': "Added",'ADDTO_WATCH_LATER_ERROR': "Error",'ADDTO_WATCH_QUEUE': "Watch Queue",'ADDTO_WATCH_QUEUE_ADDED': "Added",'ADDTO_WATCH_QUEUE_ERROR': "Error",'ADDTO_TV_QUEUE': "Queue",'ADS_INSTREAM_FIRST_PLAY': "A video ad is playing.",'ADS_INSTREAM_SKIPPABLE': "Video ad can be skipped.",'ADS_OVERLAY_IMPRESSION': "Ad displayed.",'MASTHEAD_NOTIFICATIONS_LABEL': {"other": "# unread notifications.", "case1": "1 unread notification.", "case0": "0 unread notifications."},'MASTHEAD_NOTIFICATIONS_COUNT_99PLUS': "99+"});    yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqa3VPa3dCYUpYZzV4ekpqRlBvYWI4ZGM4S1R5UXxBQ3Jtc0ttblZDNkJMVGh1clZiTzZBa1E2bE5OSDRPMlBNTWN6VjJXeHlEaDFFNUJqOVdTRnVWSmE1WGlJWlZ2cjROLWprYzBWTnVacUZkX29jR2U1WF9rcXBPczZUVU9aTHh6cC1Db21TR2tLV2pQMmFsa3JveFBDU3hQSF8wWklvdXgtZ2cwRUlTR0xXOG4yc1JLX21tOVFCbGRaSjY3Zmc=",
+    'XSRF_REDIRECT_TOKEN': "jtUft01Eat0Bqe2f7nIsHAuz6xZ8MTQ1NTY2NzExNkAxNDU1NTgwNzE2",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+
+  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflFtw76j.css");
+
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-legacy-vflOuSxJN\/www-searchbox-legacy.js",'SBOX_SETTINGS': {"HAS_ON_SCREEN_KEYBOARD":false,"EXPERIMENT_ID":-1,"IS_FUSION":false,"EXPERIMENT_STR":"","PSUGGEST_TOKEN":null,"PQ":"","REQUEST_LANGUAGE":"en","SESSION_INDEX":null,"REQUEST_DOMAIN":"us"},'SBOX_LABELS': {"SUGGESTION_DISMISS_LABEL":"Remove","SUGGESTION_DISMISSED_LABEL":"Suggestion dismissed"}});  yt.setConfig({
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vflcAX4G3\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfl0csEwI.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?service=youtube\u0026uilel=3\u0026hl=en\u0026passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26action_handle_signin%3Dtrue%26next%3D%252F",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?feature=purchases\u0026action_handle_signin=true\u0026skip_identity_prompt=True\u0026next=%2F",
+    'YPC_GB_LANGUAGE': "en_US",
+    'YPC_GB_URL': "https:\/\/checkout.google.com\/inapp\/lib\/buy.js",
+    'YPC_MB_URL': "https:\/\/sandbox.google.com\/payments\/v4\/js\/integrator.js?ss=md",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax",
+    'YTO_GTM_DATA': {"purchaseStatus":"success","event":"purchased"}
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "watch");
+ytcsi.setSpan('st', 211);yt.setConfig({'CSI_LOG_WITH_YT': true,'CSI_SERVICE_NAME': "youtube",'TIMING_ACTION': "watch,watch7ad_html5",'TIMING_INFO': {"yt_err":0,"yt_li":0,"yt_ad_pr":1,"yt_ad":1,"ei":"LGbCVuySFoGb-QWrgrvIBQ","yt_spf":0,"cver":"1.20160211","yt_ad_an":"aftv,afv,dclk","yt_lt":"cold","e":"9412777,9412877,9415327,9416126,9420452,9422596,9423661,9423662,9425282,9425961,9426150,9426217,9427823","c":"WEB","yt_pl":0}});  yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqa3VPa3dCYUpYZzV4ekpqRlBvYWI4ZGM4S1R5UXxBQ3Jtc0ttblZDNkJMVGh1clZiTzZBa1E2bE5OSDRPMlBNTWN6VjJXeHlEaDFFNUJqOVdTRnVWSmE1WGlJWlZ2cjROLWprYzBWTnVacUZkX29jR2U1WF9rcXBPczZUVU9aTHh6cC1Db21TR2tLV2pQMmFsa3JveFBDU3hQSF8wWklvdXgtZ2cwRUlTR0xXOG4yc1JLX21tOVFCbGRaSjY3Zmc=",
+    'XSRF_REDIRECT_TOKEN': "jtUft01Eat0Bqe2f7nIsHAuz6xZ8MTQ1NTY2NzExNkAxNDU1NTgwNzE2",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+</body></html>

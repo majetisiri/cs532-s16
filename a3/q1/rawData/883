@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://opengraphprotocol.org/schema/' xmlns='http://www.w3.org/1999/xhtml'>
+<head prefix='og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#'>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<link href='http://www.stocktwits.com/oexchange.xrd' rel='http://oexchange.org/spec/0.8/rel/related-target' type='application/xrd+xml'>
+<meta content='$TSLA toasted - next target approaching (Still short from 205) - covered a bit, raised stop' name='description'>
+<link href='https://plus.google.com/u/0/107920571829389137493' rel='publisher'>
+<meta content='stock, twitter, stocktwits, stock conversations, stock trends, financial trends, twitter stock, stocks on twitter, stock twitter,financial twitter, financial forum, financial advice, financial conversation, u_false' name='keywords'>
+<meta content='chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='StockTwits' property='og:site_name'>
+<meta content='http://stocktwits.com/lcc007/message/49269899?utm_source=direct-stks.co&amp;utm_medium=community-twitter&amp;utm_campaign=outboundteam' property='og:url'>
+<meta content='687256873' property='fb:admins'>
+<meta content='138643396152005' property='fb:app_id'>
+<meta content='lcc007 shared a chart on StockTwits' property='og:title'>
+<meta content='$TSLA toasted - next target approaching (Still short from 205) - covered a bit, raised stop' property='og:description'>
+<meta content='http://charts.stocktwits.com/production/large_49269899.png?1454686544' property='og:image'>
+<meta content='968E62B7C1F15812E9AEC05A622DCBAB' name='msvalidate.01'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@stocktwits' name='twitter:site'>
+<meta content='lcc007 shared a chart on StockTwits' name='twitter:title'>
+<meta content='Tap into the pulse of the markets and connect with real investors and traders on StockTwits.' name='twitter:description'>
+<meta content='http://charts.stocktwits.com/production/large_49269899.png?1454686544' name='twitter:image:src'>
+<meta content='StockTwits' name='twitter:domain'>
+<meta content='StockTwits' name='twitter:app:name:iphone'>
+<meta content='StockTwits' name='twitter:app:name:googleplay'>
+<meta content='id389157776' name='twitter:app:id:iphone'>
+<meta content='org.stocktwits.android.activity' name='twitter:app:id:googleplay'>
+<meta content='lcc007 shared a chart on StockTwits' name='application-name'>
+<meta content='#89130a' name='msapplication-TileColor'>
+<meta content='//assets1.stocktwits.net/assets/windows8-tile-27c64c7590c68f1835dd95832ca4e8b1.png' name='msapplication-TileImage'>
+<link href='/opensearch.xml' rel='search' title='StockTwits Search' type='application/opensearchdescription+xml'>
+<meta content='StockTwits Inc (stocktwits.com)' name='Author'>
+<meta content='StockTwits' name='Copyright'>
+<meta content='aKYidXr1_551Wb1zJeekLePBo4681p_VKVnkFKPehkw' name='google-site-verification'>
+<meta content='80f3fdc8ba1b0d33' name='y_key'>
+<meta content='C1713B1F6321F08D4DB6862D229ACDFE' name='msvalidate.01'>
+<meta content='app-id=389157776' name='apple-itunes-app'>
+<meta content='StockTwits' name='apple-mobile-web-app-title'>
+<meta content='yes' name='apple-mobile-web-app-capable'>
+<meta content='true' name='HandheldFriendly'>
+<title>lcc007 - $TSLA toasted - next target approaching (Still short from 20... | StockTwits</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="cxVDuntU/+0VXZWG0LMYppFdBrgen7qLuDVg/F7IneA=" name="csrf-token" />
+<link href='//assets0.stocktwits.net/assets/favicon-16x16-443c9dfd38f40947831703f04aaecc68.png' rel='icon' sizes='16x16'>
+<link href='//assets3.stocktwits.net/assets/favicon-32x32-c5b4f57eec22f4c5e0d41c4b495605d0.png' rel='icon' sizes='32x32'>
+<link href='//assets0.stocktwits.net/assets/apple-touch-icon-eefa186a0f54e51d68ecc3e4019158af.png' rel='apple-touch-icon'>
+<link href='/opensearch.xml' rel='search' title='StockTwits Search' type='application/opensearchdescription+xml'>
+<link href='http://stocktwits.com/lcc007/message/49269899' rel='canonical'>
+<link href="//assets0.stocktwits.net/assets/mega-1fc6d81af4c3413fdff70f5f9b2ab309.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="//assets1.stocktwits.net/assets/search/search-3190e82e734d0e33ab18d8988ae74472.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script src="//code.highcharts.com/stock/highstock.js" type="text/javascript"></script>
+<script src="//code.highcharts.com/stock/modules/exporting.js" type="text/javascript"></script>
+<script src="http:////cdn.embedly.com/widgets/platform.js" type="text/javascript"></script>
+<script src="http:////cdn.embed.ly/jquery.embedly-3.1.1.min.js" type="text/javascript"></script>
+<script src="http:////cdn.embed.ly/player-0.0.10.min.js" type="text/javascript"></script>
+<script src="http:////native.sharethrough.com/assets/sfp.js" type="text/javascript"></script>
+<script>
+  var stwtGlobal = {"features":{"advanced_search":false},"search_bucket":"control","staging":false};
+</script>
+<script>
+  (function(t,e){var n=t.amplitude||{};var r=e.createElement("script");r.type="text/javascript";
+  r.async=true;r.src="https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-2.5.0-min.gz.js";
+  r.onload=function(){t.amplitude.runQueuedFunctions()};var s=e.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(r,s);var i=function(){this._q=[];return this};function o(t){
+  i.prototype[t]=function(){this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
+  return this}}var a=["add","set","setOnce","unset"];for(var u=0;u<a.length;u++){o(a[u]);
+  }n.Identify=i;n._q=[];function c(t){n[t]=function(){n._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
+  }}var l=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify"];
+  for(var p=0;p<l.length;p++){c(l[p])}t.amplitude=n})(window,document);
+  var userId = typeof stwtGlobal.user !== 'undefined' ? stwtGlobal.user.id.toString() : '';
+  amplitude.init("51f81c5a170ab6e84cb0eff7a3a77327", userId);
+</script>
+<script src="//assets0.stocktwits.net/assets/all-516b16e6f0545039e4a863bcbee9c440.js" type="text/javascript"></script>
+
+<script>
+  var messageBoxModalInstance = null;
+</script>
+<script type='text/javascript'>
+var _authenticity_token = "cxVDuntU/+0VXZWG0LMYppFdBrgen7qLuDVg/F7IneA=";
+</script>
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-103142-41']);
+  _gaq.push(['_setDomainName', 'stocktwits.com']);
+  _gaq.push(['_setCustomVar', 1, 'User_Type', 'Visitor', 2]);
+</script>
+<script>
+  gaFirstTouch.asyncFirstTouch(_gaq);
+</script>
+<script>
+  _gaq.push(['_trackPageview', location.pathname + location.search  + location.hash]);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+  
+  var WRInitTime=(new Date()).getTime();
+</script>
+
+<script>
+  var _qevents = _qevents || [];
+  
+  (function() {
+   var elem = document.createElement('script');
+  
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);
+  })();
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-4NNL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-4NNL');</script>
+<script>Analytics.push({"sessionDate":"2016-02-15T23:58:45+00:00","sessionPlatform":"web","visitorLoginState":"unauthenticated","searchBucket":"control"}); Analytics.push({"sessionVisits":1}); Analytics.push({"sessionDate":"2016-02-15T23:58:45+00:00","sessionPlatform":"web","visitorLoginState":"unauthenticated","searchBucket":"control"}); Analytics.push({"event":"userPropsSet"});</script>
+<!-- End Google Tag Manager -->
+
+<script>
+  (function(){
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '775302222583971']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript>
+<img alt='' height='1' src='https://www.facebook.com/tr?id=775302222583971&amp;amp;ev=PixelInitialized' style='display:none' width='1'>
+</noscript>
+
+<script>
+  (function() {
+    function async_load(script_url){
+      var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+      var s = document.createElement('script'); s.src = protocol + script_url;
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    }
+    bm_website_code = '37C4610665564CD1';
+    $(document).ready(function(){async_load('asset.pagefair.com/measure.min.js')});
+    $(document).ready(function(){async_load('asset.pagefair.net/ads.min.js')});
+  })();
+</script>
+
+
+<script src='http://partner.googleadservices.com/gampad/google_service.js' type='text/javascript'></script>
+<script>
+  GS_googleAddAdSenseService("ca-pub-1290514505890510");
+  GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+<script>
+  GA_googleAddSlot("ca-pub-1290514505890510", "Human_Ticker");
+</script>
+<script>
+  GA_googleAddSlot("ca-pub-1290514505890510", "Lijit_Passback");
+</script>
+<script>
+  GA_googleAddSlot("ca-pub-1290514505890510", "Trending_Bar");
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5ca7eb422d","applicationID":"127810","transactionName":"dlhZEUZaXQlRQRZUUEZEVgJRRh4WXFxO","queueTime":1,"applicationTime":98,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEPUV5ACQEHXFBS"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+<script src='http://c.jsrdn.com/s/cs.js?p=22208' type='text/javascript'></script>
+</head>
+
+<body class='single-page'>
+<a name='top'></a>
+<div id='wrapper'>
+<div id='mobile-banner'>
+<div id='smart-banner'></div>
+</div>
+<div class='' id='page-top'>
+<div class='logged-out' id='global-header'>
+<div class='clearfix' id='header-inside'>
+<a class='logged-out' href='/' id='logo' name='logo'>StockTwits®</a>
+<ul class='logged-out' id='stocktwits-nav'>
+<li>
+<a href='/home' id='navigation-home'>
+Streams
+</a>
+</li>
+<li>
+<a href='/signals/heatmap' id='navigation-signals'>
+Heat Map
+</a>
+</li>
+</ul>
+<ul class='logged-out' id='user-info'>
+<li class='logged-out'>
+<div id='sign-in-box'>
+<a class='button signin-widget-join' href='/signup' id='sign-up' mixpanel-id='Join Top Nav'>Join</a>
+<a class='button' href='/signin' id='sign-in'>Sign In</a>
+</div>
+</li>
+</ul>
+<div id='search-holder'>
+<form action='/search' class='logged-out' id='global-search-form' method='get'>
+<label for='glb-search'>
+Explore StockTwits
+</label>
+<input autocomplete='off' class='searchField' id='glb-search' name='q' placeholder='' size='9' tabindex='1' title='' type='text'>
+<input name='country' type='hidden' value='US'>
+<div class='search-autocomplete' data-country='US' id='search-autocomplete-container' style='display: none'></div>
+</form>
+</div>
+</div>
+<div class='clearfix ticker-dark' id='trending-container'>
+<div id='indices-container'>
+<div id='trending-ad'>
+<span>Sponsored<br/>by:</span>
+<div id='ic-trending-ad' style='float: right'>
+<script src='http://ads.investingchannel.com/adtags/stocktwits/searchbx/88x31.js?kval=searchbx' type='text/javascript'></script>
+</div>
+</div>
+<div id='indices'>
+Dow
+<div class='pricing'><span class='metric-change' style='display: inline-block;'>
+<span class='change-image positive'></span>
+<span class='change positive'>
+<span class='metric'>313.66</span>
+</span>
+</span>
+</div>
+S&amp;P 500
+<div class='pricing'><span class='metric-change' style='display: inline-block;'>
+<span class='change-image positive'></span>
+<span class='change positive'>
+<span class='metric'>35.7</span>
+</span>
+</span>
+</div>
+Nasdaq
+<div class='pricing'><span class='metric-change' style='display: inline-block;'>
+<span class='change-image positive'></span>
+<span class='change positive'>
+<span class='metric'>70.67</span>
+</span>
+</span>
+</div>
+</div>
+</div>
+<div id='trending-wrapper'>
+<div id='mobile-trending'>
+<span id='trending-corner'></span>
+<span id='trending-logo'></span>
+</div>
+<div id='trending-headline'>
+Trending
+<div class='emphasis'>
+Tickers
+</div>
+</div>
+<div class='clearfix' id='scrollingText'>
+<a class='with-ticker-card' data-symbol='HMC' href='/symbol/HMC' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'HMC']);">HMC</a>
+<a class='with-ticker-card' data-symbol='HRL' href='/symbol/HRL' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'HRL']);">HRL</a>
+<a class='with-ticker-card' data-symbol='VTI' href='/symbol/VTI' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'VTI']);">VTI</a>
+<a class='with-ticker-card' data-symbol='VOO' href='/symbol/VOO' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'VOO']);">VOO</a>
+<a class='with-ticker-card' data-symbol='SONS' href='/symbol/SONS' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'SONS']);">SONS</a>
+<a class='with-ticker-card' data-symbol='CBI' href='/symbol/CBI' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'CBI']);">CBI</a>
+<a class='with-ticker-card' data-symbol='SPWR' href='/symbol/SPWR' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'SPWR']);">SPWR</a>
+<a class='with-ticker-card' data-symbol='EWJ' href='/symbol/EWJ' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'EWJ']);">EWJ</a>
+<a class='with-ticker-card' data-symbol='TRIP' href='/symbol/TRIP' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'TRIP']);">TRIP</a>
+<a class='with-ticker-card' data-symbol='IWF' href='/symbol/IWF' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'IWF']);">IWF</a>
+<a class='with-ticker-card' data-symbol='CDZI' href='/symbol/CDZI' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'CDZI']);">CDZI</a>
+<a class='with-ticker-card' data-symbol='BP' href='/symbol/BP' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'BP']);">BP</a>
+<a class='with-ticker-card' data-symbol='OIH' href='/symbol/OIH' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'OIH']);">OIH</a>
+<a class='with-ticker-card' data-symbol='TM' href='/symbol/TM' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'TM']);">TM</a>
+<a class='with-ticker-card' data-symbol='EFA' href='/symbol/EFA' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'EFA']);">EFA</a>
+<a class='with-ticker-card' data-symbol='HIMX' href='/symbol/HIMX' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'HIMX']);">HIMX</a>
+<a class='with-ticker-card' data-symbol='IVV' href='/symbol/IVV' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'IVV']);">IVV</a>
+<a class='with-ticker-card' data-symbol='ADPT' href='/symbol/ADPT' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'ADPT']);">ADPT</a>
+<a class='with-ticker-card' data-symbol='SCO' href='/symbol/SCO' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'SCO']);">SCO</a>
+<a class='with-ticker-card' data-symbol='SMH' href='/symbol/SMH' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'SMH']);">SMH</a>
+<a class='with-ticker-card' data-symbol='DF' href='/symbol/DF' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'DF']);">DF</a>
+<a class='with-ticker-card' data-symbol='EGRX' href='/symbol/EGRX' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'EGRX']);">EGRX</a>
+<a class='with-ticker-card' data-symbol='MDLZ' href='/symbol/MDLZ' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'MDLZ']);">MDLZ</a>
+<a class='with-ticker-card' data-symbol='BHP' href='/symbol/BHP' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'BHP']);">BHP</a>
+<a class='with-ticker-card' data-symbol='STNG' href='/symbol/STNG' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'STNG']);">STNG</a>
+<a class='with-ticker-card' data-symbol='RGR' href='/symbol/RGR' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'RGR']);">RGR</a>
+<a class='with-ticker-card' data-symbol='GPI' href='/symbol/GPI' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'GPI']);">GPI</a>
+<a class='with-ticker-card' data-symbol='GSK' href='/symbol/GSK' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'GSK']);">GSK</a>
+<a class='with-ticker-card' data-symbol='A' href='/symbol/A' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'A']);">A</a>
+<a class='with-ticker-card' data-symbol='MPEL' href='/symbol/MPEL' onclick="_gaq.push(['_trackEvent', 'Trending Ticker', 'Clicked', 'MPEL']);">MPEL</a>
+
+</div>
+</div>
+</div>
+
+<div id='global-notification-notice-wrapper'>
+<div class='global-notification-item-wrapper' id='global-notification-item-1'>
+<div class='global-notification-top'>
+<div class='global-notification-item'>
+<p>
+You can't like your own messages.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--[if lte IE 8]>
+<div class="ie8">
+<![endif]-->
+<div class='clearfix' id='msg-contain'>
+
+<div class='clearfix single-msg' id='content-box'>
+<script>
+  $(document).ready(function() { window.singleMessageShareBox = new ShareBox('#single-page-message-box'); });
+</script>
+<div class='conversation-contain clear'>
+<div style='position:relative; z-index: 0;'>
+<ol class='stream-list simple-style stream-poller conversation-stream' data-modal='false' id='updates'>
+<li id='message-box-reply' style='display: none'>
+<div class='clearfix message-box3' id='single-page-message-box'>
+<form action='/messages/post' enctype='multipart/form-data' id='single-page-message-box-form' method='post'>
+<div class='mb3-avatar'>
+<div class='msgSource'></div>
+<img height='60' src='//assets0.stocktwits.net/assets/default-avatar-thumb-6e8a8fe97e8ab46dfb8bb00ad1447de5.jpg' width='60'>
+</div>
+<div class='mb3-container'>
+<div class='mb3-carat'></div>
+<div class='mb3-top clearfix'>
+<div class='chart1 hidden'>
+<img class='mb3-loader' src='//assets1.stocktwits.net/assets/web2/loading-more-messages-16ed503676666265830506d44a8816d1.gif'>
+</div>
+<div class='chart2 hidden'>
+<a class='mb3-close chart-close' href='javascript:void(0)'>Close</a>
+<img class='mb3-chart-thumb' src='//assets1.stocktwits.net/assets/web2/dev-avatar-50a990eb13df137d304c4a495f62e001.jpg'>
+</div>
+<div class='chart-container'>
+<a class='mb3-btn mb3-upload' mixpanel-id='chart upload' onclick='STAction.signup(this)'>Chart</a>
+</div>
+<div class='mb3-drop mb3-drop-upload hidden'>
+<div class='mb3-drop-top' style='box-shadow: 1px 0 0 #909090; left:278px;'>
+<div class='mb3-btn mb3-upload'>Include Media</div>
+</div>
+<div class='mb3-drop-content clearfix' style='left: 0; width:270px;'>
+<a class='mb3-close' href='javascript:void(0)'>Close</a>
+<h3>Include Media</h3>
+<hr>
+<div class='mb3-upload-choice' style='margin-right:10px;'>
+<a class='js-file-upload' href='javascript:void(0)'>
+Upload Chart
+</a>
+</div>
+<div class='mb3-upload-choice'>
+<a class='screencast-start' href='javascript:void(0)'>
+Record Screencast
+</a>
+</div>
+</div>
+</div>
+<div class='message-autocomplete'></div>
+<input name='authenticity_token' type='hidden' value='cxVDuntU/+0VXZWG0LMYppFdBrgen7qLuDVg/F7IneA='>
+<div class='cursor hidden'></div>
+<textarea class='message-text' data-default='Add to the conversation' data-focus='' data-scroll-top-fix='disabled' name='body' style=' height: 100%; color:#898989'>Add to the conversation</textarea>
+<div class='reshare-message-text'></div>
+</div>
+<div class='mb3-steps hidden'>
+<input class='reshare-message-id' name='reshare_message_id' type='hidden'>
+<input class='chart-upload-id' name='chart_upload_id' type='hidden'>
+<input class='video-media-key' name='video_media_key' type='hidden'>
+<input class='video-width' name='video_width' type='hidden'>
+<input class='video-height' name='video_height' type='hidden'>
+<input class='video-duration' name='video_duration' type='hidden'>
+</div>
+<div class='mb3-bottom clearfix toggle hidden'>
+<div class='mb3-distribution'>
+<a class='social-connection-link mb3-btn mb3-tw' href='javascript:void(0)'>Twitter</a>
+<a class='social-connection-link mb3-btn mb3-fb' href='javascript:void(0)'>Facebook</a>
+<a class='social-connection-link mb3-btn mb3-li' href='javascript:void(0)'>LinkedIn</a>
+<div class='mb3-drop mb3-drop-tw hidden'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-tw mb3-on'>Twitter</div>
+</div>
+<div class='mb3-drop-content'>
+<a class='mb3-close' href='javascript:void(0)'>Close</a>
+<h3>
+Add Twitter Connection
+</h3>
+<hr>
+<p>
+To post messages to your Twitter account, you must first give authorization from Twitter.com
+</p>
+<a class='button btn-yellow mb3-sc-link' data-connection='twitter'>
+Connect with Twitter
+</a>
+</div>
+</div>
+<div class='mb3-drop mb3-drop-fb hidden'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-fb mb3-on'>Facebook</div>
+</div>
+<div class='mb3-drop-content'>
+<a class='mb3-close' href='javascript:void(0)'>Close</a>
+<h3>
+Add Facebook Connection
+</h3>
+<hr>
+<p>
+To post messages to your Facebook account, you must first give authorization from Facebook.com
+</p>
+<a class='button btn-yellow mb3-sc-link' data-connection='facebook'>
+Connect with Facebook
+</a>
+</div>
+</div>
+<div class='mb3-drop mb3-drop-li hidden'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-li mb3-on'>LinkedIn</div>
+</div>
+<div class='mb3-drop-content'>
+<a class='mb3-close' href='javascript:void(0)'>Close</a>
+<h3>
+Add LinkedIn Connection
+</h3>
+<hr>
+<p>To post messages to your LinkedIn account, you must first give authorization from LinkedIn.com</p>
+<a class='button btn-yellow mb3-sc-link' data-connection='linkedin'>
+Connect with LinkedIn
+</a>
+</div>
+</div>
+<div class='mb3-drop mb3-drop-tw-broken hidden'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-tw mb3-on'>Twitter</div>
+</div>
+<div class='mb3-drop-content'>
+<a class='mb3-close' connection='twitter' href='javascript:void(0)'>Close</a>
+<h3>
+Social Connection Issue
+</h3>
+<hr>
+<p>We have detected a connection issue. Reconnect to resume messaging to Twitter.</p>
+<a class='button btn-yellow mb3-sc-link' data-connection='twitter'>
+Reconnect Account
+</a>
+</div>
+</div>
+<div class='mb3-drop mb3-drop-fb-broken hidden'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-fb mb3-on'>Facebook</div>
+</div>
+<div class='mb3-drop-content'>
+<a class='mb3-close' connection='facebook' href='javascript:void(0)'>Close</a>
+<h3>
+Social Connection Issue
+</h3>
+<hr>
+<p>We have detected a connection issue. Reconnect to resume messaging to Facebook.</p>
+<a class='button btn-yellow mb3-sc-link' data-connection='facebook'>
+Reconnect Account
+</a>
+</div>
+</div>
+<div class='mb3-drop mb3-drop-li-broken hidden'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-li mb3-on'>LinkedIn</div>
+</div>
+<div class='mb3-drop-content'>
+<a class='mb3-close' connection='linkedin' href='javascript:void(0)'>Close</a>
+<h3>
+Social Connection Issue
+</h3>
+<hr>
+<p>We have detected a connection issue. Reconnect to resume messaging to LinkedIn.</p>
+<a class='button btn-yellow mb3-sc-link' data-connection='linkedin'>
+Reconnect Account
+</a>
+</div>
+</div>
+<div class='mb3-drop mb3-drop-save hidden'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-save mb3-on'>Drafts</div>
+</div>
+<div class='mb3-drop-content'>
+<a class='mb3-close' href='javascript:void(0)'>Close</a>
+<p style='color: #898989;'>To save a draft you must first compose a message in the message box.</p>
+<a class='button draft-button'>
+Compose message
+</a>
+</div>
+</div>
+<div class='hidden mb3-drop mb3-drop-schedule'>
+<div class='mb3-drop-top'>
+<div class='mb3-btn mb3-schedule mb3-on'>Schedule</div>
+</div>
+<div class='mb3-drop-content' style='width: 300px;'>
+<a class='mb3-close' href='javascript:void(0)'>Close</a>
+<div class='js-schedule-wrapper mb3-sched-bottom clearfix'>
+<div class='message-box-calendar'></div>
+<div class='schedule-drop-col2'>
+<input class='schedule-date schedule-form' id='schedule-date' name='schedule-email' type='text'>
+<input class='schedule-time' id='schedule_time' name='schedule_time' type='text'>
+<div class='scheduled-timezone'></div>
+<input class='email-on-publish schedule-form' name='schedule-email' type='checkbox'>
+<label>Email me when message is sent</label>
+<a class='button mb3-button-schedule' href='javascript:void(0)'>Schedule</a>
+</div>
+<div class='calendar-status-negative mb3-status-error'></div>
+</div>
+</div>
+</div>
+<span class='mb3-note'></span>
+</div>
+<div class='sentiment-selector'>
+<input class='sentiment-select-1' group='chart-sentiment' id='sentiment-1' name='sentiment' type='radio' value='Bearish'>
+<input checked='checked' class='sentiment-select-2' group='chart-sentiment' id='sentiment-2' name='sentiment' type='radio' value='Neutral'>
+<input class='sentiment-select-3' group='chart-sentiment' id='sentiment-3' name='sentiment' type='radio' value='Bullish'>
+<div class='sentiment-display-1'>
+<span>Handle</span>
+<label for='sentiment-1'>Bearish</label>
+</div>
+<div class='sentiment-display-2'>
+<span>N/A</span>
+<label for='sentiment-2'>
+<em class='bear'>Bear</em>
+<em class='bull'>Bull</em>
+</label>
+</div>
+<div class='sentiment-display-3'>
+<span>Handle</span>
+<label for='sentiment-3'>Bullish</label>
+</div>
+</div>
+<span class='mb3-counter'>140</span>
+</div>
+</div>
+<div class='mb3-share clearfix toggle hidden'>
+<div class='mb3-js-wrap-buttons'>
+<input class='mb3-button button js-submit-button' type='submit' value='Share'>
+<a class='disabled-spinner js-spinning-button hidden'>
+<img src='//assets1.stocktwits.net/assets/web2/loading-more-messages-16ed503676666265830506d44a8816d1.gif'>
+</a>
+</div>
+<p class='mb3-status mb3-status-error' id='error'></p>
+</div>
+<div class='mb3-share clearfix'>
+<p class='mb3-status mb3-status-positive' id='status'></p>
+</div>
+</form>
+</div>
+
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id='single-msg-col-right'>
+<div class='right-col-content'>
+<div id='message-ad-1'></div>
+<!--
+<iframe allowtransparency='true' frameborder='0' height='250' marginheight='0' marginwidth='0' scrolling='no' src='http://ads.investingchannel.com/adtags/stocktwits/equities/300x250.html' style='padding-bottom: 40px' width='300'></iframe>
+-->
+<iframe allowtransparency='true' frameborder='0' height='250' marginheight='0' marginwidth='0' scrolling='no' src='http://ads.investingchannel.com/adtags/stocktwits/equities/300x250.html' style='padding-bottom: 40px' width='300'></iframe>
+<div>
+<div class='side-item sponsor compare-brokers' style='background-color: #EEE;'>
+<script charset='uft-8' src='http://ads.investingchannel.com/adtags/stocktwits/home/300x384.js?pc=pc&amp;' type='text/javascript'></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--[if lte IE 8]>
+</div>
+<![endif]-->
+<script>
+  var collection = new STWT.SingleMessageCollection({"signed_in":null,"message_id":49269899,"container":".conversation-contain #updates","conversation_id":null,"older_index_id":null,"newer_index_id":null,"large":null,"modal":false});
+  collection.load([{"id":49269899,"in_reply_to_message_id":null,"message_type":"normal","message_source":"default","created_at":"Fri, 05 Feb 2016 15:35:39 -0000","direct":false,"mention_ids":[],"user_path":"/lcc007","avatar_url":"http://avatars.stocktwits.com/production/114180/thumb-1454532079.png?1454532079","avatar_url_ssl":"https://s3.amazonaws.com/st-avatars/production/114180/thumb-1454532079.png?1454532079","investor_relations":false,"body":"$TSLA toasted - next target approaching (Still short from 205) - covered a bit, raised stop","links":[],"total_likes":2,"latest_likes":[{"login":"Darling","avatar_url":"http://avatars.stocktwits.com/production/264773/tiny-1380145989.png?1380145989"},{"login":"StockTwits","avatar_url":"http://avatars.stocktwits.com/production/170/tiny-1409235653.png?1409235653"}],"source":null,"user":{"id":114180,"username":"lcc007","name":"Les"},"classes":"default suggested","view_chart":{"classes":"chart-icon","path":"/message/49269899#49269899","type":"chart","thumbnail":"http://charts.stocktwits.com/production/stream_49269899.?1454686544","image":{"small":"http://charts.stocktwits.com/production/small_49269899.png?1454686544","medium":"http://charts.stocktwits.com/production/medium_49269899.png?1454686544","stream":"http://charts.stocktwits.com/production/stream_49269899.?1454686544","large":"http://charts.stocktwits.com/production/large_49269899.png?1454686544","original":"http://charts.stocktwits.com/production/original_49269899.?1454686544"}},"total_reshares":0,"sentiment":{"class":"bearish","name":"Bearish"},"liked":false,"selected_message":true,"prices":[{"price":"164.55","formatted_price":"Feb. 12 at 7:58 PM EST","change_since_message":"-13.75","positive_or_negative":"negative","stock":{"title":"Tesla Motors, Inc.","price":"150.80","quote_symbol":"TSLA","formatted_symbol":"TSLA","positive_or_negative":"positive","rise_or_fall_symbol":"+","formatted_change":"0.33","percent_change":"0.22"}}],"prices_count":1,"prices_single":true}]);
+</script>
+
+<div id='global-footer'>
+<ul class='footer footer-links clearfix'>
+<li>
+<a href='/about'>About</a>
+</li>
+<li>
+<a href='http://help.stocktwits.com/'>Help</a>
+</li>
+<li>
+<a href='http://blog.stocktwits.com/'>Blog</a>
+</li>
+<li>
+<a href='/team#careers'>Careers</a>
+</li>
+<li>
+<a href='/press'>Press</a>
+</li>
+<li>
+<a href='/goodies'>Tools</a>
+</li>
+<li class='no-bullet-clear no-bullet-side'>
+<a href='/mobile'>Mobile</a>
+</li>
+<li>
+<a href='/developers'>Developers</a>
+</li>
+<li>
+<a href='/official_accounts'>Official</a>
+</li>
+<li>
+<a href='/rules'>House Rules</a>
+</li>
+<li>
+<a href='/best_practices'>Best Practices</a>
+</li>
+</ul>
+<ul class='footer footer-connect clearfix'>
+<li class='label'>
+<strong>
+Connect with us:
+</strong>
+</li>
+<li>
+<a href="/stocktwits"><i class="icon-st_icon"></i></a>
+</li>
+<li>
+<a href="http://twitter.com/stocktwits"><i class="icon-twitter"></i></a>
+</li>
+<li>
+<a href="http://facebook.com/stocktwits"><i class="icon-facebook-sign"></i></a>
+</li>
+</ul>
+<ul class='footer footer-line-2 clearfix'>
+<li class='logomark'>
+<div class='stw-sprite-3 sprite-logomark-medium'></div>
+</li>
+<li class='no-bullet'>
+<a href='/terms'>Terms</a>
+</li>
+<li>
+<a href='/privacy'>Privacy</a>
+</li>
+<li>
+<a href='/disclaimer'>Disclaimer</a>
+</li>
+<li class='no-bullet-side no-bullet-clear'>
+<a href="http://xignite.com" rel="nofollow" target="_blank">Market Data</a> by Xignite
+and <a href="http://www.batstrading.com" target="_blank">BATS BZX Real-Time Price</a>
+&copy; 2016 StockTwits, Inc.
+<!-- Version 2.3.0 -->
+</li>
+</ul>
+</div>
+
+</div>
+<script>
+  $(document).ready(function(){
+    $('#modal-signin-form').on('submit', function() {
+      amplitude.logEvent('Logged In', {
+        Platform: stwtGlobal.platform,
+        AccountType: 'StockTwits'
+      });
+    });
+  });
+</script>
+<div id='default-modal' style='display: none'>
+<div class='signin-modal' id='signin-modal-signin'>
+<a class='default-modal-close close-gray' href='javascript:void(0)'>X</a>
+<div class='sign-in-out' style=''>
+<h1>Sign In</h1>
+<script>
+  $(document).ready(function(){
+    $('#signin-form').on('submit', function() {
+      amplitude.logEvent('Logged In', {
+        Platform: stwtGlobal.platform,
+        AccountType: 'StockTwits'
+      });
+    });
+  });
+</script>
+<form accept-charset="UTF-8" action="https://stocktwits.com/signin" autocomplete="off" class="default-form hp-v5-form clearfix" id="modal-signin-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cxVDuntU/+0VXZWG0LMYppFdBrgen7qLuDVg/F7IneA=" /></div><div class='l-v5'>
+Username or Email
+</div>
+<input autocomplete="off" class="username-field" id="modal-signin-form_username" name="user_session[login]" placeholder="Username or Email" size="23" type="text" />
+<div class='l-v5'>
+PAssword
+</div>
+<input autocomplete="off" class="password-field" id="modal-signin-form_password" name="user_session[password]" placeholder="Password" size="23" style="margin-bottom:0;" type="password" />
+<div class='label-contain float-right forgot-password' style='margin-top: 26px; margin-right:-10px;'>
+Forgot Password
+<a href="/account/request_password_reset" class="note" target="_blank">Click Here</a>
+</div>
+<div class='forgot-password-mobile'>
+<a href="/account/request_password_reset" target="_blank">Forgot Password?</a>
+</div>
+<div class='checkbox clearfix' style='width: 150px;'>
+<input name="user_session[remember_me]" type="hidden" value="0" /><input checked="checked" class="check-box" id="user_session_remember_me" name="user_session[remember_me]" style="float: left" type="checkbox" value="1" />
+<div class='fffix'>
+<label for="user_session_remember_me" style="font-weight:normal; ">Remember me</label>
+</div>
+</div>
+<input id="popout" name="popout" type="hidden" />
+<input id="party" name="party" type="hidden" />
+<input class='default-modal-redirect-to' name='redirect_to' type='hidden' value='/lcc007/message/49269899?utm_source=direct-stks.co&amp;utm_medium=community-twitter&amp;utm_campaign=outboundteam'>
+<input class='button btn-blue float-left' id='submit' style='margin-bottom: 24px;padding: 5px 0 4px;min-width: 145px;margin-top: 0;font-size: 19px;' type='submit' value='Sign In'>
+<div class='social-contain'>
+<h4 class='social-signin'>
+Sign in
+<br>
+Using:
+</h4>
+<h4 class='social-signin-mobile'>
+Or Sign in Using:
+</h4>
+<ul class='social-signin'>
+<li class='mb3-tw'><a href="#" onclick="window.open(&#x27;/auth/twitter&#x27;, &#x27;twitter&#x27;, &#x27;width=800,height=410,status=0,toolbar=0,location=0&#x27;);amplitude.logEvent(&#x27;Logged In&#x27;, {AccountType: &#x27;Twitter&#x27;, Platform: stwtGlobal.platform}); _gaq.push([&#x27;_trackEvent&#x27;, &#x27;Connect&#x27;, &#x27;Twitter&#x27;, &#x27;&#x27;]);; return false;">Twitter</a></li>
+<li class='mb3-fb'><a href="#" onclick="window.open(&#x27;/auth/facebook&#x27;, &#x27;facebook&#x27;, &#x27;width=600,height=400,status=0,toolbar=0,location=0&#x27;);amplitude.logEvent(&#x27;Logged In&#x27;, {AccountType: &#x27;Facebook&#x27;, Platform: stwtGlobal.platform}); _gaq.push([&#x27;_trackEvent&#x27;, &#x27;Connect&#x27;, &#x27;Facebook&#x27;, &#x27;&#x27;]);; return false;">Facebook</a></li>
+<li class='mb3-li'><a href="#" onclick="window.open(&#x27;/auth/linkedin&#x27;, &#x27;linkedin&#x27;, &#x27;width=600,height=400,status=0,toolbar=0,location=0&#x27;);amplitude.logEvent(&#x27;Logged In&#x27;, {AccountType: &#x27;LinkedIn&#x27;, Platform: stwtGlobal.platform}); _gaq.push([&#x27;_trackEvent&#x27;, &#x27;Connect&#x27;, &#x27;LinkedIn&#x27;, &#x27;&#x27;]);; return false;">LinkedIn</a></li>
+</ul>
+</div>
+</form>
+
+<hr>
+<span class='account-signup'>
+Don't have an account?
+<a class='signin-widget-join' href='/signup'>Join StockTwits</a>
+</span>
+<script>
+  $(document).ready(function() { SignInWidget({ formId: '#modal-signin-form' }); });
+</script>
+
+</div>
+</div>
+<div class='hidden signin-modal' id='signin-modal-signin-link'>
+<a class='default-modal-close close-gray' href='javascript:void(0)'>X</a>
+<div class='sign-in-out' style=''>
+<div class='social-welcome' style='display: none'></div>
+<form accept-charset="UTF-8" action="https://stocktwits.com/signin-link" autocomplete="off" class="default-form hp-v4-form clearfix" id="modal-signin-link-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cxVDuntU/+0VXZWG0LMYppFdBrgen7qLuDVg/F7IneA=" /></div><input autocomplete="off" class="username-field" id="modal-signin-login" name="user_session[login]" placeholder="Username or Email" size="23" type="text" />
+<input autocomplete="off" class="password-field" id="modal-signin-password" name="user_session[password]" placeholder="Password" size="23" type="password" />
+<div class='label-contain float-right' style='margin-top: 15px; margin-right:4px;'>
+<a href="/account/request_password_reset" class="note" target="_blank">Forgot password?</a>
+</div>
+<div class='checkbox clearfix' style='width: 120px;'>
+<input name="user_session[remember_me]" type="hidden" value="0" /><input class="check-box" id="user_session_remember_me" name="user_session[remember_me]" style="float: left" type="checkbox" value="1" />
+<div class='fffix'>
+<label for="user_session_remember_me" style="font-weight:normal; font-size:12px;">Remember me</label>
+</div>
+</div>
+<input id="popout" name="popout" type="hidden" />
+<input id="party" name="party" type="hidden" />
+
+<input class='button btn-green float-left' id='submit' style='margin-bottom: 24px;padding: 5px 0 4px;min-width: 145px;margin-top: 0;font-size: 19px;' type='submit' value='Sign In'>
+</form>
+
+<div class='clear'></div>
+</div>
+</div>
+<div class='hidden signin-modal' id='signin-modal-one-step-signup'>
+<a class='default-modal-close close-gray' href='javascript:void(0)'>X</a>
+<div class='sign-in-out one-step-signup-modal clearfix' style=''>
+<div class='social-welcome' style='display: none'></div>
+<h1>Join Now. It's Free.</h1>
+<form accept-charset="UTF-8" action="https://stocktwits.com/signup" class="hp-v5-form default-form" id="one-step-signup" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cxVDuntU/+0VXZWG0LMYppFdBrgen7qLuDVg/F7IneA=" /></div><div class='l-v5'>Full Name</div>
+<div class='hint--top' data-hint='Enter your name or company name.'>
+<input autocomplete='off' id='one-step-full-name' name='user[name]' placeholder='Full Name' tabindex='5' type='text'>
+</div>
+<div class='l-v5'>Email Address</div>
+<div class='hint--top' data-hint='Enter a valid email address.'>
+<input autocomplete='off' id='one-step-email' name='user[email]' placeholder='Email Address' tabindex='6' type='text'>
+</div>
+<div class='l-v5'>Password</div>
+<div class='hint--top' data-hint='Must contain 6 characters and 1 number.'>
+<input id='one-step-pass' name='user[password]' placeholder='Password' tabindex='7' type='password'>
+</div>
+<div class='l-v5'>Username</div>
+<div class='hint--top last' data-hint='Enter your username.'>
+<input id='one-step-user' name='user[login]' placeholder='Username' tabindex='8' type='text'>
+</div>
+<div class='suggested-usernames' data-usernames=''>
+<span>May we suggest?</span>
+<br>
+</div>
+<input checked='checked' id='terms-of-service' name='terms' tabindex='9' type='checkbox' value='1'>
+<input id="return_to" name="return_to" type="hidden" />
+<input id="party" name="party" type="hidden" />
+<input id="follow" name="follow" type="hidden" />
+<input id="watch_stock" name="watch_stock" type="hidden" />
+<input id="modal_submit" name="modal_submit" type="hidden" value="one_step_signup" />
+<input id="party" name="party" type="hidden" />
+<input id="follow" name="follow" type="hidden" />
+<input id="follow_stock" name="follow_stock" type="hidden" />
+<input class='sign-up-modal-redirect-to' name='return_to' type='hidden'>
+<input class='btn-blue button' id='one-step-submit' tabindex='10' type='submit' value='Sign Up'>
+<div class='terms-container'>
+<div class='agreement'>By signing up you agree to our <a href="/terms">Terms of Service</a></div>
+<div class='tos'>
+<div class='scroller'>
+<p class='header'>StockTwits Terms of Service</p>
+</div>
+</div>
+</div>
+<div class='signin-toggle'>
+<p>
+Already have an account?
+<a class='modal-signin-link' href='javascript:void(0)'>Sign In</a>
+</p>
+</div>
+</form>
+
+<script>
+  $(document).ready(function() { SignUpWidget({ formId: '#one-step-signup' }); SignUpNew.step2(); });
+</script>
+
+</div>
+<div class='signup-benifits'>
+<h1>Benefits</h1>
+<p>
+StockTwits is 100% Free!
+</p>
+<hr>
+<p>
+Create your own stock
+<br>
+portfolio watchlist
+</p>
+<hr>
+<p>
+Full access to all ticker
+<br>
+Streams and data tools
+</p>
+<hr>
+<p>
+Follow and learn from your
+<br>
+favorite market leaders
+</p>
+<hr>
+<p>
+Post your own trading
+<br>
+ideas, predictions &amp;
+<br>
+questions
+</p>
+<div class='signup-featured'>
+<strong class='featured'>
+Featured in
+</strong>
+<div class='signup-featured-image'></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  $(document).ready(function() { SignInWidget({ formId: '#modal-signin-link-form' }); });
+</script>
+
+
+<script>
+  PageTop.fixMobile();
+  
+  Quotes.setup("quotes.stocktwits.com");
+  
+  
+  $(function() {
+    $('#single-page-message-box #schedule_time').timePicker({show24Hours: false, step: 30});
+  
+  
+  
+  });
+</script>
+
+<script>
+  var google_conversion_label = "bcaGCJD_mAIQ-IWe1QM";
+</script>
+<!-- Google Code for visitors Remarketing List -->
+<script>
+  var google_conversion_id = 984056568;
+  var google_conversion_language = "en";
+  var google_conversion_format = "3";
+  var google_conversion_color = "666666";
+  var google_conversion_value = 0;
+</script>
+<script language='JavaScript' src='http://www.googleadservices.com/pagead/conversion.js'></script>
+<noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/984056568/?label=bcaGCJD_mAIQ-IWe1QM&amp;guid=ON&amp;script=0"/></div></noscript>
+<script>
+  _qevents.push( { qacct:"p-e7BooXV8mdHeU"} );
+</script>
+<noscript>
+<div style='display: none;'>
+<img alt='Quantcast' height='1' src='//pixel.quantserve.com/pixel/p-e7BooXV8mdHeU.gif' width='1'>
+</div>
+</noscript>
+<!-- / Investing Channel Metric Beacon Code -->
+<script src='http://cdn.investingchannel.com/ic_beacon.js' type='text/javascript'></script>
+<script>
+  icBeacon('stocktwits');
+</script>
+<img border='0' height='1' src='http://ad.doubleclick.net/activity;src=2865435;type=aug20767;cat=aug2o777;ord=35424?' width='1'>
+
+
+</body>
+</html>

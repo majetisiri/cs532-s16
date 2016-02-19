@@ -1,0 +1,17 @@
+<html>
+<body>
+ <script type="text/javascript">
+   var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/i) ? true : false );
+   var android = ( navigator.userAgent.match(/(Android)/i) ? true : false );
+   if(iOS) {
+     window.location.href = 'https://196415.measurementapi.com/serve?action=click&publisher_id=196415&site_id=58134';
+   }
+   else if (android) {
+     window.location.href = 'https://196415.measurementapi.com/serve?action=click&publisher_id=196415&site_id=75546';
+   }
+   else {
+     window.location.href = 'https://196415.measurementapi.com/serve?action=click&publisher_id=196415&site_id=112545';
+   }
+ </script>
+</body>
+</html>

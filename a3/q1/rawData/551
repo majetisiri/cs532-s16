@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>There's a new theory about the source of the Chipotle E. coli outbreak - Business Insider</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="http://static.dragplus.com/newtheme/blog/css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:300italic,400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">.post-heading>h1>a:link{text-decoration:none}#twist-blogger-subbox{display:none;background:rgba(0,0,0,.5);width:100%;height:100%;position:fixed;top:0;right:0;bottom:0;left:0;z-index:99999999}#twist-blogger-subbox .popup-box{padding:0;margin:0 auto;max-width:600px;border-radius:1px;border:2px solid #f5f500;background:#3a3939 url(http://3.bp.blogspot.com/-7TLWGdsIYRg/VSYZtpMVpgI/AAAAAAAAA7A/eTPibGVJ4Mg/s1600/64.png);background-repeat:no-repeat;background-position:100% 45%;position:relative;top:25%;z-index:0}#twist-blogger-subbox .popup-box .exit-button-subbox{float:right;cursor:pointer;position:absolute;right:0px;top:0px;margin-top:2px;margin-right:-2px}#twist-blogger-subbox .popup-box .exit-button-subbox:before{content:"X";padding:5px 8px;background:#fff;color:#000;font-weight:normal;font-size:12px;text-shadow:0px -1px #000;font-family:sans-serif;border:4px solid #f5f500;border-radius:50px 0px 50px 50px}#twist-blogger-subbox .popup-box .tagline{padding:0;line-height:2em;font-size:26px;height:50px;font-weight:normal;font-family:"Oswald",sans-serif;text-shadow:0px -1px 0px #f5f500;color:#3a3939;text-align:center;background:#ff0;border-right:7px solid #f5f500;border-left:7px solid #f5f500;border-bottom:15px solid #3a3939}#twist-blogger-subbox .popup-box p{font-family:"Oswald",sans-serif;font-size:15px;color:#efefef;text-shadow:1px -1px 0px #000;line-height:35px;padding:10px 110px 0px 20px;text-align:left;letter-spacing:.5px;margin:0}#twist-blogger-subbox .popup-box .rssform{padding:15px 20px;margin:15px 0px 0px 0px}#twist-blogger-subbox .popup-box .rssform .button{cursor:pointer;margin:0px 0px 0px 5px;border:none;overflow:hidden;width:35%;height:37px;background-color:#ff0;font-size:14px;font-weight:normal;color:#121212;letter-spacing:.5px;text-transform:uppercase!important;font-family:"Oswald";float:right}#twist-blogger-subbox .popup-box .rssform .button:hover{background:#ffe800;padding:7px;border:1px solid #fff}#twist-blogger-subbox .popup-box .rssform .email-bg{background:#ffe url(http://1.bp.blogspot.com/-h7L136qj408/VSYZtr7vDNI/AAAAAAAAA7E/F3W4M51n1mk/s1600/1envelope.png) no-repeat 5px 8px!important;padding-left:30px}#twist-blogger-subbox .popup-box .rssform input{padding:8px;font-size:13px;font-family:Oswald;font-weight:normal;display:inline-block;width:60%;height:37px;text-transform:uppercase;outline:none!important;border:none;border-radius:1px;box-sizing:border-box!important}</style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://dragplus.com">Dragplus</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://dragplus.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://dragplus.com/aboutus">About</a>
+                    </li>
+                    <li>
+                        <a href="http://dragplus.com/help/remove">DMCA/Report link</a>
+                    </li>
+                    <li>
+                        <a href="http://dragplus.com/help/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('');background-color:#000000" itemprop="image">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1 itemprop="name"><a href="http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2">There's a new theory about the source of the Chipotle E. coli outbreak - Business Insider</a></h1>
+                       <h2 itemprop="description">Business InsiderThere&#39;s a new theory about the source of the Chipotle E. coli outbreakBusiness I</h2>
+                        <span class="meta">Posted by <a href="http://dragplus.com/page/business">Business</a>, <abbr itemprop="datePublished" title="2016-02-05 17:29:05">1 week</abbr> ago, 69 view</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article itemscope itemtype="http://schema.org/Article">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- directlink -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8528643771541188" data-ad-slot="4810253199" data-ad-format="auto"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+                     <div itemprop="articleBody">    <div class="panel panel-default"> <div class="panel-body">
+				<h3 class="lead" itemprop="name"><a href="http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2" itemprop="url">There's a new theory about the source of the Chipotle E. coli outbreak - Business Insider</a></h3> <p itemprop="description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNGfkFsi34YdQeOywuJckTNpp2dS6Q&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779042993222&amp;ei=NRS1VoDuBYbC3QHRlImYCg&amp;url=http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2"><img src="//t1.gstatic.com/images?q=tbn:ANd9GcS90UgEwzk0r3KJU8TIp8EpUW04_D8gDZpPnLma-1ZiBPHpjSV6i2aYiWuwlTfDKOHe8ER1sRQF" alt="" border="1" width="80" height="80"><br><font size="-2">Business Insider</font></a></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br><div style="padding-top:0.8em;"><img alt="" height="1" width="1"></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNGfkFsi34YdQeOywuJckTNpp2dS6Q&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779042993222&amp;ei=NRS1VoDuBYbC3QHRlImYCg&amp;url=http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2"><b>There&#39;s a new theory about the source of the Chipotle E. coli outbreak</b></a><br><font size="-1"><b><font color="#6f6f6f">Business Insider</font></b></font><br><font size="-1">The source of Chipotle&#39;s E. coli outbreak might have been tainted Australian beef, according to a new report in The Wall Street Journal. Citing unidentified sources, Julie Jargon and Jesse Newman report Chipotle has concluded that the Australian beef <b>...</b></font><br><font size="-1" class="p"></font><br><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dCo9l8QM9dEoYiM&amp;authuser=0&amp;ned=us"><nobr><b>and more&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table><br/><a href="http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2">Read more</a></p>
+				 <div class="panel panel-default">
+            <div class="panel-heading">
+          </div>
+              <div class="media" style="margin-left:5px">
+            <div class="media-body">
+			<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- test_rectangular -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-8528643771541188" data-ad-slot="4966529194"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</center>
+            </div>
+          </div>
+          </div></div>
+      </div>              
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- directlink -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8528643771541188" data-ad-slot="4810253199" data-ad-format="auto"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                     <li>
+                            <a href="http://twitter.com/business__agent">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id='twist-blogger-subbox'>
+            <div class='popup-box'>
+   <div class='exit-button-subbox'></div>
+            <div class='tagline'>
+           Join over 5000 Subscribers!
+            </div>
+                 <p>Get latest News, Widgets, Apps and much more straight into your INBOX for free. Just Enter your email address, Verify and join our Newsletter!</p>
+            <div class='rssform'>
+            <form action='http://feedburner.google.com/fb/a/mailverify' method='post' target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Dragplus', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+            <input type='text' class='email-bg' name='email' placeholder='Enter your email address... :)'/>
+            <input type="hidden" value="Dragplus" name="uri"/>
+            <input type="hidden" name="loc" value="en_US"/>
+            <input value="Add Me" class="button" type="submit"/>
+            </form>
+            </div>
+   </div>
+   </div>
+
+  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-46800392-1','auto');ga('send','pageview');</script>
+    <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script src='http://static.dragplus.com/newtheme/blog/js/newsletter.js' type='text/javascript'></script>
+<script type='text/javascript'>$(document).ready(function($){if($.cookie('feedburner_popup_box')!='yes'){$('#twist-blogger-subbox').delay(20000).fadeIn('medium');$('.exit-button-subbox, .button').click(function(){$('#twist-blogger-subbox').stop().fadeOut('medium');});}
+$.cookie('feedburner_popup_box','yes',{path:'/',expires:10});});</script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="http://static.dragplus.com/newtheme/blog/js/clean-blog.min.js"></script>
+  <script type="text/javascript" src="//go.pub2srv.com/apu.php?zoneid=326407"></script> 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7c33886d4c","applicationID":"6194196","transactionName":"Z11VYBRVWUJWVBIIXF4XdlcSXVhfGGcJEkcfUVM=","queueTime":0,"applicationTime":34,"atts":"SxpWFlxPSkw=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+
+</html>

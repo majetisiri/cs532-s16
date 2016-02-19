@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgAGWFFWGwIDXFZbBgA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+    
+<link rel="apple-touch-icon" href="http://cdn.paultan.org/touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://cdn.paultan.org/touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://cdn.paultan.org/touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://cdn.paultan.org/touch-icon-ipad-retina.png" />    
+    
+	<link rel="stylesheet" type="text/css" href="http://paultan.org/wp-content/themes/morning/style.css" media="screen" />    
+	<link rel="stylesheet" href="http://cdn.paultan.org/reactions.css" type="text/css" media="screen" />
+	
+	<link rel="canonical" href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/" /><link href="http://paultan.org/wp-content/themes/morning/styles/dark.css" rel="stylesheet" type="text/css" />
+<link href="http://paultan.org/wp-content/themes/morning/functions/wpzoom/assets/css/shortcodes.css" rel="stylesheet" type="text/css" />
+<link href="http://paultan.org/wp-content/themes/morning/custom.css" rel="stylesheet" type="text/css" />
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noodp,noydir"/>
+<meta name="news_keywords" content="automotive, cars, malaysia" />
+<link rel="original-source" href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/" />
+<meta name="description" content="A new Tesla Model X “Signature Red” limited edition variant is headed to the Chinese market. The order books for the new Model X are now open in China, wit"/>
+<link rel="canonical" href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/" />
+<link rel="publisher" href="https://plus.google.com/+paultanautonews"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Tesla Model X Signature Red edition for CNY 2016" />
+<meta property="og:description" content="A new Tesla Model X “Signature Red” limited edition variant is headed to the Chinese market. The order books for the new Model X are now open in China, wit" />
+<meta property="og:url" content="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/" />
+<meta property="og:site_name" content="Paul Tan&#039;s Automotive News" />
+<meta property="article:publisher" content="http://www.facebook.com/paultanautonews" />
+<meta property="article:section" content="Cars" />
+<meta property="article:published_time" content="2016-02-05T18:28:51+00:00" />
+<meta property="article:modified_time" content="2016-02-05T18:42:35+00:00" />
+<meta property="og:updated_time" content="2016-02-05T18:42:35+00:00" />
+<meta property="og:image" content="http://s1.paultan.org/image/2016/02/2016-tesla-model-x-p90d-china.jpg" />
+<!-- / Yoast SEO plugin. -->
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/paultan.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='yarppWidgetCss-css'  href='http://paultan.org/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wzslider-css'  href='http://paultan.org/wp-content/themes/morning/functions/wpzoom/assets/css/wzslider.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://paultan.org/wp-content/plugins/jetpack/css/jetpack.css?ver=3.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://s1.paultan.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://paultan.org/wp-content/plugins/q2w3-fixed-widget/js/q2w3-fixed-widget.min.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/functions/wpzoom/assets/js/shortcodes.js?ver=1'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/js/init.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://paultan.org/wp-json/' />
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://paultan.org/?p=438926' />
+<link rel="alternate" type="application/json+oembed" href="http://paultan.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpaultan.org%2F2016%2F02%2F05%2Ftesla-model-x-signature-red-edition-for-cny-2016%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://paultan.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpaultan.org%2F2016%2F02%2F05%2Ftesla-model-x-signature-red-edition-for-cny-2016%2F&#038;format=xml" />
+
+		<!-- BEGIN CUSTOM COLORS (WP THEME CUSTOMIZER) -->
+		<!-- header + logo -->
+								<!-- post/page title -->
+				<!-- body text + links -->
+						
+		<style>
+		/**************************************************************
+		*** CUSTOM COLORS
+		**************************************************************/		
+		.breezy-header { background-color:; }
+		.breezy-logo a { color:; }
+		.breezy-logo a:hover { color:; }
+		.entry-title,
+		.entry-title a {
+			color:;
+			font-size:px;
+		}
+		h1.entry-title { line-height:px; }
+		.entry-content {
+			font-size:px;
+			line-height:px;
+		}
+		.entry-content,
+		.post-cat,
+		.post-tag,
+		.post-author,
+		.link-pages p { color:; }
+		.entry-content a,
+		.post-cat a,
+		.post-tag a,
+		.post-author a,
+		.link-pages a { color:; }
+		/* title/body align */
+						</style>
+		<!-- END CUSTOM COLORS (WP THEME CUSTOMIZER) -->
+	
+	
+<!-- Comment Rating plugin Version: 2.10.1 by Bob King, http://wealthynetizen.com/, dynamic comment voting & styling. --> 
+<style type="text/css" media="screen">
+   .ckrating_highly_rated {;}
+   .ckrating_poorly_rated {;}
+   .ckrating_hotly_debated {;}
+</style>
+
+<!-- BEGIN wp-parsely Plugin Version 1.8 -->
+<meta name='wp-parsely_version' id='wp-parsely_version' content='1.8' />
+   <script type="application/ld+json">
+   {"@context":"http:\/\/schema.org","@type":"NewsArticle","headline":"Tesla Model X Signature Red edition for CNY 2016","url":"http:\/\/paultan.org\/2016\/02\/05\/tesla-model-x-signature-red-edition-for-cny-2016\/","thumbnailUrl":"http:\/\/paultan.org\/image\/2016\/02\/2016-tesla-model-x-p90d-china-108x108.jpg","articleId":"438926","dateCreated":"2016-02-05T10:28:51Z","articleSection":"Cars","creator":["Chris Aaron"],"keywords":[]}   </script>
+<!-- END wp-parsely Plugin Version 1.8 -->
+<style type='text/css'>img#wpstats{display:none}</style>
+	<link rel="stylesheet" href="/oto/css/style.css">	
+
+    	
+	<meta name="google-site-verification" content="oM0IwuTdYhcIJbwYwQT1eMCA9iMT8ISL7ULnFoPjkiQ" />
+
+	<title>Tesla Model X Signature Red edition for CNY 2016</title>
+    
+    <link rel="pingback" href="http://paultan.org/xmlrpc.php" />
+        
+    <link href="https://plus.google.com/112553857552681832400" rel="publisher" />
+
+    <link rel="search" href="http://cdn.paultan.org/opensearchdescription.xml" type="application/opensearchdescription+xml" title="paultan.org" />
+	
+    <meta name="google-site-verification" content="oM0IwuTdYhcIJbwYwQT1eMCA9iMT8ISL7ULnFoPjkiQ" />
+    
+    
+
+<meta name="msvalidate.01" content="67F415581AE24C2BCBA624889B09C3D8" />
+
+<!-- <meta property="fb:page_id" content="14779190194" /> -->
+<meta property="fb:app_id" content="54900598145"/>
+
+	<link rel="dns-prefetch" href="//paultan.org" />
+	<link rel="dns-prefetch" href="//vcdn.paultan.org" />
+	<link rel="dns-prefetch" href="//cdn.paultan.org" />	
+	<link rel="dns-prefetch" href="//s1.paultan.org" />
+	<link rel="dns-prefetch" href="//s2.paultan.org" />
+	<link rel="dns-prefetch" href="//s3.paultan.org" />
+	<link rel="dns-prefetch" href="//s4.paultan.org" />
+	<link rel="dns-prefetch" href="//s5.paultan.org" />
+	<link rel="dns-prefetch" href="//s6.paultan.org" />
+	<link rel="dns-prefetch" href="//s7.paultan.org" />
+	<link rel="dns-prefetch" href="//s8.paultan.org" />
+	<link rel="dns-prefetch" href="//s9.paultan.org" />	
+	<link rel="dns-prefetch" href="//pixel-my.pixelinteractivemedia.com" />
+	<link rel="dns-prefetch" href="//my-cdn.effectivemeasure.net" />
+
+
+
+
+
+<script type="text/javascript">
+
+		function setCookie(c_name,value,exdays) {
+			var exdate=new Date();
+			exdate.setDate(exdate.getDate() + exdays);
+			var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+			document.cookie=c_name + "=" + c_value;
+		}
+		
+		function getCookie(c_name) {
+			var i,x,y,ARRcookies=document.cookie.split(";");
+			for (i=0;i<ARRcookies.length;i++) {
+			  	x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+			  	y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+			  	x=x.replace(/^\s+|\s+$/g,"");
+			  	if (x==c_name) {
+					return unescape(y);
+				}
+		    }
+		}
+
+jQuery(document).ready(function() {
+	
+	//if (getCookie('commentsarea') != 'open') {
+  		jQuery(".commentsareacontent").hide();
+  	//}
+  
+  jQuery(".commentsareaheading").click(function()
+  {
+    jQuery(this).next(".commentsareacontent").slideToggle(10);
+    
+    //if (getCookie('commentsarea') == 'open') {
+    //	setCookie('commentsarea','closed',7);
+    //}
+    //else
+    //{
+	//    setCookie('commentsarea','open',7);
+    //}
+    
+  });
+});
+</script>
+
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+<style type="text/css">
+#subscribe-label.subscribe-label { width: 400px !important; }
+#pixel_sidebar_ads img { vertical-align: baseline; }
+.tiled-gallery { margin-bottom: 0px !important; }
+/* .gallery-caption { display:none !important; } */
+.wp-caption-text { display:none !important; } 
+</style>
+
+
+</head>
+<body class="single single-post postid-438926 single-format-standard">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=54900598145";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "13080769" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=13080769&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100994-1', 'paultan.org');
+  
+    
+    
+  ga('send', 'pageview');
+  setTimeout("ga('send','event','Read Engagement','time on page more than 15 seconds')",15000);
+  setTimeout("ga('send','event','Read Engagement','time on page more than 30 seconds')",30000);
+  setTimeout("ga('send','event','Read Engagement','time on page more than 60 seconds')",60000);
+  
+</script>
+
+
+
+<div id="container">
+
+	
+	
+	<header id="header">
+		<div class="wrapper">
+
+			<div id="logo">
+				<a href="http://paultan.org/"><img src="http://cdn.paultan.org/image/2012/05/paultan-logo-90.jpg" alt="Paul Tan&#039;s Automotive News" /></a>
+			</div><!-- end #logo -->
+
+
+			<div class="header-banner">
+
+				 					
+																					<!-- PaulTan.org_ROS_728x90 contextual -->
+						<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=1271654975" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=1271654975' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=1271654975' border='0'></a></noscript>
+																							
+							
+			</div><!-- end .header-banner -->
+
+			
+			<div class="cleaner">&nbsp;</div>
+
+		</div><!-- end .wrapper -->
+		
+		<nav id="header-menu">
+		
+			<div class="wrapper">
+			
+				<ul id="main-menu" class="dropdown"><li id="menu-item-108659" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-108659"><a href="http://paultan.org/">Home</a></li>
+<li id="menu-item-108661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108661"><a href="http://paultan.org/topics/local-news/">Malaysian News</a></li>
+<li id="menu-item-108662" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108662"><a href="http://paultan.org/topics/test-drive-reviews/">Car Reviews</a></li>
+<li id="menu-item-260647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-260647"><a href="http://paultan.org/topics/special/feature-stories/">Features</a></li>
+<li id="menu-item-108698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108698"><a href="http://paultan.org/topics/cars/spyshots/">Spyshots</a></li>
+<li id="menu-item-108750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108750"><a href="http://www.carbase.my/search?on_sale=1&#038;utm_source=cbpricelistmenu&#038;utm_medium=paultanmenubar&#038;utm_campaign=paultan">Pricelist</a></li>
+<li id="menu-item-334758" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-334758"><a href="http://www.oto.my/search/?utm_source=ptcarsforsale&#038;utm_medium=paultanmenubar&#038;utm_campaign=paultan">Cars for Sale</a></li>
+<li id="menu-item-207285" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-207285"><a href="http://paultan.org/topics/bikes/">Bikes</a></li>
+<li id="menu-item-108699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-108699"><a href="http://paultan.org/topics/videos/">Videos</a>
+<ul class="sub-menu">
+	<li id="menu-item-309437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309437"><a href="http://paultan.org/topics/videos/walk-around-videos/">Walk-Arounds</a></li>
+	<li id="menu-item-309438" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309438"><a href="http://paultan.org/topics/videos/video-reviews/">Video Reviews</a></li>
+	<li id="menu-item-219169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-219169"><a href="http://paultan.org/tags/driven-tv/">Driven</a></li>
+</ul>
+</li>
+<li id="menu-item-141578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141578"><a rel="nofollow" href="http://www.techattack.my/?utm_source=techmenu&#038;utm_medium=paultanmenubar&#038;utm_campaign=paultan">Tech</a></li>
+<li id="menu-item-236271" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-236271"><a href="http://paultan.org/topics/lifestyle/">Watches</a></li>
+<li id="menu-item-218232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-218232"><a href="http://paultan.org/topics/bm/?utm_source=bmmenu&#038;utm_medium=paultanmenubar&#038;utm_campaign=paultanbm">Bahasa</a></li>
+<li id="menu-item-116515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-116515"><a rel="nofollow" href="http://www.carbase.my/tool/loan-calculator">Tools</a>
+<ul class="sub-menu">
+	<li id="menu-item-116516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116516"><a rel="nofollow" href="http://www.carbase.my/tool/loan-calculator">Car Loan Calculator</a></li>
+	<li id="menu-item-117155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117155"><a rel="nofollow" href="http://www.carbase.my/tool/road-tax-calculator">Road Tax Calculator</a></li>
+	<li id="menu-item-117154" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117154"><a rel="nofollow" href="http://www.carbase.my/tool/insurance-calculator">Insurance Calculator</a></li>
+	<li id="menu-item-264238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-264238"><a href="http://www.carbase.my/tool/car-market-value-guide">Car Market Value Guide</a></li>
+</ul>
+</li>
+</ul>			
+			</div><!-- end .wrapper -->
+		
+		</nav>
+		
+	</header><!-- end header -->
+	
+	<section id="main">
+	
+
+<div class="wrapper">
+		
+	<!-- PaulTan.org_ROS_FloatingClock -->
+	<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=453462631290" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=453462631290' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=453462631290' border='0'></a></noscript>
+
+<!-- ros contextual billboard -->
+<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=631080465652" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=631080465652' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=631080465652' border='0'></a></noscript>
+
+
+	
+	<div id="content">
+
+<!-- 630x160 manufacturer specific ad codes -->
+<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=327699395605" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=327699395605' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=327699395605' border='0'></a></noscript>
+
+<!-- breadcrumbs -->	
+<!--		<p class="title title-xsmall title-nocenter breadcrumbs"><span><a href="http://paultan.org">Home</a>  /  <a href="http://paultan.org/topics/cars/">Cars</a>  /  <span class="current"></span></span></p> -->
+		<p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://paultan.org" rel="v:url" property="v:title">Home</a> &raquo; <span rel="v:child" typeof="v:Breadcrumb"><a href="http://paultan.org/topics/special/" rel="v:url" property="v:title">Special Coverage</a> &raquo; <span rel="v:child" typeof="v:Breadcrumb"><a href="http://paultan.org/topics/special/hybrids-electric-vehicles-fuel-cells-alternative-fuel/" rel="v:url" property="v:title">Hybrids, EVs and Alternative Fuel</a> &raquo; <strong class="breadcrumb_last">Tesla Model X Signature Red edition for CNY 2016</strong></span></span></span></span></p></span>
+		
+		<article class="single">
+			<h1 class="xlarge">Tesla Model X Signature Red edition for CNY 2016</h1>
+			<p class="postmetadata">
+				<span class="category">In <a href="http://paultan.org/topics/cars/" rel="category tag">Cars</a>, <a href="http://paultan.org/topics/special/hybrids-electric-vehicles-fuel-cells-alternative-fuel/" rel="category tag">Hybrids, EVs and Alternative Fuel</a>, <a href="http://paultan.org/topics/intl-news/" rel="category tag">International News</a>, <a href="http://paultan.org/topics/cars/tesla-motors-cars/" rel="category tag">Tesla Motors</a></span>				 / <span class="author">By <a href="http://paultan.org/author/chrisaaron/" title="Posts by Chris Aaron" rel="author">Chris Aaron</a></span>				 / <time datetime="2016-02-05" pubdate>5 February 2016 6:28 pm</time>				 / <a href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/#comments">2 comments</a>			</p>
+
+<!-- start social media bar -->
+<div style="margin-top: 5px; background-color: #f9f9f9; padding: 10px 0 5px 10px; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd">
+<div class="fb-like" data-href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/" data-width="500" data-layout="standard" data-action="like" data-show-faces="false" data-share="true" style="display:inline;"></div>
+<!-- <span style="vertical-align: top">Tip: use the left &larr; and right &rarr; keyboard keys to navigate.</span> -->
+</div>			
+<!-- end social media bar -->
+
+
+
+			<div class="post-content">
+			
+				<p><a href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/2016-tesla-model-x-red-1/" rel="attachment wp-att-438944"><img src="http://s1.paultan.org/image/2016/02/2016-tesla-model-x-red-1-630x340.jpg" alt="2016-tesla-model-x-red-1" width="630" height="340" class="alignnone size-medium wp-image-438944" srcset="http://s1.paultan.org/image/2016/02/2016-tesla-model-x-red-1-630x340.jpg 630w, http://paultan.org/image/2016/02/2016-tesla-model-x-red-1-768x414.jpg 768w, http://paultan.org/image/2016/02/2016-tesla-model-x-red-1-850x458.jpg 850w, http://paultan.org/image/2016/02/2016-tesla-model-x-red-1.jpg 1007w" sizes="(max-width: 630px) 100vw, 630px" /></a></p>
+<p>A new <a href="http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/">Tesla Model X</a> “Signature Red” limited edition variant is headed to the Chinese market. The order books for the new Model X are now open in China, with prices for the Signature Red P90D variant listed at 1.48 million yuan (RM935k).</p>
+<p>While the limited edition variant is commemorative of the coming Chinese New Year festivities, deliveries of the Model X are only expected to begin in the second quarter of 2016. The standard 90D variant is also available for booking, priced from 961k yuan (RM608k) to 1.171 million yuan (RM750k).</p>
+<p>Interestingly, this pushes the <a href="http://paultan.org/2015/09/02/tesla-model-x-first-pictures-of-production-model-out-has-seven-seats-is-expensive-but-ludicrously-fast/">Model X</a>’s global availability ahead of Europe, making it the first non-North American market to be able to configure and put a booking on the car.</p>
+<p>Several reports cheekily suggest that Tesla just wants to show off the Model X’s high-efficiency particulate air filter &#8211; something that would come in handy in China’s smog-ridden atmosphere. The car features an industry-first HEPA filter which strips outside air of pollen, bacteria, viruses and pollution before circulating it into the cabin.</p>
+<p>Having made its <a href="http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/">full debut in September 2015</a>, the Tesla Model X is the brand’s first foray into the SUV market. The standard 90D variant is powered by two electric motors, each rated at 259 hp, allowing it to perform the century sprint in 4.8 seconds.</p>
+<p>The more powerful P90D version also has two electric motors, but while the front maintains the same 259 hp motor, a more powerful 503 hp unit powers the rear axle. Going from zero to 100 km/h takes just 3.8 seconds, while the <a href="http://paultan.org/2015/07/20/2016-tesla-model-s-gets-new-ludicrous-mode-0-100-kmh-in-under-3-0-seconds-1-1-g-under-acceleration/">Ludicrous Speed Upgrade</a> will let you burst off the line to 100 km/h in just 3.2 seconds.</p>
+<p><strong>GALLERY: Tesla Model X</strong><br />
+<div class='gallery'><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-1/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-1-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 1" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-1-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-1-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-1-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/02/tesla-model-x-first-pictures-of-production-model-out-has-seven-seats-is-expensive-but-ludicrously-fast/tesla-model-x-14/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-x-14-e1441163284640-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla-Model-x-14" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-x-14-e1441163284640-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-x-14-e1441163284640-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-x-14-e1441163284640-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-3-3/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-3-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 3" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-3-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-3-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-3-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-4-2/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-4-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 4" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-4-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-4-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-4-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-2-3/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-2-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 2" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-2-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-2-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-2-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-5-2/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-5-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 5" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-5-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-5-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-5-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-7-2/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-7-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 7" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-7-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-7-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-7-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-6-2/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-6-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 6" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-6-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-6-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-6-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/02/tesla-model-x-first-pictures-of-production-model-out-has-seven-seats-is-expensive-but-ludicrously-fast/tesla-model-x-113/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-x-113-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla-Model-x-113" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-x-113-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-x-113-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-x-113-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/02/tesla-model-x-first-pictures-of-production-model-out-has-seven-seats-is-expensive-but-ludicrously-fast/tesla-model-x-13/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-x-13-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla-Model-x-13" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-x-13-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-x-13-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-x-13-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/02/tesla-model-x-first-pictures-of-production-model-out-has-seven-seats-is-expensive-but-ludicrously-fast/tesla-model-x-7/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-x-7-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla-Model-x-7" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-x-7-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-x-7-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-x-7-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-live-debut-2/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/tesla-model-x-live-debut-2-108x108.png" class="attachment-thumbnail size-thumbnail" alt="tesla-model-x-live-debut-2" srcset="http://s1.paultan.org/image/2015/09/tesla-model-x-live-debut-2-108x108.png 108w, http://paultan.org/image/2015/09/tesla-model-x-live-debut-2-70x70.png 70w, http://paultan.org/image/2015/09/tesla-model-x-live-debut-2-80x80.png 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/30/tesla-model-x-finally-debuts-three-row-suv-detailed/tesla-model-x-8-2/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-X-8-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla Model X 8" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-X-8-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-X-8-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-X-8-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/02/tesla-model-x-first-pictures-of-production-model-out-has-seven-seats-is-expensive-but-ludicrously-fast/tesla-model-x-15/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-x-15-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla-Model-x-15" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-x-15-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-x-15-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-x-15-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='http://paultan.org/2015/09/02/tesla-model-x-first-pictures-of-production-model-out-has-seven-seats-is-expensive-but-ludicrously-fast/tesla-model-x-11/'><img width="108" height="108" src="http://s1.paultan.org/image/2015/09/Tesla-Model-x-11-108x108.jpg" class="attachment-thumbnail size-thumbnail" alt="Tesla-Model-x-11" srcset="http://s1.paultan.org/image/2015/09/Tesla-Model-x-11-108x108.jpg 108w, http://paultan.org/image/2015/09/Tesla-Model-x-11-70x70.jpg 70w, http://paultan.org/image/2015/09/Tesla-Model-x-11-80x80.jpg 80w" sizes="(max-width: 108px) 100vw, 108px" /></a>
+			</dt></dl><br style="clear: both" />
+		</div>
+</p>
+
+
+<!--				<div class="cleaner">&nbsp;</div> -->
+				
+
+
+											</div>
+		</article>
+
+		
+	
+
+
+
+<div style="max-width: 630px">
+    <div id="oto_related_cars_title">
+        <p class="title titlemedium" style="font-size: 24px"><span>Related Cars for Sale on <a target="_blank" rel="nofollow" href="http://www.oto.my/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow"><img src="http://oto.my/assets/img/logo-inverse.png" style="height: 30px; margin-left: 5px;"/></a></span></p>
+    </div>
+    <style type="text/css">
+        .oto-main-wrapper a {
+          background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+          color: #428BCA;
+          text-decoration: none;
+        }
+        .oto_result-container {
+          border: 1px solid #DDDDDD;
+          display: inline-table;
+          float: left;
+          margin: 0 5px 5px 0;
+          padding: 0;
+          vertical-align: top;
+          position: relative;
+          width: 151px;
+          min-height: 145px;
+          height: 145px;
+        }
+        .oto_result-container .inner-container {
+          margin-bottom: -1px;
+          margin-right: -1px;
+          padding: 4px 5px 4px 4px;
+        }
+        .oto_result-container .price {
+          color: #999999;
+          display: block;
+          font-size: 11px;
+          font-weight: 400;
+          text-align: center;
+        }
+        .oto_result-container .image {
+          background: none repeat scroll 0 0 #FAFAFA;
+          color: #999999;
+          font-size: 28px;
+          line-height: 83px;
+          margin: 0 auto 4px;
+          text-align: center;
+          width: 100%;
+        }
+        .oto_result-container .image img {
+          display: block;
+          max-width: 100%;
+        }
+        .oto_result-container .title {
+          color: #333333;
+          font-size: 12px;
+          font-weight: 600;
+          margin-bottom: 1px;
+          text-align: center;
+          line-height: 16px;
+          max-height: 32px;
+          overflow: hidden;
+        }
+        .oto_result-container:hover, 
+        .oto_result-container:focus {
+          background: none repeat scroll 0 0 #F4F8FA;
+          border-color: #91ACD4;
+          position: relative;
+          z-index: 1;
+          text-decoration: none;
+        }
+        .oto_result-row:before, 
+        .oto_result-row:after {
+          clear: both;
+          content: "";
+          display: table;
+        }
+    </style>
+    <div class="oto-main-wrapper" style="margin-right: -2px;">
+        <div class="oto_result-row" style="width:100%; display:block;">
+            
+            
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/148043/new-2015-ford-fiesta-hatchback-1.5-1.5-sport-kuala-lumpur/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2015/04/14/148043/s17-20160207104004-5226-8402.jpg"/>
+                                    </div>
+                                    <div class="title">2015 Ford Fiesta Hatchback 1.5 Sport</div>
+                                    <div class="price"> RM 72,500</div>
+                                </div>
+                            </a>
+                        
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/173365/used-2011-honda-accord-2.0-2.0-vti-l-kuala-lumpur/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2016/02/15/173365/s17-20160215182948-7821-1443.jpg"/>
+                                    </div>
+                                    <div class="title">2011 Honda Accord 2.0 (A) VTI-L i-VTEC TIP TOP</div>
+                                    <div class="price"> RM 82,800</div>
+                                </div>
+                            </a>
+                        
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/173361/used-2013-toyota-prius-c-1.5-1.5-hybrid-kuala-lumpur/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2016/02/15/173361/s17-20160215170026-2135-4875.jpg"/>
+                                    </div>
+                                    <div class="title">2013 Toyota Prius c 1.5 (A) Hybrid Premium Spec </div>
+                                    <div class="price"> RM 59,333</div>
+                                </div>
+                            </a>
+                        
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/173360/recond-2011-porsche-911-3.8-turbo-3.8-kuala-lumpur/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2016/02/15/173360/s17-20160215165002-6552-5636.jpg"/>
+                                    </div>
+                                    <div class="title">2011 Porsche 911 Turbo 3.8</div>
+                                    <div class="price"> RM 630,000</div>
+                                </div>
+                            </a>
+                        
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/173359/used-2006-hyundai-azera-3.3-3.3-kuala-lumpur/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2016/02/15/173359/s17-20160215160726-6928-2442.jpg"/>
+                                    </div>
+                                    <div class="title">2006 Hyundai Azera 3.3 (A) Luxury Spec</div>
+                                    <div class="price"> RM 39,333</div>
+                                </div>
+                            </a>
+                        
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/173358/used-2009-toyota-hiace-2.7-2.7-petrol-window-van-kuala-lumpur/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2016/02/15/173358/s17-20160215155541-7770-9646.jpg"/>
+                                    </div>
+                                    <div class="title"> Toyota Hiace 2.7 Petrol Window Van- Best price in town</div>
+                                    <div class="price"> RM 63,800</div>
+                                </div>
+                            </a>
+                        
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/173357/used-2010-mitsubishi-lancer-2.0-2.0-gt-kuala-lumpur/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2016/02/15/173357/s17-20160215154237-4542-5639.jpg"/>
+                                    </div>
+                                    <div class="title">2010 Mitsubishi Lancer GT 2.0 (A) BODYKIT </div>
+                                    <div class="price"> RM 52,333</div>
+                                </div>
+                            </a>
+                        
+                    
+                            <a target="_blank" rel="nofollow" class="oto_result-container " href="http://www.oto.my/car-for-sale/171068/new-2016-honda-cr-v-2.0-2.0-i-vtec-selangor/?utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&utm_medium=paultanbelow-post-438926-tesla-model-x-signature-red-edition-for-cny-2016&utm_campaign=paultandesktopbelow">
+                                <div class="inner-container">
+                                    <div class="image">
+                                        <img width="100%" src="http://cdn1.oto.my/upload/image/2016/01/01/171068/s17-20160101181900-7872-7602.jpg"/>
+                                    </div>
+                                    <div class="title">2016 Honda CR-V 2.0 i-VTEC </div>
+                                    <div class="price"> RM 135,800</div>
+                                </div>
+                            </a>
+                                </div>
+    </div>
+</div>
+
+<div style="text-align: center; padding-top: 15px;">
+	<script type="text/javascript"><!--
+	google_ad_client = "pub-0979333494645334";
+	/* ptdo above c rpt bluelink */
+	google_ad_slot = "7435693706";
+	google_ad_width = 300;
+	google_ad_height = 250;
+	//-->
+	</script>
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-0979333494645334";
+	/* ptdo above c 2 */
+	google_ad_slot = "1867100679";
+	google_ad_width = 300;
+	google_ad_height = 250;
+	//-->
+	</script>
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+		
+				<div class="author-info">
+<!--			<h3 class="title title-large">About the author: Chris Aaron</h3> -->
+
+			<div class="thumb">
+				<img alt='' src='http://0.gravatar.com/avatar/c14ee9e1f378cc8afe01ac789933fd32?s=80&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c14ee9e1f378cc8afe01ac789933fd32?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />				<div class="shadow-corners"><span class="left-corner">&nbsp;</span></div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+With an equal passion for fast cars and everyday workhorses, Chris Aaron maintains a passion for European makes, Formula 1, playing the electric guitar and spending endless hours on the PlayStation - first-person shooters and the Gran Turismo franchise are his favourites. He also finds it strange to have written this in the third person.
+
+
+
+
+			<!-- <p class="more"></p> -->
+			<div class="cleaner">&nbsp;</div>
+
+		</div><!-- end .author-info -->
+				
+
+<!-- carbase and oto was here -->
+
+
+	<p class="title title-medium"><span>Related Stories</span></p>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-0979333494645334";
+    google_ad_slot = "7644254691";
+    google_ad_width = 630;
+    google_ad_height = 300;
+</script>
+<!-- PT matched content above comments -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+		
+
+
+					<div id="comments">
+				
+
+
+	<p class="title title-medium"><span>All 2 Comments</span></p>
+
+	<ul class="comment-list">
+	      <li class="comment even thread-even depth-1" id="li-comment-3941495">
+	<div id="comment-3941495" class="commbody">
+	 <div class="commleft">
+		  <div class="comment-author vcard">
+		 
+		  
+			 <img alt='' src='http://2.gravatar.com/avatar/ed965bb3053cae981f536d53cd161e93?s=80&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ed965bb3053cae981f536d53cd161e93?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />
+			 <strong><cite class="fn">roc</cite></strong>
+			on <a href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/#comment-3941495">Feb 05, 2016 </a>
+			at <a href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/#comment-3941495">11:14 pm</a>
+			
+
+			
+					</div>
+      </div>
+
+      <p>Shockingly expensive. But that&#8217;s the price you pay for cutting-edge tech and features. And there&#8217;s hope Tesla keeps it&#8217;s plans on track for a future of more reasonably priced electric autos. Congrats to Tesla and of course the lucky customers.</p>
+<div class="CommentRating">Like or Dislike: <img style="padding: 0px; margin: 0px; border: none; cursor: pointer;" onmouseover="this.width=this.width*1.3" onmouseout="this.width=this.width/1.2" id="up-3941495" src="http://paultan.org/wp-content/plugins/comment-rating-redis/images/1_14_up.png" alt="Thumb up" onclick="javascript:ckratingKarma('3941495', 'add', 'paultan.org/wp-content/plugins/comment-rating-redis/', '1_14_');" title="Thumb up" /> <span id="karma-3941495-up" style="font-size:12px; color:#009933;">1</span>&nbsp;<img style="padding: 0px; margin: 0px; border: none; cursor: pointer;" onmouseover="this.width=this.width*1.3" onmouseout="this.width=this.width/1.2" id="down-3941495" src="http://paultan.org/wp-content/plugins/comment-rating-redis/images/1_14_down.png" alt="Thumb down" onclick="javascript:ckratingKarma('3941495', 'subtract', 'paultan.org/wp-content/plugins/comment-rating-redis/', '1_14_')" title="Thumb down" /> <span id="karma-3941495-down" style="font-size:12px; color:#990033;">0</span></div>            <!-- <br /> -->
+      
+		       <div class="reply">
+         <a rel='nofollow' class='comment-reply-link' href='#comment-3941495' onclick='return addComment.moveForm( "comment-3941495", "3941495", "respond", "438926" )' aria-label='Reply to roc'>Reply</a>      </div>
+      <div class="clear"></div>
+     </div>
+    </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-3941744">
+	<div id="comment-3941744" class="commbody">
+	 <div class="commleft">
+		  <div class="comment-author vcard">
+		 
+		  
+			 <img alt='' src='http://0.gravatar.com/avatar/0647a534061399787af9a2f89afb3de5?s=80&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0647a534061399787af9a2f89afb3de5?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />
+			 <strong><cite class="fn">Maverick2091</cite></strong>
+			on <a href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/#comment-3941744">Feb 06, 2016 </a>
+			at <a href="http://paultan.org/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/#comment-3941744">3:35 pm</a>
+			
+
+			
+					</div>
+      </div>
+
+      <p>3.2s?! lol.. in a family SUV. Loving the future!</p>
+<div class="CommentRating">Like or Dislike: <img style="padding: 0px; margin: 0px; border: none; cursor: pointer;" onmouseover="this.width=this.width*1.3" onmouseout="this.width=this.width/1.2" id="up-3941744" src="http://paultan.org/wp-content/plugins/comment-rating-redis/images/1_14_up.png" alt="Thumb up" onclick="javascript:ckratingKarma('3941744', 'add', 'paultan.org/wp-content/plugins/comment-rating-redis/', '1_14_');" title="Thumb up" /> <span id="karma-3941744-up" style="font-size:12px; color:#009933;">1</span>&nbsp;<img style="padding: 0px; margin: 0px; border: none; cursor: pointer;" onmouseover="this.width=this.width*1.3" onmouseout="this.width=this.width/1.2" id="down-3941744" src="http://paultan.org/wp-content/plugins/comment-rating-redis/images/1_14_down.png" alt="Thumb down" onclick="javascript:ckratingKarma('3941744', 'subtract', 'paultan.org/wp-content/plugins/comment-rating-redis/', '1_14_')" title="Thumb down" /> <span id="karma-3941744-down" style="font-size:12px; color:#990033;">0</span></div>            <!-- <br /> -->
+      
+		       <div class="reply">
+         <a rel='nofollow' class='comment-reply-link' href='#comment-3941744' onclick='return addComment.moveForm( "comment-3941744", "3941744", "respond", "438926" )' aria-label='Reply to Maverick2091'>Reply</a>      </div>
+      <div class="clear"></div>
+     </div>
+    </li><!-- #comment-## -->
+	</ul>
+	
+		
+	 
+ 
+	<div class="cleaner">&nbsp;</div>
+	<div id="respond">
+
+		<p class="title title-medium"><span>Add a comment</span></p>
+		
+		<div class="cancel-comment-reply"><a rel="nofollow" id="cancel-comment-reply-link" href="/2016/02/05/tesla-model-x-signature-red-edition-for-cny-2016/?utm_content=buffer0d050&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer#respond" style="display:none;">Cancel reply</a></div>
+		
+		<p>You can either post as a guest or have an option to <a href="http://paultan.org/wp-register.php">register</a>. Among the advantages of registering is once a name has been registered, a guest cannot post using that name. If you have an account, please <a href="http://paultan.org/wp-login.php">login</a> before commenting. If you wish to have a profile photo next to your name, register at <a href="http://en.gravatar.com" rel="nofollow">Gravatar</a> using the same e-mail address you use to comment.</p>
+
+			
+ 		<form action="http://paultan.org/wp-comments-post.php" method="post" id="commentform">
+
+			
+				<div id="formLabels">
+ 
+					<p>
+						<label for="author">Your Name</label>
+						<input type="text" name="author" id="author" value="" size="32" tabindex="1" />
+						<span>required</span>					</p>
+
+ 
+					<p>
+						<label for="email">Your Email</label>
+						<input type="text" name="email" id="email" value="" size="32" tabindex="2" />
+						 <span>required</span>					</p>
+
+ 
+<!--					<p>
+						<label for="url">Website</label>
+						<input type="text" name="url" id="url" value="" size="32" tabindex="3" />
+						<span>optional</span>
+					</p> -->
+				
+				</div>
+				
+				
+						
+			<div id="formContent">
+				<p>	
+					<label for="comment">Comment</label>
+					<textarea name="comment" id="comment" tabindex="4" rows="7"></textarea><br />
+				</p>
+				<p>	
+					<label>&nbsp;</label>
+					<input name="submit" type="submit" class="submit"  tabindex="5" id="submit" value="Submit Comment" />
+				</p>
+			</div>
+			<input type='hidden' name='comment_post_ID' value='438926' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+			<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="3a03984cb7" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="248"/></p>		
+		</form>
+		
+		
+	</div>
+	
+  
+			</div>
+		
+
+		<div class="cleaner">&nbsp;</div>
+		
+<span id="prevlink">
+		Previous Post: <a href="http://paultan.org/2016/02/05/ferrari-ff-2016-diprebiu-sedikit-dalam-perbentangan-tahunan-bakal-diperkenalkan-hujung-bulan-ini/" rel="prev">Ferrari FF 2016 diprebiu sedikit dalam perbentangan tahunan &#8211; bakal diperkenalkan hujung bulan ini</a> <br />	</span>
+	<span id="nextlink">
+		Next Post: <a href="http://paultan.org/2016/02/05/jalan-yang-ditutup-di-lebuhraya-dr-lim-chong-eu-dibuka-sempena-cny-mulai-5-hingga-9-feb/" rel="next">Jalan yang ditutup di Lebuhraya Dr Lim Chong EU dibuka sempena CNY mulai 5 hingga 9 Feb</a></span> 
+
+		
+	</div><!-- end #content -->
+	
+		<div id="side">
+	
+		
+<!-- <p class="title title-medium"><span>Search</span></p> -->
+<!--    <form role="search" method="get" id="searchform" action="http://paultan.org/" >
+    <div>
+    <input type="text" value="" name="s" id="s" />
+    <input type="submit" id="searchsubmit" value="Search" />
+    </div>
+    </form> -->
+
+<div class="widget widget_search" id="search-2"><p class="title title-medium"><span>Search Our Stories</span></p><form role="search" method="get" id="searchform" action="http://paultan.org/">
+    <div>
+    <input type="text" value="" name="s" id="s"/>
+    <input type="submit" id="searchsubmit" value="Search"/>
+    </div>
+    </form>
+    <div class="cleaner">&nbsp;</div></div><div class="cleaner">&nbsp;</div>
+
+<div class="cleaner">&nbsp;</div>
+
+<div id="pixel_sidebar_ads">
+			<!-- PaulTan.org_ROS_BoxAd_1 -->
+		<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=598724111063" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=598724111063' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=598724111063' border='0'></a></noscript>
+
+<!-- pixel contextual 300x250 ros 1 to 3 -->
+<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=27523074104" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=27523074104' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=27523074104' border='0'></a></noscript>
+
+<!-- contextual 300x600 -->
+<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=455107555821" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=455107555821' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=455107555821' border='0'></a></noscript>
+
+<!-- continue pixel contextual 300x250 ros 1 to 3 -->
+<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=97352450867" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=97352450867' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=97352450867' border='0'></a></noscript>
+<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=579404021062" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=579404021062' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=579404021062' border='0'></a></noscript>
+<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=637849285802" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=637849285802' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=637849285802' border='0'></a></noscript>
+
+		<!-- PaulTan.org_ROS_BoxAd_2 -->
+		<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=830229091064" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=830229091064' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=830229091064' border='0'></a></noscript>
+		<!-- paultan.org ros box ad 3 -->
+		<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=578116821065" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=578116821065' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=578116821065' border='0'></a></noscript>	
+		<!-- paultan.org ros box ad 4 -->
+		<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=663713422139" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=663713422139' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=663713422139' border='0'></a></noscript> 
+
+	</div>
+
+<!-- youtube walkaround -->
+<iframe width="300" height="190" src="http://www.youtube-nocookie.com/embed/f5hCN2KzlYE?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<!-- Oto Related Listings -->
+<div class="oto-related">
+	<iframe id="oto-iframe" scrolling="no" frameborder="0" src="http://www.oto.my/paultan/iframe?n=6&k=Tesla Model X Signature Red edition for CNY 2016&pt_utm_source=paultanpost-searchkey-Tesla Model X Signature Red edition for CNY 2016&pt_utm_medium=paultansidebar-post-438926-tesla-model-x-signature-red-edition-for-cny-2016" style="height: 550px;"></iframe>
+</div>
+<!-- End of Oto Related Listings -->
+
+
+
+
+	 
+		<!-- PaulTan.org_ROS_sidebarbottom_300x600 -->
+	<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=536214461066" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=536214461066' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=536214461066' border='0'></a></noscript>
+	
+	
+	</div><!-- end #side -->
+		
+		
+	<div class="cleaner">&nbsp;</div>
+
+	
+		<div class="wrapper-footer">
+		
+			<div class="column">
+			
+				 				<div class="cleaner">&nbsp;</div>
+			
+			</div><!-- end .column -->
+			
+			<div class="column">
+			
+				 				<div class="cleaner">&nbsp;</div>
+			
+			</div><!-- end .column -->
+			
+			<div class="column column-last">
+	
+				 				<div class="cleaner">&nbsp;</div>
+			
+			</div><!-- end .column -->
+			
+			<div class="cleaner">&nbsp;</div>
+		
+		</div><!-- end .wrapper-footer -->
+	 
+</div><!-- end .wrapper -->
+
+
+
+	</section>
+
+	<footer>
+
+		<div class="wrapper">
+
+						<nav id="footer-menu">
+				<ul id="menu-wpzoom-footer-menu" class=""><li id="menu-item-108814" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-108814"><a href="http://paultan.org/">Home</a></li>
+<li id="menu-item-108815" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108815"><a href="http://paultan.org/about-me/">About Us</a></li>
+<li id="menu-item-108816" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108816"><a href="http://paultan.org/contact/">Contact Us</a></li>
+<li id="menu-item-108817" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108817"><a href="http://paultan.org/advertising/">Advertise With Us</a></li>
+<li id="menu-item-186858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186858"><a href="http://paultan.org/terms-of-use/">Terms Of Use</a></li>
+<li id="menu-item-186859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186859"><a href="http://paultan.org/disclosure-policy/">Disclosure Policy</a></li>
+<li id="menu-item-186860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186860"><a href="http://paultan.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-186861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186861"><a href="http://paultan.org/all-topics/">All Topics</a></li>
+<li id="menu-item-186862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186862"><a href="http://paultan.org/most-popular-posts/">Most Popular Posts</a></li>
+<li id="menu-item-186863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186863"><a href="http://paultan.org/thanks-for-commenting/">Thanks for Commenting! :)</a></li>
+</ul>			
+				<div class="cleaner">&nbsp;</div>
+			
+			</nav>			
+			<p class="wpzoom"><img src="http://s1.paultan.org/wp-content/themes/morning/images/paultanwpzoom.png" alt="WPZOOM" /></p>
+			<p class="copy">Copyright &copy; 2016 Driven Communications Sdn Bhd. All Rights Reserved.</p>
+
+		</div><!-- end .wrapper -->
+	
+	</footer>
+
+</div><!-- end #container -->
+
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <div id="parsely-cfg" data-parsely-site="paultan.org"></div>
+</div>
+<script data-cfasync="false">
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.setAttribute('data-cfasync', 'false'); e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+<script>(function($){$(document).ready(function(){});})(jQuery);</script><script type='text/javascript' src='http://paultan.org/wp-content/plugins/akismet/_inc/form.js?ver=3.1.7'></script>
+<script type='text/javascript' src='http://paultan.org/wp-content/plugins/comment-rating-redis/ck-karma.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/js/colorbox.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/js/slides.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/js/app.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/js/dropdown.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/js/jcarousel.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/functions/wpzoom/assets/js/galleria.js'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-content/themes/morning/functions/wpzoom/assets/js/wzslider.js'></script>
+<script type='text/javascript' src='http://s1.paultan.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.1',blog:'22666509',post:'438926',tz:'8',srv:'paultan.org'} ]);
+	_stq.push([ 'clickTrackerInit', '22666509', '438926' ]);
+</script>
+
+	<!-- ROS catfish -->	
+	<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=639236225820" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=639236225820' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=639236225820' border='0'></a></noscript>
+	<!-- ROS OTP2 -->
+	<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=866476885650" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=866476885650' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=866476885650' border='0'></a></noscript>
+
+	<!-- pixel ROS skinner -->
+	<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=509448172127" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=509448172127' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=509448172127' border='0'></a></noscript>
+
+	<!-- pixel contextual ROS skinner -->
+	
+	<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=765939782127" + "&amp;uri=tesla-model-x-signature-red-edition-for-cny-2016" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=765939782127' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=765939782127' border='0'></a></noscript>
+
+<!-- google plusone -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js?onload=OnLoadCallback';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<!-- 64 queries. 0.441 seconds. -->
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"B/kii1agq800Mb", domain:"paultan.org",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=B/kii1agq800Mb" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+
+
+
+
+<!-- chartbeat code for permalink -->
+<!-- /// LOAD CHARTBEAT /// -->
+<script type="text/javascript">
+    var _sf_async_config = {};
+    _sf_async_config.uid = 7622;  // CHANGE THIS
+    _sf_async_config.domain = 'paultan.org';  // CHANGE THIS
+    _sf_async_config.useCanonical = true;    
+
+    _sf_async_config.sections = "Cars, Hybrids, EVs and Alternative Fuel, International News, Tesla Motors";
+    _sf_async_config.authors = "Chris Aaron";
+
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement("script");
+            e.setAttribute("language", "javascript");
+            e.setAttribute("type", "text/javascript");
+            e.setAttribute("src",
+                (("https:" == document.location.protocol) ? "https://" : "http://") +
+                "static.chartbeat.com/js/chartbeat.js");
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != "function") ?
+                loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+          })();
+</script>
+
+		<!-- ros tracker -->
+		<script language='JavaScript' type='text/javascript'>randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://pixel-my.pixelinteractivemedia.com/adj.php?ts=" + randomstr + "&amp;sid=672481512149" + "'><" + "/script>");</script><noscript><a href='http://pixel-my.pixelinteractivemedia.com/adc.php?sid=672481512149' ><img src='http://pixel-my.pixelinteractivemedia.com/adv.php?sid=672481512149' border='0'></a></noscript>
+		
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+_fbq.push(['addPixelId', '842865309130457']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=842865309130457&amp;ev=PixelInitialized" /></noscript>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8ec4b19ef6","applicationID":"1387911","transactionName":"NQYHZUtWD0MCBkRYDAxMJFJNXg5eTBZZXwQOBg==","queueTime":0,"applicationTime":507,"atts":"GUEEEwNMHE0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Content Delivery Network via s1.paultan.org
+
+ Served from: _ @ 2016-02-16 07:57:02 by W3 Total Cache -->

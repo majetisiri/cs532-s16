@@ -1,0 +1,729 @@
+<!DOCTYPE HTML>
+<!--[if IE 9 ]>    <html lang="en-US" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <base href="http://isadoradesign.com/">
+  <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+  
+<title>Isadora Design - Award Winning Web Design Company</title>
+		<meta name="description" content=" Professional web design company and leader in handcrafted website design and development including branding, eCommerce & responsive and mobile. ">  <link rel="canonical" href="http://isadoradesign.com" />
+   
+	<!-- style for site 
+	<link href="css/normalize.css" rel="stylesheet">-->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- js library -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  
+    
+  	<!--<script src="js/jquery-ui.min.js"></script>-->
+	<script src="js/device.min.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/velocity.min.js"></script>
+	<script src="js/velocity.ui.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+	<script src="js/ScrollToPlugin.min.js"></script>
+  
+	
+	    <!-- loading icon for all site -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/loadIconCode.js"></script>
+    <script src="https://www.gstatic.com/swiffy/v7.0/runtime.js"></script>
+	
+	
+	
+	
+	<!-- custom scripts -->
+	    <link href="css/animations.css" rel="stylesheet">
+    <script src="js/home-animation.js"></script>
+    	<script src="js/scripts.js"></script>
+          <!--[if lt IE 10]>
+        <link href="css/style-ie.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        
+            <style type="text/css">
+	    .gradient { filter: none; }
+            </style>
+        <script src="js/ie-scripts.js"></script>
+        
+	<![endif]-->
+	<!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('.update-browser-wrap').show();
+                });
+            </script>
+        <![endif]-->
+        
+  <!--google verification-->
+  <meta name="google-site-verification" content="gnNPvWziWiJeDjDzRblsV9QLAKmXwb0VA6SnVW8YfA4" />  
+  
+  <!-- Google Analytics Content Experiment code -->
+  <!--<script>function utmx_section(){}function utmx(){}(function(){var
+  k='43736963-1',d=document,l=d.location,c=d.cookie;
+  if(l.search.indexOf('utm_expid='+k)>0)return;
+  function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+  indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+  length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+  '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+  '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+  '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+  valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+  '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+  </script><script>utmx('url','A/B');</script>-->
+  <!-- End of Google Analytics Content Experiment code -->
+
+
+  <!--google tracking--->
+	  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     
+      ga('create', 'UA-22168418-1', 'auto');
+      ga('send', 'pageview');
+     
+    </script>
+      
+</head>
+<body class="home">
+<!-- Google Tag Manager --><!--
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W2DSNS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2DSNS');</script>-->
+<!-- End Google Tag Manager -->
+ 
+
+<div id="ip-container" class="site ip-container">
+
+  	<header class="ip-header">
+		<div class="ip-logo"></div>
+		<div class="ip-loader">
+			<div id="swiffycontainer" style="width: 550px; height: 400px; margin:0 auto;"></div>
+			<svg style="display:none;" class="ip-inner" viewBox="0 0 80 80">
+				<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+				<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+			</svg>
+			<script>
+		      var stage = new swiffy.Stage(document.getElementById('swiffycontainer'),
+		          swiffyobject, {  });
+		      stage.start();
+		    </script>
+		</div>
+	</header>
+        
+        <div class="update-browser-wrap" style="display: none;">
+            <div class="update-browser">
+                <img src="images/Isadora-Design.png" alt="IsadoraDesign" width="176" height="39" title="Isadora Design">
+                <div class="uh-oh">
+                    <p>Uh oh, seems your browser is out of date!</p>
+                </div>
+                <p>Thank you for coming to our website. Unfortunately our website does not support your browser. Please upgrade to the latest version of Internet Explorer or download a new browser by clicking on one of the icons below. Thank you </p>
+                <div class="uh-oh-img-wrap">
+                    <div class="uh-oh-img">
+                        <a href="http://www.google.com/chrome" target="_blank">
+                            <img width="74" height="115" src="images/chrome-upd.png" alt="chrome update">
+                        </a>
+                    </div>
+                    <div class="uh-oh-img">
+                        <a href="http://www.microsoft.com/windows/Internet-explorer/default.aspx" target="_blank">
+                            <img width="112" height="115" src="images/ie-upd.png" alt="IE update">
+                        </a>
+                    </div>
+                    <div class="uh-oh-img">
+                        <a href="http://www.mozilla.com/firefox/" target="_blank">
+                            <img width="74" height="115" src="images/ff-upd.png" alt="FF update">
+                        </a>
+                    </div>
+                    <div class="uh-oh-img">
+                        <a href="http://www.apple.com/safari/download/" target="_blank">
+                            <img width="74" height="120" src="images/safari-upd.png" alt="Safari update">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+	<!-- top bar -->
+	<div class="codrops-top clearfix">
+		<header>
+			<h1 class="logo">
+                            <a href="/">
+				<span class="hover-off"><img src="images/Isadora-Design.png" alt="IsadoraDesign" width="176" height="39" title="Isadora Design"></span>
+				<span class="hover-on"><img src="images/Isadora-Design.png" alt="IsadoraDesign" width="176" height="39" title="Isadora Design"></span>
+                            </a>
+                        </h1>
+			<nav>
+				<ul>
+					<li class="current"><a href="/">
+						<span class="txt">Home</span>
+					</a></li>
+					<li ><a href="/web-design-expertise">
+						<span class="txt">Expertise</span>
+					</a></li>
+					<li ><a href="/web-design-work">
+						<span class="txt">Work</span>
+					</a></li>
+					<li ><a href="/web-design-company">
+						<span class="txt">Company</span>
+					</a></li>
+					<li><a href="/web-design-journal">
+						<span class="txt">Journal</span>
+					</a></li>
+					<li ><a href="/web-design-company-discuss">
+						<span class="txt">Discuss a Project</span>
+					</a></li>
+					<li ><a href="/web-design-company-contact">
+						<span class="txt">Contact</span>
+					</a></li>
+				</ul>
+				<span class="title show"><span class="text">Menu</span><span class="menu-ico"></span></span>
+			</nav>
+		</header><!-- end header -->
+
+		<div class="ip-main">
+
+	<h1 class="screen-reader-text">Isadora Design – award winning web design company</h1>
+  
+  <section class="scroll-fixed">
+    <div class="custom-height">
+      <section class="mainanimation block">
+          <div class="factory-animation-helper">
+            <div class="bg"></div>
+          <div class="factory-container animation-container" data-default-resolution="3480x2242"
+               data-default-resolution-mobile="800x1024">
+
+              <div class="cloud-1"></div>
+              <div class="cloud-2"></div>
+              <div class="cloud-3"></div>
+              <div class="cloud-4"></div>
+              <div class="cloud-5"></div>
+
+            <div class="factory">
+              <div class="inner">
+                <div class="l0"></div>
+                <div class="text">
+                    <div class="progress-l">
+                      <div></div>
+                    </div>
+                    <div class="progress-r">
+                      <div></div>
+                    </div>
+                    <div class="mask"></div>
+                    <div class="p">0</div>
+                    <div class="t">
+                      <span>Now that we've captured your attention, learn why our brand strategy, tailored web products &amp; marketing services are empowering brands</span>
+                    </div>
+                    <div class="t">
+                      <span>Engage your target audience on a deeper level based on comprehensive research, technique and a laser focus on the user experience</span>
+                    </div>
+                    <div class="t">
+                      <span>From high-level development to social media marketing, our services provide businesses with a long-term competitive advantage.</span>
+                    </div>
+                  </div>
+                <div class="l1"></div>
+                <div class="water">
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="conveyor">
+                  <div class="conveyor-bottom-mask"></div>
+                  <div class="rightCross">
+                    <div class="r-s-l"></div>
+                    <div class="r-s-r"></div>
+                    <div class="r-b-r"></div>
+                    <div class="r-b-r"></div>
+                    <div class="m"></div>
+                    <div class="t"></div>
+                    <div class="r-b-l"></div>
+                    <div class="r-b-l"></div>
+                    <div class="mask"></div>
+                  </div>
+                  <div class="flats"></div>
+                  <div class="blobs"></div>
+                </div>
+                <div class="header">
+                    <div class="h">
+                      <div class="lt-e"></div>
+                      <div class="lt-m"></div>
+                      <div class="lt-p"></div>
+                      <div class="lt-o"></div>
+                      <div class="lt-w"></div>
+                      <div class="lt-e"></div>
+                      <div class="lt-r"></div>
+                    </div>
+                    <div class="h">
+                      <div class="lt-e"></div>
+                      <div class="lt-n"></div>
+                      <div class="lt-g"></div>
+                      <div class="lt-a"></div>
+                      <div class="lt-g"></div>
+                      <div class="lt-e"></div>
+                    </div>
+                    <div class="h">
+                      <div class="lt-e"></div>
+                      <div class="lt-n"></div>
+                      <div class="lt-h"></div>
+                      <div class="lt-a"></div>
+                      <div class="lt-n"></div>
+                      <div class="lt-c"></div>
+                      <div class="lt-e"></div>
+                    </div>
+                  </div>
+                <div class="bCrane">
+                  <div class="b"></div>
+                  <div class="m"></div>
+                  <div class="t"></div>
+                </div>
+                <div class="l-mask-l"></div>
+                <div class="l-mask-r"></div>
+                <div class="l-mask-t"></div>
+                <div class="faucet">
+                  <div class="b"></div>
+                  <div class="m"></div>
+                  <div class="t"></div>
+                </div>
+                <div class="tube">
+                  <div class="b"></div>
+                  <div class="t"></div>
+                  <div class="m">
+                    <div></div>
+                  </div>
+                  <div class="clouds"></div>
+                  <div class="tm"></div>
+                  <div class="stairs"></div>
+                </div>
+                <div class="spaceship">
+                  <div class="b"></div>
+                  <div class="rocket">
+                    <div></div>
+                  </div>
+                  <div class="box"></div>
+                  <div class="mask"></div>
+                </div>
+                <div class="octopus">
+                  <div class="l"></div>
+                  <div class="l-a"></div>
+                  <div class="r"></div>
+                  <div class="r-a"></div>
+                  <div class="mask"></div>
+                </div>
+                <div class="propeller">
+                  <div class="r"></div>
+                  <div class="m"></div>
+                </div>
+                <div class="rain">
+                  <div class="blue"></div>
+                  <div class="white"></div>
+                </div>
+                 <div class="splash"></div>
+                  <div class="fish f1"></div>
+                  <div class="fish f2"></div>
+              </div>
+            </div>
+
+          </div>
+          </div>
+      <!-- <img class="main-animation" src="images/header-bg.png" alt=""> -->
+      <span class="main-animation mobile-only"></span>
+      <span class="load-ico mobile-only">Creativity is the fuel<br>that drives the engine of<br>our web design agency!<br>  We create engaging <br> and effective brand <br> and web experiences. </span>
+      </section><!-- end section.mainanimation -->
+    </div>
+    
+    <div class="height-block">
+      <section class="intro block" >
+        <section class="intro-animation">
+          <img width="512" height="520" src="images/intro-bg.png" class="trees-container-mobile" alt="Isadora Design is a creative web-design agency">
+                <div class="trees-container animation-container" data-default-resolution="1200x1228"
+                     data-default-resolution-mobile="530x532">
+
+                  <div class="trees">
+                    <div class="mask"></div>
+                    <div class="inner">
+                      <div class="l1"></div>
+                      <div class="top-move">
+                        <div class="l2"></div>
+                        <div class="l3"></div>
+                        <div class="l4"></div>
+                        <div class="l5"></div>
+                        <div class="l6"></div>
+                        <div class="l7"></div>
+                        <div class="l8"></div>
+                        <div class="l9"></div>
+                        <div class="l10"></div>
+                        <div class="l11"></div>
+                        <div class="l12"></div>
+                        <div class="l13"></div>
+                        <div class="l14"></div>
+                        <div class="l15"></div>
+                        <div class="l16"></div>
+                      </div>
+                      <div class="bottom-move">
+                        <div class="l17"></div>
+                        <div class="l18"></div>
+                        <div class="l19"></div>
+                        <div class="l20"></div>
+                      </div>
+                      <div class="rain"><div></div></div>
+                    </div>
+                  </div>
+
+                </div>
+        </section>
+        <article>
+          <h2>Isadora Design is an <strong>award winning<br>digital agency</strong></h2>
+          <p>Our visionary clients value the fusion of brand strategy &amp; craftsmanship our specialists bring to the table. We understand that every interaction with your brand is an opportunity to influence. And we exist to inspire those millions of purposeful customer interactions between people and the brands they love. </span></p>
+          <!--<a href="/web-design-company" class="btn orange"><span class="after">More About Us</span><span class="before">More About Us</span></a>-->
+          <a href="/web-design-company" class="btn orange" onclick="ga('send', 'event', 'Button', 'Click', 'Digital-Agency-Button');"><span class="after">More About Us</span><span class="before">More About Us</span></a>
+        </article>
+        <p class="declaration aof">
+        <span>a</span><span>r</span><span>e</span><span>a</span><span>s</span>
+        <span>o</span><span>f</span>
+        <span>f</span><span>o</span><span>c</span><span>u</span><span>s</span>
+        </p>
+      </section><!-- end section.intro -->
+    </div>
+	</section>
+
+  <div class="height-block areasoffocus-height">
+    <section class="areasoffocus block da-thumbs"  id="da-thumbs">
+    
+      <div class="areasoffocus-content">
+
+      <div class="item item-1" onclick="location.href='/expertise/strategy'">
+			<div class="item-main">
+				<span class="ico ico1"></span>
+				<h2>BRAND STRATEGY<span>digital roadmap </span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico1"></span>
+				<h2>BRAND STRATEGY</h2>
+				<p>Strategy is at the forefront of every decision. An extensive research and discovery phase ensures that primary objectives including business goals are met.</p>
+			</div>
+		</div >
+
+		<div class="item item-2" onclick="location.href='/expertise/design'">
+			<div class="item-main">
+				<span class="ico ico3"></span>
+			    <h2>UI/UX DESIGN<span>the forefront </span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico3"></span>
+				<h2>UI/UX DESIGN</h2>
+				<p>Each of our visual elements are tailored to your brand’s unique identity. Creating handcrafted design that connects with visitors and enhances brand credibility.</p>
+			</div>
+		</div>
+
+		<div class="item item-3" onclick="location.href='/expertise/design'">
+			<div class="item-main">
+				<span class="ico ico2"></span>
+				<h2>illustration<span>all hand-made</span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico2"></span>
+				<h2>illustration</h2>
+				<p>Through hand-made illustration, our web designers grab the attention of your visitors and hold them captive. Nothing enhances a story like custom illustration work.</p>
+			</div>
+		</div >
+
+		<div class="item item-4" onclick="location.href='/expertise/design'">
+			<div class="item-main">
+				<span class="ico ico4"></span>
+				<h2>INTERACTIVITY<span>For Engagement </span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico4"></span>
+				<h2>INTERACTIVITY</h2>
+				<p>We understand the dynamics of interaction between website and user. We deepen engagement and improve conversion by incorporating that human element into each website.</p>
+			</div>
+		</div >
+
+		<div class="item item-5" onclick="location.href='/expertise/development'">
+			<div class="item-main">
+				<span class="ico ico8"></span>
+				<h2>development<span>that outperforms</span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico8"></span>
+				<h2>development</h2>
+				<p>Developing your website with flexibility and business growth in mind provides you with greater value. Our optimized, business grade website code will outperform and outlast the competition.</p>
+			</div>
+		</div >
+
+		<div class="item item-6" onclick="location.href='/expertise/strategy'">
+			<div class="item-main">
+				<span class="ico ico7"></span>
+				<h2>VISUAL IDENTITY<span>that is timeless</span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico7"></span>
+				<h2>VISUAL IDENTITY</h2>
+				<p>Brand strategy, custom typography and memorable visuals are the key ingredients in establishing a timeless brand identity. We produce iconic brand assets that are instantly recognizable and serve as the foundation for your visual identity.</p>
+			</div>
+		</div >
+
+		<div class="item item-7" onclick="location.href='/expertise/development'">
+			<div class="item-main">
+				<span class="ico ico6"></span>
+				<h2>ecommerce<span>conversion focused</span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico6"></span>
+				<h2>ecommerce</h2>
+				<p>An effective and seamless shopping experience is essential for conversion. From simple to robust platforms, we have the eCommerce expertise required for attracting more customers.</p>
+			</div>
+		</div >
+
+		<div class="item item-8" onclick="location.href='/expertise/development'">
+			<div class="item-main">
+				<span class="ico ico5"></span>
+				<h2>responsive<span>web layout</span></h2>
+			</div>
+			<div class="item-hover">
+				<span class="ico ico5"></span>
+				<h2>responsive</h2>
+				<p>We dramatically improve your visitor web experience by developing pages that instantly adapt to the various devices including wide screen, tablet and mobile. This is an integral component of strong conversion.</p>
+			</div>
+		</div >
+
+      </div >
+    </section><!-- end section.areasoffocus -->
+  </div>
+  
+  <div class="height-block featured-height">
+    <section class="featured block">
+    
+      <div class="home-slider">
+        <ul class="slides">
+          <li data-image="images/slider-img-12-new.jpg" onclick="location.href='/web-design-work/ultimate-ears';">
+            <div class="description-slide">
+              <h3>ULTIMATE EARS:</h3>
+              <p>An immersive product experience for Logitech's brand</p>
+              <a href="/web-design-work/ultimate-ears" class="btn white"><span class="after">view project</span><span class="before">view project</span></a>
+            </div>
+          </li>
+        
+          <li data-image="images/slider-img-11-new.jpg" onclick="location.href='/web-design-work/outward-hound';">
+            <div class="description-slide">
+              <h3>outward hound:</h3>
+              <p>Leading brand delivering intuitive and engaging pet product experiences</p>
+              <a href="/web-design-work/outward-hound" class="btn white"><span class="after">view project</span><span class="before">view project</span></a>
+            </div>
+          </li>
+          
+          <li data-image="images/slider-img-10-new.jpg" onclick="location.href='/web-design-work/rex';">
+            <div class="description-slide">
+              <h3>REX:</h3>
+              <p>Digital marketplace for home owners to list & purchase real estate</p>
+              <a href="/web-design-work/rex" class="btn white"><span class="after">view project</span><span class="before">view project</span></a>
+            </div>
+          </li>
+          
+          <li data-image="images/slider-img-04-new.jpg" onclick="location.href='/web-design-work/report-signature';">
+            <div class="description-slide">
+              <h3>REPORT SIGNATURE:</h3>
+              <p>Chic eCommerce website for a Steve Madden company</p>
+              <a href="/web-design-work/report-signature" class="btn white"><span class="after">view project</span><span class="before">view project</span></a>
+            </div>
+          </li>
+          
+          <li data-image="images/slider-img-03-new.jpg" onclick="location.href='/web-design-work/idearocket';">
+            <div class="description-slide">
+              <h3>Idearocket:</h3>
+              <p>Video animation specialists in New York</p>
+              <a href="/web-design-work/idearocket" class="btn white"><span class="after">view project</span><span class="before">view project</span></a>
+            </div>
+          </li>
+          
+          
+          <!--<li data-image="images/slider-img-5.jpg">
+            <div class="description-slide">
+              <h3>bernstein display</h3>
+              <p>Custom visual presentation products for display</p>
+              <a href="/web-design-work/bernstein-display" class="btn white"><span class="after">view project</span><span class="before">view project</span></a>
+            </div>
+          </li>-->
+          
+        </ul>
+      </div> 
+      
+      <div class="home-slider-mobile">
+        <ul class="slides">
+          <li onclick="location.href='/web-design-work/ultimate-ears';">
+            <img data-src-img="images/slider-mobile-img-12.jpg" src="" alt="">
+            <div class="description-slide">
+              <h3>ULTIMATE EARS</h3>
+              <a href="/web-design-work/ultimate-ears" class="">view project</a>
+            </div>
+          </li>
+        
+          <li onclick="location.href='/web-design-work/outward-hound';">  <!-- images/OH-mobile.jpg -->
+            <img data-src-img="images/slider-mobile-img-11.jpg" src="" alt="">
+            <div class="description-slide">
+              <h3>outward hound</h3>
+              <a href="/web-design-work/outward-hound" class="">view project</a>
+            </div>
+          </li>
+          
+          <li onclick="location.href='/web-design-work/rex';"> <!-- images/rex-mobile.jpg -->
+            <img data-src-img="images/slider-mobile-img-10.jpg" src="" alt="">
+            <div class="description-slide">
+              <h3>REX</h3>
+              <a href="/web-design-work/rex" class="">view project</a>
+            </div>
+          </li>
+          
+          <li onclick="location.href='/web-design-work/report-signature';"> <!-- images/report-mobile.jpg -->
+            <img data-src-img="images/slider-mobile-img-04.jpg" src="" alt="">
+            <div class="description-slide">
+              <h3>report signature</h3>
+              <a href="/web-design-work/report-signature" class="">view project</a>
+            </div>
+          </li>
+          
+          <li onclick="location.href='/web-design-work/idearocket';"> <!-- images/idea-mobile.jpg -->
+            <img data-src-img="images/slider-mobile-img-03.jpg" src="" alt="">
+            <div class="description-slide">
+              <h3>Idearocket</h3>
+              <a href="/web-design-work/idearocket" class="">view project</a>
+            </div>
+          </li>
+        
+        </ul>
+      </div> 
+      
+    </section><!-- end section.featured -->
+  </div>
+  
+
+    <section class="callltoaction block">
+                                                <article>
+          <blockquote>The team did a great job turning our vision into reality, and we are all impressed with the work.</blockquote>
+          <span class="author">- James Hsu, Marketing Director, RPost</span>
+          <div class="link">
+              <a href="/web-design-company" class="btn white hidden-xs"><span class="after">Our Company</span><span class="before">Our Company</span></a>
+              <a href="/web-design-work" class="btn white"><span class="after">Featured work</span><span class="before">Featured work</span></a>
+          </div>
+      </article>
+                </section><!-- end section.callltoaction -->
+
+</div>
+</div>
+</div><!-- /section -->
+
+
+<footer class="block">
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0029/8700.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+	<section class="navi-footer">
+		<div class="navi-footer-small">
+			<span class="navi-footer-ico"></span>
+		</div>
+		<div class="navi-footer-wrap">
+
+			<ul>
+				<li class="current"><a href="/">
+					<span class="flip">
+						<span class="hover-off">Home</span>
+						<span class="hover-on ">Home</span>
+					</span>
+				</a></li>
+				<li ><a href="/web-design-expertise">
+					<span class="flip">
+						<span class="hover-off">Expertise</span>
+						<span class="hover-on ">Expertise</span>
+					</span>
+				</a></li>
+				<li ><a href="/web-design-work">
+					<span class="flip">
+						<span class="hover-off">Work</span>
+						<span class="hover-on ">Work</span>
+					</span>
+				</a></li>
+				<li ><a href="/web-design-company">
+					<span class="flip">
+						<span class="hover-off">Company</span>
+						<span class="hover-on ">Company</span>
+					</span>
+				</a></li>
+				<li><a href="/web-design-journal">
+					<span class="flip">
+						<span class="hover-off">Journal</span>
+						<span class="hover-on ">Journal</span>
+					</span>
+				</a></li>
+				<li ><a href="/web-design-company-contact">
+					<span class="flip">
+						<span class="hover-off">Contact</span>
+						<span class="hover-on ">Contact</span>
+					</span>
+				</a></li>
+				<li class="discuss "><a href="/web-design-company-discuss">
+					<span class="flip">
+						<span class="hover-off">Discuss a Project</span>
+						<span class="hover-on ">Discuss a Project</span>
+					</span>
+				</a></li>
+			</ul>
+
+			<div class="navi-footer-botttom">
+				<div class="society">
+					<!-- <a target="_blank" href="http://www.pinterest.com/isadoradesign/" class="society-ico society-ico-5" title="Pinterest"><span class="hover-off"></span><span class="hover-on"></span></a> -->
+					<a target="_blank" href="https://www.linkedin.com/company/isadora-design" class="society-ico society-ico-1" title="LinkedIn"><span class="hover-off"></span><span class="hover-on"></span></a>
+					<a target="_blank" href="https://www.facebook.com/IsadoraDesign" class="society-ico society-ico-2" title="Facebook"><span class="hover-off"></span><span class="hover-on"></span></a>
+					<a target="_blank" href="https://twitter.com/IsadoraDesign" class="society-ico society-ico-3" title="Twitter"><span class="hover-off"></span><span class="hover-on"></span></a>
+					<a target="_blank" href="https://plus.google.com/+IsadoraDesignManhattanBeach/posts" class="society-ico society-ico-6" title="Google+"><span class="hover-off"></span><span class="hover-on"></span></a>
+					<a target="_blank" href="/web-design-journal/feed/atom/" class="society-ico society-ico-4" title="RSS"><span class="hover-off"></span><span class="hover-on"></span></a>
+				</div>
+				<p class="copy">&copy; Isadora Design</p>
+			</div>
+
+		</div>
+	</section>
+</footer> <!-- end footer -->
+
+
+<!-- scripts for animate loading page -->
+<script src="js/classie.js"></script>
+<script src="js/pathLoader.js"></script> 
+<script src="js/main.js"></script>
+
+
+<div style="display: none;">
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 997147849;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/997147849/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</div>
+</body>
+</html>

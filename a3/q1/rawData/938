@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+      
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Fallback to homescreen for Chrome   <39 on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="inshorts">
+  <link rel="icon" sizes="192x192" href="http://images.newsinshorts.com.edgesuite.net/website_assets/images/favicon.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#424242">
+  <meta name="apple-mobile-web-app-title" content="inshorts">
+  <link rel="apple-touch-icon" href="http://images.newsinshorts.com.edgesuite.net/website_assets/images/favicon.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="fav/favicon.png">
+  <meta name="msapplication-TileColor" content="#424242">
+
+  <meta name="theme-color" content="#424242">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="msapplication-navbutton-color" content="#424242">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#424242">
+  <link rel="apple-touch-startup-image" href="http://images.newsinshorts.com.edgesuite.net/website_assets/images/favicon.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+     
+  <link href="http://www.inshorts.com/en/news/video-tesla-car-summoned-through-apple-watch-1454669134011" rel="canonical" />
+  <link href="http://www.inshorts.com/en/news/video-tesla-car-summoned-through-apple-watch-1454669134011" rel="alternate" reflang="en" />
+  <meta name="description" content="iOS developer Allen Wong has created a third-party app called ‘Remote S for Tesla’ through which users can summon their Tesla cars through their Apple Watche..."/>
+
+  <meta name="apple-itunes-app" content="app-id=892146527">
+  <meta name="google-play-app" content="app-id=com.nis.app">
+
+    <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@inshorts"/>
+  <meta name="twitter:creator" content="@inshorts"/>
+  <meta name="twitter:title" content="Video: Tesla car summoned through Apple Watch"/>
+  <meta name="twitter:description" content="iOS developer Allen Wong has created a third-party app called ‘Remote S for Tesla’ through which users can summon their Tesla cars through their Apple Watches. It also keeps a track of basic information including the car’s charging status, speed and temperature. Notably, Tesla’s &#39;Summon&#39; feature enables the car to unpark itself out of the garage and arrive at the doorstep."/>
+  <meta name="twitter:image" content="http://images.newsinshorts.com.edgesuite.net/app_assets/images/2016/2feb/5/69134011-0010-0002-9963-000012345678-1454669134241.jpg?resize=1024px:*&amp;"/>
+
+
+  <title>Video: Tesla car summoned through Apple Watch</title>
+  <!-- CSS  -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Hind:500,600,400&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+  <link href="/dist/styles/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/dist/styles/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/dist/styles/read.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/dist/styles/news-card.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/dist/styles/jquery.smartbanner.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <link rel="icon" type="image/png" href="http://images.newsinshorts.com.edgesuite.net/website_assets/images/favicon.png" />
+</head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55157535-6', 'auto');
+  ga('send', 'pageview');  
+</script>
+
+<body>
+
+  
+  <!-- HEADER START -->
+  <div class="header z-depth-1">
+    <div class="menu clickable">
+      <button class="c-hamburger c-hamburger--htx" ><span>toggle menu</span></button><span class="unselectable">Menu</span>
+    </div>
+    <!--
+    <div class="search-wrapper hide-on-small-only">
+      <input class="search-box" placeholder="Search" id="search"/>
+      <i id="search_icon" class="material-icons search-icon">search</i>
+      <div class="search-box-ul">&nbsp;</div>
+    </div>
+    -->
+    <a href="/"><img src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/logo_inshorts.png" class="logo"/></a>
+  </div>
+  <!-- HEADER END -->
+
+  
+<!--SIDEBAR START -->
+    <div class="hide-on-med-and-up sidebar-bg" style="display: none;">&nbsp;</div>
+    <div class="sidebar" style="overflow-y: scroll;">
+      <div class="lang-bar" style="">
+        <div class="lang-selector clickable">
+          <a href='/en/read'><div class="lang-en selected">English</div></a>
+          <a href='/hi/read'><div class="lang-hi ">हिन्दी</div></a>
+        </div>
+      </div>
+
+      <div>
+        <div class="category-header">Categories</div>
+        <ul class="category-list">
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToAllNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToAllNews' });" href='/en/read'> <li class="active-category selected" >All News</li> </a>
+
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToIndiaNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToIndiaNews' });" href='/en/read/national'> <li class="active-category ">India</li> </a>
+
+          <a onclick="ga("send", {"hitType": "event", "eventCategory": "LinkToIndiaNews", "eventAction": "clicked", "eventLabel":  "RedirectedToIndiaNews" });"  href='/en/read/business'> <li class="active-category ">Business</li> </a>
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkTosportsNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToSportsNews' });"  href='/en/read/sports'> <li class="active-category ">Sports</li> </a>
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToworldNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToworldNews' });" href='/en/read/world'> <li class="active-category ">World</li> </a>
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToworldNews', 'eventAction': 'clicked',   'eventLabel': 'RedirectedToworldNews' });"  href='/en/read/politics'> <li class="active-category ">Politics</li> </a>
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkTotechnologyNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedTotechnologyNews' });" href='/en/read/technology'> <li class="active-category ">Technology</li> </a>
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkTostartupNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedTostartupNews' });"  href='/en/read/startup'> <li class="active-category ">Startup</li> </a>
+
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToEntertainmentNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToEntertainmentNews' });"  href='/en/read/entertainment'> <li class="active-category ">Entertainment</li> </a>
+
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToMiscellaneousNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToMiscellaneousNews' });"  href='/en/read/miscellaneous'> <li class="active-category ">Miscellaneous</li> </a>
+
+          <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkTohatkeNews', 'eventAction': 'clicked', 'eventLabel': 'RedirectedTohatkeNews' });"  href='/en/read/hatke'> <li class="active-category ">Hatke</li> </a>
+
+        </ul>
+      </div>
+    </div>
+<!--SIDEBAR END --> 
+
+  <!-- BODY START -->
+  <div class="container" style="min-height:550px;">
+    <div class="row" style="padding-top:110px;">
+      <div class="hide-on-med-and-down z-depth-1" style="margin-left : auto;margin-right : auto;margin-bottom: 32px;width : 900px;height:48px;background: #f44336">
+        <div style="font-weight: 300;color:white !important;font-size:14px;margin-left: 48px;margin-top: 13px;position: absolute;display: block;">
+          For the best experience use <a target="_blank" href="http://inshorts.com/mobile" style="color:white;appearance: none;font-weight: 500;">inshorts</a> app on your smartphone
+        </div>
+        
+        <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'DownloadApp', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToApplePlayStore' });" target="_blank" href="https://itunes.apple.com/us/app/news-in-shorts/id892146527"><img class="col l2 m2" src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/appstore.png" style="margin-top:5px;margin-left:550px;"/></a>
+        
+        
+        <a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'DownloadApp', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToGooglePlayStore' });" target="_blank" href="https://play.google.com/store/apps/details?id=com.nis.app&referrer=utm_source%3DNews%2520In%2520Shorts%2520Website"><img style="margin-top:5px;" class="col l2 m2" src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/playstore.png"/></a>
+        
+      </div>
+
+      <div class="card-stack">
+        
+        
+
+
+
+<div class="news-card z-depth-1" itemscope itemtype="http://schema.org/NewsArticle">
+  <div class="news-card-image">
+    <img itemprop="image" src="http://images.newsinshorts.com.edgesuite.net/app_assets/images/2016/2feb/5/69134011-0010-0002-9963-000012345678-1454669134241.jpg?resize=*:400px">
+  </div>
+  <div class="news-card-title news-right-box">
+    <a class="clickable" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'TitleOfNews', 'eventAction': 'clicked', 'eventLabel': 'Video%3A%20Tesla%20car%20summoned%20through%20Apple%20Watch)' });"  style="color:#44444d!important" href="/en/news/video-tesla-car-summoned-through-apple-watch-1454669134011">
+      <span itemprop="headline">Video: Tesla car summoned through Apple Watch</span>
+    </a>
+    <div class="news-card-author-time news-card-author-time-in-title">
+      <span class="short">short</span> by <span class="author">Bhavika Bhuwalka</span> / 
+      <span class="time" itemprop="datePublished" content="2016-02-05T10:45:34.011Z">04:15 pm</span> on <span clas="date">05 Feb 2016,Friday</span>
+    </div>
+  </div>
+  <div class="news-card-content news-right-box">
+    <div itemprop="articleBody">iOS developer Allen Wong has created a third-party app called ‘Remote S for Tesla’ through which users can summon their Tesla cars through their Apple Watches. It also keeps a track of basic information including the car’s charging status, speed and temperature. Notably, Tesla’s &#39;Summon&#39; feature enables the car to unpark itself out of the garage and arrive at the doorstep.</div>
+    <div class="news-card-author-time news-card-author-time-in-content">
+      <span class="short">short</span> by <span class="author">Bhavika Bhuwalka</span> / 
+      <span class="time">04:15 pm</span> on <span clas="date">05 Feb</span>
+    </div>
+  </div>
+  <div class="news-card-footer news-right-box">
+    <div class="read-more">read more at <a class="source" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'ReadMore', 'eventAction': 'clicked', 'eventLabel': 'Mashable' });" target="_blank" href="https://full-story.newsinshorts.com/v1/article/69134011-0010-0002-9963-000012345678 ">Mashable</a></div>
+      <!--
+      <div class="share clickable">
+        <i class="material-icons share-icon">reply</i>
+        <span>Share</span>
+      </div> 
+    -->
+  </div>
+</div>
+
+        
+      </div>
+
+      <div class="my-red app-download-pane hide-on-large-only">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 center" style="color:white;font-weight: 300;font-size:14px;margin-top: 28px;margin-bottom: 18px;">
+              For the best experience use <a target="_blank" href="/mobile" style="color:white;appearance: none;font-weight: 500;">inshorts</a> app on your smartphone
+            </div>
+            
+            
+            <div class="col offset-s2 s8">
+              <a target="_blank"  onclick="ga('send', {'hitType': 'event', 'eventCategory': 'DownloadApp', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToGooglePlayStore' });"  href="https://play.google.com/store/apps/details?id=com.nis.app&referrer=utm_source%3DNews%2520In%2520Shorts%2520Website"><img class="col l4 m8 s12" src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/playstore.png"/></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- BODY END -->
+
+  <footer class="page-footer teals"> 
+  <div class="container">
+    <div class="row" style="margin-bottom: 0px; padding-bottom: 5px;">
+
+      <div class="col offset-l3 l3 m4 s12 right social-admin">
+        <div class="social-share"><a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToFaceBookPage', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToFaceBook' });" target="_blank" href="https://www.facebook.com/inshortsapp"><img src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/facebook.png"/></a></div>
+        <div class="social-share"><a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToTwitterPage', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToTwitter' });" target="_blank" href="https://twitter.com/inshorts"><img src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/twitter.png"/></a></div>
+        <div class="social-share"><a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToLinkedinPage', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToLinkedin' });" target="_blank" href="https://www.linkedin.com/company/news-in-shorts"><img src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/linkedin.png"/></a></div>
+      </div>
+
+
+      <div class="col m4 l3 s6 footer-left-pane">
+        <div class="right"><img width="160px" height="48px" src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/logo_footer.png"/></div>
+
+        <div class="copy-text" >
+          <span><span style="color:#cfcfcf;font-family: 'Conv_ClanPro-Bold'">inshorts</span> medialabs pvt. ltd.</span><br/>
+          &copy;<span style="font-size:12px">COPYRIGHT 2015</span>
+        </div>
+      </div>
+      <div class="col m4 l3 s6 footer-right-pane">
+        <div class="left clickable" style="margin-top: -5px;"><a target="_blank" href="mailto:contact@inshorts.com?subject=Inshorts%20website%20contact%20form"><img width="132px" height="48px" src="http://images.newsinshorts.com.edgesuite.net/website_assets/images/contact_icon.png"/></a></div>              
+        <div class="terms-text">
+          <a class="tnc" style="color: #fff;" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'LinkToTermsAndConditionsAndPP', 'eventAction': 'clicked', 'eventLabel': 'RedirectedToTermsAndConditions' });" target="_blank" href="/tnc"><span>Terms &amp; conditions</span><br/>
+          <span>Privacy Policies</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Eliminate render-blocking JavaScript and CSS in above-the-fold content -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/dist/scripts/index.js"></script>
+  <script type="text/javascript" src="/dist/scripts/read.js"></script>
+  <script type="text/javascript" src="/dist/scripts/jquery.smartbanner.js"></script>
+  <script type="text/javascript">
+      $(function() { $.smartbanner({layer:true,daysHidden: 0, daysReminder: 0, title:'Inshorts - Stay Informed'}); } );
+  </script>
+
+  <!-- Eliminate render-blocking JavaScript and CSS in above-the-fold content -->
+
+</body>
+</html>

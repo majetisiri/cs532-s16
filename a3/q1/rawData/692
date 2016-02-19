@@ -1,0 +1,1422 @@
+
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="/js/jquery.1.4.2.min.js"></script>
+<script type="text/javascript">var ih_js = jQuery.noConflict();</script>
+<script type="text/javascript" src="/js/thickbox_full.js?ver=1.0.5"></script>
+<link rel="stylesheet" href="/css/thickbox.css?ver=1.0.4" type="text/css" media="screen"> 
+<script type="text/javascript">
+	ih_js(document).ready(function() {
+		setTimeout(yourFunction, 15000);
+		// check all check boxes
+		/*ih_js(window).error(function(e){
+			e.preventDefault();
+		});
+		try{
+		ih_js('.popup_form_box').find(':checkbox').each(function(){ console.log('added');
+				ih_js(this).attr('checked', true);
+		}); 
+		}catch(e){}
+		
+		*/// check all check boxes	
+	}); 
+	function yourFunction(){
+		var t = "title"
+		var a = "#TB_inline?height=auto&width=738&inlineId=popupContent&modal=false";
+		tb_show(t,a);    
+    setTimeout(yourFunction, 30000);
+	}
+	function regredirect(url){
+		window.location.href = 'http://investorshangout.com'+url;
+	}
+	function co_advertise(){
+		ih_js(window).error(function(e){
+    e.preventDefault();
+		});
+		try{
+		if (typeof passdata == 'function') { passdata(); }
+		}catch(e){}
+	}
+	
+	function submitform(obj)
+	{	// check function is exist or not
+		ih_js("#emessage").css({display:"none"});
+		if(ih_js("#joinform #termschk").is(":checked")){
+			var username = ih_js("#YumPopupregisterForm_username").val();
+			var email = ih_js("#YumProfile_email").val();
+			var password = ih_js("#YumPopupregisterForm_password").val();
+			ih_js.ajax({
+					url:'/popupregister',
+					type: 'POST',
+					data: {'YumPopupregisterForm[username]': ih_js.trim(username), 'YumProfile[email]': ih_js.trim(email), 'YumPopupregisterForm[password]': password},
+					dataType: 'json',
+					success: function(response){
+						if(response.success==1){
+							ih_js(window).error(function(e){
+								e.preventDefault();
+							});
+							try{
+								if (typeof validateoffers == 'function') { validateoffers();
+									 setTimeout(function(){ window.location.href = 'http://investorshangout.com'+response.url; }, 2000);
+								}else{
+									window.location.href = 'http://investorshangout.com'+response.url;
+								}
+							}catch(e){}
+							//window.location.href = ''+response.url;
+						}else{ // show error message
+							ih_js("#emessage").html(response.error);
+							ih_js("#emessage").css({display:"block"});
+						}
+					}
+			});
+		}else{
+			return false;
+		}
+	}
+	function submitpaypalform(obj)
+	{	// check function is exist or not
+		//alert("abcd");
+		ih_js("#emessage").css({display:"none"});
+		if(ih_js("#joinform #termschk").is(":checked")){
+			var username = ih_js("#YumPopupregisterForm_username").val();
+			var email = ih_js("#YumProfile_email").val();
+			var password = ih_js("#YumPopupregisterForm_password").val();
+			if (document.getElementById('month_plan').checked)
+				{
+				  plan = document.getElementById('month_plan').value;
+				}
+			if (document.getElementById('year_plan').checked) 
+				{
+				  plan = document.getElementById('year_plan').value;
+				}
+			if(plan==1)
+			{
+				var hosted_button_id='XRCNCV2M5K9VW';
+				var cmd='_s-xclick';
+			}
+			if(plan==2)
+			{
+				var hosted_button_id='YTA9PT23ZXJP8';
+				var cmd='_s-xclick';
+			}
+			ih_js.ajax({
+					url:'/popupregisterpaypal',
+					type: 'POST',
+					data: {'YumPopupregisterForm[username]': ih_js.trim(username), 'YumProfile[email]': ih_js.trim(email), 'YumPopupregisterForm[password]': password, 'hosted_button_id':hosted_button_id, 'cmd':cmd},
+					dataType: 'json',
+					crossDomain : true,
+					success: function(response){
+						if(response.success==1){
+							ih_js(window).error(function(e){
+								e.preventDefault();
+							});
+							try{
+								if (typeof validateoffers == 'function') { validateoffers();
+								setTimeout(function(){  window.location.href=response.url;},2000);
+								}else{
+									window.location.href=response.url;
+								}
+							}catch(e){}
+							//window.location.href = ''+response.url;
+						}else{ // show error message
+							ih_js("#emessage").html(response.error);
+							ih_js("#emessage").css({display:"block"});
+						}
+					}
+			});
+		}else{
+			return false;
+		}
+	}
+	function displaypaymentenable(obj)
+	{
+		ih_js("#payment_div").css({display:"block"});
+		ih_js("#registration_container").removeClass("registration_border1");
+		ih_js("#registration_container").addClass("registration_paypal");
+		
+		
+	}
+</script>
+<!-- cycle slider code -->
+<!-- cycle slider code end -->
+<title>TSLA Stock | Tesla Motors Inc. | Stock Message Board - Investors Hangout</title>
+<meta name="google-site-verification" content="EoR36pJ1xwoQCCldJu8nEfc30AUiQ0NhZGrPsifbCkg" />
+<meta name="msvalidate.01" content="FD24E2929C47C8280574A267EBEB7C50" />
+<meta name="description" content="TSLA Stock, Tesla Motors Inc., TSLA Stock Message Board, Last Post Date: 02/11/2016 4:34:59 AM, Total Posts: 173, NASDAQ Stock Exchange" />
+<meta name="keywords" content="TSLA, Tesla Motors Inc., TSLA stock chart, Tesla Motors Inc. stock chart, stock chart, stocks, quotes, stock discussion, stock message board, finance,"/>
+<meta property="og:title" content="Tesla Motors Inc. TSLA Stock Message Board" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://investorshangout.com/Tesla-Motors-Inc-TSLA-55692/" />
+<meta property="og:site_name" content="Investors Hangout" />
+<link rel="canonical" href="http://investorshangout.com/Tesla-Motors-Inc-TSLA-55692/" />
+	
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/board/boardfeeds?id=55692"/>
+<link rel="image_src" href="http://investorshangout.com/images/Investors-Hangout-Stock-Message-Boards-thumbnail-2015.png" alt="Stock Message Boards - Investors Hangout"/>
+<link href="http://investorshangout.com/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="http://investorshangout.com/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="http://investorshangout.com/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="http://investorshangout.com/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="http://investorshangout.com/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="http://investorshangout.com/icon-hires.png" rel="icon" sizes="192x192" />
+<link href="http://investorshangout.com/icon-normal.png" rel="icon" sizes="128x128" />
+<link href="/css/style.css" type="text/css" rel="stylesheet" />
+<!--<script type="text/javascript" src="/js/jquery.1.9.1.min.js"></script> -->
+	<script type="text/javascript">
+		function show(a,f,e,h) {
+			var a	=	document.getElementById(a);
+			var b=a.selectionStart;
+			var g=a.selectionEnd;
+			if(typeof(b)==="undefined"&&document.selection)
+			{
+				a.focus();
+				var c=document.selection.createRange();
+				if(c.parentElement()===a)
+				{
+					if(c.text)
+					{
+						c.text=f+c.text.replace(/http:\/\//i,"")+e;
+						c.select()
+					}
+					else
+					{
+						if(h==="+")
+						{
+							h="";
+						}
+						c.text=f+h+e;
+						c.moveStart("character",-h.length-e.length);
+						c.moveEnd("character",-h.length-e.length);
+						c.select()
+					}
+				}
+			}
+			else
+			{
+				var j;
+				if(b===g)
+				{
+					if(h==="+")
+					{
+						h="";
+					}
+					j=a.scrollTop;
+					a.value=a.value.substring(0,b)+f+h+e+a.value.substring(g,a.value.length);
+					a.focus();
+					a.setSelectionRange(g+f.length+h.length,g+f.length+h.length);
+					a.scrollTop=j;
+				}
+				else
+				{
+					var d=a.value.substring(b,g);
+					d=d.replace(/http:\/\//i,"");
+					var i=d.length-(g-b);
+					j=a.scrollTop;
+					a.value=a.value.substring(0,b)+f+d+e+a.value.substring(g,a.value.length);
+					a.focus();
+					a.setSelectionRange(g+f.length+e.length+i,g+f.length+e.length+i);
+					a.scrollTop=j
+				}
+			}return false
+		}
+	</script>
+	<script type="text/javascript">var site_url	=	''; </script>
+</head>
+
+<div align="center" style="margin-top:8px; margin-bottom:8px;"><span style="font-size:17px; font-weight:bold; color:#060; text-decoration:underline;"><a style="font-size:17px; font-weight:bold; color:#060; text-decoration:underline;" href="http://investorshangout.com/2016-Presidential-Debate-91335/" target="_new">Roy wants to debate who should be the next president of the United States - (Click Here)</a></span></div>
+
+<!--<div align="center" style="margin-top:8px; margin-bottom:8px;"><span style="font-size:17px; font-weight:bold; color:#060; text-decoration:underline;"><a style="font-size:17px; font-weight:bold; color:#060; text-decoration:underline;" href="http://investorshangout.com/survey" target="_new">Help us improve Investors Hangout by taking this quick survey!! (Click Here)</a></span></div>-->
+
+
+<body lang="en" dir="ltr">
+	<div id="super_wrapper">
+<div id="wrapper">
+  <div id="header">
+    <div class="ml_bg"></div>
+    <div class="mm_bg">
+      <div class="head_content"> 
+        <div style="padding-top:4px;" itemscope itemtype="http://schema.org/Organization" id="logo"><a itemprop="url" href="http://investorshangout.com"><img itemprop="logo" src="/images/Investors-Hangout-Stock-Message-Boards-Logo-1-2015.png" alt="Investors Hangout Stock Message Boards Logo"/></a></div>
+        <div id="menu">
+				<ul id="yw0">
+<li><a href="/">Home</a></li>
+<li><a href="/mailbox">Mailbox</a></li>
+<li><a href="/board">Boards</a></li>
+<li><a href="/board/favorite">Favorites</a></li>
+<li><a href="/whatshot/activeboard">Whats Hot!</a></li>
+<li><a class="thickbox" href="#TB_inline?height=auto&amp;width=738&amp;inlineId=popupContent&amp;modal=false">Login - Join Now!</a></li>
+</ul>        </div>
+        <div class="clear_all"></div>
+      </div>
+    </div>
+    <div class="mr_bg"></div>
+  </div>
+  <div id="main" style="padding-top:5px;">
+  <!-- commenting on 10-06 -->
+      <!--  <div id="left_advertise"> -->
+        <!--  <div class="board_add" align="center"> -->  <!-- </div> -->
+          <!-- </div> -->
+      <!-- till here 173 -->
+    <div style="float:left; width:600px;">
+      <div style="float:left">
+        <div id="google_translate_element"></div>
+      </div>
+            <div style="float:left; margin-top:8px; font-size:12px;">
+        <div class="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://investorshangout.com" rel="v:url" property="v:title">Home</a></span> > <span typeof="v:Breadcrumb"><a href="http://investorshangout.com/board" rel="v:url" property="v:title">Boards</a></span> > <span typeof="v:Breadcrumb"><a href="http://investorshangout.com/board" rel="v:url" property="v:title">Stock Boards</a></span> > <span typeof="v:Breadcrumb"><a href="http://investorshangout.com/board?categoryid=NASDAQ" rel="v:url" property="v:title">NASDAQ Stock Exchange</a></span> > <span typeof="v:Breadcrumb"><a href="/Tesla-Motors-Inc-TSLA-55692/" rel="v:url" property="v:title">Tesla Motors Inc. (TSLA)</a></span></span></div>
+
+      </div>
+          </div>
+		<style>
+		#search_box .portlet{
+ 	 		float:left;
+			margin-right:5px;
+			width: 301px;
+		}
+		</style>
+		<!-- Search box -->
+		<div id="search_box"><div class="portlet" id="yw1">
+<div class="portlet-content">
+			<script type="text/javascript">
+				function SearchContent() {
+					var url = '/search';
+					var search_txt = document.getElementById('searchs').value;
+					if(search_txt=='') {
+						alert('Please enter search keyword');
+						return;
+					}
+					var search_type = document.getElementById("stype").value; 
+					url = url+'?q='+search_txt+'&type='+search_type+'&yt0=Go!';
+					window.location=url;
+				}
+	
+				function enterpress(e, input){
+						var code = (e.keyCode ? e.keyCode : e.which);
+						if(code == 13) { //Enter keycode
+						 SearchContent();
+						}
+				}
+			</script>
+			<input id="searchs" class="txt" type="text" name="q" value="Search" onblur="if(this.value == '') { this.value = 'Search'; }" onfocus="if(this.value == 'Search') { this.value = ''; }" onkeypress="enterpress(event, this);" style="width: 180px; height: 18px; float: left;" placeholder="">
+			<select id="stype" name="type" style="height:22.5px; float: left; padding:2px 0;">
+				<option value="1">Board</option>
+				<option value="2">Post</option>
+				<option value="3">Member</option>
+			</select>
+			<input type="submit" value="Go!" name="yt0" style="width:31px; padding:0 2px; height:22px; background-color:#476F97; color:#FFFFFF;" onclick="SearchContent();">
+				</div>
+</div>		
+		<div style="width: 90px; float: left;height:32px; margin-top:-6px;">
+		<!--IC 88x31-->
+		<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/searchbx/88x31.js?kval=searchbx' type='text/javascript' charset='utf-8'></script>
+		</div>
+	 </div>
+		<div style="clear:both"></div>
+    <div class="container">
+	<div id="content">
+		<link href="/css/pager.css" type="text/css" rel="stylesheet"/>
+
+<script type="text/javascript">
+	function showpageposts(url) {
+		$.get(url, function(data) {
+		  $('#boardpostslist').html(data);
+		});
+	}
+</script>
+<div class="content_wrapper subscribe">
+<style type="text/css" >
+.qmmt_main { background:#fff; border:1px solid #dddddd; width:500px; } 
+.qmmt_text { font: 10px  arial;color: #333333; padding:2px; text-align:left; }
+.qmmt_text_up { font: 10px  arial; color: #009900; }
+.qmmt_text_down	{ font: 10px  arial; color: #ff0000; }
+.qmmt_tab	{ font: 10px  arial; border:1px solid #ffffff; color:#666666; }
+.qmmt_tabactive { font: 10px  arial; border:1px solid #ffffff; }
+.qmmt_cycle	{ background-color:#f1f1f1; color: #333333; }
+.qmmt_header_text { font-family: arial, sans-serif; color: #333333; }
+.qmmt_header_bar { background-color:#fff; border:none; }
+a.qmmt { color: #666; text-decoration:none; }
+a:visited.qmmt{ color: #666; text-decoration:none; }
+a:hover.qmmt{ color: #000; text-decoration:none; }  
+.qmmt_exchangePopup_bg { background-color: #ffffff; border: 2px solid #dddddd; }
+#hideinfo{ display:none;}
+#com_info{  display:none;width:935px !important;margin-top:20px;}
+#showbanner{display:none;}
+#showquote{display:none;}
+</style>
+<script type="text/javascript">
+function toggleLayer(whichLayer){
+	if(whichLayer=='show')
+	{
+		document.getElementById('com_info').style.display='block';
+		document.getElementById('showinfo').style.display='none';
+		document.getElementById('hideinfo').style.display='block';
+			
+	}else{
+		document.getElementById('hideinfo').style.display='none';
+		document.getElementById('com_info').style.display='none';
+		document.getElementById('showinfo').style.display='block';
+	}
+}
+ function emailnotice(whichLayer,bid)
+	 {
+	  if(whichLayer=='showoff')
+		 {
+		    document.getElementById('boardon').style.display='block';
+				document.getElementById('boardoff').style.display='none';
+					$.ajax({  
+									 type: 'POST',  
+									 url: 'http://testing.investorshangout.com/post/test',
+									 data: {boardidoff:bid},  
+									 success: function()  
+										{} 
+			         });
+		  }
+		  else
+		  {
+		     document.getElementById('boardoff').style.display='block';
+				 document.getElementById('boardon').style.display='none';
+
+				 $.ajax({  
+								 type: 'POST',  
+								 url: 'http://testing.investorshangout.com/post/test',
+								 data: {boardidon:bid},  
+								 success: function()  
+									 {} 
+		           });
+		  }
+	}	  
+	
+	function toggleQuote(whichLayer)
+	 {
+	  if(whichLayer=='hideq')
+		  {
+				  document.getElementById('hidequote').style.display='none';
+					document.getElementById('com_quote').style.display='none';
+					document.getElementById('showquote').style.display='block';
+					 var cookieValue='1';
+					 var cookieName= 'hideme';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+		  else
+		  {
+				  document.getElementById('com_quote').style.display='block';
+					document.getElementById('showquote').style.display='none';
+					document.getElementById('hidequote').style.display='block';
+					var cookieValue='0';
+					 var cookieName= 'hideme';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+	}
+	
+	function toggleBanner(whichLayer)
+	 {
+	  if(whichLayer=='hideb')
+		  {
+				   
+					document.getElementById('hidebanner').style.display='none';
+					document.getElementById('board_banner').style.display='none';
+					document.getElementById('showbanner').style.display='block';
+					 var cookieValue='1';
+					 var cookieName= 'hidebanner';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+		  else
+		  {       
+				    document.getElementById('board_banner').style.display='block';
+					document.getElementById('showbanner').style.display='none';
+					document.getElementById('hidebanner').style.display='block';
+					var cookieValue='0';
+					 var cookieName= 'hidebanner';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+	}	
+		  
+</script>
+<div id="board_advertise">
+    <div id="board_add"  align="center"> <div style="min-height:92px;">
+<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/728x90,970x90,970x250.js' type='text/javascript' charset='utf-8'></script>
+</div>
+ </div>
+  </div>
+<div style="clear:both"></div>
+<div id="board_msg" style=" font-size:14px; text-align:center;">
+   </div>
+ <style type="text/css" >
+#board_msg blockquote{
+	text-align:left; !important;
+}	
+</style>
+	
+<div class="boardview" style="background-color:#E6E8FA; padding:10px; -moz-border-radius:10px">
+  <!--Showboardinfoad-->
+<div align="center" style="padding-top:2px; padding-bottom:2px;">
+<div style="height:22px;">
+<!--<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/234x20.js?kval=content_ad' type='text/javascript' charset='utf-8'></script>-->
+</div>
+</div>	
+<!--Showboardinfoad-->
+   <!-- <div id="hideinfo1" style=" font-size:14px; margin:0px; text-align:center;"><a href="" >Hide Board Information</a></div> -->
+    <div id="hideinfo" style=" font-size:14px; margin:0px; text-align:center;"><a href="javascript:toggleLayer('hide');" id="hidecom">Hide Board Information</a></div>
+  <div id="showinfo" style="font-size:14px; margin:0px; text-align:center; " ><a href="javascript:toggleLayer('show');" id="showcom">Show Board Information</a></div>
+    
+  <div style="float:right; margin-bottom:5px; font-size:12px; ">
+    <script type="text/javascript" src="/js/live_clock.js"></script>
+    <script>function fun(){show_clock();} fun();</script>
+  </div>
+  <div style="clear:both"></div>
+  <!--<h1 style="margin:0 0 2px 0 !important; padding:0px !important;">-->
+  <div class="title" style="font-size:14px; " >
+ 
+    <div style="float:left;"><a class="board_name_tag"><h1>Tesla Motors Inc.  TSLA</h1></a></div>
+  
+    <div style="float:right;">
+      <a href="/board/boardfeeds?id=55692" id="f_link" 
+	   title="TSLA RSS Feed"><img height="17px" width="40px" src="/images/rss.gif" alt="TSLA RSS Feed" /></a>
+          </div>
+<script type="text/javascript">
+var addthis_share = addthis_share || {}
+addthis_share = {
+passthrough : {
+twitter: {
+text: "Tesla Motors Inc. $TSLA | Stock Message Board - Investors Hangout"
+}
+}
+}
+</script>
+    <div style="float:right; width:105px;">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox addthis_default_style "> <a class="addthis_button_preferred_1"></a> <a class="addthis_button_preferred_2"></a> <a class="addthis_button_preferred_3"></a> <a class="addthis_button_preferred_4"></a> <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4fb83d7e14ac1736" class="addthis_button_compact"></a> </div>
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fb83d7e14ac1736"></script>
+      <!-- AddThis Button END -->    
+    </div>
+  </div>
+  <div style="clear:both"></div>
+  <!--</h1>-->
+  <div class="author" style="font-size:12px;"> 
+  <div style="float:left">
+  <b>Board Mod: <span style="color:#1919FE;">
+   <a rel="nofollow" href="/profile/view?id=5130"><u>ROCKSTAR88</u></a>    </span></b>
+	</div>
+	<div style="float:left; margin-left:5px;"><b>Asst Mods:</b><span style="color:#0080FF;">
+    	 </span></div>
+	 	<div style="clear:both"></div>
+	 </div>
+	 
+	<div id="board-last-post" class="last-post" style="font-size:12px;"> <b>Last Post: 02/11/2016 4:34:59 AM</b> </div>
+	<div class="board_marks" style="font-size:12px;"> <b>Board Marks: 43</b> </div>
+  <div class="post-count" style="font-size:12px;"> <b>Posts Today: 0</b> </div>
+  <div class="board-view-count" style="font-size:12px;"> <b>Board Views Today: 712</b> </div>
+
+  <div class="content">
+    <div id="com_info" style=" width:935px; overflow:hidden;">
+<!--belowshowboardad-->
+<div align="center" style="padding-top:10px; padding-bottom:10px;">
+  </div>
+<!--belowshowboardad-->	
+      <b> Tesla Motors Inc. (NASDAQ: TSLA) <br /> 
+<br /> 
+Company Website: </b>  <a href="http://www.teslamotors.com/" title="http://www.teslamotors.com/" target="_blank" rel="nofollow" class="parse_link">http://www.teslamotors.com/</a> <br /> 
+<br /> 
+&quot;We believe that more than 100 years after the invention of the internal combustion engine, incumbent automobile manufacturers are at a crossroads and face significantindustry-wide challenges. The reliance on the gasoline-powered internal combustion engine as the principal automobile powertrain technology has raised environmental concerns, created dependence among industrialized and developing nations on oil largely imported from foreign nations and exposed consumers to volatile fuel prices. In addition, we believe the legacy investments made by incumbent automobile manufacturers in manufacturing and technology related to the internal combustion engine have to date inhibited rapid innovation in alternative fuel powertrain technologies. We believe these challenges offer an historic opportunity for companies with innovative electric powertrain technologies and that are unencumbered with legacy investments in the internal combustion engine to lead the next technological era of the automotive industry. <br /> 
+<br /> 
+Tesla Motors uses proprietary technology, world-class design and state-of-the-art manufacturing processes to create a new generation of highway capable electric vehicles. We utilize an innovative distribution model based on Company-owned sales and service centers. This approach allows us to maintain the highest levels of customer experience and benefit from short customer feedback loops to ensure our customer needs are fulfilled. We believe our operational infrastructure provides us with a competitive advantage compared to traditional automobile manufacturers&quot;	
+
+<!--belowshowboardad-->
+
+<!--belowshowboardad-->	
+<div style="font-size:14px; margin-top:20px;">
+<!--BoardDescriptionStockBoards-->
+
+<!--Quick Links Begin-->
+<div style="text-align:center;">
+<h2 style="font-size:15px; font-weight:bold;">Tesla Motors Inc. (TSLA) Research Links</h2>
+</div>
+<div align="center" style="padding-left:110px;">
+<style type="text/css">
+.board_info_research a:link {color:##0000FF; font-size:12px;} /* unvisited link */
+.board_info_research a:visited {color:#800080;} /* visited link */
+.board_info_research a:hover  /* mouse over link */
+.board_info_research a:active  /* selected link */
+  </style>
+<div align="left" style="margin-bottom:5px; overflow:hidden; padding-top:5px; max-width:992px; background:#E6E8FA">
+<div class="board_info_research" style=" float:left; padding:10px;">
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Company Profiles</h3>
+  <p><a href="http://www.otcmarkets.com/stock/TSLA/company-info" rel="nofollow" target="_blank" title="OTC Markets">OTC Markets</a> , <a href="http://www.otcbb.com/asp/Info_Center.asp?symbol=TSLA" rel="nofollow" target="_blank" title="OTCBB">OTCBB</a> , <a href="http://www.reuters.com/finance/stocks/companyProfile?symbol=TSLA" rel="nofollow" target="_blank" title="Reuters">Reuters</a> , </p>
+  <p><a href="http://finance.yahoo.com/q/pr?s=TSLA" rel="nofollow" target="_blank" title="Yahoo! Finance">Yahoo! Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Management</h3>
+  <p><a href="http://investing.businessweek.com/research/stocks/people/people.asp?ticker=TSLA" title="Business Week" rel="nofollow" target="_blank">Business Week</a> , <a href="http://www.reuters.com/finance/stocks/companyOfficers?symbol=TSLA" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="http://finance.yahoo.com/q/pr?s=TSLA+Profile" title="Yahoo! Finance" rel="nofollow" target="_blank">Yahoo! Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Research Reports</h3>
+  <p><a href="http://www.reuters.com/finance/stocks/analystResearch?symbol=TSLA" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="https://eresearch.fidelity.com/eresearch/goto/evaluate/analystsOpinions.jhtml?symbols=TSLA" title="Fidelity" rel="nofollow" target="_blank">Fidelity</a> , <a href="http://www.thestreet.com/r/ratings/reports/analysis/TSLA.html" title="The Street" rel="nofollow" target="_blank">The Street</a> , <a href="http://finance.yahoo.com/q/rr?s=TSLA" title="Yahoo! Finance" rel="nofollow" target="_blank">Yahoo! Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Recent News</h3>
+  <p><a href="http://www.otcmarkets.com/stock/TSLA/news" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.marketwire.com/news_room/advanced_search/" title="Market Wire" rel="nofollow" target="_blank">Market Wire</a> , <a href="http://www.businesswire.com/portal/site/home/search/?searchType=news&amp;searchTerm=TSLA&amp;searchPage=1" title="Business Wire" rel="nofollow" target="_blank">Business Wire</a> ,</p>
+  <p><a href="http://www.prnewswire.com/search-results/news/TSLA-180-days-page-1" title="PR News Wire" rel="nofollow" target="_blank">PR News Wire</a> , <a href="http://www.reuters.com/finance/stocks/companyNews?symbol=TSLA" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="http://www.bloomberg.com/markets/symbolsearch?query=TSLA" title="Bloomberg" rel="nofollow" target="_blank">Bloomberg</a> , </p>
+  <p><a href="https://news.google.com/news/search?q=TSLA" title="Aggregated News at Google" rel="nofollow" target="_blank">Aggregated News at Google</a> , </p>
+  <p><a href="http://news.search.yahoo.com/search/news?p=TSLA" title="Aggregated News at Yahoo!" rel="nofollow" target="_blank">Aggregated News at Yahoo!</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Financials</h3>
+  <p><a href="http://www.otcmarkets.com/stock/TSLA/financials" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.google.com/finance?fstype=ii&amp;q=TSLA" title="Google" rel="nofollow" target="_blank">Google</a> , <a href="http://investing.businessweek.com/research/stocks/financials/financials.asp?ticker=TSLA" title="Business Week" rel="nofollow" target="_blank">Business Week</a> , </p>
+  <p><a href="http://investing.money.msn.com/investments/money-search?q=TSLA&x=0&y=0&form=MONEY5&mkt=en-US&qs=n&sk=&sc=8-3" title="Money Central" rel="nofollow" target="_blank">Money Central</a> , <a href="http://www.reuters.com/finance/stocks/incomeStatement?symbol=TSLA" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="http://data.cnbc.com/quotes/TSLA/tab/7" title="CNBC" rel="nofollow" target="_blank">CNBC</a></p>
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Earnings</h3>
+  <p><a href="http://investing.money.msn.com/investments/money-search?q=TSLA&amp;x=0&amp;y=0&amp;form=MONEY5&amp;mkt=en-US&amp;qs=n&amp;sk=&amp;sc=8-3" title="MSN Money" rel="nofollow" target="_blank">MSN Money</a> , <a href="http://investing.businessweek.com/research/stocks/earnings/earnings.asp?ticker=TSLA" title="Business Week" rel="nofollow" target="_blank">Business Week</a> , <a href="http://eresearch.fidelity.com/eresearch/evaluate/fundamentals/earnings.jhtml?stockspage=earnings&amp;symbols=TSLA" title="Fidelity" rel="nofollow" target="_blank">Fidelity</a> , </p>
+  <p><a href="http://www.thestreet.com/find/results/index.html?q=TSLA&amp;omorig=header" title="The Street" rel="nofollow" target="_blank">The Street</a> , <a href="http://www.earningswhispers.com/stocks.asp?symbol=TSLA" title="Earnings Whisper" rel="nofollow" target="_blank">Earnings Whisper</a></p>
+</div>
+<div class="board_info_research" style="float:left; padding:10px;">    
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">SEC Filings</h3>
+  <p><a href="http://secsearch.sec.gov/search?utf8=?&amp;affiliate=secsearch&amp;query=TSLA" title="SEC" rel="nofollow" target="_blank">SEC</a> , <a href="http://freeedgar.com/results/default.asp?cx=017929059329229388003%3At0nzbd312ts&amp;cof=FORID%3A11&amp;q=TSLA#978" title="Free Edgar" rel="nofollow" target="_blank">Free Edgar</a> , <a href="http://www.otcmarkets.com/stock/TSLA/filings" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.otcbb.com/asp/Info_Center.asp?symbol=TSLA&amp;action=showFilingResults" title="OTCBB" rel="nofollow" target="_blank">OTCBB</a></p>
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Transcripts</h3>
+  <p><a href="http://www.morningstar.com/earnings/earnings-call-transcript.aspx?t=TSLA&amp;region=USA&amp;culture=en-us" title="Morning Star" rel="nofollow" target="_blank">Morning Star</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Short Sale Data</h3>
+  <p><a href="http://www.otcmarkets.com/stock/TSLA/short-sales" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.nasdaq.com/symbol/TSLA/short-interest" title="NASDAQ" rel="nofollow" target="_blank">NASDAQ</a> , </p>
+  <p><a href="http://www.shortsqueeze.com/?symbol=TSLA" title="Short Squeeze" rel="nofollow" target="_blank">Short Squeeze</a> , <a href="http://www.dailyfinance.com/company/company/TSLA/nas/short-interest" title="Daily Finance" rel="nofollow" target="_blank"> Daily Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Trading Info</h3>
+  <p><a href="http://www.tdameritrade.com/welcome3.html" title="Ameritrade" rel="nofollow" target="_blank">Ameritrade</a> , <a href="http://www.esignal.com/" title="Trading Software from E Signal" rel="nofollow" target="_blank">Trading Software from E Signal</a> , </p>
+  <p><a href="http://www.tradestation.com/default_2.shtm" title="Trading Software from Trade Station" rel="nofollow" target="_blank">Trading Software from Trade Station</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Is TSLA a Buy?</h3>
+  <p><a href="http://quote.barchart.com/opinions/stocks/TSLA" title="Barchart" rel="nofollow" target="_blank">Barchart</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Commentary</h3>
+  <p><a href="http://www.marketwatch.com/investing/stock/TSLA/" title="Market Watch" rel="nofollow" target="_blank">Market Watch</a> , <a href="http://search.cnbc.com/main.do?keywords=TSLA" title="CNBC" rel="nofollow" target="_blank">CNBC</a> , <a href="http://www.thestreet.com/find/results?q=TSLA" title="The Street" rel="nofollow" target="_blank">The Street</a> ,</p>
+  <p><a href="http://www.zacks.com/search.php?q=TSLA" title="Zacks" rel="nofollow" target="_blank">Zacks</a> , <a href="http://www.fool.com/search/solr.aspx?dataSource=article&amp;q=TSLA" title="Motley Fool" rel="nofollow" target="_blank">Motley Fool</a> , <a href="http://247wallst.com/?s=TSLA" title="24/7 Wall St." rel="nofollow" target="_blank">24/7 Wall St.</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Blogs</h3>
+  <p><a href="http://www.bloggingstocks.com/search/?q=TSLA" title="Blogging Stocks" rel="nofollow" target="_blank">Blogging Stocks</a> , <a href="http://www.google.com/search?hl=en&amp;q=TSLA&amp;tbm=blg" title="Google's Blog Search" rel="nofollow" target="_blank">Google's Blog Search</a> ,</p>
+  <p><a href="http://www.marketminute.com/search?q=TSLA" title="Market Minute" rel="nofollow" target="_blank">Market Minute</a> , <a href="http://www.fool.com/search/solr.aspx?dataSource=blog&amp;q=TSLA" title="Motley Fool" rel="nofollow" target="_blank">Motley Fool</a></p>
+</div>
+
+<div class="board_info_research" style="float:left; padding:10px;">
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Share Statistics</h3>
+  <p><a href="http://quote.barchart.com/profile.php?sym=TSLA&amp;view=key_statistics" title="Barchart" rel="nofollow" target="_blank">Barchart</a> , <a href="http://eresearch.fidelity.com/eresearch/evaluate/fundamentals/keyStatistics.jhtml?stockspage=keyStatistics&amp;symbols=TSLA" title="Fidelity" rel="nofollow" target="_blank">Fidelity</a> , <a href="http://finance.yahoo.com/q/ks?s=TSLA" title="Yahoo! Finance" rel="nofollow" target="_blank">Yahoo! Finance</a> , </p>
+  <p><a href="http://www.smartmoney.com/quote/TSLA/?story=keystatistics" title="Smart Money" rel="nofollow" target="_blank">Smart Money</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Share Holders</h3>
+  <p><a href="http://investors.morningstar.com/ownership/shareholders-overview.html?t=TSLA" title="Morningstar" rel="nofollow" target="_blank">Morningstar</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Quotes</h3>
+  <p><a href="http://www.otcmarkets.com/stock/TSLA/quote" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.barchart.com/quotes/stocks/TSLA" title="Barchart" rel="nofollow" target="_blank">Barchart</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Technical Analysis</h3>
+  <p><a href="http://www.barchart.com/technicals/stocks/TSLA" title="Barchart" rel="nofollow" target="_blank">Barchart</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Stock Charts</h3>
+  <p><a href="http://www.otcmarkets.com/stock/TSLA/chart" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.google.com/finance?q=TSLA" title="Google" rel="nofollow" target="_blank">Google</a> , <a href="http://stockcharts.com/h-sc/ui?s=TSLA" title="Stock Charts" rel="nofollow" target="_blank">Stock Charts</a> , </p>
+  <p><a href="http://bigcharts.marketwatch.com/advchart/frames/frames.asp?symb=TSLA" title="Big Charts" rel="nofollow" target="_blank">Big Charts</a> , <a href="http://www.stockta.com/cgi-bin/analysis.pl?symb=TSLA" title="Stock TA" rel="nofollow" target="_blank">Stock TA</a> , <a href="http://www.barchart.com/charts/stocks/TSLA&amp;style=technical" title="Barchart" rel="nofollow" target="_blank">Barchart</a> ,</p>
+  <p><a href="http://investing.money.msn.com/investments/money-search?q=TSLA&amp;x=0&amp;y=0&amp;form=MONEY5&amp;mkt=en-US&amp;qs=n&amp;sk=&amp;sc=8-3" title="MSN Money" rel="nofollow" target="_blank">MSN Money</a> , <a href="http://ycharts.com/companies/TSLA" title="Y Charts" rel="nofollow" target="_blank">Y Charts</a> , <a href="http://www.investorguide.com/stock-charts.php?ticker=TSLA" title="Investor Guide" rel="nofollow" target="_blank">Investor Guide</a> ,</p>
+  <p><a href="http://finviz.com/quote.ashx?t=TSLA" title="FinViz" rel="nofollow" target="_blank">FinViz</a> , <a href="http://clearstation.etrade.com/cgi-bin/details?Symbol=TSLA" title="Clear Station" rel="nofollow" target="_blank">Clear Station</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Free Level 2</h3>
+  <p><a href="http://www.aistockcharts.com/level-2-stock-quotes.html" title="AIStockCharts" rel="nofollow" target="_blank">AIStockCharts</a> , <a href="http://www.level2stockquotes.com/level-ii-quotes.html" title="Level2StockQuotes" rel="nofollow" target="_blank">Level2StockQuotes</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Search Investors Hangout</h3>
+  <p><a href="https://www.google.com/#psj=1&q=site:investorshangout.com+TSLA" title="Search Investors Hangout" rel="nofollow" target="_blank">Search Investors Hangout</a></p>
+
+</div>
+</div>
+</div>
+<!--Quick Links End-->
+
+
+<div style="text-align:center;">
+<h2 style="font-size:15px; font-weight:bold;">Tesla Motors Inc. (TSLA) Stock Message Board</h2>
+<img style="padding-top:15px;" src="http://investorshangout.com/images/stocks/logo-TSLA%20Stock%20Message%20Board-40-83-0-17-fff-792015" width="360" height="144">
+</div>
+
+<!--BoardDescriptionStockBoards-->
+<!--BoardDescriptionTSXStockBoards-->
+<!--BoardDescriptionTSXStockBoards-->
+<!--BoardDescriptionOtherStockBoards-->
+<!--BoardDescriptionOtherStockBoards-->
+<!--boardinfoad-->
+<div id="below_rank" align="center" style="width:956px; background-color:#E6E8FA;">
+</div>
+<!--boardinfoad-->
+		 
+      </div>
+  </div>
+	
+			
+  	<div id="com_quote">
+
+<div style="float:right; padding-top:10px; padding-bottom:10px; height:auto; width:300px; min-height:250px;">
+			<!--IC 300x250-->
+            
+<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/300x250.js' type='text/javascript' charset='utf-8'></script>
+			
+</div>
+      <div style="background-color:#E6E8FA; padding:10px 10px 10px 5px;">      
+
+       <script language="javascript" type="text/javascript" src="http://app.quotemedia.com/quotetools/detailedQuoteTabCharts.go?webmasterId=101503&symbol=TSLA&toolWidth=600&chscale=1d&chbg=ffffff&chbgch=ffffff&chgrd=dddddd&chln=333333&chbdr=cccccc&chfill=cc5D92B1&chfill2=5D92B1">
+			</script>
+
+
+                         <!-- below chart ad-->
+
+      </div>
+
+<!--stockboardotclinks-->
+<!--belowchartad-->
+<div align="center" style="padding-top:10px; padding-bottom:10px;"></div>
+<!--belowchartad-->
+<div style="clear:both;"></div>
+<div id="board_namesmb" align="center" style="width:900px; font-size:12px; font-weight:bold; padding-bottom:10px; padding-top:10px;">
+		<a style="padding-right:20px;" href="http://www.otcmarkets.com/stock/TSLA/company-info" title="TSLA Company Info" rel="nofollow" target="_new"><span id="ihb_ticker">TSLA</span> Company Info</a>
+ 		<a href="http://www.otcmarkets.com/stock/TSLA/news" title="TSLA News" rel="nofollow" target="_new">TSLA News</a> 		
+		<span style="color:#0000FD; padding-left:20px; position:relative; padding-right:90px;">Trade TSLA With <span style="right:0px; position: absolute;top: -7px; width:90px;"><script src='http://ads.investingchannel.com/adtags/InvestorsHangout/tradenow/88x31.js?kval=tradenow' type='text/javascript' charset='utf-8'></script></span></span>
+		<a style="padding-left:20px;" href="http://www.otcmarkets.com/stock/TSLA/filings" title="TSLA Filings" rel="nofollow" target="_new">TSLA Filings</a>
+	  <a style="padding-left:20px;" href="http://www.otcmarkets.com/stock/TSLA/financials" title="TSLA Financials" rel="nofollow" target="_new">TSLA Financials</a>
+		<a style="padding-left:20px;" href="http://www.otcmarkets.com/stock/TSLA/short-sales" title="TSLA Short Sales" rel="nofollow" target="_new">TSLA Short Sales</a>
+</div>
+
+<!--stockboardotclinks-->
+
+<!--newsfeeds-->
+<!--newsfeeds-->
+</div>
+                <div style="float:right; font-size:8px; padding-top:10px;">
+    <div id="hidequote" style=" font-size:12px;"><a href="javascript:toggleQuote('hideq');" id="hidecom">Hide Quote</a></div>
+    <div id="showquote" style="font-size:12px;"><a href="javascript:toggleQuote('showq');" id="showcom">Show Quote</a></div>
+  </div>
+  </div>
+<div style="clear:both"></div>
+</div><div style="clear:both"></div>
+		<div class="posts_menu">
+			<span class="postpost"><a href="/post/newpost/55692/">Create New Post</a></span>
+			<span class="postallpost">
+			<a href="/post/viewall?id=55692">View All Posts</a></span>
+						<span class="favorite"><a href="/board/follow/55692">Board Mark</a></span>
+			<span  class="banned" ><a href="/board/banneduser?id=55692">Banned</a></span>
+		</div>
+		<!--<div id="boardpostslist" class="board-posts forums"> -->
+				<script type="text/javascript">
+    function SearchPost(number){
+		var num=number;
+			if(num==1){
+				 window.location="/Tesla-Motors-Inc-TSLA-55692/?search_id=mid_search";
+			}
+			else{
+				var txt = document.myForm.myText.value;
+			 window.location="/Tesla-Motors-Inc-TSLA-55692/?search_id="+txt;
+			}
+	  } 
+</script>
+<div class="table_heading">
+  <div class="head_title" style="width:60px;">Post</div>
+  <div class="head_title" style="width:496px;">
+		<span id="spansub_head">Subject</span>
+		<span id="searchbx_post">
+		<span class="search_text">Search:</span>
+			<form name="myForm" method="post" action="javascript:SearchPost(1)">
+			  <input type="text" value="" name="myText" onBlur="SearchPost(2)" id="postid" />
+			</form>
+		</span>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="head_title" style="width:196px;">Author</div>
+	<div class="head_title" style="width:198px;">Posted On </div>
+	<div style="clear:both;"></div>
+</div>
+<div class="grid-view">
+  <table style="width:100%" cellpadding="2" cellspacing="0" class="items">  
+  <!-- generate sticy post data first -->
+			
+<!-- now show normal posts -->
+  		<tr id="post-173" class="even post-container">
+						<td id="post-id-3543908" align="left" width="55px" style="padding:4px;">
+					173				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3543908">Tesla: Q4 EPS of -$0.87 misses by $0.99. Revenue</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/11/2016 4:34:59 AM				</td>
+			</tr>
+					<tr id="post-172" class="odd post-container">
+						<td id="post-id-3537786" align="left" width="55px" style="padding:4px;">
+					172				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3537786">$TSLA market is killing all high P/E shares.</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/09/2016 4:53:38 AM				</td>
+			</tr>
+					<tr id="post-171" class="even post-container">
+						<td id="post-id-3524462" align="left" width="55px" style="padding:4px;">
+					171				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3524462">There still hasn't been a single accident <img src=/images/thumb-up.png height=15px><span style='color:#475472; font-size:10px; padding-left:2px; position:relative; top:-2px;'>(1)</span></a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23803">Hattlem</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/03/2016 5:17:36 AM				</td>
+			</tr>
+					<tr id="post-170" class="odd post-container">
+						<td id="post-id-3504216" align="left" width="55px" style="padding:4px;">
+					170				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3504216">A lot of $TSLA fans on this board. I like it</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27864">amy h</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/25/2016 10:11:30 PM				</td>
+			</tr>
+					<tr id="post-169" class="even post-container">
+						<td id="post-id-3504215" align="left" width="55px" style="padding:4px;">
+					169				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3504215">That we will slowski, $TSLA announced this</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27458">Trade-Off</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/25/2016 10:09:08 PM				</td>
+			</tr>
+					<tr id="post-168" class="odd post-container">
+						<td id="post-id-3504182" align="left" width="55px" style="padding:4px;">
+					168				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3504182">$TSLA trading at its best I guess we will</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28728">slowski</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/25/2016 8:58:14 PM				</td>
+			</tr>
+					<tr id="post-167" class="even post-container">
+						<td id="post-id-3503777" align="left" width="55px" style="padding:4px;">
+					167				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3503777">Tough Call slowski, I'm bullish on $TSLA For a</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27458">Trade-Off</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/25/2016 2:25:37 PM				</td>
+			</tr>
+					<tr id="post-166" class="odd post-container">
+						<td id="post-id-3502813" align="left" width="55px" style="padding:4px;">
+					166				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3502813">$TSLA Could be in some trouble this year.. Take a</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28728">slowski</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/25/2016 10:41:13 AM				</td>
+			</tr>
+					<tr id="post-165" class="even post-container">
+						<td id="post-id-3502801" align="left" width="55px" style="padding:4px;">
+					165				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3502801">I'm interested to see how $TSLA plays out this</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28728">slowski</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/25/2016 10:38:48 AM				</td>
+			</tr>
+					<tr id="post-164" class="odd post-container">
+						<td id="post-id-3495329" align="left" width="55px" style="padding:4px;">
+					164				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3495329">The future is now smokey! $TSLA is not only <img src=/images/thumb-up.png height=15px><span style='color:#475472; font-size:10px; padding-left:2px; position:relative; top:-2px;'>(1)</span></a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27458">Trade-Off</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/21/2016 12:34:06 PM				</td>
+			</tr>
+					<tr id="post-163" class="even post-container">
+						<td id="post-id-3493910" align="left" width="55px" style="padding:4px;">
+					163				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3493910">Puts in the AM. Not convinced. Letting go of the</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/21/2016 4:26:29 AM				</td>
+			</tr>
+					<tr id="post-162" class="odd post-container">
+						<td id="post-id-3474552" align="left" width="55px" style="padding:4px;">
+					162				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3474552">TSLA up -2.16% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/11/2016 2:57:50 PM				</td>
+			</tr>
+					<tr id="post-161" class="even post-container">
+						<td id="post-id-3473567" align="left" width="55px" style="padding:4px;">
+					161				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3473567">HAHA, $TSLA has a lot of challenges ahead if you</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/11/2016 11:39:01 AM				</td>
+			</tr>
+					<tr id="post-160" class="odd post-container">
+						<td id="post-id-3472027" align="left" width="55px" style="padding:4px;">
+					160				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3472027">Talk about a Smart Car, Tesla's ( $TSLA ) new</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27482">Goethe</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/11/2016 8:15:55 AM				</td>
+			</tr>
+					<tr id="post-159" class="even post-container">
+						<td id="post-id-3467232" align="left" width="55px" style="padding:4px;">
+					159				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3467232">TSLA up +1.04% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/08/2016 10:47:26 AM				</td>
+			</tr>
+					<tr id="post-158" class="odd post-container">
+						<td id="post-id-3460855" align="left" width="55px" style="padding:4px;">
+					158				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3460855">TSLA up +0.03% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/05/2016 1:47:07 PM				</td>
+			</tr>
+					<tr id="post-157" class="even post-container">
+						<td id="post-id-3459019" align="left" width="55px" style="padding:4px;">
+					157				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3459019">$TSLA FF presentation was absurd and surreal.</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/05/2016 5:30:04 AM				</td>
+			</tr>
+					<tr id="post-156" class="odd post-container">
+						<td id="post-id-3456651" align="left" width="55px" style="padding:4px;">
+					156				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3456651">ty slowski for the $TSLA</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28727">iTrade</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/04/2016 1:11:34 AM				</td>
+			</tr>
+					<tr id="post-155" class="even post-container">
+						<td id="post-id-3456647" align="left" width="55px" style="padding:4px;">
+					155				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3456647">Updated $TSLA Stock Chart Technical Analysis</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28728">slowski</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/04/2016 12:46:34 AM				</td>
+			</tr>
+					<tr id="post-154" class="odd post-container">
+						<td id="post-id-3456643" align="left" width="55px" style="padding:4px;">
+					154				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3456643">Are you still interested in $TSLA</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28728">slowski</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/04/2016 12:44:13 AM				</td>
+			</tr>
+					<tr id="post-153" class="even post-container">
+						<td id="post-id-3456642" align="left" width="55px" style="padding:4px;">
+					153				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3456642">Gonna say it is going to be a big year for</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28728">slowski</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/04/2016 12:43:39 AM				</td>
+			</tr>
+					<tr id="post-152" class="odd post-container">
+						<td id="post-id-3451267" align="left" width="55px" style="padding:4px;">
+					152				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3451267">TSLA up +1.49% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/31/2015 10:31:21 AM				</td>
+			</tr>
+					<tr id="post-151" class="even post-container">
+						<td id="post-id-3449511" align="left" width="55px" style="padding:4px;">
+					151				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3449511">TSLA 240.84 Tesla Motors is number 83 out of 100</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/30/2015 2:51:55 PM				</td>
+			</tr>
+					<tr id="post-150" class="odd post-container">
+						<td id="post-id-3448805" align="left" width="55px" style="padding:4px;">
+					150				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3448805">TSLA up +1.47% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/30/2015 1:37:31 PM				</td>
+			</tr>
+					<tr id="post-149" class="even post-container">
+						<td id="post-id-3435585" align="left" width="55px" style="padding:4px;">
+					149				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3435585">TSLA up +0.91% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/21/2015 6:31:22 PM				</td>
+			</tr>
+					<tr id="post-148" class="odd post-container">
+						<td id="post-id-3435208" align="left" width="55px" style="padding:4px;">
+					148				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3435208">TSLA 232.56 Tesla Motors is number 75 out of 100</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/21/2015 5:49:52 PM				</td>
+			</tr>
+					<tr id="post-147" class="even post-container">
+						<td id="post-id-3430982" align="left" width="55px" style="padding:4px;">
+					147				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3430982">TSLA 230.46 Tesla Motors is number 76 out of 100</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/18/2015 9:20:28 PM				</td>
+			</tr>
+					<tr id="post-146" class="odd post-container">
+						<td id="post-id-3427660" align="left" width="55px" style="padding:4px;">
+					146				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3427660">TSLA 233.39 Tesla Motors is number 73 out of 100</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/17/2015 7:47:04 PM				</td>
+			</tr>
+					<tr id="post-145" class="even post-container">
+						<td id="post-id-3424833" align="left" width="55px" style="padding:4px;">
+					145				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3424833">TSLA 229.96 Tesla Motors $TSLA stock added to my</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9061">clayton</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/16/2015 6:07:14 PM				</td>
+			</tr>
+					<tr id="post-144" class="odd post-container">
+						<td id="post-id-3424468" align="left" width="55px" style="padding:4px;">
+					144				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3424468">Volume Alert - TSLA Stock 230.45 Tesla Motors</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9046">leahanne</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/16/2015 5:26:18 PM				</td>
+			</tr>
+					<tr id="post-143" class="even post-container">
+						<td id="post-id-3422937" align="left" width="55px" style="padding:4px;">
+					143				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3422937">TSLA 230.43 Tesla Motors is number 75 out of 100</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/16/2015 3:20:47 PM				</td>
+			</tr>
+					<tr id="post-142" class="odd post-container">
+						<td id="post-id-3421883" align="left" width="55px" style="padding:4px;">
+					142				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3421883">TSLA up +4.16% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/16/2015 2:17:52 PM				</td>
+			</tr>
+					<tr id="post-141" class="even post-container">
+						<td id="post-id-3418508" align="left" width="55px" style="padding:4px;">
+					141				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3418508">TSLA up +1.21% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/15/2015 2:03:57 PM				</td>
+			</tr>
+					<tr id="post-140" class="odd post-container">
+						<td id="post-id-3418218" align="left" width="55px" style="padding:4px;">
+					140				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3418218">TSLA 221.06 Tesla Motors is number 72 out of 100</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/15/2015 1:40:03 PM				</td>
+			</tr>
+					<tr id="post-139" class="even post-container">
+						<td id="post-id-3414585" align="left" width="55px" style="padding:4px;">
+					139				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3414585">TSLA 218.59 Tesla Motors is number 56 out of 100</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/14/2015 11:34:27 AM				</td>
+			</tr>
+					<tr id="post-138" class="odd post-container">
+						<td id="post-id-3414065" align="left" width="55px" style="padding:4px;">
+					138				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3414065">TSLA up +0.69% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/14/2015 10:54:16 AM				</td>
+			</tr>
+					<tr id="post-137" class="even post-container">
+						<td id="post-id-3388364" align="left" width="55px" style="padding:4px;">
+					137				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3388364">TSLA Slid with sliding Oil from 236, bulls still</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23803">Hattlem</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/03/2015 6:19:16 AM				</td>
+			</tr>
+					<tr id="post-136" class="odd post-container">
+						<td id="post-id-3335476" align="left" width="55px" style="padding:4px;">
+					136				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3335476">Tesla Motors is taking cruise control to a whole</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27482">Goethe</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						11/12/2015 11:17:20 AM				</td>
+			</tr>
+					<tr id="post-135" class="even post-container">
+						<td id="post-id-3117208" align="left" width="55px" style="padding:4px;">
+					135				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3117208">$TSLA is now trading near $245 after a big</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23800">jones2000</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						08/21/2015 5:06:53 AM				</td>
+			</tr>
+					<tr id="post-134" class="odd post-container">
+						<td id="post-id-3115714" align="left" width="55px" style="padding:4px;">
+					134				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3115714">$TSLA is now trading near $260 after a big</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23800">jones2000</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						08/20/2015 6:07:09 AM				</td>
+			</tr>
+					<tr id="post-133" class="even post-container">
+						<td id="post-id-3112761" align="left" width="55px" style="padding:4px;">
+					133				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3112761">Hope $TSLA longs print money. I don't pretend</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23800">jones2000</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						08/18/2015 5:04:09 AM				</td>
+			</tr>
+					<tr id="post-132" class="odd post-container">
+						<td id="post-id-3110117" align="left" width="55px" style="padding:4px;">
+					132				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3110117">TSL is a speculative driven stock that is one of</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=24028">Helt73</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						08/14/2015 4:08:03 PM				</td>
+			</tr>
+					<tr id="post-131" class="even post-container">
+						<td id="post-id-3106360" align="left" width="55px" style="padding:4px;">
+					131				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3106360">$TSLA closed up 0.34% on Wednesday, on</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23800">jones2000</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						08/13/2015 5:32:14 AM				</td>
+			</tr>
+					<tr id="post-130" class="odd post-container">
+						<td id="post-id-3099105" align="left" width="55px" style="padding:4px;">
+					130				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3099105">$TSLA loses 4k on every Model S car sold, burned</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23803">Hattlem</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						08/10/2015 9:51:35 AM				</td>
+			</tr>
+					<tr id="post-129" class="even post-container">
+						<td id="post-id-2923036" align="left" width="55px" style="padding:4px;">
+					129				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2923036">TSLA Stock Charts Tuesday, May 5, 2015 7:15:20 PM</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9626">chartguy89</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/05/2015 7:15:25 PM				</td>
+			</tr>
+					<tr id="post-128" class="odd post-container">
+						<td id="post-id-2919951" align="left" width="55px" style="padding:4px;">
+					128				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2919951">Volume Alert - TSLA Stock 230.94 Tesla Motors</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9046">leahanne</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/04/2015 1:51:30 PM				</td>
+			</tr>
+					<tr id="post-127" class="even post-container">
+						<td id="post-id-2919206" align="left" width="55px" style="padding:4px;">
+					127				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2919206">TSLA Stock Charts Monday, May 4, 2015 12:26:44 PM</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9626">chartguy89</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/04/2015 12:26:39 PM				</td>
+			</tr>
+					<tr id="post-126" class="odd post-container">
+						<td id="post-id-2918953" align="left" width="55px" style="padding:4px;">
+					126				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2918953">TSLA up +2.25% percent Today $TSLA Stock High is</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/04/2015 12:08:18 PM				</td>
+			</tr>
+					<tr id="post-125" class="even post-container">
+						<td id="post-id-2916611" align="left" width="55px" style="padding:4px;">
+					125				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2916611">Volume Alert - TSLA Stock 222.00 Tesla Motors</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9046">leahanne</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/01/2015 2:30:22 PM				</td>
+			</tr>
+					<tr id="post-124" class="odd post-container">
+						<td id="post-id-2915833" align="left" width="55px" style="padding:4px;">
+					124				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2915833">TSLA Stock Charts Friday, May 1, 2015 12:49:46 PM</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9626">chartguy89</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/01/2015 12:49:46 PM				</td>
+			</tr>
+					  </table>
+    	<div style="float:right">
+    		 	 <a href="http://investorshangout.com">Login</a> to continue reading.	
+  		</div>
+</div>
+<div style="clear:both"></div>
+</div>
+ <div id="board_advertise">
+	</div>	</div><!-- content -->
+</div>
+    <div style="clear:both"></div>
+  </div>
+  
+	<div align="center">
+	
+			
+	
+	<div style="background-color:#FFF; margin-top:-10px; margin-right:14px; margin-left:14px;">
+		<div id="board_advertise">
+			<div id="board_add" align="center">
+            
+		<!--<span style="width:302px; height:254px; display: inline-block;">
+		<script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=546343&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=124651"></script>
+		</span>
+		<span style="width:302px; height:254px; display: inline-block;">
+		<script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=546343&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=140931"></script>
+		</span>
+		<span style="width:302px; height:254px; display: inline-block;">
+		<script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=546343&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=140934"></script>
+		</span>-->
+
+			</div>
+		</div>
+	</div>
+	
+    <div align="left" style="margin-bottom:5px; overflow:hidden; padding-top:10px; max-width:992px; background:#4D6D94">
+			<div align="center" style="padding:5px;"></div>   
+      <div class="bottom_footer" style=" float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Investors Hangout</p>
+        <p><a href="http://investorshangout.com/" title="Investors Hangout - Home">Home</a></p>
+        <p><a href="http://investorshangout.com/mailbox" title="Investors Hangout - Mailbox">Mailbox</a></p>
+        <p><a href="http://investorshangout.com/board" title="Investors Hangout - Boards">Boards</a></p>
+        <p><a href="http://investorshangout.com/board/favorite" title="Investors Hangout - Favorites">Favorites</a></p>
+        <p><a href="http://investorshangout.com/whatshot/activeboard" title="Investors Hangout - Most Active Stock Message Boards">Whats Hot</a></p>
+        <p><a href="http://investorshangout.com/setting" title="Investors Hangout - Settings">Settings</a></p>
+        <p><a href="http://investorshangout.com/adpage" title="Investors Hangout - Ad Page">Ad Page</a></p>
+        <p><a href="http://investorshangout.com/privacy" title="Investors Hangout - Privacy Policy">Privacy Policy</a></p>
+        <p><a href="http://investorshangout.com/termsandcondition" title="Investors Hangout - Terms and Conditions">Terms and Conditions</a></p>
+        <p><a href="http://investorshangout.com/disclaimer" title="Investors Hangout - Disclaimer">Disclaimer</a></p>
+        <p><a href="http://investorshangout.com/contact" title="Investors Hangout - Contact Us">Contact Us</a></p>
+      </div>
+      <div class="bottom_footer" style="float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Whats Hot</p>
+        <p><a href="http://investorshangout.com/whatshot/activeboard" title="Investors Hangout - Recent Activity">Recent Activity</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostviewedboard" title="Investors Hangout - Top 100 Most Viewed Boards Today">Most Viewed Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostviewedpost" title="Investors Hangout - Top 50 Most Viewed Posts Today">Most Viewed Posts</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostposted" title="Investors Hangout - Top 25 Most Posted Boards Today">Most Posted Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostfollowed" title="Investors Hangout - Most Followed Members">Most Followed</a></p>
+        <p><a href="http://investorshangout.com/whatshot/topboard" title="Investors Hangout - Most Followed Boards">Top Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/newestboard" title="Investors Hangout - Newest Boards">Newest Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/newestmembers" title="Investors Hangout - Newest Members">Newest Members </a></p>
+      </div>
+      <div class="bottom_footer" style="float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Investors Hangout Message Boards</p>
+        <p><a href="http://investorshangout.com/board?categoryid=WIH" title="Investors Hangout - Welcome To Investors Hangout">Welcome To Investors Hangout</a></p>
+        <p style="font-weight:bold; color:#FFF">Stock Message Boards</p>
+        <p><a href="http://investorshangout.com/board?categoryid=AMEX" title="Investors Hangout - American Stock Exchange (AMEX)">American Stock Exchange (AMEX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=NASDAQ" title="Investors Hangout - NASDAQ Stock Exchange (NASDAQ)">NASDAQ Stock Exchange (NASDAQ)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=NYSE" title="Investors Hangout - New York Stock Exchange (NYSE)">New York Stock Exchange (NYSE)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=OTC" title="Investors Hangout - OTC BB &amp; Pinks (US OTC)">OTC BB &amp; Pinks (US OTC)</a></p>
+        <p style="font-weight:bold; color:#FFF">User Boards</p>
+        <p><a href="http://investorshangout.com/board?categoryid=Hangout" title="Investors Hangout - The Hangout">The Hangout</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=PB" title="Investors Hangout - Private">Private</a></p>
+      </div>
+      <div class="bottom_footer" style="float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Global Markets</p>
+        <p><a href="http://investorshangout.com/board?categoryid=ASX" title="Investors Hangout - Australian Securities Exchange (ASX)">Australian Securities Exchange (ASX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=AMS" title="Investors Hangout - Euronext Amsterdam (AMS)">Euronext Amsterdam (AMS)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=BRU" title="Investors Hangout - Euronext Brussels (BRU)">Euronext Brussels (BRU)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=LIS" title="Investors Hangout - Euronext Lisbon (LIS)">Euronext Lisbon (LIS)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=PAR" title="Investors Hangout - Euronext Paris (PAR)">Euronext Paris (PAR)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=FOREX" title="Investors Hangout - Foreign Exchange (FOREX)">Foreign Exchange (FOREX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=HKEX" title="Investors Hangout - Hong Kong Stock Exchange (HKEX)">Hong Kong Stock Exchange (HKEX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=LSE" title="Investors Hangout - London Stock Exchange (LSE)">London Stock Exchange (LSE)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=MLSE" title="Investors Hangout - Milan Stock Exchange (MLSE)">Milan Stock Exchange (MLSE)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=NZX" title="Investors Hangout - New Zealand Exchange (NZX)">New Zealand Exchange (NZX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=SGX" title="Investors Hangout - Singapore Stock Exchange (SGX)">Singapore Stock Exchange (SGX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=TSX" title="Investors Hangout - Toronto Stock Exchange (TSX)">Toronto Stock Exchange (TSX)</a></p>
+      </div>
+      <div class="clear_all"></div>
+      <div align="center" style="padding:5px;"></div>
+      <div align="center" style="padding:5px;"></div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="footer_text">
+      <div class="fl_bg"></div>
+      <div class="fm_bg">
+        <div class="footer_content">
+          <p>© 2016 Copyright Investors Hangout, LLC All Rights Reserved.</p>
+          <div class="links" style=" width:640px;">
+			<b><a href="/adpage">Ad Page </a></b>   <b>|<a href="/privacy">Privacy Policy </a></b>  <b>| <a href="/termsandcondition">Terms and Conditions</a></b>  <b>| <a href="/disclaimer ">Disclaimer</a></b>  <b>| <a href="/help ">Help</a></b>  <b>| <a href="/contact">Contact Us</a></b>
+		  </div>
+      <div class="clear_all"></div>
+		  <b><p class="footer_sitedetail" style="line-height:18px; margin:0; float:none; font-size:8px; padding-top: 8px; text-align:center;">Financial Market Data powered by <a href="http://www.quotemedia.com" style="color:#FFFFFF;" rel="nofollow"><u>Quotemedia.com</u></a>. All rights reserved. <a href="http://www.quotemedia.com/termsofuse.php" style="color:#FFFFFF;" rel="nofollow"><u>View the Terms</u></a> of Use.NYSE/AMEX data delayed 20 minutes. NASDAQ and other data delayed 15 minutes unless indicated.</p></b>
+        </div>
+        <div class="clear_all"></div>
+      </div>
+      <div class="fr_bg"></div>
+    </div>
+  
+ 
+   <!-- for mobile -->
+	<!-- <div id="board_advertise"> -->
+	<!--   </div> -->
+    	
+    	  
+<!-- end mobile -->
+   </div>  	  
+	<!-- pop register div -->
+				<div id="popupContent" class="pop_box" style="display:none;position:relative;">
+				<h1 style="color:#456d94;">Login Now To Join The Discussion</h1><span class="closepop" style="display:inline-block;position:absolute;top:10px;right:10px;"><img  title="Close" id="TB_closeWindowButton" src="/images/close_pop_box.gif" /></span>
+                
+<!--<div align="center" style="margin-left:5px; margin-top:0px; margin-bottom:10px;"><span style="color:#060; font-size:17px; font-weight:bold; text-decoration:underline;">Now with FREE Real Time Quotes!!</span></div>-->
+            
+			 <div class="popup_form_box">		 
+				<div class="text_section">
+				 <span class="headspan">30,003</span>
+				 <p>active traders have already chosen Investors Hangout to exchange their investment ideas. Join now and get in on the discussions. </p>
+				<img src="/images/Investors-Hangout-Stock-Message-Boards-Logo-1-2015.png" width="167" height="47">
+				</div>
+				<div id="registration_container" class="registration_border">
+					<div class="reg_section">
+					 <span class="headspan">Join Now!</span>
+					 <form id="joinform" method="post" action="" autocomplete="off"> 
+					 <div><label>Choose Alias</label><input id="YumPopupregisterForm_username" class="text" type="text" maxlength="20" name="YumPopupregisterForm[username]"></div>
+					 <div><label>Email Address</label><input id="YumProfile_email" class="text" type="text" maxlength="255" name="YumProfile[email]" autocomplete = "off"> <input type="hidden" id="si_email" value="YumProfile_email" onBlur="javascript:co_advertise();" /></div>
+					 <div id="auth_pass"><label>Create Password</label><input id="YumPopupregisterForm_password" class="text" type="password" name="YumPopupregisterForm[password]" autocomplete = "off"><input type="password" name="password" id="password_fake" class="hidden" autocomplete="off" style="display: none;"></div>
+					 <input type="checkbox" id="termschk" name="terms" checked="checked"><span class="ucontent">I agree by the <a href="/termsandcondition">Terms and conditions</a></span>
+					 <!--<div align="left" style="margin-left:5px; margin-top:0px; margin-bottom:-10px;"><span style="color:#F00; font-size:11px; font-weight:bold; margin-top:-20px; margin-bottom:-10px;">Review Offer Below!</span></div>-->
+					 <div class="btn_wrap"><input type="button" value="Register Now" onClick="javascript:submitform(this);"></div>
+					 </form>
+					</div>
+					<div id="emessage"></div>
+				</div><!-- reg container end -->
+				
+				<div class="login_section">
+				 <span class="headspan">Member Login</span>
+				 <form id="joinpopup" method="post" action="/user/auth/login">
+				 <div><label>Alias</label><input type="text" id="YumUserLogin_username" name="YumUserLogin[username]" class="text span3"></div>
+				 <div><label>Password</label><input type="password" id="YumUserLogin_password" name="YumUserLogin[password]" class="text span3"></div>
+				 <input id="YumUserLogin_rememberMe" type="hidden" name="YumUserLogin[rememberMe]" value="1">
+				 <a href="/recovery"><span class="ucontent">Lost password?</span></a>
+				 <div class="btn_wrap"><input type="submit" value="Login" name="yt0"></div>
+				 </form>
+				</div>
+				<!-- code for co_registration ads -->
+				<div class="clear_all"></div>
+	          <!--<script type="text/javascript" src="http://coreg.investingchannel.com/coreg/coregScript.ashx?lid=895&pubid=134&inline=true&si_ajax=true"></script>-->
+				<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+				<script type="text/javascript">
+				/*ih_js(window).error(function(e){
+					e.preventDefault();
+				});
+				try{
+				ih_js('.popup_form_box').find(':checkbox').each(function(){ console.log('added');
+						ih_js(this).attr('checked', true);
+				}); 
+				}catch(e){}*/
+	            </script>
+	            </div>
+			 </div>
+			<!--</div>-->
+			<!-- pop register div end -->
+      <div id="left_advertise">
+       </div>
+    <div id="right_advertise" style="position:absolute; right:2px; top:100px;" class="out_right_ad">
+   					<div class="board_add" align="center"><div style="position:fixed;">
+<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/160x600.js' type='text/javascript' charset='utf-8'></script>
+</div></div>
+		    </div>
+    	
+  </div>
+</div>
+
+<!--GA-->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37395047-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!--GA-->
+<!-- Start Alexa Certify Javascript -->
+
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"bxypf1aUOO00Wz", domain:"investorshangout.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=bxypf1aUOO00Wz" style="display:none" height="1" width="1" alt=""/></noscript>
+
+<!-- End Alexa Certify Javascript -->  
+<script>
+var cwfl = "http://investorshangout.com/cwfl.htm";
+</script>
+
+<script src="http://cdn.investingchannel.com/ic_beacon.js" type="text/javascript"></script>
+<script type="text/javascript"> icBeacon('InvestorsHangout'); </script>
+
+
+<!-- for mobile-->
+	    <!-- end mobile  -->
+
+    
+</body>
+</html>

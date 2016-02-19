@@ -1,0 +1,1755 @@
+
+
+
+    
+    
+    
+    
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="fb:admins" content="800480,1205329541,1106460173,1710625"/>
+    <meta property="fb:app_id" content="254128108124361"/>
+
+    
+    
+
+    
+        <meta property="og:title" content="Transportation Articles"/>
+        <meta name="twitter:title" content="Transportation Articles">
+    
+
+            <title>Transportation Articles | Greentech Media</title>
+        
+        
+    
+    
+
+    <meta property="twitter:account_id" content="16826617" />
+
+    
+    
+    <meta name="google-site-verification" content="ZT-DcO_xvQQlq24mmHM5sBzzkHlbxIb9K0jgkv_ws6A" />
+
+        <link rel="stylesheet" href="//dqbasmyouzti2.cloudfront.net/assets/css/bootstrap.css?v=1451940273">
+        <link rel="stylesheet" href="//dqbasmyouzti2.cloudfront.net/assets/css/all.css?v=1455207310">
+            <link rel="shortcut icon" type="image/png" href="/img/gtm-favicon.png">
+    
+    
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.greentechmedia.com/GreentechMedia">
+
+    <!-- include HTML5 IE enabling script and stylesheet for IE -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    <script type="text/javascript" src="//fast.fonts.net/jsapi/1055e144-bd15-43a9-bb7e-38b53cd6811e.js"></script>
+
+    <script src="//dqbasmyouzti2.cloudfront.net/assets/js/squared-paywall.js?v=1455317446"></script>
+    <script>(function(){var m=location.search.match(/[\?\&]utm_source=([a-zA-Z0-9_-]+)(\&|$)/);window.utm_source=m?m[1]:""})()</script>
+    <script>document.write('<script src="//www.greentechmedia.com/?ACT=148&amp;tp_section=Transportation+Articles&amp;utm_source='+utm_source+'"><\/script>')</script>
+    <script>
+    var tp = window["tp"] || [];
+    (function(src){var a=document.createElement("script");a.type = "text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a, b)})("//cdn.tinypass.com/api/tinypass.min.js");
+    </script>
+
+    
+    <script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-2335964-1', 'auto');
+        </script>
+
+        
+        <script type="text/javascript" charset="utf-8">
+            var article_parent_channel = "";
+            if (typeof article_parent_channel != "undefined" && article_parent_channel != "") {
+                ga('set', 'dimension2', article_parent_channel);
+            };
+        </script>
+
+                    <script>
+                ga('send', 'pageview');
+            </script>
+                
+</head>
+<body id="news" class="articles category transportation ">
+<div id="wrapper">
+						<div class="container-row">
+						<aside id="sidebar" class="win-height">
+				<div class="sidebar-holder">
+					<div class="sidebar-header">
+						<a href="#search-drop1" class="search-opener collapsed" data-toggle="collapse" data-parent="#header" aria-expanded="false"><i class="icon-magnify"></i></a>
+						<a href="#" class="nav-opener"><span>menu</span></a>
+						<div class="logo"><a href="/"><img src="/assets/images/css/logo.svg" alt="gtm" width="120" height="59" onerror="this.onerror=null; this.src='/assets/images/logo.png'"></a></div>
+						<div class="collapse search-box" id="search-drop1">
+							<div class="drop-holder">
+								<form method="post" action="/">
+									<div class="hiddenFields">
+										<input type="hidden" name="params" value="eyJjaGFubmVsIjoiYXJ0aWNsZXMiLCJvcmRlcmJ5IjoiZGF0ZSIsInNvcnQiOiJkZXNjIiwia2V5d29yZHMiOiJoYXdhaWkifQ">
+										<input type="hidden" name="ACT" value="138">
+										<input type="hidden" name="site_id" value="1">
+									</div>
+									<fieldset>
+										<button class="btn btn-submit" type="submit"><i class="icon-arrow-right"></i></button>
+										<div class="input-wrap">
+											<input type="search" name="keywords" placeholder="Search Greentech Media">
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="jcf-scroll-wrap">
+						<div class="jcf-scrollable">
+							<div class="side-nav-holder">
+								<div class="side-nav-wrap">
+									<nav id="nav">
+										<ul id="accordion">
+											<li class="panel">
+												<a href="#one" class="collapsed" data-parent="#accordion" data-toggle="collapse" aria-expanded="false">SOLAR</a>
+												<div id="one" class="collapse">
+													<ul>
+														<li><a class="all" href="http://www.greentechmedia.com/channel/solar">All</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/projects">Solar Projects</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/utility-scale-solar">Utility-Scale Solar</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/thin-film">PV Modules</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/markets-and-policy">Markets &amp; Policy</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/solar-finance-vc">Solar Finance &amp; VC</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/bos-inverters">BOS/Inverters</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/manufacturing">Manufacturing</a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="panel">
+												<a href="#two" class="collapsed" data-parent="#accordion" data-toggle="collapse" aria-expanded="false">GRID EDGE</a>
+												<div id="two" class="collapse">
+													<ul>
+														<li><a class="all" href="http://www.greentechmedia.com/channel/gridedge">All</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/network-infrastructure-ami">Network Infrastructure </a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/grid-optimization">Grid Optimization</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/home-area-networks">HAN/BAN</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/demand-response">Demand Response</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/storage">Energy Storage</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/software-and-applications">Software/Analytics</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/transmission-distribution">Utilities</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/regulation-and-policy">Regulation &amp; Policy</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/ev-integration">EV Integration</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/microgrids">Microgrids</a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="panel">
+												<a href="#three" class="collapsed" data-parent="#accordion" data-toggle="collapse" aria-expanded="false">ETC.</a>
+												<div id="three" class="collapse">
+													<ul>
+														<li><a class="all" href="http://www.greentechmedia.com/channel/etc">All</a></li>
+														<li><a  href="http://www.greentechmedia.com/channel/next-generation-utility">Next Generation Utility</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/fossil-fuels">Fossil Fuels</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/biofuels">Biofuels</a></li>
+														<li><a class="active"  href="http://www.greentechmedia.com/articles/category/transportation">Transportation</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/water">Water</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/wind">Wind</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/finance-and-vc">Finance &amp; VC</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/policy">Policy</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/energy-efficiency">Efficiency</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/other-energy">Other Energy</a></li>
+														<li><a  href="http://www.greentechmedia.com/industry">Press Releases</a></li>
+														<li><a  href="http://www.greentechmedia.com/events/industry">Industry Events</a></li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</nav>
+									<nav class="side-nav">
+										<ul class="hidden-sm hidden-xs">
+											<li><a href="/multimedia">Videos</a></li>
+											<li><a href="/podcast/the-energy-gang"><span>The Energy Gang</span> <span class="icon-podcast"></span></a></li>
+											<li><a href="/events/webinars">Webinars</a></li>
+											<li><a href="/sponsored/resource-center">White Papers</a></li>
+										</ul>
+										<ul class="hidden-md hidden-lg">
+											<li><a href="/multimedia">Videos</a></li>
+											<li><a href="/podcast/the-energy-gang">Energy Gang Podcast</a></li>
+											<li><a href="/events/webinars">Webinars</a></li>
+											<li><a href="/sponsored/resource-center">White Papers</a></li>
+										</ul>
+									</nav>
+									<ul class="utility-events-links">
+										<li class="primary"><a href="/events"><span>GTM Events</span><span class="icon-arrow-01"></span></a></li>
+										<li class="info"><a href="/research"><span>GTM Research</span><span class="icon-arrow-01"></span></a></li>
+										<li class="primary"><a href="/squared"><span>GTM Squared</span><span class="icon-arrow-01"></span></a></li>
+									</ul>
+									<div class="sidebar-footer">
+										<div class="side-footer-link">
+											<ul class="side-link">
+												<li><a href="/about">About</a></li>
+												<li><a href="/about/advertise">Advertising</a></li>
+												<li><a href="/about/jobs">Careers</a></li>
+												<li><a href="/about/contact">Contact</a></li>
+												<li><a id="newsletter-settings-link" href="/newsletters">Newsletter<span class="logged-in-only-inline"> Setting</span>s</a></li>
+												<li><a href="/about/terms-of-use">Terms &amp; Conditions</a></li>
+												<li><a href="/about/privacy-policy">Privacy Policy</a></li>
+											</ul>
+											<ul class="social-networks">
+												<li class="facebook"><a href="https://www.facebook.com/greentechmedia"><i class="icon-fb"></i></a></li>
+												<li class="twitter"><a href="https://twitter.com/greentechmedia"><i class="icon-twitter"></i></a></li>
+												<li class="linkedin"><a href="https://www.linkedin.com/company/greentech-media"><i class="icon-linkedin"></i></a></li>
+												<li class="rss"><a href="/about/subscribe/rss"><i class="icon-rss"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</aside>				<div class="container-wrapper" id="content">
+					<div class="container-holder">
+							<header id="header">
+					<div class="container-holder">
+						<ul class="utility-events-links">
+							<li class="primary"><a href="/events"><span>gtm events</span><span class="icon-arrow-01"></span></a></li>
+							<li class="info"><a href="/research"><span>GTM Research</span><span class="icon-arrow-01"></span></a></li>
+							<li class="primary"><a href="/squared"><span>GTM Squared</span><span class="icon-arrow-01"></span></a></li>
+						</ul>
+						
+						<form method="post" action="/">
+							<div class="hiddenFields">
+								<input type="hidden" name="params" value="eyJjaGFubmVsIjoiYXJ0aWNsZXMiLCJvcmRlcmJ5IjoiZGF0ZSIsInNvcnQiOiJkZXNjIiwia2V5d29yZHMiOiJoYXdhaWkifQ">
+								<input type="hidden" name="ACT" value="138">
+								<input type="hidden" name="site_id" value="1">
+							</div>
+							<div class="search">
+								<input type="text" name="keywords" placeholder="Search Greentech Media">
+								<button><i class="icon-magnify"></i></button>
+							</div>
+						</form>
+					</div>
+				</header>
+				
+					
+	
+<div class="container-holder">
+	<div class="page-header clearfix">
+		
+			
+				
+				<h1 class="page-title">
+					Transportation
+				</h1>
+			
+			</div>
+	
+<div class="article-list-holder home">
+	
+	
+	
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-02-11">02.11.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/Musk-Builds-Confidence-on-Ambitious-Growth-Targets-as-Tesla-Reports-Q4-Loss#disqus_thread">4</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/Musk-Builds-Confidence-on-Ambitious-Growth-Targets-as-Tesla-Reports-Q4-Loss">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Red_XL_202_154_c1.jpg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/Musk-Builds-Confidence-on-Ambitious-Growth-Targets-as-Tesla-Reports-Q4-Loss">
+				<h2 class="general-heading">Musk Builds Confidence on Ambitious Growth Targets as Tesla Reports Q4 Losses</h2>
+				<p>The company&#8217;s stock rallied on the forecast after a weeks-long nosedive.</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/Musk-Builds-Confidence-on-Ambitious-Growth-Targets-as-Tesla-Reports-Q4-Loss#disqus_thread">4</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-02-09">02.09.16</time>
+			<span class="category">Policy</span>
+			<span class="comment-count"><a href="/articles/read/Breaking-Clean-Power-Plan-Stayed-by-Supreme-Court-Obama-Handed-A-Bit-of-D#disqus_thread">2</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/Breaking-Clean-Power-Plan-Stayed-by-Supreme-Court-Obama-Handed-A-Bit-of-D">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/supreme-court-XL_202_154_c1.jpg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/Breaking-Clean-Power-Plan-Stayed-by-Supreme-Court-Obama-Handed-A-Bit-of-D">
+				<h2 class="general-heading">Breaking: Clean Power Plan Stayed by Supreme Court, Obama Handed a Setback</h2>
+				<p> Justices voted along ideological lines.</p>
+				<span class="by-info">by Julia Pyper
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/Breaking-Clean-Power-Plan-Stayed-by-Supreme-Court-Obama-Handed-A-Bit-of-D#disqus_thread">2</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-02-08">02.08.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/Googles-Car-Quest-Continues#disqus_thread">2</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/Googles-Car-Quest-Continues">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/Googles-Car-Quest-Continues">
+				<h2 class="general-heading">Google&#8217;s Car Quest Continues. Next Up: Wireless Electric Car Charging?</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/Googles-Car-Quest-Continues#disqus_thread">2</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-02-01">02.01.16</time>
+			<span class="category">EV Integration</span>
+			<span class="comment-count"><a href="/articles/read/southern-california-utilities-to-deploy-5000-ev-chargers-in-first-of-a-kind#disqus_thread">42</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/southern-california-utilities-to-deploy-5000-ev-chargers-in-first-of-a-kind">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/EV_Parking_Space_XL_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/southern-california-utilities-to-deploy-5000-ev-chargers-in-first-of-a-kind">
+				<h2 class="general-heading">Southern California Utilities to Deploy 5,000 EV Chargers in First-of-Their-Kind Pilots</h2>
+				<p>The country’s biggest rate-based rollout of EV chargers targets apartments, commercial parking and grid integration.</p>
+				<span class="by-info">by Jeff St. John </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/southern-california-utilities-to-deploy-5000-ev-chargers-in-first-of-a-kind#disqus_thread">42</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-02-01">02.01.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/elon-musk-now-owns-one-fifth-of-tesla-after-exercising-100m-in-stock-option#disqus_thread">1</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/elon-musk-now-owns-one-fifth-of-tesla-after-exercising-100m-in-stock-option">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/elon-musk-now-owns-one-fifth-of-tesla-after-exercising-100m-in-stock-option">
+				<h2 class="general-heading">Elon Musk Now Owns One-Fifth of Tesla After Exercising $100M in Stock Options</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/elon-musk-now-owns-one-fifth-of-tesla-after-exercising-100m-in-stock-option#disqus_thread">1</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-27">01.27.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/apple-employees-complain-about-a-lack-of-clear-goals-for-secret-electric-ca#disqus_thread">6</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/apple-employees-complain-about-a-lack-of-clear-goals-for-secret-electric-ca">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/apple-employees-complain-about-a-lack-of-clear-goals-for-secret-electric-ca">
+				<h2 class="general-heading">Apple Employees Complain About a &#8216;Lack of Clear Goals&#8217; for Secret Electric Car Project</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/apple-employees-complain-about-a-lack-of-clear-goals-for-secret-electric-ca#disqus_thread">6</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+
+	
+</div><!-- article-list-holder -->
+
+<div class="squared-module">
+	<div class="squared-module-container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="marketing-copy">
+					<img src="/assets/img/squared/gtm-squared-logo.png" alt="GTM Squared">
+					
+						<p>
+	GTM Squared is a new membership for our readers. Squared delivers premium content in the form of in-depth article series, analyst insights, and multimedia extras. Go beyond our everyday coverage and gain insider access to our experts.</p>
+
+						<a href="/squared/learn-more" class="btn">Learn More</a>
+					
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-8">
+				<ul class="squared-list">
+					
+					<li class="article-item">
+						<a class="category-name" href="/squared/category/gtm-conference-livestreams">GTM Conference Live Streams</a>
+						<h3 class="general-heading"><a href="/squared/read/watch-the-live-stream-from-solar-goes-corporate">Watch the Live Stream From Solar Goes Corporate 2016</a></h3>
+					</li>
+					
+					<li class="article-item">
+						<a class="category-name" href="/squared/category/dispatches-from-the-grid-edge">Dispatches from the Grid Edge</a>
+						<h3 class="general-heading"><a href="/squared/read/starfish-silver-spring-networks-bid-for-smart-city-and-the-internet-of-thin">Starfish: Silver Spring Networks&#8217; Bid for Smart Cities and the Internet of Things</a></h3>
+					</li>
+					
+					<li class="article-item">
+						<a class="category-name" href="/squared/category/state-bulletin">State Bulletin</a>
+						<h3 class="general-heading"><a href="/squared/read/State-Bulletin-Solar-in-the-Limelight-for-Many-State-Policymakers">State Bulletin: Solar in the Limelight for Many State Policymakers</a></h3>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="article-list-holder home">
+	
+	
+	
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-26">01.26.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/electric-car-sales-will-definitely-suffer-from-oil-prices-says-elon-musk#disqus_thread">7</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/electric-car-sales-will-definitely-suffer-from-oil-prices-says-elon-musk">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/electric-car-sales-will-definitely-suffer-from-oil-prices-says-elon-musk">
+				<h2 class="general-heading">Electric Car Sales &#8216;Will Definitely Suffer From Oil Prices,&#8217; Says Elon Musk</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/electric-car-sales-will-definitely-suffer-from-oil-prices-says-elon-musk#disqus_thread">7</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix squared with-label">
+		<div class="article-wrapper">
+		<a href="/articles/read/why-california-can-take-credit-for-the-coming-ev-revolution">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/EV_Charging_XL_202_154_c1.jpg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+								<a href="/squared" class="article-tag-link"><img class="squared-icon" src="/assets/images/css/gtm-squared-icon.png" alt=""><span class="label label-squared small-header">GTM Squared</span></a> 				
+	
+			<a href="/articles/read/why-california-can-take-credit-for-the-coming-ev-revolution">
+				<h2 class="general-heading">Why California Can Take Credit for the Coming Electric-Vehicle Revolution</h2>
+				<p>Tam Hunt explores how a mix of top-down regulation and market forces have helped California become a global leader in EV deployment.</p>
+				<span class="by-info">by Tam Hunt | <time datetime="2016-01-19">January 19, 2016</time>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/why-california-can-take-credit-for-the-coming-ev-revolution#disqus_thread">0</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-14">01.14.16</time>
+			<span class="category">HAN & Building Automation</span>
+			<span class="comment-count"><a href="/articles/read/Voice-Control-Emerges-as-a-Major-Theme-in-the-Smart-Home-at-CES-2016#disqus_thread">8</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/Voice-Control-Emerges-as-a-Major-Theme-in-the-Smart-Home-at-CES-2016">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Amazon_Echo_XL_202_154_c1.jpeg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/Voice-Control-Emerges-as-a-Major-Theme-in-the-Smart-Home-at-CES-2016">
+				<h2 class="general-heading">Are We Getting Any Closer to the Smart Home? A Look at Trends From CES</h2>
+				<p>Voice control was a dominant feature in new products.</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/Voice-Control-Emerges-as-a-Major-Theme-in-the-Smart-Home-at-CES-2016#disqus_thread">8</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-13">01.13.16</time>
+			<span class="category">Policy</span>
+			<span class="comment-count"><a href="/articles/read/Obama-Wins-Praise-as-a-Champion-of-Clean-Energy-in-a-Political-System-Plagu#disqus_thread">9</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/Obama-Wins-Praise-as-a-Champion-of-Clean-Energy-in-a-Political-System-Plagu">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Obama_Paris_Climate_XL_202_154_c1.jpg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/Obama-Wins-Praise-as-a-Champion-of-Clean-Energy-in-a-Political-System-Plagu">
+				<h2 class="general-heading">Obama Wins Praise as a Champion of Clean Energy Despite Political Gridlock</h2>
+				<p>“Why would we want to pass up the chance for American businesses to produce and sell the energy of the future?”</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/Obama-Wins-Praise-as-a-Champion-of-Clean-Energy-in-a-Political-System-Plagu#disqus_thread">9</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+
+	
+</div><!-- article-list-holder -->
+
+
+<div class="adv-block hidden-xs hidden-sm">
+					<div id='div-gpt-ad-0237380321215-0' class="">
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.defineSlot('/1062325/ContentListLeaderboard', [728, 90], 'div-gpt-ad-0237380321215-0')
+				.addService(googletag.pubads())
+				.setTargeting("pg_url", window.location.pathname);
+			googletag.enableServices();
+			googletag.display('div-gpt-ad-0237380321215-0');
+		});
+	</script>
+</div>
+				</div><!-- ad-block -->
+
+<div class="article-list-holder home">
+	
+	
+	
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-13">01.13.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/elon-musk-apples-electric-car-plans-are-an-open-secret-in-silicon-valley#disqus_thread">0</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/elon-musk-apples-electric-car-plans-are-an-open-secret-in-silicon-valley">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/elon-musk-apples-electric-car-plans-are-an-open-secret-in-silicon-valley">
+				<h2 class="general-heading">Elon Musk: Apple&#8217;s Electric-Car Plans Are an &#8216;Open Secret&#8217; in Silicon Valley</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/elon-musk-apples-electric-car-plans-are-an-open-secret-in-silicon-valley#disqus_thread">0</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-08">01.08.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/ford-steps-up-its-game-on-mobility-services-and-electric-vehicles#disqus_thread">12</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/ford-steps-up-its-game-on-mobility-services-and-electric-vehicles">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Ford_display_XL_1.jpeg_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/ford-steps-up-its-game-on-mobility-services-and-electric-vehicles">
+				<h2 class="general-heading">Ford Steps Up Its Game on Smart Mobility and Electric Vehicles</h2>
+				<p>&#8220;We are completely rethinking how we approach the business.&#8221;</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/ford-steps-up-its-game-on-mobility-services-and-electric-vehicles#disqus_thread">12</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-06">01.06.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/GM-Unveils-the-Chevy-Bolt-a-200-Mile-Range-EV-With-a-30000-Price-Tag#disqus_thread">45</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/GM-Unveils-the-Chevy-Bolt-a-200-Mile-Range-EV-With-a-30000-Price-Tag">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/bolt_4_xl_202_154_c1.jpeg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/GM-Unveils-the-Chevy-Bolt-a-200-Mile-Range-EV-With-a-30000-Price-Tag">
+				<h2 class="general-heading">GM Unveils the Chevy Bolt, a 200-Mile-Range EV With a $30,000 Price Tag</h2>
+				<p>&#8220;The Bolt EV is truly the first EV that cracks the code of long range at an affordable price.&#8221;</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/GM-Unveils-the-Chevy-Bolt-a-200-Mile-Range-EV-With-a-30000-Price-Tag#disqus_thread">45</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  with-label">
+			<div class="meta-info">
+			<time datetime="2016-01-06">01.06.16</time>
+			<span class="category">Technology</span>
+			<span class="comment-count"><a href="/articles/read/the-solar-singularity-is-getting-closer#disqus_thread">136</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/the-solar-singularity-is-getting-closer">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Singularity_XL_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+		<span class="label label-primary small-header"><a href="/articles/type/industry-perspective">Industry Perspective</a></span>										
+	
+			<a href="/articles/read/the-solar-singularity-is-getting-closer">
+				<h2 class="general-heading">The Solar Singularity Is Getting Closer</h2>
+				<p>Tam Hunt revisits his thesis on the solar singularity&#8212;and also adds in storage and electric cars.</p>
+				<span class="by-info">by Tam Hunt
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/the-solar-singularity-is-getting-closer#disqus_thread">136</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-06">01.06.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/cheap-gasoline-helps-boost-american-car-sales-to-record-highs#disqus_thread">10</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/cheap-gasoline-helps-boost-american-car-sales-to-record-highs">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/cheap-gasoline-helps-boost-american-car-sales-to-record-highs">
+				<h2 class="general-heading">Cheap Gasoline Helps Boost American Car Sales to Record Highs</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/cheap-gasoline-helps-boost-american-car-sales-to-record-highs#disqus_thread">10</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+
+	
+</div><!-- article-list-holder -->
+
+
+<div class="article-filter-block">
+	<nav class="filter-nav">
+		<ul>
+			<li class="active"><a href="#" data-block="most-popular">MOST POPULAR</a></li>
+			<li><a href="#" data-block="most-comments">MOST COMMENTS</a></li>
+		</ul>
+	</nav>
+	<div class="article-filter js-cycle-gallery most-popular active">
+		<div class="mask">
+			<div class="slideset same-h-holder">
+							
+				<div class="slide">
+					<article class="article-box same-h">
+						<div class="img-holder">
+							<a href="/articles/read/The-future-looks-promising-for-utilities-in-a-distributed-world">
+								<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Collaborative_Innovation_XL_275_204_c1.png">
+								
+							</a>
+						</div>
+						<div class="meta small-header">
+							<time datetime="2016-02-11">February 11, 2016</time>
+							<span class="category">Next Generation Utility</span>
+						</div>
+						<h2><a href="/articles/read/The-future-looks-promising-for-utilities-in-a-distributed-world">Why the Future Looks So Promising for Utilities in a Distributed World</a></h2>
+						<span class="comment-count"><a href="/articles/read/The-future-looks-promising-for-utilities-in-a-distributed-world#disqus_thread">5</a></span>
+						<span class="bt-text">by Glen Mannering, David Groarke and Michael Zhan</span>
+					</article>
+				</div>
+				
+				<div class="slide">
+					<article class="article-box same-h">
+						<div class="img-holder">
+							<a href="/articles/read/pge-launches-community-solar-program-enabling-customers-to-go-100-renewable">
+								<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Solar_Field_community_XL_275_204_c1.png">
+								
+							</a>
+						</div>
+						<div class="meta small-header">
+							<time datetime="2016-02-05">February 5, 2016</time>
+							<span class="category">Markets & Policy</span>
+						</div>
+						<h2><a href="/articles/read/pge-launches-community-solar-program-enabling-customers-to-go-100-renewable">PG&amp;E Launches Community Solar Program Enabling Customers to Go 100% Renewable</a></h2>
+						<span class="comment-count"><a href="/articles/read/pge-launches-community-solar-program-enabling-customers-to-go-100-renewable#disqus_thread">45</a></span>
+						<span class="bt-text">by Julia Pyper</span>
+					</article>
+				</div>
+				
+				<div class="slide">
+					<article class="article-box same-h">
+						<div class="img-holder">
+							<a href="/articles/read/nevada-net-metering-decision">
+								<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/nevada_neighborhood_XL_275_204_c1.jpg">
+								
+							</a>
+						</div>
+						<div class="meta small-header">
+							<time datetime="2016-02-04">February 4, 2016</time>
+							<span class="category">Markets & Policy</span>
+						</div>
+						<h2><a href="/articles/read/nevada-net-metering-decision">Does Nevada&#8217;s Controversial Net Metering Decision Set a Precedent for the Nation?</a></h2>
+						<span class="comment-count"><a href="/articles/read/nevada-net-metering-decision#disqus_thread">33</a></span>
+						<span class="bt-text">by Julia Pyper</span>
+					</article>
+				</div>
+				
+			
+			</div>
+		</div>
+		<div class="paginatio-links">
+			<!-- pagination generated here -->
+		</div>
+	</div>
+	<div class="article-filter js-cycle-gallery most-comments">
+		<div class="mask">
+			<div class="slideset same-h-holder">
+				
+				<div class="slide">
+					<article class="article-box same-h">
+						<div class="img-holder">
+							<a href="/articles/read/obama-wants-to-tax-cheap-oil-to-help-boost-clean-transportation">
+								<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_275_204_c1.png">
+								
+							</a>
+						</div>
+						<div class="meta small-header">
+							<time datetime="2016-02-05">02.05.16</time>
+							<span class="category">Fossil Fuels</span>
+						</div>
+						<h2><a href="/articles/read/obama-wants-to-tax-cheap-oil-to-help-boost-clean-transportation">Obama Wants to Tax Cheap Oil to Help Boost Clean Transportation</a></h2>
+						<span class="comment-count"><a href="/articles/read/obama-wants-to-tax-cheap-oil-to-help-boost-clean-transportation#disqus_thread">93</a></span>
+						<span class="bt-text">by Stephen Lacey</span>					</article>
+				</div>
+				
+				<div class="slide">
+					<article class="article-box same-h">
+						<div class="img-holder">
+							<a href="/articles/read/pge-launches-community-solar-program-enabling-customers-to-go-100-renewable">
+								<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Solar_Field_community_XL_275_204_c1.png">
+								
+							</a>
+						</div>
+						<div class="meta small-header">
+							<time datetime="2016-02-05">02.05.16</time>
+							<span class="category">Markets & Policy</span>
+						</div>
+						<h2><a href="/articles/read/pge-launches-community-solar-program-enabling-customers-to-go-100-renewable">PG&amp;E Launches Community Solar Program Enabling Customers to Go 100% Renewable</a></h2>
+						<span class="comment-count"><a href="/articles/read/pge-launches-community-solar-program-enabling-customers-to-go-100-renewable#disqus_thread">45</a></span>
+						<span class="bt-text">by Julia Pyper</span>					</article>
+				</div>
+				
+				<div class="slide">
+					<article class="article-box same-h">
+						<div class="img-holder">
+							<a href="/articles/read/How-to-Finance-a-Trillion-Dollar-Climate-Change-Opportunity">
+								<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/smokestack-XL_275_204_c1.jpg">
+								
+							</a>
+						</div>
+						<div class="meta small-header">
+							<time datetime="2016-02-01">02.01.16</time>
+							<span class="category">Energy</span>
+						</div>
+						<h2><a href="/articles/read/How-to-Finance-a-Trillion-Dollar-Climate-Change-Opportunity">How to Finance a Trillion-Dollar Climate Change Opportunity</a></h2>
+						<span class="comment-count"><a href="/articles/read/How-to-Finance-a-Trillion-Dollar-Climate-Change-Opportunity#disqus_thread">43</a></span>
+											</article>
+				</div>
+				
+			</div>
+		</div>
+		<div class="paginatio-links">
+			<!-- pagination generated here -->
+		</div>
+	</div>
+</div>
+
+<div class="article-list-holder home">
+	
+	
+	
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-05">01.05.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/faraday-future-unveils-a-snazzy-electric-racecar-concept-at-ces.-now-what#disqus_thread">9</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/faraday-future-unveils-a-snazzy-electric-racecar-concept-at-ces.-now-what">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Farayday_1_202_154_c1.jpeg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/faraday-future-unveils-a-snazzy-electric-racecar-concept-at-ces.-now-what">
+				<h2 class="general-heading">After Much Hype, Faraday Future Unveils Electric Race Car Concept at CES. Now What?</h2>
+				<p>Confusing concept car announcement doesn&#8217;t offer much more detail on the company&#8217;s plans.</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/faraday-future-unveils-a-snazzy-electric-racecar-concept-at-ces.-now-what#disqus_thread">9</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2016-01-05">01.05.16</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/us-government-sues-volkswagen-in-the-wake-of-emissions-cheating-scandal#disqus_thread">0</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/us-government-sues-volkswagen-in-the-wake-of-emissions-cheating-scandal">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/us-government-sues-volkswagen-in-the-wake-of-emissions-cheating-scandal">
+				<h2 class="general-heading">US Government Sues Volkswagen Over Emissions Cheating Scandal</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/us-government-sues-volkswagen-in-the-wake-of-emissions-cheating-scandal#disqus_thread">0</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2015-12-23">12.23.15</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/reports-ford-and-google-are-partnering-on-autonomous-vehicles#disqus_thread">0</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/reports-ford-and-google-are-partnering-on-autonomous-vehicles">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/reports-ford-and-google-are-partnering-on-autonomous-vehicles">
+				<h2 class="general-heading">Reports: Ford and Google Are Partnering on Autonomous Vehicles</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/reports-ford-and-google-are-partnering-on-autonomous-vehicles#disqus_thread">0</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  with-label">
+			<div class="meta-info">
+			<time datetime="2015-12-17">12.17.15</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/the-future-of-mobility-are-automakers-prepared-for-the-threat-from-silicon#disqus_thread">41</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/the-future-of-mobility-are-automakers-prepared-for-the-threat-from-silicon">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Energygang-web-ad-620x460_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+		<span class="label label-primary small-header"><a href="/articles/type/industry-perspective">Industry Perspective</a></span>										
+	
+			<a href="/articles/read/the-future-of-mobility-are-automakers-prepared-for-the-threat-from-silicon">
+				<h2 class="general-heading">The Future of Mobility: Are Automakers Prepared for the Threat From Silicon Valley?</h2>
+				<p>The Gang looks at the race to deliver the digital, electric, self-driving car of the future.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/the-future-of-mobility-are-automakers-prepared-for-the-threat-from-silicon#disqus_thread">41</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+
+	
+</div><!-- article-list-holder -->
+
+<div class="research-module research">
+	<div class="research-module-container">
+		<div class="row">
+			<div class="col-md-9 col-sm-8">
+				<div class="module-header">GTM Research</div>
+				<ul class="research-list">
+					
+						<li>
+															<a href="/research/report/us-residential-solar-economic-outlook-2016-2020" class="s-logo">
+									<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/images/uploads/gridparity_graphic_157x117_125_93_c1.jpg">
+								</a>
+														<strong class="title">Solar</strong>
+							<p>
+								<a href="/research/report/us-residential-solar-economic-outlook-2016-2020">U.S. Residential Solar Economic Outlook 2016-2020: Grid Parity, Rate Design and Net Metering Risk</a>
+							</p>
+						</li>
+					
+						<li>
+															<a href="/research/report/the-grid-edge-100-deployment-and-opportunity-at-the-grid-edge" class="s-logo">
+									<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/images/uploads/gridedge100-part1graphic_157x117_125_93_c1.jpg">
+								</a>
+														<strong class="title">Grid Edge</strong>
+							<p>
+								<a href="/research/report/the-grid-edge-100-deployment-and-opportunity-at-the-grid-edge">The Grid Edge 100: Deployment and Opportunity at the Grid Edge</a>
+							</p>
+						</li>
+					
+						<li>
+															<a href="/research/report/unlocking-the-locational-value-of-der-2016" class="s-logo">
+									<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/images/uploads/ULVDER16_graphic_157x117_125_93_c1.png">
+								</a>
+														<strong class="title">Grid Edge</strong>
+							<p>
+								<a href="/research/report/unlocking-the-locational-value-of-der-2016">Unlocking the Locational Value of DER 2016: Technology Strategies, Opportunities, and Markets</a>
+							</p>
+						</li>
+					
+				</ul>
+			</div>
+			<div class="col-md-5 col-sm-6">
+				<div class="side-image-holder">
+					<div class="img-frame">
+						
+												
+							
+									<div id='div-gpt-ad-9360245091850-0' class="">
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.defineSlot('/1062325/ContentListMediumRectangle', [300, 250], 'div-gpt-ad-9360245091850-0')
+				.addService(googletag.pubads())
+				.setTargeting("pg_url", window.location.pathname);
+			googletag.enableServices();
+			googletag.display('div-gpt-ad-9360245091850-0');
+		});
+	</script>
+</div>
+								
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="article-list-holder home">
+	
+	
+	
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2015-12-11">12.11.15</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/ford-plans-4.5-billion-investment-in-13-new-electric-vehicle-models-by-2020#disqus_thread">33</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/ford-plans-4.5-billion-investment-in-13-new-electric-vehicle-models-by-2020">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/ford-plans-4.5-billion-investment-in-13-new-electric-vehicle-models-by-2020">
+				<h2 class="general-heading">Ford Plans $4.5 Billion Investment in 13 New Electric Vehicle Models by 2020</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/ford-plans-4.5-billion-investment-in-13-new-electric-vehicle-models-by-2020#disqus_thread">33</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  with-label">
+			<div class="meta-info">
+			<time datetime="2015-12-09">12.09.15</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/investing-in-electric-vehicle-chargers-for-the-workplace-is-a-no-brainer#disqus_thread">11</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/investing-in-electric-vehicle-chargers-for-the-workplace-is-a-no-brainer">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/EV_Charging_Close_Up_XL_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+		<span class="label label-primary small-header"><a href="/articles/type/industry-perspective">Industry Perspective</a></span>										
+	
+			<a href="/articles/read/investing-in-electric-vehicle-chargers-for-the-workplace-is-a-no-brainer">
+				<h2 class="general-heading">Investing in Electric-Vehicle Chargers for the Workplace Is a No-Brainer</h2>
+				<p>The cost to maintain 10 EV charging stations per year accounts for less than 4 percent of a large commercial building&#8217;s energy spend.</p>
+				<span class="by-info">by Indran Ratnathicam
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/investing-in-electric-vehicle-chargers-for-the-workplace-is-a-no-brainer#disqus_thread">11</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2015-12-04">12.04.15</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/uber-makes-its-latest-attempt-to-monopolize-the-ride-sharing-market#disqus_thread">5</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/uber-makes-its-latest-attempt-to-monopolize-the-ride-sharing-market">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/uber-makes-its-latest-attempt-to-monopolize-the-ride-sharing-market">
+				<h2 class="general-heading">Uber Makes Its Latest Attempt to Monopolize the Ride-Sharing Market</h2>
+				<p>Here are some of the stories we&#8217;re reading this morning.</p>
+				<span class="by-info">by Stephen Lacey </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/uber-makes-its-latest-attempt-to-monopolize-the-ride-sharing-market#disqus_thread">5</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2015-12-03">12.03.15</time>
+			<span class="category">People</span>
+			<span class="comment-count"><a href="/articles/read/david-crane-steps-down-as-nrg#disqus_thread">17</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/david-crane-steps-down-as-nrg">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/David_Crane_NRG_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/david-crane-steps-down-as-nrg">
+				<h2 class="general-heading">David Crane Steps Down as NRG&#8217;s CEO Amidst Investor Pressure</h2>
+				<p>NRG&#8217;s investors were looking for short-term stock performance, not long-term investment prospects in distributed energy.</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/david-crane-steps-down-as-nrg#disqus_thread">17</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+
+	
+</div><!-- article-list-holder -->
+
+
+<div class="adv-block hidden-xs hidden-sm">
+					<div id='div-gpt-ad-2808339714388-0' class="">
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.defineSlot('/1062325/ContentListBillboard', [970, 250], 'div-gpt-ad-2808339714388-0')
+				.addService(googletag.pubads())
+				.setTargeting("pg_url", window.location.pathname);
+			googletag.enableServices();
+			googletag.display('div-gpt-ad-2808339714388-0');
+		});
+	</script>
+</div>
+				</div><!-- ad-block -->
+
+<div class="article-list-holder home">
+	
+	
+	
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2015-11-30">11.30.15</time>
+			<span class="category">Finance & VC</span>
+			<span class="comment-count"><a href="/articles/read/bill-gates-launches-historic-commitment-to-scale-clean-energy-breakthroughs#disqus_thread">36</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/bill-gates-launches-historic-commitment-to-scale-clean-energy-breakthroughs">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Bill_Gates_Paris_2015_XL_202_154_c1.png">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/bill-gates-launches-historic-commitment-to-scale-clean-energy-breakthroughs">
+				<h2 class="general-heading">The World&#8217;s Most Prominent Tech Leaders Plan to Spend Billions on Clean Energy R&amp;D</h2>
+				<p>The announcement comes as nearly 200 countries meet today in Paris to negotiate a global climate change agreement.</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/bill-gates-launches-historic-commitment-to-scale-clean-energy-breakthroughs#disqus_thread">36</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+<article class="article-item clearfix  ">
+			<div class="meta-info">
+			<time datetime="2015-11-30">11.30.15</time>
+			<span class="category">Transportation</span>
+			<span class="comment-count"><a href="/articles/read/Mobilitys-Trifecta-The-Autonomous-Electric-and-Shared-Vehicles-of-Our-N#disqus_thread">10</a></span>
+		</div>
+		<div class="article-wrapper">
+		<a href="/articles/read/Mobilitys-Trifecta-The-Autonomous-Electric-and-Shared-Vehicles-of-Our-N">
+			<div class="img-holder">
+				<img class="lazy" data-original="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/nissan_2_202_154_c1.jpeg">
+				
+			</div>
+		</a>
+		<div class="article-detail">
+			
+			<a href="/articles/read/Mobilitys-Trifecta-The-Autonomous-Electric-and-Shared-Vehicles-of-Our-N">
+				<h2 class="general-heading">Mobility&#8217;s Trifecta: The Autonomous, Electric and Shared Vehicles of Our (Near) Future</h2>
+				<p>How automakers are reimagining the future of transportation</p>
+				<span class="by-info">by Julia Pyper </span>
+				<div class="meta-info visible-xs" style="float:right;">
+					<span class="comment-count"><a href="/articles/read/Mobilitys-Trifecta-The-Autonomous-Electric-and-Shared-Vehicles-of-Our-N#disqus_thread">10</a></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</article>
+
+
+	
+</div><!-- article-list-holder -->
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+<nav class="pagination-holder">
+	<ul class="pagination">
+		
+			
+			
+				<li class="active"><a href="http://www.greentechmedia.com/articles/category/transportation">1</a></li>
+			
+				<li ><a href="http://www.greentechmedia.com/articles/category/transportation/P25">2</a></li>
+			
+				<li ><a href="http://www.greentechmedia.com/articles/category/transportation/P50">3</a></li>
+			
+			
+				<li class="next">
+					<a href="http://www.greentechmedia.com/articles/category/transportation/P25" aria-label="Next">
+						<span>NEXT</span>
+					</a>
+				</li>
+			
+		
+	</ul>
+</nav>
+
+
+
+</div>
+<div id="newsletter-popout" class="popup-active" style="display:none;">
+	<form class="newsletter-subscription popup coockie-popup" method="post">
+		<a href="#" class="popup-close"><i class="icon-close"></i></a>
+		<input type=hidden name="Customer" value="ch000095679eArad">
+		<input type=hidden name="cke" value="1">
+		<input type=hidden name="ownerid" value="29">
+		<input type=hidden name="overwrite" value="0">
+		<input type=hidden name="TriggerID" value="3891">
+		<input type=hidden name="DialogID" value="373">
+		<input type=hidden name="auth_token__c" value="">
+		
+		<fieldset>
+			<strong class="sub-article-heading">Sign-Up for our Newsletter</strong>
+
+			<div class="field-box">
+				<div class="input-wrap required-row">
+					<input name="Email" type="email" placeholder="Email Address" class="input-field required-email">
+					<button class="btn btn-submit" type="submit"><i class="icon-arrow-right"></i></button>
+				</div>
+			</div>
+		</fieldset>
+		<div class="messages">
+			<div class="success">
+				<p><span>Thanks for submitting!</span></p>
+				<p>Check your inbox to confirm your subscription.</p>
+			</div>
+			<div class="error">
+				<p>
+					<span>Oh no!</span>
+					There seems to be an error.
+				</p>
+			</div>
+		</div>
+	</form>
+</div>
+
+	<a href="#" class="btn-go-top"><i class="icon-arrow-up"></i><span class="text">top</span></a>
+</div>
+</div>
+</div><!-- #wrapper -->
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="//dqbasmyouzti2.cloudfront.net/assets/js/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="//dqbasmyouzti2.cloudfront.net/assets/js/bootstrap.min.js?v=1443026580"></script>
+<script src="//dqbasmyouzti2.cloudfront.net/assets/js/jquery.main.js?v=1455207310"></script>
+
+
+<script>
+	if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport{width:auto !important}'
+			)
+		)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+
+<script>
+	var gtm_default_modal_days = '';
+	var gtm_research_modal_days = '';
+</script>
+
+<script>
+	gtm_default_modal_days = '8';
+</script>
+	<div id="modal-advertisement-default" class="not-squared">
+		<div class="modal-overlay"></div>
+		<div class="modal modal-advertisement">
+			<a href="#" class="close-modal">Close</a>
+								<a href="http://www.greentechmedia.com/events/live/californias-distributed-energy-future-2016?utm_source=website&utm_medium=roadblock&utm_campaign=CDEF16">
+						<img src="//dqbasmyouzti2.cloudfront.net/images/uploads/CDEF-2016-Roadblock-012116_(1).png" width="768" height="420" alt="" />
+					</a>
+					</div>
+	</div>
+
+
+
+
+
+
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+    <div id="parsely-cfg" data-parsely-site="www.greentechmedia.com"></div>
+</div>
+<script>
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+
+<script id="dsq-count-scr" src="//greentechmedia.disqus.com/count.js" async></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0e18cea408","applicationID":"7436635","transactionName":"NgRWbURRDEEDUkJaXA9OYUtfHz1BFlBCWlA+AlVaXlU9WgNfUl9WE09EUUY=","queueTime":0,"applicationTime":0,"atts":"GkNVGwxLH08=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>
+<!-- Debug: total time - 0.00060796737670898 -->
