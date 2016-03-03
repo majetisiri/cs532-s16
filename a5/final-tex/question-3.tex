@@ -1,0 +1,141 @@
+\chapter{Question 3}
+\label{available-representation}
+
+\textbf{Now rank the same 10 URIs from question 2, but this time  by their PageRank.  Use any of the free PR estimaters on the web, such as: }
+\url{http://www.prchecker.info/check_page_rank.php}\\
+\url{http://www.seocentro.com/tools/search-engines/pagerank.html}\\
+\url{http://www.checkpagerank.net/}\\
+\textbf{If you use these tools, you'll have to do so by hand (they have anti-bot captchas), but there is only 10.  Normalize the values they give you to be from 0 to 1.0.  Use the same tool on all 10 (again, consistency is more important than accuracy).\\
+Create a table similar to Table 1:\\
+Table 2.  10 hits for the term `shadow', ranked by PageRank.\\
+PageRank \qquad\qquad	URI\\
+-------- \qquad\qquad\qquad	---\\
+0.9	 \qquad \qquad	http://bar.com/\\
+0.5	\qquad \qquad	http://foo.com/\\
+Briefly compare and contrast the rankings produced in questions 2 and 3. }
+
+\begin{itemize}
+\item  To find the page rank for all the 10 URIs I used a free PR estimator on the web which is located at: \\
+{\url{http://www.seocentro.com/tools/search-engines/pagerank.html}}. 
+\item The URI and its page rank is summarized in the Table \ref{Table:q3table1}.
+\item While finding the page rank for each URI I took a screenshot. The screenshits are in the Figures \ref{fig:q3fig1},  \ref{fig:q3fig2},  \ref{fig:q3fig3},  \ref{fig:q3fig4},  \ref{fig:q3fig5},  \ref{fig:q3fig6},  \ref{fig:q3fig7},  \ref{fig:q3fig8} \ref{fig:q3fig9},  \ref{fig:q3fig10}
+\end{itemize}
+
+Comparing the rankings in question 2 and 3 I observed that their is a lot of difference in rankings. The reason behind this difference is, when we rank the URIs based on TF, IDF and TFIDF, we look for the frequency of the term. But the PR estimator ranks the URIs based on the quality of the document and also the quantity of backlinks. Calculating pagerank based on frequency of the term is not a good idea because even a poor quality document with high query term frequency will be ranked high. 
+
+\begin{table}
+
+\caption{PageRank for 10 selected URIs using {\url{http://www.seocentro.com/tools/search-engines/pagerank.html}}}
+\label{Table:q3table1}
+\begin{center}
+\begin{tabular}{ c | c | c }
+\hline
+Rank & PageRank & URI \\ \hline
+
+3 & 0.7 & http://www.nydailynews.com/ \\ \hline
+8 & 0.7 & http://www.yelp.com/ \\ \hline
+6 & 0.6 & http://www.eater.com/ \\ \hline
+4 & 0.5 & http://tcbmag.com/ \\ \hline
+5 & 0.5 & http://www.CafeRio.com \\ \hline
+2 & 0.3 & http://www.chilipeppermadness.com/ \\ \hline
+10 & 0.3 & http://www.havingfunsaving.com/ \\ \hline
+9 & 0.2 & http://smartmarkradio.com/ \\ \hline
+1 & 0 & http://fieryfork.com/ \\ \hline
+7 & 0 & http://www.ooyuz.com/ \\ \hline
+
+\hline
+
+\end{tabular}
+\end{center}
+\end{table} 
+
+\newpage
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/1.JPG}
+\caption{page rank for {\url{http://www.chilipeppermadness.com/}}}
+\label{fig:q3fig1}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/2.JPG}
+\caption{page rank for {\url{http://tcbmag.com/Innovations/January-2016/Why-Chipotle-Is-Closing-Its-Stores-Over-The-Lunch?utm_content=27945314&utm_medium=social&utm_source=twitter}}}
+\label{fig:q3fig2}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/3.JPG}
+\caption{page rank for {\url{http://www.CafeRio.com }}}
+\label{fig:q3fig3}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/4.JPG}
+\caption{page rank for {\url{http://www.yelp.com/biz/chipotle-mexican-grill-gainesville-4?utm_campaign=CheckIn&utm_medium=twitter&utm_source=ashare}}}
+\label{fig:q3fig4}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/5.JPG}
+\caption{page rank for {\url{http://www.nydailynews.com/life-style/eats/chipotle-lettuce-shortage-plagues-new-york-article-1.2520586}}}
+\label{fig:q3fig5}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/6.JPG}
+\caption{page rank for {\url{http://fieryfork.com/video-chipotle-profit-heats-up-as-it-draws-more-diners/}}}
+\label{fig:q3fig6}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/7.JPG}
+\caption{page rank for {\url{http://www.eater.com/2016/2/5/10922434/chipotle-e-coli-beef-australia?utm_campaign=national&utm_medium=social&utm_source=twitter}}}
+\label{fig:q3fig7}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/8.JPG}
+\caption{page rank for {\url{http://www.havingfunsaving.com/2016/01/chipotle-cheese-dip-recipe.html}}}
+\label{fig:q3fig8}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/9.JPG}
+\caption{page rank for {\url{http://www.ooyuz.com/geturl?aid=10248937}}}
+\label{fig:q3fig9}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\hspace*{-1.5in}
+\includegraphics[scale=0.55, keepaspectratio=true]{figures/pageRank/10.JPG}
+\caption{page rank for {\url{http://smartmarkradio.com/conspiracy-theory-news/this-chipotle-conspiracy-theory-is-the-craziest-thing-weve-read-all-day-grist/}}}
+\label{fig:q3fig10}
+\end{center}
+\end{figure}
