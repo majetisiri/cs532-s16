@@ -25,7 +25,73 @@ Following are the steps I have taken to solve the problem:
 \end{figure}
 \item The code is listed in Listing \ref{lst:q2code1}.
 \newpage
-\item This data is taken as input for D3 to generate a graph which differentiates the followers based on gender. All male followers are represented in color `orange', female followers in color `green' and those whose gender is not determined are represented in color `blue'. This graph is illustrated in Fgure \ref{fig:q1fig2}
+\item This data is taken as input for D3 to generate a graph which differentiates the followers based on gender. 
+\item The table with list of followers and their gender is illustrated in Table \ref{Table:q1table1}. 
+\begin{table}
+
+\caption{Table with followers and gender}
+\label{Table:q1table1}
+\begin{center}
+\begin{tabular}{| c | c |}
+\hline
+
+ Name | Gender\\ \hline
+ Naina  | female\\ \hline		
+ veena  | female\\ \hline		
+ Shivani| female\\ \hline		
+ Sneha  | female\\ \hline		
+ erika  | female\\ \hline
+ Mayra  | female\\ \hline	
+ Ivy    | female\\ \hline
+ Marion | female\\ \hline
+ Mamie  | female\\ \hline	
+ Augusta| female\\ \hline
+ Lauri  | female\\ \hline	
+ Ashlee | female\\ \hline
+ Sadie  | female\\ \hline	
+ Angie  | female\\ \hline
+ Sophia | female\\ \hline
+ Myrtle | female\\ \hline	
+ Trisha | female\\ \hline
+ Lara   | female\\ \hline	
+ Sandra | female\\ \hline
+ Tammi  | female\\ \hline	
+ Divya  | female\\ \hline
+ deepa  | female\\ \hline
+ sudha  | female\\ \hline
+varun| 		male\\ \hline		
+keerthi|	male\\ \hline		
+vamshi| 	male\\ \hline		
+srinivas|	male\\ \hline		
+sai| 		male\\ \hline
+Jesse|		male\\ \hline	
+Prasanna| 	male\\ \hline
+Nishant`| 	male\\ \hline
+Ravi| 		male\\ \hline	
+manoj| 		male\\ \hline
+Eric| 		male\\ \hline	
+Masroor| 	male\\ \hline
+Rahul| 		male\\ \hline	
+Adrian|		male\\ \hline
+vinay| 		male\\ \hline
+dinesh| 	male\\ \hline
+BhavaniManthena	|	null\\ \hline		
+Mounica		|		null\\ \hline		
+Vam				|	null\\ \hline		
+Mounica|			null\\ \hline		
+KatherineEdmunds|	null\\ \hline
+Basani			|	null\\ \hline	
+Deepthikrovi| 		null\\ \hline
+rajyalakshmi| 		null\\ \hline
+Rithika		|		null\\ \hline	
+Doomie		|		null\\ \hline
+satvikgadam   |  	null\\ \hline	
+                
+\end{tabular}
+\end{center}
+\end{table}
+\item There are 11 followers whose gender is `null'. When I tried to get my gender with my first name `majetisiri' it gave a `null'. If I draw a graph by removing nodes with `null' gender, it leads to removal of 80 percentage of the links in the graph. So I created a graph including followers who have a `null' gender.
+\item All male followers are represented in color `orange', female followers in color `green' and those whose gender is not determined are represented in color `blue'. This graph is illustrated in Fgure \ref{fig:q1fig2}
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.55, keepaspectratio=true]{figures/5.JPG}
