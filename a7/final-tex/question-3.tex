@@ -1,0 +1,51 @@
+\chapter{Question 3}
+\label{available-representation}
+
+\textbf{Compute ratings for all the films that the substitute you have not seen.  Provide a list of the top 5 recommendations for films that the substitute you should see.  Provide a list of the bottom 5 recommendations (i.e., films the substitute you is almost certain to hate).}
+
+Following are the steps I have taken to solve the problem:
+
+\begin{itemize}
+\item I used the getRecommendations() function from recommendations.py to get top 5 recommendations of films that the substitute me should see. This is illustrated in Listing \ref{lst:q3code1}
+\item The table for top recommended movies and least recommended movies for substitute me with Movie\textunderscore id, movie\textunderscore name and rating are in Table \ref{Table:q3table1} \ref{Table:q3table2} respectively.
+
+\begin{table}
+
+\caption{Top Recommended movies for substitute me}
+\label{Table:q3table1}
+\begin{center}
+\begin{tabular}{| c | c | c|}
+\hline
+Movie\textunderscore Id  & Movie\textunderscore name & Rating\\ \hline  
+814 & Great Day in Harlem, A (1994)	& 5.0					\\ \hline  
+1653 & Entertaining Angels: The Dorothy Day Story (1996) 	& 5.0					\\ \hline   
+1599 & Someone Else's America (1995)	& 5.0					\\ \hline  
+1536 & Aiqing wansui (1994) & 5.0	\\ \hline 
+1500 & Santa with Muscles (1996)	& 5.0	 \\ \hline
+
+\hline
+\end{tabular}
+\end{center}
+
+\caption{Least Recommended movies for substitute me}
+\label{Table:q3table2}
+\begin{center}
+\begin{tabular}{| c | c | c|}
+\hline
+Movie\textunderscore Id  & Movie\textunderscore name & Rating\\ \hline 
+1374 & Country Life (1994) &	1.0				\\ \hline  
+1354 & Babyfever (1994) & 1.0					\\ \hline   
+1309 &	Very Natural Thing, A (1974) & 1.0			\\ \hline  
+1308 & Venice/Venice (1992)	& 1.0 \\ \hline 
+1290 & Falling in Love Again (1980)	& 1.0 \\ \hline
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{itemize}
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting top recommended movies and least recommended movies for substitute me,frame=single,breaklines=true,label=lst:q3code1, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getRecommendations.py}

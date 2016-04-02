@@ -1,0 +1,55 @@
+\chapter{Question 2}
+\label{avoiding-uri-aliases} 
+
+\textbf { Which 5 users are most correlated to the substitute you? Which 5 users are least correlated (i.e., negative correlation)?}
+
+Following are the steps I have taken to solve the problem:
+
+\begin{itemize}
+\item To find the most correlated and least correlated for the substitute me, I calculated the pearson score. 
+\item The pearson score ranges from -1 to 1. Users who have correlation co-efficient equal to or greater than one are categorized as most correlated and those with pearson score closer to -1 are categorised as least correlated (i.e., negative correlation).
+\item This is illustrated in the Listing \ref{lst:q2code1}
+\item The list of users with their pearson score is illustrated in the Table \ref{Table:q2table1} \ref{Table:q2table2}
+
+\begin{table}
+
+\caption{Most correlated users}
+\label{Table:q2table1}
+\begin{center}
+\begin{tabular}{| c | c |}
+\hline
+UserId  & Correlation Value\\ \hline  
+725 &	1.0					\\ \hline  
+732 & 	1.0					\\ \hline   
+359 &	1.0					\\ \hline  
+358 &	1.028	\\ \hline 
+4 &	1.133	 \\ \hline
+
+\hline
+\end{tabular}
+\end{center}
+
+\caption{Least correlated users}
+\label{Table:q2table2}
+\begin{center}
+\begin{tabular}{| c | c |}
+\hline
+UserId  & Correlation Value\\ \hline  
+434 &	-0.707				\\ \hline  
+818 & 	-0.738					\\ \hline   
+27 &	-0.755			\\ \hline  
+792 &	-0.866\\ \hline 
+281 &	-0.948 \\ \hline
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{itemize}
+
+
+
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for calculating pearson score between substitute me and all other users,frame=single,breaklines=true,label=lst:q2code1, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/correlation.py}
+

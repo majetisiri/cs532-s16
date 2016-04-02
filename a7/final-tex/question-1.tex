@@ -1,0 +1,115 @@
+\chapter{Question 1}
+\label{intro}
+
+%\textbf{The goal of this project is to use the basic recommendation principles we have learned for user-collected data. You will modify the code given to you which performs movie recommendations from the MovieLense data sets.}
+%\textbf{The MovieLense data sets were collected by the GroupLens Research Project at the University of Minnesota during the seven-month period from September 19th, 1997 through April 22nd, 1998.  We are using the  "100k dataset"; available for download from: }
+%\url{http://grouplens.org/datasets/movielens/100k/}\\ \\
+%\textbf{There are three files which we will use:}\\ \\
+%\textbf{1. u.data: 100,000 ratings by 943 users on 1,682 movies. Each user has rated at least 20 movies. Users and items are numbered consecutively from 1. The data is randomly ordered. This is a tab separated list of} \\ 
+%\textbf {user id $|$ item id $|$ rating $|$ timestamp}\\ \\
+%\textbf {The time stamps are unix seconds since 1/1/1970 UTC.}
+%\begin{table}
+
+%\caption{Example}
+%\label{}
+%\begin{center}
+%\begin{tabular}{| c | c | c | c|}
+%\hline
+
+%196  & 242 & 3 & 881250949 \\ \hline  
+%186  & 302 & 3 & 891717742 \\ \hline   
+%22   & 377 & 1 & 878887116 \\ \hline  
+%244  & 51  & 2 & 880606923 \\ \hline   
+%166  & 346 & 1 & 886397596 \\ \hline  
+%298  & 474 & 4 & 884182806 \\ \hline   
+%115  & 265 & 2 & 881171488 \\ \hline  
+%\hline
+
+%\end{tabular}
+%\end{center}
+%\end{table}
+
+%\textbf{2. u.item: Information about the 1,682 movies. This is a tab separated list of} \\  \\
+%\textbf {movie id $|$ movie title $|$ release date $|$ video release date $|$ IMDb URL $|$ unknown $|$ Action $|$ Adventure $|$ Animation $|$ Children's $|$ Comedy $|$ Crime $|$ Documentary $|$ Drama $|$ Fantasy $|$ Film-Noir $|$ Horror $|$ Musical $|$ Mystery $|$ Romance $|$ Sci-Fi $|$ Thriller $|$ War $|$ Western $|$}\\ \\
+
+
+\textbf{Find 3 users who are closest to you in terms of age, gender, and occupation.  For each of those 3 users:}\\\\
+\textbf{- what are their top 3 favorite films?}\\
+\textbf{- bottom 3 least favorite films?}\\\\
+\textbf{Based on the movie values in those 6 tables (3 users X (favorite + least)), choose a user that you feel is most like you.  Feel free to note any outliers (e.g.,``I mostly identify with user 123, except I did not like ``Ghost'' at all''). }\\\\
+\textbf {This user is the ``substitute you''.  }
+
+Following are the steps I have taken to the solve the problem:
+\begin{itemize}
+\item  First I got all the data arranged in a JSON structure. I wrote the rating data, movie data in two JSON files and got aggregated user data with `user\textunderscore id', `user\textunderscore details' and `movie\textunderscore details'. This is explained in the function getData() which is illustrated in Listing \ref{lst:q1code1}
+\item To find three users who are closest to me in terms of age, gender and occupation I wrote three functions getFemaleUsers(), getFemaleUsersWithAgeCloserto24(), getFemaleUsersWithAgeCloserto24AndStudent() which are listed in Listings \ref{lst:q1code2}, \ref{lst:q1code3}, \ref{lst:q1code4}respectively.
+\item Then I got the top three and bottom three favorite films of the users. This is illustrated in Listing \ref{lst:q1code5} 
+\item The table with three users with their top and bottom favorite films is illustrated below.
+\begin{table}
+
+\caption{User 1}
+\label{}
+\begin{center}
+\begin{tabular}{| c | c | c |}
+\hline
+User 1  & Top Favorite Films & Least Favorite Films\\ \hline  
+711  & Winnie the Pooh and the Blustery Day (1968) & Independence Day (ID4) (1996) \\ \hline   
+   & Alice in Wonderland (1951) & Before Sunrise (1995) \\ \hline  
+  & Good Will Hunting (1997)  & Dragonheart (1996) \\ \hline  
+
+\hline
+\end{tabular}
+\end{center}
+
+\caption{User 2}
+\label{}
+\begin{center}
+\begin{tabular}{| c | c | c |}
+\hline
+User 2  & Top Favorite Films & Least Favorite Films\\ \hline  
+917 & City Hall (1996) & Four Rooms (1995) \\ \hline   
+   & Dead Man Walking (1995) & Independence Day (ID4) (1996) \\ \hline  
+  & Leaving Las Vegas (1995)  & Tomorrow Never Dies (1997) \\ \hline   
+ 
+\hline
+\end{tabular}
+\end{center}
+
+
+\caption{User 3}
+\label{}
+\begin{center}
+\begin{tabular}{| c | c | c |}
+\hline
+User 3  & Top Favorite Films & Least Favorite Films\\ \hline  
+875  & Shawshank Redemption, The (1994) & Lion King, The (1994) \\ \hline   
+   & Star Wars (1977) & American President, The (1995) \\ \hline  
+  & Wings of Desire (1987)  & Liar Liar (1997) \\ \hline    
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item I selected user with `user\textunderscore id' 711 as my subsitute because all our top favorite movies are similar. I like to watch animate films. The reason for not considering the remaining 2 users as my substitute because they ranked my favorite films with least score. 
+\end{itemize}
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting ratingData movieData and aggregated user data,frame=single,breaklines=true,label=lst:q1code1, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getData.py}
+
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting female users,frame=single,breaklines=true,label=lst:q1code2, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getF.py}
+
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting female users who are close to age 24,frame=single,breaklines=true,label=lst:q1code3, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getF24.py}
+
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting female users whose age is close to 24 and who are students,frame=single,breaklines=true,label=lst:q1code4, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getF24Student.py}
+
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting top three and bottom three favorite films of the users who are closer to me,frame=single,breaklines=true,label=lst:q1code5, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/topRated.py}
