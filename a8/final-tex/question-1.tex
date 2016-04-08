@@ -1,0 +1,38 @@
+\chapter{Question 1}
+\label{intro}
+
+\textbf{Create a blog-term matrix.  Start by grabbing 100 blogs; include:}\\ \\ 
+\url{http://f-measure.blogspot.com/}\\
+\url{http://ws-dl.blogspot.com/}\\\\
+\textbf{and grab 98 more as per the method shown in class.  Note that this method randomly chooses blogs and each student will separately do this process, so it is unlikely that these 98 blogs will be shared among students.  In other words, no sharing of blog data.  Upload to github your code for grabbing the blogs and provide a list of blog URIs, both in the report and in github..\\\\
+Use the blog title as the identifier for each blog (and row of the matrix).  Use the terms from every item/title (RSS) or entry/title (Atom) for the columns of the matrix.  The values are the frequency of occurrence.  Essentially you are replicating the format of the ``blogdata.txt'' file included with the PCI book code.  Limit the number of terms to the most ``popular'' (i.e., frequent) 500 terms, this is *after* the criteria on p. 32 (slide 7) has been satisfied.}\\\\
+
+Following are the steps I have taken to the solve the problem:
+\begin{itemize}
+\item First I grabbed 100 URIs using the method discussed in class. I stored all the URIs in a set data-structure which has a property of storing only unique values, this is illustrated in the function `getUrl'. In function `writeUrlToFile' I have written the 2 URIs mentioned in the question and all the grabbed URIs to a file `get100URls' . This code is listed in Listing \ref{lst:q1code1}.
+\item Later I got the atoms for each blog URI by appending `feeds/posts/default?max-results=500'. I wrote the atom URIs to a file `getAtomsFor100Urls'. This function is listed in Listing \ref{lst:q1code2}.
+\item I downloaded the `generateFeedVector.py' from PCI book code and ran it for the atom URIs to get the blog data with word count and words. But I realized that few blogs have more than one page.
+\item The python code listed in Listing \ref{lst:q1code3} results a text file `noOfPagesForEachBlog.txt' with number of pages and title of the blog. 
+\item To solve the problem of multiple pages I  made few modifications to `generateFeedVector.py'. First I requested each URI and recursively checked if the blog has `rel=``next''' using the library BeautifulSoup and got the links for all the pages for each blog.  I stored the resulted links for respective blogs in a list `blogUrlList'. This is illustrated in function `getBlogPagesURLs'.
+\item If a blog has more than 1 page then I ran the `generateFeedVector' function for the first page and stored the word count in `wc', then ran the function for the URIs in the `blogUrlList' and stored the word count in `nextwc'. Futhermore I consolidated both the dictionaries `wc' and `nextwc'. This code is listed in Listing \ref{lst:q1code4}
+\item Therefore I generated the output file `blogdata.txt' which has a blog matrix with blog title as identifier for each blog. This text file is uploaded to github at \url{https://github.com/majetisiri/cs532-s16/blob/master/a8/q1-blogdata.txt}
+\end{itemize}
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting 100 unique blog URIs,frame=single,breaklines=true,label=lst:q1code1, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getUrl.py}
+
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting atom URIs,frame=single,breaklines=true,label=lst:q1code2, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getAtoms.py}
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Python code for getting number of pages for each blog,frame=single,breaklines=true,label=lst:q1code3, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getPages.py}
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=Function for getting feed vector for each blog,frame=single,breaklines=true,label=lst:q1code4, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getFeed.py}
