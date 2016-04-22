@@ -1,0 +1,56 @@
+\chapter{Question 3}
+\label{available-representation}
+
+\textbf{Assess the performance of your classifier in each of your categories by computing precision, recall, and F-measure. }\\\\
+
+Following are the steps I have taken to solve the problem:
+
+\begin{itemize}
+\item To find precision and recall values I need `True positive', `True negative', `False positive' and `False negative'.
+\item The values for `True positive', `True negative', `False positive' and `False negative' for each category is illustrated in Table \ref{q3table1}.
+\begin{table}
+\caption{Example}
+\label{q3table1}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|p{0.5cm}|p{1cm}|p{1cm}|p{1cm}|p{1.2cm}|p{1.2cm}|p{1.5cm}|p{1cm}|p{1cm}|p{1.2cm}|p{1.5cm}|p{1cm}|p{1cm}|p{1cm}|}
+\hline
+&hindi&telugu&english&kannada&marathi&malayalam&others&punjabi&bhojpuri&gujarati&tamil&bengali&None\\ \hline
+FP&1&1&0&5&4&14&0&0&0&0&1&0&1\\ \hline
+FN&0&0&0&5&5&0&3&1&2&7&0&4&0\\ \hline
+TP&0&0&0&11&15&0&16&0&4&13&0&0&0\\ \hline
+TN&85&85&86&65&62&72&67&85&80&66&85&82&85\\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\item The Formulas for `Precision', `Recall' and `F-Measure' are as follows:\\
+Precision = TP/(TP+FP)\\
+Recall= TP/(TP+FN)\\
+F-Measure = 2TP/(2TP+FP+FN)
+\item The values for `Precision', `Recall' and `F-Measure' for each category is illustrated in Table \ref{q3table2}.
+\begin{table}
+\caption{Example}
+\label{q3table2}
+\begin{center}
+\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+Category&Precision&Recall&F-measure\\ \hline
+hindi&0&0&0\\ \hline
+telugu&0&0&0\\ \hline
+english&0&0&0\\ \hline
+kannada&0.6875&0.6875&0.6875\\ \hline
+marathi&0.7894&0.75&0.7692\\ \hline
+malayalam&0&0&0\\ \hline
+others&1&0.8421&0.9142\\ \hline
+punjabi&0&0&0\\ \hline
+bhojpuri&1&0.6667&0.8\\ \hline
+gujarati&1&0.65&0.7878\\ \hline
+tamil&0&0&0\\ \hline
+bengali&0&0&0\\ \hline
+None&0&0&0\\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\end{itemize}

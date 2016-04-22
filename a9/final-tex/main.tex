@@ -1,0 +1,51 @@
+% document class using the Springer publishing company's document class
+\documentclass[envcountsame,envcountchap]{svmono}
+
+% packages to include additional functionality
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                     	       % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+\usepackage{wrapfig} % for wrapping images with text
+\usepackage{color} % for coloring links
+\usepackage{fancyvrb}
+\usepackage{amssymb} %for symbols like arrows
+\usepackage{listings} %for inserting code 
+\usepackage{pdfpages} %to insert pdf
+\usepackage[hyphens]{url}
+\usepackage{hyperref} %to insert url
+\usepackage{nameref}
+\usepackage{longtable}
+\begin{document}
+\author{Srividya Majeti}
+\title{Assignment 9}
+
+\subtitle{CS 532:  Introduction to Web Science\\Dr. Michael Nelson\\Spring 2016}
+
+% note that this special command is part of the document class
+% and, in addition to creating the title page, also inserts the 
+% current date on the page
+\maketitle
+
+\frontmatter
+
+\tableofcontents
+
+\mainmatter
+
+% include other tex files so we don't have one huge document to scroll through
+\include{question-1}
+\include{question-2}
+\include{question-3}
+%\include{question-4}
+%\include{extra-credit-question}
+
+\backmatter
+\bibliographystyle{ieeetr} 		
+\nocite{*}  					
+\small  					
+
+\bibliography{Master}
+
+\end{document}

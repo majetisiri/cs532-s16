@@ -1,0 +1,337 @@
+\chapter{Question 2}
+\label{avoiding-uri-aliases} 
+
+\textbf {Manually classify the first 50 entries, and then classify (using the fisher classifier) the remaining 50 entries. \\\\
+Create a table with the title, predicted category, actual category, and cprob() and fisherprob() for the actual category.}\\\\
+
+Following are the steps I have taken to solve the problem:
+\begin{itemize}
+\item In my blog I have 172 entries I classified the first 86 entries manually. To do this classification I used the `docclass.py' and `feedfliter.py' from `PCI' book code `chapter 3' and the code from `document-filtering' powerpoint slide 26. These are listed in Listing \ref{lst:q1code1} \ref{lst:q1code2} and \ref{lst:q1code4} respectively.
+\item The output with `Title' , `Description', `Predicted category' and `Actual category' for each item is illustrated in the below Table \ref{table1}
+
+\begin{table}
+\caption{Output with `Title' , `Description', `Predicted category' and `Actual category' }
+\label{table1}
+\begin{center}
+\begin{longtable}{|p{3cm}|p{7cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+\textbf{Title} & \textbf{Description} & \textbf{Predicted category} & \textbf{Actual category} \\ \hline
+  Spoiler Alert: Saala Khadoos&  \url{http://timesofindia.indiatimes.com/entertainment/hindi/movie-reviews/Saala-Khadoos/movie-review/50775792.cms?tabtype=spoiler}&   None&   Hindi    \\ \hline
+  Pic: Katrina Kaif officially a part of the Kapoor Khaandaan&  You know what happened this Christmas, apart from the usual celebrations and merriment? Katrina Kaif and Ranbir Kapoor posed together as a couple for the shutterbugs, something they seldom do.&   Hindi&   Hindi\\ \hline
+  'Dilwale' song âPremikaâ to release on December 25&  If youâve seen 'Dilwale,' you are obviously wondering what happened to the much-hyped song, âPremika,â which was missing from the film.&   Hindi&   Hindi\\ \hline
+  Spoiler Alert: Dilwale&  \url{http://timesofindia.indiatimes.com/entertainment/hindi/movie-reviews/Dilwale/movie-review/50229987.cms?tabtype=spoiler}&   Hindi&   Hindi\\ \hline
+  Movie Review: Dilwale&  \url{http://timesofindia.indiatimes.com/entertainment/hindi/movie-reviews/Dilwale/movie-review/50229987.cms} &   Hindi&   Hindi\\ \hline
+  Asha Bhosle not a follower of Radhe Maa&  \url{http://timesofindia.indiatimes.com/entertainment/hindi/bollywood/Radhe-Maas-Bollywood-connection/photostory/48585163.cms} &   Hindi&   Hindi\\ \hline
+  Salman appeal put off for lack of translated documents&  The Bombay HC on Wednesday adjourned to July 13 the appeal filed by actor Salman Khan against his conviction for culpable homicide not amounting to murder in the 2002 hit-and-run case in Bandra.&   Hindi&   Hindi\\ \hline
+  Spoiler Alert: Me - Climax revealed!& \url{ http://timesofindia.indiatimes.com/entertainment/hindi/movie-reviews/Me/movie-review/47811614.cms?tabtype=spoiler} &   Hindi&   Hindi\\ \hline
+  Forty years on, only a handful of films have investigated the Emergency&  Gulzarâs Aandhi was banned. Film Kissa Kursi Kaâs print was burnt. Kishore Kumarâs songs went off the air.&   Hindi&   Hindi\\ \hline
+  Kissa Kursi Ka: Government mulls returning prints or compensating filmmaker as kin&  Forty years after controversial film, Kissa Kursi Kaâa satire on former PM Indira Gandhi and the Emergency a was banned and its prints burnt, the information and broadcasting (I amp B) ministry has said that it is considering an appeal for either returning the prints or compensating the filmmakerâs son.&   Hindi&   Hindi\\ \hline
+  Mithun Chakraborty surrenders Rs 1.2cr received from Saradha to ED&  During his last questioning by ED here in May, Chakraborty had provided the agency sleuths with a number of DVDs, CDs and scripts that he had got as part of being the brand ambassador of the Saradha group.&   Hindi&   Hindi\\ \hline
+  Sangeeta Bijlani: Sangeeta uncomfortable doing lovemaking-kissing scenes, quits comeback movie&   Onirâs Shab was being touted as Sangeeta Bijlaniâs&   Hindi&   Hindi\\ \hline
+  Whatever I am today is because of tV: Siddharth Shukla&  Actor Siddharth Shukla, who will be making his filmy debut soon, credits his success to TV shows&   Hindi&   Hindi\\ \hline
+  Raqesh and Ridhi in Nach Baliye&  The celebrity couple will be seen in the sixth season of the dance reality show.&   Hindi&   Hindi\\ \hline  
+\end{longtable}
+\end{center}
+\end{table}
+
+\begin{table}
+\newpage
+\label{}
+\begin{center}
+\begin{longtable}{|p{3cm}|p{7cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+\textbf{Title} & \textbf{Description} & \textbf{Predicted category} & \textbf{Actual category} \\ \hline
+
+'The Revenant' wins big in Britain's BAFTA awards&  Survival drama 'The Revenant' was the top winner at Britain's biggest movie awards on Sunday, taking the best film prize and honours for leading actor Leonardo DiCaprio and director Alejandro Gonzalez Inarritu.&   Hindi&   English\\ \hline
+  Movie Review: Trumbo&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/Trumbo/movie-review/50961462.cms} &   English&   English\\ \hline
+  Spoiler Alert: The Boy& \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/The-Boy/movie-review/50758961.cms?tabtype=spoiler}&   English&   English\\ \hline
+  Spoiler Alert: The Danish Girl&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/The-Danish-Girl/movie-review/50578161.cms?tabtype=spoiler}&   English&   English\\ \hline
+  Spoiler Alert: The Hateful Eight&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/The-Hateful-Eight/movie-review/50579793.cms?tabtype=spoiler}&   English&   English\\ \hline
+  Spoiler Alert: Our Brand Is Crisis&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/Our-Brand-Is-Crisis/movie-review/50499376.cms?tabtype=spoiler}&   English&   English        \\ \hline
+  Spoiler Alert: Daddy's Home&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/Daddys-Home/movie-review/50499975.cms?tabtype=spoiler} &   English&   English\\ \hline
+   Spoiler Alert: Point Break& \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/Point-Break/movie-review/50391153.cms?tabtype=spoiler} &  English&  English   \\ \hline
+   Spoiler Alert: Star Wars: The Force Awakens&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/Star-Wars-The-Force-Awakens/movie-review/50309447.cms?tabtype=spoiler} &  English&  English\\ \hline
+   Spoiler Alert: In The Heart Of The Sea&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/In-The-Heart-Of-The-Sea/movie-review/50041881.cms?tabtype=spoiler} &  English&  English\\ \hline
+   Spoiler Alert: The Hunger Games: Mockingjay - Part 2&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/The-Hunger-Games-Mockingjay-Part-2/movie-review/49933446.cms?tabtype=spoiler} &  English&  English\\ \hline
+   Celebs who kept 'investigating' eyes on their spouses&  Being a celeb means a constant public glare and thus most celeb relations become easy targets of scrutiny.&  English&  English\\ \hline
+   The Martian: Climax revealed&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/The-Martian/movie-review/49180156.cms?tabtype=spoiler} &  English&  English\\ \hline
+   Bobbi Kristina Brown, daughter of Whitney Houston, passes away& The brief, chaotic life of Bobbi Kristina Brown was never really her own.&  English&  English\\ \hline
+   Spoiler Alert: Insidious: Chapter - Climax revealed!&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-reviews/Insidious-Chapter-3/movie-review/47816236.cms?tabtype=spoiler}&  English&  English\\ \hline
+\end{longtable}
+\end{center}
+\end{table}
+
+\begin{table}
+\newpage
+\label{}
+\begin{center}
+\begin{longtable}{|p{3cm}|p{7cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+\textbf{Title} & \textbf{Description} & \textbf{Predicted category} & \textbf{Actual category} \\ \hline
+ MOVIE REVIEW: 'The Boy Next Door'&  \url{http://timesofindia.indiatimes.com/entertainment/english/movie-review/the-boy-next-door/movie-review/46130208.cms} &  English&  English\\ \hline
+   Big B to promote Shamitabh in Chennai&  Dhanush will accompany the legendary actor during his promotions in Chennai this week&  English&  English\\ \hline
+   Suriya, in top 50 the sexiest Asian&  Suriya is the only Tamil actor in the list of Top 50 Sexiest Asian Men&  English&  Tamil\\ \hline
+   Siddharth continues relief work in Cuddalore&  After helping with relief work in Chennai, Siddharth has shifted base to Cuddalore&  Tamil&  Tamil\\
+ Kollywood actor Siddharth's home flooded in Chennai& Chennai rains has got lot of commoners into trouble, but even celebrities were hugely affected by the rains. Kollywood and Bollywood actor Siddharth took to Twitter and shared a picture of his flooded residence.&  Tamil&  Tamil\\ \hline
+   Actor Vivek loses 13-year-old son to dengue, brain fever&  Tamil actor Vivekâs son Prasanna Kumar, 13, died in a city hospital on Thursday of complications arising out of dengue and brain fever. He was undergoing treatment at the hospital for more than a month.&  Hindi&  Tamil\\ \hline
+   What are the collection figures of 10 Endrathukulla and Naanum Rowdy Dhaan?&  There are two versions on the collections of Vikramâs 10 Endrathukulla&  English&  Tamil\\ \hline
+   OMG: Vishal attacked at Nadigar Sangam elections& The actor was attached during the elections held this morning&  English&  Tamil\\ \hline
+   Income tax department raids Tamil film actor Vijay's house&  Income Tax officials raided the premises of Tamil actor Vijay and producers and director of Tamil movieÂ PuliÂ on Wednesday morning in connection with alleged tax evasion.&  Hindi&  Tamil\\ \hline
+   Tamil actor Krishna booked under charges of dowry and harassment&  Tamil cinema actor Krishna has been booked under dowry harassment case by all women police station, Thudiyalur here on Thursday.&  Tamil&  Tamil\\ \hline
+   Simhaa will be seen in an action avatar in his next&  Simhaa will team up with director Vaanan in his next&  English&  Tamil\\ \hline
+   Director Saravanan injured in car accident&  Engeyum Eppodhum fame director Saravanan was injured in a car accident today.&  Tamil&  Tamil\\ \hline
+   Kamal Haasan's 'Indian' sequel on the cards!&  Shankar-directed 'Indian' featured Kamal Haasan in the title role.&  English&  Tamil\\ \hline
+   Jyotika-Suriya may act together next year&  Suriya says he may act alongside his actress-wife Jyotika in a Tamil project soon.&  Tamil&  Tamil\\ \hline
+   Kishore roped in for Kamal Haasanâs next& He has a key role in the movie and will be introduced in the beginning itself.&  Tamil&  Tamil\\ \hline
+   Shruti Haasan plays a taxi driver in Thala 56& Shruti Haasan, plays the role of a taxi driver and not Ajith.&  Tamil&  Tamil\\ \hline
+   Dhanush's Maari teaser&  The team had recently wrapped up the shooting of the film.&  Tamil&  Tamil\\ \hline
+   Raghava Lawrence to direct Rajiniâs next?&  The buzz is that the actor might soon rope in the Superstar for his next&  Tamil&  Tamil\\ \hline\end{longtable}
+\end{center}
+\end{table}
+
+\begin{table}
+\newpage
+\label{}
+\begin{center}
+\begin{longtable}{|p{3cm}|p{7cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+\textbf{Title} & \textbf{Description} & \textbf{Predicted category} & \textbf{Actual category} \\ \hline
+
+62nd National Film Awards: Tamil movies bag eight honours&  Several Tamil movies bagged honours at the 62nd National Film Awards announced on Tuesday.&  Tamil&  Tamil\\ \hline
+   Madras high court stays release of Vikram-starrer 'I'&  âIâ, featuring Vikram and Amy Jackson and directed by Shankar, was scheduled for release on the Pongal day, January 15.&  Tamil&  Tamil\\ \hline
+   I came all the way from Hollywood looking for a job in India: Arnold& Hollywood superstar Arnold Schwarzenegger said that he was taken back to his younger days as a bodybuilder at the audio launch of Shankarâs I.&  Tamil&  Tamil\\ \hline
+I came all the way from Hollywood looking for a job in India: Arnold& Hollywood superstar Arnold Schwarzenegger said that he was taken back to his younger days as a bodybuilder at the audio launch of Shankarâs I.&  Tamil& Tamil\\ \hline
+  61st Filmfare Awards (South) Tamil winners list 2013& Director Ram's 'Thangameengal' swept the awards at the Filmfare.&  Tamil& Tamil\\ \hline
+  Pawan Kalyan returns as 'Sardaar Gabbar Singh'& Telugu superstar Pawan Kalyan is set to enthrall viewers with Sardaar Gabbar Singh. Helmed by KS Ravindra, the action-packed entertainer will release in Hindi and Telugu next month.&  Tamil& Telugu\\ \hline
+  Tollywood stars send relief supplies to flood-hit Chennai& Ten heroes of Tollywood will be available at three malls in the city on December 6 from 4 pm to 7 pm to collect donations for flood-hit Chennai.&  Tamil& Telugu  \\ \hline
+  Actor Mahesh Babu adopts Siddapuram village of backward Mahbubnagar& Tollywoodâs big hero Mahesh Babu has adopted a Telangana village to participate in its development. He has decided to adopt Siddhapuram village of Kottur mandal in backward Mahbubnagar district.&  English& Telugu\\ \hline
+  Bhale Bhale Magadivoi brought Lavanya&Lavanya Tripathi just canât seem to stop herself from breaking into a guffaw when talking about her upcoming rom-com Bhale Bhale Magadivoi&  English& Telugu\\ \hline
+  Baahubaliâs song leaked?& A song from the forthcoming film âBaahubaliâ, Tollywoodâs biggest film ever, has reportedly been leaked.&  Hindi& Telugu\\ \hline
+  Only after my grandfather passed away did I realise how much my life revolved  around him: Rana& The actor talks about his memories about his grandfather and how he realised that his life revolved around his grandfather&  Tamil& Telugu\\ \hline
+  Yoga and walking helped me to shed my weight: Raashi Khanna& The actress talks about her new avatar and how she managed to finally shed weight&  Telugu& Telugu\\ \hline
+  Is Mahesh Babu playing himself in Koratala Siva's film?& The film's teaser has led credence to rumours about how Mahesh Babu's real life could have inspired the plot of his upcoming film&  Telugu& Telugu\\ \hline
+  It would be stupid of me to try and emulate my dad: Goutham& In conversation with Hyderabad Times, Brahmanandamâs son Goutham shares his journey  from flab to fab&  Telugu& Telugu\\ \hline
+  Allari Naresh gets married to Virupa&Actor Allari Naresh tied the knot with Virupa at a traditional ceremony in Hyderabad on Friday night&  None& Telugu\\ \hline
+ \end{longtable}
+\end{center}
+\end{table}
+
+\begin{table}
+\newpage
+\label{}
+\begin{center}
+\begin{longtable}{|p{3cm}|p{7cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{Title} & \textbf{Description} & \textbf{Predicted category} & \textbf{Actual category} \\ \hline
+ Whoâs the most desirable woman?& That beautiful face which can send a million hearts aflutter; those bedroom eyes that scream âcome hitherâ, that smile that leaves you utterly disarmed... The woman who spells âdesirableâ.&  Telugu& Malayalam\\ \hline
+  Who is the most desirable man?& The heartthrobs, the chocolate boys, the stars, the movers and the shakers - ladies, come take your pick.&  Malayalam& Malayalam\\ \hline
+  Priyadarshan directs Kohli, Gayle and Watson&The filmmaker shot an advertisement with the cricketers recently in Bangalore&  Malayalam& malayalam\\ \hline
+  Priyadarshan to direct Prithviraj in his next?& The film's script will be written by 1983 scribe Bipin Chandran&  malayalam& Malayalam   \\ \hline
+Several dialogues came to me in my dream: Vineeth& The actor-director took to his social networking page to share his excitement about the review of Jacobinte Swargarajyam& Malayalam& Malayalam\\ \hline
+  Amal Neerad, Siddique team up for the first time&The duo will work together for the upcoming Dulquer Salmaan movie&  Malayalam& Malayalam\\ \hline
+  Dulquer's 100 Days of Love to be remade in Telugu& The movie has Dulquer Salmaan and Nithya Menen in the lead&  Malayalam& Malayalam\\ \hline
+  Dulquer to film in Pala for his next& The movie will be a love story, directed by Amal Neerad&  Malayalam& Malayalam\\ \hline
+  Don Max reveals why he cast Meera Jasmine&The actress will play a stylish cop in his film&  Malayalam& Malayalam\\ \hline
+  Walayar Paramasivam will start filming in 2016& Dileep made the announcement earlier this week on social media&  Malayalam& Malayalam   \\ \hline
+  Priyadarshan says Charlie, Premam inspired him& The director talks about how his upcoming movie Oppam will be his foray into the so-called new-gen filmmaking&  Malayalam& Malayalam\\ \hline
+  Samuthirakani in a cameo in Karinkunnam Sixes&The film has Manju Warrier playing a volleyball coach&  Malayalam& Malayalam         \\ \hline
+  Vedhika joins Welcome to Central Jail& The film has Dileep in the lead&  Malayalam& Malayalam\\ \hline
+  Anoop Menon to pen a love story based in Malaysia&The Malaysian tourism department is involved with the project&  Malayalam& Malayalam\\ \hline
+  Madonna will make it big in M-town: Dileep&Dileep and Madonna co-star in Siddique-Lal duo's King Liar&  Malayalam& Malayalam\\ \hline
+  Donât want to regret our choice of movies: Vineeth& The actor-director talks about what his friends' circle wants to accomplish with their movies&  MMalayalam& Malayalam\\ \hline
+  Biju Menon to play Innocentâs driver&The duo will team up for Jos Thomas' Vellakaduva&  Malayalam& Malayalam\\ \hline
+  White release pushed by two weeks& The movie has Mammootty and Huma Qureshi in the lead&  Malayalam& Malayalam\\ \hline
+  Donât compare King Liar with Two Countries: Dileep& The film is directed by Lal and scripted by Siddique&  Malayalam& Malayalam\\ \hline
+  James and Alice wraps up filming&The film has Prithviraj and Vedhika in the lead&  Malayalam& Malayalam\\ \hline
+  Censor cuts irkes Rajeshwari Poornachandra Tejaswi&The movie has got good response from movie goers.&  Malayalam& Kannada\\ \hline
+\end{longtable}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\newpage
+\label{}
+\begin{center}
+\begin{longtable}{|p{3cm}|p{7cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{Title} & \textbf{Description} & \textbf{Predicted category} & \textbf{Actual category} \\ \hline
+'Chandi Kori' team all geared up for 100 days bash on Jan 4& Bolli Moviesâ Tulu film 'Chandi Kori' that broke-even in 52 days of its release clocked its 100th day on January 2.&  Malayalam& Kannada\\ \hline
+  After Darshan, Urvashi Rautela picks Salman?&The Mr Airavathaa heroine was seen at Salman's 50th birthday bash&  Kannada& Kannada\\ \hline
+  Kannada actor Shivarajkumar suffers heart attack&Kannada actor Shivaraj Kumar, son of late matinee idol Dr Rajkumar has been hospitalised after he complained of a severe chest pain while working out at a gym on Tuesday.&  Kannada& Kannada\\ \hline
+\end{longtable}
+\end{center}
+\end{table}
+
+
+\newpage
+\item Futhermore, I classified the remaining items using fisher classifier and got the cprob() and fisherprob(). The code for this is illustrated in Listing \ref{lst:q1code3}.
+\item The output table with `Title', `Predicted category', `Actual category', `cprob' and `fisherprob' is illustrated below in Table \ref{table2}.
+\begin{table}
+\caption{Output with `Title', `Predicted category', `Actual category', `cprob' and `fisherprob'}
+\label{table2}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.7cm}|p{2cm}|}
+\hline
+	\textbf{Title} & \textbf{Predicted category} & \textbf{Actual category} & \textbf{cprob}  &\textbf{fisherprob} &\textbf{string}\\ \hline
+      Sequels galore to storm Sandalwood screens& kannada&  kannada&0&0.5966&  sandalwood screens\\ \hline
+   Shubra Aiyappa at a cocktail party at Sheraton Grand in Bengaluru& malayalam&  kannada&0&0.5966&  shubra aiyappa\\ \hline
+   Shubra Aiyappa at a cocktail party at Sheraton Grand in Bengaluru& kannada&  kannada&0&0.7428&  sheratn grand\\ \hline
+   Shubra Aiyappa at a cocktail party at  Sheraton Grand in Bengaluru& kannada&  kannada&1&0.8333&  bengaluru\\ \hline
+   When values get the better of society& malayalam&  kannada&0&0.5&  values\\ \hline
+   When opposites attract& kannada&  kannada                                        &0&0.5&  opposites\\ \hline
+   Who will replace Chandan in Lakshmi Baramma?& kannada&  kannada&0&0.5&  chandan\\ \hline
+   Award winners at the 7th BIFFES 2014& kannada&  kannada&0&0.3849&  award winners\\ \hline
+   Watch Sindhu Loknath sizzle& kannada&  kannada&0&0.5966&  sindhu loknath\\ \hline
+   Trailer: Mr and Mrs Ramachari& malayalam&  kannada&0&0.4481&  mr and mrs ramachari\\ \hline
+   Priyanka Kothari is Bullet Rani& kannada&  kannada&0&0.5966&  bullet rani\\ \hline
+   Trailer of Yogaraj Bhat's Vaastu Prakara& kannada&  kannada &0&0.5&  yogaraj\\ \hline
+   Watch: Trailer of Namo Bhootaathma& Malayalam&  kannada&0&0.5&  bhootaathma\\ \hline
+	 Watch: The teaser trailer of Godhi Banna Sadharna Mykattu& kannada&  kannada&0&0.698&  godhi banna sadgarna mykattu\\ \hline
+   Shivarajkumar's Belli cut by 13 minutes& malayalam&  kannada&0&0.5&  shivrajkumar\\ \hline
+   Kannada film Sachin Tendulkar Alla to be remade in Telugu& kannada&  kannada&0&0.5966&  sachin tendulkar\\ \hline
+   Churni's film moves Bangla blogger in Oz& kannada&  bengali&0&0.5&  churni\\ \hline
+   FTII workshop film still âspeaksâ to viewers& Malayalam&  bengali&0&0.5&  ftii\\ \hline
+  Celebrated movie gets short shrift& Hindi&  bengali&0&0.5&  shrift\\ \hline
+	She was always there for usâ& Tamil&  bengali&0&0.5966&  sharmila tagore   \\ \hline
+ \end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\label{}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.7cm}|p{2cm}|}
+\hline
+\textbf{Title} & \textbf{Predicted category} & \textbf{Actual category} & \textbf{cprob}  &\textbf{fisherprob} &\textbf{string}\\ \hline
+    
+     SikhNet To Launch Free Online Animated Story 'Kaur'& Malayalam&  punjabi&0&0.5&  kaur\\ \hline
+   I am ready to learn Marathi: Indraneil Sengupta& Malayalam&  marathi&0&0.3849&  indraneil sengupta\\ \hline
+   Marathi film leaked online, producer lodges complaint& Telugu&  marathi&0&0.5966&  dagadi chawl\\ \hline
+     âCourtâ actress Geetanjali Kulkarni: I appreciate experimental films& marathi&  marathi&0&0.5&  geetanjali\\ \hline
+   Whatâs brewing Adinath?& marathi&  marathi&0&0.5&  adinath\\ \hline
+   New Ganpati song from Bikerâs Adda& marathi&  marathi&0&0.5966&  new ganpato\\ \hline
+   Mohan Joshi is Tanvi's mentor& marathi&  marathi&1&0.9&  marathi\\ \hline
+   Sena slams BJP minister for watering down 'prime-time' rule& marathi&  marathi&0&0.698&  sena slams bjp minister\\ \hline
+   Hollywood enters Marathi industry&  marathi&  marathi&0&0.5&  hollywood\\ \hline
+   I regret not listening to Aamir Khan&  marathi&  marathi&0&0.5966&  aamir khan\\ \hline
+   Is Adinath a joru ka ghulam?& kannada&  marathi&0&0.25&  adinath\\ \hline
+   Mahesh Manjrekar back in business?& marathi&  marathi&0&0.5014&  mahesh manjrekar\\ \hline
+   Sonali goes rehearsing on bicycle& malayalam&  marathi&0&0.5&  sonali\\ \hline
+   Madhur Bhandarkarâs Lohri wishes& marathi&  marathi&0&0.5&  madhur\\ \hline
+    Sonali to portray Geeta Dutt& marathi&  marathi&1&0.75&  sonali\\ \hline
+   John Travolta bumps into Riteish& Malayalam&  marathi&0&0.5966&  john travolta\\ \hline
+   Sadashiv Amrapurkar was born as Ganesh Kumar Narbode& marathi&  marathi&0&0.5&  sadashiv\\ \hline
+   Actress ready for a butt selfie?& marathi&  marathi&0.3148&0.3333&  actress\\ \hline
+	 Sunny Leone and Adinath Kothare together?& marathi&  marathi&0&0.5966&  sunny leone\\ \hline
+   Shocking revelations: Actress admits being sexually abused& marathi&  marathi&0&0.9188&  nikita gokhale\\ \hline 
+ \end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\label{}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.7cm}|p{2cm}|}
+\hline
+\textbf{Title} & \textbf{Predicted category} & \textbf{Actual category} & \textbf{cprob}  &\textbf{fisherprob} &\textbf{string}\\ \hline
+   Celebs strive for quality family time for their first Gudi Padwa post marriage& marathi&  marathi&0&0.25&  celebs\\ \hline
+   Holi Aail Baa: These Bhojpuri songs will add more colour to your Holi& Malayalam&  bhojpuri&0&0.6552&  holi aail baa\\ \hline
+   Havenât kissed my co-star: Rani Chatterjee& kannada&  bhojpuri&0&0.7428&  rani chatterjee\\ \hline
+   âHogi Pyar Ki Jeetâ goes on floors& bhojpuri&  bhojpuri&0&0.6552&  hogi pyar ki jeet\\ \hline
+   Injured Shubhi Sharma out of âHogi Pyar Ki Jeetâ& bhojpuri&  bhojupuri&0&0.5966&  shubhi sharma\\ \hline
+   Poonam Dubey to star in âHum Hai Jodi No. 1â& bhojupuri&  bhojpuri&0&0.5966&  poonam dubey\\ \hline
+   Khesari Lal Yadavâs next goes on floors& bhojpuri&  bhojpuri&0&0.7239&  khesari lal\\ \hline
+   Veteran Gujarati actress Padmarani passes away& marathi&  gujarati&0&0.5&  padmarani\\ \hline
+   Aaj Jane Ki Zid Na Karo staged in Vadodara& kannada&  gujarati&0&0.5&  vadodara\\ \hline
+   Gujarati theatre needs better writers: Rajeev Mehta& marathi&  gujarati&0&0.3849&  rajeev mehta\\ \hline
+   Gujarati celebs who love to cook& Malayalam&  gujarati&0&0.125&  gujarati\\ \hline
+   Plays need to be marketed better: Anupam Kher& gujarati&  gujarati&0&0.5966&  anupam kher\\ \hline
+   Bhoomi, Samir, Mana bond over music& gujarati&  gujarati &0&0.5&  music\\ \hline
+   âBas Ek Chanceâ is an urban Gujarati film: Kirtan Patel& Malayalam&  gujarati&0&0.5966&  kirtan patel\\ \hline
+   War of the roses in Aa Toh Prem Chhe& gujarati&  gujarati&0&0.5966&  war of roses\\ \hline
+   The only way to survive in this industry is to want to be in it badly& malayalam&  gujarati&0&0.1998&  survive industry\\ \hline
+   Music in Gujarati films a largely untapped market: Parthiv Gohil& gujarati&  gujarati&1&0.75&  music\\ \hline
+   Have fond memories of working in Gujarati films: Upasna Singh Bharadwaj& gujarati&  gujarati&0&0.476&  upasna singh bharadwaj\\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\label{}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.7cm}|p{2cm}|}
+\hline
+\textbf{Title} & \textbf{Predicted category} & \textbf{Actual category} & \textbf{cprob}  &\textbf{fisherprob} &\textbf{string}\\ \hline
+   Good content is important for audience now: Naishadh Purani& gujarati&  gujarati&0&0.5966&  naishadg purani\\ \hline
+   Sunburn Reload: EDM Fest floors Barodians!& gujarati&  gujarati&0&0.5966&  sunburn reload\\ \hline
+   I had a good time in Vadodara: Vijender Singh& gujarati&  gujarati&0&0.5655&  vijendra singh\\ \hline
+   Fugly stars groove at Vadodara!& gujarati&  gujarati&1&0.875&  vadodara\\ \hline
+   Vadodara has historical character in abundance: Tushar Unadkat& gujarati&  gujarati&0&0.5&  vadodraa\\ \hline
+   Chandan Rathod and Preet Mulani's romantic sojourn& gujarati&  gujarati&0&0.3849&  chandan rathod\\ \hline
+   My first girlfriend was a Gujarati: Vishal Malhotra& gujarati&  gujarati&0&0.5&  girlfriend\\ \hline
+   My entire life revolves around my mom: Tanvi Vyas& gujarati&  gujarati&0&0.5014&  tanvi vyas\\ \hline
+   Lions of Gujarat to be released in Gujarati and Hindi& marathi&  gujarati&0&0.5966&  lions of gujarath\\ \hline
+   Luxury car's magical March in Gujarat& marathi&  others&0&0.3849&  luxry car\\ \hline
+   A happening Xmas bash in Hyderabad& kannada&  others&0&0.5966&  happenung xmas\\ \hline
+   Hyderabad gets a taste of âSubramaniam gharanaâ& others& others&0&0.5&  others\\ \hline
+ 	A lavish wedding celebration in Hyderabad& None&  others&0&0.5966&  wedding celebration\\ \hline
+   When metalheads had a blast in Hyderabad& others&  others&0&0.5&  metalheads\\ \hline
+   We love handspun fabrics, say the P3Ps of Hyderabad& others&  others&0&0.5966&  love handspun\\ \hline
+   Sherry Javeri hosts a dinner party for friends in Hyderabad& others&  others&0&0.5966&  sherry javeri\\ \hline
+   Mallika Sarabhai's multi-media dance-drama in Hyderabad& others&  others&0&0.5966&  mallika sarabhai\\ \hline 
+  \end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\label{}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.7cm}|p{2cm}|}
+\hline
+\textbf{Title} & \textbf{Predicted category} & \textbf{Actual category} & \textbf{cprob}  &\textbf{fisherprob} &\textbf{string}\\ \hline
+    
+   P3Ps get baking in Hyderabad& others& others&0&0.5&    p3p\\ \hline
+   A perfect sundowner to end the weekend in Hyderabad&others& others&0&0.5&  perfect\\ \hline
+   TR Sahwney Motors opens its seventh showroom in Ghaziabad& others&  others&0&0.5966&  sahwney motors\\ \hline
+   Singer Karthik performs with his band Arka at a party at ITC Grand Chola, Chennai& others&  others&0&0.5966&  singer karthik\\ \hline
+   Manju Warrier and Ranjith at a book launch in Kochi& others&  others&0&0.5966&  manju warrier\\ \hline
+   Ladies have a stylish day out at Westin, Hyderabad& others&  others&0&0.5&  westin\\ \hline
+   Sunny Leone sizzles in Hyderabad's New Year party& others& others&0&0.5966&    sunny leone\\ \hline
+   Santa comes in an auto at a Christmas event in Westin, Hyderabad& others&  others&0&0.5&  santa\\ \hline
+   Isha Sharvani dressed to the at the audio launch of Iyobinte Pusthakam, held in Kochi& others&  others&0&0.5966&  isha sharvani\\ \hline
+   Actress Rachana Narayanankutty spotted at the pooja function of Thilothama held in a prominent hotel in Trivandrum& others&  others&0&0.5&  rachana\\ \hline
+   Actress Tarushi at the promotional event of her film Study Tour, in Trivandrum& others&  others&0&0.7428&  actress tarushi\\ \hline
+  \end{tabular}
+\end{center}
+\end{table}
+
+\end{itemize}
+
+
+  
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=`docclass.py' from PCI book code,frame=single,breaklines=true,label=lst:q1code1, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/docclass.py}
+
+
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=`feedfilter.py' from PCI book code,frame=single,breaklines=true,label=lst:q1code2, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/feedfilter1.py}
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=`feedfilter.py' from PCI book code,frame=single,breaklines=true,label=lst:q1code3, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/feedfilter2.py}
+
+
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=`classifyEntries.py' from `Document-filtering' powerpoint slide 26,frame=single,breaklines=true,label=lst:q1code4, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/classifyEntries.py}
