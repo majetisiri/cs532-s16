@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,o){t&&t(e,n,o),o||(o={});for(var a=i(e),s=a.length,c=o[r]||(o[r]={}),f=0;s>f;f++)a[f].apply(c,n);return c}function o(t,e){s[t]=i(t).concat(e)}function i(t){return s[t]||[]}function a(){return n(e)}var s={};return{on:o,emit:e,create:a,listeners:i,_events:s}}var r="nr@context";e.exports=n()},{}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(5),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(1),t(4),"addEventListener"in window&&t(2),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(3),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:8,2:5,3:9,4:7,5:17,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(2);t("loader").features.stn=!0,t(1),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:6,2:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o);if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var a=document;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&n(a);for(var s=XMLHttpRequest.prototype;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=i(e,"fn-",null,e.name||"anonymous"):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:17,2:18,ee:"QJf3ax"}],6:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:18,2:17,ee:"QJf3ax"}],7:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:18,2:17,ee:"QJf3ax"}],8:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:18,2:17,ee:"QJf3ax"}],9:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",r)}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:5,2:18,ee:"QJf3ax"}],10:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(1),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(2);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:11,2:14,3:9,4:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],11:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],14:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],17:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],18:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper";e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,f,u;try{i=this,n=o(arguments),f=r&&r(n,i)||{}}catch(d){c([d,"",[n,i,a],f])}s(e+"start",[n,i,a],f);try{return u=t.apply(i,n)}catch(p){throw s(e+"err",[n,i,p],f),p}finally{s(e+"end",[n,i,u],f)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,nrWrapper)}function a(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function s(e,n,r){try{t.emit(e,n,r)}catch(o){c([o,e,n,r])}}function c(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=a,e.flag=i,e}},{1:17,ee:"QJf3ax"}]},{},["G9z0Bl",3,10,4]);;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"852797bfec",applicationID:"8296005",sa:1,agent:"js-agent.newrelic.com/nr-460.min.js"}</script><link rel="profile" href="//gmpg.org/xfn/11">
+<link rel="pingback" href="//alien-ufo-sightings.com/xmlrpc.php">
+<title>Nikola Tesla: Life Exists on Other Planets - Alien UFO Sightings</title>
+<script type="text/javascript">var ajaxurl = "http://alien-ufo-sightings.com/wp-admin/admin-ajax.php",ap_nonce 	= "06e8d6880c",ap_max_tags = "",disable_hover_card = ""</script>
+ 
+ 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nikola Tesla: Life Exists on Other Planets">
+<meta name="twitter:description" content="Nikola Tesla.Nicola [sic] Tesla discussed communication between the earth and other planets today as if he regarded this as a feat no neater than telephoning to the cordial shop around the corner. Tomorrow he will be 76. It will be forty-six years since he came, a shy, unheralded youth, from">
+<meta name="twitter:image" content="http://alien-ufo-sightings.com/wp-content/uploads/2016/02/tesla-holographic-universe1.jpg">
+<meta name="twitter:site" content="@alienufovideos">
+<style>@font-face{font-family:"sw-icon-font";src:url("http://alien-ufo-sightings.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot");src:url("http://alien-ufo-sightings.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?#iefix") format("embedded-opentype"),url("http://alien-ufo-sightings.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.woff") format("woff"),url("http://alien-ufo-sightings.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.ttf") format("truetype"),url("http://alien-ufo-sightings.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.svg#1445203416") format("svg");font-weight:normal;font-style:normal;}</style>
+<script type="text/javascript">document.addEventListener("DOMContentLoaded", function(event) { jQuery.get("http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/?sw_cache=rebuild"); });</script>
+ 
+ 
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Nikola Tesla: Life Exists on Other Planets - Alien UFO Sightings"/>
+<meta property="og:description" content="Nikola Tesla.Nicola [sic] Tesla discussed communication between the earth and other planets today as if he regarded this as a feat no neater than telephoning to the cordial shop around the corner. Tomorrow he will be 76. It will be forty-six years since he came, a shy, unheralded youth, from &hellip;"/>
+<meta property="og:site_name" content="Alien UFO Sightings"/>
+<meta property="article:publisher" content="https://www.facebook.com/pages/Alien-UFO-Sightings/348601913136?ref=hl"/>
+<meta property="article:author" content="https://www.facebook.com/pages/Alien-UFO-Sightings/348601913136?ref=hl"/>
+<meta property="article:section" content="Aliens"/>
+<meta property="article:published_time" content="2016-02-05T22:29:48+00:00"/>
+<meta property="fb:admins" content="1064439140256258"/>
+<meta property="og:image" content="http://alien-ufo-sightings.com/wp-content/uploads/2016/02/tesla-holographic-universe1.jpg"/>
+ 
+<link rel="alternate" type="application/rss+xml" title="Alien UFO Sightings &raquo; Feed" href="//alien-ufo-sightings.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Alien UFO Sightings &raquo; Comments Feed" href="//alien-ufo-sightings.com/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Alien UFO Sightings &raquo; Nikola Tesla: Life Exists on Other Planets Comments Feed" href="//alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/feed/"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alien-ufo-sightings.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel='stylesheet' id='opinionstage-style-css' href='//alien-ufo-sightings.com/wp-content/plugins/social-polls-by-opinionstage/opinionstage-style-common.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='opinionstage-font-style-css' href='//alien-ufo-sightings.com/wp-content/plugins/social-polls-by-opinionstage/opinionstage-font.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='validate-engine-css-css' href='//alien-ufo-sightings.com/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.7' type='text/css' media='all'/>
+<link rel='stylesheet' id='ap-style-css' href='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/css/main.css?ver=2.4.4' type='text/css' media='all'/>
+<style id='ap-style-inline-css' type='text/css'>#anspress .ap-q-cells{margin-left:60px;}#anspress .ap-a-cells{margin-left:60px;}#anspress .ap-comment-content{margin-left:40px;}</style>
+<link rel='stylesheet' id='ap-fonts-css' href='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/fonts/style.css?ver=2.4.4' type='text/css' media='all'/>
+<link rel='stylesheet' id='ap-responsive-css' href='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/css/responsive.css?ver=2.4.4' type='text/css' media='all'/>
+<link rel='stylesheet' id='ap-overrides-css' href='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/css/overrides.css?ver=2.4.4' type='text/css' media='all'/>
+<link rel='stylesheet' id='bbp-default-css' href='//alien-ufo-sightings.com/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.8-5815' type='text/css' media='screen'/>
+<link rel='stylesheet' id='foobox-min-css' href='//alien-ufo-sightings.com/wp-content/plugins/fooboxV2/css/foobox.min.css?ver=2.3.2.30' type='text/css' media='all'/>
+<link rel='stylesheet' id='social_warfare-css' href='//alien-ufo-sightings.com/wp-content/plugins/social-warfare/css/style.css?ver=1.4.1' type='text/css' media='all'/>
+<link rel='stylesheet' id='mashresp-styles-css' href='//alien-ufo-sightings.com/wp-content/plugins/mashshare-responsive/assets/css/mashresp.min.css?ver=2.0.6' type='text/css' media='all'/>
+<link rel='stylesheet' id='mashvipo-css' href='//alien-ufo-sightings.com/wp-content/plugins/mashshare-videopost/assets/css/mashvipo.min.css?ver=1.3.0' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-style-css' href='//alien-ufo-sightings.com/wp-content/themes/bldr/style.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-slick-css' href='//alien-ufo-sightings.com/wp-content/themes/bldr/css/slick.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-animate-css' href='//alien-ufo-sightings.com/wp-content/themes/bldr/css/animate.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-menu-css' href='//alien-ufo-sightings.com/wp-content/themes/bldr/css/jPushMenu.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-font-awesome-css' href='//alien-ufo-sightings.com/wp-content/themes/bldr/fonts/font-awesome.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-source-sans-css' href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C300%2C400italic%2C700%2C600&#038;ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-source-body-css' href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C300%2C400italic%2C700%2C600&#038;ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='bldr-header-css-css' href='//alien-ufo-sightings.com/wp-content/themes/bldr/css/headhesive.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='jetpack_css-css' href='//alien-ufo-sightings.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.9.1' type='text/css' media='all'/>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/jetpack/modules/related-posts/related-posts.js?ver=20150408'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/assets/min/ap-functions.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var aplang = {"password_field_not_macthing":"Password not matching","password_length_less":"Password length must be 6 or higher","not_valid_email":"Not a valid email","username_less":"Username length must be 4 or higher","username_not_avilable":"Username not available","email_already_in_use":"Email already in use. <a href=\"http:\/\/alien-ufo-sightings.com\/wp-login.php?action=lostpassword\">Do you want to reset your password?<\/a>","loading":"Loading","sending":"Sending request","adding_to_fav":"Adding question to your favorites","voting_on_post":"Sending your vote","requesting_for_closing":"Requesting for closing this question","sending_request":"Submitting request","loading_comment_form":"Loading comment form","submitting_your_question":"Sending your question","submitting_your_answer":"Sending your answer","submitting_your_comment":"Sending your comment","deleting_comment":"Deleting comment","updating_comment":"Updating comment","loading_form":"Loading form","saving_labels":"Saving labels","loading_suggestions":"Loading suggestions","uploading_cover":"Uploading cover","saving_profile":"Saving profile","sending_message":"Sending message","loading_conversation":"Loading conversation","loading_new_message_form":"Loading new message form","loading_more_conversations":"Loading more conversations","searching_conversations":"Searching conversations","loading_message_edit_form":"Loading message form","updating_message":"Updating message","deleting_message":"Deleting message","uploading":"Uploading","error":"apicon-x","warning":"apicon-alert","success":"apicon-check","not_valid_response":"Something went wrong in server side, not a valid response."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/assets/min/anspress_site.min.js?ver=2.4.4'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/js/jquery.peity.min.js?ver=2.4.4'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/js/initial.min.js?ver=2.4.4'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/js/jquery.scrollbar.min.js?ver=2.4.4'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/anspress-question-answer/theme/default/min/ap.min.js?ver=2.4.4'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/social-warfare/script.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashvipo = {"videoID":"","delay":"5000","like_url":"https:\/\/www.facebook.com\/pages\/Alien-UFO-Sightings\/348601913136","share_text":"Like this story,<br> Want to share it?","share_button_fb":"Share on Facebook","share_button_tw":"Share on Twitter","like_popup_text":"Want more stories like this?","close_button":"No thanks, I already did","top_position":"100","popup_width":"320","popup_delay":"5000","like_popup":"1","share_popup":"1","featured_image":"1","no_video_popup":"0","no_page_popup":"0","image":"http:\/\/i2.wp.com\/alien-ufo-sightings.com\/wp-content\/uploads\/2016\/02\/tesla-holographic-universe1.jpg?fit=640%2C356","twitterbtn":"1","videopopuponly":"1","percentage":"75","customtext":"","cookie_support":"0","html_elem":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/mashshare-videopost/assets/js/mashvipo.min.js?ver=1.3.0'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/mashshare-videopost/assets/js/jquery.cookie.min.js?ver=1.3.0'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/parallax.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/fooboxV2/js/foobox.min.js?ver=2.3.2.30'></script>
+<link rel='https://api.w.org/' href='//alien-ufo-sightings.com/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="//alien-ufo-sightings.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="//alien-ufo-sightings.com/wp-includes/wlwmanifest.xml"/>
+<meta name="generator" content="WordPress 4.4.2"/>
+<link rel='shortlink' href='//wp.me/p1MURw-5Nk'/>
+<link rel="alternate" type="application/json+oembed" href="//alien-ufo-sightings.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="//alien-ufo-sightings.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F&#038;format=xml"/>
+<script type="text/javascript">/* Run FooBox (v2.3.2.30) */
+(function( FOOBOX, $, undefined ) {
+  FOOBOX.o = {theme: "fbx-dark", wordpress: { enabled: true }, deeplinking : { enabled: true, prefix: "foobox" }, effect: 'fbx-effect-7', captions: { onlyShowOnHover:true, prettify:true }, excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: true }, slideshow: { enabled:true}, social: { enabled: true, excludes: ['iframe','html'], position: 'fbx-above', links: [ { css: 'fbx-facebook', title: 'Facebook', url: 'http://www.facebook.com/sharer.php?u={url}'  }, { css: 'fbx-google-plus', title: 'Google+', url: 'https://plus.google.com/share?url={url-ne}'  }, { css: 'fbx-twitter', title: 'Twitter', url: 'https://twitter.com/share?url={url}&text={title}'  }, { css: 'fbx-pinterest', title: 'Pinterest', url: 'https://pinterest.com/pin/create/bookmarklet/?media={img!}&url={url}&is_video={is_video}&description={title}'  }, { css: 'fbx-linkedin', title: 'LinkedIn', url: 'http://www.linkedin.com/shareArticle?url={url}&title={title}'  }, { css: 'fbx-buffer', title: 'Buffer', url: 'http://bufferapp.com/add?text={title}&url={url}'  }, { css: 'fbx-digg', title: 'Digg', url: 'http://digg.com/submit?url={url}&title={title}'  }, { css: 'fbx-tumblr', title: 'Tumblr', url: 'https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&content={img}&title={title}&caption={desc}'  }, { css: 'fbx-reddit', title: 'Reddit', url: 'http://reddit.com/submit?url={url}&title={title}'  }, { css: 'fbx-stumble-upon', title: 'StumbleUpon', url: 'http://www.stumbleupon.com/submit?url={url}&title={title}'  }, { css: 'fbx-email', title: 'Email', url: 'mailto:friend@example.com?subject={title}&body={desc}%20-%20{url}'  }, { css: 'fbx-download', excludes: ['video', 'iframe', 'html'], title: 'Download Original Image', url: '{img-ne}' } ] }, preload:true, modalClass: "fbx-arrows-2 fbx-spinner-3"};
+  FOOBOX.init = function() {
+    $(".fbx-link").removeClass("fbx-link");
+    $(".tiled-gallery").foobox(FOOBOX.o);
+    $(".gallery").foobox(FOOBOX.o);
+    $(".foobox, [target=\"foobox\"]").foobox(FOOBOX.o);
+    $(".wp-caption").foobox(FOOBOX.o);
+    $("a:has(img[class*=wp-image-])").foobox(FOOBOX.o);
+
+  };
+}( window.FOOBOX = window.FOOBOX || {}, jQuery ));
+
+jQuery(function() {
+  //preload the foobox font
+  jQuery("body").append("<span style=\"font-family:'foobox'; color:transparent; position:absolute; top:-1000em;\">f</span>");
+  FOOBOX.init();
+  jQuery(document).trigger("foobox-after-init");
+
+});
+</script> 
+<script type='text/javascript'>(function(a,c){"Insticator"in a||(a.Insticator={ad:{},helper:{},client:{sid:"2b5d6515-a99b-478e-bba9-f060b9e02e2c"},version:"1.0"},a.Insticator.ad.loadAd=function(b){a.Insticator.ad.q.push(b)},a.Insticator.ad.q=[]);var b=c.createElement("script"),cof=1000*60*10,cbt=new Date(Math.floor(new Date().getTime()/cof)*cof).getTime();b.src="//embed.insticator.com/advertisements/getheadertagforsite?id="+a.Insticator.client.sid+"&cbt="+cbt;b.async=!0;var d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)})(window,document);</script>
+ <script data-cfasync="false" src="//load.sumome.com/" data-sumo-site-id="ab028205798ed7c46463af4975a0d647df612c409a43416cbc461984069343bd" async></script>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style><!--[if lt IE 9]>
+<script src="//alien-ufo-sightings.com/wp-content/themes/bldr/js/html5shiv.js"></script>
+<![endif]-->
+ 
+<style></style>
+<style type="text/css"></style><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11622500-1', 'auto');
+  ga('send', 'pageview');
+
+</script></head>
+<body class="single single-post postid-22278 single-format-standard group-blog">
+<div id="page" class="hfeed site">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<header id="masthead" class="site-header" role="banner">
+<div class="grid grid-pad header-overflow">
+<div class="site-branding">
+<div>
+<hgroup>
+<h1 class='site-title'>
+<a href='http://alien-ufo-sightings.com/' title='Alien UFO Sightings' rel='home'>Alien UFO Sightings</a>
+</h1>
+</hgroup>
+</div>
+</div> 
+<div class="navigation-container">
+<nav id="site-navigation" class="main-navigation" role="navigation">
+<button class="toggle-menu menu-right push-body">
+Menu </button>
+<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-8545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-8545"><a href="http://alien-ufo-sightings.com/">Home</a></li>
+<li id="menu-item-15894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15894"><a href="http://alien-ufo-sightings.com/privacy-policy-2/">Privacy Policy</a></li>
+<li id="menu-item-15905" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15905"><a>Follow Us</a>
+<ul class="sub-menu">
+<li id="menu-item-22018" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22018"><a href="https://www.facebook.com/groups/1657391024520510/">Facebook Group</a></li>
+<li id="menu-item-22091" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22091"><a href="https://twitter.com/alienufovideos">Twitter</a></li>
+<li id="menu-item-13501" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13501"><a href="https://uk.pinterest.com/aliensightings/">Pinterest</a></li>
+<li id="menu-item-13500" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13500"><a href="https://plus.google.com/108394182969505539558/posts">Google+</a></li>
+<li id="menu-item-13907" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13907"><a href="http://www.stumbleupon.com/stumbler/Alien-UFO-Sighti/likes">Stumbleupon</a></li>
+<li id="menu-item-13495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13495"><a href="https://flipboard.com/@carlthomas2014">Flipboard</a></li>
+<li id="menu-item-15541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15541"><a href="https://uk.linkedin.com/pub/carl-thomas/47/139/84">Linkedin</a></li>
+<li id="menu-item-13502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13502"><a href="http://feeds.feedburner.com/blogspot/JcDFSA">RSS</a></li>
+</ul>
+</li>
+<li id="menu-item-22019" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22019"><a href="https://www.facebook.com/groups/1657391024520510/">Facebook Group</a></li>
+<li id="menu-item-22306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22306"><a href="http://alien-ufo-sightings.com/questions/">Questions</a></li>
+</ul></div> </nav> 
+</div>
+</div>
+</header> 
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+<h3><i class="fa fa-close"></i> Close Menu</h3>
+<div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-8545"><a href="http://alien-ufo-sightings.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15894"><a href="http://alien-ufo-sightings.com/privacy-policy-2/">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15905"><a>Follow Us</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22018"><a href="https://www.facebook.com/groups/1657391024520510/">Facebook Group</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22091"><a href="https://twitter.com/alienufovideos">Twitter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13501"><a href="https://uk.pinterest.com/aliensightings/">Pinterest</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13500"><a href="https://plus.google.com/108394182969505539558/posts">Google+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13907"><a href="http://www.stumbleupon.com/stumbler/Alien-UFO-Sighti/likes">Stumbleupon</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13495"><a href="https://flipboard.com/@carlthomas2014">Flipboard</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15541"><a href="https://uk.linkedin.com/pub/carl-thomas/47/139/84">Linkedin</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13502"><a href="http://feeds.feedburner.com/blogspot/JcDFSA">RSS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22019"><a href="https://www.facebook.com/groups/1657391024520510/">Facebook Group</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22306"><a href="http://alien-ufo-sightings.com/questions/">Questions</a></li>
+</ul></div> </nav>
+<div id="content" class="site-content">
+<section id="page-entry-content">
+<div class="grid grid-pad">
+<div class="col-9-12">
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+<article id="post-22278" class="post-22278 post type-post status-publish format-standard has-post-thumbnail hentry category-aliens category-amazing-places category-exterrestrial-theory category-famous-people-and-ufos">
+<header class="entry-header">
+<h1 class="entry-title">Nikola Tesla: Life Exists on Other Planets</h1>
+<div class="entry-meta">
+<span class="meta-block"><i class="fa fa-list"></i> <ul class="post-categories">
+<li><a href="http://alien-ufo-sightings.com/category/aliens/" rel="category tag">Aliens</a></li>
+<li><a href="http://alien-ufo-sightings.com/category/amazing-places/" rel="category tag">Amazing Places</a></li>
+<li><a href="http://alien-ufo-sightings.com/category/exterrestrial-theory/" rel="category tag">Exterrestrial Theory</a></li>
+<li><a href="http://alien-ufo-sightings.com/category/famous-people-and-ufos/" rel="category tag">Famous People and UFOs</a></li></ul></span>
+<span class="meta-block"><img alt='' src='//graph.facebook.com/10206403561706494/picture' class='avatar avatar-96 photo' height='96' width='96'/>admin</span>
+<span class="meta-block"><i class="fa fa-clock-o"></i> February 5, 2016</span>
+</div> 
+</header> 
+<div class="entry-content">
+<img width="800" height="445" src="//i2.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/tesla-holographic-universe1.jpg?fit=800%2C445" class="archive-img wp-post-image" alt="Nikola Tesla: Life Exists on Other Planets" srcset="http://i2.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/tesla-holographic-universe1.jpg?resize=300%2C167 300w, http://i2.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/tesla-holographic-universe1.jpg?resize=560%2C312 560w, http://i2.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/tesla-holographic-universe1.jpg?w=800 800w" sizes="(max-width: 800px) 100vw, 800px"/>  <div style='width:100%; text-align:center; padding: 0px 0px 10px 0px'><script type='text/javascript'>
+				google_ad_client = 'pub-7669926013846247';
+				google_ad_width = 300;
+				google_ad_height = 250;
+				google_ad_format = '300x250_as';
+				google_ad_type = 'text_image';
+				google_ad_channel = '2864926689'; 
+				</script><script type='text/javascript' src='//pagead2.googlesyndication.com/pagead/show_ads.js'></script></div><p><span style="font-size: 18pt;"><span class="media media-element-container media-right"><span class="caption">Nikola Tesla.</span></span>Nicola [sic] Tesla discussed communication between the earth and other planets today as if he regarded this as a feat no neater than telephoning to the cordial shop around the corner.</span>
+<p><span style="font-size: 18pt;">Tomorrow he will be 76. It will be forty-six years since he came, a shy, unheralded youth, from the Province of Lika, in Eastern Austria. But the fire of his tremendous endeavor seemed to burn as fiercely this morning as it has any time down the years in which he has established his prominent place among scientists.</span>
+<p><span style="font-size: 18pt;">Interplanetary communication is only one phase of that endeavor, he hurried to say. Annihilation of distance, he said, sums it up; annihilation of distance by transmission of energy.</span>
+<p><span style="font-size: 18pt;"><strong>Certain of Life Elsewhere.</strong></span><br/>
+<span style="font-size: 18pt;">“I am in dead earnest.” He spoke quietly and carefully. “I feel certain of what I tell you.</span>
+<p><span style="font-size: 18pt;">“The transmission of energy to another planet is only a matter of engineering. I have solved the problem so well I don’t regard it as doubtful.”</span>
+<p><span style="font-size: 18pt;">He is certain, too, he said, that there are creatures on other planets whose ways are like the ways of those on this one.</span>
+ <div style='width:100%; text-align:center; padding: 10px'><script type='text/javascript'>
+				google_ad_client = 'pub-7669926013846247';
+				google_ad_width = 300;
+				google_ad_height = 250;
+				google_ad_format = '300x250_as';
+				google_ad_type = 'text_image';
+				google_ad_channel = '2864926689'; 
+				</script><script type='text/javascript' src='//pagead2.googlesyndication.com/pagead/show_ads.js'></script></div>
+<p><span style="font-size: 18pt;">“It is mathematically certain that other planets are inhabited. Every other planet has to pass through practically the same phase of existence the earth did, and life is started on them, during that favorable phase, by rays of some sun.</span>
+<p><span style="font-size: 18pt;">“It develops in the presence of moisture and heat and light in much the same manner as life does on the earth.</span>
+<p><span style="font-size: 18pt;"><strong>Interplanetary Forum.</strong></span><br/>
+<span style="font-size: 18pt;">“We know that light propagates in straight lines, and consequently our perceptions of the forms through the images projected on the retina must be true.</span>
+<p><span style="font-size: 18pt;">“Therefore, it should not be hard to establish intelligent exchange of ideas between two planets.”</span>
+<p><span style="font-size: 18pt;">The earth, he thinks, might be the beneficiary.</span>
+<p><span style="font-size: 18pt;">“It is conceivable that there is civilization on other planets far ahead of ours. If communication were established by the earth, the consequences to human beings would be incalculable.”</span>
+<p><span style="font-size: 18pt;"><strong>Busy in Laboratory.</strong></span><br/>
+<span style="font-size: 18pt;">He had been at work all day in his mid-town laboratory. Characteristically, he did not want to say much about it. As it always did, it concerns fundamentals; the application may come decades after his success in principle, as it has in radio and high-tension electricity.</span>
+<p><span style="font-size: 18pt;">“I’m giving all my time to annihilation of distance. Same as ever. To my mind that’s the most important achievement to be hoped for in the furtherance of the intellectual development of man, as well as in the promotion of his material welfare.</span>
+<p><span style="font-size: 18pt;"><strong>Radio Just a Step.</strong></span><br/>
+<span style="font-size: 18pt;">“The wireless art already fulfills this in a large measure, but we must establish transmission of power in all its innumerable applications.</span>
+<p><span style="font-size: 18pt;">“This has been my life work and I hope to see its full fruition before I am gathered to my forefathers.”</span>
+<p><span style="font-size: 18pt;">Spruce and slim, with cane and gloves and a tailored air, he did not look 50 as he rose and stood by a desk on the mezzanine floor of the hotel where, a recluse among millions, he takes cover.</span>
+<p><span style="font-size: 18pt;"><strong>Longs for His Wine.</strong></span><br/>
+<span style="font-size: 18pt;">About him there was none of the traditional coldness of the pure scientist. He felt, he said like a boy.</span>
+<p><span style="font-size: 18pt;">Why? Well, no coffee and no tea, for one thing. Another, he has never been married. He would be even more fit, he thinks, if they had not taken his wine away.</span>
+<p><span style="font-size: 18pt;">“Just the same I could climb a tree 100 feet tall.”</span>
+<p><span style="font-size: 18pt;"><a href="http://i0.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/19320709-01-19320709-01.pdf-2016-02-05-22-24-39.png" rel="attachment wp-att-22280"><img class="aligncenter  wp-image-22280" src="//i0.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/19320709-01-19320709-01.pdf-2016-02-05-22-24-39.png?resize=640%2C1003" alt="19320709-01 - 19320709-01.pdf 2016-02-05 22-24-39" srcset="http://i0.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/19320709-01-19320709-01.pdf-2016-02-05-22-24-39.png?resize=560%2C878 560w, http://i0.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/19320709-01-19320709-01.pdf-2016-02-05-22-24-39.png?w=594 594w" sizes="(max-width: 906px) 100vw, 906px" data-recalc-dims="1"/></a></span>
+<p><a href="http://i2.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/application-pdf.png" rel="attachment wp-att-22284"><img class="size-full wp-image-22284 alignleft" src="//i2.wp.com/alien-ufo-sightings.com/wp-content/uploads/2016/02/application-pdf.png?resize=16%2C16" alt="application-pdf" data-recalc-dims="1"/></a><a href="http://alien-ufo-sightings.com/wp-content/uploads/2016/02/19320709-01.pdf" target="_blank" rel="">Original news article (as above) in PDF format </a>
+<div style="clear:both; margin-top:0em; margin-bottom:1em;"><a href="http://alien-ufo-sightings.com/2014/03/universe-has-billions-of-unobserved-galaxies-number-underestimated-at-90/" target="_self" rel="dofollow" class="IRPP_button"> <style>.IRPP_button,.IRPP_button .postImageUrl,.IRPP_button .centered-text-area{min-height:86px;position:relative;}.IRPP_button,.IRPP_button:hover,.IRPP_button:visited,.IRPP_button:active{border:0!important;}.IRPP_button{display:block;transition:background-color 250ms;webkit-transition:background-color 250ms;width:100%;opacity:1;transition:opacity 250ms;webkit-transition:opacity 250ms;background-color:#141414;box-shadow:0 1px 2px rgba(0,0,0,0.17);-moz-box-shadow:0 1px 2px rgba(0,0,0,0.17);-o-box-shadow:0 1px 2px rgba(0,0,0,0.17);-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.17);}.IRPP_button:active,.IRPP_button:hover{opacity:1;transition:opacity 250ms;webkit-transition:opacity 250ms;}.IRPP_button .postImageUrl{background-position:center;background-size:cover;float:right;margin:0;padding:0;width:30%;}.IRPP_button .centered-text-area{float:left;width:70%;padding:0;margin:0;}.IRPP_button .ctaText{border-bottom:0 solid #fff;color:#FFFFFF;font-size:13px;font-weight:bold;letter-spacing:.125em;margin:0;padding:0;}.IRPP_button .postTitle{color:#ECF0F1;font-size:16px;font-weight:600;margin:0;padding:0;width:100%;}.IRPP_button .ctaButton{background:#1ABC9C;color:#FFFFFF;border:none;border-radius:3px;box-shadow:none;font-size:14px;font-weight:bold;line-height:26px;margin:18px 14px 18px 14px;moz-border-radius:3px;padding:12px 0;text-align:center;text-decoration:none;text-shadow:none;webkit-border-radius:3px;width:80px;position:absolute;}.IRPP_button:hover .ctaButton{background:#16A085;}.IRPP_button .centered-text{display:table;height:86px;padding:0;margin:0;padding-left:108px!important;top:0;}.IRPP_button .IRPP_button-content{display:table-cell;margin:0;padding:0;padding-right:10px;position:relative;vertical-align:middle;width:100%;}.IRPP_button:after{content:"";display:block;clear:both;}</style><div class="centered-text-area"><div class="ctaButton" style="float: left;">YOU MAY ALSO LIKE:</div><div class="centered-text" style="float: left;"><div class="IRPP_button-content"><div class="postTitle">“Universe has Billions of Unobserved Galaxies” – Number Underestimated at 90%</div></div></div></div><div class="postImageUrl" style="background-image:url(http://i0.wp.com/alien-ufo-sightings.com/wp-content/uploads/2014/03/Lens.jpg?fit=300%2C300);"></div></a></div><p><span style="font-size: 18pt;">Source <a href="https://teslauniverse.com/nikola-tesla/articles/tesla-sure-life-exists-other-planets-works-76-establish-his-belief" target="_blank">teslauniverse.com</a></span>
+ <div style='width:100%; text-align:center; padding: 10px 0px 0px 0px'><script type='text/javascript'>
+				google_ad_client = 'pub-7669926013846247';
+				google_ad_width = 300;
+				google_ad_height = 250;
+				google_ad_format = '300x250_as';
+				google_ad_type = 'text_image';
+				google_ad_channel = '2864926689'; 
+				</script><script type='text/javascript' src='//pagead2.googlesyndication.com/pagead/show_ads.js'></script></div>
+<div id='jp-relatedposts' class='jp-relatedposts'>
+<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div><div class="nc_socialPanel sw_shift sw_d_fullColor sw_i_fullColor sw_o_fullColor" data-position="below" data-float="floatBottom" data-count="9" data-floatColor="#ffffff" data-scale="1.1" data-align="fullWidth"><div class="nc_tweetContainer twitter" data-id="3"><a href="https://twitter.com/share?original_referer=/&text=Nikola+Tesla%3A+Life+Exists+on+Other+Planets&url=http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/&via=alienufovideos" data-link="https://twitter.com/share?original_referer=/&text=Nikola+Tesla%3A+Life+Exists+on+Other+Planets&url=http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/&via=alienufovideos" class="nc_tweet"><span class="sw_count sw_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-twitter"></i><span class="sw_share"> Tweet</span></span></span></span></a></div><div class="nc_tweetContainer linkedIn" data-id="5"><a target="_blank" href="https://www.linkedin.com/cws/share?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F" data-link="https://www.linkedin.com/cws/share?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-linkedin"></i><span class="sw_share"> Share</span></span></span><span class="sw_count">1</span></a></div><div class="nc_tweetContainer nc_pinterest" data-id="6"><a data-link="https://pinterest.com/pin/create/button/?url=http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/&media=http%3A%2F%2Falien-ufo-sightings.com%2Fwp-content%2Fuploads%2F2016%2F02%2Ftesla-holographic-universe1.jpg&description=Nikola+Tesla%3A+Life+Exists+on+Other+Planets" class="nc_tweet" data-count="0"><span class="iconFiller"><span class="spaceManWilly" style="width:55px;"><i class="sw sw-pinterest"></i><span class="sw_share"> Pin</span></span></span><span class="sw_count">3</span></a></div><div class="nc_tweetContainer fb" data-id="4"><a target="_blank" href="http://www.facebook.com/share.php?u=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F" data-link="http://www.facebook.com/share.php?u=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-facebook"></i><span class="sw_share"> Share</span></span></span><span class="sw_count">478</span></a></div><div class="nc_tweetContainer googlePlus" data-id="2"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F" data-link="https://plus.google.com/share?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-google-plus"></i><span class="sw_share"> +1</span></span></span><span class="sw_count">115</span></a></div><div class="nc_tweetContainer sw_tumblr" data-id="7"><a target="_blank" href="http://www.tumblr.com/share/link?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F&name=Nikola+Tesla%3A+Life+Exists+on+Other+Planets" data-link="http://www.tumblr.com/share/link?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F&name=Nikola+Tesla%3A+Life+Exists+on+Other+Planets" class="nc_tweet"><span class="sw_count sw_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-tumblr"></i><span class="sw_share"> Share</span></span></span></span></a></div><div class="nc_tweetContainer sw_reddit" data-id="8"><a target="_blank" href="https://www.reddit.com/submit?url=http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/&title=Nikola+Tesla%3A+Life+Exists+on+Other+Planets" data-link="https://www.reddit.com/submit?url=http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/&title=Nikola+Tesla%3A+Life+Exists+on+Other+Planets" class="nc_tweet"><span class="sw_count sw_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-reddit"></i><span class="sw_share"> Reddit</span></span></span></span></a></div><div class="nc_tweetContainer sw_stumbleupon" data-id="9"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F&title=Nikola+Tesla%3A+Life+Exists+on+Other+Planets" data-link="http://www.stumbleupon.com/submit?url=http%3A%2F%2Falien-ufo-sightings.com%2F2016%2F02%2Fnikola-tesla-life-exists-on-other-planets%2F&title=Nikola+Tesla%3A+Life+Exists+on+Other+Planets" class="nc_tweet"><span class="sw_count sw_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-stumbleupon"></i><span class="sw_share"> Stumble</span></span></span></span></a></div><div class="nc_tweetContainer totes totesalt" data-id="6"><span class="sw_count"><span class="sw_label">Total Shares</span> 597</span></div></div> </div> 
+<footer class="entry-footer">
+<span class="cat-links">Posted in <a href="http://alien-ufo-sightings.com/category/aliens/" rel="category tag">Aliens</a>, <a href="http://alien-ufo-sightings.com/category/amazing-places/" rel="category tag">Amazing Places</a>, <a href="http://alien-ufo-sightings.com/category/exterrestrial-theory/" rel="category tag">Exterrestrial Theory</a>, <a href="http://alien-ufo-sightings.com/category/famous-people-and-ufos/" rel="category tag">Famous People and UFOs</a></span> </footer> 
+</article> 
+<nav class="navigation post-navigation" role="navigation">
+<h2 class="screen-reader-text">Post navigation</h2>
+<div class="nav-links">
+<div class="nav-previous"><a href="http://alien-ufo-sightings.com/2016/02/video-showing-ufo-cluster-flying-in-unison-over-russia-declared-authentic-by-experts/" rel="prev">Video showing UFO cluster flying in unison over Russia declared authentic by experts</a></div><div class="nav-next"><a href="http://alien-ufo-sightings.com/2016/02/10-reasons-why-humans-may-not-have-come-from-earth/" rel="next">10 Reasons Why Humans May Not Have Come From Earth</a></div> </div> 
+</nav> 
+<div id="comments" class="comments-area">
+<h2 class="comments-title">
+4 thoughts on &ldquo;<span>Nikola Tesla: Life Exists on Other Planets</span>&rdquo; </h2>
+<ol class="comment-list">
+<li id="comment-12739" class="comment even thread-even depth-1">
+<article id="div-comment-12739" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt='' src='//1.gravatar.com/avatar/46c6e55fd4168d215824ab353320d726?s=32&#038;r=g' srcset='http://1.gravatar.com/avatar/46c6e55fd4168d215824ab353320d726?s=64&amp;r=g 2x' class='avatar avatar-32 photo' height='32' width='32'/> <b class="fn">Nikko</b> <span class="says">says:</span> </div> 
+<div class="comment-metadata">
+<a href="http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/#comment-12739">
+<time datetime="2016-02-13T12:11:11+00:00">
+February 13, 2016 at 12:11 pm </time>
+</a>
+</div> 
+</footer> 
+<div class="comment-content">
+<p>Exactly, good analogy Chris.</p>
+</div> 
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/?replytocom=12739#respond' onclick='return addComment.moveForm( "div-comment-12739", "12739", "respond", "22278" )' aria-label='Reply to Nikko'>Reply</a></div> </article> 
+</li> 
+<li id="comment-12706" class="comment odd alt thread-odd thread-alt depth-1">
+<article id="div-comment-12706" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt='' src='//graph.facebook.com/10208320306669161/picture' class='avatar avatar-32 photo' height='32' width='32'/> <b class="fn"><a href='http://www.facebook.com/10208320306669161' rel='external nofollow' class='url'>Chris Berger</a></b> <span class="says">says:</span> </div> 
+<div class="comment-metadata">
+<a href="http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/#comment-12706">
+<time datetime="2016-02-06T10:33:55+00:00">
+February 6, 2016 at 10:33 am </time>
+</a>
+</div> 
+</footer> 
+<div class="comment-content">
+<p>Not believing in intelligent life on other planets is like pouring sea water into a glass and saying hey look there&#8217;s no whales in the ocean..<br/><a target="_blank" href="https://www.facebook.com/photo.php?fbid=10209071061757569&#038;set=p.10209071061757569&#038;type=3"><img src="//scontent.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10151377_10209071061757569_7235102437776400820_n.jpg?oh=2afea64873c622af790c45fecc8332c7&#038;oe=5738B306"/></a></p>
+</div> 
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/?replytocom=12706#respond' onclick='return addComment.moveForm( "div-comment-12706", "12706", "respond", "22278" )' aria-label='Reply to Chris Berger'>Reply</a></div> </article> 
+</li> 
+<li id="comment-12704" class="comment even thread-even depth-1">
+<article id="div-comment-12704" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt='' src='//graph.facebook.com/172418019779494/picture' class='avatar avatar-32 photo' height='32' width='32'/> <b class="fn"><a href='http://www.facebook.com/172418019779494' rel='external nofollow' class='url'>Nancy Marquez</a></b> <span class="says">says:</span> </div> 
+<div class="comment-metadata">
+<a href="http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/#comment-12704">
+<time datetime="2016-02-06T00:42:41+00:00">
+February 6, 2016 at 12:42 am </time>
+</a>
+</div> 
+</footer> 
+<div class="comment-content">
+<p><a target="_blank" href="https://scontent.xx.fbcdn.net/hphotos-xpf1/t39.1997-6/12057017_687329588068487_468678991_n.png"><img src="//scontent.xx.fbcdn.net/hphotos-xpf1/t39.1997-6/12057017_687329588068487_468678991_n.png"/></a></p>
+</div> 
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/?replytocom=12704#respond' onclick='return addComment.moveForm( "div-comment-12704", "12704", "respond", "22278" )' aria-label='Reply to Nancy Marquez'>Reply</a></div> </article> 
+</li> 
+<li id="comment-12703" class="comment odd alt thread-odd thread-alt depth-1">
+<article id="div-comment-12703" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt='' src='//graph.facebook.com/442376902627627/picture' class='avatar avatar-32 photo' height='32' width='32'/> <b class="fn"><a href='http://www.facebook.com/442376902627627' rel='external nofollow' class='url'>Elsa Alvarez Moreno</a></b> <span class="says">says:</span> </div> 
+<div class="comment-metadata">
+<a href="http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/#comment-12703">
+<time datetime="2016-02-05T22:58:24+00:00">
+February 5, 2016 at 10:58 pm </time>
+</a>
+</div> 
+</footer> 
+<div class="comment-content">
+<p>👍👍👍☺</p>
+</div> 
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://alien-ufo-sightings.com/2016/02/nikola-tesla-life-exists-on-other-planets/?replytocom=12703#respond' onclick='return addComment.moveForm( "div-comment-12703", "12703", "respond", "22278" )' aria-label='Reply to Elsa Alvarez Moreno'>Reply</a></div> </article> 
+</li> 
+</ol> 
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2016/02/nikola-tesla-life-exists-on-other-planets/#respond" style="display:none;">Cancel reply</a></small></h3> <form action="//alien-ufo-sightings.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required'/></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required'/></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30"/></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"/> <input type='hidden' name='comment_post_ID' value='22278' id='comment_post_ID'/>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+</p> <p class="antispam-group antispam-group-q" style="clear: both;">
+<label>Current ye@r <span class="required">*</span></label>
+<input type="hidden" name="antspm-a" class="antispam-control antispam-control-a" value="2016"/>
+<input type="text" name="antspm-q" class="antispam-control antispam-control-q" value="4.2" autocomplete="off"/>
+</p>
+<p class="antispam-group antispam-group-e" style="display: none;">
+<label>Leave this field empty</label>
+<input type="text" name="antspm-e-email-url-website" class="antispam-control antispam-control-e" value="" autocomplete="off"/>
+</p>
+<p class="wysija-after-comment"><label for="wysija-box-after-comment"><input type="checkbox" id="wysija-box-after-comment" value="1" name="wysija[comment_subscribe]">Yes, add me to your mailing list.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p> </form>
+</div> 
+</div> 
+</main> 
+</div> 
+</div> 
+<div class="col-3-12">
+<div id="secondary" class="widget-area" role="complementary">
+<aside id="ap_questions_widget-2" class="widget widget_ap_questions_widget"><h1 class="widget-title">Questions</h1><div class="ap-widget-inner"><div class="ap-questions-widget clearfix">
+<div class="ap-question-item">
+<a class="ap-question-title"href="http://alien-ufo-sightings.com/questions/question/believe-existence-extraterrestrials/">Do I believe in the existence of extraterrestrials?</a>
+					<span class="ap-ans-count">0 answers</span>
+					<span class="ap-vote-count"> | 0 votes</span>
+				</div>
+								<div class="ap-question-item">
+					<a class="ap-question-title"href="http://alien-ufo-sightings.com/questions/question/extraterrestrials-capacity-visit-earth/">Do extraterrestrials have the capacity to visit earth?</a>
+					<span class="ap-ans-count">0 answers</span>
+					<span class="ap-vote-count"> | 0 votes</span>
+				</div>
+					
+</div>
+
+
+</div></aside><aside id="prisna-google-website-translator-2" class="widget widget_prisna-google-website-translator">
+<style type="text/css">
+<!--
+
+.prisna-gwt-align-left {
+	text-align: left !important;
+}
+.prisna-gwt-align-right {
+	text-align: right !important;
+}
+
+
+.prisna-gwt-flags-container {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+	clear: both !important;
+}
+.prisna-gwt-flag-container {
+	list-style: none !important;
+	display: inline-block;
+	margin: 0 2px 0 0 !important;
+	padding: 0 !important;
+	border: none !important;
+}
+.prisna-gwt-flag-container a {
+	display: inline-block;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+	background-repeat: no-repeat !important;
+	background-image: url(http://alien-ufo-sightings.com/wp-content/plugins/google-website-translator/images/all.png) !important;
+	width: 22px !important;
+	height: 16px !important;
+}
+.prisna-gwt-language-fr a { background-position: -22px 0px !important; }
+.prisna-gwt-language-de a { background-position: -88px 0px !important; }
+.prisna-gwt-language-es a { background-position: -110px 0px !important; }
+.prisna-gwt-language-pt a { background-position: -198px 0px !important; }
+.prisna-gwt-language-da a { background-position: -110px -16px !important; }
+.prisna-gwt-language-ta a { background-position: -154px -16px !important; }
+
+
+body {
+	top: 0 !important;
+}
+.goog-te-banner-frame {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+	display: none !important;
+}
+.goog-text-highlight {
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+-->
+</style>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+var PrisnaGWT = {
+
+	_fire_event: function(_element, _event) {
+		
+		try {
+			if (document.createEvent) {
+				var ev = document.createEvent("HTMLEvents");
+				ev.initEvent(_event, true, true);
+				_element.dispatchEvent(ev);
+			} 
+			else {
+				var ev = document.createEventObject();
+				_element.fireEvent("on" + _event, ev);
+			}
+		} 
+		catch (e) {
+			console.log("Prisna GWT: Browser not supported!");
+		}
+		
+	},
+
+	translate: function(_language) {
+	
+		var element;
+		var combos = document.getElementsByTagName("select"); // IE8 doesn't support getElementsByClassName
+		
+		for (var i=0; i<combos.length; i++)
+			if (combos[i].className == "goog-te-combo")
+				element = combos[i];
+		
+		if (!element)
+			return;
+		
+		element.value = _language;
+		this._fire_event(element, "change");
+
+	}
+	
+};
+/*]]>*/
+</script>
+<ul class="prisna-gwt-flags-container prisna-gwt-align-left notranslate">
+	<li class="prisna-gwt-flag-container prisna-gwt-language-es">
+	<a href="javascript:;" onclick="PrisnaGWT.translate('es'); return false;" title="Spanish"></a>
+</li><li class="prisna-gwt-flag-container prisna-gwt-language-de">
+	<a href="javascript:;" onclick="PrisnaGWT.translate('de'); return false;" title="German"></a>
+</li><li class="prisna-gwt-flag-container prisna-gwt-language-fr">
+	<a href="javascript:;" onclick="PrisnaGWT.translate('fr'); return false;" title="French"></a>
+</li><li class="prisna-gwt-flag-container prisna-gwt-language-pt">
+	<a href="javascript:;" onclick="PrisnaGWT.translate('pt'); return false;" title="Portuguese"></a>
+</li><li class="prisna-gwt-flag-container prisna-gwt-language-da">
+	<a href="javascript:;" onclick="PrisnaGWT.translate('da'); return false;" title="Danish"></a>
+</li><li class="prisna-gwt-flag-container prisna-gwt-language-ta">
+	<a href="javascript:;" onclick="PrisnaGWT.translate('ta'); return false;" title="Tamil"></a>
+</li>
+</ul>
+
+<div id="google_translate_element" class="prisna-gwt-align-left"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+function initializeGoogleTranslateElement() {
+	new google.translate.TranslateElement({
+	}, "google_translate_element");
+}
+/*]]>*/
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=initializeGoogleTranslateElement"></script></aside><aside id="text-18" class="widget widget_text"><h1 class="widget-title">Site Search</h1>			<div class="textwidget"><style type="text/css">
+@import url(//www.google.com/cse/api/branding.css);
+</style>
+<div class="cse-branding-bottom" style="background-color:#FFFFFF;color:#000000">
+  <div class="cse-branding-form">
+    <form action="//alien-ufo-sightings.com/site-search-results/" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="partner-pub-7669926013846247:1889882280" />
+        <input type="hidden" name="cof" value="FORID:10" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" size="30" />
+        <input type="submit" name="sa" value="Search" />
+      </div>
+    </form>
+  </div>
+  <div class="cse-branding-logo">
+    <img src="//www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" />
+  </div>
+  <div class="cse-branding-text">
+    Custom Search
+  </div>
+</div>
+</div>
+		</aside><aside id="sw_popular_posts_widget-2" class="widget widget_sw_popular_posts_widget"><div class="widget-text wp_widget_plugin_box"><h1 class="widget-title">Popular Posts</h1><ul class="first_style"><li><a class="swPopularity" href="http://alien-ufo-sightings.com/2015/11/russia-thousands-of-people-observe-a-mysterious-vortex-of-light-in-the-skies-of-omsk/"><b>RUSSIA: THOUSANDS OF PEOPLE OBSERVE A MYSTERIOUS &#8220;VORTEX OF LIGHT&#8221; IN THE SKIES OF OMSK</b> - 16.77K Total Shares</a></li><li><a class="swPopularity" href="http://alien-ufo-sightings.com/2014/12/us-soldier-claims-he-has-spent-17-years-battling-aliens-on-mars/"><b>US Soldier Claims He Has Spent 17 Years Battling ALIENS on MARS</b> - 16.08K Total Shares</a></li><li><a class="swPopularity" href="http://alien-ufo-sightings.com/2015/11/alien-disclosure-the-first-ever-satellite-to-hunt-and-image-ufos-could-go-into-orbit/"><b>Alien disclosure? The first ever satellite to hunt and image UFOs could go into orbit</b> - 11.30K Total Shares</a></li><li><a class="swPopularity" href="http://alien-ufo-sightings.com/2015/10/if-aliens-asked-you-to-board-their-craft-what-would-you-do/"><b>If Aliens Asked You to Board Their Craft,..What Would You Do?</b> - 10.77K Total Shares</a></li><li><a class="swPopularity" href="http://alien-ufo-sightings.com/2014/12/university-of-california-scientists-camouflaged-aliens-live-among-us/"><b>University of California Scientists: &#8216;Camouflaged&#8217; Aliens Live Among Us</b> - 9.80K Total Shares</a></li><li><a class="swPopularity" href="http://alien-ufo-sightings.com/2015/03/pat-robertson-says-aliens-are-impossible-because-god-just-wouldnt-allow-it/"><b>Pat Robertson says aliens are impossible because God just wouldn’t allow it</b> - 9.00K Total Shares</a></li><li><a class="swPopularity" href="http://alien-ufo-sightings.com/2015/11/researchers-confirm-giant-ancient-egyptian-underground-labyrinth-exists-and-could-rewrite-history/"><b>Researchers confirm: Giant Ancient Egyptian underground Labyrinth exists and could rewrite history</b> - 8.66K Total Shares</a></li></ul></div></aside><aside id="text-41" class="widget widget_text"><h1 class="widget-title">Flipboard Magazine</h1>			<div class="textwidget"><a data-flip-widget="mag" href="https://flipboard.com/@carlthomas2014/aliens-anoc88m3y">View my Flipboard Magazine.</a><script src="//cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script></div>
+		</aside><aside id="text-40" class="widget widget_text"><h1 class="widget-title">Alexa Site Rank</h1>			<div class="textwidget"><a href="http://alien-ufo-sightings.com/"><script type="text/javascript" src="//xslt.alexa.com/site_stats/js/s/a?url=alien-ufo-sightings.com"></script></a></div>
+		</aside></div><!-- #secondary -->
+</div>
+    
+    </div><!-- grid -->
+</section><!-- page-entry-content -->
+
+
+	</div><!-- #content -->
+    
+     
+        
+        	<div class="social-bar"> 
+        		<div class="grid grid-pad">
+        			<div class="col-1-1">
+                
+                	  
+					 
+              			
+                        	<ul class='social-media-icons'>
+                            	                                                                                                                                                                                                                                                                                                                                                                
+                                                                
+                                                        	</ul>
+                       
+                
+                	</div><!-- col-1-1 -->
+        		</div><!-- grid -->
+        	</div><!-- social-bar -->
+        
+    			
+	<footer id="colophon" class="site-footer" role="contentinfo">
+    	<div class="grid grid-pad">
+        
+        	            
+                        
+                        
+                        
+        </div>
+    	<div class="grid grid-pad">
+        	<div class="col-1-1">
+                <div class="site-info">
+                      
+    					Theme: bldr by <a href="http://modernthemes.net" rel="designer">modernthemes.net</a>					 
+                </div><!-- .site-info -->
+        	</div>
+        </div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+        <script>
+            if ( 'undefined' !== typeof window.navigator.serviceWorker ) {
+                window.navigator.serviceWorker.getRegistration("http://alien-ufo-sightings.com/wp-content/plugins/roost-for-bloggers/includes/chrome/").then( function( registration ) { if ( 'undefined' !== typeof registration && registration.scope === 'http://alien-ufo-sightings.com/wp-content/plugins/roost-for-bloggers/includes/chrome/' ) { registration.unregister(); navigator.serviceWorker.register("/?roost=true&roost_action=worker", {scope: "/"}) } } );
+            }
+        </script>
+                <script src="//cdn.goroost.com/roostjs/skg6fuvipatgbswbeugnwgbxxi912o46" async></script>
+                    <script>
+                var _roost = _roost || [];
+                _roost.push( [ 'autoprompt', false ] );
+                                    _roost.push( [ 'minvisits', 2 ] );
+                            </script>
+    	<div style="display:none">
+	<div class="grofile-hash-map-54d6dca25f9ce50fdba2ab85c66c10af">
+	</div>
+	<div class="grofile-hash-map-46c6e55fd4168d215824ab353320d726">
+	</div>
+	<div class="grofile-hash-map-d41d8cd98f00b204e9800998ecf8427e">
+	</div>
+	</div>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/anti-spam/js/anti-spam-4.2.js'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.8-5815'></script>
+<script type='text/javascript' src='//s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201607'></script>
+<script type='text/javascript' src='//s.gravatar.com/js/gprofiles.js?ver=2016Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/jPushMenu.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/slick.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/panel-class.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/headhesive.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/sticky-head.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/animate-plus.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-content/themes/bldr/js/bldr.scripts.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//alien-ufo-sightings.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.1',blog:'26434662',post:'22278',tz:'0',srv:'alien-ufo-sightings.com'} ]);
+	_stq.push([ 'clickTrackerInit', '26434662', '22278' ]);
+</script>
+
+</body>
+</html>

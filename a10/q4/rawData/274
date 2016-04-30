@@ -1,0 +1,2153 @@
+<!doctype html>
+
+<html
+lang="en-US" 
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:fb="https://www.facebook.com/2008/fbml"
+xmlns:fb="http://ogp.me/ns/fb#"
+xmlns:addthis="http://www.addthis.com/help/api-spec"
+prefix="og: http://ogp.me/ns#">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <!-- Mobile iOS / iPad (Retina) ICON-->
+    <link href="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+	<link rel="shortcut icon" href="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/favicon.png" />
+
+  
+	<link rel="stylesheet" type="text/css" media="all" href="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/style.css" />
+    
+    <link rel="stylesheet" href="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" media="all"   href="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/css/magnific-popup.css">
+	<link rel="stylesheet" href="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/css/font-awesome.min.css">
+	
+	<script src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/modernizr.js"></script> <!-- Modernizr -->
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	
+	<script src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/jquery.mobile.custom.min.js"></script>
+
+    <script src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/jquery.fitvids.js"></script>
+
+    <script src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/main.js"></script> 
+ 
+
+<script type="text/javascript" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/overthrow.min.js"></script>    
+<script type="text/javascript" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/jquery.nanoscroller.js"></script>  
+<script type="text/javascript">
+
+$(function(){
+    $(".nano").nanoScroller();
+});
+</script>
+
+	<script type="text/javascript" language="javascript" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/jQuery.succinct.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('.truncate_txt').succinct({
+            size: 75
+        });
+    });
+	
+	    $(function(){
+        $('.truncate150').succinct({
+            size: 150
+        });
+    });
+
+
+
+	    $(function(){
+        $('.truncate110').succinct({
+            size: 110
+        });
+    });
+
+
+
+	    $(function(){
+        $('.truncate260').succinct({
+            size: 260
+        });
+    });
+
+	</script>
+	    
+    
+    
+    
+    <script src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+        //Sort random function
+        function random(owlSelector){
+        owlSelector.children().sort(function(){
+        return Math.round(Math.random()) - 0.5;
+        }).each(function(){
+        $(this).appendTo(owlSelector);
+        });
+        }
+         /* customizing see http://owlgraphic.com/owlcarousel/index.html */
+        $("#owl-demo").owlCarousel({
+        
+		    items : 2, // 4 items above 1000px browser width
+			itemsDesktop : [1600,2], // 2 items between 1400px and 1201px
+			itemsDesktopSmall : [1200,2], // 2 items between 1200px and 801px
+			itemsTablet: [800,1], //1 items between 800 and 0
+			itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+
+
+         autoPlay : true,
+          lazyLoad : true,
+          stopOnHover : true,
+		  navigation : true,
+		  pagination : false,
+   			 beforeInit : function(elem){
+        		//Parameter elem pointing to $("#owl-demo")
+        			// random(elem);
+        }
+         
+        });
+         
+        });
+    </script>
+    
+        
+        <script type="text/javascript" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('.popup-with-form').magnificPopup({
+                type: 'inline',
+                preloader: false,
+                removalDelay: 300,
+               mainClass: 'my-mfp-zoom-in'
+            });
+        });
+        </script>
+        
+        <script type="text/javascript">      
+        $(document).ready(function() {
+                $('.popup-youtube, .popup-vimeo, .popup-gmaps, .tyiframe').magnificPopup({
+                  //disableOn: 700,
+                  type: 'iframe',
+                 // mainClass: 'mfp-fade',
+                  removalDelay: 160,
+                  preloader: false,
+                  fixedContentPos: false,
+            //	removalDelay: 300,
+               mainClass: 'my-mfp-zoom-in'
+                });
+        });
+        </script>
+
+	  <script type="text/javascript">
+      $(document).ready(function() {
+        $('.popup-with-zoom-anim').magnificPopup({
+          type: 'inline',
+
+          fixedContentPos: false,
+          fixedBgPos: true,
+
+          overflowY: 'auto',
+
+          closeBtnInside: true,
+          preloader: false,
+          
+          midClick: true,
+          removalDelay: 300,
+          mainClass: 'my-mfp-zoom-in'
+        });
+
+        $('.popup-with-move-anim').magnificPopup({
+          type: 'inline',
+
+          fixedContentPos: false,
+          fixedBgPos: true,
+
+          overflowY: 'auto',
+
+          closeBtnInside: true,
+          preloader: false,
+          
+          midClick: true,
+          removalDelay: 300,
+          mainClass: 'my-mfp-slide-bottom'
+        });
+      });
+    </script>
+    
+
+<title>In Defense of Chipotle’s Action on GMOs |   Just Label It</title>
+
+<meta name="title" content="In Defense of Chipotle’s Action on GMOs |   Just Label It" /> 
+<meta name="author" content="Just Label It" />		
+<meta name="Copyright" content="Just Label It  &copy;2016" />
+
+<meta name="keywords" content="Genetically Engineered Foods, Genetically Engineered, Food, Policy, Health, Healthy food, Healthy Diet, Hunger, Rights, Farm Workers, Farm, Pubic Health, Animals, Food Production, Government, Farming, Agriculture, Genetically Engineered Food, Foods, GE, GMO, GE Food, GMO Food"/>
+
+<meta property="og:title" content="In Defense of Chipotle’s Action on GMOs |   Just Label It" />
+<meta property="og:url" content="http://www.justlabelit.org/in-defense-of-chipotles-action-on-gmos/" />
+
+<!-- START >>  meta description from excerpt or if exists, then from the custom field loop below this line -->
+ 
+
+							<meta property="og:description" content="Studies show that more than 90% of Americans support mandatory labeling of genetically modified (GMO) foods. Yet for twenty years we have been denied that right. Join the Just Label It campaign to urge Congress and the FDA to implement national GMO labeling." />
+							<meta name="description" content="Studies show that more than 90% of Americans support mandatory labeling of genetically modified (GMO) foods. Yet for twenty years we have been denied that right. Join the Just Label It campaign to urge Congress and the FDA to implement national GMO labeling." />
+						    
+<!-- END >>  meta description from excerpt or if exists, then from the custom field loop below this line -->
+
+<!-- START >> SHARE IMAGE selection code based on home, single page status and wether a pust image is set or not -->
+			                                 			           <!-- 1 Custom share image BEGIN from if php statement -->
+            <link rel="image_src" href="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/JLI_Chipotle_C013-250x250.jpg" /> 
+            <meta property="og:image" content="http://www.justlabelit.org/wp-content/uploads/2015/05/JLI_Chipotle_C013-250x250.jpg" />
+           <!-- 1 Custom share image END from if php statement -->
+            <!-- END >> SHARE IMAGE selection code based on home, single page status and wether a pust image is set or not -->
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.justlabelit.org/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.justlabelit.org/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://www.justlabelit.org/feed/atom/" />
+<link rel="pingback" href="http://www.justlabelit.org/xmlrpc.php" />
+
+	<link rel='archives' title='March 2016' href='http://www.justlabelit.org/2016/03/' />
+	<link rel='archives' title='February 2016' href='http://www.justlabelit.org/2016/02/' />
+	<link rel='archives' title='October 2015' href='http://www.justlabelit.org/2015/10/' />
+	<link rel='archives' title='September 2015' href='http://www.justlabelit.org/2015/09/' />
+	<link rel='archives' title='August 2015' href='http://www.justlabelit.org/2015/08/' />
+	<link rel='archives' title='July 2015' href='http://www.justlabelit.org/2015/07/' />
+	<link rel='archives' title='June 2015' href='http://www.justlabelit.org/2015/06/' />
+	<link rel='archives' title='May 2015' href='http://www.justlabelit.org/2015/05/' />
+	<link rel='archives' title='April 2015' href='http://www.justlabelit.org/2015/04/' />
+	<link rel='archives' title='March 2015' href='http://www.justlabelit.org/2015/03/' />
+	<link rel='archives' title='January 2015' href='http://www.justlabelit.org/2015/01/' />
+	<link rel='archives' title='December 2014' href='http://www.justlabelit.org/2014/12/' />
+	<link rel='archives' title='November 2014' href='http://www.justlabelit.org/2014/11/' />
+	<link rel='archives' title='October 2014' href='http://www.justlabelit.org/2014/10/' />
+	<link rel='archives' title='September 2014' href='http://www.justlabelit.org/2014/09/' />
+	<link rel='archives' title='August 2014' href='http://www.justlabelit.org/2014/08/' />
+	<link rel='archives' title='July 2014' href='http://www.justlabelit.org/2014/07/' />
+	<link rel='archives' title='June 2014' href='http://www.justlabelit.org/2014/06/' />
+	<link rel='archives' title='April 2014' href='http://www.justlabelit.org/2014/04/' />
+	<link rel='archives' title='March 2014' href='http://www.justlabelit.org/2014/03/' />
+	<link rel='archives' title='February 2014' href='http://www.justlabelit.org/2014/02/' />
+	<link rel='archives' title='January 2014' href='http://www.justlabelit.org/2014/01/' />
+	<link rel='archives' title='December 2013' href='http://www.justlabelit.org/2013/12/' />
+	<link rel='archives' title='November 2013' href='http://www.justlabelit.org/2013/11/' />
+	<link rel='archives' title='October 2013' href='http://www.justlabelit.org/2013/10/' />
+	<link rel='archives' title='September 2013' href='http://www.justlabelit.org/2013/09/' />
+	<link rel='archives' title='August 2013' href='http://www.justlabelit.org/2013/08/' />
+	<link rel='archives' title='July 2013' href='http://www.justlabelit.org/2013/07/' />
+	<link rel='archives' title='June 2013' href='http://www.justlabelit.org/2013/06/' />
+	<link rel='archives' title='May 2013' href='http://www.justlabelit.org/2013/05/' />
+	<link rel='archives' title='April 2013' href='http://www.justlabelit.org/2013/04/' />
+	<link rel='archives' title='March 2013' href='http://www.justlabelit.org/2013/03/' />
+	<link rel='archives' title='February 2013' href='http://www.justlabelit.org/2013/02/' />
+	<link rel='archives' title='January 2013' href='http://www.justlabelit.org/2013/01/' />
+	<link rel='archives' title='December 2012' href='http://www.justlabelit.org/2012/12/' />
+	<link rel='archives' title='November 2012' href='http://www.justlabelit.org/2012/11/' />
+	<link rel='archives' title='October 2012' href='http://www.justlabelit.org/2012/10/' />
+	<link rel='archives' title='September 2012' href='http://www.justlabelit.org/2012/09/' />
+	<link rel='archives' title='August 2012' href='http://www.justlabelit.org/2012/08/' />
+	<link rel='archives' title='July 2012' href='http://www.justlabelit.org/2012/07/' />
+	<link rel='archives' title='June 2012' href='http://www.justlabelit.org/2012/06/' />
+	<link rel='archives' title='May 2012' href='http://www.justlabelit.org/2012/05/' />
+	<link rel='archives' title='April 2012' href='http://www.justlabelit.org/2012/04/' />
+	<link rel='archives' title='March 2012' href='http://www.justlabelit.org/2012/03/' />
+	<link rel='archives' title='February 2012' href='http://www.justlabelit.org/2012/02/' />
+	<link rel='archives' title='January 2012' href='http://www.justlabelit.org/2012/01/' />
+	<link rel='archives' title='December 2011' href='http://www.justlabelit.org/2011/12/' />
+	<link rel='archives' title='November 2011' href='http://www.justlabelit.org/2011/11/' />
+	<link rel='archives' title='October 2011' href='http://www.justlabelit.org/2011/10/' />
+	<link rel='archives' title='September 2011' href='http://www.justlabelit.org/2011/09/' />
+
+
+<link rel="alternate" type="application/rss+xml" title="Just Label It &raquo; In Defense of Chipotle’s Action on GMOs Comments Feed" href="http://www.justlabelit.org/in-defense-of-chipotles-action-on-gmos/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css'  href='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/jquery-collapse-o-matic/light_style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='advanced-responsive-video-embedder-plugin-styles-css'  href='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/advanced-responsive-video-embedder/public/assets/css/public.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='easy_table_style-css'  href='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/easy-table/themes/default/style.css?ver=1.5.2' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.3.1 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-26011887-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.justlabelit.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.justlabelit.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Chipotle, GMOs And Monsanto’s Toxic Glyphosate' href='http://www.justlabelit.org/chipotle-gmos-and-monsantos-toxic-glyphosate/' />
+<link rel='next' title='GMO Labeling: What’s Good for Consumers Is Good for Business' href='http://www.justlabelit.org/benandjerrys-gmolabeling/' />
+<link rel='canonical' href='http://www.justlabelit.org/in-defense-of-chipotles-action-on-gmos/' />
+<link rel='shortlink' href='http://www.justlabelit.org/?p=6841' />
+<style type="text/css">.arve-thumb-wrapper { max-width: 300px; }.arve-normal-wrapper.alignleft, .arve-normal-wrapper.alignright, .arve-normal-wrapper.aligncenter { max-width: 400px; }</style>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '514139382070943');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=514139382070943&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+<body class="single single-post postid-6841 single-format-standard">
+
+
+<div id="loading"></div> <!-- loading -->
+
+
+<div id="mywidthdiv"></div> <!-- mywidthdiv -->
+
+
+	<!-- /////////////////////////////////////////////////////////////////////////////// -->
+    <header class="cd-main-header">
+    <a href="http://www.justlabelit.org/" title="Just Label It" rel="home" class=" cd-logo nounderlineahref"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/jli_logo.png" alt="just Label It Logo"></a>
+
+		<ul class="cd-header-buttons">
+			<li><a class="cd-search-trigger" href="#cd-search">Search<span></span></a></li>
+			<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+		</ul> <!-- cd-header-buttons -->
+	</header>
+    <!-- /////////////////////////////////////////////////////////////////////////////// -->
+
+    
+	<!-- /////////////////////////////////////////////////////////////////////////////// -->
+	<nav class="cd-nav">
+		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+			
+
+
+
+
+
+	<!-- DARK ACT section begin -->
+			<li class="">
+				<a href="http://www.justlabelit.org/dark-act/">The DARK Act</a>
+			</li>
+			<!-- DARK ACT section end -->            
+
+
+
+
+
+
+
+
+		<!-- RIGHT TO KNOW section begin -->
+			<li class="">
+				<a href="http://www.justlabelit.org/right-to-know-center/">Why Label?</a>
+			</li>
+			<!-- RIGHT TO KNOW section end -->            
+
+			
+			<!-- ABOUT GE FOODS section begin -->
+			<li class="">
+				<a href="http://www.justlabelit.org/about-ge-foods-center/about-gmo-foods/">About GMO Foods</a>
+			</li>
+			<!-- ABOUT GE FOODS section end -->            
+            
+            
+
+			<!-- PARTNERS section begin -->
+				<li class="yes_noshow">
+				<a href="http://www.justlabelit.org/partners/">Partners</a>
+			</li>
+			<!-- PARTNERS section end -->
+
+			<!-- PRESS section begin -->
+			<li class="">
+				<a href="http://www.justlabelit.org/press-room/">Press</a>
+			</li>			
+			<!-- PRESS section end -->
+
+			<!-- BLOGS section begin -->
+			<li class="">
+				<a href="http://www.justlabelit.org/category/blog/">Blog</a>&nbsp;&nbsp;
+			</li>
+			<!-- BLOGS section end -->    
+            
+            
+            <!-- EXTRAS section begin -->
+			<li class="has-children noshow">
+				<a href="#">infoGraphics</a>
+
+				<ul class="cd-nav-gallery is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+                    <li class="  see-all"><a href="https://www.facebook.com/justlabelit" title="Visit us on Facebook for more infoGraphics" class="" target="_blank">Visit us on Facebook for more infoGraphics »</a></li>
+                    <li>
+						<a class="cd-nav-item" target="_blank" href="https://www.facebook.com/justlabelit/photos/pb.109378642511461.-2207520000.1422636983./645220832260570/?type=3&src=https%3A%2F%2Fscontent-b-iad.xx.fbcdn.net%2Fhphotos-xpa1%2Ft31.0-8%2F10497366_645220832260570_8610692265816024100_o.jpg&smallsrc=https%3A%2F%2Fscontent-b-iad.xx.fbcdn.net%2Fhphotos-xpa1%2Fv%2Ft1.0-9%2F994191_645220832260570_8610692265816024100_n.jpg%3Foh%3De8554d1ad5806809b5388ddb19079b4e%26oe%3D555588C3&size=1500%2C1500&fbid=645220832260570">
+							<img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/social_4.jpg" alt="Learn more about JLI, Follow us on Social Media!">
+							<h3>GMO Facts! Herbicide use on major GMO crops grown</h3>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item" target="_blank" href="https://www.facebook.com/justlabelit/photos/pb.109378642511461.-2207520000.1422636973./703832499732736/?type=3&src=https%3A%2F%2Ffbcdn-sphotos-b-a.akamaihd.net%2Fhphotos-ak-xpf1%2Fv%2Ft1.0-9%2F1609971_703832499732736_4857550283818323307_n.jpg%3Foh%3D8740f66161111e1ed67a1132a658426f%26oe%3D556DBE43%26__gda__%3D1433255298_c9eb4e1215b376b23cfeac6abfd9b597&size=960%2C960&fbid=703832499732736">
+							<img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/social_3.jpg" alt="Learn more about JLI, Follow us on Social Media!">
+							<h3>GE Labeling won't raise food prices</h3>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item" target="_blank" href="https://www.facebook.com/justlabelit/photos/pb.109378642511461.-2207520000.1422636973./687684711347515/?type=3&src=https%3A%2F%2Ffbcdn-sphotos-c-a.akamaihd.net%2Fhphotos-ak-xfa1%2Ft31.0-8%2F10712601_687684711347515_1804025972850231161_o.jpg&smallsrc=https%3A%2F%2Ffbcdn-sphotos-c-a.akamaihd.net%2Fhphotos-ak-xpa1%2Fv%2Ft1.0-9%2F10456459_687684711347515_1804025972850231161_n.jpg%3Foh%3Df6150ee148edf841c1bec8156ab210f6%26oe%3D556B2943%26__gda__%3D1431815419_40b278e7550ca9be8a4043ef5deda7c2&size=1500%2C1500&fbid=687684711347515">
+							<img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/social_2.jpg" alt="Learn more about JLI, Follow us on Social Media!">
+							<h3>Are you concerned about GMOs in your food?</h3>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item" target="_blank" href="https://www.facebook.com/justlabelit/photos/pb.109378642511461.-2207520000.1422636983./639653326150654/?type=3&src=https%3A%2F%2Fscontent-a-iad.xx.fbcdn.net%2Fhphotos-xfp1%2Ft31.0-8%2F10582802_639653326150654_7318065021940746583_o.jpg&smallsrc=https%3A%2F%2Fscontent-a-iad.xx.fbcdn.net%2Fhphotos-xaf1%2Fv%2Ft1.0-9%2F10561613_639653326150654_7318065021940746583_n.jpg%3Foh%3D451b82a7552bdfdd0dd36e06782cfbc7%26oe%3D5558B201&size=1500%2C1500&fbid=639653326150654">
+							<img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/social_1.jpg" alt="Learn more about JLI, Follow us on Social Media!">
+							<h3>Who's fighting for your right to know?</h3>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<!-- EXTRAS section end -->            
+            
+            
+            
+
+			<li class="donate_li hover_ty yes_noshow"><a href="http://www.justlabelit.org/donate/">Donate</a></li>
+			<li class="take_action_li hover_ty"><a href="#scroll_action_donate" class="scroll">Take Action</a></li>
+		</ul> <!-- primary-nav -->
+	</nav> <!-- cd-nav -->
+	<!-- /////////////////////////////////////////////////////////////////////////////// -->
+
+    
+    
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+<main class="cd-main-content">
+<!--  content below here --><!--  -->
+<!--  -->
+
+<!-- header above -->
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+	
+	<!-- /////////////////////////////////////////////////////////////////////////////// -->
+    <!-- BLOCK1 BEGIN -->
+    <div class="block_ind_internal margintopminus4px margintop_desktop80">
+    <div class="block_inner ">
+    	<div id="internal_content" class="no_whitearrow no_wasnt_used_on_desktop_smallwhitearrow">
+        
+        
+
+        
+        
+        <div class="left_col_internal">
+        
+        
+         <div id="breadcrumbs_out">
+<div id="breadcrumbs_in"><a href="http://www.justlabelit.org/">Home</a> &raquo; <a href="http://www.justlabelit.org/in-defense-of-chipotles-action-on-gmos/">Post</a> &raquo; <a href="http://www.justlabelit.org/category/blog/">Blog</a> &raquo; <strong>In Defense of Chipotle’s Action on GMOs</strong></div></div> 
+<!-- breadcrumbs_in -->
+<!-- breadcrumbs_out --> 
+
+
+<!-- 
+BEGIN >> WP LOOP
+///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+ -->
+<!-- 
+-->
+<!-- (un)comment above two line and (un)comment below one line -->
+ 
+<!-- start loop below this line -->
+        
+
+            <h1>In Defense of Chipotle’s Action on GMOs</h1>
+            
+              <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+            					              <a href="http://www.justlabelit.org/in-defense-of-chipotles-action-on-gmos/" title="In Defense of Chipotle’s Action on GMOs" ><img width="444" height="444" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/JLI_Chipotle_C013-444x444.jpg" class="incontent_img wp-post-image" alt="JLI_Chipotle_C01[3]" /></a> 
+                            
+              <!--
+                            <a href="" title="" ></a> 
+              					<a href="" title="" class="">	<img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/img/share_image.jpg"  class="thumbnail_image_img attachment-twohundredfifty wp-post-image"  title="" alt=""/>	</a>
+				 
+				-->
+              
+            <p>By Scott Faber, Executive Director and Alex Formuzis advisor to Just Label It</p>
+<p>More than 90 percent of all corn and soybeans grown in the U.S. comes from genetically engineered seeds. Those crops serve a variety of purposes, including producing ethanol, animal feed, food additives such as high fructose corn syrup, and corn flour and soy-based cooking oil – two of the ingredients in Chipotle’s signature burritos.</p>
+<p>The restaurant chain now boasts more than 1,780 locations, making it one of the fastest growing and most frequented restaurants in the country. Last year alone, Chipotle did more than $4.1 billion in sales. By any measure of corporate America, this company is a major player. So when it announced last week that it is moving away from using GMO ingredients, beginning with tortillas that are currently made with corn flour and soybean oil, it was and remains a huge shift – one that should be applauded by consumers and the media alike.</p>
+<p>Here’s why.</p>
+<p>The wide adoption of corn and soy crops altered by genetic engineering has brought with it an enormous <a href="http://www.ewg.org/agmag/2015/04/glyphosate-spreading-cancer-across-us" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.ewg.org/agmag/2015/04/glyphosate-spreading-cancer-across-us', 'surge in the use of the toxic herbicide glyphosate');">surge in the use of the toxic herbicide glyphosate</a>, a signature Monsanto product with more than 280 million pounds sprayed on crops in 2012 alone. It’s now the most widely used pesticide in the world, and just weeks ago it was classified as <a href="http://www.justlabelit.org/press-room/groups-call-on-epa-to-reassess-safety-of-gmo-herbicide-linked-to-cancer/">&#8220;probably carcinogenic to humans&#8221; by the World Health Organization.</a> It’s pervasive in much of America’s rain, air and soil, <a href="http://www.usgs.gov/newsroom/article.asp?ID=2909#.VUjc-K3BwXA" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.usgs.gov/newsroom/article.asp?ID=2909#.VUjc-K3BwXA', 'according to tests by the U.S. Geological Survey');">according to tests by the U.S. Geological Survey</a>, and turns up in both breast milk and infant formula samples.</p>
+<p>Monsanto, Big Ag’s version of <a href="http://godfather.wikia.com/wiki/Luca_Brasi" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://godfather.wikia.com/wiki/Luca_Brasi', 'Luca Brasi');">Luca Brasi</a>, immediately <a href="http://www.ewg.org/release/ewg-calls-monsanto-retract-remarks-who-weed-killer-report" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.ewg.org/release/ewg-calls-monsanto-retract-remarks-who-weed-killer-report', 'attacked the WHO');">attacked the WHO</a> over its conclusion that glyphosate is a potential cancer trigger in humans, demanding that the international health agency retract its assessment.</p>
+<p>But WHO was hardly the first to sound the alarm. In 2012, the American Academy of Pediatrics <a href="http://www.ewg.org/enviroblog/2012/12/nations-pediatricians-warn-against-pesticides-food" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.ewg.org/enviroblog/2012/12/nations-pediatricians-warn-against-pesticides-food', 'issued a lengthy report');">issued a lengthy report</a> – the first ever on this subject by the august physicians’ group – warning pediatricians and parents alike of the unique risks that industrial pesticides and herbicides pose to children. Its report cited glyphosate as one of the crop chemicals that could pose a health risk to kids.</p>
+<p>Underscoring the threat, just last year <a href="http://www.ewg.org/agmag/2014/08/elementary-school-students-increased-pesticide-risk" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.ewg.org/agmag/2014/08/elementary-school-students-increased-pesticide-risk', 'an analysis by EWG');">an analysis by EWG</a> found that nearly 500 elementary schools across America “are within 200 feet of a corn or soybean field” likely to be sprayed with glyphosate. That should cause alarm, because “young children are especially vulnerable to the toxic herbicide,” EWG’s analysts wrote.</p>
+<p>The explosion of glyphosate use is almost entirely the result of U.S. agriculture’s embrace of herbicide-tolerant corn, soybeans and other crops. Will Chipotle’s decision to shun GMO corn produce significant drop in glyphosate use? Probably not. But it’s a start, and an honorable one at that.</p>
+<p>If two, three or four other big users of genetically engineered corn and soybeans were to take similar action, we might very well see a fundamental change in agribusiness behavior that could start to throttle back the amount of glyphosate sprayed on crops and released into the environment. Whether or not you have concerns about eating genetically modified foods and/or having them labeled, lowering the prevalence of substances strongly associated with cancer is a goal most Americans would surely support.</p>
+<p>Chipotle, as it freely acknowledged, will still sell soft drinks and proteins (beef, pork and chicken) produced with GMO corn, although the company is currently using grass-fed beef in some of its restaurants. That led some of the national media coverage to focus largely on the fact that the company isn’t phasing out <em>all</em> GMO products and ingredients. That’s true, but Chipotle’s <a href="https://chipotle.com/whats-happening" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://chipotle.com/whats-happening', 'statement');">statement</a> was clear about which products would change and which would not.</p>
+<p>With GMO crops dominating American agriculture and incorporated into most processed foods, livestock and soda, a company with almost 1,800 stores in nearly every state can’t find new sourcing for its entire menu at the drop of a hat. However, unlike other mainstay chain eateries, this company is making a concerted effort to deliver products that aren’t contributing to the pesticide treadmill.</p>
+<p>It’s easy to play armchair quarterback. I do it all the time. But it remains indisputable that Chipotle has made a decision no other U.S. restaurant chain with a footprint this big has made, one that could set us on a path toward significant reductions in the use of the toxic crop chemicals that pervade our food, water, air and bodies.</p>
+ 
+
+
+
+ 
+
+<!-- 
+END >> WP LOOP
+///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+ -->
+
+    </div> <!-- left_col_internal -->
+    
+<div class="right_col_internal">
+<div id="related_posts_sidebar">Recent Posts</div>
+        
+
+<ul id="categoriesul" class="noshow">
+	<li class="cat-item cat-item-1"><a href="http://www.justlabelit.org/category/blog/" >Blog</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="http://www.justlabelit.org/category/exclude-from-blog-roll/" >exclude from blog roll</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.justlabelit.org/category/featured-content-slide/" >featured content slide</a>
+</li>
+</ul>
+
+<ul id="archivesul" class="noshow">
+	<li><a href='http://www.justlabelit.org/new-dark-act-would-keep-american-consumers-on-hold/'>New DARK Act Would Keep American Consumers On Hold</a></li>
+	<li><a href='http://www.justlabelit.org/gmo-labeling-wont-increase-food-prices/'>GMO Labeling Won’t Increase Food Prices</a></li>
+	<li><a href='http://www.justlabelit.org/top-10-reasons-to-oppose-the-senate-dark-act/'>Top 10 Reasons To Oppose The Senate DARK Act</a></li>
+	<li><a href='http://www.justlabelit.org/will-the-senate-keep-us-in-the-dark/'>Will The Senate Keep Us In The DARK?</a></li>
+	<li><a href='http://www.justlabelit.org/testimony-of-gary-hirshberg-before-the-senate-committee-on-agriculture/'>Testimony of Gary Hirshberg Before the Senate Committee on Agriculture</a></li>
+</ul>
+
+
+<div id="tagsdiv" class="noshow">
+<a href='http://www.justlabelit.org/tag/ag/' class='tag-link-28' title='11 topics' style='font-size: 17.8pt;'>ag</a>
+<a href='http://www.justlabelit.org/tag/american-foods/' class='tag-link-45' title='2 topics' style='font-size: 11.8pt;'>American foods</a>
+<a href='http://www.justlabelit.org/tag/cancer/' class='tag-link-27' title='2 topics' style='font-size: 11.8pt;'>cancer</a>
+<a href='http://www.justlabelit.org/tag/cheerios/' class='tag-link-42' title='1 topic' style='font-size: 10pt;'>Cheerios</a>
+<a href='http://www.justlabelit.org/tag/chemical/' class='tag-link-29' title='1 topic' style='font-size: 10pt;'>chemical</a>
+<a href='http://www.justlabelit.org/tag/chemicals/' class='tag-link-47' title='1 topic' style='font-size: 10pt;'>chemicals</a>
+<a href='http://www.justlabelit.org/tag/chipotle/' class='tag-link-31' title='2 topics' style='font-size: 11.8pt;'>chipotle</a>
+<a href='http://www.justlabelit.org/tag/clean-eats/' class='tag-link-37' title='1 topic' style='font-size: 10pt;'>clean eats</a>
+<a href='http://www.justlabelit.org/tag/consumers/' class='tag-link-13' title='2 topics' style='font-size: 11.8pt;'>consumers</a>
+<a href='http://www.justlabelit.org/tag/contamination/' class='tag-link-30' title='3 topics' style='font-size: 13pt;'>contamination</a>
+<a href='http://www.justlabelit.org/tag/dark-act/' class='tag-link-38' title='7 topics' style='font-size: 16pt;'>DARK act</a>
+<a href='http://www.justlabelit.org/tag/fast-food/' class='tag-link-35' title='2 topics' style='font-size: 11.8pt;'>fast food</a>
+<a href='http://www.justlabelit.org/tag/fda/' class='tag-link-51' title='1 topic' style='font-size: 10pt;'>FDA</a>
+<a href='http://www.justlabelit.org/tag/food/' class='tag-link-18' title='15 topics' style='font-size: 19pt;'>food</a>
+<a href='http://www.justlabelit.org/tag/food-labeling/' class='tag-link-48' title='1 topic' style='font-size: 10pt;'>food labeling</a>
+<a href='http://www.justlabelit.org/tag/food-labels/' class='tag-link-40' title='2 topics' style='font-size: 11.8pt;'>food labels</a>
+<a href='http://www.justlabelit.org/tag/food-prices/' class='tag-link-11' title='2 topics' style='font-size: 11.8pt;'>Food prices</a>
+<a href='http://www.justlabelit.org/tag/foods/' class='tag-link-39' title='1 topic' style='font-size: 10pt;'>foods</a>
+<a href='http://www.justlabelit.org/tag/ge/' class='tag-link-56' title='1 topic' style='font-size: 10pt;'>GE</a>
+<a href='http://www.justlabelit.org/tag/ge-food/' class='tag-link-20' title='4 topics' style='font-size: 14pt;'>GE food</a>
+<a href='http://www.justlabelit.org/tag/genetically-engineered/' class='tag-link-17' title='2 topics' style='font-size: 11.8pt;'>genetically engineered</a>
+<a href='http://www.justlabelit.org/tag/genetically-engineered-foods/' class='tag-link-44' title='2 topics' style='font-size: 11.8pt;'>genetically engineered foods</a>
+<a href='http://www.justlabelit.org/tag/glyphosate/' class='tag-link-22' title='6 topics' style='font-size: 15.5pt;'>glyphosate</a>
+<a href='http://www.justlabelit.org/tag/gmfood/' class='tag-link-57' title='1 topic' style='font-size: 10pt;'>GMfood</a>
+<a href='http://www.justlabelit.org/tag/gm-food/' class='tag-link-19' title='6 topics' style='font-size: 15.5pt;'>GM food</a>
+<a href='http://www.justlabelit.org/tag/gmo-labeling/' class='tag-link-43' title='2 topics' style='font-size: 11.8pt;'>GMO labeling</a>
+<a href='http://www.justlabelit.org/tag/gmos/' class='tag-link-10' title='19 topics' style='font-size: 20pt;'>GMOs</a>
+<a href='http://www.justlabelit.org/tag/grub/' class='tag-link-36' title='1 topic' style='font-size: 10pt;'>grub</a>
+<a href='http://www.justlabelit.org/tag/health/' class='tag-link-33' title='2 topics' style='font-size: 11.8pt;'>health</a>
+<a href='http://www.justlabelit.org/tag/herbicide/' class='tag-link-49' title='1 topic' style='font-size: 10pt;'>herbicide</a>
+<a href='http://www.justlabelit.org/tag/herbicides/' class='tag-link-46' title='1 topic' style='font-size: 10pt;'>herbicides</a>
+<a href='http://www.justlabelit.org/tag/human-health/' class='tag-link-26' title='4 topics' style='font-size: 14pt;'>human health</a>
+<a href='http://www.justlabelit.org/tag/just-label-it/' class='tag-link-16' title='6 topics' style='font-size: 15.5pt;'>Just label it</a>
+<a href='http://www.justlabelit.org/tag/label-gmos/' class='tag-link-34' title='9 topics' style='font-size: 17pt;'>label GMOs</a>
+<a href='http://www.justlabelit.org/tag/labeling/' class='tag-link-41' title='1 topic' style='font-size: 10pt;'>labeling</a>
+<a href='http://www.justlabelit.org/tag/monsanto/' class='tag-link-52' title='2 topics' style='font-size: 11.8pt;'>monsanto</a>
+<a href='http://www.justlabelit.org/tag/myths-facts/' class='tag-link-55' title='1 topic' style='font-size: 10pt;'>Myths facts</a>
+<a href='http://www.justlabelit.org/tag/non-gmo/' class='tag-link-32' title='1 topic' style='font-size: 10pt;'>non-GMO</a>
+<a href='http://www.justlabelit.org/tag/organic/' class='tag-link-58' title='1 topic' style='font-size: 10pt;'>organic</a>
+<a href='http://www.justlabelit.org/tag/pesticides/' class='tag-link-25' title='1 topic' style='font-size: 10pt;'>pesticides</a>
+<a href='http://www.justlabelit.org/tag/public/' class='tag-link-53' title='1 topic' style='font-size: 10pt;'>public</a>
+<a href='http://www.justlabelit.org/tag/right-to-know/' class='tag-link-15' title='11 topics' style='font-size: 17.8pt;'>right to know</a>
+<a href='http://www.justlabelit.org/tag/roundup/' class='tag-link-23' title='3 topics' style='font-size: 13pt;'>roundup</a>
+<a href='http://www.justlabelit.org/tag/schools/' class='tag-link-50' title='1 topic' style='font-size: 10pt;'>schools</a>
+<a href='http://www.justlabelit.org/tag/science/' class='tag-link-54' title='1 topic' style='font-size: 10pt;'>science</a>
+<a href='http://www.justlabelit.org/tag/shoppers/' class='tag-link-12' title='1 topic' style='font-size: 10pt;'>shoppers</a>
+<a href='http://www.justlabelit.org/tag/transparency/' class='tag-link-60' title='2 topics' style='font-size: 11.8pt;'>Transparency</a>
+<a href='http://www.justlabelit.org/tag/us/' class='tag-link-14' title='1 topic' style='font-size: 10pt;'>US</a>
+<a href='http://www.justlabelit.org/tag/weed-killer/' class='tag-link-21' title='1 topic' style='font-size: 10pt;'>weed killer</a>
+<a href='http://www.justlabelit.org/tag/world-healthy-organization/' class='tag-link-24' title='1 topic' style='font-size: 10pt;'>world healthy organization</a></div>
+
+
+<ul id="related_posts_sidebar_ul">
+					 
+                     
+                     
+                     
+<!-- 
+BEGIN >> WP LOOP
+///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+--->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/new-dark-act-would-keep-american-consumers-on-hold/" title="New DARK Act Would Keep American Consumers On Hold" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  						
+                           
+                           
+                           		                             <img width="444" height="444" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2016/03/JLI_NewDARKact_1-444x444.jpg" class="attachment-large wp-post-image" alt="JLI_NewDARKact_1" />                               
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								New DARK Act Would Keep American Consumers On Hold 
+                                <span>
+                                March 15th, 2016                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/gmo-labeling-wont-increase-food-prices/" title="GMO Labeling Won’t Increase Food Prices" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  						
+                           
+                           
+                           		                             <img width="444" height="444" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/JLI_LabelingFoodPackagingPrices_1-444x444.jpg" class="attachment-large wp-post-image" alt="JLI_LabelingFoodPackagingPrices_1" />                               
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								GMO Labeling Won’t Increase Food Prices 
+                                <span>
+                                February 24th, 2016                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/top-10-reasons-to-oppose-the-senate-dark-act/" title="Top 10 Reasons To Oppose The Senate DARK Act" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  						
+                           
+                           
+                           		                             <img width="444" height="444" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/JLI_Top10opposeDarkAct_1-444x444.jpg" class="attachment-large wp-post-image" alt="JLI_Top10opposeDarkAct_1" />                               
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Top 10 Reasons To Oppose The Senate DARK Act 
+                                <span>
+                                February 24th, 2016                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+ 
+<!-- 
+END >> WP LOOP
+///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+--->                    
+                    
+                  
+				</ul>
+                
+                
+
+
+
+                
+        <a href="#" title="More" data-type="member-0" class="ty_slideout" id="more_posts">See More<i class="fa fa-angle-double-right fa-fw"></i></a>
+        
+        
+        
+    </div>     <!-- right_col_internal -->
+        <!--  -->
+    
+    
+    <div class="clear"></div> <!-- clear -->            
+        </div> <!-- internal_content -->
+    <div class="clear"></div> <!-- clear -->
+    </div> <!-- block_inner -->
+    </div> <!-- block_ind_internal -->
+    <!-- BLOCK1 END -->    
+    <!-- /////////////////////////////////////////////////////////////////////////////// -->
+    
+    
+    
+<div class="transparent_bg_pagination">
+ <!-- keep commented out -->
+</div> 
+<!-- transparent_bg -->
+
+
+    
+<!-- footer below -->
+    
+<!--  -->
+<!--  -->
+<!--  -->
+
+    
+    
+    <!-- scroll_action_donate -->
+    <div id="scroll_action_donate"></div> <!-- #scroll_action_donate -->
+    
+    
+    
+	 <!-- /////////////////////////////////////////////////////////////////////////////// -->
+    <!-- BLOCK2 BEGIN -->
+    <div class="block_ind orange">
+    <div class="block_inner orange">
+	<div class="infograph"><a href="http://www.justlabelit.org/action-center/take-action/"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/circle_4.jpg" title="" alt="" class=""><h2>Tell the FDA!</h2><p>Tell the FDA! We have a right to know about food we eat and feed our families, but under current regulations, we don’t have that ability when it comes to genetically engineered (GMO) foods.</p></a></div> <!-- infograph -->
+    
+    <div class="infograph"><a href="http://www.justlabelit.org/action-center/take-action-congress/"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/circle_3.jpg" title="" alt="" class=""><h2>Tell Congress!</h2><p>Tell Congress you support Mandatory GMO Labeling! We need you to take immediate action and tell Congress you support mandatory GMO labeling!</p></a></div> <!-- infograph -->
+    
+    <div class="infograph"><a href="http://www.justlabelit.org/reveal"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/woman_shopping_sqr.jpg" title="" alt="" class=""><h2>Tell Big Food!</h2><p>Tell Kellogg's, PepsiCo, Coca-Cola and General Mills that we have a right to know what's in our food! Join us in asking these major food companies to support mandatory FDA labeling of GMOs.</p></a></div> <!-- infograph -->
+
+    <div class="clear"></div> <!-- clear -->
+    </div> <!-- block_inner -->
+    </div> <!-- block_ind -->
+    <!-- BLOCK2 END -->  
+    <!-- /////////////////////////////////////////////////////////////////////////////// -->
+    
+    
+    
+    
+    
+   	 <!-- /////////////////////////////////////////////////////////////////////////////// -->
+    <!-- BLOCK3 BEGIN --> 
+    <div class="block_ind blue">
+    <div class="block_inner blue">
+    
+                <br><br>	<br>
+
+
+        <ul id="ul_menu_footer">
+            <li><a href="http://www.justlabelit.org/upcoming-events/" title="Upcoming Events">Upcoming Events</a></li>
+            <li><a href="http://www.justlabelit.org/about-just-label-it/" title="About Just Label It">About Just Label It</a></li>
+            <li><a href="http://www.justlabelit.org/consumer-resources/" title="Consumer Resources">Consumer Resources</a></li>
+            <li><a href="http://www.justlabelit.org/contact/" title="Contact">Contact</a></li>
+            <li><a href="http://www.justlabelit.org/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="http://www.justlabelit.org/faqs/" title="FAQs">FAQs</a></li>
+            <li><a href="http://www.justlabelit.org/terms-conditions-and-user-agreement/" title="Terms & Conditions">Terms & Conditions</a></li>
+    <div class="clear"></div> <!-- clear -->
+
+        </ul>
+    <div class="clear"></div> <!-- clear -->
+
+            
+            <div id="social_media_wrapper">
+
+                <div class="social_media">Connect with Just Label It!<div class="more_text">& Sign up to receive our email newsletters!</div></div> <!-- social_media -->
+                <div class="social_media"><a href="https://www.facebook.com/justlabelit" title="JLI on Facebook" target="_blank"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/facebook_footer.jpg" title="" alt="" class=""></a></div> <!-- social_media -->
+                <div class="social_media"><a href="https://twitter.com/justlabelit" title="JLI on Twitter" target="_blank"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/twitter_footer.jpg" title="" alt="" class=""></a></div> <!-- social_media -->
+                <div class="social_media"><a href="https://www.youtube.com/user/justlabelit" title="JLI on YouTube" target="_blank"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/youtube_footer.jpg" title="" alt="" class=""></a></div> <!-- social_media -->
+                <div class="social_media"><a href="#signup_popup" title="Email Sign up" class="popup-with-form"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/email_footer.jpg" title="Sign up" alt="Sign up" ></a></div> <!-- social_media -->
+
+                <div class="clear"></div> <!-- clear -->
+
+             </div> <!-- social_media_wrapper -->
+
+<div class="copyright">&copy; 2016 JUST LABEL IT CAMPAIGN</div>
+            
+    <div class="clear"></div> <!-- clear -->
+    </div> <!-- block_inner -->
+    </div> <!-- block_ind -->    
+    <!-- BLOCK3 END -->  
+    <!-- /////////////////////////////////////////////////////////////////////////////// -->    
+    
+    
+    
+        
+<!--  content above here -->
+    
+    <div class="cd-overlay2"></div> <!-- slide out's overlay -->
+    <div class="cd-overlay"></div> <!-- navigations overlay -->
+
+</main>
+<!-- /////////////////////////////////////////////////////////////////////////////// -->   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- /////////////////////////////////////////////////////////////////////////////// -->    
+<!-- BEGIN cd-member-bio member-0 AKA SLIDE OUT -->
+<div class="cd-member-bio member-0">
+	
+    
+    
+    
+    
+    
+    	<div class="cd-member-bio-pict noshow">
+			 <img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/1b.jpg" alt="Learn more" title="Learn more"> 
+		</div> <!-- cd-member-bio-pict -->
+
+		<div class="cd-bio-content noshow">
+			<h1>Just Label It Blogs</h1>
+			<p>Only organic guarantees that your food has been produced without toxic persistent pesticides, antibiotics, growth hormones or genetically engineered seeds. Organic is the REAL natural</p>
+		</div> <!-- cd-bio-content -->
+        
+    
+    
+  <ul id="related_posts_sidebar_ul_slideout">
+					 
+                     
+                     
+                     
+<!-- 
+BEGIN >> WP LOOP
+///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+--->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/new-dark-act-would-keep-american-consumers-on-hold/" title="New DARK Act Would Keep American Consumers On Hold" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2016/03/JLI_NewDARKact_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_NewDARKact_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								New DARK Act Would Keep American Consumers On Hold 
+                                <span>
+                                March 15th, 2016                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/gmo-labeling-wont-increase-food-prices/" title="GMO Labeling Won’t Increase Food Prices" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/JLI_LabelingFoodPackagingPrices_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_LabelingFoodPackagingPrices_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								GMO Labeling Won’t Increase Food Prices 
+                                <span>
+                                February 24th, 2016                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/top-10-reasons-to-oppose-the-senate-dark-act/" title="Top 10 Reasons To Oppose The Senate DARK Act" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/JLI_Top10opposeDarkAct_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_Top10opposeDarkAct_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Top 10 Reasons To Oppose The Senate DARK Act 
+                                <span>
+                                February 24th, 2016                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/will-the-senate-keep-us-in-the-dark/" title="Will The Senate Keep Us In The DARK?" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/JLI_DarkActPremarketSafety_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_DarkActPremarketSafety_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Will The Senate Keep Us In The DARK? 
+                                <span>
+                                February 22nd, 2016                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/testimony-of-gary-hirshberg-before-the-senate-committee-on-agriculture/" title="Testimony of Gary Hirshberg Before the Senate Committee on Agriculture" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/10/JLI_HirshbergSenateCommittee_1b-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_HirshbergSenateCommittee_1b" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Testimony of Gary Hirshberg Before the Senate Committee on Agriculture 
+                                <span>
+                                October 21st, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/give-food-consumers-the-right-to-know/" title="Give Food Consumers the Right to Know" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/10/JLI_AndresCongressDARKactQuote_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_AndresCongressDARKactQuote_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Give Food Consumers the Right to Know 
+                                <span>
+                                October 16th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/busting-gmo-labeling-myths/" title="Busting GMO Labeling Myths" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/10/JLI_BustingGMOlabelingMyths_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_BustingGMOlabelingMyths_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Busting GMO Labeling Myths 
+                                <span>
+                                October 5th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/learn-how-the-dark-act-would-affect-gmo-labeling-laws-and-your-knowledge-about-the-food-you-eat/" title="Learn how the DARK Act would affect GMO labeling laws and your knowledge about the food you eat." >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/JLI_DrOzDARKact_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_DrOzDARKact_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Learn how the DARK Act would affect GMO labeling laws and your knowledge about the food you eat. 
+                                <span>
+                                September 24th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/monsanto-science-ignores-weed-killers-linked-to-cancer/" title="Monsanto “Science” Ignores Weed Killers Linked To Cancer" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/JLI_MonsantoIgnoresScience_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_MonsantoIgnoresScience_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Monsanto “Science” Ignores Weed Killers Linked To Cancer 
+                                <span>
+                                September 5th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/citing-gmo-herbicide-link-renowned-childrens-health-expert-calls-for-gmo-labeling/" title="Citing GMO-Herbicide Link, Renowned Children’s Health Expert Calls For GMO Labeling" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/08/JLI_GMOherbicideLinkLabeling_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_GMOherbicideLinkLabeling_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Citing GMO-Herbicide Link, Renowned Children’s Health Expert Calls For GMO Labeling 
+                                <span>
+                                August 20th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/more-people-want-gmo-labeling-than-like-apple-pie/" title="More People Want GMO Labeling Than Like Apple Pie" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/JLI_GMOlabelingApplePie_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_GMOlabelingApplePie_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								More People Want GMO Labeling Than Like Apple Pie 
+                                <span>
+                                July 22nd, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/fields-of-drift-gmo-weed-killer-exposure-on-playing-fields-and-parks/" title="Fields Of Drift: GMO Weed Killer Exposure On Playing Fields And Parks" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/JLI_FieldsOfDrift_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_FieldsOfDrift_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Fields Of Drift: GMO Weed Killer Exposure On Playing Fields And Parks 
+                                <span>
+                                July 21st, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/anti-consumer-dark-act-blocks-states-rights/" title="Anti-Consumer DARK Act Blocks States Rights" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/JLI_FaberFoodChoicesQuote_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_FaberFoodChoicesQuote_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Anti-Consumer DARK Act Blocks States Rights 
+                                <span>
+                                July 20th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/monsantos-gmo-weed-killer-damages-dna/" title="Monsanto’s GMO Weed Killer Damages DNA" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/JLI_MonsantoGMOweedKillerDNA_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_MonsantoGMOweedKillerDNA_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Monsanto’s GMO Weed Killer Damages DNA 
+                                <span>
+                                July 18th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/darker-act-blocks-state-and-local-gmo-safety-rules/" title="DARKer Act Blocks State And Local GMO Safety Rules" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/JLI_DARKerActBlocksSafetyRules_1a-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_DARKerActBlocksSafetyRules_1a" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								DARKer Act Blocks State And Local GMO Safety Rules 
+                                <span>
+                                July 17th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/monsantos-gmo-weed-killer-sprayed-on-fields-close-to-12000-churches/" title="Monsanto’s GMO Weed Killer Sprayed On Fields Close To 12,000 Churches" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/JLI_RoundUpSprayChurches_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_RoundUpSprayChurches_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Monsanto’s GMO Weed Killer Sprayed On Fields Close To 12,000 Churches 
+                                <span>
+                                July 15th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/just-label-gmo-foods/" title="Just Label GMO Foods" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/JLI_FaberStoryOfFoodQuote_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_FaberStoryOfFoodQuote_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Just Label GMO Foods 
+                                <span>
+                                July 13th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/bloggers-ask-quaker-to-support-mandatory-fda-labeling-of-gmos/" title="Bloggers Ask Quaker to Support Mandatory FDA labeling of GMOs" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/06/JLI_ConcealRevealGirlBarsFB_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_ConcealRevealGirlBarsFB_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Bloggers Ask Quaker to Support Mandatory FDA labeling of GMOs 
+                                <span>
+                                June 25th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/radical-new-dark-act-assaults-consumer-rights/" title="Radical New DARK Act Assaults Consumer Rights" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/06/JLI_NewVersionDarkAct_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_NewVersionDarkAct_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Radical New DARK Act Assaults Consumer Rights 
+                                <span>
+                                June 18th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/benandjerrys-gmolabeling/" title="GMO Labeling: What’s Good for Consumers Is Good for Business" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/ben_jerry-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="ben_jerry" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								GMO Labeling: What’s Good for Consumers Is Good for Business 
+                                <span>
+                                May 20th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/in-defense-of-chipotles-action-on-gmos/" title="In Defense of Chipotle’s Action on GMOs" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/JLI_Chipotle_C013-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLI_Chipotle_C01[3]" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								In Defense of Chipotle’s Action on GMOs 
+                                <span>
+                                May 6th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/chipotle-gmos-and-monsantos-toxic-glyphosate/" title="Chipotle, GMOs And Monsanto’s Toxic Glyphosate" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/JLIChipotleGMOsMonsanto_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLIChipotleGMOsMonsanto_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Chipotle, GMOs And Monsanto’s Toxic Glyphosate 
+                                <span>
+                                May 6th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/why-the-new-yorkers-michael-specter-is-wrong-about-monsanto-and-cancer/" title="Why the New Yorker’s Michael Specter is wrong about Monsanto and cancer" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/JLISpecterMonsantoCancer_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLISpecterMonsantoCancer_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Why the New Yorker’s Michael Specter is wrong about Monsanto and cancer 
+                                <span>
+                                April 14th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/glyphosate-is-spreading-like-a-cancer-across-the-u-s/" title="Glyphosate Is Spreading Like A Cancer Across The U.S." >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/JLIGlyphosateSpreadingCancer_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLIGlyphosateSpreadingCancer_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Glyphosate Is Spreading Like A Cancer Across The U.S. 
+                                <span>
+                                April 7th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/gmo-labeling-will-not-increase-food-prices/" title="GMO Labeling Will Not Increase Food Prices" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/03/EWG_Social_GE-labeling_C031-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="EWG_Social_GE labeling_C03[1]" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								GMO Labeling Will Not Increase Food Prices 
+                                <span>
+                                March 25th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/gmo-weed-killers-cancer-risk/" title="GMO Weed Killer’s Cancer Risk" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/03/JLIGMOweedKillerCancerRisk_1-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="JLIGMOweedKillerCancerRisk_1" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								GMO Weed Killer’s Cancer Risk 
+                                <span>
+                                March 20th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/quiz-are-you-a-gmo-pro/" title="Quiz: Are You a GMO Pro?" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/quiz_bg-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="quiz_bg" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Quiz: Are You a GMO Pro? 
+                                <span>
+                                January 30th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/what-monsanto-doesnt-want-you-to-see/" title="What Monsanto Doesn&#8217;t Want You To See" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/monsanto-graphic-sqr-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="monsanto-graphic-sqr" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								What Monsanto Doesn&#8217;t Want You To See 
+                                <span>
+                                January 30th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/time-to-improve-safety-reviews-of-gmos-2/" title="Time to Improve Safety Reviews of GMOs" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/4200_2800_original_size_woman_shopping-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="Woman checking food labelling labels in grocery store - cereal box" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Time to Improve Safety Reviews of GMOs 
+                                <span>
+                                January 16th, 2015                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+<!-- (un)comment above two line and (un)comment below one line -->
+<!--  -->
+<!-- start loop below this line -->
+ 
+ 
+ 
+<!-- 
+ 
+-->
+
+
+<!-- classes 1st: first_ind_block and last: donotshowthelastoneoninternalpages -->
+
+
+                    <li>
+						<a  rel="bookmark" href="http://www.justlabelit.org/top-10-gmo-labeling-stories-of-2014/" title="Top 10 GMO Labeling Stories of 2014" >
+							<figure>
+                          <!-- see http://codex.wordpress.org/Function_Reference/the_post_thumbnail -->
+	  					
+                           
+                              		                             <img width="250" height="250" src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/uploads/2014/12/527555_10636681-250x250.jpg" class="attachment-twohundredfifty wp-post-image" alt="527555_10636681" />                               
+                           
+                           
+                           
+							  <div class="cd-img-overlay noshow"><span>Read more</span></div>
+							</figure>
+							<div class="cd-member-info">
+								Top 10 GMO Labeling Stories of 2014 
+                                <span>
+                                December 22nd, 2014                                </span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    
+                    
+
+
+<!-- end loop above this line -->
+ 
+<div class="clear"></div>    
+-				</ul>      
+-        
+-        
+-        
+-        
+-</div> <!-- cd-member-bio -->
+<!-- BEGIN cd-member-bio-close AKA SLIDE OUT CLOSE BUTTON -->
+<a href="#0" class="cd-member-bio-close">Close</a> <!-- close the author bio section -->
+<!-- END cd-member-bio-close AKA SLIDE OUT CLOSE BUTTON -->    
+
+
+
+        
+
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+<!-- BEGIN share_popup -->
+<div id="share_popup" class="mfp-hide white-popup-block3 zoom-anim-dialog">
+		
+        	<h1 class="noshow">Share this page</h1>
+	
+			 <!-- AddThis Button BEGIN -->
+                     <div class="addthis_toolbox"
+		     addthis:title="In Defense of Chipotle’s Action on GMOs |   Just Label It"
+            addthis:description="Studies show that more than 90% of Americans support mandatory labeling of genetically modified (GMO) foods. Yet for twenty years we have been denied that right. Join the Just Label It campaign to urge Congress and the FDA to implement national GMO labeling."
+            addthis:url="http://www.justlabelit.org/in-defense-of-chipotles-action-on-gmos/"
+            >
+                
+                <a class="addthis_button_facebook  noborder nounderlineahref" title="Share on Social Media"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/share_facebook.png" title="Share on Social Media" alt="Share on Social Media" class="NO_social_share_image" /></a>
+                <a class="addthis_button_twitter  noborder nounderlineahref"  title="Share on Social Media" addthis:title="In Defense of Chipotle’s Action on GMOs |   Just Label It via @JustLabelIt"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/share_twitter.png" title="Share on Social Media" alt="Share on Social Media" class="NO_social_share_image" /></a>
+                <a class="addthis_button_google_plusone_share  noborder nounderlineahref" title="Share on Social Media"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/share_googleplus.png" title="Share on Social Media" alt="Share on Social Media" class="NO_social_share_image" /></a>
+                <a class="addthis_button_email  noborder nounderlineahref" title="Share on Social Media"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/share_email.png" title="Share on Social Media" alt="Share on Social Media" class="NO_social_share_image" /></a> 
+                <a class="addthis_button_more  noborder nounderlineahref" title="Share on Social Media"><img src="http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/themes/jli_2015/img/share_addthis.png" title="Share on Social Media" alt="Share on Social Media" class="NO_social_share_image" /></a>
+                
+            <div class="clear"></div> <!-- clear -->
+            </div> <!-- addthis_toolbox -->
+            <!-- AddThis Button END -->        
+    
+<div class="clear"></div> <!-- clear -->
+</div> <!-- share_popup -->
+<!--END share_popup -->
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+
+
+        
+    
+<!-- /////////////////////////////////////////////////////////////////////////////// -->    
+<!-- BEGIN SEARCH -->
+<div id="cd-search" class="cd-search">
+<form id="search_form" name="search_form" method="get" action="http://www.justlabelit.org/">
+<input type="search" placeholder="Search..." name="s" id="s">
+</form>
+</div> <!-- cd-search -->
+<!-- END SEARCH -->
+<!-- /////////////////////////////////////////////////////////////////////////////// -->    
+    
+    
+    
+
+
+
+
+
+        
+
+<!-- BEGIN signup_popup -->
+<div id="signup_popup" class="mfp-hide white-popup-block5 zoom-anim-dialog">
+		
+        	<h1 class="noshow">Email Sign up</h1>
+	
+                        
+            <form id="signup_form" name="signup_form" method="get" action="#">
+            <input type="email" placeholder="Email..." name="email" id="email">
+            <input type="text"  placeholder="Zip Code" name="zip"   id="zip">
+            <input type="submit" name="submit_signup_form" id="submit_signup_form" value="Signup!">
+            </form>
+       
+    
+<div class="clear"></div> <!-- clear -->
+</div> <!-- signup_popup -->
+<!--END signup_popup -->
+
+
+    
+
+<!-- addthis code and google analytics code -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+<script type="text/javascript">
+	var addthis_config = {
+		data_ga_property: 'UA-26011887-1',
+		data_ga_social: true,
+		data_track_clickback: true,
+		data_track_textcopy: true,
+		// ui_click: true, 
+		url_transforms: {
+			clean: true    
+		}
+	};
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-529364c40d61ed14" async="async"></script>
+    
+<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+</script><script type='text/javascript' src='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-includes/js/comment-reply.min.js?ver=4.1.2'></script>
+<script type='text/javascript' src='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.justlabelit.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1'></script>
+<script type='text/javascript' src='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.5.14'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"justlabelit"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://4bgr3aepis44c9bxt1ulxsyq.wpengine.netdna-cdn.com/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.1.2'></script>
+   
+</body>
+</html>

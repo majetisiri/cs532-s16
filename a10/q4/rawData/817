@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/favicons/motherboard/apple-touch-icon-57x57.png?v20160331200908" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/motherboard/apple-touch-icon-114x114.png?v20160331200908" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favicons/motherboard/apple-touch-icon-72x72.png?v20160331200908" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favicons/motherboard/apple-touch-icon-144x144.png?v20160331200908" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/favicons/motherboard/apple-touch-icon-60x60.png?v20160331200908" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/favicons/motherboard/apple-touch-icon-120x120.png?v20160331200908" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/favicons/motherboard/apple-touch-icon-76x76.png?v20160331200908" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favicons/motherboard/apple-touch-icon-152x152.png?v20160331200908" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-196x196.png?v20160331200908" sizes="196x196" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-96x96.png?v20160331200908" sizes="96x96" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-32x32.png?v20160331200908" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-16x16.png?v20160331200908" sizes="16x16" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-128.png?v20160331200908" sizes="128x128" />
+	<meta name="msapplication-TileColor" content="#7974bd" />
+	<meta name="msapplication-TileImage" content="/assets/favicons/motherboard/mstile-144x144.png?v20160331200908" />
+	<meta name="msapplication-square70x70logo" content="/assets/favicons/motherboard/mstile-70x70.png?v20160331200908" />
+	<meta name="msapplication-square150x150logo" content="/assets/favicons/motherboard/mstile-150x150.png?v20160331200908" />
+	<meta name="msapplication-wide310x150logo" content="/assets/favicons/motherboard/mstile-310x150.png?v20160331200908" />
+	<meta name="msapplication-square310x310logo" content="/assets/favicons/motherboard/mstile-310x310.png?v20160331200908" />
+	<meta name="p:domain_verify" content="eac54d01e7a940c4380d0105a2a58912"/>
+
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-32x32.png?v20160331200908" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-16x16.png?v20160331200908" sizes="16x16" />
+
+	<link rel="canonical" href="http://motherboard.vice.com/read/why-electric-cars-are-ditching-am-radio" />
+	<meta name="description" content="BMW i3 and Tesla Model X don&#039;t offer terrestrial AM radio because of electromagnetic interference." />
+<meta property="og:description" content="BMW i3 and Tesla Model X don&#039;t offer terrestrial AM radio because of electromagnetic interference." />
+<meta name="keywords" content="electric cars, AM radio, electric vehicles, bmw i3, Tesla Model X, electromagnetic interference, internet radio, Futures" />
+<meta name="news_keywords" content="electric cars, AM radio, electric vehicles, bmw i3, Tesla Model X, electromagnetic interference, internet radio, Futures" />
+<meta name="thumbnail" content="http://motherboard-images.vice.com/content-images/article/30308/1454694071669716.jpg" />
+<meta property="og:image" content="http://motherboard-images.vice.com/content-images/article/30308/1454694071669716.jpg" />
+<meta property="og:title" content="Why Electric Cars Are Ditching AM Radio" />
+<meta property="og:site_name" content="Motherboard" />
+<meta property="og:type" content="article" />
+<meta property="og:article:published_time" content="2016-02-05 17:14:00" />
+<meta property="og:locale" content="en_us" />
+<meta property="og:url" content="http://motherboard.vice.com/read/why-electric-cars-are-ditching-am-radio" />
+<meta name="twitter" content="Why Electric Cars Are Ditching AM Radio" />
+<meta name="twitter:description" content="BMW i3 and Tesla Model X don&#039;t offer terrestrial AM radio because of electromagnetic interference." />
+<meta name="twitter:image" content="http://motherboard-images.vice.com/content-images/article/30308/1454694071669716.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@motherboard" />
+<meta name="sailthru.title" content="Why Electric Cars Are Ditching AM Radio" />
+<meta name="sailthru.url" content="http://motherboard.vice.com/read/why-electric-cars-are-ditching-am-radio" />
+<meta name="sailthru.publish_date" content="2016-02-05 17:14:00" />
+<meta name="sailthru.description" content="BMW i3 and Tesla Model X don&#039;t offer terrestrial AM radio because of electromagnetic interference." />
+<meta name="sailthru.item_type" content="article" />
+<meta name="sailthru.locale" content="en_us" />
+<meta name="sailthru.expire_date" content="2016-02-12" />
+<meta name="sailthru.tags" content="electric cars, AM radio, electric vehicles, bmw i3, Tesla Model X, electromagnetic interference, internet radio, Futures, MB, en_us, mben" />
+<link hreflang="en-us" rel="alternate" href="http://motherboard.vice.com/read/why-electric-cars-are-ditching-am-radio" />
+<link rel="stylesheet" type="text/css" href="/assets/css/motherboard/style.css?v20160331200908" />
+<script type="text/javascript" src="/assets/js/vmp/lib/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+var calls = [], _gaq = _gaq || [], ga;
+calls.push(
+['_setAccount', 'UA-599058-30'],
+['_setDomainName', 'motherboard.vice.com'],
+['t2._setAccount', 'UA-37305051-1'],
+['t2._setDomainName', 'motherboard.vice.com']
+);
+calls.push(
+['_setPageGroup', 2, ""],
+['t2._setPageGroup', 2, ""]
+);
+calls.push(
+['_setPageGroup', 3, "Meghan Neal"],
+['t2._setPageGroup', 3, "Meghan Neal"]
+);
+calls.push(
+['_setPageGroup', 4, "2016_02_05"],
+['t2._setPageGroup', 4, "2016_02_05"],
+['_setPageGroup', 5, "2016_02"],
+['t2._setPageGroup', 5, "2016_02"]
+);
+calls.push(
+['_trackPageview'],
+['t2._trackPageview']
+);
+_gaq.push.apply(_gaq, calls);
+(function() {
+ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+/*]]>*/
+</script>
+<title>Why Electric Cars Are Ditching AM Radio | Motherboard</title>
+
+	<!-- BEGIN Krux Control Tag for "Motherboard" -->
+	<!-- Source: /snippet/controltag?confid=JLnYmGrt&site=Motherboard&edit=1 -->
+	<script class="kxct" data-id="JLnYmGrt" data-timing="async" data-version="1.9" type="text/javascript">
+		window.Krux || ((Krux = function(){
+			Krux.q.push(arguments)
+		}).q = []);
+		(function(){
+			var k = document.createElement('script');
+			k.type = 'text/javascript';
+			k.async = true;
+			var m, src = (m = location.href.match(/\bkxsrc=([^&]+)/)) && decodeURIComponent(m[1]);
+			k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+				(location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=JLnYmGrt"
+				;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(k, s);
+		}());
+
+	</script>
+	<!-- END Krux Controltag -->
+	<script>
+		window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+		(function(){
+		     function retrieve(n){
+		   var m, k='kx'+n;
+		   if(window.localStorage){
+		       return window.localStorage[k] || "";
+		   }else if(navigator.cookieEnabled){
+		       m = document.cookie.match(k+'=([^;]*)');
+		       return (m && unescape(m[1])) || "";
+		   }else{
+		       return '';
+		   }
+		     }
+		Krux.user = retrieve('user');
+		     Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+		 })();
+
+	</script>
+
+	
+	<!--Austrian OEWA updated Tracker-->
+<script type="text/javascript" src="https://vice-ads-cdn.vice.com/AT_CH/OEWA/oewa_pixel_updated.js" async="async"></script>
+<!--End Austrian OEWA Tracker--><!-- begin comscore tag -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "8568956" });
+    (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=8568956&cv=2.0&cj=1" />
+</noscript>
+<!-- end comscore tag -->	<script type="text/javascript" src="//advice-ads-cdn.vice.com/DE/viceIVW-CS.js" async="async"></script>
+	<!-- Script for pinterest share button -->
+	<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>	
+	
+</head>
+<body class="article-page lang-en_us">
+		<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"x5HVh1aUXR00Gi", domain:"vice.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=x5HVh1aUXR00Gi" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+	<div class="motherboard-ad-header-wrapper">
+	<div class="motherboard-ad-header-inner">
+		<div class="motherboard-ad ad-masthead-wide" data-ref="header"></div>
+	</div>
+</div>
+
+	<section class="site-wrapper">
+		<div class="site-navigation-mobile-screen"></div>
+
+<nav class="site-navigation">
+	<ul class="main-nav-headings">
+		<li class="search-mobile-navigation">
+			<button class="site-icon search"></button>
+
+			<div class="searchbox-container">
+				<div class="gcse-searchbox-only" data-resultsUrl="/article/gsearch" data-queryParameterName="query" data-placeholder="Search..."></div>
+			</div>
+		</li>
+
+		<li class="main-nav-heading no-link" id="main-nav-heading-1">Sections</li>
+			<ul class="main-nav-sub-headings features">
+															<li><a href="/en_us/tag/machines?trk_source=nav">Machines</a></li>
+											<li><a href="/en_us/tag/discoveries?trk_source=nav">Discoveries</a></li>
+											<li><a href="/en_us/tag/space?trk_source=nav">Space</a></li>
+											<li><a href="/en_us/tag/futures?trk_source=nav">Futures</a></li>
+											<li><a href="/en_us/tag/gaming?trk_source=nav">Gaming</a></li>
+											<li><a href="/en_us/tag/earth?trk_source=nav">Earth</a></li>
+												</ul>
+
+		<li class="main-nav-heading" id="main-nav-heading-2">
+			<a href="/en_us/videos?trk_source=nav">Videos</a>
+		</li>
+
+		<li class="main-nav-heading" id="main-nav-heading-3">
+			<a href="/about?trk_source=nav">About</a>
+		</li>
+	</ul>
+</nav>
+		<section class="vice-network-bar">
+	<p class="version"></p>
+
+	<section class="locales built">
+		<div class="current-locale">
+		en		</div>
+
+		<ul>
+												<li>
+						<a href="/de">
+							de						</a>
+					</li>
+																							<li>
+						<a href="/es">
+							es						</a>
+					</li>
+																<li>
+						<a href="/fr">
+							fr						</a>
+					</li>
+																<li>
+						<a href="/it">
+							it						</a>
+					</li>
+																<li>
+						<a href="/nl">
+							nl						</a>
+					</li>
+																<li>
+						<a href="/pt_br">
+							pt						</a>
+					</li>
+									</ul>
+	</section>
+
+	<section class="family">
+		<h2 class="family-trigger">The <span class="icon-sprite">VICE</span> Channels</h2>
+
+		<ul></ul>
+	</section>
+</section>
+
+<header class="site-header">
+	<div class="main-nav-header">
+		<div class="header-wrapper">
+			<button class="menu-non-rounded">
+				<span class="menu-icon"></span>
+			</button>
+
+			<div class="socials-in-article">
+				<a href="#" data-share-type="facebook" class="facebook sharing-item">
+					<i class="site-icon facebook"></i>
+					Share				</a>
+				<a href="#" data-share-type="twitter" class="twitter sharing-item">
+					<i class="site-icon twitter"></i>
+					Tweet
+				</a>
+			</div>
+
+			<h1 class="motherboard-logo">
+				<a href="/en_us?trk_source=header-logo">
+					<span>Motherboard</span>
+				</a>
+
+				<a href="/en_us?trk_source=header-logo" class="motherboard-load-initial">
+					<span>Motherboard</span>
+				</a>
+			</h1>
+
+			<nav class="inline-site-navigation">
+				<ul class="main-nav-headings">
+					<li class="main-nav-heading" id="main-nav-heading-1">
+						<a href="/en_us/videos?trk_source=nav">
+							Watch							<span class="site-icon arrow-down"></span>
+						</a>
+					</li>
+
+					<li class="main-nav-heading no-link" id="main-nav-heading-2">
+						Sections						<span class="site-icon arrow-down"></span>
+					</li>
+
+																							<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-3">
+								<a href="/en_us/tag/machines?trk_source=nav">
+									Machines									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-4">
+								<a href="/en_us/tag/discoveries?trk_source=nav">
+									Discoveries									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-5">
+								<a href="/en_us/tag/space?trk_source=nav">
+									Space									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-6">
+								<a href="/en_us/tag/futures?trk_source=nav">
+									Futures									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-7">
+								<a href="/en_us/tag/gaming?trk_source=nav">
+									Gaming									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-8">
+								<a href="/en_us/tag/earth?trk_source=nav">
+									Earth									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																						</ul>
+			</nav>
+
+			<script type="text/template" id="nav-item-template">
+				<a href="<%= url %>?trk_source=nav">
+					<figure>
+						<div class="article-media-overlay"></div>
+						<img src="<%= image.url %>" alt="<%= image.alt %>" />
+					</figure>
+					<h2><%= title %></h2>
+				</a>
+			</script>
+
+			<div class="socials">
+				<a href="http://www.facebook.com/motherboardtv?trk_source=motherboard" target="_blank" class="site-icon facebook"></a>
+									<a href="https://twitter.com/motherboard?trk_source=motherboard" target="_blank" class="site-icon twitter"></a>
+								<a href="http://motherboardtv.tumblr.com/?trk_source=motherboard" class="site-icon tumblr" target="_blank"></a>
+								<a href="/rss?trk_source=motherboard" class="site-icon rss" target="_blank"></a>
+				<a href="http://www.youtube.com/motherboardtv?feature=watch&trk_source=motherboard" target="_blank" class="site-icon youtube"></a>
+			</div>
+
+			<div class="search-container">
+				<button class="site-icon search"></button>
+
+				<div class="searchbox-container">
+					<div class="gcse-searchbox-only" data-resultsUrl="/article/gsearch" data-queryParameterName="query"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="global-sub-nav-sections" class="sub-nav-sections">
+		<div class="header-wrapper">
+			<div class="sub-nav-section watch has-submenu" id="sub-nav-section-1">
+				<ul class="sub-nav-section-headings">
+					<li data-model-id="videos-latest">
+						<a href="/en_us/videos?trk_source=nav">Latest Videos</a>
+					</li>
+																		<li data-model-id="videos-documentaries">
+								<a href="/tag/documentaries?trk_source=nav">Documentaries</a>
+							</li>
+													<li data-model-id="videos-interviews">
+								<a href="/tag/interviews?trk_source=nav">Interviews</a>
+							</li>
+															</ul>
+
+				<div class="sub-nav-section-models">
+					<div class="sub-nav-section-model" data-model-id="videos-latest" data-has-menu="true" data-topic-slug="videos" data-type="videos">
+					</div>
+																										<div class="sub-nav-section-model" data-model-id="videos-documentaries" data-has-menu="true" data-topic-slug="documentaries" data-type="videos">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="videos-interviews" data-has-menu="true" data-topic-slug="interviews" data-type="videos">
+								</div>
+																						</div>
+			</div>
+
+			<div class="sub-nav-section watch has-submenu" id="sub-nav-section-2">
+				<ul class="sub-nav-section-headings">
+																		<li data-model-id="sections-machines">
+								<a href="/en_us/tag/machines?trk_source=nav">Machines</a>
+							</li>
+													<li data-model-id="sections-discoveries">
+								<a href="/en_us/tag/discoveries?trk_source=nav">Discoveries</a>
+							</li>
+													<li data-model-id="sections-space">
+								<a href="/en_us/tag/space?trk_source=nav">Space</a>
+							</li>
+													<li data-model-id="sections-futures">
+								<a href="/en_us/tag/futures?trk_source=nav">Futures</a>
+							</li>
+													<li data-model-id="sections-gaming">
+								<a href="/en_us/tag/gaming?trk_source=nav">Gaming</a>
+							</li>
+													<li data-model-id="sections-earth">
+								<a href="/en_us/tag/earth?trk_source=nav">Earth</a>
+							</li>
+															</ul>
+
+				<div class="sub-nav-section-models">
+																										<div class="sub-nav-section-model" data-model-id="sections-machines" data-has-menu="true" data-topic-slug="machines">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-discoveries" data-has-menu="true" data-topic-slug="discoveries">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-space" data-has-menu="true" data-topic-slug="space">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-futures" data-has-menu="true" data-topic-slug="futures">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-gaming" data-has-menu="true" data-topic-slug="gaming">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-earth" data-has-menu="true" data-topic-slug="earth">
+								</div>
+																						</div>
+			</div>
+
+															<div class="sub-nav-section sections" id="sub-nav-section-3">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-machines" data-topic-slug="machines">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-4">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-discoveries" data-topic-slug="discoveries">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-5">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-space" data-topic-slug="space">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-6">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-futures" data-topic-slug="futures">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-7">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-gaming" data-topic-slug="gaming">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-8">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-earth" data-topic-slug="earth">
+								</div>
+													</div>
+					</div>
+
+														</div>
+	</div>
+
+	<div id="social-sub-nav-section" class="sub-nav-sections">
+		<div class="header-wrapper">
+			<div class="social-header-item facebook-item">
+				<div class="fb-like" data-href="http://www.facebook.com/motherboardtv" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+			</div>
+
+							<div class="social-header-item">
+					<a href="https://twitter.com/motherboard" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true">Follow</a>
+				</div>
+			
+			<div class="social-header-item youtube-item">
+				<div class="g-ytsubscribe" data-channel="motherboardtv" data-layout="default" data-count="default"></div>
+			</div>
+			<div class="social-header-item pinterest-item">
+				<a data-pin-do="buttonFollow" href="http://www.pinterest.com/motherboard/">Motherboard</a>
+			</div>
+            			     <a href="https://confirmsubscription.com/h/i/62B347AD88B7A90A" target="_blank" class="newsletter">Newsletter</a>
+		    		</div>
+	</div>
+</header>
+		<div class="site-content">
+				<div id="viceContentAd" data-src="v-motherboard"></div>
+
+
+	<section class="lede article-lede">
+					<div class="media">
+				<div class="lede-image-container">
+					<img src="//motherboard-images.vice.com/content-images/article/30308/1454694071669716.jpg?crop=1xw:0.6467479674796748xh;*,*&resize=1200:*&output-format=jpeg&output-quality=90" class="media-lede-image media-lede" alt="" />
+					<img src="//motherboard-images.vice.com/content-images/article/30308/1454694071669716.jpg?crop=1xw:0.4688922764227642xh;*,*&resize=2300:*&output-format=jpeg&output-quality=90" class="media-lede-image media-desktop-lede" alt="" />
+					<img src="//motherboard-images.vice.com/content-images/article/30308/1454694071669716.jpg?crop=1xw:0.9094893292682927xh;*,*&resize=700:*&output-format=jpeg&output-quality=90" class="media-lede-image media-mobile-lede" alt="" />
+				</div>
+									<h5 class="caption-article caption-lede">
+						<p>Image: Image: <a href="https://www.flickr.com/photos/30998987@N03/16952792308/in/photolist-rQ4uwy-s7DQ42-rQ4xJA-rNjXsi-sHT1vq-srvFoU-sJ4H9Z-rM4JSb-sFKX5Y-sFKUAj-sHTB5L-raAH9N-k3nVnQ-k3kuiB-k3kvm8-k3nUof-k3m4tx-k3kwax-k3kqDH-k3kZPD-k3m1Jp-bG5vZR-bG5wf6-dQZv7n-j3Fpfi-dQZtCa-dR62Ld-dQZuUk-wMBVDj-rM5oQ5-rMg5jK-rMfZP2-vT54CD-vSVmWA-j3Fouk-j5Kmy6-kXWndr-phzCwG-hGwHyZ-kXYpAh-hGxZH9-hGx4C6-hGxR5B-hGy4N2-hGxt3o-hGwUTH-hGx7KQ-hGwUcT-hGxiwE-hGxU3F">mariordo59/Flickr</a></p>					</h5>
+							</div>
+			</section>
+
+	
+	<article class="article-single" data-id="30308">
+				<header class="article-header">
+			<div class="wrapper">
+
+				<h1 class="article-title">Why Electric Cars Are Ditching AM Radio</h1>
+
+				<section class="motherboard-portlet motherboard-portlet-about" id="yw0">
+<div class="author-info image">
+	<a href="/author/MeghanNeal">
+		<div class="article-media-overlay"></div>
+					<img src="//motherboard-images.vice.com/authors/no-id/1454706328865119.jpg?resize=300:*&output-format=jpeg&output-quality=90" />
+			</a>
+</div>
+
+<div class="author-info hasImage">
+	<span>Written by </span>
+	<h3><a href="/author/MeghanNeal">Meghan Neal</a></h3>
+			<h4>contributing editor</h4>
+		<ul class="social-info">
+					<li><a href="https://twitter.com/meghanneal" target="_blank" class="social-link"><span class="site-icon twitter"></span></a></li>
+					</ul>
+</div></section>
+					<time pubdate datetime="2016-02-05T17:14:00+00:00" class="meta-time">
+						February 5, 2016 // 12:14 PM EST					</time>
+
+					<div class="ad-sponsored-by motherboard-portlet-about">
+						<div class="motherboard-ad ad-banner" data-ref="sponsored_content_top"></div>					</div>
+				</div>
+			</header>
+		
+		<div class="wrapper article-content-wrapper">
+			<div class="left-column article-left-column">
+				<div class="article-scroll-wrapper">
+										<section class="motherboard-widget motherboard-widget-social vertical-share-widget" data-title="Why Electric Cars Are Ditching AM Radio" data-url="http://motherboard.vice.com/read/why-electric-cars-are-ditching-am-radio" data-description="BMW i3 and Tesla Model X don&#039;t offer terrestrial AM radio because of electromagnetic interference." data-media="//motherboard-images.vice.com/content-images/article/30308/1454694071669716.jpg?crop=1xw:0.9094893292682927xh;*,*" data-topic="" data-gatag="LeftRailShareWidget" data-twitterhandle="motherboard" id="yw1">
+<a href="#" data-share-type="facebook" class="social-facebook sharing-item">
+	<span class="site-icon facebook"></span>
+</a>
+<a href="#" data-share-type="twitter" class="social-twitter sharing-item">
+	<span class="site-icon twitter"></span>
+</a>
+<a href="#" data-share-type="pinterest" class="social-pinterest sharing-item">
+    <span class="site-icon pinterest"></span>
+</a>
+<a href="#" data-share-type="tumblr" class="social-tumblr sharing-item">
+	<span class="site-icon tumblr"></span>
+</a>
+<div class="popup-hover right tooltip" data-clipboard-text="http://motherboard.vice.com/read/why-electric-cars-are-ditching-am-radio" id="copy-button">
+    <a href="#" data-share-type="link" class="social-link sharing-item">
+        <span class="site-icon icon-link"></span>
+    </a>
+    <div class="popup">
+        <div class="popup-wrap">
+             <div class="copy-text">
+             Copy This URL
+             </div>
+             <div class="copy-subtext">
+                 
+             </div>
+        </div>
+    </div>
+</div></section>
+					
+					<div class="article-content rich-text">
+						<p>Electric cars may be energy efficient Earth-saving futuremobiles, but their rise could also have a strange unintended consequence: killing off the oldest form of radio.
+</p><p>Two popular electric cars, the BMW i3 and Tesla Model X, are ditching terrestrial AM radio because electromagnetic noise from the electric motor interferes with the broadcast reception, causing static, as the blog <a href="http://music3point0.blogspot.com/2016/01/am-radio-may-soon-be-thing-of-past.html#ixzz3z3YfCvaF">Music 3.0 recently pointed out</a>.
+</p><p>Electronics have always been a source of AM radio static, and electric motors are no exception. EVs are powered by a rechargeable battery, electric motor, and a frequency converter that controls how much power the car's electrical motors put out by turning <a href="http://auto.howstuffworks.com/electric-car2.htm">voltage on and off</a> thousands of times a second, basically chopping up energy. This process causes electromagnetic interference that gets picked up by the radio.
+</p><p>AM radio has always been more susceptible to static than its partner on the dial. "AM" stands for amplitude modulation, which means the height of the radio waves are varied over time to encode the information, versus “FM,” frequency modulation, which varies their speed. Since amplitude, not frequency, is affected by electrical noise emitted by gadgets like smartphones, TVs, computers, even vacuum cleaners and hairdryers, AM signals are prone to distortion and crackling.
+</p><p>That crackle apparently just doesn’t fly with luxury auto brands. BMW spokesperson Rebecca Kiehne told me, "Electric motors cause interference on AM which is why BMW decided to remove this option. While it could be offered, BMW's performance standards are very high and we don't offer a product that meets less than those high standards."
+</p><p>But while BMW disabled AM radio in the i3 because the company was worried customers would complain about the poor sound quality, some customers have instead taken to complaining about the <em>lack</em> of AM radio. Consumers took to forums to bemoan the omission, a few even saying they wouldn’t buy an i3 without it. One BMW owner <a href="https://transportevolved.com/2014/08/14/bmw-i3-interference-killed-star-nab-wants-back/">commented</a>, “I plan to drag out my portable AM radio and leave it in the car.” Some owners are <a href="http://www.bmwblog.com/2015/07/09/why-you-cant-get-am-radio-in-your-bmw-i3/">hacking the car to get AM radio back</a>.
+</p><p>Meanwhile, the <a href="http://motherboard.vice.com/read/teslas-model-x-is-now-on-roads-and-yes-its-got-some-weird-features">new Tesla Model X</a> also <a href="http://www.teslamotorsclub.com/showthread.php/59864-No-AM-Radio-Band-in-Model-X">dropped terrestrial AM radio</a> from its <a href="http://teslatap.com/articles/audio-systems-for-the-tesla-model-s-and-model-x/">infotainment dashboard</a>—a change from the Model S. Instead, you can get most AM stations via internet radio if you go menu diving through TuneIn, a service that aggregates internet radio and traditional AM/FM stations and is the <a href="http://www.teslarati.com/dialing-am-fm-radio-on-tesla-model-s-touchscreen/">standard radio option</a> in Tesla cars.
+</p><p>“AM radio stations are accessible through our internet radio service in Model X. Because AM audio quality can be very poor, we offer internet radio to give our customers considerably better sound quality and reception coverage,” a Tesla spokesperson told me over email. Apparently, finding the stations isn’t always easy though; there’s a <a href="http://webcache.googleusercontent.com/search?q=cache:C7Dl1rGMaWkJ:my.teslamotors.com/en_CN/forum/forums/no-am-radio-model-x+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=us">Tesla forum</a> devoted to figuring out how to locate AM stations on the Model X.
+</p><p class="has-image"><img src="https://lh5.googleusercontent.com/vzU_4bnWa0HQghXTUYtx933Gflhnp2xupQKxmpY2JdpgQuGhMQ8eIJiK4h3gv851Ym372AdcPfPGzr5UrJO6a521OhvpWpC2WR4riM6ROvb5a--5J-zO9e6_xUbHOGI5D-N0YTEq" alt="tesla no AM radio.png">
+</p><p class="photo-credit"><em>Screenshot via </em><em><a href="http://www.teslamotorsclub.com/showthread.php/59864-No-AM-Radio-Band-in-Model-X">Tesla Motors Club</a></em>
+</p><p>At this point you may be asking, who cares? Isn’t AM radio a dinosaur technology with one leg in the grave? Does anyone even listen to it? The answer is yes: about 3 million people listen to it every day, and five of the ten most popular radio stations in the US are AM radio. “This narrative that somehow AM radio is dying is silly,” Dennis Wharton, communications executive at the National Association of Broadcasters, told me.
+</p><p>Despite the higher sound quality of the FM band and the ascent of satellite and internet radio, the medium of FDR’s fireside chats and Rush Limbaugh is still cemented in American culture. AM signals can travel further distances, making it popular for talk radio and local programs like weather and traffic reports or emergency response information. It’s also more affordable to get on, so is home to lots of niche stations like foreign language radio, college radio, or religious programs. “It’s a haven for minority radio stations as well—particularly Latino and Hispanic radio has moved a lot to AM radio in recent years,” said Wharton. Not to mention some major sports franchises still broadcast games, sometimes exclusively, on legacy AM stations that have been around forever and have fiercely loyal listeners.
+</p><p>The <a href="http://www.nab.org/documents/newsRoom/pdfs/081314_BMW_letter.pdf">National Association of Broadcasters (NAB) is asking BMW to reconsider</a> its decision to drop AM radio, and NAB’s California branch <a href="http://www.radioworld.com/article/bmw-wont-revisit-am-for-electric-models/272578">has teamed up with engineers</a> to devise a solutions to the static problem. A group of <a href="http://www.sciencedaily.com/releases/2012/04/120404102949.htm">engineers in Germany</a> are also working on a prototype for minimizing interference by shielding the engine’s cabling and insulating the motor, at a price point that’s affordable for automakers.
+</p><p>Cars and radio have always been inextricably linked: about <a href="http://www.newsgeneration.com/broadcast-resources/radio-facts-and-figures/">90 percent</a> of people listen to traditional radio over the airwaves (more than use the internet), and <a href="http://www.newsgeneration.com/broadcast-resources/radio-facts-and-figures/">40 percent</a> of that listening happens in the car. So it’s worth raising an eyebrow if electric cars are zooming toward the future and leaving a historical technology behind.
+</p>					</div>
+				</div>
+
+				<div class="article-footer">
+					<div class="topics-container">
+						<p class="article-topics">
+							<span class="tags"><span class="tags-title">Topics: </span><span class="tag"><a href="/tag/electric+cars">electric cars</a></span>, <span class="tag"><a href="/tag/AM+radio">AM radio</a></span>, <span class="tag"><a href="/tag/electric+vehicles">electric vehicles</a></span>, <span class="tag"><a href="/tag/bmw+i3">bmw i3</a></span>, <span class="tag"><a href="/tag/Tesla+Model+X">Tesla Model X</a></span>, <span class="tag"><a href="/tag/electromagnetic+interference">electromagnetic interference</a></span>, <span class="tag"><a href="/tag/internet+radio">internet radio</a></span>, <span class="tag"><a href="/tag/Futures">Futures</a></span></span>						</p>
+					</div>
+
+					<section class="motherboard-portlet motherboard-widget-author-footer" data-gatag="" id="yw2">
+<div class="author-footer">
+	<div class="author-contact-info">
+
+						Contact the author by <a href="mailto:meghan.neal@vice.com">email</a> or <a href="https://twitter.com/meghanneal" target="_blank">Twitter</a>.					
+	</div>
+	You can reach us at <a href="mailto:letters@motherboard.tv">letters@motherboard.tv</a>. Want to see other people talking
+	about Motherboard? Check out our <a href="http://motherboard.vice.com/tag/letters+to+the+editor">letters to the editor</a>.</div></section><section class="motherboard-portlet motherboard-widget-content-botton-share" data-title="Why Electric Cars Are Ditching AM Radio" data-url="http://motherboard.vice.com/read/why-electric-cars-are-ditching-am-radio" data-description="BMW i3 and Tesla Model X don&#039;t offer terrestrial AM radio because of electromagnetic interference." data-media="" data-topic="" data-gatag="Bottom Widget" data-twitterhandle="motherboard" id="yw3">
+<div class="social-buttons">
+	<a href="#" data-share-type="facebook" class="social-facebook sharing-item">
+		<span class="site-icon facebook"></span>
+	</a>
+	<a href="#" data-share-type="twitter" class="social-twitter sharing-item">
+		<span class="site-icon twitter"></span>
+	</a>
+	<a href="#" data-share-type="googleplus" class="social-googleplus sharing-item">
+		<span class="site-icon google-plus"></span> 
+	</a>
+	<a href="#" data-share-type="tumblr" class="social-tumblr sharing-item">
+		<span class="site-icon tumblr"></span>
+	</a>
+	<a href="#" data-share-type="reddit" class="social-reddit sharing-item">
+		<span class="site-icon reddit"></span>
+	</a>
+	<a href="#" data-share-type="stumbleupon" class="social-stumbleupon sharing-item">
+		<span class="site-icon stumbleupon"></span>
+	</a>
+</div></section><section class='motherboard-portlet motherboard-portlet-recommended'><h3 class="section-title">Recommended</h3><ul class="stories-list">
+ <li class="story">
+            <div class="motherboard-ad ad-recommended" data-ref="recommended"></div>     	<figure class="archive-img">
+ 		<a href="/read/marc-areny-electric-car-conversion?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/32760/1461174772283238.png?crop=1xw:0.8490566037735849xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="The Low-Cost, DIY Romanian Tesla" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/marc-areny-electric-car-conversion?trk_source=recommended">The Low-Cost, DIY Romanian Tesla</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/elon-musk-unveils-35000-dollar-tesla-model-3?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/32098/1459484493294932.png?crop=0.44835868694955966xw:1xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="If You Were Sleeping During the Tesla Model 3 Unveiling, Read This Cheat Sheet" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/elon-musk-unveils-35000-dollar-tesla-model-3?trk_source=recommended">If You Were Sleeping During the Tesla Model 3 Unveiling, Read This Cheat Sheet</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/watch-this-self-driving-electric-delorean-do-donuts-like-a-boss?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/1445448565756180.jpg?crop=0.5333333333333333xw:1xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="​Watch This Self-Driving, Electric DeLorean Do Donuts Like a Boss" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/watch-this-self-driving-electric-delorean-do-donuts-like-a-boss?trk_source=recommended">​Watch This Self-Driving, Electric DeLorean Do Donuts Like a Boss</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/meet-horizon-the-only-canadian-car-in-this-years-world-solar-powered-race?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/26738/1445200137378905.jpg?crop=1xw:0.8440797186400938xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Meet Horizon, the Only Canadian Car in This Year's World Solar-Powered Race" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/meet-horizon-the-only-canadian-car-in-this-years-world-solar-powered-race?trk_source=recommended">Meet Horizon, the Only Canadian Car in This Year's World Solar-Powered Race</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/old-volvos-last-forever-so-this-guys-x-ray-auto-making-them-electric?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/1458931845326313.jpg?crop=1xw:0.75xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Old Volvos Last Forever, So This Guy’s Making Them Electric" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/old-volvos-last-forever-so-this-guys-x-ray-auto-making-them-electric?trk_source=recommended">Old Volvos Last Forever, So This Guy’s Making Them Electric</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/the-immobile-masses-why-traffic-is-awful-and-public-transit-is-worse?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/31845/1458771685952840.jpg?crop=1xw:0.8470588235294118xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="The Immobile Masses: Why Traffic Is Awful and Public Transit Is Worse" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/the-immobile-masses-why-traffic-is-awful-and-public-transit-is-worse?trk_source=recommended">The Immobile Masses: Why Traffic Is Awful and Public Transit Is Worse</a>
+	</p>
+</li></ul></section>					</div>
+				</div>
+
+								<div class="right-rail article-right-rail">
+					<div class="sticky-sidebar-wrapper">
+<div class="motherboard-ad sidebar-block sticky" data-ref="sidebar"></div>
+<section class="motherboard-portlet motherboard-widget-connect" data-title="" data-url="" data-description="" data-media="" data-topic="" data-gatag="" data-twitterhandle="motherboard" id="yw5">
+<h3>Follow Us Everywhere</h3>
+
+<div class="connect-social-items">
+	<a href="http://www.facebook.com/motherboardtv" class="social-facebook" target="_blank" data-type="facebook">
+		<span class="site-icon facebook"></span>
+	</a>
+
+		<a href="https://twitter.com/motherboard" class="social-twitter" target="_blank" data-type="twitter">
+		<span class="site-icon twitter"></span>
+	</a>
+		<a href="http://www.youtube.com/subscription_center?add_user=motherboardtv" class="social-youtube" data-type="youtube" target="_blank">
+		<span class="site-icon youtube"></span>
+	</a>
+	<a href="http://pinterest.com/motherboard/" class="social-pinterest" data-type="pinterest" target="_blank">
+		<span class="site-icon pinterest"></span>
+	</a>
+		<a href="/rss" data-type="rss" class="social-rss" target="_blank">
+		<span class="site-icon rss"></span>
+	</a>
+		    <a href="https://confirmsubscription.com/h/i/62B347AD88B7A90A" data-type="email" class="social-email last" target="_blank">
+            <span class="site-icon envelope-alt"></span>
+        </a>
+    </div></section>
+<section class='motherboard-portlet motherboard-portlet-archive'><h3 class="section-title">Most Popular</h3><ul class="stories-list">
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/this-game-is-forcing-some-players-to-be-women-and-theyre-freaking-out?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/1460308330627125.jpg?crop=1xw:0.5454545454545454xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="This Game Is Forcing Some Players to Be Women, And They're Freaking Out" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/this-game-is-forcing-some-players-to-be-women-and-theyre-freaking-out?trk_source=popular">This Game Is Forcing Some Players to Be Women, And They're Freaking Out</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/a-very-uncool-cooler?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/32511/1460570033690132.jpg?crop=1xw:0.29xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Kickstarter’s Biggest Shitshow Somehow Got Even Messier" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/a-very-uncool-cooler?trk_source=popular">Kickstarter’s Biggest Shitshow Somehow Got Even Messier</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/moocs-medical-school-gets-more-virtual?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/32190/146013348434671.jpg?crop=1xw:0.43606461086637294xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Now Streaming: How to Do a Kidney Transplant" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/moocs-medical-school-gets-more-virtual?trk_source=popular">Now Streaming: How to Do a Kidney Transplant</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/how-the-vomit-comet-cratered?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/32187/1459799072091435.png?crop=1xw:0.8089473684210525xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="NASA Nearly Crashed the Vomit Comet on a Reckless Trip to Greenland" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/how-the-vomit-comet-cratered?trk_source=popular">NASA Nearly Crashed the Vomit Comet on a Reckless Trip to Greenland</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/drone-vigilante-brian-bates-johntv-oklahoma-spies-on-sex-workers?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/1459796445262276.png?crop=1xw:0.7003152585119798xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Meet the ‘Drone Vigilante’ Who Spies on Sex Workers" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/drone-vigilante-brian-bates-johntv-oklahoma-spies-on-sex-workers?trk_source=popular">Meet the ‘Drone Vigilante’ Who Spies on Sex Workers</a>
+	</p>
+</li>
+</ul></section><div class="motherboard-ad bottom-sidebar-ad" data-ref="sidebar_bottom"></div></div>
+
+				</div>
+						</div>
+
+		<div class="article-comment-wrapper">
+			<div class="wrapper">
+								</div>
+			</div>
+		</article>
+		</div>
+
+		<footer id="main-footer" class="clearfix">
+	<div class="wrapper">
+		<nav id="footer-nav">
+			<span class="legal">
+				&copy; 2016 Vice Media LLC			</span>
+			<a href="/en_us/about" class="about-left">About <span>Motherboard</span></a>
+
+			<div class="right-menu">
+				<a href="/en_us/about" class="about">About <span>Motherboard</span></a>
+				<a href="mailto:editor@motherboard.tv" class="contact">Contact</a>
+				<a href="/privacy">Privacy Policy</a>
+				<a href="/terms" class="last">Terms of Use</a>
+
+							</div>
+		</nav>
+	</div><!-- end .wrapper -->
+</footer>
+	</section>
+
+	<iframe src="/themes/motherboard/statics/html/mb_tracker.html" height="1" width="1" id="iframe-tracker"></iframe>
+	<script type="text/javascript">
+    var _sf_async_config={uid:8233,domain:"motherboard.tv"};
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+            (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+            "js/chartbeat.js");
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+        loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<!-- End of Chartbeat --><script type="text/javascript">
+	window.vmp_ad_config = {
+		ad_slots : {},
+		ad_targetting_sizes : {},
+		config : {
+			adunit : 'motherboard.vice.com/electriccars',
+			els : '.motherboard-ad',
+			targeting : {
+				topic : "electric cars",
+				aid : "why-electric-cars-are-ditching-am-radio",
+				atype : "blog",
+				auth : "Meghan Neal",
+				keywords : "electric cars, AM radio, electric vehicles, bmw i3, Tesla Model X, electromagnetic interference, internet radio, Futures",
+				country : "en_us"
+			}
+		}
+	};
+</script>
+	<!-- START Nielsen Online SiteCensus V6.0 -->
+	<!-- COPYRIGHT 2012 Nielsen Online -->
+	<script type="text/javascript" src="//secure-au.imrworldwide.com/v60.js">
+	</script>
+	<script type="text/javascript">
+	var pvar = { cid: "au-vice", content: "0", server: "secure-au" };
+	var trac = nol_t(pvar);
+	trac.record().post();
+	</script>
+	<noscript>
+	<div>
+	<img src="//secure-au.imrworldwide.com/cgi-bin/m?ci=au-vice&cg=0&cc=1&ts=noscript"
+	width="1" height="1" alt="" />
+	</div>
+	</noscript>
+	<!-- END Nielsen Online SiteCensus V6.0 -->
+
+	<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-6EzWtvBV9sFU3"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-6EzWtvBV9sFU3.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag --><script type="text/javascript">
+/*<![CDATA[*/
+//Sailthru Horizon
+(function(){function loadHorizon(){var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);}loadHorizon();var oldOnLoad = window.onload;window.onload = function(){if(typeof oldOnLoad === 'function'){oldOnLoad();}
+Sailthru.setup({domain: 'horizon.vice.com'
+});
+};
+})();
+var SYSTEM_PREFIX = 'vmp', SITE_PREFIX = 'motherboard', SITE_LOCALE = 'en_us';
+//Google Custom Serch Engine
+(function(){var cx = '006027918092062956483:2wxwe5src7c';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+
+/*]]>*/
+</script>
+<script type="text/javascript" src="/assets/js/vmp/lib/require.min.js?v20160331200908" id="vmp-require-js" data-main="/assets/js/vmp/system/require.config.js?v20160331200908" data-config-extension="/assets/js/motherboard/configs/mobo.config.js?v20160331200908" data-main-script="/assets/js/motherboard/articles/single.js" data-asset-version="v20160331200908"></script>
+</body>
+</html>

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+  <title>The CDC Can’t Figure Out What Caused Chipotle’s E. Coli Outbreaks | TakePart</title>
+    <script type="text/javascript">
+    window.digitalData = {"page":{"pageInfo":{"authors":"Willy Blackmore","author":"Willy Blackmore","issueDate":"2016\/02\/01","permanentTitle":"The CDC Can\u2019t Figure Out What Caused Chipotle\u2019s E. Coli Outbreaks","sponsored":"Not Sponsored","influenceBanner":"No Influence Banner","pageId":"62679","pageTitle":"The CDC Can\u2019t Figure Out What Caused Chipotle\u2019s E. Coli Outbreaks","pageUrl":"http:\/\/www.takepart.com\/article\/2016\/02\/01\/chipotle-cdc-investigation","pageUrlAlias":"article\/2016\/02\/01\/chipotle-cdc-investigation","referringURL":document.referrer,"siteSection":"article","template":"Article"},"pageNumber":"page 1","category":{"primaryCategory":"Article"}},"category":{"primaryTopic":"Food","topics":"Food","series":"","freeTags":""},"version":"1.0","event":[]};
+  </script>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="http://www.takepart.com/sites/default/files/tp_megaphone_favicon_16x16_0.png" type="image/png" />
+<meta property="fb:pages" content="9287842439" />
+<meta name="description" content="The official investigation is now closed." />
+<meta name="abstract" content="The official investigation is now closed." />
+<meta name="keywords" content="Food" />
+<meta name="rights" content="TakePart is the Social Action Network™ of Participant Media. © 2008-2016 TakePart, LLC" />
+<link rel="canonical" href="http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation" />
+<link rel="publisher" href="https://plus.google.com/102129351800746591723" />
+<meta property="fb:admins" content="1327833247" />
+<meta property="fb:app_id" content="247137505296280" />
+<meta property="og:site_name" content="TakePart" />
+<meta property="og:url" content="http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The CDC Can’t Figure Out What Caused Chipotle’s E. Coli Outbreaks" />
+<meta property="og:description" content="The official investigation is now closed." />
+<meta property="og:image" content="http://www.takepart.com/sites/default/files/chipotle-ecoli-MAIN.jpg" />
+<meta property="og:image:width" content="775" />
+<meta property="og:image:height" content="518" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@TakePart" />
+<meta name="twitter:creator" content="@TakePart" />
+<meta name="twitter:url" content="http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation" />
+<meta name="twitter:title" content="The CDC Can’t Figure Out What Caused Chipotle’s E. Coli Outbreaks" />
+<meta name="twitter:description" content="The official investigation is now closed." />
+<meta name="twitter:image" content="http://www.takepart.com/sites/default/files/chipotle-ecoli-MAIN.jpg" />
+<meta name="sailthru.author" content="Willy Blackmore" />
+<meta property="tab-keywords" content="Food" />
+<meta name="sailthru.tags" content="food,openpublish_article" />
+<meta name="sailthru.date" content="2016-02-01 11:51:11" />
+    <meta name="MobileOptimized" content="320">
+  <meta name="HandheldFriendly" content="true">
+<!--  <meta name="viewport" content="width=device-width">-->
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+  <link type="text/css" rel="stylesheet" href="http://www.takepart.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.takepart.com/sites/default/files/css/css_KhP64jMfoI3YMVGZrEzeyP5dijo6jAvzXQZ5VlfcMFk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//s3.amazonaws.com/tab_assets/shared_assets/font.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//s3.amazonaws.com/tab_assets/shared_assets/takepart_icons.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.takepart.com/sites/default/files/css/css_NApGNX3GkkEuZBhYsSML6PjJUwjm61njJ5UDyCSMrPo.css" media="all" />
+<style>#more-on-takepart .tp-more__article{width:145px;height:200px;}
+</style>
+<link type="text/css" rel="stylesheet" href="http://www.takepart.com/sites/default/files/css/css_t2NVE0q2i0LMwAjF7qb9lQfDBABzUBifyPS4zH5XAeU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.takepart.com/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_TY6AdQLSWwa6biDZg9xTDHcThu23IfBuBGYQd8hZWa8.js"></script>
+<script>document.createElement( "picture" );</script>
+<script src="http://www.takepart.com/sites/default/files/js/js_kc2iaYiiuQm-owOEltA-BRNvMW9bZ0_NQsa8IzRyiHs.js"></script>
+<script src="//cdn.optimizely.com/js/77413453.js"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_XW336wQoZa3n34-w5zBNe8Qea9Cj-DUNkjaSBD0-QUE.js"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_MJVVBZoGnDY1LCxeCYtc_6bYfTuLGHOhpV7xs8zt_Ts.js"></script>
+<script src="https://tapembed.takepart.com/embed.js?publisher=d84909c52edcceb20c7bba62052b1b01"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_vtZle9B1kNp433dKI5oyF9dGAXBs7PE0bGswCAAgSYw.js"></script>
+<script src="http://www.takepart.com/api/intercept/intercept.js?o60f9c"></script>
+<script src="//assets.adobedtm.com/1bfdeeddf2a7ac04657b15540f0e8de06d3ee618/satelliteLib-e72f040081d6d4caa0027d0ba1c74cd46d514484.js"></script>
+<script>window.CKEDITOR_BASEPATH = '/sites/all/libraries/ckeditor/'</script>
+<script src="http://www.takepart.com/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-95521-7", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="http://www.takepart.com/sites/default/files/js/js_ydhoBh_1rkpIUf-YUfQ2rYzvJj0UZdhLk2U4vpz5JLc.js"></script>
+<script><!-- 
+ var googletag = googletag || {};
+                  googletag.cmd = googletag.cmd || [];
+                  (function() {
+                  var gads = document.createElement('script');
+                  gads.async = true;
+                  gads.type = 'text/javascript';
+                  var useSSL = 'https:' == document.location.protocol;
+                  gads.src = (useSSL ? 'https:' : 'http:') +
+                  '//www.googletagservices.com/tag/js/gpt.js';
+                  var node = document.getElementsByTagName('script')[0];
+                  node.parentNode.insertBefore(gads, node);
+                  })(); 
+ // --></script>
+<script><!-- 
+googletag.cmd.push(function() {
+if (ad_call_check()) { googletag.defineOutOfPageSlot('/4355895/VideoOverlay_HP', 'div-gpt-ad-1438889960490-0').addService(googletag.pubads());
+}
+googletag.pubads().collapseEmptyDivs();
+googletag.pubads().enableSingleRequest();
+googletag.pubads().setTargeting("Topic", ["Food"]);
+googletag.pubads().setTargeting("Type", "openpublish_article");
+googletag.pubads().setTargeting("PageTitle", "The CDC Can’t Figure Out What Caused Chipotle’s E. Coli Outbreaks");
+googletag.pubads().setTargeting("Environment", "production");
+googletag.pubads().enableSingleRequest(); googletag.enableServices();
+});
+var gpt_ad_tags = new Array();
+ // --></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_7hXxDAnSUV6F1bJpxG5EREahm4WV8fLuEx35ZXonoMw.js"></script>
+<script src="//ak.sail-horizon.com/horizon/v1.js"></script>
+<script>
+    jQuery(function() { 
+    if (window.Sailthru) { 
+      Sailthru.setup({ domain: 'horizon.takepart.com' });
+    }
+    });
+</script>
+<script src="http://www.takepart.com/sites/default/files/js/js_NHIG8t3IukH8qLaNZm1FjVEDVmP5TqG3RTeHkejFzMg.js"></script>
+<script src="//takeaction.takepart.com/assets/influence.js"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_98fFkH8gpWPaX6ZaRT6yX_oCn2UUqfRf11smwqreZ2c.js"></script>
+<script src="//js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js"></script>
+<script src="//jwpsrv.com/library/esP2FhWwEeODmBIxOUCPzg.js"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_IdaKBZf3GqeCu0pUvAinLjTWiybGyyKgwVDox9gkFxY.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fresh","theme_token":"K3HpToRxQV_4dS4p95idqsjW-r3cVuKWJbi7LDUKEE4","js":{"0":1,"1":1,"\/\/takeaction.takepart.com\/assets\/awareness.js":1,"2":1,"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/custom\/tp_social_menu\/js\/jquery.tp4sticky.js":1,"sites\/all\/modules\/custom\/tp_social_menu\/js\/social-menu.js":1,"3":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"misc\/states.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"4":1,"sites\/all\/modules\/custom\/tp_video_player\/js\/jquery.bxslider\/jquery.bxslider.min.js":1,"\/\/cdn.optimizely.com\/js\/77413453.js":1,"sites\/all\/modules\/custom\/pm_interstitial\/js\/interstitial.js":1,"sites\/all\/modules\/custom\/pm_interstitial\/js\/social-follows.js":1,"sites\/all\/modules\/custom\/tp_analytics\/js\/tp-analytics.js":1,"sites\/all\/modules\/custom\/tp_videos\/js\/video-playlist.js":1,"sites\/all\/modules\/custom\/tp_video_player\/js\/player.js":1,"sites\/all\/modules\/custom\/tp_social_menu\/js\/smartresize.js":1,"sites\/all\/modules\/custom\/tp_social_menu\/js\/tpsocial.jquery.js":1,"sites\/all\/modules\/custom\/tp_theme_support\/js\/tp_theme_support.js":1,"sites\/all\/modules\/custom\/tp_social_menu\/js\/tpsocial.services.js":1,"sites\/all\/modules\/contrib\/cache_control\/cache_control.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"https:\/\/tapembed.takepart.com\/embed.js?publisher=d84909c52edcceb20c7bba62052b1b01":1,"sites\/all\/modules\/custom\/tp_geolocation\/js\/geolocation.js":1,"api\/intercept\/intercept.js":1,"\/\/assets.adobedtm.com\/1bfdeeddf2a7ac04657b15540f0e8de06d3ee618\/satelliteLib-e72f040081d6d4caa0027d0ba1c74cd46d514484.js":1,"5":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"6":1,"profiles\/takepart\/modules\/features\/takepart_ads\/js\/check_ad_calls.js":1,"7":1,"8":1,"sites\/all\/modules\/custom\/tp_ads\/js\/tp_ads.js":1,"\/\/ak.sail-horizon.com\/horizon\/v1.js":1,"9":1,"sites\/all\/modules\/custom\/tp_megaslim_menu\/js\/megaslim.js":1,"\/\/takeaction.takepart.com\/assets\/influence.js":1,"sites\/all\/modules\/custom\/tp_auto_scroll\/js\/tp_auto_scroll.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"\/\/js.maxmind.com\/js\/apis\/geoip2\/v2.1\/geoip2.js":1,"\/\/jwpsrv.com\/library\/esP2FhWwEeODmBIxOUCPzg.js":1,"sites\/all\/themes\/base\/js\/tpanalytics.js":1,"sites\/all\/themes\/base\/js\/jquery.tpinfographic.js":1,"sites\/all\/themes\/base\/js\/tpmodal.jquery.js":1,"sites\/all\/themes\/fresh\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/freepager\/freepager.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"\/\/s3.amazonaws.com\/tab_assets\/shared_assets\/font.css":1,"\/\/s3.amazonaws.com\/tab_assets\/shared_assets\/takepart_icons.css":1,"profiles\/takepart\/modules\/features\/takepart_gallery\/takepart_gallery.css":1,"sites\/all\/modules\/contrib\/cache_control\/cache_control.css":1,"sites\/all\/modules\/custom\/ckeditor_take-action-widget\/takepart-take-action-widget-wysiwyg-wrapper.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/takepart\/modules\/features\/takepart_feed\/takepart_feed.css":1,"0":1,"sites\/all\/themes\/fresh\/css\/fresh.css":1,"sites\/all\/themes\/fresh\/system.menus.css":1,"sites\/all\/themes\/fresh\/system.messages.css":1,"sites\/all\/themes\/fresh\/system.theme.css":1}},"cacheControl":{"q":"node\/62679","devMode":0},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.80","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"100%","initialWidth":"300","initialHeight":"100","fixed":true,"scrolling":false,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"tp_video_player":{"key":"xlvA\/gqv5vAkINGetf3aFsus8xjtNRWt+WzQqA=="},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"tp_leader_ad_settings":[{"ads":[{"selector":".mobile-article-ad","ad_slot":"TP_ROS_728x90_1_Responsive","ad_gpd_id":"div-gpt-ad-1458853247421-0","mobile":{"ad_width":"320,300","ad_height":"50,50"},"tablet":{"ad_width":"728","ad_height":"90"},"desktop":{"ad_width":"728,970,1022","ad_height":"90,250,400"},"javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_728x90_1_Responsive--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1458853247421-0\u0022 style=\u0022\u0022 class=\u0022leaderboard mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]        var mapping = googletag.sizeMapping().addSize([980, 0], [[728,90],[970,250],[1022,400]]).addSize([768, 0], [[728,90]]).addSize([0, 0], [[320,50],[300,50]]).build();      window.TP_ROS_728x90_1_Responsive = googletag.defineSlot(\u0027\/4355895\/TP_ROS_728x90_1_Responsive\u0027, [728,90], \u0027div-gpt-ad-1458853247421-0\u0027).defineSizeMapping(mapping).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1458853247421-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".mobile-article-ad"},{"ads":[{"selector":".mobile-article-ad","ad_slot":"TP_ROS_728x90_2_Responsive","ad_gpd_id":"div-gpt-ad-1458853304098-0","mobile":{"ad_width":"320,300","ad_height":"50,50"},"tablet":{"ad_width":"728","ad_height":"90"},"desktop":{"ad_width":"728,970","ad_height":"90,250"},"javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_728x90_2_Responsive--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1458853304098-0\u0022 style=\u0022\u0022 class=\u0022leaderboard mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]        var mapping = googletag.sizeMapping().addSize([980, 0], [[728,90],[970,250]]).addSize([768, 0], [[728,90]]).addSize([0, 0], [[320,50],[300,50]]).build();      window.TP_ROS_728x90_2_Responsive = googletag.defineSlot(\u0027\/4355895\/TP_ROS_728x90_2_Responsive\u0027, [728,90], \u0027div-gpt-ad-1458853304098-0\u0027).defineSizeMapping(mapping).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1458853304098-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".mobile-article-ad"},{"ads":[{"selector":".mobile-article-ad","ad_slot":"TP_ROS_728x90_3_Responsive","ad_gpd_id":"div-gpt-ad-1458853372927-0","mobile":{"ad_width":"320,300","ad_height":"50,50"},"tablet":{"ad_width":"728","ad_height":"90"},"desktop":{"ad_width":"728,970","ad_height":"90,250"},"javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_728x90_3_Responsive--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1458853372927-0\u0022 style=\u0022\u0022 class=\u0022leaderboard mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]        var mapping = googletag.sizeMapping().addSize([980, 0], [[728,90],[970,250]]).addSize([768, 0], [[728,90]]).addSize([0, 0], [[320,50],[300,50]]).build();      window.TP_ROS_728x90_3_Responsive = googletag.defineSlot(\u0027\/4355895\/TP_ROS_728x90_3_Responsive\u0027, [728,90], \u0027div-gpt-ad-1458853372927-0\u0027).defineSizeMapping(mapping).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1458853372927-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".mobile-article-ad"},{"ads":[{"selector":".mobile-article-ad","ad_slot":"TP_ROS_728x90_4_Responsive","ad_gpd_id":"div-gpt-ad-1458853404535-0","mobile":{"ad_width":"320,300","ad_height":"50,50"},"tablet":{"ad_width":"728","ad_height":"90"},"desktop":{"ad_width":"728, 970","ad_height":"90, 250"},"javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_728x90_4_Responsive--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1458853404535-0\u0022 style=\u0022\u0022 class=\u0022leaderboard mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]        var mapping = googletag.sizeMapping().addSize([980, 0], [[728,90],[970,250]]).addSize([768, 0], [[728,90]]).addSize([0, 0], [[320,50],[300,50]]).build();      window.TP_ROS_728x90_4_Responsive = googletag.defineSlot(\u0027\/4355895\/TP_ROS_728x90_4_Responsive\u0027, [728,90], \u0027div-gpt-ad-1458853404535-0\u0027).defineSizeMapping(mapping).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1458853404535-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".mobile-article-ad"},{"ads":[{"selector":".mobile-article-ad","ad_slot":"TP_ROS_728x90_5_Responsive","ad_gpd_id":"div-gpt-ad-1458853433039-0","mobile":{"ad_width":"320,300","ad_height":"50,50"},"tablet":{"ad_width":"728","ad_height":"90"},"desktop":{"ad_width":"728, 970","ad_height":"90, 250"},"javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_728x90_5_Responsive--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1458853433039-0\u0022 style=\u0022\u0022 class=\u0022leaderboard mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]        var mapping = googletag.sizeMapping().addSize([980, 0], [[728,90],[970,250]]).addSize([768, 0], [[728,90]]).addSize([0, 0], [[320,50],[300,50]]).build();      window.TP_ROS_728x90_5_Responsive = googletag.defineSlot(\u0027\/4355895\/TP_ROS_728x90_5_Responsive\u0027, [728,90], \u0027div-gpt-ad-1458853433039-0\u0027).defineSizeMapping(mapping).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1458853433039-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".mobile-article-ad"}],"tp_ad_more_on_takepart":[{"ads":[{"ad_slot":"Native_Promo_Unit_1","ad_gpd_id":"div-gpt-ad-1444864916833-0","width":"145","height":"200","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864916833-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_1 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_1\u0027, [adsizes], \u0027div-gpt-ad-1444864916833-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864916833-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864916833-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_1 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_1\u0027, [adsizes], \u0027div-gpt-ad-1444864916833-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864916833-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".tp-more-on-takepart .tp-more__article.override"},{"ads":[{"ad_slot":"Native_Promo_Unit_2","ad_gpd_id":"div-gpt-ad-1444865018948-0","width":"145","height":"200","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865018948-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_2 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_2\u0027, [adsizes], \u0027div-gpt-ad-1444865018948-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865018948-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865018948-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_2 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_2\u0027, [adsizes], \u0027div-gpt-ad-1444865018948-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865018948-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".tp-more-on-takepart .tp-more__article.override"},{"ads":[{"ad_slot":"Native_Promo_Unit_3","ad_gpd_id":"div-gpt-ad-1444865097845-0","width":"145","height":"200","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865097845-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_3 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_3\u0027, [adsizes], \u0027div-gpt-ad-1444865097845-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865097845-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865097845-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_3 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_3\u0027, [adsizes], \u0027div-gpt-ad-1444865097845-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865097845-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".tp-more-on-takepart .tp-more__article.override"},{"ads":[{"ad_slot":"Native_Promo_Unit_4","ad_gpd_id":"div-gpt-ad-1444865169738-0","width":"145","height":"200","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865169738-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_4 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_4\u0027, [adsizes], \u0027div-gpt-ad-1444865169738-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865169738-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865169738-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_4 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_4\u0027, [adsizes], \u0027div-gpt-ad-1444865169738-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865169738-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".tp-more-on-takepart .tp-more__article.override"},{"ads":[{"ad_slot":"Native_Promo_Unit_5","ad_gpd_id":"div-gpt-ad-1444865281429-0","width":"145","height":"200","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865281429-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_5 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_5\u0027, [adsizes], \u0027div-gpt-ad-1444865281429-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865281429-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--Native_Promo_Unit_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444865281429-0\u0022 style=\u0022\u0022 class=\u0022 dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.Native_Promo_Unit_5 = googletag.defineSlot(\u0027\/4355895\/Native_Promo_Unit_5\u0027, [adsizes], \u0027div-gpt-ad-1444865281429-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444865281429-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","placement":1}],"selector":".tp-more-on-takepart .tp-more__article.override"}],"tp_ad_settings":[{"ads":[{"ad_slot":"TP_ROS_Inline_300x250_A_1","ad_gpd_id":"div-gpt-ad-1444864233204-0","ad_width":"300,300","ad_height":"250,600","placement":"2","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864233204-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_1 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_1\u0027, [adsizes], \u0027div-gpt-ad-1444864233204-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864233204-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864233204-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_1 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_1\u0027, [adsizes], \u0027div-gpt-ad-1444864233204-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864233204-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_Inline_300x250_B_1","ad_gpd_id":"div-gpt-ad-1445896855495-0","ad_width":"300,300","ad_height":"250,600","placement":"10","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445896855495-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_1 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_1\u0027, [adsizes], \u0027div-gpt-ad-1445896855495-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445896855495-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445896855495-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_1 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_1\u0027, [adsizes], \u0027div-gpt-ad-1445896855495-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445896855495-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_ROS_300x250_1","ad_gpd_id":"div-gpt-ad-1445897757033-0","ad_width":"300,300","ad_height":"250,600","placement":"18","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897757033-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_1 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_1\u0027, [adsizes], \u0027div-gpt-ad-1445897757033-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897757033-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_1--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897757033-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_1 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_1\u0027, [adsizes], \u0027div-gpt-ad-1445897757033-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897757033-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"}],"selector":".main-content .field-item \u003E p"},{"ads":[{"ad_slot":"TP_ROS_Inline_300x250_A_2","ad_gpd_id":"div-gpt-ad-1444864269530-0","ad_width":"300,300","ad_height":"250,600","placement":"2","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864269530-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_2 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_2\u0027, [adsizes], \u0027div-gpt-ad-1444864269530-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864269530-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864269530-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_2 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_2\u0027, [adsizes], \u0027div-gpt-ad-1444864269530-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864269530-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_Inline_300x250_B_2","ad_gpd_id":"div-gpt-ad-1445897092248-0","ad_width":"300,300","ad_height":"250,600","placement":"10","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897092248-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_2 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_2\u0027, [adsizes], \u0027div-gpt-ad-1445897092248-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897092248-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897092248-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_2 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_2\u0027, [adsizes], \u0027div-gpt-ad-1445897092248-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897092248-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_ROS_300x250_2","ad_gpd_id":"div-gpt-ad-1445899359152-0","ad_width":"300,300","ad_height":"250,600","placement":"18","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445899359152-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_2 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_2\u0027, [adsizes], \u0027div-gpt-ad-1445899359152-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445899359152-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_2--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445899359152-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_2 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_2\u0027, [adsizes], \u0027div-gpt-ad-1445899359152-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445899359152-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"}],"selector":".main-content .field-item \u003E p"},{"ads":[{"ad_slot":"TP_ROS_Inline_300x250_A_3","ad_gpd_id":"div-gpt-ad-1444864349408-0","ad_width":"300,300","ad_height":"250,600","placement":"2","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864349408-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_3 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_3\u0027, [adsizes], \u0027div-gpt-ad-1444864349408-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864349408-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864349408-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_3 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_3\u0027, [adsizes], \u0027div-gpt-ad-1444864349408-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864349408-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_Inline_300x250_B_3","ad_gpd_id":"div-gpt-ad-1445897186455-0","ad_width":"300,300","ad_height":"250,600","placement":"10","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897186455-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_3 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_3\u0027, [adsizes], \u0027div-gpt-ad-1445897186455-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897186455-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897186455-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_3 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_3\u0027, [adsizes], \u0027div-gpt-ad-1445897186455-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897186455-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_ROS_300x250_3","ad_gpd_id":"div-gpt-ad-1445897990588-0","ad_width":"300,300","ad_height":"250,600","placement":"18","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897990588-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_3 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_3\u0027, [adsizes], \u0027div-gpt-ad-1445897990588-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897990588-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_3--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897990588-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_3 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_3\u0027, [adsizes], \u0027div-gpt-ad-1445897990588-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897990588-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"}],"selector":".main-content .field-item \u003E p"},{"ads":[{"ad_slot":"TP_ROS_Inline_300x250_A_4","ad_gpd_id":"div-gpt-ad-1444864380682-0","ad_width":"300,300","ad_height":"250,600","placement":"2","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864380682-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_4 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_4\u0027, [adsizes], \u0027div-gpt-ad-1444864380682-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864380682-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864380682-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_4 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_4\u0027, [adsizes], \u0027div-gpt-ad-1444864380682-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864380682-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_Inline_300x250_B_4","ad_gpd_id":"div-gpt-ad-1445897334544-0","ad_width":"300,300","ad_height":"250,600","placement":"10","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897334544-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_4 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_4\u0027, [adsizes], \u0027div-gpt-ad-1445897334544-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897334544-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897334544-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_4 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_4\u0027, [adsizes], \u0027div-gpt-ad-1445897334544-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897334544-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_ROS_300x250_4","ad_gpd_id":"div-gpt-ad-1445898060634-0","ad_width":"300,300","ad_height":"250,600","placement":"18","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445898060634-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_4 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_4\u0027, [adsizes], \u0027div-gpt-ad-1445898060634-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445898060634-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_4--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445898060634-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_4 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_4\u0027, [adsizes], \u0027div-gpt-ad-1445898060634-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445898060634-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"}],"selector":".main-content .field-item \u003E p"},{"ads":[{"ad_slot":"TP_ROS_Inline_300x250_A_5","ad_gpd_id":"div-gpt-ad-1444864410261-0","ad_width":"300,300","ad_height":"250,600","placement":"2","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864410261-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_5 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_5\u0027, [adsizes], \u0027div-gpt-ad-1444864410261-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864410261-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_Inline_300x250_A_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1444864410261-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_Inline_300x250_A_5 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_Inline_300x250_A_5\u0027, [adsizes], \u0027div-gpt-ad-1444864410261-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1444864410261-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_Inline_300x250_B_5","ad_gpd_id":"div-gpt-ad-1445897388532-0","ad_width":"300,300","ad_height":"250,600","placement":"10","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897388532-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_5 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_5\u0027, [adsizes], \u0027div-gpt-ad-1445897388532-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897388532-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_Inline_300x250_B_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445897388532-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_Inline_300x250_B_5 = googletag.defineSlot(\u0027\/4355895\/TP_Inline_300x250_B_5\u0027, [adsizes], \u0027div-gpt-ad-1445897388532-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445897388532-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"},{"ad_slot":"TP_ROS_300x250_5","ad_gpd_id":"div-gpt-ad-1445898143128-0","ad_width":"300,300","ad_height":"250,600","placement":"18","javascript":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445898143128-0\u0022 style=\u0022\u0022 class=\u0022mobile dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_5 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_5\u0027, [adsizes], \u0027div-gpt-ad-1445898143128-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445898143128-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","javascript_desktop":"\u003Cdiv class=\u0022tp-ad \u0022\u003E  \u003Cdiv class=\u0022ad-wrapper\u0022\u003E    \u003Cdiv style=\u0022text-align: center;\u0022 class=\u0022tp-main-ad-wrapper\u0022\u003E\u003C!--TP_ROS_300x250_5--\u003E\u003Ch5 class=\u0022ad-label text-center\u0022\u003EAdvertisement\u003C\/h5\u003E\u003Cdiv id=\u0022div-gpt-ad-1445898143128-0\u0022 style=\u0022\u0022 class=\u0022desktop dfp-ad-tag\u0022\u003E\u003Cscript\u003Egoogletag.cmd.push(function() { [targets]      window.TP_ROS_300x250_5 = googletag.defineSlot(\u0027\/4355895\/TP_ROS_300x250_5\u0027, [adsizes], \u0027div-gpt-ad-1445898143128-0\u0027).addService(googletag.pubads());        googletag.enableServices();        googletag.display(\u0027div-gpt-ad-1445898143128-0\u0027);        });\u003C\/script\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E"}],"selector":".main-content .field-item \u003E p"}],"tp_common":{"breakpoint_phablet":480},"states":{"#edit-field-campaign-media-photo":{"visible":{":input[name=field_campaign_media_type\\[und\\]]":{"value":0}}},"#edit-field-campaign-media-image-link":{"visible":{":input[name=field_campaign_media_type\\[und\\]]":{"value":0}}},"#edit-field-campaign-media-video":{"visible":{":input[name=field_campaign_media_type\\[und\\]]":{"value":1}}},"#edit-field-media-video-playlist":{"visible":{":input[name=field_campaign_media_type\\[und\\]]":{"value":2}}},"#edit-field-campaign-single-news-ref":{"visible":{":input[name=field_campaign_news_type\\[und\\]]":{"value":0}}},"#edit-field-campaign-multi-news-ref":{"visible":{":input[name=field_campaign_news_type\\[und\\]]":{"value":1}}},"#edit-field-campaign-news-filter-tag":{"visible":{":input[name=field_campaign_news_type\\[und\\]]":{"value":1}}},"#edit-field-campaign-news-count":{"visible":{":input[name=field_campaign_news_type\\[und\\]]":{"value":1}}}},"urlIsAjaxTrusted":{"\/":true},"tpAutoScroll":[{"articles":["\/autoscroll\/full\/63859","\/autoscroll\/full\/63849","\/autoscroll\/full\/63845","\/autoscroll\/full\/63806"],"next_selector":"#next-article","content_selector":"article","limit":4,"auto_updates":{"http:\/\/www.takepart.com\/article\/2016\/02\/01\/chipotle-cdc-investigation":{"width":775,"height":518,"targets":{"FreeTag":"\u0022\u0022","PageTitle":"The CDC Can\u2019t Figure Out What Caused Chipotle\u2019s E. Coli Outbreaks","Type":"openpublish_article","Topic":["Food"],"Series":"\u0022\u0022","Sponsor":"\u0022\u0022"},"data":{"pid":"54e612da736b7938011a0000","title":"The CDC Can\\\u0027t Figure Out What Caused Chipotle\\\u0027s E. Coli Outbreaks","url":"http:\/\/www.takepart.com\/article\/2016\/02\/01\/chipotle-cdc-investigation","tags":"\u0022\u0022","date":"2016-02-01T11:51:11-08:00","authors":["Willy Blackmore"],"channels":["Food"]},"TopArticle":true,"sailthru_tags":"food,openpublish_article","sailthru_authors":"Willy Blackmore","sailthru_date":"2016-02-01 11:51:11"},"http:\/\/www.takepart.com\/article\/2016\/04\/27\/lettuce":{"width":775,"height":518,"targets":{"FreeTag":"\u0022\u0022","PageTitle":"Don\\\u0027t Hate on Iceberg Lettuce","Type":"openpublish_article","Topic":["Food"],"Series":["Jane Says"],"Sponsor":"\u0022\u0022"},"data":{"pid":"54e612da736b7938011a0000","title":"Don\\\u0027t Hate on Iceberg Lettuce","url":"http:\/\/www.takepart.com\/article\/2016\/04\/27\/lettuce","tags":"\u0022\u0022","date":"2016-04-27T12:38:04-07:00","authors":["Jane Lear"],"channels":["Food"]},"TopArticle":false,"sailthru_tags":"food,openpublish_article","sailthru_authors":"Jane Lear","sailthru_date":"2016-04-27 12:38:04"},"http:\/\/www.takepart.com\/article\/2016\/04\/26\/childhood-obesity-rates-study":{"width":775,"height":518,"targets":{"FreeTag":"\u0022\u0022","PageTitle":"We Aren\u2019t Winning the Fight Against Obesity","Type":"openpublish_article","Topic":["Food"],"Series":["Free Range"],"Sponsor":"\u0022\u0022"},"data":{"pid":"54e612da736b7938011a0000","title":"We Aren\\\u0027t Winning the Fight Against Obesity","url":"http:\/\/www.takepart.com\/article\/2016\/04\/26\/childhood-obesity-rates-study","tags":"\u0022\u0022","date":"2016-04-26T14:23:51-07:00","authors":["Jason Best"],"channels":["Food"]},"TopArticle":false,"sailthru_tags":"food,openpublish_article","sailthru_authors":"Jason Best","sailthru_date":"2016-04-26 14:23:51"},"http:\/\/www.takepart.com\/article\/2016\/04\/25\/animal-food-dinner":{"width":775,"height":518,"targets":{"FreeTag":"\u0022\u0022","PageTitle":"Fodder Dinners Want Guests to Eat Like a Cow","Type":"openpublish_article","Topic":["Food"],"Series":"\u0022\u0022","Sponsor":"\u0022\u0022"},"data":{"pid":"54e612da736b7938011a0000","title":"Fodder Dinners Want Guests to Eat Like a Cow","url":"http:\/\/www.takepart.com\/article\/2016\/04\/25\/animal-food-dinner","tags":"\u0022\u0022","date":"2016-04-25T16:34:31-07:00","authors":["Sarah McColl"],"channels":["Food"]},"TopArticle":false,"sailthru_tags":"food,openpublish_article","sailthru_authors":"Sarah McColl","sailthru_date":"2016-04-25 16:34:31"},"http:\/\/www.takepart.com\/article\/2016\/04\/23\/porridge-meal-replacement":{"width":775,"height":518,"targets":{"FreeTag":"\u0022\u0022","PageTitle":"The Simplest of Meals Could Help People Eat Better and Earn More in East Africa","Type":"openpublish_article","Topic":["Food"],"Series":"\u0022\u0022","Sponsor":"\u0022\u0022"},"data":{"pid":"54e612da736b7938011a0000","title":"The Simplest of Meals Could Help People Eat Better and Earn More in East Africa","url":"http:\/\/www.takepart.com\/article\/2016\/04\/23\/porridge-meal-replacement","tags":"\u0022\u0022","date":"2016-04-23T12:59:08-07:00","authors":["Tove Danovich"],"channels":["Food"]},"TopArticle":false,"sailthru_tags":"food,openpublish_article","sailthru_authors":"Tove Danovich","sailthru_date":"2016-04-23 12:59:08"}}}]});</script>
+  <script src="https://api.takepart.com/assets/dtm_data.js"></script>
+  <script src="https://api.takepart.com/assets/login_widget.js"></script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-62679 node-type-openpublish-article interstitials-exclude food-topic-content food-topic-content"  data-interstitial-referer="">
+    <div class="region region-page-top">
+      <div id="fb-root"></div>
+  <script type="text/javascript">
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: '247137505296280',
+        version: 'v2.3',
+        status: true,
+        cookie: true,
+	   xfbml: true
+      });
+    };
+
+    (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+  </script>  </div>
+  
+<nav id="mobile-menu" class="menu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-header"><div class="follow-us">
+  <ul class="social menu horizontal-menu">
+    <li class="item"><a href="//facebook.com/takepart" class="icon i-facebook"></a></li>
+    <li class="item"><a href="//twitter.com/takepart" class="icon i-twitter"></a></li>
+    <li class="item"><a href="//plus.google.com/+TakePart" class="icon i-google_plusone_share"></a></li>
+    <li class="item"><a href="/follow-us-email" class="icon i-email"></a></li>
+  </ul>
+</div></div><div class="mobile-menu"><ul class="menu"><li class="menu__item is-expanded first expanded"><a href="/in-the-news" name="See all News" class="menu__link">News</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/social-justice" class="menu__link">Social Justice</a></li>
+<li class="menu__item is-leaf leaf"><a href="/gay-rights" class="menu__link">LGBT Rights</a></li>
+<li class="menu__item is-leaf leaf"><a href="/education" class="menu__link">Education</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/features" class="menu__link">Features</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded"><a href="/environment" class="menu__link">Environment</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/free-tags/climate-change" class="menu__link">Climate Change</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wildlife" class="menu__link">Wildlife</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/free-tags/oceans" class="menu__link">Oceans</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded"><a href="/food" class="menu__link">Food</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/free-tags/farming" class="menu__link">Farming</a></li>
+<li class="menu__item is-leaf leaf"><a href="/free-tags/cooking" class="menu__link">Cooking</a></li>
+<li class="menu__item is-leaf leaf"><a href="/free-tags/fast-food" class="menu__link">Restaurants</a></li>
+<li class="menu__item is-leaf leaf"><a href="/free-tags/livestock" class="menu__link">Animals</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://www.takepart.com/series/jane-says" class="menu__link">Jane Says</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded"><a href="/culture" class="menu__link">Culture</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/free-tags/entertainment" class="menu__link">Entertainment</a></li>
+<li class="menu__item is-leaf leaf"><a href="/health" class="menu__link">Health</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/lifestyle" class="menu__link">Lifestyle</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded"><a href="/international" class="menu__link">World</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/free-tags/tpw-foreign-aid" class="menu__link">Aid &amp; Development</a></li>
+<li class="menu__item is-leaf leaf"><a href="/free-tags/tpw-tech" class="menu__link">Innovation</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/free-tags/global-health" class="menu__link">Global Health</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded"><a href="/business" class="menu__link">Business</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/insights" class="menu__link">Insights</a></li>
+<li class="menu__item is-leaf leaf"><a href="/innovation-technology" class="menu__link">Innovation &amp; Tech</a></li>
+<li class="menu__item is-leaf leaf"><a href="/green" class="menu__link">Green</a></li>
+<li class="menu__item is-leaf leaf"><a href="/free-tags/entrepreneurs" class="menu__link">Entrepreneurs</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/free-tags/restaurants" class="menu__link">Restaurants</a></li>
+</ul></li>
+<li class="menu__item is-expanded last expanded"><a href="/content/take-action-mega-menu" id="action" name="See all Actions" class="menu__link takeaction-logo menu-node-unpublished">Take Action</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="http://takeaction.takepart.com/?browse=featured&amp;filtered=true&amp;sort=recent" class="menu__link">Featured Actions</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://takeaction.takepart.com/?filtered=true&amp;sort=recent&amp;types=Petition" class="menu__link">Petitions</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://takeaction.takepart.com/?types=Pledge&amp;filtered=true&amp;sort=recent" class="menu__link">Pledges</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://takeaction.takepart.com/?browse=pivot&amp;filtered=true&amp;tags=&amp;sort=recent" class="menu__link">Film &amp; TV Actions</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://takeaction.takepart.com/dashboard" class="menu__link">Track Your Impact</a></li>
+</ul></li>
+</ul></div>  </div>
+</nav>
+<div id="page-wrapper">
+  <div class="fresh-first-ad"></div>
+<header class="header header__region region region-header" id="header" role="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xxs-12">
+        <div id="block-boxes-optimizely-fresh" class="block block-boxes block-boxes-simple first last odd">
+
+      
+  <div id='boxes-box-optimizely_fresh' class='boxes-box'><div class="boxes-box-content"><script src="//cdn.optimizely.com/js/77413453.js"></script></div></div>
+</div>
+<div class="navbar-fat clearfix">
+  <div class="menu-toggle toggle-menu toggle-left pr-10">
+    <span class="icon i-hamburger"></span>
+  </div>
+  <a href="http://www.takepart.com" class="logo"><img src="http://www.takepart.com/sites/all/themes/base/images/logo.png" alt="" /></a>  <div class="follow-us">
+    <div class="text">Follow Us</div>
+    <ul class="menu horizontal-menu">
+      <li>
+        <a class="icon i-facebook" href="https://www.facebook.com/takepart" target="_blank" name="social"></a>
+      </li>
+      <li>
+        <a class="icon i-google_plusone_share" href="https://plus.google.com/+TakePart" target="_blank" name="social"></a>
+      </li>
+      <li>
+        <a class="icon i-twitter" href="https://twitter.com/takepart" target="_blank" name="social"></a>
+      </li>
+      <li>
+        <a class="icon i-email" href="/follow-us-email" target="_blank" name="social"></a>
+      </li>
+    </ul>
+  </div>
+  <div class="user-menu fresh-theme">
+    <div class="tpsLogin"></div>
+  </div>
+  <div class="search">
+    <div class="toggle-search"><span class="icon i-search"></span></div>
+    <form action="/" method="post" id="search-api-page-search-form-site-search" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-keys-4">
+  <label class="element-invisible" for="edit-keys-4">Enter your keywords </label>
+ <input placeholder="Enter your keywords" type="text" id="edit-keys-4" name="keys_4" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<input type="hidden" name="id" value="4" />
+<input type="submit" id="edit-submit-4" name="op" value="Search" class="form-submit" /><input type="hidden" name="form_build_id" value="form-Hs1WgnuP3EUKLhUKU6ZOsaxSfoJtWkecPZEbDzCiKUg" />
+<input type="hidden" name="form_id" value="search_api_page_search_form_site_search" />
+</div></form>  </div>
+</div>
+<div class="item-list"><ul id="megaslim"><li class="mega-item first"><a href="/in-the-news" data-mlid="11065" class="item-11065">News</a></li>
+<li class="mega-item"><a href="/environment" data-mlid="8297" class="item-8297">Environment</a></li>
+<li class="mega-item"><a href="/food" data-mlid="8309" class="item-8309">Food</a></li>
+<li class="mega-item"><a href="/culture" data-mlid="11066" class="item-11066">Culture</a></li>
+<li class="mega-item"><a href="/international" data-mlid="11064" class="item-11064">World</a></li>
+<li class="mega-item"><a href="/business" data-mlid="47254" class="item-47254">Business</a></li>
+<li class="mega-item last"><a href="/content/take-action-mega-menu" data-mlid="8326" class="item-8326">Take Action <span class="icon i-take-action"></span></a></li>
+</ul></div>      </div>
+    </div>
+  </div>
+</header>  <div class="main-content" id="content" role="main">
+    <div class="container">
+      <div class="row">
+                                                  
+
+
+
+    <div class = "article-wrapper fresh-content-wrapper clearfix">
+      <aside class="social social-vertical stick">
+   <div class="item-list social-wrapper"><ul class="parent-social-menu "><li class="share first"><h3 class="tp-social-headline share-headline">Share</h3><div class="share-submenu-wrapper"><div class="tp-social"></div><div></div></div>
+                <p id="article-comments-link" class="comments-link">
+                    <a href="#article-comments">Comments<span class="count"></span></a>
+                </p><div class="tap-influence-overlay"></div><span class="tap-influence-icon icon i-influence"><h3 class="tp-social-headline reach">Your Reach</h3></span></li>
+<li class="takeaction last" data-desktop-pos="0"><a class="takepart-custom-take-action-button"><h3 class="tp-social-headline takeaction-headline">Take Action</h3><i class="tpi icon i-take-action"></i></a></li>
+</ul></div>    </aside>
+        <div class="advertisement">
+      <div class="mobile-article-ad"></div>
+    </div>
+    <article class="col-xs-10 col-xs-offset-1 clearfix node node-openpublish-article view-mode-full view-mode-full" data-ddl-page-id="62679" data-tp-og-title="The CDC Can’t Figure Out What Caused Chipotle’s E. Coli Outbreaks" data-tp-og-description="The official investigation is now closed." data-tp-og-image="http://www.takepart.com/sites/default/files/chipotle-ecoli-MAIN.jpg" data-tp-og-url="http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation">
+
+    <div class="section">
+            <h1 class="title">The CDC Can’t Figure Out What Caused Chipotle’s E. Coli Outbreaks</h1>
+           <div class="headline">The official investigation is now closed.</div>
+       </div>
+    <div class="section">
+      <div class = "align-sticky"></div>
+        <div class="row row-remove-xs">
+    <div class="main-media"><picture  class="main-image">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://www.takepart.com/sites/default/files/styles/large_responsive_desktop/public/chipotle-ecoli-MAIN.jpg?itok=QowyPbdw 1x" media="(min-width: 980px)" />
+<source srcset="http://www.takepart.com/sites/default/files/styles/large_responsive_tablet/public/chipotle-ecoli-MAIN.jpg?itok=UzMlsD-q 1x" media="(min-width: 768px)" />
+<source srcset="http://www.takepart.com/sites/default/files/styles/large_responsive_mobile/public/chipotle-ecoli-MAIN.jpg?itok=t9Bu1gNs 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<!--[if lt IE 9]>
+<img class="main-image" src="http://www.takepart.com/sites/default/files/styles//public/chipotle-ecoli-MAIN.jpg?itok=zvJNraJW" alt="" title="" />
+<![endif]-->
+<!--[if !lt IE 9]><!-->
+<img  class="main-image" srcset="http://www.takepart.com/sites/default/files/styles//public/chipotle-ecoli-MAIN.jpg?itok=zvJNraJW 775w" alt="" title="" />
+<!-- <![endif]-->
+</picture><div class="caption"><p>Boston Inspectional Services Department Commissioner William Christopher eats lunch with his chief of staff, Indira Alvarez, at the Chipotle on Beacon Street. Chipotle reopened the location after 136 Boston College students and others got sick after eating there. (Photo: Keith Bedford/‘The Boston Globe’ via Getty Images)</p>
+</div>
+</div>     </div>
+       </div>
+    <div class="section">
+           <div class="row">
+    <div class="author-teaser col-xxs-12 col-xs-10 col-xs-offset-1">
+  <div class="line line-style-2"></div>
+  <div class="row author">
+          <div class="published-at col-xxs-10 col-xxs-offset-2">Feb 1, 2016</div>
+    	 
+    <div class="image col-xxs-2"><img class="img-circle" src="http://www.takepart.com/sites/default/files/styles/70x70_thumbnail/public/profiles/photos/willy_120x120.jpg?itok=5oC5FiRI" /></div>
+    
+    <div class="about col-xxs-10 col-xs-7">Willy Blackmore is TakePart’s Food editor.</div>
+    <div class="links col-xxs-10 col-xxs-offset-2 col-xs-3 col-xs-offset-0">
+      <ul class="menu horizontal-menu">
+                  <li><a href="/author/willy-blackmore" class="btn btn-secondary" id="author_bio">Bio</a></li>
+                  <li><a href="https://twitter.com/willyblackmore" class="btn btn-secondary" target="_blank"><span class="icon i-twitter"></span></a></li>
+                  <li><a href="http://plus.google.com/101825085125681974231" class="btn btn-secondary" target="_blank"><span class="icon i-google_plusone_share"></span></a></li>
+              </ul>
+    </div>
+  </div>
+  <div class="line line-style-1"></div>
+</div>     </div>
+           <div class="main-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>After months of turmoil, Chipotle marked another step toward burrito-bowl normalcy on Monday: The Centers for Disease Control and Prevention said it has <a href="http://www.cdc.gov/ecoli/2015/O26-11-15/index.html" target="_blank">closed its investigation</a> into the two E. coli outbreaks that originated at the chain. An update on the agency’s website read, “These two outbreaks appear to be over.”</p>
+<p>Since October, illnesses have been reported in 14 states between the two outbreaks—60 people were sickened, with 22 hospitalized and no deaths.</p>
+<p>According to the CDC, “A common meal item or ingredient served at Chipotle Mexican Grill restaurants was a likely source of both outbreaks,” but with the case closed and the source eluding investigators since October, it’s unlikely that the culprit or culprits will be found.</p>
+<p>Chipotle’s stock price, which dropped by 30 percent in the wake of the outbreaks, was up by nearly 4 percent Monday morning. “We are pleased that the CDC has concluded its investigation, and we have offered our full cooperation throughout,” Chris Arnold, a Chipotle spokesman, said in a statement.</p>
+<p>With its efforts to overhaul food-safety protocols, give away burritos, and make Chipotle “the safest place to eat”—as CEO Steve Ells said on <em>Today</em>&nbsp;in December—the chain has been trying for months to move on from its food-safety crisis. But even with the end of the CDC investigation, Chipotle hasn’t seen the end of its trouble. There are multiple <a href="/article/2015/12/18/chipotle-apology-lawsuit">class-action lawsuits</a> from victims of the E. coli, norovirus, and salmonella outbreaks, as well as a suit filed by investors alleging that the chain <a href="/article/2016/01/09/chipotle-investor-lawsuit">misled stockholders</a> about its food-safety protocols. Then there’s the ongoing <a href="/article/2016/01/06/chipotle-criminal-investigation">federal criminal investigation</a> surrounding the norovirus outbreak in California.</p>
+
+<div class="tap-action-wrapper align-center"><div class="tap-action" data-action-id="9035561"></div>
+</div>
+</div></div></div>     </div>
+       </div>
+        
+               <div class="comments"><a name="article-comments"></a>
+    <div id="comments-62679">
+  <a class="comments-count"><span class="icon i-chat-bubble"></span>
+    Show Comments (<span class="fb-comments-count" data-href="http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation"></span>)</a>
+
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  var commentsid = jQuery("#comments-62679");
+
+  var width = 320;
+  if (window.innerWidth > 480) {
+    width = 640;
+  }
+
+  commentsid.append("<div class=\"fb-comments\" data-href=\"http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation\" data-numposts=\"1\" data-version=\"v2.3\" data-width=\""+width+"\"></div>")
+  if(typeof FB != 'undefined') {
+    FB.XFBML.parse(document.getElementById("comments-62679"));
+  }
+});
+</script>
+        </div>
+       
+       <div id="more-on-takepart" class="tp-more-on-takepart row has-promoted-video clearfix">
+  <h2 class="tp-more__title">More on TakePart</h2>
+  <div class="mot-left"><div class="tp-more__article">
+	<a href="/feature/2015/12/14/big-food-goes-natural" class="more_on_takepart_related">
+		<div class="thumbnail">
+		    <img src="http://www.takepart.com/sites/default/files/styles/homepage_featured_image/public/Big-goes-natural-PROMO.jpg?itok=5Fd2BJMa" alt="The Rise of Feel-Good Fast Food" title="The Rise of Feel-Good Fast Food" />		    <span class="icon "></span>
+		</div>
+		<h4 class="tp-more__article-title">The Rise of Feel-Good Fast Food</h4>
+    	</a>
+</div>
+<div class="tp-more__article">
+	<a href="/article/2016/01/28/food-poisoning-cucumbers-chipotle" class="more_on_takepart_related">
+		<div class="thumbnail">
+		    <img src="http://www.takepart.com/sites/default/files/styles/homepage_featured_image/public/cucumbers-chipotle.jpg?itok=YtiQaK9I" alt="No, This Isn’t Another Story About Food Poisoning at Chipotle—Except It Kind Of Is" title="No, This Isn’t Another Story About Food Poisoning at Chipotle—Except It Kind Of Is" />		    <span class="icon "></span>
+		</div>
+		<h4 class="tp-more__article-title">No, This Isn’t Another Story About Food Poisoning at Chipotle—E...</h4>
+    	</a>
+</div>
+<div class="tp-more__article">
+	<a href="/photos/daily-wild-nature-s-most-incredible-creatures-0" class="more_on_takepart_promoted">
+		<div class="thumbnail">
+		    <img src="http://www.takepart.com/sites/default/files/styles/homepage_featured_image/public/PromoRedFoxKits.jpg?itok=dwuT-ZAY" alt="The Daily Wild: Red Fox Pups Saved" title="The Daily Wild: Red Fox Pups Saved" />		    <span class="icon i-photo-camera"></span>
+		</div>
+		<h4 class="tp-more__article-title">The Daily Wild: Red Fox Pups Saved</h4>
+    	</a>
+</div>
+<div class="more-on-takepart tp-more__article override"></div>
+</div>  <div class="tp-more-on-takepart-video mot-right tp-more__video">
+  <div class="" data-video-control-id="tp-video-player-572190973a27b-1119799905"><div id="tp-video-player-572190973a27b-1119799905" class="tp-video-player"><script type="text/json">{"allowed_regions":[[]],"playlist":"http:\/\/content.jwplatform.com\/jw6\/czm2RNBt.xml","displaytitle":false,"title":"Watch 23 Years of Climate Negotiations in 3 Minutes","controls":"1","skin":"glow","stretching":"uniform","width":"100%","aspectratio":"16:9","autostart":false,"fallback":false,"mute":false,"primary":"html5","repeat":false,"sharing":{"link":"http:\/\/www.takepart.com\/video\/2015\/11\/30\/watch-23-years-climate-negotiations-3-minutes?cmpid=longtailshare","heading":"Share This Video","code":"%3Cdiv%20class%3D%22embed-container%22%20style%3D%22position%3Arelative%3B%20height%3A0%3B%20padding-bottom%3A56.25%25%3B%20padding-top%3A0px%3B%22%3E%3Ciframe%20id%3D%22entity_iframe_node_61615%22%20src%3D%22http%3A%2F%2Fwww.takepart.com%2Fentity_iframe%2Fnode%2F61615%22%20class%3D%22entity_iframe%20entity_iframe_node%20video%22%20style%3D%22position%3Aabsolute%3Btop%3A0%3Bleft%3A0%3B%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20frameborder%3D%220%22%3E%3C%2Fiframe%3E%3C%2Fdiv%3E"},"advertising":{"tag":"http:\/\/pubads.g.doubleclick.net\/gampad\/ads?sz=640x360&iu=\/4355895\/TP_Video_Article_640x360v&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]","client":"googima","admessage":"Your video will play after this brief advertisement"},"analytics":{"enabled":true},"ga":{"trackingobject":"_gaq","idstring":"title"},"sitecatalyst":{"mediaName":"Watch 23 Years of Climate Negotiations in 3 Minutes","playerName":"Video Full Page"},"chromeless":false}</script></div></div>
+  <h4 class="tp-more__video-title">
+    <a href="/video/2015/11/30/watch-23-years-climate-negotiations-3-minutes" class="tp-more__video-title-link">Watch 23 Years of Climate Negotiations in 3 Minutes</a>  </h4>
+    <div class="tp-more__video-cta"><a href="/videos" class="tp-more__video-cta-link">Watch more videos</a></div>
+</div>
+  </div>
+      </article>
+</div>
+
+  <div id="next-article"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer-wrapper" class="footer">
+    <footer id="footer" class="region region-footer">
+    <div id="block-boxes-ga-ros-interstitial" class="block block-boxes block-boxes-ga_ad first odd">
+
+      
+  <div id='boxes-box-ga_ros_interstitial' class='boxes-box'><div class="boxes-box-content">            <!-- VideoOverlay_HP -->
+            <div id='div-gpt-ad-1438889960490-0'>
+            <script type='text/javascript'>
+              function ocuniwfbmq() {
+               if (typeof(googletag) !== 'undefined') {
+                   googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438889960490-0'); });
+               }
+              }
+              ocuniwfbmq();
+            </script>
+            </div></div></div>
+</div>
+<div id="block-block-70" class="block block-block even">
+
+      
+  <script>
+document.write('<div id="adsense" style="visibility: hidden;">yipee! an advertisement</div>');
+</script>
+</div>
+<div id="block-block-58" class="block block-block last odd">
+
+      
+  <style type="text/css">
+/* TAP Widget and Embed */
+.tap-action-wrapper {
+  margin: 10px -15px 20px -5px;
+  width: 100%;
+}
+@media all and (min-width: 480px) {
+  .tap-action-wrapper {
+    margin-left: -15px;
+  }
+}
+.tap-action-wrapper.align-center {
+  max-width: 500px;
+}
+@media all and (min-width: 480px) {
+  .tap-action-wrapper.align-center {
+    margin: 0 auto;
+  }
+}
+.tap-action-wrapper.align-left, .tap-action-wrapper.align-right {
+  float: none;
+  max-width: 417px;
+}
+@media all and (min-width: 480px) {
+  .tap-action-wrapper.align-left {
+    float: left;
+    clear: left;
+    margin-right: 30px;
+  }
+}
+@media all and (min-width: 480px) {
+  .tap-action-wrapper.align-right {
+    float: right;
+    clear: right;
+    margin-left: 30px;
+  }
+
+}
+</style>
+
+</div>
+<footer>
+  <div class="col-xxs-12">
+    <div class="footer-text">
+      <h2 class="footer-title">About Us</h2>
+      <p class="p1"><span class="s1">TakePart is the digital news and lifestyle magazine from&nbsp;<a href="http://www.participantmedia.com/" target="_blank">Participant Media</a>, the company behind such acclaimed documentaries as <em>CITIZENFOUR</em>, <em>An Inconvenient Truth</em> and <em>Food, Inc.</em> and feature films including &nbsp;<em>Lincoln</em> and <em>Spotlight</em>.</span></p>
+    </div>
+    <div class="follow-us">
+      <h2 class="footer-title">follow us</h2>
+      <ul class="social menu horizontal-menu">
+        <li class="item"><a href="//facebook.com/takepart" class="icon i-facebook"></a></li>
+        <li class="item"><a href="//plus.google.com/+TakePart" class="icon i-google_plusone_share"></a></li>
+        <li class="item"><a href="//twitter.com/takepart" class="icon i-twitter"></a></li>
+        <li class="item"><a href="/follow-us-email" class="icon i-email"></a></li>
+        <li class="item"><a href="//pinterest.com/takepart" class="icon i-pinterest" target="_blank"></a></li>
+        <li class="item"><a href="//takepart.tumblr.com" class="icon i-tumblr" target="_blank"></a></li>
+        <li class="item"><a href="//youtube.com/takepart" class="icon i-youtube" target="_blank"></a></li>
+      </ul>
+    </div>
+    <div class="footer-menu">
+      <ul class="links"><li class="menu-602 first"><a href="/about-us" target="_top">About Us</a></li>
+<li class="menu-603"><a href="/contact-us" target="_top">Contact Us</a></li>
+<li class="menu-604"><a href="/faq" target="_top">FAQ</a></li>
+<li class="menu-8674"><a href="/social-action-network" target="_top">Social Action Network</a></li>
+<li class="menu-68304"><a href="/rss" title="RSS">RSS</a></li>
+<li class="menu-8395"><a href="/privacy-policy#ads" target="_top">Interest-Based Ads</a></li>
+<li class="menu-605"><a href="/privacy-policy" target="_top">Privacy Policy</a></li>
+<li class="menu-606 last"><a href="/terms-of-service" target="_top">Terms of Service</a></li>
+</ul>    </div>
+    <div class="corporate-footer">
+      <ul class="menu">
+        <li class="menu__item is-leaf first leaf"><a href="http://www.participantmedia.com" class="menu__link logos-participantmedia" target="_blank">Participant Media</a></li>
+        <li class="menu__item is-leaf leaf"><a href="http://www.pivot.tv" class="menu__link logos-pivot" target="_blank">Pivot</a></li>
+        <li class="menu__item is-leaf last leaf"><a href="http://www.takepart.com" class="menu__link logos-takepart" target="_blank">TakePart</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>  </footer>
+<div class="tp-ad ">
+  <div class="ad-wrapper">
+    <div style="text-align: center;" class="tp-main-ad-wrapper"><!--TP3_ROS_Background_1x1--><div id="div-gpt-ad-1391020952974-0" style="" class="desktop dfp-ad-tag"><script>googletag.cmd.push(function() { 
+      window.TP3_ROS_Background_1x1 = googletag.defineSlot('/4355895/TP3_ROS_Background_1x1', [adsizes], 'div-gpt-ad-1391020952974-0').addService(googletag.pubads());
+        googletag.enableServices();
+        googletag.display('div-gpt-ad-1391020952974-0');
+        });</script>
+</div>
+</div>
+  </div>
+</div>
+</div>
+  <div class="region region-page-bottom">
+    <!-- Begin comScore Tag -->
+          <script>
+            var _comscore = _comscore || [];
+            _comscore.push({ c1: "2", c2: "14223123", c3: "", c4: "http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation?cmpid=organic-share-twitter", c5: "", c6: "", c15: "" });
+            (function() {
+              var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+              s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+              el.parentNode.insertBefore(s, el);
+            })();
+          </script>
+          <noscript>
+            <img src="http://b.scorecardresearch.com/p?c1=2&c2=14223123&c3=&c4=http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation?cmpid=organic-share-twitter&c5=&c6=&c15=&cv=2.0&cj=1" />
+          </noscript>
+      <!-- End comScore Tag -->  </div>
+    <div class="region region-page-bottom">
+    <!-- Begin comScore Tag -->
+          <script>
+            var _comscore = _comscore || [];
+            _comscore.push({ c1: "2", c2: "14223123", c3: "", c4: "http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation?cmpid=organic-share-twitter", c5: "", c6: "", c15: "" });
+            (function() {
+              var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+              s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+              el.parentNode.insertBefore(s, el);
+            })();
+          </script>
+          <noscript>
+            <img src="http://b.scorecardresearch.com/p?c1=2&c2=14223123&c3=&c4=http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation?cmpid=organic-share-twitter&c5=&c6=&c15=&cv=2.0&cj=1" />
+          </noscript>
+      <!-- End comScore Tag -->  </div>
+<script><!-- 
+window.TP = window.TP || {};
+    TP.tabHost = 'https://takeaction.takepart.com';
+    TP.publisherId = 'd84909c52edcceb20c7bba62052b1b01';
+    (function() {
+      var tabScript = document.createElement('script');
+      tabScript.type = 'text/javascript';
+      tabScript.async = true;
+      var scriptLocation = TP.tabHost || 'https://takeaction.takepart.com';
+      tabScript.src = scriptLocation + '/assets/publisher.js?v=3.7';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(tabScript, s);
+    })();
+ // --></script>
+<script>if(jQuery('body').hasClass('feature_article') ||
+    jQuery('body').hasClass('node-type-flashcard') ||
+    jQuery('body').hasClass('node-type-openpublish-article') ||
+    jQuery('body').hasClass('node-type-openpublish-photo-gallery') ||
+    jQuery('body').hasClass('node-type-video')) {
+      if (TP && TP.Awareness) {
+        window.setTimeout(TP.Awareness.notify, 20000);
+      }
+    }</script>
+<script src="http://www.takepart.com/sites/default/files/js/js_2KlXA4Z5El1IQFVPxDN1aX5mIoMSFWGv3vwsP77K9yk.js"></script>
+<script>
+      TP.scope   = 62679;
+      TP.action1 = 37586;
+      TP.action2 = 9035561;
+      TP.action3 = null;
+    </script>
+<script src="http://www.takepart.com/sites/default/files/js/js_REsLPu7rmWMjWdJcbmAAi4_CGneW_u1kgEQ0gfYfPC4.js"></script>
+<script src="http://www.takepart.com/sites/default/files/js/js_yTvbiWkNEhlA4CDzG65G6ZhYy5wYasPxWaqevlP9ZCo.js"></script>
+<script>jQuery(document).ready(function () {
+        window['__reach_config'] = {
+          pid: '54e612da736b7938011a0000',
+          title: "The CDC Can\\'t Figure Out What Caused Chipotle\\'s E. Coli Outbreaks",
+          url: 'http://www.takepart.com/article/2016/02/01/chipotle-cdc-investigation',
+          date: '2016-02-01T11:51:11-08:00',
+          tags: [""],
+          authors: ["Willy Blackmore"],
+          channels: ["Food"]
+        };
+
+        tp_reach_call(__reach_config);
+      });</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"84a45800c6","applicationID":"6927548","transactionName":"YARaN0dUXkBRWkxaWllOeQBBXF9dH1dXV1BoEVkEUGpGWlVO","queueTime":0,"applicationTime":769,"atts":"TENZQQ9OTU4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

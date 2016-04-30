@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<!--[if lte IE 7]> <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="ie7 lte8 lte9 " lang="en-au"> <![endif]-->
+<!--[if IE 8]> <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="ie8 lte8 lte9 " lang="en-au"> <![endif]-->
+<!--[if IE 9]> <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="ie9 lte9 " lang="en-au"> <![endif]-->
+<!--[if gt IE 9]> <!--> <html lang="en-au" class=""> <!--<![endif]-->
+<!--Define the js and css resources server info, can be overridden-->
+<head>
+    <!-- APM Digital Data Script -->
+
+<!-- Digital Data Script -->
+<script>
+    var titanEnabled = true;
+    var digitalData = {"page":{"pageInfo":{"pageID":"1005388670","pageName":"Pulled pork and coleslaw burgers with chipotle mayo ","brand":"dailylife","generator":"CQ","author":"Neil Perry","effectiveDate":"2016-02-03T07:27:52Z","issueDate":"2016-02-03T07:15:02Z","sysEnv":"desktop","template":"twocolumn-rightrail","environment":"","domain":"","layout":""},"category":{"pageType":"Article","primaryCategory":"dl food","subCategory1":"food features","subCategory2":"","subCategory3":"","subCategory4":""}},"titan":{"adSite":"dailylife","adZone":"food/foodfeatures","adKeyValues":{"cat1":"foodfeatures","cat":"food","ctype":"article"},"adSlots":["adspot-300x1515-pos1","adspot-300x600_300x250-pos1","adspot-300x250-pos2","adspot-996x120_970x250_940x250_940x120-pos1","adspot-1x11-pos1","adspot-728x90-pos2","adspot-728x90-pos1"],"adRegistry":"251","cmsRemove":"false"},"user":[{"profile":[{"profileInfo":{"profileID":""},"membershipType":"visitor"}]}],"version":"1.0","events":[],"myfairfax":{"baseUrl":"http://www.dailylife.com.au","brandSite":"dailylife","domain":"dailylife.com.au","hagridApiUrl":"https://api.myfairfax.com.au","hagridBaseUrl":"https://dailylife.myfairfax.com.au","hagridChannelKey":"FfM6pY7bcDXz83_CIPIjkQ"},"vendor":{"GoogleAnalytics":{"account":"UA-22700242-23"}}};
+
+    var titan = window.titan || {};
+    titan.requestAd = titan.requestAd || [];
+    titan.requestConditionalAd = titan.requestConditionalAd || [];
+
+    function getAdCookie(name) {
+        var regex = new RegExp('(?:^|; )' + name + '=([^;]*)');
+        var value = regex.exec(document.cookie);
+        if (value && value.length > 1) {
+            value = decodeURIComponent(value[1]);
+        } else {
+            value = "";
+        }
+        return value;
+    }
+
+    function conditionalTitanAdPushExternalReferrer(adUniqueName, cookieExternalReferrer) {
+        window.externalReferrerAds = window.externalReferrerAds || [];
+        externalReferrerAds.push(function() {
+            var externalReferrer = getAdCookie(cookieExternalReferrer);
+            if (externalReferrer != "") {
+                titan.requestConditionalAd.push(adUniqueName);
+            }
+        });
+    }
+</script>
+
+<style>
+    .ads-edit-mode-placeholder {
+        line-height: normal;
+        background: #fff;
+        color: #4779bc;
+        border: .4em solid;
+        font-size: 1.0em;
+        padding: 0.5em 0;
+        text-align: center;
+        margin: 5px 0px 0px 5px;
+    }
+
+    .ads-edit-mode-placeholder .title {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        padding-left: .4em
+    }
+
+    .ads-edit-mode-placeholder .message {
+        font-size: .7em;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: .12em;
+        padding-left: .12em
+    }
+
+    .ads-edit-mode-placeholder .green {
+        color: #2e8b57;
+    }
+
+    .ads-edit-mode-placeholder .red {
+        color: #cd5c5c;
+    }
+</style>
+
+<script src="//assets.adobedtm.com/7d5ea80d054b96730162d0905d59678c4d2bf30c/satelliteLib-fc35eab6559a121532bab25bb77b90e6a30892b9.js"></script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Pulled pork and coleslaw burgers with chipotle mayo </title>
+
+<meta http-equiv="content-language" content="en"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<link rel="canonical" href="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html"/>
+    <meta name="robots" content="noarchive,noodp,index"/>
+<meta name="robots" content="ACAP allow-index"/>
+<meta name="robots" content="ACAP allow-follow"/>
+<meta name="robots" content="ACAP disallow-preserve"/>
+<meta name="robots" content="ACAP allow-present prohibited-modification=annotation"/>
+<meta name="description" content="Whether it's the bite of jalapenos or the smokiness of chipotle, chillis help to take these two dishes far away from the ordinary."/>
+ <meta name="keywords" content=""/>
+        <meta name="news_keywords" content="Food Features"/>
+    <link rel="shortcut icon" type="image/ico" href="http://www.dailylife.com.au/favicon.ico"/>
+<meta name="application-name" content="Daily Life"/>
+<meta name="msapplication-tooltip" content="Open Daily Life"/>
+<meta name="msapplication-starturl" content="http://www.dailylife.com.au"/>
+<meta name="msapplication-task" content="name=National;action-uri=http://www.dailylife.com.au/national;icon-uri=http://www.dailylife.com.au/favicon.ico;"/>
+<meta name="msapplication-task" content="name=World;action-uri=http://www.dailylife.com.au/world;icon-uri=http://www.dailylife.com.au/favicon.ico;"/>
+<meta name="msapplication-task" content="name=Sport;action-uri=http://www.dailylife.com.au/sport;icon-uri=http://www.dailylife.com.au/favicon.ico;"/>
+<meta name="msapplication-task" content="name=Weather;action-uri=http://www.dailylife.com.au/weather;icon-uri=http://www.dailylife.com.au/favicon.ico;"/>
+<meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@DailyLifeAU">
+    <meta name="twitter:title" content="Pulled pork and coleslaw burgers with chipotle mayo ">
+    <meta name="twitter:description" content="Whether it's the bite of jalapenos or the smokiness of chipotle, chillis help to take these two dishes far away from the ordinary.">
+    <meta name="twitter:image:src" content="">
+    <meta property="og:title" content="Pulled pork and coleslaw burgers with chipotle mayo "/>
+    <meta property="og:description" content="Whether it&#039;s the bite of jalapenos or the smokiness of chipotle, chillis help to take these two dishes far away from the ordinary."/>
+    <meta property="og:site_name" content="Daily Life"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html"/>
+    <meta property="og:image" content="http://images.smh.com.au/2014/02/12/5155383/FAIRFAX-logo.jpg"/>
+    <meta property="fb:app_id" content="233408706727435"/>
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.smh.com.au/common/media-common-1.0/css/output/7.55.4/common.skin.article.css/common.skin.article_min.css"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.smh.com.au/common/media-common-1.0/css/output/7.55.4/common.skin.dailylife.css/common.skin.dailylife_min.css"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.smh.com.au/common/media-common-1.0/css/output/7.55.4/skin.promotions.css/skin.promotions_min.css"/>
+<!-- Initialise Google Analytics event queue -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+    </script>
+
+    </head>
+
+<body class="article-template dailylife dlfood"><script type="text/javascript">
+        // <![CDATA[
+        document.body.className += " scriptable";
+        // ]]>
+    </script>
+        <a class="skipLink" href="#nav">Skip to navigation</a>
+
+    <a class="skipLink" href="#content">Skip to content</a>
+
+    <a class="skipLink" href="http://www.dailylife.com.au/siteguide/accessibility">Help
+        using this website - Accessibility statement</a>    <div id="sponsorLink_cA-helmet" class="cA-helmet">
+        <div id="video-player-companion-ad-helmet"></div>
+        <!-- id:video-player-companion-ad-helmet -->
+    </div>
+    <!-- id:sponsorLink_cA-helmet --><div class="outerWrap">
+        <div class="wrap cfix">
+            <!--TODO-->
+            <div class="nN-whiteStrip">
+    <ul class="linksLeft">
+        <li ><a href="http://www.thevine.com.au">The Vine</a></li>
+        <li ><a href="http://www.goodfood.com.au">Good Food</a></li>
+        <li ><a href="http://www.essentialbaby.com.au">Essential Baby</a></li>
+        <li class="last"><a href="http://www.essentialkids.com.au">Essential Kids</a></li>
+        </ul>
+    <a class="logo" href="http://www.fairfax.com.au/" onclick="trackCode(this,'ws-top');">Fairfax Media</a>
+    <ul class="linksRight">
+            <li ><a href="http://www.smh.com.au" onclick="trackCode(this,'ws-top');">News</a></li>
+            <li ><a href="http://www.domain.com.au" onclick="trackCode(this,'ws-top');">Domain</a></li>
+            <li ><a href="http://www.drive.com.au" onclick="trackCode(this,'ws-top');">Drive</a></li>
+            <li ><a href="http://www.adzuna.com.au" onclick="trackCode(this,'ws-top');">Jobs</a></li>
+            <li ><a href="http://www.rsvp.com.au" onclick="trackCode(this,'ws-top');">RSVP</a></li>
+            <li ><a href="http://www.stayz.com.au" onclick="trackCode(this,'ws-top');">Stayz</a></li>
+            <li class="hasDropdown last">
+                    <a href="javascript:;">More</a>
+                    <ul>
+                        <li><a onclick="trackCode(this,'ws-top');" href="http://www.essentialbaby.com.au">Essential Baby</a></li>
+                        <li><a onclick="trackCode(this,'ws-top');" href="http://www.essentialkids.com.au">Essential Kids</a></li>
+                        <li class="last"><a onclick="trackCode(this,'ws-top');" href="http://www.fairfax.com.au/?s_rid=WS:smh:top">More sites &raquo;</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </div><div class="header span-24">
+    <div id="adspot-728x90-pos1" class="ad " style='display:none;'>
+        <script>
+                        titan.requestAd.push("adspot-728x90-pos1");
+                    </script>
+                </div>
+<p class="mh-logo" style="background-color:#E71571">
+    <a href="http://dailylife.com.au" title="Daily Life">Daily Life</a>
+</p>
+<h2>
+    <a href="/dl-food" title="DL Food">DL Food</a>
+</h2><div >
+        <ul id="nav" role="navigation">
+    <li class=" nav-1 home">
+                <a data-preserve-href="true" href="http://www.dailylife.com.au/" title="Home" sl-processed="1">Home</a>
+            </li>
+        <li class=" nav-2 hasSubNav hasDropdown">
+                    <a data-preserve-href="true" href="/news-and-views" title="News & Views" sl-processed="1">News & Views</a>
+
+                    <div class="ddown col-2">
+                        <div>
+                            <h4></h4>
+                            <ul>
+                                <li >
+                                        <a data-preserve-href="true" href="/news-and-views/news-features" title="News Features" sl-processed="1">News Features</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/news-and-views/opinion" title="Opinion" sl-processed="1">Opinion</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/news-and-views/culture" title="Popular Culture" sl-processed="1">Popular Culture</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/news-and-views/take-action" title="Take Action" sl-processed="1">Take Action</a>
+                                    </li>
+                                <li class="more">
+                                        <a data-preserve-href="true" href="http://www.dailylife.com.au/dl-women-of-the-year-2015/index.html" title="Women of the Year" sl-processed="1">Women of the Year</a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div>
+                            <small>Featured</small>
+                            <div class="cN-story">
+                                <a data-preserve-href="true" href="/news-and-views/news-features/why-we-should-be-excited-about-the-rise-of-amy-schumer-20140512-385f2.html">
+                                    <img src="/content/dam/images/3/8/5/g/x/image.related.StepOutsThumbnail.145x96.385f2.png/1399903158580.jpg" alt="NEW YORK, NY - MAY 01:   Amy Schumer attends the Ms. Foundation Women Of Vision Gala 2014 on May 1, 2014 in New York ..." width="145" height="96"/></a>
+
+                                <div class="wof">
+                                    <h3>
+                                        <a data-preserve-href="true" href="/news-and-views/news-features/why-we-should-be-excited-about-the-rise-of-amy-schumer-20140512-385f2.html" title="Why we should be excited about the rise of Amy Schumer" sl-processed="1">
+                                            Why we should be excited about the rise of Amy Schumer</a>
+                                    </h3>
+                                </div>
+                            </div><!-- class:cN-story -->
+                        </div>
+                    </div><!-- class:ddown -->
+                </li>
+            <li class=" nav-3 hasSubNav hasDropdown">
+                    <a data-preserve-href="true" href="/life-and-love" title="Life & Love" sl-processed="1">Life & Love</a>
+
+                    <div class="ddown col-2">
+                        <div>
+                            <h4></h4>
+                            <ul>
+                                <li >
+                                        <a data-preserve-href="true" href="/life-and-love/work-and-money" title="Work and Money" sl-processed="1">Work and Money</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/life-and-love/parenting-and-families" title="Parenting & Families" sl-processed="1">Parenting & Families</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/life-and-love/love-sex-and-relationships" title="Love,sex & Relationships" sl-processed="1">Love,sex & Relationships</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/life-and-love/real-life" title="Real Life" sl-processed="1">Real Life</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/life-and-love/horoscopes" title="Horoscopes" sl-processed="1">Horoscopes</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/life-and-love/travel" title="Travel" sl-processed="1">Travel</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/life-and-love/home" title="Home" sl-processed="1">Home</a>
+                                    </li>
+                                <li class="more">
+                                        <a data-preserve-href="true" href="/life-and-love/weddings" title="Weddings" sl-processed="1">Weddings</a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div>
+                            <small>Featured</small>
+                            <div class="cN-story">
+                                <a data-preserve-href="true" href="/life-and-love/parenting-and-families/has-mothers-guilt-become-a-status-symbol-20140509-37zyu.html">
+                                    <img src="/content/dam/images/3/8/2/5/w/image.related.StepOutsThumbnail.145x96.37zyu.png/1399816736630.jpg" alt="Back view of mother and child wrapped in striped towel" width="145" height="96"/></a>
+
+                                <div class="wof">
+                                    <h3>
+                                        <a data-preserve-href="true" href="/life-and-love/parenting-and-families/has-mothers-guilt-become-a-status-symbol-20140509-37zyu.html" title="Has mother's guilt become a status symbol?" sl-processed="1">
+                                            Has mother's guilt become a status symbol?</a>
+                                    </h3>
+                                </div>
+                            </div><!-- class:cN-story -->
+                        </div>
+                    </div><!-- class:ddown -->
+                </li>
+            <li class=" nav-4 hasSubNav hasDropdown">
+                    <a data-preserve-href="true" href="/health-and-fitness" title="Health & Fitness" sl-processed="1">Health & Fitness</a>
+
+                    <div class="ddown col-2">
+                        <div>
+                            <h4></h4>
+                            <ul>
+                                <li >
+                                        <a data-preserve-href="true" href="/health-and-fitness/nutrition" title="Nutrition" sl-processed="1">Nutrition</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/health-and-fitness/fitness" title="Fitness" sl-processed="1">Fitness</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/health-and-fitness/wellbeing" title="Wellbeing" sl-processed="1">Wellbeing</a>
+                                    </li>
+                                <li class="more">
+                                        <a data-preserve-href="true" href="/health-and-fitness/sport" title="Sport" sl-processed="1">Sport</a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div>
+                            <small>Featured</small>
+                            <div class="cN-story">
+                                <a data-preserve-href="true" href="/health-and-fitness/women-being-upsold-into-labiaplasty-by-cosmetic-clinics-say-health-experts-20150829-gjauup.html">
+                                    <img src="/content/dam/images/g/h/m/k/k/1/image.related.StepOutsThumbnail.145x96.gjauup.png/1448439328754.jpg" alt="Canberra doctors and nurses will perform an extra 1000 procedures in the first half of 2016." width="145" height="96"/></a>
+
+                                <div class="wof">
+                                    <h3>
+                                        <a data-preserve-href="true" href="/health-and-fitness/women-being-upsold-into-labiaplasty-by-cosmetic-clinics-say-health-experts-20150829-gjauup.html" title="Women being 'upsold' into labiaplasty by cosmetic clinics, say health experts" sl-processed="1">
+                                            Women being 'upsold' into labiaplasty by cosmetic clinics, say health experts</a>
+                                    </h3>
+                                </div>
+                            </div><!-- class:cN-story -->
+                        </div>
+                    </div><!-- class:ddown -->
+                </li>
+            <li class=" nav-5 hasSubNav hasDropdown">
+                    <a data-preserve-href="true" href="/food" title="Food" sl-processed="1">Food</a>
+
+                    <div class="ddown col-2">
+                        <div>
+                            <h4></h4>
+                            <ul>
+                                <li >
+                                        <a data-preserve-href="true" href="/food/food-features" title="Food Features" sl-processed="1">Food Features</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/food/food-blogs" title="Food Blogs" sl-processed="1">Food Blogs</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/food/celebrity-chefs" title="Celebrity Chefs" sl-processed="1">Celebrity Chefs</a>
+                                    </li>
+                                <li class="more">
+                                        <a data-preserve-href="true" href="/food/recipe-search" title="Recipe Search" sl-processed="1">Recipe Search</a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div>
+                            <small>Featured</small>
+                            <div class="cN-story">
+                                <a data-preserve-href="true" href="/dl-food/food-features/bill-granger-wants-you-to-love-whole-foods-20140409-36cwt.html">
+                                    <img src="/content/dam/images/3/6/c/x/5/image.related.StepOutsThumbnail.145x96.36cwt.png/1397397547617.jpg" alt="bills" width="145" height="96"/></a>
+
+                                <div class="wof">
+                                    <h3>
+                                        <a data-preserve-href="true" href="/dl-food/food-features/bill-granger-wants-you-to-love-whole-foods-20140409-36cwt.html" title="Bill Granger wants you to love whole foods" sl-processed="1">
+                                            Bill Granger wants you to love whole foods</a>
+                                    </h3>
+                                </div>
+                            </div><!-- class:cN-story -->
+                        </div>
+                    </div><!-- class:ddown -->
+                </li>
+            <li class=" nav-6 hasSubNav hasDropdown">
+                    <a data-preserve-href="true" href="/fashion" title="Fashion" sl-processed="1">Fashion</a>
+
+                    <div class="ddown col-2">
+                        <div>
+                            <h4></h4>
+                            <ul>
+                                <li >
+                                        <a data-preserve-href="true" href="/fashion/fashion-coverage" title="Fashion Coverage" sl-processed="1">Fashion Coverage</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/fashion/fashion-trends" title="Fashion Trends" sl-processed="1">Fashion Trends</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="http://shop.dailylife.com.au/" title="Shopping" sl-processed="1">Shopping</a>
+                                    </li>
+                                <li class="more">
+                                        <a data-preserve-href="true" href="/fashion/fashion-week" title="Fashion Week" sl-processed="1">Fashion Week</a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div>
+                            <small>Featured</small>
+                            <div class="cN-story">
+                                <a data-preserve-href="true" href="/dl-fashion/target-uss-sexist-trophy-tshirt-sparks-social-media-backlash-20150721-gihnz4.html">
+                                    <img src="/content/dam/images/g/i/h/o/r/b/image.related.StepOutsThumbnail.145x96.gihnz4.png/1437522526963.jpg" alt="A T-shirt being sold in stores and online in the women's juniors section emblazoned with the word &quot;Trophy&quot; has sparked ..." width="145" height="96"/></a>
+
+                                <div class="wof">
+                                    <h3>
+                                        <a data-preserve-href="true" href="/dl-fashion/target-uss-sexist-trophy-tshirt-sparks-social-media-backlash-20150721-gihnz4.html" title="Target US's sexist 'Trophy' T-shirt sparks social media backlash" sl-processed="1">
+                                            Target US's sexist 'Trophy' T-shirt sparks social media backlash</a>
+                                    </h3>
+                                </div>
+                            </div><!-- class:cN-story -->
+                        </div>
+                    </div><!-- class:ddown -->
+                </li>
+            <li class=" nav-7 hasSubNav hasDropdown">
+                    <a data-preserve-href="true" href="/beauty" title="Beauty" sl-processed="1">Beauty</a>
+
+                    <div class="ddown col-2">
+                        <div>
+                            <h4></h4>
+                            <ul>
+                                <li >
+                                        <a data-preserve-href="true" href="/beauty/makeup" title="Makeup" sl-processed="1">Makeup</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/beauty/hair" title="Hair" sl-processed="1">Hair</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/beauty/skincare-and-anti-aging" title="Skincare & Anti-aging" sl-processed="1">Skincare & Anti-aging</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/beauty/beauty-trends" title="Beauty Trends" sl-processed="1">Beauty Trends</a>
+                                    </li>
+                                <li class="more">
+                                        <a data-preserve-href="true" href="/beauty/product-reviews" title="Product Reviews" sl-processed="1">Product Reviews</a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div>
+                            <small>Featured</small>
+                            <div class="cN-story">
+                                <a data-preserve-href="true" href="/dl-beauty/beauty-beat-20150218-13i1ss.html">
+                                    <img src="/content/dam/images/1/3/i/5/g/n/image.related.StepOutsThumbnail.145x96.13i1ss.png/1424238366796.jpg" alt="Fringe dweller: Alexa Chung is as on-trend as ever with her new hairstyle." width="145" height="96"/></a>
+
+                                <div class="wof">
+                                    <h3>
+                                        <a data-preserve-href="true" href="/dl-beauty/beauty-beat-20150218-13i1ss.html" title="Beauty beat" sl-processed="1">
+                                            Beauty beat</a>
+                                    </h3>
+                                </div>
+                            </div><!-- class:cN-story -->
+                        </div>
+                    </div><!-- class:ddown -->
+                </li>
+            <li class=" nav-8 hasSubNav hasDropdown">
+                    <a data-preserve-href="true" href="/people" title="People" sl-processed="1">People</a>
+
+                    <div class="ddown col-2">
+                        <div>
+                            <h4></h4>
+                            <ul>
+                                <li >
+                                        <a data-preserve-href="true" href="/people/celebrity-news" title="Celebrity News" sl-processed="1">Celebrity News</a>
+                                    </li>
+                                <li >
+                                        <a data-preserve-href="true" href="/people/interviews" title="Interviews" sl-processed="1">Interviews</a>
+                                    </li>
+                                <li class="more">
+                                        <a data-preserve-href="true" href="/people/entertainment" title="Entertainment" sl-processed="1">Entertainment</a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div>
+                            <small>Featured</small>
+                            <div class="cN-story">
+                                <a data-preserve-href="true" href="/dl-people/natalie-imbruglia-i-love-my-road-less-travelled-20150808-giuk3z.html">
+                                    <img src="/content/dam/images/g/i/r/s/m/l/image.related.StepOutsThumbnail.145x96.giuk3z.png/1438999817407.jpg" alt="&quot;Deep down I always knew I'd go back to music&quot;: Natalie Imbruglia has an album due out in September." width="145" height="96"/></a>
+
+                                <div class="wof">
+                                    <h3>
+                                        <a data-preserve-href="true" href="/dl-people/natalie-imbruglia-i-love-my-road-less-travelled-20150808-giuk3z.html" title="Natalie Imbruglia: 'I love my road less travelled'" sl-processed="1">
+                                            Natalie Imbruglia: 'I love my road less travelled'</a>
+                                    </h3>
+                                </div>
+                            </div><!-- class:cN-story -->
+                        </div>
+                    </div><!-- class:ddown -->
+                </li>
+            </ul></div>
+    <p class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <span>You are here:</span> <a href="http://www.dailylife.com.au" itemprop="item"><span itemprop="name">Home</span></a> <a href="http://www.dailylife.com.au/dl-food" itemprop="item"><span itemprop="name">DL Food</span></a> <a href="http://www.dailylife.com.au/dl-food/food-features" itemprop="item"><span itemprop="name">Food Features</span></a> </p>
+    </div><!-- class:header span-24 --><div id="adspot-996x120_970x250_940x250_940x120-pos1" class="ad adPageTop" style='display:none;'>
+        <script>
+                        titan.requestAd.push("adspot-996x120_970x250_940x250_940x120-pos1");
+                    </script>
+                </div>
+<a class="trackingClick" href="https://panel236.panelpulse.com/R.aspx?a=861&as=Kp9sR3aq31" name="Have your say, take the Daily Life Survey for your chance to win a mini iPad"><img src="http://www.smh.com.au/cqstatic/gkkkzt/Dailylife.png"></a><br><br><div id="content" class="span-16 article" role="main" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="cT-returnToSite"></div>
+    <!-- google_ad_section_start -->
+    <h1 class="cN-headingPage" itemprop="name">Pulled pork and coleslaw burgers with chipotle mayo </h1>
+    <!-- google_ad_section_end -->
+    <div class="meta hnews">
+        <dl>
+            <dt class="hiddenVisually">Date</dt>
+            <dd class="updated dtstamp">
+                <time itemprop="datePublished" datetime="February 3, 2016">
+                February 3, 2016</time>
+            </dd>
+        </dl>
+        <!--todo: on UGC-->
+        <ul class="tools">
+            <li class="reading collectorHidden" style="display:none">(29)</li>
+            </ul>
+        <!-- Display author details -->
+        <div class="author" itemscope itemtype="http://schema.org/Person">
+            <div class="cT-headshot">
+                    <div>
+                            <a href="http://www.dailylife.com.au/dl-food/by/Neil-Perry">
+                                    <img alt="Neil Perry" title="Neil Perry" src="/content/dam/images/h/v/e/3/x/image.imgtype.thumbnail.90x90.png/1408400771287.png"></a>
+                            </div>
+                    <h3 class="authorName">
+                            <a href="http://www.dailylife.com.au/dl-food/by/Neil-Perry" rel="author" itemprop="name">Neil Perry</a>
+                            </h3>
+                    <h4 class="authorTitle" itemprop="jobTitle">Chef and Good Weekend columnist</h4>
+                    <p class="authorBlog">
+                            <a href="http://www.dailylife.com.au/dl-food/by/Neil-Perry">View
+                                more articles from <span class="author-name">Neil Perry</span></a>
+                        </p>
+                    <p class="authorFollow" itemprop="follows">
+                        </p>
+                </div>
+                <!-- class:cT-headshot -->
+            </div>
+    <!-- class:author -->
+
+<!-- Display author details
+        <div class="zoom hiddenVisually">
+            <!-- remove isPublishedAfter from the conditions if one day the keywords of all articles in DCDS are synched with FP --><!-- self here refers to TimelineEntityLinksComponent.java
+            <p><strong>Zoom in on this story</strong>. Explore all there is to know.</p>
+            <ul class="cfix">
+                <li><a href="http://resources.smh.com.au/zoom/Labor"> Labor </a></li>
+                <li><a href="http://resources.smh.com.au/zoom/ALP"> ALP </a></li>
+                <li><a href="http://resources.smh.com.au/zoom/Australia"> Australia </a></li>
+                <li><a href="http://resources.smh.com.au/zoom/Australian"> Australian </a></li>
+            </ul>
+        </div><!-- class:zoom hiddenVisually -->
+        <!--todo end: is this block required-->
+        <p class="lead">Whether it's the bite of jalapenos or the smokiness of chipotle, chillis help to take these two dishes far away from the ordinary.</p>
+        <ul class="social sponsored cfix">
+    <li class="tweet">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-via="DailyLifeAU" data-text="Pulled pork and coleslaw burgers with chipotle mayo ">Tweet</a>
+        </li>
+        <li class="fblike"><div class="fb-share-button" data-href="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-type="button_count"></div></li>
+        <li class="gplus"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-onendinteraction="googlePlusSocialShareCallback"></div></li>
+        <li class="linkedin"><script type="IN/Share" data-url="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-onsuccess="FD.SocialShareTracking.linkedInShare"></script></li>
+        <li class="pinterest">
+            <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.dailylife.com.au%2Fdl-food%2Ffood-features%2Fpulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" class="pin-it-button pinterest" count-layout="horizontal">Pin It</a>
+        </li>
+        <li class="reddit"><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.dailylife.com.au%2Fdl-food%2Ffood-features%2Fpulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html&title=Pulled+pork+and+coleslaw+burgers+with+chipotle+mayo+" onclick="FD.SocialShareTracking.trackSocialShare('reddit')">submit to reddit</a></li>
+    <li class="email"><a href="http://www.dailylife.com.au/action/emailToFriend?id=1005388670" onclick="FD.SocialShareTracking.trackSocialShare('email')" title="Email to a friend" rel="nofollow" data-emailsociallink="true" data-emailurl="http://www.dailylife.com.au/action/emailToFriend?id=1005388670">Email article</a></li>
+    <li class="print">
+        <a href="http://www.dailylife.com.au/action/printArticle?id=1005388670" title="Print this story" rel="nofollow" data-printsociallink="true" data-printurl="http://www.dailylife.com.au/action/printArticle?id=1005388670">Print</a>
+    </li>
+    </ul>
+</div><!-- class:meta hnews -->
+    <!-- google_ad_section_start -->
+    <div class="articleBody" itemprop="articleBody">
+        <div class="cT-imagePortrait">
+                                        <img alt="Pulled pork and coleslaw burgers with chipotle mayonnaise." title="" src="/content/dam/images/g/m/e/p/6/0/image.related.articleLeadNarrow.300x0.gmkyv2.png/1454484472340.jpg" itemprop="image"><p>
+                                Pulled pork and coleslaw burgers with chipotle mayonnaise.<cite><i> Photo: William Meppem</i></cite>
+                                </p>
+    </div><!-- class:cT-imageLandscape/cT-imagePortrait -->
+    <p><strong>PULLED PORK AND COLESLAW BURGERS WITH CHIPOTLE MAYO</strong></p><p>2kg pork shoulder, bone in</p><p>&frac12; tbsp mustard powder</p><p>1 tbsp cumin powder</p>
+
+<div id="adspot-300x250-pos3" class="ad">
+    <small>Advertisement</small>
+    <script type="text/javascript">
+        titan.requestConditionalAd.push("adspot-300x250-pos3");
+    </script>
+</div>
+<p>1 tbsp coriander powder</p><p>1 tbsp brown sugar</p><p>sea salt and freshly ground pepper</p><p>4 tbsp vegetable oil</p><p>1 brown onion, roughly chopped</p><p>4 cloves garlic, chopped</p><p>1 cup lager</p><p>2 cups chicken stock, approximately</p><p>fresh milk buns, to serve (from Brasserie Bread in Sydney and Melbourne)</p><p><strong>For the coleslaw</strong></p><p>&frac12; small head (or &frac14; large) white&nbsp;cabbage, shredded</p><p>&frac12; small head (or &frac14; large) red&nbsp;cabbage, shredded</p><p>2 large carrots, shredded</p><p>1 tsp celery seeds</p><p>1 tbsp wholegrain mustard</p><p>&frac14; cup apple cider vinegar</p><p>1 tbsp honey</p><p>&frac14; cup grapeseed oil</p><p><strong>For the mayonnaise</strong></p><p>1 cup mayonnaise</p><p>2 tbsp lime juice</p><p>chipotle powder, to taste</p><p><strong>Serves 10-12</strong></p><p>Remove skin from pork and trim off any excess fat. Combine the mustard, cumin, coriander, brown sugar, &frac12; tbsp salt and 1 tsp pepper. Rub the mix onto the pork, covering all areas. Allow to sit for 30 minutes.</p><p>Preheat oven to 150&deg;C.</p><p>Heat the oil in a large Dutch oven over medium heat until almost smoking. Add pork and brown on all sides, 5 to 6 minutes total. Set aside.</p><p>Add onion, garlic and a pinch of salt. Fry for 3-4 minutes, stirring constantly, until beginning to brown, then add lager. Scrape bottom to release any stuck bits and simmer for a minute. Add stock and place pork back into pot. Bring to a simmer, cover with a lid, then transfer to the oven. Cook, turning the pork every hour, until it is tender, about 3&frac12;-4 hours.</p><p>For the coleslaw, combine the cabbage, carrot and celery seeds. Whisk together remaining ingredients, check seasoning, then gradually add the dressing to the vegetables.</p><p>For the mayo, combine ingredients, adding chipotle powder to taste.</p><p>Serve the pork at the table with mayonnaise, coleslaw and fresh milk buns, for everyone to make their own burgers.</p><p>&nbsp;</p></div><!-- class:articleBody --><!-- google_ad_section_end -->
+
+<!-- class:cS-poll cfix pollContainer -->
+
+<div class="ad adSpot-textBox">
+    <ins id="moreGoogleAds" class="adsbygoogle"></ins>
+</div><!-- id:moreGoogleAds --><!-- No job listing is needed for Daily Life --><div class="OUTBRAIN"
+        data-src="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html"
+        data-widget-id="AR_1"
+        data-ob-template="Daily_Life_Fairfax">
+    </div>
+<div class="OUTBRAIN"
+        data-src="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html"
+        data-widget-id="AR_2"
+        data-ob-template="Daily_Life_Fairfax">
+    </div>
+<div class="meta">
+        <!--We need to call this as a dynamic component, to many variants meant i had to start hacking it for different sections -->
+        <ul class="social sponsored cfix">
+    <li class="tweet">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-via="DailyLifeAU" data-text="Pulled pork and coleslaw burgers with chipotle mayo ">Tweet</a>
+        </li>
+        <li class="fblike"><div class="fb-share-button" data-href="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-type="button_count"></div></li>
+        <li class="gplus"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-onendinteraction="googlePlusSocialShareCallback"></div></li>
+        <li class="linkedin"><script type="IN/Share" data-url="http://www.dailylife.com.au/dl-food/food-features/pulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" data-onsuccess="FD.SocialShareTracking.linkedInShare"></script></li>
+        <li class="pinterest">
+            <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.dailylife.com.au%2Fdl-food%2Ffood-features%2Fpulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html" class="pin-it-button pinterest" count-layout="horizontal">Pin It</a>
+        </li>
+        <li class="reddit"><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.dailylife.com.au%2Fdl-food%2Ffood-features%2Fpulled-pork-and-coleslaw-burgers-with-chipotle-mayo-20160203-gmkyv2.html&title=Pulled+pork+and+coleslaw+burgers+with+chipotle+mayo+" onclick="FD.SocialShareTracking.trackSocialShare('reddit')">submit to reddit</a></li>
+    <li class="email"><a href="http://www.dailylife.com.au/action/emailToFriend?id=1005388670" onclick="FD.SocialShareTracking.trackSocialShare('email')" title="Email to a friend" rel="nofollow" data-emailsociallink="true" data-emailurl="http://www.dailylife.com.au/action/emailToFriend?id=1005388670">Email article</a></li>
+    <li class="print">
+        <a href="http://www.dailylife.com.au/action/printArticle?id=1005388670" title="Print this story" rel="nofollow" data-printsociallink="true" data-printurl="http://www.dailylife.com.au/action/printArticle?id=1005388670">Print</a>
+    </li>
+    </ul></div><!-- class:meta -->
+<!--cq:include path="relatedArticles" resourceType="ffx/wcm/shared/desktop/components/content/relatedcoverage" /-->
+</div><!-- id:content, class:span-16 article -->
+<div class="aside span-8 last" role="complementary">
+    <div class="cN-searchBox cfix">
+	<form action="http://www.dailylife.com.au/execute_search.html" method="get">
+	    <h2>Search dailylife:</h2>
+	    <label for="search">
+	        <input type="text" name="text" id="search" placeholder='Search here...'  onfocus="this.value='';" />
+	    </label>
+	    <h3>Search in:</h3>
+	    <ul id="ddown" class="ddown">
+	        <li>
+	        	<a class="selected" href="#">DL Food</a>
+	            <div class="srch-wrap">
+    <div></div>
+    <ul class="cfix">
+        <li><a href="#">DL Food</a></li>
+    </ul>
+</div><!-- class:srch-wrap --></li>
+	    </ul>
+	    <input type="hidden" name="ss" value="DL Food" />
+	    <input type="submit" class="btnSubmit" value="Search" />
+	</form>
+</div><!-- class:cN-searchBox cfix --><div id="adspot-300x1515-pos1" class="ad " style='display:none;'>
+        <script>
+                        titan.requestAd.push("adspot-300x1515-pos1");
+                    </script>
+                </div>
+<div id="adspot-300x600_300x250-pos1" class="ad " style='display:none;'>
+        <small>Advertisement</small>
+        <script>
+                        titan.requestAd.push("adspot-300x600_300x250-pos1");
+                    </script>
+                </div>
+<div class="section"></div><div class="iparys_inherited"><div class="cN-storyHeadlineLead cfix last">
+            <h4>NEWSLETTER</h4>
+        <h3><a href="https://membercentre.fairfax.com.au/NewsletterSubscription.aspx?site=dlf" title="Sign up now for free" sl-processed="1">Sign up now for free</a></h3>
+                <a href="https://membercentre.fairfax.com.au/NewsletterSubscription.aspx?site=dlf" title="Sign up now for free" sl-processed="1"><img src="http://images.dailylife.com.au/2013/11/04/4894982/DL-newsletter-90x60.jpg" width="90" height="60" alt="DL-newsletter"></a>
+
+        
+        <p>Get our best stories delivered to your inbox each day!</p>
+        
+        <div class="cN-social cfix">
+    <iframe class="socialBtn fb-button" scrolling="no" frameborder="0" allowtransparency="yes" src="http://www.facebook.com/plugins/like.php?href=https%3a%2f%2fmembercentre.fairfax.com.au%2fNewsletterSubscription.aspx%3fsite%3ddlf&amp;layout=button_count&amp;show_faces=false&amp;width=85&amp;action=recommend&amp;colorscheme=light&amp;height=21" width="100%" height="300"></iframe>
+    <iframe class="socialBtn twitter-button" allowtransparency="true" frameborder="0" scrolling="no" title="Twitter For Websites: Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.html#_=1318890910829&amp;count=horizontal&amp;id=twitter_tweet_button_0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwww.dailylife.com.au&amp;text=Sign up now for free&amp;url=https%3a%2f%2fmembercentre.fairfax.com.au%2fNewsletterSubscription.aspx%3fsite%3ddlf&amp;via=DailyLifeAU"></iframe>
+    
+</div><!-- class:cN-social cfix -->
+            
+
+
+            </div><div class="cT-quoteRotator">
+
+    <blockquote class="cN-quote">
+      <a href="/etc/tags/ffx-categories/dailylife/dl-women-of-the-year">
+        <img src="/content/dam/images/g/g/u/1/2/7/image.related.columnistThumbnail.90x90.gl07ah.12948k.png/1452049589911.png" alt="Clementine Ford" width="90" height="90"/></a>
+			<p><a href="/dl-women-of-the-year/rejecting-a-mans-advances-with-im-sorry-i-have-a-boyfriend-20151116-gl07ah.html">A viral video sparks a discussion on why women resort to ...</a><span>&nbsp;</span></p>
+      <cite><a href="/dl-women-of-the-year/rejecting-a-mans-advances-with-im-sorry-i-have-a-boyfriend-20151116-gl07ah.html">Clementine Ford</a></cite>
+       </blockquote>
+	<blockquote class="cN-quote">
+      <a href="/etc/tags/ffx-categories/dailylife/life-and-love/parenting-and-families">
+        <img src="/content/dam/images/g/l/6/2/u/e/image.related.columnistThumbnail.90x90.gkxd8z.12948k.png/1448278921936.jpg" alt="Paul Chai" width="90" height="90"/></a>
+			<p><a href="/life-and-love/parenting-and-families/do-you-know-your-family-stories-20151112-gkxd8z.html">Aziz Ansari inspired me to ask my parents about their ...</a><span>&nbsp;</span></p>
+      <cite><a href="/life-and-love/parenting-and-families/do-you-know-your-family-stories-20151112-gkxd8z.html">Paul Chai</a></cite>
+       </blockquote>
+	<blockquote class="cN-quote">
+      <a href="/etc/tags/ffx-categories/dailylife/news-and-views/dl-culture">
+        <img src="/content/dam/images/g/k/1/0/r/i/image.related.columnistThumbnail.90x90.gl1x9i.12948k.png/1448278921936.png" alt="Neha Kale" width="90" height="90"/></a>
+			<p><a href="/news-and-views/dl-culture/on-the-thrill-of-seeing-first-gen-immigrant-leads-on-tv-20151118-gl1x9i.html">As writer Bim Adewunmi points out, race is not a Very ...</a><span>&nbsp;</span></p>
+      <cite><a href="/news-and-views/dl-culture/on-the-thrill-of-seeing-first-gen-immigrant-leads-on-tv-20151118-gl1x9i.html">Neha Kale</a></cite>
+       </blockquote>
+	<blockquote class="cN-quote">
+      <a href="/etc/tags/ffx-categories/dailylife/news-and-views/dl-culture">
+        <img src="/content/dam/images/g/l/2/f/g/i/image.related.columnistThumbnail.90x90.gl2fci.12948k.png/1448278921936.jpg" alt="&quot;It's callous to expect people to work their entire lives, only to be shunted away in old age. But there is another way.&quot;" width="90" height="90"/></a>
+			<p><a href="/news-and-views/dl-culture/why-we-should-place-more-value-on-the-company-of-elders-20151118-gl2fci.html">It's callous to expect people to work their entire lives, ...</a><span>&nbsp;</span></p>
+      <cite><a href="/news-and-views/dl-culture/why-we-should-place-more-value-on-the-company-of-elders-20151118-gl2fci.html">Ruby Hamad</a></cite>
+       </blockquote>
+	<blockquote class="cN-quote">
+      <a href="/etc/tags/ffx-categories/dailylife/life-and-love/parenting-and-families">
+        <img src="/content/dam/images/1/m/u/c/y/i/image.related.columnistThumbnail.90x90.gkuo1y.12948k.png/1448278921936.jpg" alt="Kasey Edwards" width="90" height="90"/></a>
+			<p><a href="/life-and-love/parenting-and-families/when-dressing-like-a-mum-is-your-biggest-parenting-crime-20151109-gkuo1y.html">Do you really want to be the sort of parent who prioritises ...</a><span>&nbsp;</span></p>
+      <cite><a href="/life-and-love/parenting-and-families/when-dressing-like-a-mum-is-your-biggest-parenting-crime-20151109-gkuo1y.html">Kasey Edwards</a></cite>
+       </blockquote>
+	<ul class="rotNav">
+            <li class="previous"><a href="javascript:;" title="Previous" sl-processed="1">Prev</a></li>
+            <li class="pause"><a href="javascript:;" title="Pause/Play" sl-processed="1">Pause/Play</a></li>
+            <li class="next last"><a href="javascript:;" title="Next" sl-processed="1">Next</a></li>
+        </ul>
+
+        </div>
+<h3 class="cS-headingOnly">PHOTO GALLERIES</h3>
+
+<div class="cS-photoGalleryLinks cfix">
+    <ul>
+        <li>
+                <a href="/photogallery/news-and-views/dl-culture/14-times-celebrities-reminded-you-of-your-parents-20160209-gmpvai.html" sl-processed="1">
+                    <img src="/content/dam/images/g/m/p/v/e/r/image.related.thumbnail.90x60.gmpvai.png/1455229130403.png" alt="When Usher explained he was filming a Snapchat video, Jay Z responded: “I don't even know what that means.” The result? ..." width="90" height="60"/></a>
+                <p><a href="/photogallery/news-and-views/dl-culture/14-times-celebrities-reminded-you-of-your-parents-20160209-gmpvai.html" sl-processed="1">14 times celebrities reminded you of your parents</a></p>
+            </li>
+        <li>
+                <a href="/photogallery/news-and-views/20-times-allwomen-things-were-better-20160203-gml4wa.html" sl-processed="1">
+                    <img src="/content/dam/images/g/m/l/4/u/x/image.related.thumbnail.90x60.gml4wa.png/1454620277492.jpg" alt="An all-new, all-female Ghostbusters starring Melissa McCarthy, Kristen Wiig plus SNL players Leslie Jones and Kate ..." width="90" height="60"/></a>
+                <p><a href="/photogallery/news-and-views/20-times-allwomen-things-were-better-20160203-gml4wa.html" sl-processed="1">20 times all-women things were better</a></p>
+            </li>
+        <li>
+                <a href="/photogallery/news-and-views/dl-culture/the-bestever-politician-throwbacks-20151014-gk9bl4.html" sl-processed="1">
+                    <img src="/content/dam/images/g/m/l/w/d/7/image.related.thumbnail.90x60.gk9bl4.png/1454565905306.png" alt="Nova Peris tweeted this ADORBS throwback for when she was truly a champ in the making. Did they know back then that ..." width="90" height="60"/></a>
+                <p><a href="/photogallery/news-and-views/dl-culture/the-bestever-politician-throwbacks-20151014-gk9bl4.html" sl-processed="1">25 politicians before they lost their innocence</a></p>
+            </li>
+        <li>
+                <a href="/photogallery/news-and-views/the-biggest-marketing-fails-of-all-time-20150813-giy5v8.html" sl-processed="1">
+                    <img src="/content/dam/images/g/m/l/q/d/o/image.related.thumbnail.90x60.giy5v8.png/1454560856128.png" alt="While nobody expects great PR from an organisation against marriage equality, this tweet from Marriage Alliance was a ..." width="90" height="60"/></a>
+                <p><a href="/photogallery/news-and-views/the-biggest-marketing-fails-of-all-time-20150813-giy5v8.html" sl-processed="1">The most ignorant PR fails of all time</a></p>
+            </li>
+        <li>
+                <a href="/photogallery/news-and-views/dl-culture/14-times-indigenous-australians-refused-to-be-silenced-20160129-gmhhrj.html" sl-processed="1">
+                    <img src="/content/dam/images/g/m/d/e/g/w/image.related.thumbnail.90x60.gmhhrj.png/1454068861712.png" alt="Stan Grant delivers his speech at the  IQ2 racism debate. " width="90" height="60"/></a>
+                <p><a href="/photogallery/news-and-views/dl-culture/14-times-indigenous-australians-refused-to-be-silenced-20160129-gmhhrj.html" sl-processed="1">14 times Indigenous Australians refused to be silenced</a></p>
+            </li>
+        <li>
+                <a href="/photogallery/news-and-views/dl-opinion/20-times-the-entertainment-industry-was-forced-to-confront-its-own-racism-20160119-gm9nc8.html" sl-processed="1">
+                    <img src="/content/dam/images/g/m/e/3/a/t/image.related.thumbnail.90x60.gm9nc8.png/1453774998517.jpg" alt="CENTURY CITY, CA - JANUARY 23:  Shonda Rhimes accepts the Norman Lear Achievement Award onstage at the 27th Annual ..." width="90" height="60"/></a>
+                <p><a href="/photogallery/news-and-views/dl-opinion/20-times-the-entertainment-industry-was-forced-to-confront-its-own-racism-20160119-gm9nc8.html" sl-processed="1">20 times the entertainment industry was forced to confront its own racism</a></p>
+            </li>
+        </ul>
+</div>
+<div class="shopStyle-search cfix">
+    <h3 class="cN-strapHeading">Daily <em>style</em></h3>
+    <form target="_top" action="http://shop.dailylife.com.au/browse">
+        <input type="hidden" value="uid5284-3648278-39" name="pid">Search for all the latest fashion here:<input type="text" class="text" name="fts">
+        <span class="btn">
+            <input type="submit" value="Go">
+        </span>
+    </form>
+</div><h3 class="cS-headingOnly">JOIN US ON FACEBOOK</h3>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/DailyLifeAU" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/DailyLifeAU"><a href="https://www.facebook.com/DailyLifeAU">Daily Life</a></blockquote></div></div>
+</div>
+<div id="adspot-300x250-pos2" class="ad " style='display:none;'>
+        <small>Advertisement</small>
+        <script>
+                        titan.requestAd.push("adspot-300x250-pos2");
+                    </script>
+                </div>
+</div><!-- class:aside span-8 last --><!-- class:aside span-8 last -->
+<div class="footer" role="contentinfo">
+<div class="footerContainer cfix">
+<div class="fMastheadLinks cfix">
+    <ul >
+            <li class="first"><h5><a href="http://www.dailylife.com.au/news-and-views" title="NEWS & VIEWS">NEWS & VIEWS</a></h5></li>
+            <li>
+        <a href="http://www.dailylife.com.au/news-and-views/news-features" title="News Features">News Features</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/news-and-views/opinion" title="Opinion">Opinion</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/news-and-views/culture" title="Popular Culture">Popular Culture</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/news-and-views/take-action" title="Take Action">Take Action</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/aaw" title="All About Women">All About Women</a>
+    </li>
+</ul>
+    <ul >
+            <li class="first"><h5><a href="http://www.dailylife.com.au/life-and-love" title="LIFE & LOVE">LIFE & LOVE</a></h5></li>
+            <li>
+        <a href="http://www.dailylife.com.au/life-and-love/work-and-money" title="Work & Money">Work & Money</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/life-and-love/parenting-and-families" title="Parenting & Families">Parenting & Families</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/life-and-love/love-sex-and-relationships" title="Love, sex & Relationships">Love, sex & Relationships</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/life-and-love/real-life" title="Real Life">Real Life</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/life-and-love/horoscopes" title="Horoscopes">Horoscopes</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/life-and-love/travel" title="Travel">Travel</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/life-and-love/home" title="Home">Home</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/life-and-love/weddings" title="Weddings">Weddings</a>
+    </li>
+</ul>
+    <ul >
+            <li class="first"><h5><a href="http://www.dailylife.com.au/health-and-fitness" title="HEALTH & FITNESS">HEALTH & FITNESS</a></h5></li>
+            <li>
+        <a href="http://www.dailylife.com.au/health-and-fitness/nutrition" title="Nutrition">Nutrition</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/health-and-fitness/fitness" title="Fitness">Fitness</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/health-and-fitness/wellbeing" title="Wellbeing">Wellbeing</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/health-and-fitness/sport" title="Sport">Sport</a>
+    </li>
+</ul>
+    <ul >
+            <li class="first"><h5><a href="http://www.dailylife.com.au/food" title="FOOD">FOOD</a></h5></li>
+            <li>
+        <a href="http://www.dailylife.com.au/food/food-features" title="Food Features">Food Features</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/food/food-blogs" title="Food Blogs">Food Blogs</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/food/celebrity-chefs" title="Celebrity Chefs">Celebrity Chefs</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/food/recipes/search" title="Recipe search">Recipe search</a>
+    </li>
+</ul>
+    <ul >
+            <li class="first"><h5><a href="http://www.dailylife.com.au/fashion" title="FASHION">FASHION</a></h5></li>
+            <li>
+        <a href="http://www.dailylife.com.au/fashion/fashion-coverage" title="Fashion Coverage">Fashion Coverage</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/fashion/fashion-trends" title="Fashion Trends">Fashion Trends</a>
+    </li>
+<li>
+        <a href="http://shop.dailylife.com.au/" title="Shopping">Shopping</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/fashion/fashion-week" title="Fashion Week">Fashion Week</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/fashion/look-of-the-day" title="Look of the day">Look of the day</a>
+    </li>
+</ul>
+    <ul >
+            <li class="first"><h5><a href="http://www.dailylife.com.au/beauty" title="BEAUTY">BEAUTY</a></h5></li>
+            <li>
+        <a href="http://www.dailylife.com.au/beauty/makeup" title="Markup">Markup</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/beauty/hair" title="Hair">Hair</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/beauty/skincare-and-anti-aging" title="Skincare & Anti-aging">Skincare & Anti-aging</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/beauty/beauty-trends" title="Beauty Trends">Beauty Trends</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/beauty/product-reviews" title="Product Reviews">Product Reviews</a>
+    </li>
+</ul>
+    <ul class="last">
+            <li class="first"><h5><a href="http://www.dailylife.com.au/people" title="PEOPLE">PEOPLE</a></h5></li>
+            <li>
+        <a href="http://www.dailylife.com.au/people/celebrity-news" title="Celebrity News">Celebrity News</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/people/interviews" title="Interviews">Interviews</a>
+    </li>
+<li>
+        <a href="http://www.dailylife.com.au/dl-people/entertainment" title="Entertainment">Entertainment</a>
+    </li>
+</ul>
+    </div><!-- class:fMastheadLinks cfix -->
+<h3 class="fS-Tagline">Explore our fashion, food, lifestyle and parenting sites</h3>
+<ul class="fS-channels">
+   
+    <li class="cLifeStyle">
+        <a href="http://www.smh.com.au/lifestyle">Life &amp; Style</a>
+    </li>
+     <li class="cGoodFood">
+        <a href="http://www.goodfood.com.au">Cusine</a>
+    </li>
+    <li class="cEssentialBaby">
+        <a href="http://www.essentialbaby.com.au">Essential Baby</a>
+    </li>
+    <li class="cEssentialKids">
+        <a href="http://www.essentialkids.com.au">Essential Kids</a>
+    </li>
+    <li class="cFindABabysitter">
+        <a href="http://www.findababysitter.com.au">Find a Babysitter</a>
+    </li>
+</ul></div>
+<div id="adspot-728x90-pos2" class="ad " style='display:none;'>
+        <script>
+                        titan.requestAd.push("adspot-728x90-pos2");
+                    </script>
+                </div>
+<ul class="fSectionLinks cfix">
+    <li>
+            <a href="http://www.dailylife.com.au/about_us.html" title="About us">About us</a>
+        </li>
+    <li>
+            <a href="http://www.dailylife.com.au/contact_us.html" title="Contact us">Contact us</a>
+        </li>
+    <li>
+            <a href="http://www.dailylife.com.au/newsletters.html" title="Newsletters">Newsletters</a>
+        </li>
+    <li>
+            <a href="http://www.dailylife.com.au/advertise_with_us.html" title="Advertise with us">Advertise with us</a>
+        </li>
+    <li>
+            <a href="http://www.fairfax.com.au/privacy.html" title="Privacy statement">Privacy statement</a>
+        </li>
+    <li>
+            <a href="http://www.fairfax.com.au/conditions.ac" title="Terms of use">Terms of use</a>
+        </li>
+    <li class="last"><span class="Kampyle" data-kampyleFormId="101291" data-kampyleSiteCode="3499354"><a id="kampylilink" href="http://www.kampyle.com/feedback_form/ff-feedback-form.php?site_code=3499354&lang=en&form_id=101291" target="kampyleWindow">Give Feedback</a></span></li>
+    </ul><div class="nN-footerLinks">
+    <a href="http://www.fairfaxdigital.com.au" class="logo">Fairfax Media</a>
+    <div>
+        <h3>Our Sites</h3>
+            <ul>
+	<li class="first">
+		    		<a title="The Sydney Morning Herald" href="http://www.smh.com.au/">The Sydney Morning Herald</a>
+		        </li>
+	        <li>
+	    			<a title="The Age" href="http://www.theage.com.au">The Age</a>
+	        	</li>
+			<li>
+	    			<a title="Adzuna" href="http://www.adzuna.com.au/">Adzuna</a>
+	        	</li>
+			<li>
+	    			<a title="Domain" href="http://www.domain.com.au">Domain</a>
+	        	</li>
+			<li>
+	    			<a title="Drive" href="http://www.drive.com.au">Drive</a>
+	        	</li>
+			<li>
+	    			<a title="RSVP" href="http://www.rsvp.com.au">RSVP</a>
+	        	</li>
+			<li>
+	    			<a title="Essential Baby" href="http://www.essentialbaby.com.au/">Essential Baby</a>
+	        	</li>
+			<li>
+	    			<a title="InvestSMART" href="http://www.investsmart.com.au/">InvestSMART</a>
+	        	</li>
+			<li>
+	    			<a title="APM" href="http://apm.com.au/">APM</a>
+	        	</li>
+			<li>
+	    			<a title="Stayz" href="http://www.stayz.com.au/">Stayz</a>
+	        	</li>
+			<li>
+	    			<a title="Weatherzone" href="http://www.weatherzone.com.au/">Weatherzone</a>
+	        	</li>
+			<li>
+	    			<a title="TheVine" href="http://www.thevine.com.au/#utm_source=FD&utm_medium=mastheadpuff&utm_campaign=thevineheader">TheVine</a>
+	        	</li>
+			</ul><h3>Our Partners</h3>
+            <ul>
+	<li class="first">
+		    		<a title="Buy & Sell" href="http://www.buyandsell.com.au/">Buy & Sell</a>
+		        </li>
+	        </ul></div>
+    <cite>Copyright &#169; 2016 Fairfax Media</cite>
+</div><!-- class:nN-footerLinks --></div>
+<div id="adspot-1x11-pos1" class="ad " style='display:none;'>
+        <script>
+                        titan.requestAd.push("adspot-1x11-pos1");
+                    </script>
+                </div>
+</div><!-- class:wrap cfix -->
+    </div><!-- class:outerWrap -->
+    <script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/output/7.55.4/fd.js/fd_min.js"></script>
+<script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/output/7.55.4/fd.registrars.dailylife.js/fd.registrars.dailylife_min.js"></script>
+<script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/output/7.55.4/fd.registrars.js/fd.registrars_min.js"></script>
+<script>
+    var adParameters = {
+        paywall: false
+    };
+    FD.trigger("FDLoadJSSDK", [
+        "",
+        "dailylife.com.au",
+        "http://www.dailylife.com.au",
+        "https://dailylife.myfairfax.com.au",
+        "https://api.myfairfax.com.au",
+        "FfM6pY7bcDXz83_CIPIjkQ"
+        
+    ]);
+</script>
+
+
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load("feeds", "1");
+    function mashableFeed(){
+        var feed = new google.feeds.Feed("http://mashable.com/follow/stories/top.rss?f=1");
+        feed.setNumEntries(5);
+        feed.load(function(result) {
+            if (!result.error) {
+                var title = document.createElement("h3");
+                title.innerHTML = "Top headlines from";
+                document.getElementById("mashable-content").innerHTML = '';
+                var container = document.getElementById("mashable-content").appendChild(document.createElement("ul"));
+                for (var i = 0; i < 5 /*result.feed.entries.length*/; i++) {
+                    var entry = result.feed.entries[i];
+                    var item = document.createElement("li");
+                    var link = document.createElement("a");
+                    link.setAttribute('href', entry.link);
+                    link.setAttribute('target', '_blank');
+                    link.innerHTML = entry.title;
+                    item.appendChild(link);
+                    container.appendChild(item);
+                }
+                var link = document.createElement("a");
+                link.setAttribute('href', result.feed.link);
+                link.setAttribute('target', '_blank');
+                link.innerHTML = "Read more Mashable posts";
+                document.getElementById("mashable-footer").innerHTML = '';
+                document.getElementById("mashable-footer").appendChild(link);
+            }
+        });
+        setTimeout('mashableFeed()', 180000);
+    }
+    google.setOnLoadCallback(mashableFeed);
+</script>
+<script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/output/7.55.4/fd.registrars.images.httppipelining.js/fd.registrars.images.httppipelining_min.js"></script>
+<script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/output/7.55.4/fd.registrars.mymasthead.js/fd.registrars.mymasthead_min.js"></script>
+<div data-brandName="dailylife"></div>
+<script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/output/7.55.4/fd.videoplayer.js/fd.videoplayer_min.js"></script>
+<script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/jwplayer6/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key = "3Kw6cxrtDRgcWRtdGLa2YBoPkAlVC9+iy+DgiQ==";</script>
+    <!-- START Google Analytics Tracking -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22700242-23']);
+    _gaq.push(['_setDomainName', '.dailylife.com.au']);
+    _gaq.push(['_addIgnoredRef', 'dailylife.com.au']);
+    _gaq.push(['_setAllowAnchor', true]);
+    _gaq.push(['_setCustomVar', 1, 'Section', 'DL Food', 3]);
+    _gaq.push(['_setCustomVar', 2, 'Sub-Section', 'Food Features', 3]);
+    _gaq.push(['_setCustomVar', 3, 'Byline', 'Neil Perry', 3]);
+    _gaq.push(['_setCustomVar', 4, 'Page Type', 'Article', 3]);
+    _gaq.push(['_setAllowAnchor', true]);
+    _gaq.push(['_setCampaignCookieTimeout', 1209600000]);
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<!-- END Google Analytics Tracking -->
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2009 Nielsen Online -->
+<script type="text/javascript" src="//secure-au.imrworldwide.com/v60.js"></script>
+<script type="text/javascript">
+    var pvar = {cid:"f2", content:"dailylife-dlfood-foodfeatures-story-online", server:"secure-au"};
+    var trac = nol_t(pvar);
+    trac.record().post();
+    window.s_pageName = "dailylife:article:dl food:food features:pulled pork and coleslaw burgers with chipotle mayo ";
+</script>
+<noscript>
+    <div>
+        <img src="//secure-au.imrworldwide.com/cgi-bin/m?ci=f2&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt=""/>
+    </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<!-- TODO: Add ClientSideViewTracking here. There are a lot of gaps between DCDS and CQ implementation, for example we have primary Asset in DCDS but not in CQ, so 
+we are not at the position to add client side view tracking code now-->
+<!-- FFX analytics stuff -->
+<script type="text/javascript">
+    var _fmaq = _fmaq || [];
+        _fmaq.push(["_trackEvent", [
+            ["event", "view"],
+            ["system", "DCDS"],
+            ["site", "dailylife"],
+            ["assetCategory", "DL Food"],
+            ["asset", "1005388670"],
+            ["title", "Pulled pork and coleslaw burgers with chipotle mayo "],
+            ["assetType", "Article"],
+            ["lastPublishedDate",  "Wed Feb 03 07:27:52 UTC 2016"],
+            ["urlHash", window.location.hash],
+            ["pageType", ((typeof digitalData !== "undefined") ? digitalData.page.category.pageType : "")],
+            ["primaryCategory", ((typeof digitalData !== "undefined") ? digitalData.page.category.primaryCategory : "")],
+            ["meterCount", (typeof FFXDRM !== "undefined") ? FFXDRM.DefaultUserProfileProvider().get().meterCount : ""],
+            ["meterExpires", (typeof FFXDRM !== "undefined") ? FFXDRM.DefaultUserProfileProvider().get().expires : ""] ,
+            ["memberType", (typeof digitalData !== "undefined" && digitalData.user && digitalData.user[0] && digitalData.user[0].profile && digitalData.user[0].profile[0]) ? digitalData.user[0].profile[0].membershipType : ""]
+        ]]);
+
+    var _fma_options = {};
+
+    (function () {
+        var fma_script = document.createElement('script');
+        fma_script.src = 'http://resources.fairfax.com.au/js/track/1.0/track.min.js';
+        fma_script.setAttribute('async', 'true');
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fma_script, s);
+    })();
+</script>
+<!-- TODO: Add the CXense analytics tracking code here. Depending on CXense integration-->
+<!-- TODO: SiteCatalyst tracking is not completed. Need latest DCDS implementation for reference-->
+<!-- Adobe Marketing Cloud Tag Management code
+Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+More info available at http://www.adobe.com -->
+<script type="text/javascript">
+    $(window).load(function () {
+        var membershipStatus = (function() {
+            var userType = "unknown";
+
+            if (typeof FFXHagrid !== "undefined" && FFXHagrid.isLoggedIn()) {
+                try {
+                    FFXHagrid.getUserPlansProvider().getUserPlans(false, function(plans) {
+                        if (typeof plans !== "undefined" && plans.length > 0) {
+                            userType = "subscriber " + plans.join(",").toLowerCase();
+                        } else {
+                            userType = "member";
+                        }
+                    });
+                } catch (e) {
+                    userType ="member";
+                }
+            } else {
+                userType = "visitor";
+            }
+
+            return userType;
+        })();
+
+        var memberID = (function() {
+            var cookies = (document.cookie && document.cookie.length > 0) ? document.cookie.split(";") : [];
+            for(var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                var cookieName = cookie.split("=")[0];
+                var cookieValue = cookie.split("=")[1];
+                if (cookieName.indexOf("ffx_unique_id") === 0) {
+                    return cookieValue;
+                }
+            }
+            return "unknown";
+        })();
+
+        if(s){
+            // Brand:Site Section:Sub Section:Sub Section 2:Page Title:Asset ID
+            s.pageName = "dailylife:DL Food:Food Features::Pulled pork and coleslaw burgers with chipotle mayo :1005388670"
+            // Member ID (prop51)
+            s.prop51 = memberID
+
+            
+                s.prop1 = "dailylife"
+            
+                s.prop2 = "DL Food"
+            
+                s.prop6 = ""
+            
+                s.prop7 = "Article"
+            
+                s.prop8 = "1005388670 + Pulled pork and coleslaw burgers with chipotle mayo "
+            
+                s.prop31 = "Neil Perry"
+            
+                s.prop32 = "2016-02-03"
+            
+
+
+            if (window["FD"]) {
+                if (typeof FD.s_prop24 !== "undefined") {
+                    s.prop24 = FD.s_prop24
+                }
+            }
+            // See User Type tracking for invocation
+
+            // OLG tracking
+            if(typeof olgTracking !== "undefined") {
+                if(s.events) {
+                    s.events += ",event21";
+                } else {
+                    s.events = "event21";
+                }
+                s.eVar22 = s.prop1 + "-" + s.prop2 + "-" + olgTracking.provider + "-" + olgTracking.productType + "-" + olgTracking.location;
+            }
+            s.eVar57 = membershipStatus;
+            s.t();
+        }
+    });
+</script>
+<!-- End Adobe Marketing Cloud Tag Management code -->
+<div data-boomerangSegment="132487"></div>
+
+<!-- outbrain js -->
+    <script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script src="http://widgets.twimg.com/j/2/widget.js" type="text/javascript"></script>
+<script src="http://apis.google.com/js/plusone.js" type="text/javascript"></script>
+<div id="fb-root"></div><!-- id:fb-root -->
+<script src="http://connect.facebook.net/en_US/all.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: "233408706727435",
+            cookie: true,
+            status: true,
+            xfbml: true
+        });
+        FD.register(function() {
+            new FD.Facebook({});
+        });
+    };
+    jQuery(function($) {
+        $('ul.social .pinterest').on('click', 'a[data-pin-log="button_pinit"]', function(event) {
+            FD.SocialShareTracking.trackSocialShare('pinterest');
+        });
+    });
+    function googlePlusSocialShareCallback() {
+        FD.SocialShareTracking.gplusShare();
+    }
+</script>
+<script src="http://platform.linkedin.com/in.js" type="text/javascript">
+    api_key: 
+    authorize: true
+</script>
+<script src="//assets.pinterest.com/js/pinit.js"></script>
+<script src="http://platform.instagram.com/en_US/embeds.js" type="text/javascript" async defer></script>
+<script type="text/javascript">
+    if (window["FD"]) {
+        (function() {
+            // Check that the user is at least logged in before attempting to say that they have read an article.
+            if (FD.isLoggedIn()) {
+                FD.trigger("FDArticleRead");
+            } else {
+                FD.trigger("FDMyMastheadAccountLoginPrompt");
+            }
+        })();
+    }
+</script>
+<script type="text/javascript" src="http://resources.smh.com.au/common/media-common-1.0/js/fdjsf/output/7.55.4/fd.registrars.contentpagewide.js/fd.registrars.contentpagewide_min.js"></script>
+<script type="text/javascript" src="/etc/designs/ffx/wcm/shared/clientlibs/desktop/ads.min.clientlibversion.aec370a44dc3863e687c6170a0712e79.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/fmjs/lib/ckegmapembed.min.clientlibversion.0cf7f239ca872d15a03800c23a779521.js"></script>
+<script src="http://platform.instagram.com/en_US/embeds.js" type="text/javascript" async defer></script>
+    <script>
+    function createSocialElement(d, s, id, src) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = src;
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+</script>
+
+<div id="fb-root"></div><!-- id:fb-root -->
+<script>
+    createSocialElement(document, 'script', 'facebook-jssdk', "//connect.facebook.net/en_GB/all.js#xfbml=1");
+</script>
+<!-- NOTE: needs to be at the bottom of the page. -->
+<div id="adspot-interstitial">
+   <script>
+   var titan = window.titan || {};
+   titan.requestAd = titan.requestAd || [];
+   titan.requestAd.push("adspot-interstitial");
+   </script>
+</div><script type="text/javascript">
+_satellite.pageBottom();
+</script></body>
+
+</html>

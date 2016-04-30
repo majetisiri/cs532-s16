@@ -1,0 +1,174 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" dir="ltr">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1;IE=10;IE=9" /> 
+ 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+	
+
+	
+	<title>Workday (chipotle)</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="author" content="">
+	<script type="text/javascript" src="/static/gwt-desktop/base/shared-min.js?31d8414757e024851d2178f7617d1679"></script>
+	
+<script type="text/javascript">
+	// Check browser compatibility
+	var getUnsupportedBrowserMessage = function() {
+		var message = 'This Browser is not supported by Workday. Please contact your IT department.';
+		message = message.replace(/&lt;/g,'<')
+	                     .replace(/&gt;/g,'>')
+	                     .replace(/&quot;/g,"\"")
+	                     .replace(/&nbsp;/g," ")
+	                     .replace(/&#39;/g, "\'")
+	                     .replace(/&amp;/g,'&'); // Needs to go last!
+		return "<div id=\"unsupported-browser-message\">" + message + "</div>";          
+	};
+	
+	var browser = BrowserDetect.getBrowserMajorVersion();
+	if (browser == "Explorer6" || browser == "Explorer7" || browser == "Explorer8") {
+		document.write(getUnsupportedBrowserMessage());
+		document.close();
+		document.execCommand("Stop");
+	}
+	
+	// Add properties to workday
+	window.workday = window.workday || {};
+	workday.tenant = 'chipotle';
+	workday.clientVersion = 'Workday/rc1.0.1032 (HTML5)';
+	
+	// Construct init params for GWT app
+	
+	workday.initParams = {
+        baseDir: "/static/gwt-desktop/",
+		systemConfidenceLevel: 'PROD',
+		cdn: {
+			endpoint: 'wd5.myworkdaycdn.com',
+			enabled: false,
+			allowed: true
+		},
+		proxyEnabled: false,
+		currentVersion: '20.0.04.045',
+		serviceType: 'uic',
+		loginAuthURL: '/chipotle/d/login-auth.htmld',
+		environment: '',
+		environmentType: 'PROD',
+		messageFile: 'gwtdmessages_1455133711.js',
+		checksums: {
+			'gwtdmessages_1455133711.js': 'aec00b65ab1aa7c3d90e0b37597c4300',
+			'jquery-1.6.4.min.js': '9118381924c51c89d9414a311ec9c97f',
+			'hammer.min.js': 'dcbe532bdf8a461d0d9a18806752c38b',
+			'clipboard-min.js': 'f5ebe1b660127c43bd52c4ef5bee25d2',
+			'WorkdayApp.nocache.js': 'f53a81cd375d544be3088f0eabb03cb9',
+			'Login.nocache.js': 'b670bf7f1bdae0b5fe9f6572d157832a',
+			'offScreen.css': 'd07c8ae8425e4c8dea2c733f1c0ded2e',
+			'lotusBootstrap.css': 'c9bd35fe967f393acd7514d8644cd7f0'
+		}
+	};
+	
+	// Helper functions to keep track of invoked classes during automation testing
+	workday.clearInvokedClasses = function() {
+        if (localStorage.getItem('invokedClasses') !== null) {
+            localStorage.removeItem("invokedClasses");
+        }
+    };
+    workday.pushInvokedClass = function(className) {
+        var invokedClasses = localStorage.getItem('invokedClasses') === null ? [] :
+                JSON.parse(localStorage.getItem('invokedClasses'));
+        invokedClasses.push(className);
+        localStorage.setItem('invokedClasses', JSON.stringify(invokedClasses));
+    };
+    workday.getInvokedClasses = function() {
+        return JSON.parse(localStorage.getItem('invokedClasses'));
+    };
+</script>
+
+	<script type="text/javascript">
+		function isOAuthAuthorizationPending() {
+			return false;	
+		}
+
+		workday.clientRenderer.renderLoginApp(workday.initParams);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+<!-- DIV used by UIS acceptance tests to identify which login page is loaded -->
+<div id="htmld_login"></div>
+<div id="container">
+	<!-- Accessibility link -->
+	<div id="accessbilityLinkDiv">
+		<a id="accessibilityLink" class="offScreen" href="">
+			Workday Accessibility Functionality Sign In
+		</a>
+		<script language="javascript">
+			var accessibilityLink = document.getElementById("accessibilityLink");
+			accessibilityLink.href = getAccessibilityHref();
+		</script>
+	</div>
+	<div id="login-wrap" class="clearfix">
+		<div id="login-area" data-automation-id="login">
+			<div id="htmlContent"></div>
+		</div>
+		<!-- END WORKDAY LOGIN -->
+	</div>
+	<div id="notice-detail">
+		
+		
+	</div>
+
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="footer">
+	<div id="schedule">
+		<script type="text/javascript">
+			if (useCdnDomain) {
+				var scheduleDiv = document.getElementById("schedule");
+				var cdnText = document.createTextNode("CDN is enabled  - ");
+				scheduleDiv.appendChild(cdnText);
+			}
+		</script>
+		Your system will be unavailable for a maximum of 12 hours during the next Weekly Service Update and Quarterly Maintenance; starting on Friday, February 19, 2016 at 11:00 p.m. PST (GMT -8) until Saturday, February 20, 2016 at 11:00 a.m. PST (GMT -8).
+	</div>
+	<span id="copyright">
+		<a href="http://www.workday.com/company/service_privacy.php">
+			Workday Service Privacy Policy &nbsp;</a> 
+		&copy;
+	</span>
+	<script type="text/javascript">
+		$("#copyright").append(" " + new Date().getFullYear() + " Workday, Inc.");
+	</script>
+
+	<span id="powered-by">Powered by Workday</span>
+</div>
+
+<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+<script type="text/javascript">
+	/*UIC-1368 allow preloading of Main Application files*/
+	if(uri['args']['preload'] == 'true') { 
+		writeStaticFileAsScript("/static/gwt-desktop/update/WorkdayApp/WorkdayApp.nocache.js?f53a81cd375d544be3088f0eabb03cb9");
+	}
+</script>
+
+</body>
+</html>

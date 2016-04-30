@@ -1,0 +1,239 @@
+\chapter{Question 1}
+\label{intro}
+
+\textbf{Using the data from A8:\\\\
+- Consider each row in the blog-term matrix as a 500 dimension vector, corresponding to a blog.  
+- From chapter 8, replace numpredict.euclidean() with cosine as the distance metric.  In other words, you'll be computing the cosine between vectors of 500 dimensions.  \\\\
+- Use knnestimate() to compute the nearest neighbors for both:\\\\
+\url{http://f-measure.blogspot.com/}\\\\
+\url{http://ws-dl.blogspot.com/}\\\\
+for k={1,2,5,10,20}.}\\\\
+
+\newpage
+Following are the steps I have taken to the solve the problem:
+\begin{itemize}
+\item I stored each row in the blog-term matrix in JSON structure where `blogname' is the `key' and the `word count' is the `value'. This code is  illustrated in the Listing \ref{lst:q1code1}. The input for the code is the `blogdata.txt' generated in A8 this file is located at \url{https://github.com/majetisiri/cs532-s16/blob/master/a8/q1-blogdata.txt}. The output JSON structure is stored in `dataAsVector'.
+\item To find the nearest neighbors for the URIs `http://f-measure.blogspot.com/' and `http://ws-dl.blogspot.com/' using knnestimate I used the PCI book code  from `chapter 8'. 
+\item The function `main()' reads the `dataAsVector' file as input which is a JSON structure and selects the value that correspond to the key `F-measure' and `Web Science and Digital Libraries Research Group' and stores it as `vec1'.
+\item  The function `getdistances()' iterates through all the other blogs and stores each blog as `vec2'. The distance between `vec1' and `vec2' is calculated using function `cosineDistance()'. 
+\item All the above computed cosine distances between vectors of 500 dimensions are sorted in ascending order and the nearest neighbors for `http://f-measure.blogspot.com/' and `http://ws-dl.blogspot.com/' for k={1,2,5,10,20} is done using `knnestimate()'. This is illustrated in Listing \ref{lst:q1code2}.
+\item The output for `http://f-measure.blogspot.com/' is illustrated in Table below\ref{q1table1}:
+\item \textbf{ k=1}
+\begin{table}
+\caption{Output for `http://f-measure.blogspot.com/'}
+\label{q1table1}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos. & 0.0154444270953	 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\item \textbf{ k=2}
+\begin{table}
+\caption{Output for `http://f-measure.blogspot.com/'}
+\label{q1table1}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos. & 0.0154444270953	 \\ \hline
+Parish Radio &    0.0306191242689	  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\newpage
+\item \textbf{ k=5}
+\begin{table}
+\caption{Output for `http://f-measure.blogspot.com/'}
+\label{q1table1}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos. & 0.0154444270953	 \\ \hline
+Parish Radio &    0.0306191242689	  \\ \hline
+PLATTENTIPPS &    0.0513198672441	  \\ \hline
+MARISOL&  0.063556611459	  \\ \hline
+MR. BEAUTIFUL TRASH ART & 0.0708618273208	  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\item \textbf{ k=10}
+\begin{table}
+\caption{Output for `http://f-measure.blogspot.com/'}
+\label{q1table1}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos. & 0.0154444270953	 \\ \hline
+Parish Radio &    0.0306191242689	  \\ \hline
+PLATTENTIPPS &    0.0513198672441	  \\ \hline
+MARISOL&  0.063556611459	  \\ \hline
+MR. BEAUTIFUL TRASH ART & 0.0708618273208	  \\ \hline
+Stonehill Sketchbook  &   0.077138600469	  \\ \hline
+Boggle Me Thursday   &    0.0798942002771	  \\ \hline
+INDIEohren.! &    0.0919836419218	  \\ \hline
+IoTube     :) &   0.104650493144	   \\ \hline
+THE HUB & 0.105225114925	  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\newpage
+\item \textbf{ k=20}
+\begin{table}
+\caption{Output for `http://f-measure.blogspot.com/'}
+\label{q1table1}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos. & 0.0154444270953	 \\ \hline
+Parish Radio &    0.0306191242689	  \\ \hline
+PLATTENTIPPS &    0.0513198672441	  \\ \hline
+MARISOL&  0.063556611459	  \\ \hline
+MR. BEAUTIFUL TRASH ART & 0.0708618273208	  \\ \hline
+Stonehill Sketchbook  &   0.077138600469	  \\ \hline
+Boggle Me Thursday   &    0.0798942002771	  \\ \hline
+INDIEohren.! &    0.0919836419218	  \\ \hline
+IoTube     :) &   0.104650493144	   \\ \hline
+THE HUB & 0.105225114925	  \\ \hline
+Room 19's Blog 2016   &   0.107930979076	  \\ \hline
+ORGANMYTH &       0.121948739579	  \\ \hline
+Rod Shone  &      0.125346786751	  \\ \hline
+FlowRadio Playlists (and Blog)&   0.126749970237	  \\ \hline
+One Stunning Single Egg & 0.130875110969	  \\ \hline
+mattgarman    &   0.145942366409	  \\ \hline
+Flatbasset  &     0.146490784699	   \\ \hline
+The Stearns Family   &    0.146995772609	  \\ \hline
+jaaackie.     &   0.153804726796	  \\ \hline
+A H T A P O T  &  0.161421621637	  \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\item The output for `http://ws-dl.blogspot.com/' is illustrated in Table below \ref{q1table2}:
+\item \textbf{ k=1}
+\begin{table}
+\caption{Output for `http://ws-dl.blogspot.com/'}
+\label{q1table2}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+PLATTENTIPPS   & 0.00203252382358	 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\item \textbf{ k=2}
+\begin{table}
+\caption{Output for `http://ws-dl.blogspot.com/'}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+PLATTENTIPPS   & 0.00203252382358	 \\ \hline
+MARISOL & 0.00686746006616	  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\item \textbf{ k=5}
+\begin{table}
+\caption{Output for `http://ws-dl.blogspot.com/'}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+PLATTENTIPPS   & 0.00203252382358	 \\ \hline
+MARISOL & 0.00686746006616	  \\ \hline
+CRUZANDO EL UNIVERSO... &0.0213236027762	  \\ \hline
+adrianoblog  &   0.0246165816012	  \\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos.& 0.025829508375	  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\item \textbf{ k=10}
+\begin{table}
+\caption{Output for `http://ws-dl.blogspot.com/'}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+PLATTENTIPPS   & 0.00203252382358	 \\ \hline
+MARISOL & 0.00686746006616	  \\ \hline
+CRUZANDO EL UNIVERSO... &0.0213236027762	  \\ \hline
+adrianoblog  &   0.0246165816012	  \\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos.& 0.025829508375	  \\ \hline
+IoTube     :)   &0.0456300688804	  \\ \hline
+Boggle Me Thursday   &   0.0567821571865	  \\ \hline
+If You Give a Girl a Camera...&  0.0666690597973	  \\ \hline
+Mystic Chords Of Memory& 0.0673182085108	   \\ \hline
+Flatbasset   &   0.0758444571954	  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\newpage
+\item \textbf{ k=20}
+\begin{table}
+\caption{Output for `http://ws-dl.blogspot.com/'}
+\begin{center}
+\hspace{-2cm}
+\begin{tabular}{|c|c|}
+\hline
+ \textbf{Blog Name} & \textbf{Distance}\\ \hline
+PLATTENTIPPS   & 0.00203252382358	 \\ \hline
+MARISOL & 0.00686746006616	  \\ \hline
+CRUZANDO EL UNIVERSO... &0.0213236027762	  \\ \hline
+adrianoblog  &   0.0246165816012	  \\ \hline
+La FotografÃ­a Efectista Abstracta. Fotos Abstractas. Abstract  Photos.& 0.025829508375	  \\ \hline
+IoTube     :)   &0.0456300688804	  \\ \hline
+Boggle Me Thursday   &   0.0567821571865	  \\ \hline
+If You Give a Girl a Camera...&  0.0666690597973	  \\ \hline
+Mystic Chords Of Memory& 0.0673182085108	   \\ \hline
+Flatbasset   &   0.0758444571954	  \\ \hline
+INDIEohren.! &   0.0767945198989	  \\ \hline
+The Campus Buzz on WSOU& 0.0918046411881	  \\ \hline
+The Stearns Family    &  0.0934455499801	  \\ \hline
+One Stunning Single Egg& 0.0948170501912	  \\ \hline
+Lo importante es que estes tÃº bien  &   0.0948286097743	  \\ \hline
+Lo importante es que estes tÃº bien  &   0.0948286097743	  \\ \hline
+THE HUB &0.0951894062985	   \\ \hline
+jaaackie.  &     0.0965323470041	  \\ \hline
+mattgarman   &   0.0981283528512	  \\ \hline
+kÃ¼nstler treu & 0.102859292064	  \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\end{itemize}
+\newpage
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=python code for storing elements in each row of blog matrix in a vector.,frame=single,breaklines=true,label=lst:q1code1, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/getDataAsVector.py}
+
+\textbf{Code Listing}
+\sloppy
+\lstinputlisting[language=Python,caption=some functions in`numpredict.py' from PCI book code,frame=single,breaklines=true,label=lst:q1code2, tabsize=2, captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{src/knnestimate.py}
+

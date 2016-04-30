@@ -1,0 +1,552 @@
+   #[1]Theprofetionel RSS Feed [2]Theprofetionel Atom Feed
+   [3]Theprofetionel » Feed [4]Theprofetionel » Comments Feed
+   [5]Theprofetionel » Tesla Motors Twitter Hack and Website Defacement:
+   More Than Just a Domain Hijack Comments Feed [6]alternate [7]alternate
+
+     * [8]Login / Register
+     * [9]0 items - £0.00
+     * _
+
+     * [10]Contact Us
+     * [11]Falow Us On Twitter
+     * [12]Falow Us On Facebook
+     * [13]Falow Us On Google+
+     * [14]Falow Us On Vkontakte
+
+   [15]Theprofetionel
+   [16]Theprofetionel
+     * [17]Home
+     * [18]Computer & Technology
+          + [19]Technology
+               o [20]Cameras
+               o [21]Computers
+               o [22]Phones
+               o [23]Televisions
+          + [24]Windows
+          + [25]Monetizing
+     * [26]How To
+          + [27]Video Tutorials
+          + [28]wikihow
+          + [29]howtogeek
+          + [30]Life Style
+     * [31]Gaming
+          + [32]PC
+          + [33]Wii
+          + [34]PS4
+          + [35]Xbox One
+     * [36]Web Development
+          + [37]WordPress
+               o [38]WordPress Themes
+                    # [39]Codecanyon
+                    # [40]ThemForest
+                    # [41]AppThemes
+                    # [42]WooThemes
+                    # [43]WooCommerce
+                    # [44]CreativeMarket
+                    # [45]Ecommerce
+               o [46]WordPress Plugins
+                    # [47]Woocommerce Extensions
+                    # [48]Wp Job Manage
+                    # [49]Wpmudev
+          + [50]Cms Templates
+               o [51]Joomla
+               o [52]Drupal
+               o [53]Blogger
+               o [54]HTML Templates
+          + [55]HTML Templates
+          + [56]Nulled Scripts
+     * [57]Hackers
+          + [58]Wifi Crack
+          + [59]SQL Injection
+     * [60]More+
+          + [61]Flash
+          + [62]Graphic
+               o [63]Icons
+               o [64]Stock Photography
+
+   ____________________
+
+   [65]Home
+   [66]Hackers
+   Tesla Motors Twitter Hack and Website Defacement: More Than Just a
+   Domain Hijack
+
+Tesla Motors Twitter Hack and Website Defacement: More Than Just a Domain
+Hijack
+
+   April 28, 2015 [67]vbulden [68]Hackers [69]0 Comment
+
+Observations on the Tesla Motors Twitter Hack and Website Defacement: More Than
+Just a Domain Hijack
+
+   What you’re about to read is a rough break-down of the Tesla Motors
+   Twitter and teslamotors.com
+   website defacement, and also the possibility of the compromise of one
+   of the “AkamaiGHost” web caching/mirror servers Tesla Motors appeared
+   to
+   be utilizing for redundancy or load-balancing at the time of the hack,
+   a
+   detail no one really mentioned during or post-occurrence…So I thought
+   I’d share my findings.
+
+   It is also my personal opinion that during the dissemination of
+   information about the hack (via twitter), that dis-information was
+   purposefully propagated in an effort to misdirect attention away from
+   the initial compromise.
+
+   “In wartime, truth is so precious that she should always be attended by
+   a bodyguard of lies.” – Winston S. Churchill
+
+   Mid-day, On Saturday April 25th 2015, information about a
+   Tesla Motors twitter account take-over started flowing unto the fragile
+   webs, followed by the take-over of the official Elon Musk twitter
+   account:
+
+   Both accounts obviously indicating they were freshly compromised by a
+   “RIPPRGANG”, which will later be found to be LizardSquad.
+
+   Upon seeing this, I head over to [70]http://www.teslamotors.com to find
+   that it, had also been hacked:
+
+   It read, “Hacked by Autismsquad!”
+   Naturally, I checked out the HTML source, which, at the time, was
+   viewed
+   from a machine in the US… (more on geo-location later and how it was
+   critical to the findings later on in this analysis).
+
+   Here’s the source code of the content that would eventually make its
+   way around the internet (just a quick “view-source” from my browser):
+
+   A copy of the complete source can also be found here:
+   [71]http://hastebin.com/raw/egipewexib
+
+   As time passed, literally minutes into the hack, several theories began
+   to emerge:
+     * The Twitter accounts weren’t configured to use two-factor auth, and
+       were brute-forced, and accessed due to weak passwords and/or
+       password
+       re-use across multiple twitter accounts, although this wouldn’t
+       have
+       explained the website defacement, unless those same exact
+       credentials
+       were being used for the Network Solutions control panel.
+
+     * The domain registrar login information for teslamotors.com,
+       registered with Network Solutions, was social engineered, and from
+       there, DNS modifications were made. Specifically, the MX records, A
+       and
+       NS records were also changed to point to an IP address controlled
+       by the
+       attackers. From there, they would issue a password reset and would
+       receive all mail for that domain (including the new
+       credentials/temporary link, whatever it is with twitter.) With a
+       change
+       in A and NS records, the attackers would have complete control as
+       to
+       what IP address the domain would ultimately end up resolving to,
+       which
+       would host the hacked page. (This theory ends up being the one
+       everyone
+       runs with)
+
+     * Another theory would include social engineering AT&T to get all
+       phone calls to a legit number forwarded to another number that the
+       attackers controlled, which could then have been used to change the
+       domain details at Network Solutions using that particular
+       verification
+       method. This is actually the method put forth by a Tesla Motors
+       Press
+       Release, but not one which I particularly subscribe to.
+
+   At the end of the day, the steps, in order, would had to have been
+   something like:
+
+   1. Social Engineer your way through Network Solutions’ Customer service
+   to get access to the domain details, DNS settings, etc.
+   2. Modify the MX record to point to a mail server you control. Also
+   modify the A and NS records, and point the TLD and www subdomain to an
+   IP hosting the “Autismsquad” page.
+   3. Receive all mail for the teslamotors.com domain.
+   4. Request a password reset for the twitter accounts.
+
+Further Down the Lizard Hole
+
+   It was time to get some specifics, technically.
+
+   From a machine far-away on the other side of the planet (Japan), I run
+   an nslookup on the teslamotors.com domain which showed that it was
+   resolving to a 69.192.182.25 IP:
+
+   This is an Akamai IP address, running their “AkamaiGHost” HTTP
+   accelerator/Mirror service.
+
+   This didn’t make sense at first, because it’s not often you come
+   across a defaced page, being hosted on one of these unless it was a
+   truly compromised box. Not typical of a DNS-Hijack, and there had been
+   early confirmation (on twitter) of a digital ocean box that had been
+   hosting the defaced content. So the fact that this was Akamai didn’t
+   make much sense right away.
+
+   My initial thought was that DNS propagation hadn’t made it to Japan
+   yet. I had to react quickly to get an idea of the content that was
+   sitting on the 69.192.182.25 (e7797.x.akamaiedge.net):
+
+   $wget [72]http://www.teslamotors.com/index.html
+
+   In any other situation, what I would have gotten would be the defaced
+   index.html
+   file that would match the hacked HTML source earlier in this analysis,
+   in the “Autismsquad” defacement, but this wasn’t the case.
+
+   What I actually ended up getting was an un-modified teslamotors.com
+   index page. Which I identified by the Title tag, and the build
+   information comment at the bottom of the source:
+
+   This, to me, indicated that the original teslamotors.com
+   site was still accessible from my machine in Japan, which sort of
+   confirmed the “DNS hasn’t propagated to Japan” theory so far…Ok…
+
+   Get a little more info. A quick version scan of TCP/80 revealed an
+   http-robots.txt file with some disallows defined:
+
+   I grab the INSTALL.pgsql.txt and INSTALL.sqlite.txt files.
+
+   The files referenced in the robots disallow are remnants indicative of
+   a Drupal installation and are publicly accessible.
+
+   The INSTALL.pgsql.txt file
+   with a default Drupal install, usually explains how to create some
+   tables and database users for your installation, but not in this case…
+
+   This is where it gets interesting…
+
+   $wget [73]http://www.teslamotors.com/INSTALL.pgsql.txt
+
+   We’ve downloaded the INSTALL.pgsql.txt file.
+
+   INSTALL.pgsql.txt (2,638 bytes)
+   MD5: 731ede73118b9c24f788752f76becd4c
+   Just to be clear, an ORIGINAL, unmodified Drupal 7 INSTALL.pgsql.txt
+   file that I later downloaded had an MD5 of
+   3f682f768267764ca2c4a2d0e88660e6 and a file size of 1,874 bytes.
+
+   To my surprise, the contents of the INSTALL.pgsql.txt
+   were not the standard Drupal database config instructions, but rather,
+   defacement code which pointed to “LizardSquad”, rather than
+   “Autismsquad” that we saw in the “live” defacement page:
+
+   The only difference between the actually hosted defacement page source
+   code, and the source code hidden in the INSTALL.pgsql.txt
+   file, was the attribution, which noted LizardSquad, and some other
+   minor details, like the dimensions of the embedded YouTube video.
+
+   I think it’s safe to say, that the Akamai box, is physically
+   hosting a version of the HTML source code of the defacement, but hiding
+   within the INSTALL.pgsql.txt and INSTALL.sqlite.txt files, which I have
+   the original downloaded files posted [74]here, and [75]here,
+   respectively.
+
+   It’s at this point that I realize that somewhere along the way, the
+   hack started as “LizardSquad”, and ended up evolving into an
+   “Autismsquad” hack. The interesting piece here being that these
+   modified
+   Drupal INSTALL* files were physically being hosted on a machine
+   controlled and owned by Akamai/Tesla, as we can confirm via the SSL
+   certs’ “commonName” identifier on the 69.192.182.25 (Akamai) mirror
+   machine:
+
+   These facts, indicate that this Tesla/Akamai machine had been accessed
+   (at some point), and the INSTALL.pgsql.txt and INSTALL.mysql.txt
+   files were modified, and their contents replaced with “Lizardsquad”
+   tagged defacement HTML source code, which would later be modified, and
+   used in the Autismsquad DNS Hijack.
+
+   Questions still remain however… how was the akamai box compromised?
+   Was it accessed as part of the Network Solutions Social Engineering
+   phase? Was it compromised via a Drupal 7 exploit? 0day? Were the
+   credentials to an Akamai LUNA control panel compromised via the the
+   aforementioned SE methods? What are your thoughts? Did I step into some
+   weird LizardSquad wormhole? I’m tired. And going to bed. Good Night,
+   Good Morning, whatever it may be.
+
+   Post Views: 306
+
+   Profile photo of vbulden
+   About vbulden
+
+Leave a Reply [76]Cancel reply
+
+   Your email address will not be published. Required fields are marked *
+     *
+       Comment *___________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+
+     * Name *________________________
+     * Email *_______________________
+     * Website_______________________
+       __  ×  eight  =  56
+
+   Post Comment
+
+Recent
+
+     * [77]New Biking lanes from the beginning of next year
+       07 Dec 2013 [78]19
+     * [79]Link Post Format
+       06 Dec 2013 [80]8
+     * [81]Top Dishes from far Eastern kitchen
+       02 Mar 2014 [82]7
+     * [83]How Wall Street Manipulate Politics Decisions
+       06 Jun 2014 [84]6
+     * [85]How Can Freelancers or Remote Workers Master Productivity?
+       21 Jun 2014 [86]6
+
+Tags
+
+   [87]Android [88]Backtrack [89]Cardable Websites [90]Carding Method
+   [91]Carding Tuto [92]cheap internet [93]cmstemplates [94]codecanyon
+   [95]Dictionary [96]Dorks [97]GoogleDorks [98]high speed internet
+   [99]internet providers [100]internet service providers [101]Linux
+   [102]othetwordpress [103]scripts [104]SQL [105]themeforest
+   [106]tutorials [107]WEP [108]wepcracker [109]wifi [110]wifi booster
+   [111]WiFiCracker [112]wifiprotectedsetup [113]wifi wiki [114]windows
+   [115]windows applications [116]wireless [117]wireless beats
+   [118]wireless earbuds [119]wireless hdmi [120]wireless headphones
+   [121]wireless headphones for tv [122]wireless router [123]wireless
+   security cameras [124]Wordlist [125]wordpress [126]WPA [127]WPA2
+   [128]WPA2-PSK [129]WPACracker [130]wpplugins [131]wps
+
+Recent Replies
+
+     * [132]Gallery
+     * [133]Gallery
+     * [134]without sidebar
+     * [135]without sidebar
+     * [136]by Left
+
+Recent Posts
+
+     * [137]Thousands Bought Kanye West’s New Album, But Never Received
+       Their Download February 15, 2016
+     * [138]Arielle Zuckerberg On Her First Six Months In VC At KPCB
+       February 15, 2016
+     * [139]The Serious Business Of Play February 15, 2016
+
+Categories
+
+     * [140]Computer & Technology (21)
+     * [141]Feeds (621)
+     * [142]Gaming (3)
+     * [143]Hackers (143)
+     * [144]How To (43)
+     * [145]howtogeek (94)
+     * [146]Hurricanes (2)
+     * [147]Monetizing (16)
+     * [148]News (6)
+     * [149]Nulled Scripts (33)
+     * [150]SQL Injection (34)
+     * [151]Technology (5)
+     * [152]Travel (4)
+     * [153]Uncategorized (11)
+     * [154]Web Development (259)
+     * [155]Wifi Crack (73)
+     * [156]wikihow (100)
+     * [157]Windows (4)
+     * [158]Wordpress (202)
+
+   Copyright © 2016 TheProfetionel.com, Inc.
+     * [159]Contact Us
+     * [160]Falow Us On Twitter
+     * [161]Falow Us On Facebook
+     * [162]Falow Us On Google+
+     * [163]Falow Us On Vkontakte
+
+[164]ăn dặm kiểu Nhật[165]Responsive WordPress Theme[166]nhà cấp 4 nông
+thôn[167]thời trang trẻ em[168]giày cao gót[169]shop giày nữ[170]download
+wordpress plugins[171]mẫu biệt thự đẹp[172]epichouse[173]áo sơ mi
+nữ[174]house beautiful
+
+References
+
+   1. http://www.theprofetionel.com/feed/
+   2. http://www.theprofetionel.com/feed/atom/
+   3. http://www.theprofetionel.com/feed/
+   4. http://www.theprofetionel.com/comments/feed/
+   5. http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/feed/
+   6. http://www.theprofetionel.com/wp-json/oembed/1.0/embed?url=http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/
+   7. http://www.theprofetionel.com/wp-json/oembed/1.0/embed?url=http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/&format=xml
+   8. http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/
+   9. http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/
+  10. http://www.theprofetionel.com/contact-us/
+  11. http://twitter.com/crackmywifi
+  12. https://www.facebook.com/Theprofetionel-904903899564213
+  13. https://plus.google.com/u/0/113339369699471770120
+  14. http://vk.com/id338975985
+  15. http://www.theprofetionel.com/
+  16. http://www.theprofetionel.com/
+  17. http://www.theprofetionel.com/
+  18. http://www.theprofetionel.com/category/computer-technology/
+  19. http://www.theprofetionel.com/category/technology/
+  20. http://www.theprofetionel.com/category/technology/cameras/
+  21. http://www.theprofetionel.com/category/technology/computers/
+  22. http://www.theprofetionel.com/category/technology/phones/
+  23. http://www.theprofetionel.com/category/technology/televisions/
+  24. http://www.theprofetionel.com/category/windows/
+  25. http://www.theprofetionel.com/category/monetizing/
+  26. http://www.theprofetionel.com/category/how-to/
+  27. http://www.theprofetionel.com/category/video-tutorials/
+  28. http://www.theprofetionel.com/category/online-feeds/wikihow-feeds/
+  29. http://www.theprofetionel.com/category/online-feeds/howtogeek-feeds/
+  30. http://www.theprofetionel.com/category/how-to/lifestyle/
+  31. http://www.theprofetionel.com/category/gaming/
+  32. http://www.theprofetionel.com/category/gaming/pc/
+  33. http://www.theprofetionel.com/category/gaming/wii/
+  34. http://www.theprofetionel.com/category/gaming/ps4/
+  35. http://www.theprofetionel.com/category/gaming/xbox-one/
+  36. http://www.theprofetionel.com/category/web-dev/
+  37. http://www.theprofetionel.com/category/web-dev/wordpress/
+  38. http://www.theprofetionel.com/category/wordpress-themes/
+  39. http://www.theprofetionel.com/category/codecanyon/
+  40. http://www.theprofetionel.com/category/themforest/
+  41. http://www.theprofetionel.com/category/wordpress-themes/appthemes/
+  42. http://www.theprofetionel.com/category/wordpress-themes/woothemes/
+  43. http://www.theprofetionel.com/category/woocommerce/
+  44. http://www.theprofetionel.com/category/creativemarket/
+  45. http://www.theprofetionel.com/category/ecommerce/
+  46. http://www.theprofetionel.com/category/wordpress-plugins/
+  47. http://www.theprofetionel.com/category/woocommerce-extensions/
+  48. http://www.theprofetionel.com/category/wordpress-plugins/wp-job-manage/
+  49. http://www.theprofetionel.com/category/wordpress-plugins/wpmudev/
+  50. http://www.theprofetionel.com/category/cms-templates/
+  51. http://www.theprofetionel.com/category/cms-templates/joomla/
+  52. http://www.theprofetionel.com/category/drupal/
+  53. http://www.theprofetionel.com/category/more/blogger/
+  54. http://www.theprofetionel.com/category/more/html/
+  55. http://www.theprofetionel.com/category/more/html/
+  56. http://www.theprofetionel.com/category/web-dev/nulled-scripts/
+  57. http://www.theprofetionel.com/category/hackers/
+  58. http://www.theprofetionel.com/category/hackers/wifi-crack/
+  59. http://www.theprofetionel.com/category/hackers/sqli/
+  60. http://www.theprofetionel.com/category/more/
+  61. http://www.theprofetionel.com/category/more/flash/
+  62. http://www.theprofetionel.com/category/more/graphic/
+  63. http://www.theprofetionel.com/category/more/graphic/icons/
+  64. http://www.theprofetionel.com/category/more/graphic/stock-photography/
+  65. http://www.theprofetionel.com/
+  66. http://www.theprofetionel.com/category/hackers/
+  67. http://www.theprofetionel.com/author/vbulden/
+  68. http://www.theprofetionel.com/category/hackers/
+  69. http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/#respond
+  70. http://www.teslamotors.com/
+  71. http://hastebin.com/raw/egipewexib
+  72. http://www.teslamotors.com/index.html
+  73. http://www.teslamotors.com/INSTALL.pgsql.txt
+  74. http://pastebin.com/wPK4Gi7C
+  75. http://pastebin.com/Pu6AS4ga
+  76. http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/#respond
+  77. http://www.theprofetionel.com/new-biking-lanes-from-the-beginning-of-next-year/
+  78. http://www.theprofetionel.com/new-biking-lanes-from-the-beginning-of-next-year/#comments
+  79. http://www.theprofetionel.com/link-post-format/
+  80. http://www.theprofetionel.com/link-post-format/#comments
+  81. http://www.theprofetionel.com/top-dishes-from-far-eastern-kitchen/
+  82. http://www.theprofetionel.com/top-dishes-from-far-eastern-kitchen/#comments
+  83. http://www.theprofetionel.com/how-wall-street-manipulate-politics-decisions/
+  84. http://www.theprofetionel.com/how-wall-street-manipulate-politics-decisions/#comments
+  85. http://www.theprofetionel.com/how-can-freelancers-or-remote-workers-master-productivity/
+  86. http://www.theprofetionel.com/how-can-freelancers-or-remote-workers-master-productivity/#comments
+  87. http://www.theprofetionel.com/tag/android/
+  88. http://www.theprofetionel.com/tag/backtrack/
+  89. http://www.theprofetionel.com/tag/cardable-websites/
+  90. http://www.theprofetionel.com/tag/carding-method/
+  91. http://www.theprofetionel.com/tag/carding-tuto/
+  92. http://www.theprofetionel.com/tag/cheap-internet/
+  93. http://www.theprofetionel.com/tag/cmstemplates/
+  94. http://www.theprofetionel.com/tag/codecanyon/
+  95. http://www.theprofetionel.com/tag/dictionary/
+  96. http://www.theprofetionel.com/tag/dorks/
+  97. http://www.theprofetionel.com/tag/googledorks/
+  98. http://www.theprofetionel.com/tag/high-speed-internet/
+  99. http://www.theprofetionel.com/tag/internet-providers/
+ 100. http://www.theprofetionel.com/tag/internet-service-providers/
+ 101. http://www.theprofetionel.com/tag/linux/
+ 102. http://www.theprofetionel.com/tag/othetwordpress/
+ 103. http://www.theprofetionel.com/tag/scripts/
+ 104. http://www.theprofetionel.com/tag/sql/
+ 105. http://www.theprofetionel.com/tag/themeforest/
+ 106. http://www.theprofetionel.com/tag/tutorials/
+ 107. http://www.theprofetionel.com/tag/wep/
+ 108. http://www.theprofetionel.com/tag/wepcracker/
+ 109. http://www.theprofetionel.com/tag/wifi/
+ 110. http://www.theprofetionel.com/tag/wifi-booster/
+ 111. http://www.theprofetionel.com/tag/wificracker/
+ 112. http://www.theprofetionel.com/tag/wifiprotectedsetup/
+ 113. http://www.theprofetionel.com/tag/wifi-wiki/
+ 114. http://www.theprofetionel.com/tag/windows/
+ 115. http://www.theprofetionel.com/tag/windows-applications/
+ 116. http://www.theprofetionel.com/tag/wireless/
+ 117. http://www.theprofetionel.com/tag/wireless-beats/
+ 118. http://www.theprofetionel.com/tag/wireless-earbuds/
+ 119. http://www.theprofetionel.com/tag/wireless-hdmi/
+ 120. http://www.theprofetionel.com/tag/wireless-headphones/
+ 121. http://www.theprofetionel.com/tag/wireless-headphones-for-tv/
+ 122. http://www.theprofetionel.com/tag/wireless-router/
+ 123. http://www.theprofetionel.com/tag/wireless-security-cameras/
+ 124. http://www.theprofetionel.com/tag/wordlist/
+ 125. http://www.theprofetionel.com/tag/wordpress/
+ 126. http://www.theprofetionel.com/tag/wpa/
+ 127. http://www.theprofetionel.com/tag/wpa2/
+ 128. http://www.theprofetionel.com/tag/wpa2-psk/
+ 129. http://www.theprofetionel.com/tag/wpacracker/
+ 130. http://www.theprofetionel.com/tag/wpplugins/
+ 131. http://www.theprofetionel.com/tag/wps/
+ 132. http://www.theprofetionel.com/gallery/#post-1553
+ 133. http://www.theprofetionel.com/gallery/#post-1552
+ 134. http://www.theprofetionel.com/without-sidebar/#post-1620
+ 135. http://www.theprofetionel.com/without-sidebar/#post-1619
+ 136. http://www.theprofetionel.com/by-left/#post-1617
+ 137. http://www.theprofetionel.com/thousands-bought-kanye-wests-new-album-but-never-received-their-download/
+ 138. http://www.theprofetionel.com/arielle-zuckerberg-on-her-first-six-months-in-vc-at-kpcb/
+ 139. http://www.theprofetionel.com/the-serious-business-of-play/
+ 140. http://www.theprofetionel.com/category/computer-technology/
+ 141. http://www.theprofetionel.com/category/online-feeds/
+ 142. http://www.theprofetionel.com/category/gaming/
+ 143. http://www.theprofetionel.com/category/hackers/
+ 144. http://www.theprofetionel.com/category/how-to/
+ 145. http://www.theprofetionel.com/category/online-feeds/howtogeek-feeds/
+ 146. http://www.theprofetionel.com/category/hurricanes/
+ 147. http://www.theprofetionel.com/category/monetizing/
+ 148. http://www.theprofetionel.com/category/news/
+ 149. http://www.theprofetionel.com/category/web-dev/nulled-scripts/
+ 150. http://www.theprofetionel.com/category/hackers/sqli/
+ 151. http://www.theprofetionel.com/category/technology/
+ 152. http://www.theprofetionel.com/category/travel/
+ 153. http://www.theprofetionel.com/category/uncategorized/
+ 154. http://www.theprofetionel.com/category/web-dev/
+ 155. http://www.theprofetionel.com/category/hackers/wifi-crack/
+ 156. http://www.theprofetionel.com/category/online-feeds/wikihow-feeds/
+ 157. http://www.theprofetionel.com/category/windows/
+ 158. http://www.theprofetionel.com/category/web-dev/wordpress/
+ 159. http://www.theprofetionel.com/contact-us/
+ 160. http://twitter.com/crackmywifi
+ 161. https://www.facebook.com/Theprofetionel-904903899564213
+ 162. https://plus.google.com/u/0/113339369699471770120
+ 163. http://vk.com/id338975985
+ 164. http://2giadinh.com/tag/an-dam-kieu-nhat
+ 165. http://themestotal.com/tag/responsive-wordpress-theme
+ 166. http://2xaynha.com/tag/nha-cap-4-nong-thon
+ 167. http://lanakid.com/
+ 168. http://2giaynu.com/giay-nu/giay-cao-got-giay-nu
+ 169. http://2giaynu.com/
+ 170. http://magentowordpresstutorial.com/wordpress-tutorial/wordpress-plugins
+ 171. http://2xaynha.com/tag/mau-biet-thu-dep
+ 172. http://epichouse.org/
+ 173. http://fsfamily.vn/tag/ao-so-mi-nu
+ 174. http://ihousebeautiful.com/

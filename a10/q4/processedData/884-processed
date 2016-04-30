@@ -1,0 +1,556 @@
+   #[1]Theprofetionel RSS Feed [2]Theprofetionel Atom Feed [3]alternate
+   [4]alternate
+
+     * _
+
+     * [5]Contact Us
+     * [6]Falow Us On Twitter
+     * [7]Falow Us On Facebook
+     * [8]Falow Us On Google+
+     * [9]Falow Us On Vkontakte
+
+   [10]Theprofetionel
+   [11]Theprofetionel
+     * [12]Home
+     * [13]Computer & Technology
+          + [14]Technology
+               o [15]Cameras
+               o [16]Computers
+               o [17]Phones
+               o [18]Televisions
+          + [19]Windows
+          + [20]Monetizing
+     * [21]How To
+          + [22]Video Tutorials
+          + [23]wikihow
+          + [24]howtogeek
+          + [25]Life Style
+     * [26]Gaming
+          + [27]PC
+          + [28]Wii
+          + [29]PS4
+          + [30]Xbox One
+     * [31]Web Development
+          + [32]WordPress
+               o [33]WordPress Themes
+                    # [34]Codecanyon
+                    # [35]ThemForest
+                    # [36]AppThemes
+                    # [37]WooThemes
+                    # [38]WooCommerce
+                    # [39]CreativeMarket
+                    # [40]Ecommerce
+               o [41]WordPress Plugins
+                    # [42]Woocommerce Extensions
+                    # [43]Wp Job Manage
+                    # [44]Wpmudev
+          + [45]Cms Templates
+               o [46]Joomla
+               o [47]Drupal
+               o [48]Blogger
+               o [49]HTML Templates
+          + [50]HTML Templates
+          + [51]Nulled Scripts
+     * [52]Hackers
+          + [53]Wifi Crack
+          + [54]SQL Injection
+     * [55]More+
+          + [56]Flash
+          + [57]Graphic
+               o [58]Icons
+               o [59]Stock Photography
+
+   ____________________
+
+   [60]Home
+   [61]Hackers
+   Tesla Motors Twitter Hack and Website Defacement: More Than Just a
+   Domain Hijack
+
+Tesla Motors Twitter Hack and Website Defacement: More Than Just a Domain
+Hijack
+
+   April 28, 2015 [62]vbulden [63]Hackers [64]0 Comment
+
+   [INS: :INS]
+
+Observations on the Tesla Motors Twitter Hack and Website Defacement: More Than
+Just a Domain Hijack
+
+   What you’re about to read is a rough break-down of the Tesla Motors
+   Twitter and teslamotors.com
+   website defacement, and also the possibility of the compromise of one
+   of the “AkamaiGHost” web caching/mirror servers Tesla Motors appeared
+   to
+   be utilizing for redundancy or load-balancing at the time of the hack,
+   a
+   detail no one really mentioned during or post-occurrence…So I thought
+   I’d share my findings.
+
+   It is also my personal opinion that during the dissemination of
+   information about the hack (via twitter), that dis-information was
+   purposefully propagated in an effort to misdirect attention away from
+   the initial compromise.
+
+   “In wartime, truth is so precious that she should always be attended by
+   a bodyguard of lies.” – Winston S. Churchill
+
+   Mid-day, On Saturday April 25th 2015, information about a
+   Tesla Motors twitter account take-over started flowing unto the fragile
+   webs, followed by the take-over of the official Elon Musk twitter
+   account:
+
+   Both accounts obviously indicating they were freshly compromised by a
+   “RIPPRGANG”, which will later be found to be LizardSquad.
+
+   Upon seeing this, I head over to [65]http://www.teslamotors.com to find
+   that it, had also been hacked:
+
+   It read, “Hacked by Autismsquad!”
+   Naturally, I checked out the HTML source, which, at the time, was
+   viewed
+   from a machine in the US… (more on geo-location later and how it was
+   critical to the findings later on in this analysis).
+
+   Here’s the source code of the content that would eventually make its
+   way around the internet (just a quick “view-source” from my browser):
+
+   A copy of the complete source can also be found here:
+   [66]http://hastebin.com/raw/egipewexib
+
+   As time passed, literally minutes into the hack, several theories began
+   to emerge:
+     * The Twitter accounts weren’t configured to use two-factor auth, and
+       were brute-forced, and accessed due to weak passwords and/or
+       password
+       re-use across multiple twitter accounts, although this wouldn’t
+       have
+       explained the website defacement, unless those same exact
+       credentials
+       were being used for the Network Solutions control panel.
+
+     * The domain registrar login information for teslamotors.com,
+       registered with Network Solutions, was social engineered, and from
+       there, DNS modifications were made. Specifically, the MX records, A
+       and
+       NS records were also changed to point to an IP address controlled
+       by the
+       attackers. From there, they would issue a password reset and would
+       receive all mail for that domain (including the new
+       credentials/temporary link, whatever it is with twitter.) With a
+       change
+       in A and NS records, the attackers would have complete control as
+       to
+       what IP address the domain would ultimately end up resolving to,
+       which
+       would host the hacked page. (This theory ends up being the one
+       everyone
+       runs with)
+
+     * Another theory would include social engineering AT&T to get all
+       phone calls to a legit number forwarded to another number that the
+       attackers controlled, which could then have been used to change the
+       domain details at Network Solutions using that particular
+       verification
+       method. This is actually the method put forth by a Tesla Motors
+       Press
+       Release, but not one which I particularly subscribe to.
+
+   At the end of the day, the steps, in order, would had to have been
+   something like:
+
+   1. Social Engineer your way through Network Solutions’ Customer service
+   to get access to the domain details, DNS settings, etc.
+   2. Modify the MX record to point to a mail server you control. Also
+   modify the A and NS records, and point the TLD and www subdomain to an
+   IP hosting the “Autismsquad” page.
+   3. Receive all mail for the teslamotors.com domain.
+   4. Request a password reset for the twitter accounts.
+
+Further Down the Lizard Hole
+
+   It was time to get some specifics, technically.
+
+   From a machine far-away on the other side of the planet (Japan), I run
+   an nslookup on the teslamotors.com domain which showed that it was
+   resolving to a 69.192.182.25 IP:
+
+   This is an Akamai IP address, running their “AkamaiGHost” HTTP
+   accelerator/Mirror service.
+
+   This didn’t make sense at first, because it’s not often you come
+   across a defaced page, being hosted on one of these unless it was a
+   truly compromised box. Not typical of a DNS-Hijack, and there had been
+   early confirmation (on twitter) of a digital ocean box that had been
+   hosting the defaced content. So the fact that this was Akamai didn’t
+   make much sense right away.
+
+   My initial thought was that DNS propagation hadn’t made it to Japan
+   yet. I had to react quickly to get an idea of the content that was
+   sitting on the 69.192.182.25 (e7797.x.akamaiedge.net):
+
+   [INS: :INS]
+
+   $wget [67]http://www.teslamotors.com/index.html
+
+   In any other situation, what I would have gotten would be the defaced
+   index.html
+   file that would match the hacked HTML source earlier in this analysis,
+   in the “Autismsquad” defacement, but this wasn’t the case.
+
+   What I actually ended up getting was an un-modified teslamotors.com
+   index page. Which I identified by the Title tag, and the build
+   information comment at the bottom of the source:
+
+   This, to me, indicated that the original teslamotors.com
+   site was still accessible from my machine in Japan, which sort of
+   confirmed the “DNS hasn’t propagated to Japan” theory so far…Ok…
+
+   Get a little more info. A quick version scan of TCP/80 revealed an
+   http-robots.txt file with some disallows defined:
+
+   I grab the INSTALL.pgsql.txt and INSTALL.sqlite.txt files.
+
+   The files referenced in the robots disallow are remnants indicative of
+   a Drupal installation and are publicly accessible.
+
+   The INSTALL.pgsql.txt file
+   with a default Drupal install, usually explains how to create some
+   tables and database users for your installation, but not in this case…
+
+   This is where it gets interesting…
+
+   $wget [68]http://www.teslamotors.com/INSTALL.pgsql.txt
+
+   We’ve downloaded the INSTALL.pgsql.txt file.
+
+   INSTALL.pgsql.txt (2,638 bytes)
+   MD5: 731ede73118b9c24f788752f76becd4c
+   Just to be clear, an ORIGINAL, unmodified Drupal 7 INSTALL.pgsql.txt
+   file that I later downloaded had an MD5 of
+   3f682f768267764ca2c4a2d0e88660e6 and a file size of 1,874 bytes.
+
+   To my surprise, the contents of the INSTALL.pgsql.txt
+   were not the standard Drupal database config instructions, but rather,
+   defacement code which pointed to “LizardSquad”, rather than
+   “Autismsquad” that we saw in the “live” defacement page:
+
+   The only difference between the actually hosted defacement page source
+   code, and the source code hidden in the INSTALL.pgsql.txt
+   file, was the attribution, which noted LizardSquad, and some other
+   minor details, like the dimensions of the embedded YouTube video.
+
+   I think it’s safe to say, that the Akamai box, is physically
+   hosting a version of the HTML source code of the defacement, but hiding
+   within the INSTALL.pgsql.txt and INSTALL.sqlite.txt files, which I have
+   the original downloaded files posted [69]here, and [70]here,
+   respectively.
+
+   It’s at this point that I realize that somewhere along the way, the
+   hack started as “LizardSquad”, and ended up evolving into an
+   “Autismsquad” hack. The interesting piece here being that these
+   modified
+   Drupal INSTALL* files were physically being hosted on a machine
+   controlled and owned by Akamai/Tesla, as we can confirm via the SSL
+   certs’ “commonName” identifier on the 69.192.182.25 (Akamai) mirror
+   machine:
+
+   These facts, indicate that this Tesla/Akamai machine had been accessed
+   (at some point), and the INSTALL.pgsql.txt and INSTALL.mysql.txt
+   files were modified, and their contents replaced with “Lizardsquad”
+   tagged defacement HTML source code, which would later be modified, and
+   used in the Autismsquad DNS Hijack.
+
+   Questions still remain however… how was the akamai box compromised?
+   Was it accessed as part of the Network Solutions Social Engineering
+   phase? Was it compromised via a Drupal 7 exploit? 0day? Were the
+   credentials to an Akamai LUNA control panel compromised via the the
+   aforementioned SE methods? What are your thoughts? Did I step into some
+   weird LizardSquad wormhole? I’m tired. And going to bed. Good Night,
+   Good Morning, whatever it may be.
+
+   [71]defacement:, [72]hack, [73]motors, [74]tesla, [75]Twitter,
+   [76]website
+
+   About vbulden
+
+Leave a Reply [77]Cancel reply
+
+   Your email address will not be published. Required fields are marked *
+     *
+       Comment *___________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+
+     * Name *________________________
+     * Email *_______________________
+     * Website_______________________
+
+   Post Comment
+
+   [INS: :INS]
+
+   [INS: :INS]
+
+Tags
+
+   [78]affiliate revenue [79]banner advertising [80]blogging [81]cms
+   [82]domain names [83]e-Commerce [84]Email Marketing [85]forums [86]game
+   4 u lyrics [87]game 4 world series 2015 [88]game 5 [89]game 5 1994 nba
+   finals [90]game 5 alds 2015 [91]game 5 nba finals [92]game 5 nights at
+   freddy's [93]game 5 second rule [94]game 5 seconds [95]game 5 world
+   series 2015 [96]game 6 [97]game 6 1975 world series [98]game 6 1986
+   world series [99]game 6 1998 nba finals [100]game 6 2013 nba finals
+   [101]game 6 chess [102]game 40 glocc [103]game 42 [104]game 50 cent
+   [105]game 400 bars [106]game 500 [107]games [108]internet marketing
+   [109]link popularity [110]list building [111]paid surveys [112]ppc
+   advertising [113]ppc publishing [114]product launching [115]security
+   [116]social bookmarking [117]social media [118]traffic building
+   [119]video marketing [120]web design [121]web development [122]web
+   hosting
+
+Recent
+
+     * [123]mai 2015 private google sqli dorks
+       18 May 2015 [124]60
+     * [125]FREE three-D Intro Template #345 | Cinema 4D / After Results
+       Template + Instructional
+       07 Apr 2016 [126]50
+     * [127]NEW How To Obtain PAID Apps FREE iOS nine.three.1 NO Jailbreak
+       NO Crashing iPhone, iPad & iPod Contact
+       15 Apr 2016 [128]50
+     * [129]Take away Virus out of your PC with none Device in Home
+       windows 10 (SFC Scan)
+       20 Apr 2016 [130]50
+     * [131]Worrying Orange – GTA V: FREE SHOPPING SPREE!
+       21 Apr 2016 [132]49
+     * [133]FREE STUFF PRANK! Be careful for THE CLAW!
+       29 Mar 2016 [134]49
+     * [135]Need to see Becky Lynch have her WrestleMania second?
+       Subscribe to WWE Community without spending a dime!
+       31 Mar 2016 [136]49
+     * [137]Madden 16 Jaguars Hooked up Franchise Yr 2 – Offseason Phase
+       half (Loose Company/Scouting) Ep.40
+       02 Apr 2016 [138]49
+     * [139]Summary – Transfer (feat. Delaney) (Prod. Craig McAllister)
+       05 Apr 2016 [140]49
+     * [141]The way to Velocity Up Web Connection
+       08 Apr 2016 [142]49
+     * [143]Truco Conseguir Juegos GRATIS para PS4!! Loose Video games Ps
+       four [FUNCIONA] 2016
+       15 Apr 2016 [144]49
+     * [145]Do not stay Stephanie McMahon ready – subscribe to WWE
+       Community without spending a dime
+       29 Mar 2016 [146]48
+     * [147]NBA 2K16 LOCKERCODES – 1000 Loose VC Cash!! (2KTV Solutions,
+       Episode 27)
+       30 Mar 2016 [148]48
+     * [149]Batman v Superman: Daybreak of Justice Film Evaluation
+       (SPOILER FREE)
+       30 Mar 2016 [150]48
+     * [151]One Bizarre Trick to Loose Up Garage Area on iPhone!
+       05 Apr 2016 [152]48
+
+Recent Posts
+
+     * [153]Let’s Play Undertale – Episode 31 [Here We Are] April 28, 2016
+     * [154]#four.1 Authentication with LDAP [spring MVC] April 28, 2016
+     * [155]Business Insurance coverage Advertising – Triumph over Worth
+       Objections With 5 Strategic Steps April 28, 2016
+
+Categories
+
+   Categories[Select Category_______________]
+
+   Copyright © 2016 TheProfetionel.com, Inc.
+     * [156]Contact Us
+     * [157]Falow Us On Twitter
+     * [158]Falow Us On Facebook
+     * [159]Falow Us On Google+
+     * [160]Falow Us On Vkontakte
+
+[161]ăn dặm kiểu Nhật[162]Responsive WordPress Theme[163]nhà cấp 4 nông
+thôn[164]thời trang trẻ em[165]giày cao gót[166]shop giày nữ[167]download
+wordpress plugins[168]mẫu biệt thự đẹp[169]epichouse[170]áo sơ mi
+nữ[171]house beautiful
+
+References
+
+   1. http://www.theprofetionel.com/feed/
+   2. http://www.theprofetionel.com/feed/atom/
+   3. http://www.theprofetionel.com/wp-json/oembed/1.0/embed?url=http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/
+   4. http://www.theprofetionel.com/wp-json/oembed/1.0/embed?url=http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/&format=xml
+   5. http://www.theprofetionel.com/contact-us/
+   6. http://twitter.com/crackmywifi
+   7. https://www.facebook.com/Theprofetionel-904903899564213
+   8. https://plus.google.com/u/0/113339369699471770120
+   9. http://vk.com/id338975985
+  10. http://www.theprofetionel.com/
+  11. http://www.theprofetionel.com/
+  12. http://www.theprofetionel.com/
+  13. http://www.theprofetionel.com/category/computer-technology/
+  14. http://www.theprofetionel.com/category/technology/
+  15. http://www.theprofetionel.com/category/technology/cameras/
+  16. http://www.theprofetionel.com/category/technology/computers/
+  17. http://www.theprofetionel.com/category/technology/phones/
+  18. http://www.theprofetionel.com/category/technology/televisions/
+  19. http://www.theprofetionel.com/category/windows/
+  20. http://www.theprofetionel.com/category/monetizing/
+  21. http://www.theprofetionel.com/category/how-to/
+  22. http://www.theprofetionel.com/category/video-tutorials/
+  23. http://www.theprofetionel.com/category/online-feeds/wikihow-feeds/
+  24. http://www.theprofetionel.com/category/online-feeds/howtogeek-feeds/
+  25. http://www.theprofetionel.com/category/how-to/lifestyle/
+  26. http://www.theprofetionel.com/category/gaming/
+  27. http://www.theprofetionel.com/category/gaming/pc/
+  28. http://www.theprofetionel.com/category/gaming/wii/
+  29. http://www.theprofetionel.com/category/gaming/ps4/
+  30. http://www.theprofetionel.com/category/gaming/xbox-one/
+  31. http://www.theprofetionel.com/category/web-dev/
+  32. http://www.theprofetionel.com/category/web-dev/wordpress/
+  33. http://www.theprofetionel.com/category/wordpress-themes/
+  34. http://www.theprofetionel.com/category/codecanyon/
+  35. http://www.theprofetionel.com/category/themforest/
+  36. http://www.theprofetionel.com/category/wordpress-themes/appthemes/
+  37. http://www.theprofetionel.com/category/wordpress-themes/woothemes/
+  38. http://www.theprofetionel.com/category/woocommerce/
+  39. http://www.theprofetionel.com/category/creativemarket/
+  40. http://www.theprofetionel.com/category/ecommerce/
+  41. http://www.theprofetionel.com/category/wordpress-plugins/
+  42. http://www.theprofetionel.com/category/woocommerce-extensions/
+  43. http://www.theprofetionel.com/category/wordpress-plugins/wp-job-manage/
+  44. http://www.theprofetionel.com/category/wordpress-plugins/wpmudev/
+  45. http://www.theprofetionel.com/category/cms-templates/
+  46. http://www.theprofetionel.com/category/cms-templates/joomla/
+  47. http://www.theprofetionel.com/category/drupal/
+  48. http://www.theprofetionel.com/category/more/blogger/
+  49. http://www.theprofetionel.com/category/more/html/
+  50. http://www.theprofetionel.com/category/more/html/
+  51. http://www.theprofetionel.com/category/web-dev/nulled-scripts/
+  52. http://www.theprofetionel.com/category/hackers/
+  53. http://www.theprofetionel.com/category/hackers/wifi-crack/
+  54. http://www.theprofetionel.com/category/hackers/sqli/
+  55. http://www.theprofetionel.com/category/more/
+  56. http://www.theprofetionel.com/category/more/flash/
+  57. http://www.theprofetionel.com/category/more/graphic/
+  58. http://www.theprofetionel.com/category/more/graphic/icons/
+  59. http://www.theprofetionel.com/category/more/graphic/stock-photography/
+  60. http://www.theprofetionel.com/
+  61. http://www.theprofetionel.com/category/hackers/
+  62. http://www.theprofetionel.com/author/vbulden/
+  63. http://www.theprofetionel.com/category/hackers/
+  64. http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/#respond
+  65. http://www.teslamotors.com/
+  66. http://hastebin.com/raw/egipewexib
+  67. http://www.teslamotors.com/index.html
+  68. http://www.teslamotors.com/INSTALL.pgsql.txt
+  69. http://pastebin.com/wPK4Gi7C
+  70. http://pastebin.com/Pu6AS4ga
+  71. http://www.theprofetionel.com/tag/defacement/
+  72. http://www.theprofetionel.com/tag/hack/
+  73. http://www.theprofetionel.com/tag/motors/
+  74. http://www.theprofetionel.com/tag/tesla/
+  75. http://www.theprofetionel.com/tag/twitter/
+  76. http://www.theprofetionel.com/tag/website/
+  77. http://www.theprofetionel.com/tesla-motors-twitter-hack-and-website/#respond
+  78. http://www.theprofetionel.com/tag/affiliate-revenue/
+  79. http://www.theprofetionel.com/tag/banner-advertising/
+  80. http://www.theprofetionel.com/tag/blogging/
+  81. http://www.theprofetionel.com/tag/cms/
+  82. http://www.theprofetionel.com/tag/domain-names/
+  83. http://www.theprofetionel.com/tag/e-commerce/
+  84. http://www.theprofetionel.com/tag/email-marketing/
+  85. http://www.theprofetionel.com/tag/forums/
+  86. http://www.theprofetionel.com/tag/game-4-u-lyrics/
+  87. http://www.theprofetionel.com/tag/game-4-world-series-2015/
+  88. http://www.theprofetionel.com/tag/game-5/
+  89. http://www.theprofetionel.com/tag/game-5-1994-nba-finals/
+  90. http://www.theprofetionel.com/tag/game-5-alds-2015/
+  91. http://www.theprofetionel.com/tag/game-5-nba-finals/
+  92. http://www.theprofetionel.com/tag/game-5-nights-at-freddys/
+  93. http://www.theprofetionel.com/tag/game-5-second-rule/
+  94. http://www.theprofetionel.com/tag/game-5-seconds/
+  95. http://www.theprofetionel.com/tag/game-5-world-series-2015/
+  96. http://www.theprofetionel.com/tag/game-6/
+  97. http://www.theprofetionel.com/tag/game-6-1975-world-series/
+  98. http://www.theprofetionel.com/tag/game-6-1986-world-series/
+  99. http://www.theprofetionel.com/tag/game-6-1998-nba-finals/
+ 100. http://www.theprofetionel.com/tag/game-6-2013-nba-finals/
+ 101. http://www.theprofetionel.com/tag/game-6-chess/
+ 102. http://www.theprofetionel.com/tag/game-40-glocc/
+ 103. http://www.theprofetionel.com/tag/game-42/
+ 104. http://www.theprofetionel.com/tag/game-50-cent/
+ 105. http://www.theprofetionel.com/tag/game-400-bars/
+ 106. http://www.theprofetionel.com/tag/game-500/
+ 107. http://www.theprofetionel.com/tag/games/
+ 108. http://www.theprofetionel.com/tag/internet-marketing/
+ 109. http://www.theprofetionel.com/tag/link-popularity/
+ 110. http://www.theprofetionel.com/tag/list-building/
+ 111. http://www.theprofetionel.com/tag/paid-surveys/
+ 112. http://www.theprofetionel.com/tag/ppc-advertising/
+ 113. http://www.theprofetionel.com/tag/ppc-publishing/
+ 114. http://www.theprofetionel.com/tag/product-launching/
+ 115. http://www.theprofetionel.com/tag/security/
+ 116. http://www.theprofetionel.com/tag/social-bookmarking/
+ 117. http://www.theprofetionel.com/tag/social-media/
+ 118. http://www.theprofetionel.com/tag/traffic-building/
+ 119. http://www.theprofetionel.com/tag/video-marketing/
+ 120. http://www.theprofetionel.com/tag/web-design/
+ 121. http://www.theprofetionel.com/tag/web-development/
+ 122. http://www.theprofetionel.com/tag/web-hosting/
+ 123. http://www.theprofetionel.com/mai-2015-private-google-sqli-dorks/
+ 124. http://www.theprofetionel.com/mai-2015-private-google-sqli-dorks/#comments
+ 125. http://www.theprofetionel.com/free-three-d-intro-template-345-cinema-4d-after-results-template-instructional/
+ 126. http://www.theprofetionel.com/free-three-d-intro-template-345-cinema-4d-after-results-template-instructional/#comments
+ 127. http://www.theprofetionel.com/new-how-to-obtain-paid-apps-free-ios-nine-three-1-no-jailbreak-no-crashing-iphone-ipad-ipod-contact/
+ 128. http://www.theprofetionel.com/new-how-to-obtain-paid-apps-free-ios-nine-three-1-no-jailbreak-no-crashing-iphone-ipad-ipod-contact/#comments
+ 129. http://www.theprofetionel.com/take-away-virus-out-of-your-pc-with-none-device-in-home-windows-10-sfc-scan/
+ 130. http://www.theprofetionel.com/take-away-virus-out-of-your-pc-with-none-device-in-home-windows-10-sfc-scan/#comments
+ 131. http://www.theprofetionel.com/worrying-orange-gta-v-free-shopping-spree/
+ 132. http://www.theprofetionel.com/worrying-orange-gta-v-free-shopping-spree/#comments
+ 133. http://www.theprofetionel.com/free-stuff-prank-be-careful-for-the-claw/
+ 134. http://www.theprofetionel.com/free-stuff-prank-be-careful-for-the-claw/#comments
+ 135. http://www.theprofetionel.com/need-to-see-becky-lynch-have-her-wrestlemania-second-subscribe-to-wwe-community-without-spending-a-dime/
+ 136. http://www.theprofetionel.com/need-to-see-becky-lynch-have-her-wrestlemania-second-subscribe-to-wwe-community-without-spending-a-dime/#comments
+ 137. http://www.theprofetionel.com/madden-16-jaguars-hooked-up-franchise-yr-2-offseason-phase-half-loose-companyscouting-ep-40/
+ 138. http://www.theprofetionel.com/madden-16-jaguars-hooked-up-franchise-yr-2-offseason-phase-half-loose-companyscouting-ep-40/#comments
+ 139. http://www.theprofetionel.com/summary-transfer-feat-delaney-prod-craig-mcallister/
+ 140. http://www.theprofetionel.com/summary-transfer-feat-delaney-prod-craig-mcallister/#comments
+ 141. http://www.theprofetionel.com/the-way-to-velocity-up-web-connection/
+ 142. http://www.theprofetionel.com/the-way-to-velocity-up-web-connection/#comments
+ 143. http://www.theprofetionel.com/truco-conseguir-juegos-gratis-para-ps4-loose-video-games-ps-four-funciona-2016/
+ 144. http://www.theprofetionel.com/truco-conseguir-juegos-gratis-para-ps4-loose-video-games-ps-four-funciona-2016/#comments
+ 145. http://www.theprofetionel.com/do-not-stay-stephanie-mcmahon-ready-subscribe-to-wwe-community-without-spending-a-dime/
+ 146. http://www.theprofetionel.com/do-not-stay-stephanie-mcmahon-ready-subscribe-to-wwe-community-without-spending-a-dime/#comments
+ 147. http://www.theprofetionel.com/nba-2k16-lockercodes-1000-loose-vc-cash-2ktv-solutions-episode-27/
+ 148. http://www.theprofetionel.com/nba-2k16-lockercodes-1000-loose-vc-cash-2ktv-solutions-episode-27/#comments
+ 149. http://www.theprofetionel.com/batman-v-superman-daybreak-of-justice-film-evaluation-spoiler-free/
+ 150. http://www.theprofetionel.com/batman-v-superman-daybreak-of-justice-film-evaluation-spoiler-free/#comments
+ 151. http://www.theprofetionel.com/one-bizarre-trick-to-loose-up-garage-area-on-iphone/
+ 152. http://www.theprofetionel.com/one-bizarre-trick-to-loose-up-garage-area-on-iphone/#comments
+ 153. http://www.theprofetionel.com/lets-play-undertale-episode-31-here-we-are/
+ 154. http://www.theprofetionel.com/four-1-authentication-with-ldap-spring-mvc/
+ 155. http://www.theprofetionel.com/business-insurance-coverage-advertising-triumph-over-worth-objections-with-5-strategic-steps/
+ 156. http://www.theprofetionel.com/contact-us/
+ 157. http://twitter.com/crackmywifi
+ 158. https://www.facebook.com/Theprofetionel-904903899564213
+ 159. https://plus.google.com/u/0/113339369699471770120
+ 160. http://vk.com/id338975985
+ 161. http://2giadinh.com/tag/an-dam-kieu-nhat
+ 162. http://themestotal.com/tag/responsive-wordpress-theme
+ 163. http://2xaynha.com/tag/nha-cap-4-nong-thon
+ 164. http://lanakid.com/
+ 165. http://2giaynu.com/giay-nu/giay-cao-got-giay-nu
+ 166. http://2giaynu.com/
+ 167. http://magentowordpresstutorial.com/wordpress-tutorial/wordpress-plugins
+ 168. http://2xaynha.com/tag/mau-biet-thu-dep
+ 169. http://epichouse.org/
+ 170. http://fsfamily.vn/tag/ao-so-mi-nu
+ 171. http://ihousebeautiful.com/

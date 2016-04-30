@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html id="frame">
+<head>
+  <title>Elon Musk refuses to sell a Tesla to customer who wrote a &#39;super rude&#39; blog post</title>
+  <link rel="stylesheet" media="all" href="/assets/application-db18acc5b71aa920c9328c8a540158e3147d2d5c95ddb64e193ca7bfa6dabdfe.css" data-turbolinks-track="true" />
+  <script src="/assets/application-79a4de8cf2367c91b98f86a5e6fd037c4746ff4c7364afe157f91aebac2b6d87.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="E1OMoUkobGB+ToRu6uG/UwZAJGKGtNMUDA03tzpA76HsA4Pm5GWddxa+CahbjKEMe28jbmfNUNDqGagB1Pcunw==" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<script>
+
+  $(document).ready(function() {
+
+    $('html').css('overflow', 'auto');
+
+    function hideCta() {
+      $('html').css('overflow', 'hidden');
+      $('#iframe-fullpage').hide();
+      $('#frame-wrapper-full, #frame').css('overflow', 'visible');
+      // $('#iframe-bottom-bar').show();
+    }
+
+    $(window).scroll(function(){
+      if($(window).scrollTop() > ($('#iframe-fullpage').height() / 3) * 2) {
+        hideCta();
+      }
+    });
+
+    $('#frame-wrapper-full').hover(function(){
+      hideCta();
+    });
+  });
+</script>
+
+<div id="framed-page">
+  <div id="iframe-fullpage">
+    <div class="container txt-center">
+      <img class="avatar" src="/uploads/account/102/thumb_88463cb7-6d4a-4df7-b4c6-1d8a1bf5c96a.png" alt="Thumb 88463cb7 6d4a 4df7 b4c6 1d8a1bf5c96a" />
+
+      <div class="profile">
+        <div class="username">UpflowStartups</div>
+        <div class="url"><a href="/signup?cta=full-a">found this with upflow.co</a></div>
+      </div>
+
+      <div class="more"><a href="/signup?cta=full-a">Find engaging content tailored to your audience</a></div>
+      <a class="btn-primary" href="/signup?cta=full-a">TRY IT FREE</a>
+
+      <div class="scroll-to">
+        <div>scroll to the article</div>
+        <img src="/assets/scroll-bottom-7567a6e4214563aa3c238ac50d5134161133045fd14f691c91cf53a1c39db5de.png" alt="Scroll bottom 7567a6e4214563aa3c238ac50d5134161133045fd14f691c91cf53a1c39db5de" />
+      </div>
+    </div>
+  </div>
+
+  <div id="frame-wrapper-full">
+    <iframe id="target-frame" src="http://mashable.com/2016/02/03/tesla-refuses-rude-customer/"></iframe>
+  </div>
+
+  <div id="iframe-bottom-bar" style="display: none;">
+    <div class="container">
+      <img class="avatar" src="/uploads/account/102/thumb_88463cb7-6d4a-4df7-b4c6-1d8a1bf5c96a.png" alt="Thumb 88463cb7 6d4a 4df7 b4c6 1d8a1bf5c96a" />
+
+      <div class="profile">
+        <div class="username">UpflowStartups</div>
+        <div class="url"><a href="/signup?cta=bottom-full-a">found this with upflow.co</a></div>
+      </div>
+
+      <a class="btn-primary" href="/signup?cta=bottom-full-a">TRY IT FREE</a>
+      <div class="more"><a href="/signup?cta=bottom-full-a">Find engaging content tailored to your audience</a></div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-71559750-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</html>

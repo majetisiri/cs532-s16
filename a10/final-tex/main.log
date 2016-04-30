@@ -1,0 +1,839 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.30)  30 APR 2016 15:49
+entering extended mode
+**main.tex
+(Z:\coursework\cs532\a10\final-tex\main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(Z:\coursework\cs532\a10\final-tex\svmono.cls
+Document Class: svmono 2006/10/31 v4.17 
+Springer Verlag global LaTeX document class for monographs
+Class Springer-SVMono Info: extra/valid Springer sub-package 
+(Springer-SVMono)           not found in option list - using "global" style.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\betweenumberspace=\dimen103
+\headlineindent=\dimen104
+\c@chapter=\count87
+\chapstarthookwidth=\dimen105
+\svitemindent=\dimen106
+\verbatimindent=\dimen107
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 633.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 634.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 635.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 636.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 637.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 638.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 639.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 640.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 641.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 642.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 643.
+\tocchpnum=\dimen108
+\tocsecnum=\dimen109
+\tocsectotal=\dimen110
+\tocsubsecnum=\dimen111
+\tocsubsectotal=\dimen112
+\tocsubsubsecnum=\dimen113
+\tocsubsubsectotal=\dimen114
+\tocparanum=\dimen115
+\tocparatotal=\dimen116
+\tocsubparanum=\dimen117
+\foot@parindent=\dimen118
+\spthmsep=\dimen119
+\c@theorem=\count88
+\c@prob=\count89
+\instindent=\dimen120
+\figgap=\dimen121
+\figcapgap=\dimen122
+\tabcapgap=\dimen123
+\c@merk=\count90
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count92
+\mult@box=\box26
+\multicol@leftmargin=\dimen126
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
+\full@width=\dimen127
+\page@free=\dimen128
+\premulticols=\dimen129
+\postmulticols=\dimen130
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
+\last@try=\dimen131
+\multicolovershoot=\dimen132
+\multicolundershoot=\dimen133
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count100
+)
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\footmisc\footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks15
+\footnotemargin=\dimen134
+\c@pp@next@reset=\count101
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen135
+\WF@size=\dimen136
+\c@WF@wrappedlines=\count102
+\WF@box=\box52
+\WF@everypar=\toks16
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count103
+\FV@InFile=\read1
+\FV@TabBox=\box53
+\c@FancyVerbLine=\count104
+\FV@StepNumber=\count105
+\FV@OutFile=\write3
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count106
+\lst@gtempboxa=\box54
+\lst@token=\toks18
+\lst@length=\count107
+\lst@currlwidth=\dimen137
+\lst@column=\count108
+\lst@pos=\count109
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count110
+\lst@lineno=\count111
+\lst@maxwidth=\dimen140
+
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count112
+\lst@skipnumbers=\count113
+\lst@framebox=\box55
+)
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count114
+\calc@Bcount=\count115
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count116
+\calc@Cskip=\skip47
+)
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)))
+\AM@pagewidth=\dimen143
+\AM@pageheight=\dimen144
+
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box56
+\AM@toc@title=\toks19
+\c@AM@survey=\count117
+\AM@templatesizebox=\box57
+)
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen145
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count121
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen146
+\Fld@menulength=\count122
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count123
+\c@Item=\count124
+\c@Hfootnote=\count125
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count128
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count129
+\LTcapwidth=\dimen149
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@cols=\count130
+\LT@rows=\count131
+\c@LT@tables=\count132
+\c@LT@chunks=\count133
+\LT@p@ftn=\toks20
+)
+(Z:\coursework\cs532\a10\final-tex\main.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen150
+\scratchbox=\box62
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen151
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks22
+)
+\c@lstlisting=\count140
+\AtBeginShipoutBox=\box63
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+Package hyperref Info: Link coloring OFF on input line 20.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
+
+(Z:\coursework\cs532\a10\final-tex\main.out)
+(Z:\coursework\cs532\a10\final-tex\main.out)
+\@outlinefile=\write4
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write5
+[5
+
+
+] [6
+
+
+] (Z:\coursework\cs532\a10\final-tex\question-1.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \newpage
+              [1
+
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+
+
+LaTeX Warning: Reference `lst:q1code1' on page 2 undefined on input line 15.
+
+
+Overfull \hbox (4.2506pt too wide) in paragraph at lines 16--17
+[]\OT1/cmr/m/n/10 To find the near-est neigh-bors for the URIs `http://f-measur
+e.blogspot.com/'
+ []
+
+
+LaTeX Warning: Reference `lst:q1code2' on page 2 undefined on input line 19.
+
+
+Overfull \hbox (4.0008pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 measure.blogspot.com/' and `http://ws-dl.blogspot.com/' for k=1
+,2,5,10,20
+ []
+
+
+LaTeX Warning: Reference `q1table1' on page 2 undefined on input line 20.
+
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \newpage
+              [2]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+ [3]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+
+
+LaTeX Warning: Reference `q1table2' on page 4 undefined on input line 129.
+
+[4]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+ [5]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ­ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no Â in font cmr9!
+Missing character: There is no ¼ in font cmr9!
+ [6]
+(C:\Users\smajeti\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(Z:\coursework\cs532\a10\final-tex\src/getDataAsVector.py
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 8.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 8.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+)
+(Z:\coursework\cs532\a10\final-tex\src/knnestimate.py [7])) [8]
+(Z:\coursework\cs532\a10\final-tex\question-3.tex
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 5--6
+\OT1/cmr/bx/n/10 As al-ways, up-load all the TimeMap data. If the A2 github
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+[]$\OT1/cmtt/m/n/10 curl -[] i -[]-[] silenthttp : / / mementoproxy . cs . odu 
+. edu / aggr / timemap /$
+ []
+
+
+LaTeX Warning: Reference `lst:q3code1' on page 9 undefined on input line 14.
+
+
+LaTeX Warning: Reference `lst:q3code2' on page 9 undefined on input line 15.
+
+[9
+
+
+
+
+]
+
+LaTeX Warning: Reference `lst:q3code3' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Reference `fig:q3fig1' on page 10 undefined on input line 17.
+
+<figures/1.PNG, id=165, 469.15276pt x 462.528pt>
+File: figures/1.PNG Graphic file (type png)
+ <use figures/1.PNG>
+Package pdftex.def Info: figures/1.PNG used on input line 21.
+(pdftex.def)             Requested size: 258.0348pt x 254.39117pt.
+ [10 <Z:/coursework/cs532/a10/final-tex/figures/1.PNG>]
+(Z:\coursework\cs532\a10\final-tex\src/getMementosData.py [11])
+(Z:\coursework\cs532\a10\final-tex\src/getTimeMaps.py) [12]
+(Z:\coursework\cs532\a10\final-tex\src/getDifference.py)) [13]
+(Z:\coursework\cs532\a10\final-tex\question-4.tex [14
+
+
+
+
+]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 6--7
+\OT1/cmr/bx/n/10 Create two graphs sim-i-lar to that de-scribed in Q3, ex-cept
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 6--7
+\OT1/cmr/bx/n/10 Of the URIs that still ter-mi-nate in a ``200 OK'' re-sponse,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+LaTeX Warning: Reference `lst:q4code1' on page 15 undefined on input line 10.
+
+
+LaTeX Warning: Reference `q4Table1' on page 15 undefined on input line 10.
+
+[15]
+
+LaTeX Warning: Reference `lst:q4code2' on page 16 undefined on input line 36.
+
+
+LaTeX Warning: Reference `lst:q4code3' on page 16 undefined on input line 39.
+
+[16]
+
+LaTeX Warning: Reference `fig:q4fig1' on page 17 undefined on input line 43.
+
+<figures/q4.PNG, id=307, 460.72125pt x 465.53925pt>
+File: figures/q4.PNG Graphic file (type png)
+ <use figures/q4.PNG>
+Package pdftex.def Info: figures/q4.PNG used on input line 47.
+(pdftex.def)             Requested size: 253.39746pt x 256.04736pt.
+
+
+LaTeX Warning: Reference `fig:q4fig2' on page 17 undefined on input line 52.
+
+<figures/q4p.PNG, id=308, 475.7775pt x 460.119pt>
+File: figures/q4p.PNG Graphic file (type png)
+ <use figures/q4p.PNG>
+Package pdftex.def Info: figures/q4p.PNG used on input line 56.
+(pdftex.def)             Requested size: 261.67842pt x 253.06622pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <Z:/coursework/cs532/a10/final-tex/figures/q4.PNG>]
+(Z:\coursework\cs532\a10\final-tex\src/checkRedirect.py [18 <Z:/coursework/cs53
+2/a10/final-tex/figures/q4p.PNG>])
+(Z:\coursework\cs532\a10\final-tex\src/RawData.py)
+(Z:\coursework\cs532\a10\final-tex\src/ProcessedData.py)
+(Z:\coursework\cs532\a10\final-tex\src/getBytes.py [19])
+(Z:\coursework\cs532\a10\final-tex\src/getDifference1.py)) [20]
+(Z:\coursework\cs532\a10\final-tex\main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/cmr/m/n/9 Python code knnes-ti-mate.py from PCI book.  Igraph Tu-to-rial
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]$\OT1/cmtt/m/n/9 https : / / github . com / cataska / programming -[] collect
+ive -[] intelligence -[]$
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+ [21
+
+
+
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
+ (Z:\coursework\cs532\a10\final-tex\main.aux
+(Z:\coursework\cs532\a10\final-tex\question-1.aux)
+(Z:\coursework\cs532\a10\final-tex\question-3.aux)
+(Z:\coursework\cs532\a10\final-tex\question-4.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5C01ABA705E28F08DC5952DEC48DCF18;185.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
+ ) 
+Here is how much of TeX's memory you used:
+ 8991 strings out of 493921
+ 132386 string characters out of 3144870
+ 360940 words of memory out of 3000000
+ 11815 multiletter control sequences out of 15000+200000
+ 11238 words of font info for 44 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 34i,9n,45p,531b,1799s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on main.pdf (25 pages, 399442 bytes).
+PDF statistics:
+ 540 PDF objects out of 1000 (max. 8388607)
+ 303 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,1440 @@
+<!DOCTYPE html><html lang="en" data-cast-api-enabled="true"><head><style name="www-roboto">@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v15/OLffGBTaF0XFOW1gnuHF0Z0EAVxt0G0biEntp43Qt6E.ttf)format('truetype');}</style><script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "E");document.fonts.load("500 10pt Roboto", "E");}</script><script>__yt_experimental_now = __spf_experimental_now = true;</script><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},now: window.performance && window.performance.timing &&window.performance.now && window['__yt_experimental_now'] ? function() {return window.performance.timing.navigationStart + window.performance.now();} : function() {return (new Date()).getTime();},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || ytcsi.now();},span: function(l, s, e, n) {ytcsi.gt(n).span[l] = (e ? e : ytcsi.now()) - ytcsi.gt(n).tick[s];},setSpan: function(l, s, n) {ytcsi.gt(n).span[l] = s;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = d.webkitVisibilityState ? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}})(window, document);</script><script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script>  <script>
+    ytcfg.set("ST_SHORT", true);
+    ytcfg.set("ST_BASE36", true);
+  </script>
+  <script>ytcfg.set("EXP_QUICK_FETCH_BISCOTTI", false);ytcfg.set("LACT", null);</script>
+  
+
+
+
+
+  <script>
+        (function(){var b={c:"content-snap-width-1",f:"content-snap-width-2",h:"content-snap-width-3"};function f(){var a=[],c;for(c in b)a.push(b[c]);return a}
+function g(a){var c=f().concat(["guide-pinned","show-guide"]),d=c.length,e=[];a.replace(/\S+/g,function(a){for(var k=0;k<d;k++)if(a==c[k])return;e.push(a)});
+return e}
+;function l(a,c,d){var e=document.getElementsByTagName("html")[0],h=g(e.className);a&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(h.push("guide-pinned"),c&&h.push("show-guide"));d&&(d=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&a&&c&&(d-=230),h.push(1262<=d?"content-snap-width-3":1056<=d?"content-snap-width-2":"content-snap-width-1"));e.className=h.join(" ")}
+var m=["yt","www","masthead","sizing","runBeforeBodyIsReady"],n=this;m[0]in n||!n.execScript||n.execScript("var "+m[0]);for(var p;m.length&&(p=m.shift());)m.length||void 0===l?n[p]?n=n[p]:n=n[p]={}:n[p]=l;})();
+
+      try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+
+    yt.www.masthead.sizing.runBeforeBodyIsReady(false,false,true);
+  </script>
+
+      <script src="//s.ytimg.com/yts/jsbin/scheduler-vflaG8xOH/scheduler.js" type="text/javascript" name="scheduler/scheduler"></script>
+
+
+    <script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script>
+
+
+          <script src="//s.ytimg.com/yts/jsbin/player-en_US-vfll6dEHf/base.js" name="player/base"></script>
+
+
+
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vflN62BYD.css" name="www-core">
+      <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-player-vflf7adVd.css" name="www-player">
+
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-pageframe-vflg3TncD.css" name="www-pageframe">
+      <script>ytimg.preload("https:\/\/r4---sn-jvm-vg4e.googlevideo.com\/crossdomain.xml");ytimg.preload("https:\/\/r4---sn-jvm-vg4e.googlevideo.com\/generate_204");</script>
+
+
+<title>Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=en_US" title="YouTube Video Search"><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png" sizes="32x32"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png" sizes="48x48"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png" sizes="96x96"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png" sizes="144x144"><meta name="theme-color" content="#e62117"><link rel="canonical" href="https://www.youtube.com/watch?v=WBGJLC6l0nM"><link rel="alternate" media="handheld" href="http://m.youtube.com/watch?v=WBGJLC6l0nM"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/watch?v=WBGJLC6l0nM"><link rel="shortlink" href="https://youtu.be/WBGJLC6l0nM">      <meta name="title" content="Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes">
+
+      <meta name="description" content="SUBSCRIBE IT&#39;S FREE! http://goo.gl/uE0vOi Easy recipe and cooking tutorial on how to make a Chipotle Mexican Grill Chicken Burrito Bowl. You can use the same...">
+
+      <meta name="keywords" content="I Heart Recipes, iheartrecipes, i heart recipe, cooking, food, recipes, how to cook, DIY, Chipotle Mexican Grill (Business Operation), chicken, steak, burrit...">
+
+        <link rel="alternate" href="android-app://com.google.android.youtube/http/www.youtube.com/watch?v=WBGJLC6l0nM">
+    <link rel="alternate" href="ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=WBGJLC6l0nM">
+
+      <link rel="alternate" type="application/json+oembed" href="http://www.youtube.com/oembed?format=json&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWBGJLC6l0nM" title="Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes">
+  <link rel="alternate" type="text/xml+oembed" href="http://www.youtube.com/oembed?format=xml&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWBGJLC6l0nM" title="Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes">
+
+        <meta property="og:site_name" content="YouTube">
+      <meta property="og:url" content="https://www.youtube.com/watch?v=WBGJLC6l0nM">
+    <meta property="og:title" content="Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes">
+    <meta property="og:image" content="https://i.ytimg.com/vi/WBGJLC6l0nM/hqdefault.jpg">
+
+      <meta property="og:description" content="SUBSCRIBE IT&#39;S FREE! http://goo.gl/uE0vOi Easy recipe and cooking tutorial on how to make a Chipotle Mexican Grill Chicken Burrito Bowl. You can use the same...">
+
+    <meta property="al:ios:app_store_id" content="544007664">
+    <meta property="al:ios:app_name" content="YouTube">
+      <meta property="al:ios:url" content="vnd.youtube://www.youtube.com/watch?v=WBGJLC6l0nM&amp;feature=applinks">
+
+      <meta property="al:android:url" content="vnd.youtube://www.youtube.com/watch?v=WBGJLC6l0nM&amp;feature=applinks">
+    <meta property="al:android:app_name" content="YouTube">
+    <meta property="al:android:package" content="com.google.android.youtube">
+    <meta property="al:web:url" content="https://www.youtube.com/watch?v=WBGJLC6l0nM&amp;feature=applinks">
+
+    <meta property="og:type" content="video">
+        <meta property="og:video:url" content="https://www.youtube.com/embed/WBGJLC6l0nM">
+        <meta property="og:video:secure_url" content="https://www.youtube.com/embed/WBGJLC6l0nM">
+        <meta property="og:video:type" content="text/html">
+        <meta property="og:video:width" content="1280">
+        <meta property="og:video:height" content="720">
+        <meta property="og:video:url" content="http://www.youtube.com/v/WBGJLC6l0nM?version=3&amp;autohide=1">
+        <meta property="og:video:secure_url" content="https://www.youtube.com/v/WBGJLC6l0nM?version=3&amp;autohide=1">
+        <meta property="og:video:type" content="application/x-shockwave-flash">
+        <meta property="og:video:width" content="1280">
+        <meta property="og:video:height" content="720">
+
+        <meta property="og:video:tag" content="I Heart Recipes">
+        <meta property="og:video:tag" content="iheartrecipes">
+        <meta property="og:video:tag" content="i heart recipe">
+        <meta property="og:video:tag" content="cooking">
+        <meta property="og:video:tag" content="food">
+        <meta property="og:video:tag" content="recipes">
+        <meta property="og:video:tag" content="how to cook">
+        <meta property="og:video:tag" content="DIY">
+        <meta property="og:video:tag" content="Chipotle Mexican Grill (Business Operation)">
+        <meta property="og:video:tag" content="chicken">
+        <meta property="og:video:tag" content="steak">
+        <meta property="og:video:tag" content="burrito">
+        <meta property="og:video:tag" content="bowl">
+        <meta property="og:video:tag" content="recipe">
+        <meta property="og:video:tag" content="Chipotle (Food)">
+        <meta property="og:video:tag" content="Do It Yourself (Hobby)">
+        <meta property="og:video:tag" content="Chipotle Chicken Bowl">
+        <meta property="og:video:tag" content="Chipotle burrito">
+        <meta property="og:video:tag" content="how to make">
+        <meta property="og:video:tag" content="copycat">
+        <meta property="og:video:tag" content="easy">
+        <meta property="og:video:tag" content="simple">
+        <meta property="og:video:tag" content="Cook">
+        <meta property="og:video:tag" content="Kitchen">
+        <meta property="og:video:tag" content="chicken bowl">
+        <meta property="og:video:tag" content="Low Sodium Diet (Diet)">
+        <meta property="og:video:tag" content="low fat">
+        <meta property="og:video:tag" content="chicken recipe">
+
+    <meta property="fb:app_id" content="87741124305">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@youtube">
+    <meta name="twitter:url" content="https://www.youtube.com/watch?v=WBGJLC6l0nM">
+    <meta name="twitter:title" content="Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes">
+    <meta name="twitter:description" content="SUBSCRIBE IT&#39;S FREE! http://goo.gl/uE0vOi Easy recipe and cooking tutorial on how to make a Chipotle Mexican Grill Chicken Burrito Bowl. You can use the same...">
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/WBGJLC6l0nM/hqdefault.jpg">
+    <meta name="twitter:app:name:iphone" content="YouTube">
+    <meta name="twitter:app:id:iphone" content="544007664">
+    <meta name="twitter:app:name:ipad" content="YouTube">
+    <meta name="twitter:app:id:ipad" content="544007664">
+      <meta name="twitter:app:url:iphone" content="vnd.youtube://www.youtube.com/watch?v=WBGJLC6l0nM&amp;feature=applinks">
+      <meta name="twitter:app:url:ipad" content="vnd.youtube://www.youtube.com/watch?v=WBGJLC6l0nM&amp;feature=applinks">
+    <meta name="twitter:app:name:googleplay" content="YouTube">
+    <meta name="twitter:app:id:googleplay" content="com.google.android.youtube">
+    <meta name="twitter:app:url:googleplay" content="https://www.youtube.com/watch?v=WBGJLC6l0nM">
+      <meta name="twitter:player" content="https://www.youtube.com/embed/WBGJLC6l0nM">
+      <meta name="twitter:player:width" content="1280">
+      <meta name="twitter:player:height" content="720">
+
+      <meta name=attribution content=ladyrosie1983%2Buser/>  
+</head>  <body dir="ltr" id="body" class="  ltr    exp-responsive exp-scrollable-guide   site-center-aligned site-as-giant-card appbar-hidden    visibility-logging-enabled   not-nirvana-dogfood  not-yt-legacy-css      flex-width-enabled      flex-width-enabled-snap    delayed-frame-styles-not-in  " data-spf-name="watch">
+<div id="early-body"></div><div id="body-container"><div id="a11y-announcements-container" role="alert"><div id="a11y-announcements-message"></div></div><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form><div id="masthead-positioner">    
+  <div id="yt-masthead-container" class="clearfix yt-base-gutter">  <button id="a11y-skip-nav" class="skip-nav" data-target-id="main" tabindex="3">
+Skip navigation
+  </button>
+<div id="yt-masthead"><div class="yt-masthead-logo-container ">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" type="button" onclick=";return false;" id="appbar-guide-button" aria-controls="appbar-guide-menu" aria-label="Guide"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span></span></button>
+  <div id="appbar-main-guide-notification-container"></div>
+<span id="yt-masthead-logo-fragment"><a href="/" class="yt-uix-sessionlink masthead-logo-renderer       spf-link " data-sessionlink="itct=CAUQsV4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0" id="logo-container" title="YouTube Home">  <span class="logo masthead-logo-renderer-logo yt-sprite" title="YouTube Home"></span>
+</a></span></div><div id="yt-masthead-signin"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg&amp;feature=mhsb" id="upload-btn"><span class="yt-uix-button-content">Upload</span></a><div class="signin-container "><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" role="link" href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;hl=en&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3Dsign_in_button%26hl%3Den%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DWBGJLC6l0nM%2526feature%253Dyoutu.be%2526a%253D%26app%3Ddesktop&amp;passive=true"><span class="yt-uix-button-content">Sign in</span></button></div></div><div id="yt-masthead-content"><form id="masthead-search" class="  search-form consolidated-form    vve-check" action="/results" onsubmit="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;" data-clicktracking="CAIQ7VAiEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0" data-visibility-tracking="CAIQ7VAiEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;" id="search-btn" tabindex="2" dir="ltr"><span class="yt-uix-button-content">Search</span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><input id="masthead-search-term" autocomplete="off"  onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" placeholder="" title="Search" aria-label="Search"></div></form></div></div></div>
+    <div id="masthead-appbar-container" class="clearfix"><div id="masthead-appbar"><div id="appbar-content" class=""></div></div></div>
+
+</div><div id="masthead-positioner-height-offset"></div><div id="page-container"><div id="page" class="  watch        video-WBGJLC6l0nM clearfix"><div id="guide" class="yt-scrollbar">    <div id="appbar-guide-menu" class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor">
+    <div id="guide-container">
+      <div class="guide-module-content guide-module-loading">
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+      </div>
+    </div>
+  </div>
+
+</div><div class="alerts-wrapper"><div id="alerts" class="content-alignment">    
+  <div id="editor-progress-alert-container"></div>
+  <div class="yt-alert yt-alert-default yt-alert-warn hid " id="editor-progress-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert"></div><div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Close" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Close</span></button></div></div>
+
+    <div id="edit-confirmation-alert"></div>
+  <div class="yt-alert yt-alert-actionable yt-alert-info hid " id="edit-confirmation-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message">
+    </div>
+</div><div class="yt-alert-buttons">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-yes" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-like-invert yt-sprite"></span></span><span class="yt-uix-button-content">Yeah, keep it</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-no" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-unlike-invert yt-sprite"></span></span><span class="yt-uix-button-content">Undo</span></button>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Close" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Close</span></button></div></div>
+
+
+
+</div></div><div id="header"></div><div id="player" class="  content-alignment       watch-small  " role="complementary"><div id="theater-background" class="player-height"></div>  <div id="player-mole-container">
+    <div id="player-unavailable" class="    hid    player-width player-height    player-unavailable ">
+              <img class="icon meh" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-icon="//s.ytimg.com/yts/img/meh7-vflGevej7.png" alt="">
+  <div class="content">
+    <h1 id="unavailable-message" class="message">
+              This video is unavailable.
+
+    </h1>
+    <div id="unavailable-submessage" class="submessage">
+    </div>
+  </div>
+
+
+    </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target player-api" tabIndex="-1"></div>
+        <script>if (window.ytcsi) {window.ytcsi.tick("cfg", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"min_version":"8.0.0","html5":true,"messages":{"player_fallback":["Adobe Flash Player or an HTML5 supported browser is required for video playback.\u003cbr\u003e\u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eGet the latest Flash Player \u003c\/a\u003e\u003cbr\u003e\u003ca href=\"\/html5\"\u003eLearn more about upgrading to an HTML5 browser\u003c\/a\u003e"]},"url_v8":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflFOfQaP\/cps.swf","assets":{"css":"\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflf7adVd.css","js":"\/\/s.ytimg.com\/yts\/jsbin\/player-en_US-vfll6dEHf\/base.js"},"params":{"allowfullscreen":"true","allowscriptaccess":"always","bgcolor":"#000000"},"attrs":{"id":"movie_player"},"sts":16916,"args":{"allow_embed":"1","instream":true,"iurlmq":"https:\/\/i.ytimg.com\/vi\/WBGJLC6l0nM\/hqdefault.jpg?custom=true\u0026w=320\u0026h=180\u0026stc=true\u0026jpg444=true\u0026jpgq=90\u0026sp=68\u0026sigh=7O_6bfVeEDKf5YP32wIT4W0fO0E","ad_flags":"0","is_listed":"1","fade_in_start_milliseconds":"-3000","cid":"374162","thumbnail_url":"https:\/\/i.ytimg.com\/vi\/WBGJLC6l0nM\/default.jpg","iv_module":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflFOfQaP\/iv_module.swf","oid":"dO_Pq3mWPfNMLiEyduEIfA","pla_ad_tag":"https:\/\/video.google.com\/ad\/shoppingsyndication?q=chipotle+southwest+sauce\u0026video_id=WBGJLC6l0nM\u0026yturl=http%3A\/\/www.youtube.com\/video\/WBGJLC6l0nM\u0026dbp=ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ\u0026hl=en\u0026gl=US\u0026fexp=9428632,9433070,9435578\u0026format=xml_vast3\u0026output=custom\u0026ytchannel=1dzkIaMDJzv3ZuS0DdEWoA\u0026channel=yt_product_ads\u0026adsensehosts=ca-host-pub-8885396211526337\u0026adsensetiers=4900614\u0026adsafe=high\u0026ytsrc=6","invideo":true,"rmktEnabled":"1","aftv":true,"ad_preroll":"1","iurl":"https:\/\/i.ytimg.com\/vi\/WBGJLC6l0nM\/hqdefault.jpg","max_dynamic_allocation_ad_tag_length":"2040","allow_html5_ads":"1","enablecsi":"1","csi_page_type":"watch,watch7ad_html5","idpj":"-5","timestamp":"1461817672","mpu":true,"ad_tag":"https:\/\/ad.doubleclick.net\/N4061\/pfadx\/com.ytpwatch.howtoanddiy;av=1;kpeid=1dzkIaMDJzv3ZuS0DdEWoA;kpid=374162;kpu=ladyrosie1983;kvid=WBGJLC6l0nM;mpvid=SX4fhozawz_i1rfJ;ssl=1;sz=480x360,480x361,480x70;tile=1;ord=703625898;afv=1;ciu_szs=300x250,300x60;dc_dbp=ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ;dc_osd=2;dc_output=xml_vast3;dc_yt=1;dc_yt_pt=APb3F2_yEgZBHCTzbtxDeFu0Niv_hsNBdCLOSL9zvY74Uk12mgpK9JVXEGaQhcWLxFbetAW9l_BZ98BF3LGi7P01AvCb3sr2NenvjdrztGeUQNZTxQFUEHYeZ7yDHrKxxinJw64GCkzFdXzs5U5zYSZ-qLDI4advVj3O8EoVHDMV5eWfGnmcawhwxCXAq7nfTqiVVpwGZ-Tdg3o-FRwsyXcugg6vuYuXQLhoUsuqdsvutRZqxuWpsPOejWi7scEd56guWS9u--VAqykbmrpJV7BZsG4TXEHc53CyV0CXuQ;k2=71;k2=122;k2=911;k2=913;k2=1560;k5=71_122_911_913_1560;kclg=1;kclt=1;kga=-1;kgg=-1;klg=en;kmyd=watch-longform-ad;ko=y;kr=F;ktype=gptc;kvlg=en;kvz=203;lu=0,101,2018a1;nlfb=1;tvid=5;yt1st=1;yt3pav=1;ytcat=26;ytdevice=1;ytdevicever=1.20160427;ytexp=9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578;yt_ec=4;yt_ec2=4;yt_vrallowed=1;!c=374162","show_pyv_in_related":true,"as_launched_in_country":"1","adsense_video_doc_id":"yt_WBGJLC6l0nM","avg_rating":"4.95125722885","advideo":"1","iv3_module":"1","ptchn":"1dzkIaMDJzv3ZuS0DdEWoA","sffb":true,"player_error_log_fraction":"1.0","fade_out_start_milliseconds":"0","loudness":"-21.7189998627","storyboard_spec":"https:\/\/i.ytimg.com\/sb\/WBGJLC6l0nM\/storyboard3_L$L\/$N.jpg|48#27#100#10#10#0#default#RkvfQsHuqhIMlZI7aN8S9TlArQ4|80#45#101#10#10#2000#M$M#y7xVxYHU9yhbYgQJaCmGqzCo2yI|160#90#101#5#5#2000#M$M#7BrRDAGKtxjfZhOzhP-Ia4laxKo","enabled_engage_types":"3,4,5,6","tag_for_child_directed":false,"loeid":"9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578","shortform":true,"show_content_thumbnail":true,"cr":"US","token":"1","afv_instream_max":"15000","fflags":"kids_search_restrict_enforcement_warn_mode=true\u0026shopping_card_icon_hover_blue=false\u0026endscreen_204_logging=false\u0026cleanup_text_overlay_spam_signals=false\u0026html5_enable_aac_51_clear=false\u0026disable_new_pause_state3=true\u0026html5_use_tight_max_buffer_depth=false\u0026native_controls_assume_media_volume=true\u0026log_it_display_tree=true\u0026html5_use_server_bandwidth_estimate=false\u0026high_res_timestamps=true\u0026gaming_i18n=true\u0026html5_crossorigin_video=false\u0026video_metadata_provider_with_query_id=true\u0026video_wall_redesign=false\u0026html5_dash_mpd_version=4\u0026teaser_on_button_hover=false\u0026april_fools_landing_page_redirect_url=\/playlist?list=PLbpi6ZahtOH4TalzBzHHczrUgJL7vsDdG\u0026html5_manifestless_always=false\u0026cards_drawer_auto_open_offset=-10000\u0026html5_force_play_on_suspend_event_limited=false\u0026enable_mrm_channel_approve=true\u0026enable_ad_video_end_renderers=false\u0026ui_logging=false\u0026hover_card_on_button_hover=false\u0026better_mobile_in_player=false\u0026tv_player_heartbeats=true\u0026april_fools_watch_redirect_enabled=false\u0026enable_dynamic_ad_break=false\u0026april_fools_country_blacklist=element:'AE',element:'AF',element:'AR',element:'BH',element:'CL',element:'CU',element:'DZ',element:'EG',element:'ID',element:'IQ',element:'IR',element:'JO',element:'JP',element:'KP',element:'KR',element:'KW',element:'LB',element:'LY',element:'MA',element:'MY',element:'OM',element:'PE',element:'PK',element:'PS',element:'QA',element:'SA',element:'SY',element:'TH',element:'TN',element:'TW',element:'YE'\u0026enable_probabilistic_show_skip_as_nonskip=false\u0026shopping_card_icon_with_teaser=false\u0026merge_button_with_teaser=false\u0026html5_live_disable_dg_pacing=true\u0026mweb_cougar=false\u0026april_fools_hero_video_id=DPEJB-FCItk\u0026autonav_notifications=false\u0026legacy_autoplay_flag=true\u0026fix_vmap_afc_mpu_api_stats_ads=false\u0026video_wall_moving_thumbnails_hover=false\u0026use_smaller_session_tempdata_cookie_name=true\u0026cards_drawer_auto_open_duration=-1\u0026disable_monetization_on_indisplay_playbacks=false\u0026generate_shopping_companions_on_desktop=false\u0026april_fools_enabled=true\u0026dynamic_ad_break_seek_threshold_sec=0\u0026enable_ad_video_end_renderers_gaia=false\u0026live_chunk_readahead=3\u0026html5_deadzone_multiplier=1.0\u0026mweb_cougar_big_controls=false\u0026cards_drawer_auto_open=false\u0026use_fake_html5_ad_renderer=false\u0026html5_tight_max_buffer_allowed_impaired_time=0.0\u0026combined_teaser_link=false\u0026april_fools_watch_related_enabled=false\u0026html5_bandwidth_window_size=0\u0026fast_autonav_in_background=false\u0026dash_html5_refresh_mapping_interval=0\u0026force_https_companions=false\u0026flex_theater_mode=false\u0026enable_instream_ad_badge=false\u0026video_wall_moving_thumbnails_autoplay=false\u0026shopping_companion_replaces_ad_companion=false\u0026enable_spherical3d_firefox_opera=false\u0026html5_request_delay_cutoff=0.0\u0026white_noise_with_interval=false\u0026ad_video_end_disable_auto_open_drawer=false\u0026shopping_card_badge_enabled=false\u0026html5_playing_event_buffer_underrun=true\u0026enable_audio_cast=true\u0026html5_retry_get_video_info=true\u0026yto_enable_watch_offer_module=true\u0026enable_spherical3d_ie=true\u0026enable_companion_click_tracking=false\u0026hover_card_for_video_card_teaser=false\u0026shopping_card_icon_without_teaser=false\u0026dynamic_ad_break_pause_threshold_sec=0\u0026new_ended_replay=false\u0026fill_endscreen_moving_thumbnails=false\u0026shopping_card_icon_always_visible=false\u0026enable_stereo3d_ie_firefox_opera=true\u0026launch_new_wallet_api=true\u0026dash_html5_timeouts_before_metadata=false\u0026april_fools_360_video_id_list=8awqtaD3LAI:PkiImnukZAw,98LoiMZ59Jw:M3l6mM3qVzk,MX0D4oZwCsA:F_nBHsBZusc,1v1RR8vCbnI:aOLTUYTkCCU,NMbM-ERy2Lk:ClgB_hmSMoM,KK67kaMWN-8:BiuEOSQU-WU,hmQN95ROBcI:jTiYCw6OhZE,2vcJibyBRAM:nh3jD2Oddmg,FcN08Tg3PWw:V47pFY9K4eg,1ZLN9AzxVa8:wmi_ve62hu0\u0026log_teaser_hover=false\u0026firefox_eme=true\u0026video_wall_storyboards_mouse_x=false\u0026doubleclick_gpt_retagging=false\u0026yto_enable_unlimited_landing_page_yto_features=true\u0026enable_probabilistic_show_nonskip_as_skip=false\u0026legacy_poster_behavior=true\u0026sidebar_renderers=true\u0026always_request_animation_frame=false\u0026dash_html5_refresh_mapping_min_buffer=0\u0026video_wall_moving_thumbnails_first=false\u0026html5_always_underrun_on_empty_buffer=false\u0026legacy_cast=false\u0026html5_streaming_xhr=false\u0026enable_yt_music_lp=true\u0026related_menu=false\u0026product_listing_ads_cards_drawer_auto_open=true\u0026html5_multicam=true\u0026html5_strip_emsg=true\u0026use_html5_ad_break_renderer_for_mweb=false\u0026edge_nonprefixed_eme=false\u0026disable_fetching_previous_nonadjacent_midrolls=false\u0026enable_0s_skip_for_surveys=true\u0026html5_tight_max_buffer_allowed_bandwidth_stddevs=0.0\u0026html5_throttle_rate=0.0\u0026video_wall_pagination=false\u0026html5_strip_emsg_lite=true\u0026html5_live_nonzero_first_segment_start_time=false\u0026yto_feature_hub_channel=false\u0026use_html5_ad_break_renderer_for_web_gaming=false\u0026use_cougar_ads_ui=false\u0026html5_force_play_on_suspend_event=false\u0026html5_live_only_stick_to_head=true\u0026april_fools_watch_player_button_enabled=false\u0026april_fools_search_enabled=false\u0026allow_external_ads_overwrite_mweb=false\u0026kids_enable_latam_lp=true\u0026playready_on_borg=false\u0026fix_backfill_mpu_api_stats_ads=true\u0026ad_info_icon_in_card=false\u0026enable_why_this_ad_for_desktop=false\u0026drawer_peek=false\u0026enable_html5_spherical_direction_logging=true\u0026moving_thumbnails_autonav=false\u0026html5_firefox_always_vp9=false\u0026probability_to_change_skip=0.0\u0026use_html5_ad_break_renderer=false\u0026html5_keep_dash_mpd_origin=false\u0026use_html5_ad_break_renderer_for_embed=false\u0026html5_request_sizing_multiplier=0.8\u0026yto_enable_ytr_promo_refresh_assets=true\u0026remove_survey_nota_line=true\u0026desktop_send_instream_ad_complete_ping=false\u0026player_scaling_360p_to_720p=false","url_encoded_fmt_stream_map":"type=video%2Fmp4%3B+codecs%3D%22avc1.64001F%2C+mp4a.40.2%22\u0026itag=22\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fid%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26dur%3D198.600%26ipbits%3D0%26lmt%3D1435567374673746%26sparams%3Ddur%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26source%3Dyoutube%26mv%3Du%26ratebypass%3Dyes%26signature%3D87A7B3F091D422EB0CC703346C12DF727193AB0D.52A10F91FA8C0A9B3467230C4D4A0297B52B45DD%26upn%3DwN2x3hvvZB8%26mt%3D1461817572%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26itag%3D22%26expire%3D1461839272%26key%3Dyt6%26sver%3D3\u0026fallback_host=tc.v4.cache5.googlevideo.com\u0026quality=hd720,type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22\u0026itag=43\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fid%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26dur%3D0.000%26ipbits%3D0%26lmt%3D1420523293271946%26sparams%3Ddur%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26source%3Dyoutube%26mv%3Du%26ratebypass%3Dyes%26signature%3D39CFFEA3D43ABCEE72A03BB8B733A89725657E1D.8B8AEE556BD99EF552D6FF706865DFB2803BFE8A%26upn%3DwN2x3hvvZB8%26mt%3D1461817572%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26itag%3D43%26expire%3D1461839272%26key%3Dyt6%26sver%3D3\u0026fallback_host=tc.v6.cache5.googlevideo.com\u0026quality=medium,type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22\u0026itag=18\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fid%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26dur%3D198.600%26ipbits%3D0%26lmt%3D1435567335999784%26sparams%3Ddur%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26source%3Dyoutube%26mv%3Du%26ratebypass%3Dyes%26signature%3D3DFDCB1F5BE5A9BE8DB3240B7A4FC19A870AAC07.C853FFE7ABA319810DF61EB4D04BEFE0DC26DDEF%26upn%3DwN2x3hvvZB8%26mt%3D1461817572%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26itag%3D18%26expire%3D1461839272%26key%3Dyt6%26sver%3D3\u0026fallback_host=tc.v4.cache1.googlevideo.com\u0026quality=medium,type=video%2Fx-flv\u0026itag=5\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Ddur%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26source%3Dyoutube%26dur%3D198.583%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fx-flv%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26mv%3Du%26signature%3DAEDA3355AEDB38BB3CDE152AFAD8C915D8646378.8FDC3BAF1624FA864EBE2BE7503313B1E9423EE9%26upn%3DwN2x3hvvZB8%26itag%3D5%26key%3Dyt6%26lmt%3D1420523008985377\u0026fallback_host=tc.v19.cache3.googlevideo.com\u0026quality=small,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026itag=36\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Ddur%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26source%3Dyoutube%26dur%3D198.716%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252F3gpp%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26mv%3Du%26signature%3D89D952DEDAACCA45C625E795DF5B474E2071C1AE.1A4BD6FF35013BB4A471CDFDF9B318288AFF4CD1%26upn%3DwN2x3hvvZB8%26itag%3D36%26key%3Dyt6%26lmt%3D1420523251524363\u0026fallback_host=tc.v1.cache7.googlevideo.com\u0026quality=small,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026itag=17\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Ddur%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26source%3Dyoutube%26dur%3D198.716%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252F3gpp%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26mv%3Du%26signature%3DAF7F8A2B3179D7D1202453E41EBFFC8380F4957E.906B56D857BF0DE722E738076697F59CCFF145A8%26upn%3DwN2x3hvvZB8%26itag%3D17%26key%3Dyt6%26lmt%3D1420523231194969\u0026fallback_host=tc.v18.cache3.googlevideo.com\u0026quality=small","allow_ratings":"1","vm":"CAEQAQ","cl":"120940785","trueview":true,"focEnabled":"1","of":"yzQqk3lG-0hUZkPBrlHwHw","dynamic_allocation_ad_tag":"https:\/\/ad.doubleclick.net\/N4061\/pfadx\/com.ytpwatch.howtoanddiy;av=1;kpeid=1dzkIaMDJzv3ZuS0DdEWoA;kpid=374162;kpu=ladyrosie1983;kvid=WBGJLC6l0nM;mpvid=SX4fhozawz_i1rfJ;ssl=1;sz=480x360,480x361,480x70;tile=1;ord=703625898;afv=1;afvbase=eJxdk99v2yAQx_-a8tRU_DZ-4KFNmq3VOmnr1E59QcSQ2iq2kY2dOH_9MM7UqJalz33vuINDhzYqTN7K_qPyXu-cHStjW9UH3RjdmUXthtrbLtmgKHXTWCdfbBeqQjuFML7Cd5-ScXipM3SpcvRFkij1flRV04fO6vqLVEN_9gy97VRlFDKnjwf9tHk8jeRteIYbc__a3l4uctpMXdtXFuViLl-NfvI-GlM4d9IvoojlSEYRx4t-Py-q9W48Wz42rZ7_0n3ZnvThpCrU7R-XWNMqklpdbL0km3iBhVXoQozxTOgGQ8QhxVkKWKeMDbpyXr_b5PF99Oz14AIo2q6zToe2k4hyJFDGM8wYBmbn5bp8Y9Ztj_r0s_89wYPevmiN7tZFfXwwsCT3t_fvt7-ArYzMKMUQZ-yaU0YgyjEonbQNKNs-yEKvZq78sFsJIRjJOUaIYU5IBsoQb1rSHEKOKHDtXC2nkOUiu47kguFIxBHmiSJHkRizfNY4o2KOY0FyMTNHnEQSBBFORDlLJHhh7C9R8KQxJDwRQ5HIRconMNUnhCx1CF_ySZ72IRSKFI87wkSaz-cljNDkZywToNZHpY0yQ6dD1TYScQYhaIY6enuJQNsbiUFvPiopICRryEBQfhqlPRZuMBYMnZNlCP6KxKnbxv9wONxM7RCGnb0p2jjB2_RSIl_vvj3-WHMHmyewvKTC15LD9IFRebn5831lT-KKbMD_cYlnuJgc-Tk50a3GqpcE_QPUVSNt;ciu_szs=300x250,300x60;dc_backfill=1;dc_dbp=ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ;dc_osd=2;dc_output=xml_vast3;dc_yt=1;dc_yt_pt=APb3F2_yEgZBHCTzbtxDeFu0Niv_hsNBdCLOSL9zvY74Uk12mgpK9JVXEGaQhcWLxFbetAW9l_BZ98BF3LGi7P01AvCb3sr2NenvjdrztGeUQNZTxQFUEHYeZ7yDHrKxxinJw64GCkzFdXzs5U5zYSZ-qLDI4advVj3O8EoVHDMV5eWfGnmcawhwxCXAq7nfTqiVVpwGZ-Tdg3o-FRwsyXcugg6vuYuXQLhoUsuqdsvutRZqxuWpsPOejWi7scEd56guWS9u--VAqykbmrpJV7BZsG4TXEHc53CyV0CXuQ;k2=71;k2=122;k2=911;k2=913;k2=1560;k5=71_122_911_913_1560;kclg=1;kclt=1;kga=-1;kgg=-1;klg=en;kmyd=watch-longform-ad;ko=y;kr=F;ktype=gptc;kvlg=en;kvz=203;lu=0,101,2018a1;nlfb=1;tvid=5;yt1st=1;yt3pav=1;ytcat=26;ytdevice=1;ytdevicever=1.20160427;ytexp=9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578;yt_ec=4;yt_ec2=4;yt_vrallowed=1;!c=374162","innertube_context_client_version":"1.20160427","independent_break_offsets":"1","iurlhq":"https:\/\/i.ytimg.com\/vi\/WBGJLC6l0nM\/hqdefault.jpg","host_language":"en","enablejsapi":"1","uid":"1dzkIaMDJzv3ZuS0DdEWoA","fmt_list":"22\/1280x720\/9\/0\/115,43\/640x360\/99\/0\/0,18\/640x360\/9\/0\/115,5\/426x240\/7\/0\/0,36\/320x180\/99\/1\/0,17\/176x144\/99\/1\/0","t":"1","fade_out_duration_milliseconds":"1000","adaptive_fmts":"fps=30\u0026projection_type=1\u0026quality_label=720p\u0026clen=33361525\u0026index=709-1184\u0026xtags=\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401f%22\u0026size=1280x720\u0026itag=136\u0026bitrate=2205779\u0026lmt=1435567473730339\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D33361525%26source%3Dyoutube%26dur%3D198.531%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3DB3647EA39394063D562D77E3384B8897A6926497.17A975F07D36ED68335904518FAED72DB55D8056%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D136%26key%3Dyt6%26lmt%3D1435567473730339\u0026init=0-708,fps=30\u0026projection_type=1\u0026quality_label=720p\u0026clen=28065844\u0026index=243-929\u0026xtags=\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026size=1280x720\u0026itag=247\u0026bitrate=1951037\u0026lmt=1421042289344489\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D28065844%26source%3Dyoutube%26dur%3D198.498%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D9C0A36A6A0FE237DCE3F2F0A8C9F2CE2F17F28CF.A9ECA66D59A71CC3A19DAFF035C93CFC85666077%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D247%26key%3Dyt6%26lmt%3D1421042289344489\u0026init=0-242,fps=30\u0026projection_type=1\u0026quality_label=480p\u0026clen=17464274\u0026index=709-1184\u0026xtags=\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401f%22\u0026size=854x480\u0026itag=135\u0026bitrate=1106327\u0026lmt=1435567395280186\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D17464274%26source%3Dyoutube%26dur%3D198.531%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D8A2982DDFFB13525279A0E9E60F708A648AFC3AC.6C6015E1A5C6F4F1E56588E97DB252F458F05EEA%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D135%26key%3Dyt6%26lmt%3D1435567395280186\u0026init=0-708,fps=30\u0026projection_type=1\u0026quality_label=480p\u0026clen=13448632\u0026index=243-912\u0026xtags=\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026size=854x480\u0026itag=244\u0026bitrate=911950\u0026lmt=1421042392303442\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D13448632%26source%3Dyoutube%26dur%3D198.498%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3DBF9CE90B29303811F27481A50A608D5AD72376EF.9541350C9F0C8E83518DC23205203DA1D09176CF%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D244%26key%3Dyt6%26lmt%3D1421042392303442\u0026init=0-242,fps=30\u0026projection_type=1\u0026quality_label=360p\u0026clen=9039234\u0026index=709-1184\u0026xtags=\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026size=640x360\u0026itag=134\u0026bitrate=604970\u0026lmt=1435567387089233\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D9039234%26source%3Dyoutube%26dur%3D198.531%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3DE3D044EE2822CD185C8D3F3C8B148A5F1EC74C1A.14B9DBD2DBB5B91ED132B3F829BD4A1338C87B03%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D134%26key%3Dyt6%26lmt%3D1435567387089233\u0026init=0-708,fps=30\u0026projection_type=1\u0026quality_label=360p\u0026clen=7858823\u0026index=243-912\u0026xtags=\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026size=640x360\u0026itag=243\u0026bitrate=489547\u0026lmt=1421042275135470\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D7858823%26source%3Dyoutube%26dur%3D198.498%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D4FFD0654D317C3CF57AB43FFCC400A3C9EBB7A50.CAEAFD8EB2C27C4E5AFDD6F3B3E1B4755BE42D98%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D243%26key%3Dyt6%26lmt%3D1421042275135470\u0026init=0-242,fps=30\u0026projection_type=1\u0026quality_label=240p\u0026clen=6074640\u0026index=673-1148\u0026xtags=\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d4015%22\u0026size=426x240\u0026itag=133\u0026bitrate=248656\u0026lmt=1435567329220173\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D6074640%26source%3Dyoutube%26dur%3D198.531%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D367AB1F2B0135B3CDEE89201C2D37B498C093137.8D4534CFCE4623A73FF0B9333B805938EA7CF93A%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D133%26key%3Dyt6%26lmt%3D1435567329220173\u0026init=0-672,fps=30\u0026projection_type=1\u0026quality_label=240p\u0026clen=4288260\u0026index=242-911\u0026xtags=\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026size=426x240\u0026itag=242\u0026bitrate=270157\u0026lmt=1421042318259995\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D4288260%26source%3Dyoutube%26dur%3D198.498%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D557A3D6085FB5871FFE9258E8F1FE8F1993B7A49.16D2BB51D24C551EC0BE64E1AFC6102F0F25800A%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D242%26key%3Dyt6%26lmt%3D1421042318259995\u0026init=0-241,fps=15\u0026projection_type=1\u0026quality_label=144p\u0026clen=2706111\u0026index=671-1146\u0026xtags=\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d400c%22\u0026size=256x144\u0026itag=160\u0026bitrate=110648\u0026lmt=1435567333521949\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D2706111%26source%3Dyoutube%26dur%3D198.531%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D8F80E9CF39646FC6185268034F7A0604F304D266.66A45DB753B449154C7FD87C6F843F7C96771D6F%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D160%26key%3Dyt6%26lmt%3D1435567333521949\u0026init=0-670,fps=15\u0026projection_type=1\u0026quality_label=144p\u0026clen=2153051\u0026index=242-910\u0026xtags=\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026size=256x144\u0026itag=278\u0026bitrate=105604\u0026lmt=1421042412198781\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D2153051%26source%3Dyoutube%26dur%3D198.465%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Dvideo%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D60B3CAF98D9BE180A54EA9188EFD3B2AD421EE04.1AEDA80AA47BC99BA87FDAA11AD379EFABB3F1E0%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D278%26key%3Dyt6%26lmt%3D1421042412198781\u0026init=0-241,xtags=\u0026itag=140\u0026bitrate=127733\u0026clen=3155005\u0026index=592-863\u0026lmt=1435567315594648\u0026type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.2%22\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D3155005%26source%3Dyoutube%26dur%3D198.600%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Daudio%252Fmp4%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3DB5B00759B1AF48E848087C006FBDF5D2DFBB96.856442F733E12CB7498AF4F3FCF56508A654CA1C%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D140%26key%3Dyt6%26lmt%3D1435567315594648\u0026projection_type=1\u0026init=0-591,xtags=\u0026itag=171\u0026bitrate=139848\u0026clen=2882984\u0026index=4452-4788\u0026lmt=1421042177888392\u0026type=audio%2Fwebm%3B+codecs%3D%22vorbis%22\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D2882984%26source%3Dyoutube%26dur%3D198.544%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Daudio%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D21F3EEED1AFD97442AD3DD4638EEB2B051C3A844.539B5516EABA97FE71D3F4B3BFB730957666717D%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D171%26key%3Dyt6%26lmt%3D1421042177888392\u0026projection_type=1\u0026init=0-4451,xtags=\u0026itag=249\u0026bitrate=55192\u0026clen=1293656\u0026index=272-607\u0026lmt=1421042173834176\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D1293656%26source%3Dyoutube%26dur%3D198.561%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Daudio%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3DD753534FFFC24C458495801F0FA2415B5001F443.579B83E2CCE9B2D3BDAF43E52420B9F59C71F0C9%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D249%26key%3Dyt6%26lmt%3D1421042173834176\u0026projection_type=1\u0026init=0-271,xtags=\u0026itag=250\u0026bitrate=79655\u0026clen=1828745\u0026index=272-608\u0026lmt=1421042171162954\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D1828745%26source%3Dyoutube%26dur%3D198.561%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Daudio%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D0895446568B39968F667FE1AA609A2ABFFB3527F.3937F9801023E0B21544DCE130D85475E0396015%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D250%26key%3Dyt6%26lmt%3D1421042171162954\u0026projection_type=1\u0026init=0-271,xtags=\u0026itag=251\u0026bitrate=194133\u0026clen=4430357\u0026index=272-608\u0026lmt=1421042171240857\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr4---sn-jvm-vg4e.googlevideo.com%2Fvideoplayback%3Fsparams%3Dclen%252Cdur%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26clen%3D4430357%26source%3Dyoutube%26dur%3D198.561%26fexp%3D9405987%252C9406852%252C9416126%252C9416891%252C9422596%252C9427482%252C9428398%252C9429163%252C9431012%252C9431195%252C9431325%252C9431672%252C9431865%252C9432036%252C9432208%252C9432683%252C9433096%252C9433312%252C9433625%252C9433946%252C9433998%252C9434086%252C9434290%252C9434497%252C9435346%252C9435578%26expire%3D1461839272%26mv%3Du%26sver%3D3%26id%3Do-ACx1xn3Bc0W6SqPN8iJ6MwzLddS2hswtrcfoUmTKCOcA%26mime%3Daudio%252Fwebm%26pl%3D21%26mm%3D31%26mn%3Dsn-jvm-vg4e%26ipbits%3D0%26ip%3D128.82.4.244%26requiressl%3Dyes%26ms%3Dau%26mt%3D1461817572%26gir%3Dyes%26signature%3D6F185E1468073ED97102CAD5E1DE2F766F31BF30.4652372849286F376E2A886F16FEB1E51E2C2820%26upn%3DwN2x3hvvZB8%26keepalive%3Dyes%26itag%3D251%26key%3Dyt6%26lmt%3D1421042171240857\u0026projection_type=1\u0026init=0-271","watermark":",https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_watermark-vflHX6b6E.png,https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_hd_watermark-vflAzLcD6.png","apply_fade_on_midrolls":true,"dbp":"ChwKFnl6UXFrM2xHLTBoVVprUEJybEh3SHcQASABEAEYAg","ldpj":"-4","innertube_api_version":"v1","vid":"WBGJLC6l0nM","ucid":"UC1dzkIaMDJzv3ZuS0DdEWoA","remarketing_url":"https:\/\/googleads.g.doubleclick.net\/pagead\/viewthroughconversion\/962985656\/?backend=innertube\u0026cname=1\u0026cver=1_20160427\u0026data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D1_20160427%3Bptype%3Dview%3Btype%3Dview%3Butuid%3D1dzkIaMDJzv3ZuS0DdEWoA%3Butvid%3DWBGJLC6l0nM\u0026foc_id=1dzkIaMDJzv3ZuS0DdEWoA\u0026label=followon_view\u0026ptype=view","fexp":"9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433946,9433998,9434086,9434290,9434497,9435346,9435578","ad_slots":"0","apiary_host":"","itct":"CAMQu2kiEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0=","ad3_module":"1","mpvid":"SX4fhozawz_i1rfJ","view_count":"60718","iv_load_policy":"1","feature":"youtu.be","pltype":"content","instream_long":false,"loaderUrl":"https:\/\/www.youtube.com\/watch?v=WBGJLC6l0nM\u0026feature=youtu.be\u0026a=","no_get_video_log":"1","c":"WEB","pla":true,"videostats_playback_base_url":"https:\/\/s.youtube.com\/api\/stats\/playback?ns=yt\u0026sdetail=f%3Ayoutu.be%2C\u0026ei=SJEhV6vNHYic-wWm053IDg\u0026el=detailpage\u0026fexp=9405987%2C9406852%2C9416126%2C9416891%2C9422596%2C9427482%2C9428398%2C9429163%2C9431012%2C9431195%2C9431325%2C9431672%2C9431865%2C9432036%2C9432208%2C9432683%2C9433096%2C9433312%2C9433625%2C9433946%2C9433998%2C9434086%2C9434290%2C9434497%2C9435346%2C9435578\u0026docid=WBGJLC6l0nM\u0026of=yzQqk3lG-0hUZkPBrlHwHw\u0026plid=AAUxg_MZPjZSWFbD\u0026vm=CAEQAQ\u0026len=199\u0026cl=120940785\u0026feature=youtu.be","cafe_experiment_id":"74420275,64530192","afv_ad_tag":"https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=skippablevideo_standardvideo_bumpervideo\u0026channel=Vertical_122%2BVertical_1560%2BVertical_71%2BVertical_911%2BVertical_913%2Bafv_instream%2Bafv_instream_us%2Bafv_user_id_1dzkIaMDJzv3ZuS0DdEWoA%2Bafv_user_ladyrosie1983%2Bivpypp%2Byt_bumpers%2Byt_cid_374162%2Byt_gp%2Byt_mabv%2Byt_mpvid_SX4fhozawz_i1rfJ%2Byt_no_360%2Byt_no_ap%2Bytdevice_1%2Bytdevicever_1.20160427%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FWBGJLC6l0nM\u0026eid=74420275,64530192\u0026hl=en\u0026host=ca-host-pub-8885396211526337\u0026ht_id=4900614\u0026loeid=9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578\u0026max_ad_duration=15000\u0026osd=2\u0026sdki=8003C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FWBGJLC6l0nM\u0026video_cpm=6000000\u0026v_p=DTH-ez8%3D\u0026ytdevice=1\u0026ytdevicever=1.20160427\u0026yt_pt=APb3F2_yEgZBHCTzbtxDeFu0Niv_hsNBdCLOSL9zvY74Uk12mgpK9JVXEGaQhcWLxFbetAW9l_BZ98BF3LGi7P01AvCb3sr2NenvjdrztGeUQNZTxQFUEHYeZ7yDHrKxxinJw64GCkzFdXzs5U5zYSZ-qLDI4advVj3O8EoVHDMV5eWfGnmcawhwxCXAq7nfTqiVVpwGZ-Tdg3o-FRwsyXcugg6vuYuXQLhoUsuqdsvutRZqxuWpsPOejWi7scEd56guWS9u--VAqykbmrpJV7BZsG4TXEHc53CyV0CXuQ\u0026yt_vis=31","iv_invideo_url":"https:\/\/www.youtube.com\/annotations_invideo?cap_hist=1\u0026video_id=WBGJLC6l0nM","ssl":"1","atc":"a=3\u0026b=bsXkzTtvzRaTNGQRyPF1j77Sb5E\u0026c=1461817672\u0026d=1\u0026e=WBGJLC6l0nM\u0026c3a=17\u0026c1a=1\u0026c6a=1\u0026hh=EZ2exY-8okyX5bpOi6pUgXPWi4M","eventid":"SJEhV6vNHYic-wWm053IDg","pyv_ad_channel":"PyvWatchInRelated+PyvWatchNoAdX+PyvYTWatch+YtLoPri+afv_user_id_1dzkIaMDJzv3ZuS0DdEWoA+afv_user_ladyrosie1983+ivpypp+non_lpw+pw+yt_cid_374162+yt_gp+yt_mpvid_SX4fhozawz_i1rfJ+yt_no_360+yt_no_ap+ytdevice_1+ytdevicever_1.20160427","cver":"1.20160427","hl":"en_US","length_seconds":"199","plid":"AAUxg_MZPjZSWFbD","title":"Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes","fade_in_duration_milliseconds":"1000","core_dbp":"ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ","apiary_host_firstparty":"","dclk":true,"ptk":"ladyrosie1983%2Buser","midroll_freqcap":"420.0","gut_tag":"\/4061\/ytpwatch","sdetail":"f:youtu.be,","midroll_prefetch_size":"1","innertube_api_key":"AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8","keywords":"I Heart Recipes,iheartrecipes,i heart recipe,cooking,food,recipes,how to cook,DIY,Chipotle Mexican Grill (Business Operation),chicken,steak,burrito,bowl,recipe,Chipotle (Food),Do It Yourself (Hobby),Chipotle Chicken Bowl,Chipotle burrito,how to make,copycat,easy,simple,Cook,Kitchen,chicken bowl,Low Sodium Diet (Diet),low fat,chicken recipe","excluded_ads":"59=14_14;65=15_2,15_2_1,15_2_4","ad_logging_flag":"1","tmi":"1","author":"I Heart Recipes","afv_ad_tag_restricted_to_instream":"https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=skippablevideo_standardvideo_bumpervideo\u0026channel=Vertical_122%2BVertical_1560%2BVertical_71%2BVertical_911%2BVertical_913%2Bafv_instream%2Bafv_instream_us%2Bafv_user_id_1dzkIaMDJzv3ZuS0DdEWoA%2Bafv_user_ladyrosie1983%2Bivpypp%2Byt_bumpers%2Byt_cid_374162%2Byt_gp%2Byt_mabv%2Byt_mpvid_SX4fhozawz_i1rfJ%2Byt_no_360%2Byt_no_ap%2Bytdevice_1%2Bytdevicever_1.20160427%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FWBGJLC6l0nM\u0026eid=74420275,64530192\u0026hl=en\u0026host=ca-host-pub-8885396211526337\u0026ht_id=4900614\u0026loeid=9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578\u0026max_ad_duration=15000\u0026osd=2\u0026sdki=8003C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FWBGJLC6l0nM\u0026video_cpm=6000000\u0026v_p=DTH-ez8%3D\u0026ytdevice=1\u0026ytdevicever=1.20160427\u0026yt_pt=APb3F2_yEgZBHCTzbtxDeFu0Niv_hsNBdCLOSL9zvY74Uk12mgpK9JVXEGaQhcWLxFbetAW9l_BZ98BF3LGi7P01AvCb3sr2NenvjdrztGeUQNZTxQFUEHYeZ7yDHrKxxinJw64GCkzFdXzs5U5zYSZ-qLDI4advVj3O8EoVHDMV5eWfGnmcawhwxCXAq7nfTqiVVpwGZ-Tdg3o-FRwsyXcugg6vuYuXQLhoUsuqdsvutRZqxuWpsPOejWi7scEd56guWS9u--VAqykbmrpJV7BZsG4TXEHc53CyV0CXuQ\u0026yt_vis=31","afv":true,"afv_invideo_ad_tag":"https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=text_image_flash\u0026channel=Vertical_122%2BVertical_1560%2BVertical_71%2BVertical_911%2BVertical_913%2Bafv_overlay%2Bafv_user_id_1dzkIaMDJzv3ZuS0DdEWoA%2Bafv_user_ladyrosie1983%2Binvideo_overlay_480x70_cat26%2Bivpypp%2Byt_cid_374162%2Byt_gp%2Byt_mabv%2Byt_mpvid_SX4fhozawz_i1rfJ%2Byt_no_360%2Byt_no_ap%2Bytdevice_1%2Bytdevicever_1.20160427%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FWBGJLC6l0nM\u0026eid=74420275,64530192\u0026hl=en\u0026host=ca-host-pub-8885396211526337\u0026ht_id=4900614\u0026loeid=9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578\u0026osd=2\u0026sdki=8003C05\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FWBGJLC6l0nM\u0026v_p=DTH-ez8%3D\u0026ytdevice=1\u0026ytdevicever=1.20160427\u0026yt_pt=APb3F2_yEgZBHCTzbtxDeFu0Niv_hsNBdCLOSL9zvY74Uk12mgpK9JVXEGaQhcWLxFbetAW9l_BZ98BF3LGi7P01AvCb3sr2NenvjdrztGeUQNZTxQFUEHYeZ7yDHrKxxinJw64GCkzFdXzs5U5zYSZ-qLDI4advVj3O8EoVHDMV5eWfGnmcawhwxCXAq7nfTqiVVpwGZ-Tdg3o-FRwsyXcugg6vuYuXQLhoUsuqdsvutRZqxuWpsPOejWi7scEd56guWS9u--VAqykbmrpJV7BZsG4TXEHc53CyV0CXuQ\u0026yt_vis=31","gapi_hint_params":"m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.oVMKCZSUkzc.O\/m=__features__\/rt=j\/d=1\/rs=AHpOoo-diW2z34601i9eG0Nx2FzzG4t8QA","baseUrl":"https:\/\/googleads.g.doubleclick.net\/pagead\/viewthroughconversion\/962985656\/","ad_device":"1","account_playback_token":"QUFFLUhqazVVem5LOTNKcnUzX1l6OHM5WGVvV1J0cEw1UXxBQ3Jtc0tsZnBEdkhoaGI3UndJUFVGTGE4ZkdFalB2RThvbnVVVlV2Y2VxVVEtWEk2RnpYaVpGWnUxeGgwOW0zZVFmOW1icE9GcXYtWXk2WVphZkZXWkZsME9XQlNCSFl6WUhYbm55ZU5hRWRFakYtY0IzSkZ5TQ==","video_id":"WBGJLC6l0nM"},"url":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflFOfQaP\/watch_as3.swf","url_v9as2":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflFOfQaP\/cps.swf"};ytplayer.load = function() {yt.player.Application.create("player-api", ytplayer.config);ytplayer.config.loaded = true;};(function() {if (!!window.yt && yt.player && yt.player.Application) {ytplayer.load();}}());</script>
+
+
+    <div id="watch-queue-mole" class="video-mole mole-collapsed hid"><div id="watch-queue" class="watch-playlist player-height"><div class="main-content"><div class="watch-queue-header"><div class="watch-queue-info"><div class="watch-queue-info-icon"><span class="tv-queue-list-icon yt-sprite"></span></div><h3 class="watch-queue-title">Watch Queue</h3><h3 class="tv-queue-title">Queue</h3><span class="tv-queue-details"></span></div><div class="watch-queue-control-bar control-bar-button"><div class="watch-queue-mole-info"><div class="watch-queue-control-bar-icon"><span class="watch-queue-icon yt-sprite"></span></div><div class="watch-queue-title-container"><span class="watch-queue-count"></span><span class="watch-queue-title">Watch Queue</span><span class="tv-queue-title">Queue</span></div></div>  <span class="dark-overflow-action-menu">
+    
+    
+    <button aria-label="Actions for the queue" aria-haspopup="true" type="button" class="flip control-bar-button yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty" onclick=";return false;" aria-expanded="false" ><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid" role="menu" aria-haspopup="true"><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" data-action="remove-all" >Remove all</span></li><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" data-action="disconnect" >Disconnect</span></li></ul></button>
+  </span>
+  <div class="watch-queue-controls">
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button prev-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Previous video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-prev yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button play-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Play"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-play yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button pause-watch-queue-button yt-uix-button-opacity yt-uix-tooltip hid yt-uix-tooltip" type="button" onclick=";return false;" title="Pause"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-pause yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button next-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Next video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-next yt-sprite"></span></span></button>
+  </div>
+</div></div><div class="watch-queue-items-container yt-scrollbar-dark yt-scrollbar"><ol class="watch-queue-items-list playlist-videos-list yt-uix-scroller" data-scroll-action="yt.www.watchqueue.loadThumbnails">  <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+</ol></div></div>  <div class="hid">
+    <div id="watch-queue-title-msg">
+Watch Queue
+    </div>
+
+    <div id="tv-queue-title-msg">Queue</div>
+
+    <div id="watch-queue-count-msg">
+__count__/__total__
+    </div>
+
+    <div id="watch-queue-loading-template">
+      <!--
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+      -->
+    </div>
+  </div>
+</div></div>
+    <div id="player-playlist" class="  content-alignment    watch-player-playlist  ">
+          
+
+    </div>
+
+  </div>
+
+  <div class="clear"></div>
+</div><div id="content" class="  content-alignment" role="main">      <div id="placeholder-player">
+    <div class="player-api player-width player-height"></div>
+  </div>
+
+  <div id="watch7-container" class="">
+      <div id="watch7-main-container">
+    <div id="watch7-main" class="clearfix">
+      <div id="watch7-preview" class="player-width player-height hid">
+      </div>
+      <div id="watch7-content" class="watch-main-col " itemscope itemid="" itemtype="http://schema.org/VideoObject"
+      >
+            <link itemprop="url" href="https://www.youtube.com/watch?v=WBGJLC6l0nM">
+    <meta itemprop="name" content="Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes">
+    <meta itemprop="description" content="SUBSCRIBE IT&#39;S FREE! http://goo.gl/uE0vOi Easy recipe and cooking tutorial on how to make a Chipotle Mexican Grill Chicken Burrito Bowl. You can use the same...">
+    <meta itemprop="paid" content="False">
+
+      <meta itemprop="channelId" content="UC1dzkIaMDJzv3ZuS0DdEWoA">
+      <meta itemprop="videoId" content="WBGJLC6l0nM">
+
+      <meta itemprop="duration" content="PT3M19S">
+      <meta itemprop="unlisted" content="False">
+
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="http://www.youtube.com/user/ladyrosie1983">
+        </span>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="https://plus.google.com/113518691477990129726">
+        </span>
+
+    <link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/WBGJLC6l0nM/hqdefault.jpg">
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+      <link itemprop="url" href="https://i.ytimg.com/vi/WBGJLC6l0nM/hqdefault.jpg">
+      <meta itemprop="width" content="480">
+      <meta itemprop="height" content="360">
+    </span>
+
+      <link itemprop="embedURL" href="https://www.youtube.com/embed/WBGJLC6l0nM">
+      <meta itemprop="playerType" content="HTML5 Flash">
+      <meta itemprop="width" content="1280">
+      <meta itemprop="height" content="720">
+
+      <meta itemprop="isFamilyFriendly" content="True">
+      <meta itemprop="regionsAllowed" content="AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW">
+      <meta itemprop="interactionCount" content="60718">
+      <meta itemprop="datePublished" content="2015-01-11">
+      <meta itemprop="genre" content="Howto &amp; Style">
+
+              <div id="watch7-speedyg-area">
+      <div class="yt-alert yt-alert-actionable yt-alert-info hid " id="speedyg-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message">
+    </div>
+</div><div class="yt-alert-buttons"><a href="https://www.google.com/get/videoqualityreport/?v=WBGJLC6l0nM" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-alert-info yt-uix-button-size-small" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" id="speedyg-link" target="_blank"><span class="yt-uix-button-content">Find out why</span></a><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Close" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Close</span></button></div></div>
+    </div>
+
+        <div id="watch-header" class="yt-card yt-card-has-padding">
+      <div id="watch7-headline" class="clearfix">
+    <div id="watch-headline-title">
+      <h1 class="yt watch-title-container" >
+        
+
+  <span id="eow-title" class="watch-title " dir="ltr" title="Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes">
+    Chipotle Mexican Grill Chicken Burrito Bowl - I Heart Recipes
+  </span>
+
+      </h1>
+    </div>
+  </div>
+
+    <div id="watch7-user-header" class=" spf-link ">  <a href="/user/ladyrosie1983" class="yt-uix-sessionlink yt-user-photo g-hovercard      spf-link " data-sessionlink="itct=CDEQ4TkiEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0" data-ytid="UC1dzkIaMDJzv3ZuS0DdEWoA">
+      <span class="video-thumb  yt-thumb yt-thumb-48 g-hovercard"
+      data-ytid="UC1dzkIaMDJzv3ZuS0DdEWoA"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+          <img data-thumb="https://yt3.ggpht.com/-1gTOVl9lNHE/AAAAAAAAAAI/AAAAAAAAAAA/kdeGqXmb85g/s88-c-k-no-rj-c0xffffff/photo.jpg" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="48" height="48" alt="I Heart Recipes" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+
+  </a>
+  <div class="yt-user-info">
+    <a href="/channel/UC1dzkIaMDJzv3ZuS0DdEWoA" class="yt-uix-sessionlink g-hovercard      spf-link " data-sessionlink="itct=CDEQ4TkiEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0" data-ytid="UC1dzkIaMDJzv3ZuS0DdEWoA" >I Heart Recipes</a>
+       
+      <span data-tooltip-text="Verified" class="yt-channel-title-icon-verified yt-uix-tooltip yt-sprite" aria-label="Verified"></span>
+  </div>
+<span id="watch7-subscription-container"><span class=" yt-uix-button-subscription-container"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-subscribe-branded yt-uix-button-has-icon no-icon-markup yt-uix-subscription-button yt-can-buffer" type="button" onclick=";return false;" aria-live="polite" aria-busy="false" data-clicktracking="itct=CDIQmysiEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yBXdhdGNo" data-style-type="branded" data-href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;hl=en&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Den%26action_handle_signin%3Dtrue%26next%3D%252Fchannel%252FUC1dzkIaMDJzv3ZuS0DdEWoA%26app%3Ddesktop%26feature%3Dsubscribe%26continue_action%3DQUFFLUhqblZJMUN1b3pKQmYxYWg5ajBiX2I5b3Nzemo1d3xBQ3Jtc0trZEcwRk9iSjRtc2RvNXhSdVp1UnR0eE9lSWU4UjdzbG4yNDk5Q0tCSE5NaDEtNTVQb1lBYjdacVdZYnJfRS1DX0RvSWpNN2diTzFhQVdyVjNHVG1PNEFicjgwdGFCNkpqTFdWcUZfLUJ0Yml5YzRGWER4UGpFQTZGMkxrRDhqNnpCbjBxZVZRdzEwWmkzU05xc2FNRHBzckhLMXNIVElocEgtR19uQmdoNG5odG9jbk9sT3hscHZGNzlPZUVibUJiSFUtZlpqVnFjYU5GMU9sNDJoajRJbDJ6LU93&amp;passive=true" data-channel-external-id="UC1dzkIaMDJzv3ZuS0DdEWoA"><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span></span></button><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon yt-uix-subscription-preferences-button" type="button" onclick=";return false;" aria-live="polite" aria-role="button" aria-label="Subscription preferences" aria-busy="false" data-channel-external-id="UC1dzkIaMDJzv3ZuS0DdEWoA"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-subscription-preferences yt-sprite"></span></span></button><span class="yt-subscription-button-subscriber-count-branded-horizontal yt-subscriber-count" title="184,996" aria-label="184,996" tabindex="0">184,996</span><span class="yt-subscription-button-subscriber-count-branded-horizontal yt-short-subscriber-count" title="184K" aria-label="184K" tabindex="0">184K</span>  
+  <div class="yt-uix-overlay "  data-overlay-style="primary" data-overlay-shape="tiny">
+    
+        <div class="yt-dialog hid ">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="subscription-preferences-overlay-content-container">
+    <div class="subscription-preferences-overlay-loading ">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+    <div class="subscription-preferences-overlay-content">
+    </div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+        Working...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+</span></span></div>
+    <div id="watch8-action-buttons" class="watch-action-buttons clearfix"><div id="watch8-secondary-actions" class="watch-secondary-actions yt-uix-button-group" data-button-toggle-group="optional">    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup yt-uix-clickcard-target addto-button pause-resume-autoplay yt-uix-tooltip" type="button" onclick=";return false;" title="Add to" data-orientation="vertical" data-position="bottomleft"><span class="yt-uix-button-content">Add to</span></button>
+        <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Want to watch this again later?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to add this video to a playlist.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;hl=en&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26hl%3Den%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DWBGJLC6l0nM%2526feature%253Dyoutu.be%2526a%253D%26app%3Ddesktop&amp;passive=true" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+    </span>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay action-panel-trigger action-panel-trigger-share   yt-uix-tooltip" type="button" onclick=";return false;" title="Share
+" data-trigger-for="action-panel-share" data-button-toggle="true"><span class="yt-uix-button-content">Share
+</span></button>
+<div class="yt-uix-menu " >  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay yt-uix-menu-trigger yt-uix-tooltip" type="button" onclick=";return false;" id="action-panel-overflow-button" aria-pressed="false" role="button" aria-haspopup="true" title="More actions" aria-label="Action menu."><span class="yt-uix-button-content">More</span></button>
+<div class="yt-uix-menu-content yt-ui-menu-content yt-uix-menu-content-hidden" role="menu"><ul id="action-panel-overflow-menu">  <li>
+      <span class="yt-uix-clickcard" data-card-class=report-card>
+          <button type="button" class="yt-ui-menu-item has-icon action-panel-trigger action-panel-trigger-report report-button yt-uix-clickcard-target"
+ data-orientation="horizontal" data-position="topright">
+    <span class="yt-ui-menu-item-label">Report</span>
+  </button>
+
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Need to report the video?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to report inappropriate content.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;hl=en&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26hl%3Den%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DWBGJLC6l0nM%2526feature%253Dyoutu.be%2526a%253D%26app%3Ddesktop&amp;passive=true" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+      </span>
+  </li>
+  <li>
+        <button type="button" class="yt-ui-menu-item has-icon yt-uix-menu-close-on-select action-panel-trigger action-panel-trigger-stats"
+ data-trigger-for="action-panel-stats">
+    <span class="yt-ui-menu-item-label">Statistics</span>
+  </button>
+
+  </li>
+</ul></div></div></div><div id="watch8-sentiment-actions"><div id="watch7-views-info"><div class="watch-view-count">60,718</div>
+  <div class="video-extras-sparkbars">
+    <div class="video-extras-sparkbar-likes" style="width: 98.7814363495%"></div>
+    <div class="video-extras-sparkbar-dislikes" style="width: 1.21856365051%"></div>
+  </div>
+</div>
+
+
+
+
+
+  <span class="like-button-renderer " data-button-toggle-group="optional" >
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" title="I like this" aria-label="like this video along with 3,810 other people" data-position="bottomright" data-orientation="vertical" data-force-position="true"><span class="yt-uix-button-content">3,810</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Like this video?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to make your opinion count.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;hl=en&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26hl%3Den%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DWBGJLC6l0nM%2526feature%253Dyoutu.be%2526a%253D%26app%3Ddesktop&amp;passive=true" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" title="Unlike" aria-label="like this video along with 3,810 other people" data-position="bottomright" data-orientation="vertical" data-force-position="true"><span class="yt-uix-button-content">3,811</span></button>
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" title="I dislike this" aria-label="dislike this video along with 47 other people" data-position="bottomright" data-orientation="vertical" data-force-position="true"><span class="yt-uix-button-content">47</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Don't like this video?</h3>
+    <div class="signin-clickcard-message">
+      Sign in to make your opinion count.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;hl=en&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26hl%3Den%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DWBGJLC6l0nM%2526feature%253Dyoutu.be%2526a%253D%26app%3Ddesktop&amp;passive=true" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg"><span class="yt-uix-button-content">Sign in</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" title="I dislike this" aria-label="dislike this video along with 47 other people" data-position="bottomright" data-orientation="vertical" data-force-position="true"><span class="yt-uix-button-content">48</span></button>
+    </span>
+  </span>
+</div></div>
+  </div>
+
+
+
+      <div id="watch-action-panels" class="watch-action-panels yt-uix-button-panel hid yt-card yt-card-has-padding">
+      <div id="action-panel-share" class="action-panel-content hid">
+      <div id="watch-actions-share-loading">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="watch-actions-share-panel"></div>
+
+  </div>
+
+      <div id="action-panel-stats" class="action-panel-content hid">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-report" class="action-panel-content hid"
+      data-auth-required="true"
+  >
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+    
+  <div id="action-panel-rental-required" class="action-panel-content hid">
+      <div id="watch-actions-rental-required">
+    <strong>Rating is available when the video has been rented.</strong>
+  </div>
+
+  </div>
+
+  <div id="action-panel-error" class="action-panel-content hid">
+    <div class="action-panel-error">
+      This feature is not available right now. Please try again later.
+    </div>
+  </div>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup yt-uix-button-opacity yt-uix-close" type="button" onclick=";return false;" id="action-panel-dismiss" aria-label="Close" data-close-parent-id="watch8-action-panels"></button>
+  </div>
+
+  <div id="action-panel-details" class="action-panel-content yt-uix-expander yt-card yt-card-has-padding yt-uix-expander-collapsed"><div id="watch-description" class="yt-uix-button-panel"><div id="watch-description-content"><div id="watch-description-clip"><div id="watch-uploader-info"><strong class="watch-time-text">Published on Jan 11, 2015</strong></div><div id="watch-description-text" class=""><p id="eow-description" >SUBSCRIBE IT'S FREE! <a href="http://goo.gl/uE0vOi" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/uE0vOi" target="_blank" rel="nofollow">http://goo.gl/uE0vOi</a><br />Easy recipe and cooking tutorial on how to make a Chipotle Mexican Grill Chicken Burrito Bowl. You can use the same recipe that I used for the chicken for steak as well! This is a low sodium and low fat recipe that you can make with very few basic ingredients on hand. <br /><br />For the chicken I used a combination on boneless skinless chicken breast and thigh. I then marinate the chicken in a combination of lime and lemon juice along with olive oil,  and spices. I also use cilantro, onion, garlic, and sweet bell peppers to season the chicken.<br /><br />Be sure to refrigerate the chicken in the marinate for 2 hours prior to cooking!<br />Get the complete recipe here! <a href="http://www.iheartrecipes.com/diy-chipotle-mexican-grill-chicken-bowl-recipe/" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://www.iheartrecipes.com/diy-chipotle-mexican-grill-chicken-bowl-recipe/" target="_blank" rel="nofollow">http://www.iheartrecipes.com/diy-chip...</a><br /><br /><br />Check out these videos<br /><br />Spaghetti Recipe with Chunky Vegetable and Meat Sauce<br /><a href="http://goo.gl/N0z5EG" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/N0z5EG" target="_blank" rel="nofollow">http://goo.gl/N0z5EG</a><br /><br />Slow Cooked Barbecue Beef Back Ribs <a href="http://goo.gl/A9uUV3" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/A9uUV3" target="_blank" rel="nofollow">http://goo.gl/A9uUV3</a><br /><br />SouthWest Salsa Recipe  <a href="http://goo.gl/qsDrEX" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/qsDrEX" target="_blank" rel="nofollow">http://goo.gl/qsDrEX</a><br /><br />Follow me on these  SOCIAL MEDIA sites<br /><br />INSTAGRAM <a href="http://goo.gl/3KaQ6Y" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/3KaQ6Y" target="_blank" rel="nofollow">http://goo.gl/3KaQ6Y</a><br />FACEBOOK <a href="http://goo.gl/fznA5i" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/fznA5i" target="_blank" rel="nofollow">http://goo.gl/fznA5i</a><br />TWITTER <a href="http://goo.gl/Js9pkn" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/Js9pkn" target="_blank" rel="nofollow">http://goo.gl/Js9pkn</a><br />PINTEREST <a href="http://goo.gl/49P6Hd" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://goo.gl/49P6Hd" target="_blank" rel="nofollow">http://goo.gl/49P6Hd</a><br /><br /><br />Hey there, I'm Rosie - Welcome to my YouTube Cooking Channel. I love cooking, baking, and sharing my recipes. I'm a firm believer that cooking shouldn't be a chore, IT SHOULD BE FUN!!! Therefore, I'm here to share my fun, and easy recipes for everything including soul food favorites, old fashioned southern cuisine, restaurant copy cat recipes, and your favorite comfort foods. Feel free to browse through my recipe collection and also come visit at <a href="http://www.iheartrecipes.com" class="yt-uix-sessionlink  " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-url="http://www.iheartrecipes.com" target="_blank" rel="nofollow">http://www.iheartrecipes.com</a> to print out the recipes for FREE!</p></div>  <div id="watch-description-extras" >
+    <ul class="watch-extras-section">
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      Category
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li><a href="/channel/UC1vGae2Q3oT5MkhhfW8lwjg" class="yt-uix-sessionlink g-hovercard      spf-link " data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg" data-ytid="UC1vGae2Q3oT5MkhhfW8lwjg" >Howto &amp; Style</a></li>
+    </ul>
+  </li>
+
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      License
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li>Standard YouTube License</li>
+    </ul>
+  </li>
+
+    </ul>
+  </div>
+</div></div></div>  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-collapsed-body yt-uix-gen204" type="button" onclick=";return false;" data-gen204="feature=watch-show-more-metadata"><span class="yt-uix-button-content">Show more</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-body" type="button" onclick=";return false;"><span class="yt-uix-button-content">Show less</span></button>
+</div>
+
+        <div id="watch-discussion" class="branded-page-box yt-card">
+      <div id="comment-section-renderer"
+          class="comment-section-renderer vve-check"
+          data-visibility-tracking="CC0Quy8iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0=">
+          <div class="action-panel-loading">
+              <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+          </div>
+      </div>
+  </div>
+
+
+      </div>
+      <div id="watch7-sidebar" class="watch-sidebar">
+            <div id="placeholder-playlist" class="watch-playlist player-height  hid"></div>
+
+
+  <div id="watch7-sidebar-contents" class="watch-sidebar-gutter   yt-card yt-card-has-padding    yt-uix-expander yt-uix-expander-collapsed">
+      <div id="watch7-sidebar-offer">
+        
+      </div>
+
+    <div id="watch7-sidebar-ads">
+              <div id="watch-channel-brand-div" class="" >
+      <div id="watch-channel-brand-div-text">
+Advertisement
+      </div>
+      <div id="google_companion_ad_div">
+      </div>
+    </div>
+
+
+    </div>
+    <div id="watch7-sidebar-modules">
+          <div class="watch-sidebar-section">
+    <div class="autoplay-bar">
+      <div class="checkbox-on-off">
+       <label for="autoplay-checkbox">Autoplay</label>
+       <span class="autoplay-hovercard yt-uix-hovercard">
+          <span class="autoplay-info-icon yt-uix-button-opacity yt-uix-hovercard-target yt-sprite" data-orientation="vertical" data-position="topright"></span>
+<span class="yt-uix-hovercard-content">When autoplay is enabled, a suggested video will automatically play next.</span>        </span>
+          <span class="yt-uix-checkbox-on-off ">
+<input id="autoplay-checkbox" class="" type="checkbox"  checked><label for="autoplay-checkbox" id="autoplay-checkbox-label"><span class="checked"></span><span class="toggle"></span><span class="unchecked"></span></label>  </span>
+
+      </div>
+      <h4 class="watch-sidebar-head">
+          Up next
+      </h4>
+            <div class="watch-sidebar-body">
+      <ul class="video-list">
+        <li class="video-list-item related-list-item show-video-time">
+          
+
+    <div class="content-wrapper">
+    <a href="/watch?v=eW4uKH8081I" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBcQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHYXV0b25hdkjzpJf1wqXiiFg" title="Southern Fried Pork Chops - I Heart Recipes" rel="spf-prefetch" data-visibility-tracking="CBcQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDS5tP5h8WLt3k=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-754111">
+    Southern Fried Pork Chops - I Heart Recipes
+  </span>
+  <span class="accessible-description" id="description-id-754111">
+     - Duration: 1:56.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC1dzkIaMDJzv3ZuS0DdEWoA" data-name="autonav">I Heart Recipes</span></span>
+  <span class="stat view-count">20,370 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=eW4uKH8081I" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBcQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHYXV0b25hdkjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBcQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDS5tP5h8WLt3k=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="eW4uKH8081I"><img width="120" data-thumb="https://i.ytimg.com/vi/eW4uKH8081I/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=dr5n4w5VruhGZStqx_WEg9j8r-I" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      1:56
+    </span>
+
+  </div>
+
+
+        </li>
+      </ul>
+    </div>
+
+    </div>
+  </div>
+
+        
+          <div class="watch-sidebar-section">
+      <hr class="watch-sidebar-separation-line">
+    <div class="watch-sidebar-body">
+      <ul id="watch-related" class="video-list">
+            <li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=PNAm7z9gOzk" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCsQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="DIY Chipotle Burrito Bowl | HEALTHY LUNCH IDEAS" rel="spf-prefetch" data-visibility-tracking="CCsQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUC59oD7892J6Dw=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-970205">
+    DIY Chipotle Burrito Bowl | HEALTHY LUNCH IDEAS
+  </span>
+  <span class="accessible-description" id="description-id-970205">
+     - Duration: 4:50.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCkodM4DHUloJMgRjku7r_Vg" data-name="related">Fablunch</span></span>
+  <span class="stat view-count">155,044 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=PNAm7z9gOzk" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCsQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCsQpDAYACITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUC59oD7892J6Dw=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="PNAm7z9gOzk"><img width="120" data-thumb="https://i.ytimg.com/vi/PNAm7z9gOzk/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=meFcTuTBXNTdlnIA3tUKcpVd4hk" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      4:50
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Flu1x9eQ3EA" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCoQpDAYASITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="DIY Chipotle Burrito Bowl" rel="spf-prefetch" data-visibility-tracking="CCoQpDAYASITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDAuMO8_bjtrRY=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-271844">
+    DIY Chipotle Burrito Bowl
+  </span>
+  <span class="accessible-description" id="description-id-271844">
+     - Duration: 7:57.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC1dSkCUKbO6xZQU973ZcboA" data-name="related">Erica Fae</span></span>
+  <span class="stat view-count">174,317 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Flu1x9eQ3EA" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCoQpDAYASITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCoQpDAYASITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDAuMO8_bjtrRY=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="Flu1x9eQ3EA"><img width="120" data-thumb="https://i.ytimg.com/vi/Flu1x9eQ3EA/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=ZKfFzxQ8qfZCrz7YrCTEZUrLDxU" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      7:57
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=hE1VRZttF74" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCkQpDAYAiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="How To Make Chipotle Chicken Bowl" rel="spf-prefetch" data-visibility-tracking="CCkQpDAYAiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUC-r7Tb2ajVpoQB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-900614">
+    How To Make Chipotle Chicken Bowl
+  </span>
+  <span class="accessible-description" id="description-id-900614">
+     - Duration: 25:01.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCYYF1Wr40hFrURtZBRIP3hw" data-name="related">Darius Williams</span></span>
+  <span class="stat view-count">29,873 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=hE1VRZttF74" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCkQpDAYAiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCkQpDAYAiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUC-r7Tb2ajVpoQB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="hE1VRZttF74"><img width="120" data-thumb="https://i.ytimg.com/vi/hE1VRZttF74/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=gWucmzOefIIzfQFPLtTM2G1DFgg" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      25:01
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=_8ufl3Prlvs" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCgQpDAYAyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="CopyCat Homemade Chipotle Chicken Bowl Recipe" rel="spf-prefetch" data-visibility-tracking="CCgQpDAYAyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUD7ra6f9_Ln5f8B" >
+  <span dir="ltr" class="title" aria-describedby="description-id-502712">
+    CopyCat Homemade Chipotle Chicken Bowl Recipe
+  </span>
+  <span class="accessible-description" id="description-id-502712">
+     - Duration: 8:29.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCO3y8ITWEGdqQ7exnP10wZQ" data-name="related">Diary of a Fit Mommy</span></span>
+  <span class="stat view-count">40,245 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=_8ufl3Prlvs" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCgQpDAYAyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCgQpDAYAyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUD7ra6f9_Ln5f8B" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="_8ufl3Prlvs"><img width="120" data-thumb="https://i.ytimg.com/vi/_8ufl3Prlvs/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=BJY-72v_SzBdKZtjGu8QK-RYfJk" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      8:29
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=T3sa5TsOS9w" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCcQpDAYBCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Official Chipotle Chicken Recipe! Quick &amp; Easy!" rel="spf-prefetch" data-visibility-tracking="CCcQpDAYBCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDcl7nY09zGvU8=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-358772">
+    Official Chipotle Chicken Recipe! Quick &amp; Easy!
+  </span>
+  <span class="accessible-description" id="description-id-358772">
+     - Duration: 4:09.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCNo8jNrTqWM6omaKsZ4GPZQ" data-name="related">Christian DaSilva</span></span>
+  <span class="stat view-count">73,654 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=T3sa5TsOS9w" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCcQpDAYBCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCcQpDAYBCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDcl7nY09zGvU8=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="T3sa5TsOS9w"><img width="120" data-thumb="https://i.ytimg.com/vi/T3sa5TsOS9w/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=DHq-eZySWxWft9-Fmk9ficCLWIM" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      4:09
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=ORAl9rNpCws" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCYQpDAYBSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Chipotle style burrito bowl | Veggie burrito bowl" rel="spf-prefetch" data-visibility-tracking="CCYQpDAYBSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCLlqSb676JiDk=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-184935">
+    Chipotle style burrito bowl | Veggie burrito bowl
+  </span>
+  <span class="accessible-description" id="description-id-184935">
+     - Duration: 11:23.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCXtznW6FkEg6goiHnsH_Dqw" data-name="related">Crazy4veggie</span></span>
+  <span class="stat view-count">43,705 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=ORAl9rNpCws" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCYQpDAYBSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCYQpDAYBSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCLlqSb676JiDk=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="ORAl9rNpCws"><img width="120" data-thumb="https://i.ytimg.com/vi/ORAl9rNpCws/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=5E_txi4CyIrUAs7_BXSL6zOWaCc" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      11:23
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=JMo0kz6ndUo" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCUQpDAYBiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Chipotle&#39;s Burrito - How To Make Every Part and Cilantro Lime Rice - Finale!" rel="spf-prefetch" data-visibility-tracking="CCUQpDAYBiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDK6p31s5KN5SQ=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-431168">
+    Chipotle&#39;s Burrito - How To Make Every Part and Cilantro Lime Rice - Finale!
+  </span>
+  <span class="accessible-description" id="description-id-431168">
+     - Duration: 9:18.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCzH5n3Ih5kgQoiDAQt2FwLw" data-name="related">Brothers Green Eats</span></span>
+  <span class="stat view-count">493,519 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=JMo0kz6ndUo" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCUQpDAYBiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCUQpDAYBiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDK6p31s5KN5SQ=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="JMo0kz6ndUo"><img width="120" data-thumb="https://i.ytimg.com/vi/JMo0kz6ndUo/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=5bwSFgxwGzf1tvXIvtKQ019SihY" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      9:18
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=7h70U1m5hFg" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCQQpDAYByITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Chipotle Bean Burrito Recipe" rel="spf-prefetch" data-visibility-tracking="CCQQpDAYByITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDYiObNtYq9j-4B" >
+  <span dir="ltr" class="title" aria-describedby="description-id-264419">
+    Chipotle Bean Burrito Recipe
+  </span>
+  <span class="accessible-description" id="description-id-264419">
+     - Duration: 2:25.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCBsi0gbfoSsuczN8rUM5P2Q" data-name="related">MyRecipes.com</span></span>
+  <span class="stat view-count">161,034 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=7h70U1m5hFg" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCQQpDAYByITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCQQpDAYByITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDYiObNtYq9j-4B" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="7h70U1m5hFg"><img width="120" data-thumb="https://i.ytimg.com/vi/7h70U1m5hFg/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=O1lMMDhoGVPfGD92EZe5Hygo2I8" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      2:25
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=amq_KoLeihY" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCMQpDAYCCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="How to Get a Huge Chipotle Bowl for under $10" rel="spf-prefetch" data-visibility-tracking="CCMQpDAYCCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCWlPqWqOWvtWo=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-537238">
+    How to Get a Huge Chipotle Bowl for under $10
+  </span>
+  <span class="accessible-description" id="description-id-537238">
+     - Duration: 2:22.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCVC03DYW6puuDJqQrzfZrwg" data-name="related">Big Mo</span></span>
+  <span class="stat view-count">353,388 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=amq_KoLeihY" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCMQpDAYCCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCMQpDAYCCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCWlPqWqOWvtWo=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="amq_KoLeihY"><img width="120" data-thumb="https://i.ytimg.com/vi/amq_KoLeihY/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=C3PLheFRHlOnJsXn0oEhNT_psD4" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      2:22
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=MeRBIfc1uzQ" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCIQpDAYCSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Chipotle Mexican Grill Sofritas Review" rel="spf-prefetch" data-visibility-tracking="CCIQpDAYCSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUC09ta5n6SQ8jE=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-492133">
+    Chipotle Mexican Grill Sofritas Review
+  </span>
+  <span class="accessible-description" id="description-id-492133">
+     - Duration: 3:44.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCQyktfhxjr81ZKTQ76RYo9Q" data-name="related">Greeneyedcook</span></span>
+  <span class="stat view-count">2,767 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=MeRBIfc1uzQ" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCIQpDAYCSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCIQpDAYCSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUC09ta5n6SQ8jE=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="MeRBIfc1uzQ"><img width="120" data-thumb="https://i.ytimg.com/vi/MeRBIfc1uzQ/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=aKfGMFtll4zQhnhTlIf3oDdiRHg" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      3:44
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=itjjOydIgKk" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCEQpDAYCiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Frozen Breakfast Burritos" rel="spf-prefetch" data-visibility-tracking="CCEQpDAYCiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCpgaK6sue47IoB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-448932">
+    Frozen Breakfast Burritos
+  </span>
+  <span class="accessible-description" id="description-id-448932">
+     - Duration: 1:12.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCJFp8uSYCjXOMnkUyb3CQ3Q" data-name="related">Tasty</span></span>
+  <span class="stat view-count">249,367 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=itjjOydIgKk" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCEQpDAYCiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCEQpDAYCiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCpgaK6sue47IoB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="itjjOydIgKk"><img width="120" data-thumb="https://i.ytimg.com/vi/itjjOydIgKk/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=dN4nZSLFIFsSX-_9urX5AbGJl08" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      1:12
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=uERmpNGgaJA" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CCAQpDAYCyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Behind the Counter: Inside Chipotle" rel="spf-prefetch" data-visibility-tracking="CCAQpDAYCyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCQ0YGNzdSZorgB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-6199">
+    Behind the Counter: Inside Chipotle
+  </span>
+  <span class="accessible-description" id="description-id-6199">
+     - Duration: 22:47.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCta6slH7Z68f1KbQi1KF8YA" data-name="related">Jiten Gogoi</span></span>
+  <span class="stat view-count">309,871 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=uERmpNGgaJA" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CCAQpDAYCyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCAQpDAYCyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCQ0YGNzdSZorgB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="uERmpNGgaJA"><img width="120" data-thumb="https://i.ytimg.com/vi/uERmpNGgaJA/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=q02sgFR65buI0kt0iUbNrMqX-FA" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      22:47
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=qfchrS2D_v4" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CB8QpDAYDCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="The Best Jamaican Jerk Chicken Recipe: Jamaican Jerk Chicken On The Grill" rel="spf-prefetch" data-visibility-tracking="CB8QpDAYDCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUD-_Y_s0rXI-6kB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-461657">
+    The Best Jamaican Jerk Chicken Recipe: Jamaican Jerk Chicken On The Grill
+  </span>
+  <span class="accessible-description" id="description-id-461657">
+     - Duration: 14:47.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCWUI9ikWFoTRkw5Z2G5u7fQ" data-name="related">PbjShow</span></span>
+  <span class="stat view-count">213,694 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=qfchrS2D_v4" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CB8QpDAYDCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB8QpDAYDCITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUD-_Y_s0rXI-6kB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="qfchrS2D_v4"><img width="120" data-thumb="https://i.ytimg.com/vi/qfchrS2D_v4/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=xZzqoX8IOs8ggGXkGNAANe3fa9Q" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      14:47
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=nqXz8hhAYGo" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CB4QpDAYDSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="FRIED POTATO BALLS - Tasty and Easy Food Recipes For Dinner to make at home" rel="spf-prefetch" data-visibility-tracking="CB4QpDAYDSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDqwIHCof780p4B" >
+  <span dir="ltr" class="title" aria-describedby="description-id-744041">
+    FRIED POTATO BALLS - Tasty and Easy Food Recipes For Dinner to make at home
+  </span>
+  <span class="accessible-description" id="description-id-744041">
+     - Duration: 2:18.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCN_mEa9cavDEBpiSs0q361A" data-name="related">Tasty and Easy Food Recipes</span></span>
+  <span class="stat view-count">1,201,762 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=nqXz8hhAYGo" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CB4QpDAYDSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB4QpDAYDSITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDqwIHCof780p4B" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="nqXz8hhAYGo"><img width="120" data-thumb="https://i.ytimg.com/vi/nqXz8hhAYGo/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=rEoOtwqJaGR2Ilt19kVgUpL_gW8" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      2:18
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Wi9jO4F9Gaw" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CB0QpDAYDiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIGcmVsbWZ1SPOkl_XCpeKIWA" title="Lasagna Recipe - How to make the best lasagna - I Heart Recipes" rel="spf-prefetch" data-visibility-tracking="CB0QpDAYDiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCss_SLuOfYl1o=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-266550">
+    Lasagna Recipe - How to make the best lasagna - I Heart Recipes
+  </span>
+  <span class="accessible-description" id="description-id-266550">
+     - Duration: 4:16.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC1dzkIaMDJzv3ZuS0DdEWoA" data-name="relmfu">I Heart Recipes</span></span>
+  <span class="stat view-count">77,075 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Wi9jO4F9Gaw" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CB0QpDAYDiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIGcmVsbWZ1SPOkl_XCpeKIWA" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB0QpDAYDiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCss_SLuOfYl1o=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="Wi9jO4F9Gaw"><img width="120" data-thumb="https://i.ytimg.com/vi/Wi9jO4F9Gaw/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=Hx6_blfZipEzEOjJeCjMJPBa-vU" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      4:16
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=6iK179ajQzE" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBwQpDAYDyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Chipotle Mexican Grill Salad Copycat Recipe | $5 Dinner" rel="spf-prefetch" data-visibility-tracking="CBwQpDAYDyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCxho21_b2tkeoB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-996382">
+    Chipotle Mexican Grill Salad Copycat Recipe | $5 Dinner
+  </span>
+  <span class="accessible-description" id="description-id-996382">
+     - Duration: 9:09.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCw0Peuah9Gmb184cW_syhNA" data-name="related">Pennies into Pearls</span></span>
+  <span class="stat view-count">251 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=6iK179ajQzE" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBwQpDAYDyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBwQpDAYDyITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCxho21_b2tkeoB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="6iK179ajQzE"><img width="120" data-thumb="https://i.ytimg.com/vi/6iK179ajQzE/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=9ECapISy-CCpikicWjRhxdtgu4w" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      9:09
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=SX38IUC61ls" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBsQpDAYECITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="Chipotle Chicken Burrito Bowl Recipe - Better Than Chipotle Recipe" rel="spf-prefetch" data-visibility-tracking="CBsQpDAYECITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDbrOuFlIT_vkk=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-958294">
+    Chipotle Chicken Burrito Bowl Recipe - Better Than Chipotle Recipe
+  </span>
+  <span class="accessible-description" id="description-id-958294">
+     - Duration: 7:49.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCFEYEmgRDiTZsE2cPfF2uOg" data-name="related">No Hippie BBQ &amp; Cooking</span></span>
+  <span class="stat view-count">5,719 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=SX38IUC61ls" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBsQpDAYECITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBsQpDAYECITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDbrOuFlIT_vkk=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="SX38IUC61ls"><img width="120" data-thumb="https://i.ytimg.com/vi/SX38IUC61ls/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=JHqlP3A2U3a8RclxSGDJgkwqM7I" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      7:49
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=MEB2sB3iV6Q" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBoQpDAYESITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIGcmVsbWZ1SPOkl_XCpeKIWA" title="Best EVER Gumbo Recipe - Seafood, Chicken, and Sausage - I Heart Recipes" rel="spf-prefetch" data-visibility-tracking="CBoQpDAYESITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCkr4nvgdadoDA=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-912388">
+    Best EVER Gumbo Recipe - Seafood, Chicken, and Sausage - I Heart Recipes
+  </span>
+  <span class="accessible-description" id="description-id-912388">
+     - Duration: 6:27.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UC1dzkIaMDJzv3ZuS0DdEWoA" data-name="relmfu">I Heart Recipes</span></span>
+  <span class="stat view-count">65,633 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=MEB2sB3iV6Q" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBoQpDAYESITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIGcmVsbWZ1SPOkl_XCpeKIWA" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBoQpDAYESITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUCkr4nvgdadoDA=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="MEB2sB3iV6Q"><img width="120" data-thumb="https://i.ytimg.com/vi/MEB2sB3iV6Q/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=0hOY02e2hBdZAKGAui16pMDlzKI" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      6:27
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=6jfUrYYzCuI" class="yt-uix-sessionlink  content-link spf-link        spf-link " data-sessionlink="itct=CBkQpDAYEiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" title="World&#39;s Best Southern-Style Collard Greens With Smoked Ham Hocks Recipe" rel="spf-prefetch" data-visibility-tracking="CBkQpDAYEiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDilcyx2JX1m-oB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-705611">
+    World&#39;s Best Southern-Style Collard Greens With Smoked Ham Hocks Recipe
+  </span>
+  <span class="accessible-description" id="description-id-705611">
+     - Duration: 21:52.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-ytid="UCWUI9ikWFoTRkw5Z2G5u7fQ" data-name="related">PbjShow</span></span>
+  <span class="stat view-count">269,262 views</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=6jfUrYYzCuI" class="yt-uix-sessionlink  vve-check thumb-link spf-link        spf-link " data-sessionlink="itct=CBkQpDAYEiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HTIHcmVsYXRlZEjzpJf1wqXiiFg" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBkQpDAYEiITCKuR4Zi_sMwCFQjOvgodpmkH6Sj4HUDilcyx2JX1m-oB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="6jfUrYYzCuI"><img width="120" data-thumb="https://i.ytimg.com/vi/6jfUrYYzCuI/hqdefault.jpg?custom=true&amp;w=120&amp;h=90&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=oPXnOGLa_3WzWFAe2h6li0gK7Qg" height="90" alt="" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" aria-hidden="true" style="top: -12px" ></span></a>
+        <span class="video-time">
+      21:52
+    </span>
+
+  </div>
+
+</li>
+                  <div id="watch-more-related" class="hid">
+    <li id="watch-more-related-loading">
+Loading more suggestions...
+    </li>
+  </div>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander" type="button" onclick=";return false;" id="watch-more-related-button" data-continuation="CBQSFhILV0JHSkxDNmwwbk3AAQDIAQDgAQEYAA%3D%3D" data-button-action="yt.www.watch.related.loadMore"><span class="yt-uix-button-content">Show more</span></button>
+
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="player-messages">
+  </div>
+  <div id="watch7-hidden-extras">
+      <div style="visibility: hidden; height: 0px; padding: 0px; overflow: hidden;">
+      <img src="//www.youtube-nocookie.com/gen_204?attributionpartner=ladyrosie1983%2Buser" border="0" width="1" height="1">
+  </div>
+
+  </div>
+
+
+  </div>
+
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter force-layer"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" id="footer-logo-link" title="YouTube home" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg&amp;ved=CAEQpmEiEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0" class="yt-uix-sessionlink"><span class="footer-logo-icon yt-sprite"></span></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-position="footer" data-picker-key="language" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Language:
+  </span>
+  English
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-position="footer" data-picker-key="country" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Country:
+  </span>
+  Worldwide
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-position="footer" data-picker-key="safetymode" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Restricted Mode:
+  </span>
+Off
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+  </ul>
+<a href="/feed/history" class="yt-uix-button  footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=SJEhV6vNHYic-wWm053IDg"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">History</span></a>    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" id="google-help" data-ghelp-tracking-param="" data-ghelp-anchor="google-help" data-feedback-product-id="59" data-load-chat-support=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Help
+</span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/">About</a></li>
+  <li><a href="//www.youtube.com/yt/press/">
+Press
+  </a></li>
+  <li><a href="//www.youtube.com/yt/copyright/">Copyright</a></li>
+  <li><a href="//www.youtube.com/yt/creators/">
+Creators
+  </a></li>
+  <li><a href="//www.youtube.com/yt/advertise/">
+Advertise
+  </a></li>
+  <li><a href="//www.youtube.com/yt/dev/">Developers</a></li>
+  <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Terms</a></li>
+  <li><a href="https://www.google.com/intl/en/policies/privacy/">Privacy</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/">
+Policy &amp; Safety
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=en" onclick="return yt.www.feedback.start(59);" class="reportbug">Send feedback</a></li>
+  <li><a href="/testtube">Try something new!</a></li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <div class="yt-dialog hid " id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+        Working...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="hidden-component-template-wrapper" class="hid">    <div id="shared-addto-watch-later-login" class="hid">
+      <a class="sign-in-link" href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;hl=en&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3Dplaylist%26hl%3Den%26action_handle_signin%3Dtrue%26next%3D%252Fwatch%253Fv%253DWBGJLC6l0nM%2526feature%253Dyoutu.be%2526a%253D%26app%3Ddesktop&amp;passive=true">Sign in</a> to add this to Watch Later
+
+    </div>
+  <div id="yt-uix-videoactionmenu-menu" class="yt-ui-menu-content">
+      <div class="hide-on-create-pl-panel">
+    <h3>
+Add to
+    </h3>
+  </div>
+  <div class="add-to-widget">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+        Loading playlists...
+    </span>
+  </p>
+
+  </div>
+
+  </div>
+</div>    <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['experimental-request-headers'] = {'X-YouTube-Identity-Token': null};ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;if (yt && yt.scheduler && yt.scheduler.SpfScheduler) {ytspf.config['advanced-task-scheduler'] = yt.scheduler.SpfScheduler.instance;ytspf.config['experimental-process-async'] = true;}ytspf.config['animation-duration'] = 0;</script>
+  <script src="//s.ytimg.com/yts/jsbin/spf-vfldNIm25/spf.js" type="text/javascript" name="spf/spf"></script>
+  <script src="//s.ytimg.com/yts/jsbin/www-en_US-vflo1J6bP/base.js" name="www/base"></script>
+<script>spf.script.path({'www/': '//s.ytimg.com/yts/jsbin/www-en_US-vflo1J6bP/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/angular_base": "www/common", "www/channels_accountupload": "www/common", "www/channels": "www/common", "www/dashboard": "www/common", "www/debugpolymer": "www/common", "www/downloadreports": "www/common", "www/experiments": "www/common", "www/feed": "www/common", "www/innertube": "www/common", "www/instant": "www/common", "www/legomap": "www/common", "www/live_chat": "www/common", "www/live_chat_moderation": "www/common", "www/promo_join_network": "www/common", "www/results_harlemshake": "www/common", "www/results": "www/common", "www/results_starwars": "www/common", "www/subscriptionmanager": "www/common", "www/unlimited": "www/common", "www/watch": "www/common", "www/ypc_bootstrap": "www/common", "www/ypc_core": "www/common", "www/ytstyles": "www/common", "www/channels_edit": "www/channels", "www/innertube_watchnext": "www/innertube", "www/live_broadcasts": "www/angular_base", "www/live_dashboard": "www/angular_base", "www/videomanager": "www/angular_base", "www/watch_autoplayrenderer": "www/watch", "www/watch_edit": "www/watch", "www/watch_editor": "www/watch", "www/watch_live": "www/watch", "www/watch_missilecommand": "www/watch", "www/watch_promos": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_transcript": "www/watch", "www/watch_videoshelf": "www/watch", "www/ct_advancedsearch": "www/videomanager", "www/my_videos": "www/videomanager"};spf.script.declare(ytdepmap);</script><script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>      <script>
+    yt.setConfig({
+      'VIDEO_ID': "WBGJLC6l0nM",
+      'THUMB_LOADER_PAUSE_MS': 0,
+      'THUMB_LOADER_GROUP_PX': 400,
+      'THUMB_LOADER_IGNORE_FOLD': false,
+      'WAIT_TO_DELAYLOAD_FRAME_CSS': true,
+      'IS_UNAVAILABLE_PAGE': false,
+      'DROPDOWN_ARROW_URL': "https:\/\/s.ytimg.com\/yts\/img\/pixel-vfl3z5WfW.gif",
+      'AUTONAV_EXTRA_CHECK': false,
+
+      'JS_PAGE_MODULES': [
+        'www/watch',
+        'www/ypc_bootstrap',
+          'www/watch_speedyg',
+          'www/watch_autoplayrenderer',
+        ''       ],
+
+
+      'REPORTVIDEO_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-reportvideo-vfliz-fCS\/www-reportvideo.js",
+      'REPORTVIDEO_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-watch-reportvideo-vflGyjMvM.css",
+
+
+      'TIMING_AFT_KEYS': ['pbp', 'pbs'],
+      'YPC_CAN_RATE_VIDEO': true,
+
+
+        'RELATED_PLAYER_ARGS': {"rvs":"id=eW4uKH8081I\u0026author=I+Heart+Recipes\u0026session_data=itct%3DCBUQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=116\u0026title=Southern+Fried+Pork+Chops+-+I+Heart+Recipes\u0026endscreen_autoplay_session_data=autonav%3D1%26itct%3DCBYQ4ZIBIhMIq5HhmL-wzAIVCM6-Ch2maQfpKPgdMgxyZWxhdGVkLWF1dG9I86SX9cKl4ohY%26playnext%3D1,id=PNAm7z9gOzk\u0026author=Fablunch\u0026session_data=itct%3DCBQQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=290\u0026title=DIY+Chipotle+Burrito+Bowl+%7C+HEALTHY+LUNCH+IDEAS,id=Flu1x9eQ3EA\u0026author=Erica+Fae\u0026session_data=itct%3DCBMQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=477\u0026title=DIY+Chipotle+Burrito+Bowl,id=hE1VRZttF74\u0026author=Darius+Williams\u0026session_data=itct%3DCBIQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=1501\u0026title=How+To+Make+Chipotle+Chicken+Bowl,id=_8ufl3Prlvs\u0026author=Diary+of+a+Fit+Mommy\u0026session_data=itct%3DCBEQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=509\u0026title=CopyCat+Homemade+Chipotle+Chicken+Bowl+Recipe,id=T3sa5TsOS9w\u0026author=Christian+DaSilva\u0026session_data=itct%3DCBAQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=249\u0026title=Official+Chipotle+Chicken+Recipe%21+Quick+%26+Easy%21,id=ORAl9rNpCws\u0026author=Crazy4veggie\u0026session_data=itct%3DCA8QvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=683\u0026title=Chipotle+style+burrito+bowl+%7C+Veggie+burrito+bowl,id=JMo0kz6ndUo\u0026author=Brothers+Green+Eats\u0026session_data=itct%3DCA4QvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=558\u0026title=Chipotle%27s+Burrito+-+How+To+Make+Every+Part+and+Cilantro+Lime+Rice+-+Finale%21,id=7h70U1m5hFg\u0026author=MyRecipes.com\u0026session_data=itct%3DCA0QvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=145\u0026title=Chipotle+Bean+Burrito+Recipe,id=amq_KoLeihY\u0026author=Big+Mo\u0026session_data=itct%3DCAwQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=142\u0026title=How+to+Get+a+Huge+Chipotle+Bowl+for+under+%2410,id=MeRBIfc1uzQ\u0026author=Greeneyedcook\u0026session_data=itct%3DCAsQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=224\u0026title=Chipotle+Mexican+Grill+Sofritas+Review,id=itjjOydIgKk\u0026author=Tasty\u0026session_data=itct%3DCAoQvU4iEwirkeGYv7DMAhUIzr4KHaZpB-ko-B0yCWVuZHNjcmVlbkjzpJf1wqXiiFg%253D\u0026short_view_count_text=\u0026length_seconds=72\u0026title=Frozen+Breakfast+Burritos"},
+
+
+
+          'BG_P': "35WXlRO1rbLgWkoaufGzr3V68SViDqRIX5u0T\/RwkKiUNPLakiYffyzX64s8IIhX5JEpzSiVsHgwgRHqciFYVEiD74aXikS3GgVcRv7YJlBOdGlXsaybs57WVRo\/ll4TxVBREZXSNfGC3jfcjaPi1gtdRr1+iQPQjKgdR90WViejidDh2AT5QDEvObbk6xbL0vme4Egi\/UtqupVodLeNgdnhfDOuC++iT0WtsA8lsZ+tSdyGgw0uHhxugNK+CyF1IjvNYQ9QpSMcOVaFcTJSM+vXnhvUz8TU0X8jFha7\/cBaE1S32GMiyQy+AkQNg+ELtpJPmqAl2Ti6KI2noatfm0LI4iqXdZK7FX4YtD62aPxMGXp6neI0VrFIXb2YXNZdO6wGW4vwc1r88R4trh7QdrpT0SSB8CgdXkeIGBOI6ZshwIIYt36HZqGPDbSsYN3vnSXQzZ75wE+BaZS0mRc5oyzDGvoeOK5t2z173OOlYsY5mNFwdLFTDgWmCrv9rpkWHIGaBLBMliJLFVGlPk0ItvUbPtvjaOaT8xnla4v\/RMsYiFKAdtR\/lt8bXaeni0iNTYURFHyy9KR7YUTvAEb6S8HdJs+sWBpxgbJSEoh5dMgFE5Zan7s9Eqv7l3fH51cAOj1zdtTEkJ4Bqpi1ofwQ9YZUfC9bTELIMrxz38axZ1JoKEb\/0t6vjqnX1ZjDCyY32UAl6yLNS\/oCNTP50kj8xQYZRpzviKSB5DTuIo82fxHbLMmmvrGC\/wbNFTQ+asJD7FB6pTpuzsOrivB8R\/HbMubps\/F\/7UcmQAGa0O+otnuLiTnaf+dtjjLGOIiTihcrf+6ql4dc+dAuEh46yL3rnf3fhrje8qfMCeUjkRjQOptGVgqJnYtDVLv21Y6QFJF2K72Iy4jXKRmtulKQ6h5KfTrj6GZu\/UGMVhb8Qp82iFUNEUVFvv6YS4GS2spNqKfPjPzur8crJPYYTKAuCy+xxnN850UwZNuA9h2tsJ03yd42k2P0MeIVx3sgyRuTyudomP1PM7G1YqsWCsHply+oMULL\/Moim991t3NGneS0dgJO7czvL\/tJTEYh\/1eRTus2BUHIMnFAMknl9H568fGzRBc0lC7UmCxoawR+2QzqiUxH3\/xQ6XBL0e+qD588Q2r0DAJAPq5JxpeuU5gyJmwJHDv48HLx\/QZ+2YqnjyzE7lTcfL1gy1+eGIGijzRyOaqIpIYjQSek4iIty9y9bDAJX7dQRlO0M571T2a4hx\/TVqHHytoBv1ApLMOMyXSjX3S5pQARUHfY3N+bZVqMtNvcWW33lJcTFzpBSEj0IBb6q1JYccILgC7kv3\/qdwbCZizR2EDO2bMdfVir28VZHuZvhcwrBksl9KvMCvpmiA0j9UiR5Q4h0kOzloeOIg4WlkgQEo9IyVmBnKyJOWr8ms5eRu7Ps\/81eryHZDqqpC4Evg3nsAB5cUSrnD46HSv7qmMpcPYdBGgL\/doSxHidkFJbUIlcBX+E9bNzMi9BBiwfMG\/dKGbSEMjyhcPY0tsTB\/mh8x+qaCFD3Ly\/nhayr3WuGNooKrsenTrYIHwUU3GY4oa0lP+HjBdu1BIdNruxGrPmrXygBZ8Z1xYJYMVkdrZc1Q026gpQpFmKhP4QQAISkxn7rEwjyJWsT8pSGHVmyWxO7QjmVJvN3rXwUB2aMclVQ8K6Ukb6qE9LLIxo5ZJO6HDWVE+rT4mODLKszoNnWKsVWJBOzf+V1VMFnKm6dLqfhW07VVp2go+ZKnnjE0B80CiWn6tjnfIIY+lGNoaD5U2IHLAoDdEW45o\/6Py59taQJq\/1LzC4i8chvCdWSO7C9ZkHDQ3\/cU1umbkMRDfq6W+IEjTCajlxOrMlbpRV+AC7fPlFvZFYlacX5U24Fsf7OxET0J6ORwuB39JBUYu+iSEJsFvoqiz1Z99LUwIs6nN\/+VwPHD2+r0Nx3q3lfVfdY1SNaSd4g4MiMWGBF402Gv8V5Z7nNr8HwjK4NUzPB82IGB3zxeE4UEFUgbwNExowTvbFUkrAwxZKHMWO9A8cHehJE5KoM0kTJeYMc9GzqdUa1J8chJu2lsTnSzcDYXToWWDTdrBJ09QhZEP7eThdSxf9MPju00CgMFbtmEy1KfrgJwvT1vSDg9ScOyvvlbjBYnhEDMLJwkZysdREGwwbVuOZU9YBVejHSgP5jtddVgupRkcltnkO8TkHkOh2A3b3Ft+9zkaLsgnJCiVKlhWa0UW3J0+QXE3nY9cgXHF1jlpJ9+MrHo+ZvbTKMLJAumAht+Z8sIp\/cOj1kPSVrEonlQPPvflO+Bf2g8AT\/DMwXf9XaAAU4hxSm991KFQXW1ILIhS\/dZlf5JKceBSNvO2bNVY\/MwkvOOF1G92KCubg+4AOzG45U4eWD5Lk6o\/AyzaiNF6oBPPNi29pV0YFOhbS0jkQcbw6pyQymFx3UQw1pcPvoeEZkh0xgy+PR5xD+yw5\/Vb3D+XgzHqXi6mv7tvEHxZlqX25rhFm1tpkGvP5C0JEveG6QoyhjcgVMnhjS4OAHy80HP9fLW9mhm8VJDC97A0i4SSUZgQayHUeZjJb6hXqUen9uATsrPJ1q4M+g3fU6r7YnXrcpELKO1kEugEHSXO6ywXIE2hLE81chM8nF47XSAIOiZ35M6+qMIMsx6XIcOLYqf8XBd1kM9qYxlz\/kC\/tJXXovepwRrBQ9jY\/FGyigM\/uG4Bphx4pEDs0DNO4dk3EF9pPdP+e66psj3XcTlbqZBVNtQ5M6VJOPOzo9EUIPHo+F6VjIa+l5DB6rU2Vy0OCVQWwf45e4vptpZb7+oQ\/KPbijQ+b5I6vbbFo8\/a82fM7C3WoOrKOHxFYfv\/\/k74DJJ8t0FZf6l5Ck3ahQGF\/qQd6ByvmXettAzFoEyCV9Sc7viErkiYGO4sdAWgRsdAEOckOB0VvG0TKHOLAesthi521NWdJY+N2sD3Smk\/GSRvQYR0tgJxHzDJYPjtao+hJuuwVvRnoHhanxmcgLvYHtDzMsRVAqruOs0AvbIfDbZN70AmlB2+wNL6NKH\/s2ZzYo6gs89K3dftYW681qX3c7NTRHYXffy3fC3\/JCdTjENB8ws6dzH6nxzfAG37G9SHrCnD8xEvG5\/HgOKks24gwSIHGKJN96e5MFC2h1aobHdznAzq1DxYvDcAyUOz2TCGq\/V+1MdTTbt4vnJHPThUJT8m5EjQa8f\/nx26o4aXvYZqIPRp5HIGFDyef\/d7czAGWJuOvzpkD2vRfxjUuYxU833GToK3orpMF8ggV\/CawX7485rtgeDHGzrukHyWCBNLEwAoqMm8WmOPFLAhGBoQSpLvDv83XSlXVtbZRdsFFJD3jUBdgxEbMUWSg8wGmVyYAKe\/Qr\/T4syjDGbbmJKEX5DunQTosTSED3PhnzMmBYQzzSoVMO086Jy4AEDxkjyfFLhMCMr6nVLGTzwkAJZHoqFkT\/fl1Q4TwT6oiM7kfD2uiBpjJ\/xhmkk+B7X73S85+oceDtrbKG+3tF+m4Zex44BA0KySiFGzLGzS7KJ\/xGx7wLL+UU79DP\/N0WJGBbj9QlUwo3mG2pcDnLVH5MRy7OJzyXdr1RKHPwDkfyL4EcX1iu4hev764ThDb8zDhqo8T10yatG1FksNlBsgZGd6GT8HwgFZsXbKxy7+c2y4JO6yLksGkcRvWmmhImw7lizWBEVR+eP5o7p\/r0l8oORVFvPnFD4aHER6N6LzmSuiz8WdH4Lk6CYQBsspVM3neE7nkUXJrHH+v7FZrpEm1UW\/b5MXyxNy\/tlEDGOsMXFHvnSAWlxkkMqi+vb9z6dC0Y1XJovKPLEYGBkFJr0MF0e91jHxtFL06V0J30FwLDZMLHQGtOsTck\/QBcupd0KOvlw1YT67dcXAj1\/EaOZyGtAX2VyVDRZWcPbo9+3KW50W2xcuUcYtIJ7CkROkAn5iDcZs1RRuNM8bnbuVhQHIJBSVYWZH\/yre2LqwECHXXlz1iPDQju\/aIzOxR7OClvV3mJFsqw5HKMfCHPL4Y2G1M\/ydWSO7lWY3mg7GKxlBzhvPgcztpN6GhJb1lL7PvTFjUHp1Q73t\/5A8QnmUoLhV2Y4WTZJG8MzfyvanEZlU5C2Kdea0pv7t\/ZAwir6rqMTNtXcrdHuUYPaA1M18WJSaPiIEZB+MD5ZDYQkyApshk9xciaX1Je1ZUQ3p7FkTtH3snpgs+XueZcd1E8XXHxkRRxUKCn4gTyKx+mMoBNtelXpvnWDih+X\/10QA4M7GCx+FusoSuS4cTplQUifw8A9XEuI0a4T46AwLS3zAQ+IQ3\/EWGHeNPBbSjaRTykyELQhCwlGaSwFFFFopPMg1JWXssCzHNAO991999RzhoYFXleCnZaJPCwS8DPKAtCTutZ6\/UQKTJA4NEwVeaHUq6KkqjWFcItmxbhfmzOqmCRtww368UYKpK1SuEM6wKBmPOqvAbfnY1zHLBtU7gSSS2\/cAbKdi0k4Lc0Q+1nJLZPl58fFAJCUVmfYvH+Qm7T4ozXqy+TV1wzesfrenVPs0yN8zOCQP7qhji38CeiIM1NPx6WhuwCbIX6HyMfiLmiIyIEVsesAdMbokhpKYEMjNDd4CllvhVyAQxKtRELZvrAt3nC7oaWEtKTdpcDueSUkdTAOtQ87FTUj1XnCLbOxmEOTIhoKKSHAhwUdDny8PN2gXiOC0EENxJrsYqoGasMa31MCkCIetsrwhH7WPY\/2vcTyP9j7woXn+fxeSIg008aQ8BjNWaoU4RcIN9aIyR1xTDxm3BEhxGaiAlc9ZPJ+DjCYO1IqKgn\/jH9UL+q4RGijf8oStX+9hqLrIwfeTCllLVlUUUsllPEBy4Z69qN4vYqvR8ovWLi8qf+voNVMIAYy8JsGgQw9an8NDzDD3hpyEaAkLZ9DJjT6WOis3H6K1tsUgq7ZmeNW5t6cfMA712+e4Anue\/RSGLZqjshKMNoBqT4F46b2KaX3Vk1h1zCrfbzDfX5fzy5d2kFKH567RDG4yRTU0ZWQ0S9GPs2eSyQiOm7WnwzFNDSYoIO\/qmjJxblPTsA7djWFThQIwqcCTs2yqeTSGQoT13\/g3bohpgn39WaJv0zNSHRgH79D\/PE38fU4cedfZpm05ZTcf2B3mQHwnZMIQDNiMOL1C+BaXXpEOAdwA5w9Ap2F3A\/fP5iz0PK4Y2ErJBJZ84pZCVeXKKKHjOd3t4BDVQjKhbAF+XnVD9prOwbYWSLMYaz5KO26M9QfCHpyeAT5Qfc\/r51EcDwM7fJAcOsZuvkJL0dZSMpTxEFc3jrTHL6vRhsvL9heOg\/kVw5IP5kpGVkOMyS59mUaR55P41ZjR4uvHUQsHbQBOLlp9gvLvK1Aj7daMQDDekqcKNTV4IFJQVoEZ\/2dsBqlk04S0Wk2qA3XvmK1lB15CVfPXihoyI\/l5yOoEgjhRbHScaicIUw17DAQpkVrBcfaJMbjOvfiROhGyA6UvA+PqXAkUcn1BAdl0m6zIRsHx\/rSZzfptEWeHoq31mq01qr+UaESVaoduA1pveUbN2YPYze1HA1UxSRsnu\/ySB1Um6tuEWfVJjvLjFn4WN4dWgs6XG4VzJzyYWfmKYx1TlVWKfq3c\/OsN+VA8WZQV8pHjPUP0URGkM8fJb9ojf4mdSxsAf1qOMuU80Z5yoRvFTxQBmAW71xnPXel4m1f6uTI7kEXbSCVc6hMALELT4ADzXDhKvvS\/7JGlIx9Yh0LJN7y16t\/EUmqsuuPT50HBjjryb6JJJxW3c57eDcvHEnQu4PFYw3yRjDWGT2L0ZamFMmyDF6IUNBJTqeTWZ0Kgzfb3aL2o\/bjdAZDd3tQMl98K5GOtC6tCbJHZ7GuNg5c8fM+NPhBU4hf07eumZvutjem42ixsieYe2+4WAR39nbJTzGNmZQrxkqz75XEb93nrpN75MaOmxSNkSf95\/LZXorFb8wYWLwwXRmIJE8sCx0PcxXq92B1cXtlVG3je5CfMMI0widjYVi2s1oWPTaL71i3WTpjEhQwxOKjGoK6WlIhGOiS+OyS288rAiIw9U+0J88Ru8A1r\/c051ehEh\/GD7NX2C4D\/MVfg\/e67hbenbx3KflASARdj2hW80W9BdfzPyl59IBUt4DgTs5\/SFwBFWvCTsmv\/M8DAyak0grMuJe280IwHNcuVsKqyn1i2\/8sj+EzmPAvjFu2XZJOmNIXy2QvenfSQVlnL31y5SnXOpmUrw1THTNk\/WLkbTnm2Fua2isAxlXe0DrPzaegerV8yN0H5wevJQc56IWRdxksyroqOWd8B9KM8CaEFtyKx4UXfzNpE3MVn\/Y825IcDqtQIK2CybpbjX1Ao3HEguJLDD97gGvhgHohevITzaKCosIZjVbe25bjJfjgy+DdSJJil0IYNLaFz1\/4poa8Uuu+pv1e2CBhp\/7CQ5AxzWUD96xShkpipSqDdU6BXY7+ORz6GM0kO6JpDr8X8pna0BxUVZqEZmGiBW3A2lCUmR2sY2ExHnp\/LSPQXjzlzJ2zqLw64c265a9wd3hXdBt\/baLV0GyRUVGNYyN4MLttEqUadusBl951AeJvb3bU73EvcaS5KirkG5L1nfob7lcmihcGFUijBRcS44jkBOJlvB6jpbAeBoiw33lGJNl1GuvBF4wZjCZM3oLRVCFSE\/RW0deEfw1gKpw9Iw+4klDiwgNLzdvLpvllX5nOnAkisjCEgetv24oKafkoBYgcxDiZsHkUyzkSnTsiIYPrI7hY8HZETUvntJy5ZYeTzhwj4zAN591yGlsf42sErtB8ZMKnh+dSwezCabwc\/mU6sG7cd8\/reF4jwzqQeoQp\/pfp\/hzzQaFGt9fJTuZrW5f6MNFeb4XBmyqF9zcgAJJ0kOg4v7kHMIJVtImePWHKey0wd4cj3XdLVSvDTCecJ4jUk3hen7moJ7IAt5dh33o\/YjIzgzHfUFBw3L9H416y\/sucyHzZ6L6GfRh0299l\/rITQ\/1\/8d+2k2571rhahp2zOYA48E8VvUnONKLCOaKEBKTuecIEIxLjhlRbwPBd2ShdbjBhO2vkqYB2\/8l8Mli5d0IsEcwQ52Q84QdotZ2BITSQ==",
+          'BG_IU': "\/\/www.google.com\/js\/bg\/ti5oueowuzVWUEU5i96uPzqNqvAhSeDx9g_MU9BELbs.js",
+
+
+
+        'COMMENTS_TOKEN': "EhYSC1dCR0pMQzZsMG5NwAEAyAEA4AEBGAY%3D",
+
+
+        'SEND_DESKTOP_PYV_ON_WATCH_S_PING': true,
+
+
+
+
+      'GET_PLAYER_EVENT_ID': "SJEhV6vNHYic-wWm053IDg",
+      'HL_LOCALE': "en_US",
+      'TTS_URL': "",
+      'JS_DELAY_LOAD': 0,
+      'LIST_AUTO_PLAY_VALUE': 1,
+      'SHUFFLE_VALUE': 0,
+      'SKIP_RELATED_ADS': false,
+      'SKIP_TO_NEXT_VIDEO': false,
+      'RESUME_COOKIE_NAME': null,
+      'CONVERSION_CONFIG_DICT': {"focEnabled":true,"baseUrl":"https:\/\/googleads.g.doubleclick.net\/pagead\/viewthroughconversion\/962985656\/","rmktEnabled":true,"uid":"1dzkIaMDJzv3ZuS0DdEWoA","vid":"WBGJLC6l0nM"},
+      'RESOLUTION_TRACKING_ENABLED': false,
+      'MEMORY_TRACKING_ENABLED': false,
+      'NAVIGATION_TRACKING_ENABLED': false,
+      'WATCH_LEGAL_TEXT_ENABLE_AUTOSCROLL': false,
+      'SHARE_ON_VIDEO_END': true,
+      'SHARE_ON_VIDEO_START': false,
+      'ADS_DATA': {"gut_vars":{"tag":"\/4061\/ytpwatch"},"show_pyv":true,"check_status":false,"show_instream":true,"pyv_vars":{"iframe_json":"{\"google_cust_age\":\"\",\"google_language\":\"en\",\"google_yt_pt\":\"APb3F2_yEgZBHCTzbtxDeFu0Niv_hsNBdCLOSL9zvY74Uk12mgpK9JVXEGaQhcWLxFbetAW9l_BZ98BF3LGi7P01AvCb3sr2NenvjdrztGeUQNZTxQFUEHYeZ7yDHrKxxinJw64GCkzFdXzs5U5zYSZ-qLDI4advVj3O8EoVHDMV5eWfGnmcawhwxCXAq7nfTqiVVpwGZ-Tdg3o-FRwsyXcugg6vuYuXQLhoUsuqdsvutRZqxuWpsPOejWi7scEd56guWS9u--VAqykbmrpJV7BZsG4TXEHc53CyV0CXuQ\",\"google_ad_client\":\"ca-pub-6219811747049371\",\"google_ad_host_tier_id\":\"4900614\",\"google_ad_host\":\"ca-host-pub-8885396211526337\",\"google_eids\":\"74420275,64530192\",\"google_core_dbp\":\"ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ\",\"google_max_num_ads\":1,\"google_ad_output\":\"js\",\"google_only_pyv_ads\":true,\"google_video_url_to_fetch\":\"\",\"google_ad_type\":\"text\",\"google_page_url\":\"http:\\\/\\\/www.youtube.com\\\/video\\\/WBGJLC6l0nM\",\"google_lact\":\"\",\"google_ad_block\":\"3\",\"google_loeid\":\"9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578\",\"google_tag_for_child_directed_treatment\":\"\",\"google_cust_gender\":\"\",\"google_ad_channel\":\"PyvWatchInRelated+PyvWatchNoAdX+PyvYTWatch+YtLoPri+afv_user_id_1dzkIaMDJzv3ZuS0DdEWoA+afv_user_ladyrosie1983+ivpypp+non_lpw+pw+yt_cid_374162+yt_gp+yt_mpvid_SX4fhozawz_i1rfJ+yt_no_360+yt_no_ap+ytdevice_1+ytdevicever_1.20160427\",\"google_video_doc_id\":\"yt_WBGJLC6l0nM\"}"},"show_afv":true,"afc_vars":{"ad_host_tier_id":"4900614","ad_type":"image","ad_host":"ca-host-pub-8885396211526337","ad_channel":"0854550287+Vertical_122+Vertical_1560+Vertical_71+Vertical_911+Vertical_913+afc_on_page+afv_user_id_1dzkIaMDJzv3ZuS0DdEWoA+afv_user_ladyrosie1983+ivpypp+yt_cid_374162+yt_gp+yt_mabv+yt_mpvid_SX4fhozawz_i1rfJ+yt_no_360+yt_no_ap+ytdevice_1+ytdevicever_1.20160427+ytel_detailpage+ytps_default","alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div","tag_for_child_directed_treatment":"","ad_block":"2","format":"300x250_as","lact":"-1","ad_client":"ca-pub-6219811747049371","loeid":"9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578","eids":["74420275","64530192"],"language":"en","video_doc_id":"yt_WBGJLC6l0nM","core_dbp":"ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ"},"use_gut":true,"afv_vars":{"google_ad_height":"250","google_eids":["74420275","64530192"],"google_tag_for_child_directed_treatment":"","google_yt_pt":"APb3F2-qUPftDhS9AECoZfj1Xunm8aWUwsnJ62L5jrG7uTS01KRz6UznRv2HhkEvyHtR01PZsg17cpbh3-ka1ZsIjJdrMu9dTm5zgpmmmkCnqjLx5XM3t6gIkCgeHIWbZCJeSw34zxbgFNjwR_Hl","google_cust_age":"","google_language":"en","google_ad_host_tier_id":"4900614","google_scs":"","google_cust_gender":"","google_ad_block":"2","google_loeid":"9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433998,9434086,9434290,9434497,9435346,9435578","google_targeting":"","google_page_url":"http:\/\/www.youtube.com\/video\/WBGJLC6l0nM","google_ad_client":"ca-pub-6219811747049371","google_core_dbp":"ChZ5elFxazNsRy0waFVaa1BCcmxId0h3EAEgAQ","google_alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div","google_ad_format":"300x250_as","google_video_doc_id":"yt_WBGJLC6l0nM","google_ad_host":"ca-host-pub-8885396211526337","google_ad_type":"image","google_lact":"-1","google_ad_channel":"0854550288+Vertical_122+Vertical_1560+Vertical_71+Vertical_911+Vertical_913+afv_user_id_1dzkIaMDJzv3ZuS0DdEWoA+afv_user_ladyrosie1983+ivpypp+yt_cid_374162+yt_gp+yt_mabv+yt_mpvid_SX4fhozawz_i1rfJ+yt_no_360+yt_no_ap+ytdevice_1+ytdevicever_1.20160427+ytel_detailpage+ytps_default"},"show_afc":false},
+      'PLAYBACK_ID': "AAUxg_MZPjZSWFbD",
+      'IS_DISTILLER': true,
+      'SHARE_CAPTION': null,
+      'SHARE_REFERER': "",
+      'PLAYLIST_INDEX': null
+    });
+
+
+    yt.setMsg({
+      'EDITOR_AJAX_REQUEST_FAILED': "Something went wrong trying to get data from the server. Try again, or reload the page.",
+      'EDITOR_AJAX_REQUEST_503': "This functionality is not available right now. Please try again later.",
+      'LOADING': "Loading..."    });
+
+      yt.setMsg('SPEEDYG_INFO', "Experiencing interruptions?");
+
+      yt.setMsg({
+    'UNBLOCK_USER': "Are you sure you want to unblock this user?",
+    'BLOCK_USER': "Are you sure you want to block this user?"
+  });
+  yt.setConfig('BLOCK_USER_AJAX_XSRF', 'QUFFLUhqbVotMWo4MzliUVBxX0M0b3dmMzJ6YUVFTmhEUXxBQ3Jtc0tuZWNyUGhmU3p3aUlaQjZPclpQeE1OUmZ4QTB6ZkJPVWJBVFltbzZ2TGtXdGxTanozd3o5emczQ1pzREdCQ3JnU3gzQTBGaDlNZlEzVUtKM19YZE5LUnVidmxlUzFfazdjTWtpbTZkbW9PeDdZUUZHVGJkYUVhU1NadU96TjBBSmpJZ3l4U1JoR0E1U1ZWaExoYkprc2FzdnlERUE=');
+
+
+    
+
+
+
+
+
+
+
+    
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+
+  </script>
+
+
+<script>yt.setConfig({APIARY_HOST_FIRSTPARTY: "",INNERTUBE_CONTEXT_CLIENT_VERSION: "1.20160427",INNERTUBE_API_KEY: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",GAPI_HINT_PARAMS: "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.oVMKCZSUkzc.O\/m=__features__\/rt=j\/d=1\/rs=AHpOoo-diW2z34601i9eG0Nx2FzzG4t8QA",APIARY_HOST: "",INNERTUBE_API_VERSION: "v1",'VISITOR_DATA': "Cgt4TWQxemtucjZ1Zw%3D%3D",'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_LOCALE': "en_US",'INNERTUBE_CONTEXT_HL': "en",'INNERTUBE_CONTEXT_GL': "US"});yt.setConfig({'EVENT_ID': "SJEhV6vNHYic-wWm053IDg",'PAGE_NAME': "watch",'LOGGED_IN': false,'SESSION_INDEX': null,'VALID_SESSION_TEMPDATA_DOMAINS': ["www.youtube.com","gaming.youtube.com"],'PARENT_TRACKING_PARAMS': "Mgh5b3V0dS5iZQ==",'FORMATS_FILE_SIZE_JS': ["%s B","%s KB","%s MB","%s GB","%s TB"],'DELEGATED_SESSION_ID': null,'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': true,'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflRzXZte\/www-pageframe.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-en_US-vflo1J6bP\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vfl93QsDL.css",'EXPERIMENT_FLAGS': {"gfeedback_for_signed_out_users_enabled":true,"log_window_onerror_fraction":0.1,"player_swfcfg_cleanup":true,"enable_server_side_search_pyv":true,"consent_url_override":""},'GUIDE_DELAY_LOAD': true,'GUIDE_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-guide-vflmYVKfq.css",'HIGH_CONTRAST_MODE_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-highcontrastmode-vfluSZRHi.css",'PREFETCH_LINKS': false,'PREFETCH_LINKS_MAX': 1,'PREFETCH_AUTOPLAY': false,'PREFETCH_AUTOPLAY_TIME': 0,'PREFETCH_AUTONAV': false,'PREBUFFER_MAX': 1,'PREBUFFER_LINKS': false,'PREBUFFER_AUTOPLAY': false,'PREBUFFER_AUTONAV': false,'WATCH_LATER_BUTTON': "\n\n  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" title=\"Watch Later\" role=\"button\" data-button-menu-id=\"shared-addto-watch-later-login\" data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_BUTTON': "  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" title=\"Queue\" data-style=\"tv-queue\" data-video-ids=\"__VIDEO_ID__\"\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_MENU': "  \u003cspan class=\"thumb-menu dark-overflow-action-menu video-actions\"\u003e\n    \u003cbutton aria-haspopup=\"true\" type=\"button\" class=\"yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty\" onclick=\";return false;\" aria-expanded=\"false\" \u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003cul class=\"watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid\"\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-next yt-uix-button-menu-item\" data-action=\"play-next\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003ePlay next\u003c\/span\u003e\u003c\/li\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-now yt-uix-button-menu-item\" data-action=\"play-now\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003ePlay now\u003c\/span\u003e\u003c\/li\u003e\u003c\/ul\u003e\u003c\/button\u003e\n  \u003c\/span\u003e\n",'SAFETY_MODE_PENDING': false,'LOCAL_DATE_TIME_CONFIG': {"firstDayOfWeek":0,"formatShortTime":"h:mm a","dateFormats":["MMMM d, yyyy h:mm a","MMMM d, yyyy","MMM d, yyyy","MMM d, yyyy"],"amPms":["AM","PM"],"formatWeekdayShortTime":"EE h:mm a","firstWeekCutoffDay":3,"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shortWeekdays":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"formatLongDate":"MMMM d, yyyy h:mm a","formatShortDate":"MMM d, yyyy","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"formatLongDateOnly":"MMMM d, yyyy","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"weekendRange":[6,5]},'PAGE_CL': 120940785,'PAGE_BUILD_LABEL': "youtube_20160427_RC1",'VARIANTS_CHECKSUM': "a8d4dcc6a50bbc6f720d765e37253531",'ROOT_VE_TYPE': 3832,'CLIENT_PROTOCOL': "HTTP\/1.1",'CLIENT_TRANSPORT': "tcp",'MDX_ENABLE_CASTV2': true,'MDX_ENABLE_QUEUE': true,'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "en",'FEEDBACK_LOCALE_EXTRAS': {"experiments":"9405987,9406852,9415398,9415575,9416126,9416475,9416891,9417035,9417482,9418543,9419979,9420289,9420790,9421041,9422250,9422376,9422523,9422575,9422596,9422928,9422972,9423155,9423552,9423555,9423649,9423911,9424225,9424603,9424678,9424701,9425413,9425552,9425931,9426070,9426993,9427175,9427221,9427294,9427440,9427482,9427491,9427493,9427515,9427847,9427931,9428158,9428398,9428632,9428835,9428948,9428958,9428971,9429163,9429447,9430082,9430877,9431012,9431083,9431195,9431325,9431458,9431672,9431865,9432036,9432208,9432356,9432683,9432931,9432995,9433050,9433063,9433065,9433070,9433096,9433161,9433312,9433615,9433625,9433840,9433852,9433870,9433872,9433946,9433970,9433998,9434086,9434233,9434290,9434382,9434469,9434497,9434686,9434691,9434949,9435346,9435578","is_partner":"","logged_in":false,"accept_language":null}});   yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_CREATE_NEW_PLAYLIST': "Create new playlist\n",'ADDTO_CREATE_PLAYLIST_DYNAMIC_TITLE': "  $dynamic_title_placeholder (create new)\n",'ADDTO_WATCH_LATER': "Watch Later",'ADDTO_WATCH_LATER_ADDED': "Added",'ADDTO_WATCH_LATER_ERROR': "Error",'ADDTO_WATCH_QUEUE': "Watch Queue",'ADDTO_WATCH_QUEUE_ADDED': "Added",'ADDTO_WATCH_QUEUE_ERROR': "Error",'ADDTO_TV_QUEUE': "Queue",'ADS_INSTREAM_FIRST_PLAY': "A video ad is playing.",'ADS_INSTREAM_SKIPPABLE': "Video ad can be skipped.",'ADS_OVERLAY_IMPRESSION': "Ad displayed.",'MASTHEAD_NOTIFICATIONS_LABEL': {"other": "# unread notifications.", "case0": "0 unread notifications.", "case1": "1 unread notification."},'MASTHEAD_NOTIFICATIONS_COUNT_99PLUS': "99+"});    yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqbVotMWo4MzliUVBxX0M0b3dmMzJ6YUVFTmhEUXxBQ3Jtc0tuZWNyUGhmU3p3aUlaQjZPclpQeE1OUmZ4QTB6ZkJPVWJBVFltbzZ2TGtXdGxTanozd3o5emczQ1pzREdCQ3JnU3gzQTBGaDlNZlEzVUtKM19YZE5LUnVidmxlUzFfazdjTWtpbTZkbW9PeDdZUUZHVGJkYUVhU1NadU96TjBBSmpJZ3l4U1JoR0E1U1ZWaExoYkprc2FzdnlERUE=",
+    'XSRF_REDIRECT_TOKEN': "6gty5J_LSRXf7VTG8SxITondgWN8MTQ2MTkwNDA3MkAxNDYxODE3Njcy",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+
+  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflJOlJu4.css");
+
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-legacy-vflLngd7R\/www-searchbox-legacy.js",'SBOX_SETTINGS': {"PSUGGEST_TOKEN":null,"EXPERIMENT_ID":-1,"EXPERIMENT_STR":"","REQUEST_LANGUAGE":"en","HAS_ON_SCREEN_KEYBOARD":false,"SESSION_INDEX":null,"IS_FUSION":false,"PQ":"","REQUEST_DOMAIN":"us"},'SBOX_LABELS': {"SUGGESTION_DISMISSED_LABEL":"Suggestion dismissed","SUGGESTION_DISMISS_LABEL":"Remove"}});  yt.setConfig({
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vflXGlIMV\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vflQF5yB7.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?uilel=3\u0026service=youtube\u0026hl=en\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Den%26action_handle_signin%3Dtrue%26next%3D%252F%26app%3Ddesktop\u0026passive=true",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+      'YPC_MB_FLOW': true,
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?feature=purchases\u0026next=%2F\u0026skip_identity_prompt=True\u0026action_handle_signin=true",
+    'YPC_GB_LANGUAGE': "en_US",
+    'YPC_GB_URL': "https:\/\/checkout.google.com\/inapp\/lib\/buy.js",
+    'YPC_MB_URL': "https:\/\/payments.google.com\/payments\/v4\/js\/integrator.js?ss=md",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax",
+    'YTO_GTM_DATA': {"purchaseStatus":"success","event":"purchased"}
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "watch");
+ytcsi.setSpan('st', 198);yt.setConfig({'CSI_LOG_WITH_YT': true,'CSI_SERVICE_NAME': "youtube",'TIMING_ACTION': "watch,watch7ad_html5",'TIMING_INFO': {"yt_err":0,"cver":"1.20160427","yt_lt":"cold","e":"9405987,9406852,9416126,9416891,9422596,9427482,9428398,9429163,9431012,9431195,9431325,9431672,9431865,9432036,9432208,9432683,9433096,9433312,9433625,9433946,9433998,9434086,9434290,9434497,9435346,9435578","yt_spf":0,"c":"WEB","yt_ad":1,"yt_ad_an":"aftv,afv,dclk","yt_pl":0,"yt_li":0,"yt_ad_pr":1}});  yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqbVotMWo4MzliUVBxX0M0b3dmMzJ6YUVFTmhEUXxBQ3Jtc0tuZWNyUGhmU3p3aUlaQjZPclpQeE1OUmZ4QTB6ZkJPVWJBVFltbzZ2TGtXdGxTanozd3o5emczQ1pzREdCQ3JnU3gzQTBGaDlNZlEzVUtKM19YZE5LUnVidmxlUzFfazdjTWtpbTZkbW9PeDdZUUZHVGJkYUVhU1NadU96TjBBSmpJZ3l4U1JoR0E1U1ZWaExoYkprc2FzdnlERUE=",
+    'XSRF_REDIRECT_TOKEN': "6gty5J_LSRXf7VTG8SxITondgWN8MTQ2MTkwNDA3MkAxNDYxODE3Njcy",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+</body></html>

@@ -1,0 +1,1439 @@
+
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script>
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
+// if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+	var res=document.URL.replace("http://","http://m.");
+	
+	   window.location =res;
+
+  
+
+}
+/* if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+	   location.replace("http://YOUR-MOBILE-SITE.com");
+	} */
+
+</script>
+<script type="text/javascript" src="/js/jquery.1.4.2.min.js"></script>
+<script type="text/javascript">var ih_js = jQuery.noConflict();</script>
+<script type="text/javascript" src="/js/thickbox_full.js?ver=1.0.5"></script>
+<link rel="stylesheet" href="/css/thickbox.css?ver=1.0.4" type="text/css" media="screen"> 
+<script type="text/javascript">
+	ih_js(document).ready(function() {
+		setTimeout(yourFunction, 5000);
+		// check all check boxes
+		/*ih_js(window).error(function(e){
+			e.preventDefault();
+		});
+		try{
+		ih_js('.popup_form_box').find(':checkbox').each(function(){ console.log('added');
+				ih_js(this).attr('checked', true);
+		}); 
+		}catch(e){}
+		
+		*/// check all check boxes	
+	}); 
+	function yourFunction(){
+		var t = "title"
+		var a = "#TB_inline?height=auto&width=738&inlineId=popupContent&modal=false";
+		tb_show(t,a);    
+    setTimeout(yourFunction, 15000);
+	}
+	function regredirect(url){
+		window.location.href = 'http://investorshangout.com'+url;
+	}
+	function co_advertise(){
+		ih_js(window).error(function(e){
+    e.preventDefault();
+		});
+		try{
+		if (typeof passdata == 'function') { passdata(); }
+		}catch(e){}
+	}
+	
+	function submitform(obj)
+	{	// check function is exist or not
+		ih_js("#emessage").css({display:"none"});
+		if(ih_js("#joinform #termschk").is(":checked")){
+			var username = ih_js("#YumPopupregisterForm_username").val();
+			var email = ih_js("#YumProfile_email").val();
+			var password = ih_js("#YumPopupregisterForm_password").val();
+			ih_js.ajax({
+					url:'/popupregister',
+					type: 'POST',
+					data: {'YumPopupregisterForm[username]': ih_js.trim(username), 'YumProfile[email]': ih_js.trim(email), 'YumPopupregisterForm[password]': password},
+					dataType: 'json',
+					success: function(response){
+						if(response.success==1){
+							ih_js(window).error(function(e){
+								e.preventDefault();
+							});
+							try{
+								if (typeof validateoffers == 'function') { validateoffers();
+									 setTimeout(function(){ window.location.href = 'http://investorshangout.com'+response.url; }, 2000);
+								}else{
+									window.location.href = 'http://investorshangout.com'+response.url;
+								}
+							}catch(e){}
+							//window.location.href = ''+response.url;
+						}else{ // show error message
+							ih_js("#emessage").html(response.error);
+							ih_js("#emessage").css({display:"block"});
+						}
+					}
+			});
+		}else{
+			return false;
+		}
+	}
+	function submitpaypalform(obj)
+	{	// check function is exist or not
+		//alert("abcd");
+		ih_js("#emessage").css({display:"none"});
+		if(ih_js("#joinform #termschk").is(":checked")){
+			var username = ih_js("#YumPopupregisterForm_username").val();
+			var email = ih_js("#YumProfile_email").val();
+			var password = ih_js("#YumPopupregisterForm_password").val();
+			if (document.getElementById('month_plan').checked)
+				{
+				  plan = document.getElementById('month_plan').value;
+				}
+			if (document.getElementById('year_plan').checked) 
+				{
+				  plan = document.getElementById('year_plan').value;
+				}
+			if(plan==1)
+			{
+				var hosted_button_id='XRCNCV2M5K9VW';
+				var cmd='_s-xclick';
+			}
+			if(plan==2)
+			{
+				var hosted_button_id='YTA9PT23ZXJP8';
+				var cmd='_s-xclick';
+			}
+			ih_js.ajax({
+					url:'/popupregisterpaypal',
+					type: 'POST',
+					data: {'YumPopupregisterForm[username]': ih_js.trim(username), 'YumProfile[email]': ih_js.trim(email), 'YumPopupregisterForm[password]': password, 'hosted_button_id':hosted_button_id, 'cmd':cmd},
+					dataType: 'json',
+					crossDomain : true,
+					success: function(response){
+						if(response.success==1){
+							ih_js(window).error(function(e){
+								e.preventDefault();
+							});
+							try{
+								if (typeof validateoffers == 'function') { validateoffers();
+								setTimeout(function(){  window.location.href=response.url;},2000);
+								}else{
+									window.location.href=response.url;
+								}
+							}catch(e){}
+							//window.location.href = ''+response.url;
+						}else{ // show error message
+							ih_js("#emessage").html(response.error);
+							ih_js("#emessage").css({display:"block"});
+						}
+					}
+			});
+		}else{
+			return false;
+		}
+	}
+	function displaypaymentenable(obj)
+	{
+		ih_js("#payment_div").css({display:"block"});
+		ih_js("#registration_container").removeClass("registration_border1");
+		ih_js("#registration_container").addClass("registration_paypal");
+		
+		
+	}
+</script>
+<!-- cycle slider code -->
+<!-- cycle slider code end -->
+<title>CMG Stock | Chipotle Mexican Grill | Stock Message Board - Investors Hangout</title>
+<meta name="google-site-verification" content="EoR36pJ1xwoQCCldJu8nEfc30AUiQ0NhZGrPsifbCkg" />
+<meta name="msvalidate.01" content="FD24E2929C47C8280574A267EBEB7C50" />
+<meta name="description" content="CMG Stock, Chipotle Mexican Grill, CMG Stock Message Board, Last Post Date: 04/27/2016 5:01:28 AM, Total Posts: 68, New York Stock Exchange" />
+<meta name="keywords" content="CMG, Chipotle Mexican Grill, CMG stock chart, Chipotle Mexican Grill stock chart, stock chart, stocks, quotes, stock discussion, stock message board, finance,"/>
+<meta property="og:title" content="Chipotle Mexican Grill CMG Stock Message Board" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://investorshangout.com/Chipotle-Mexican-Grill-CMG-50556/" />
+<meta property="og:site_name" content="Investors Hangout" />
+<link rel="canonical" href="http://investorshangout.com/Chipotle-Mexican-Grill-CMG-50556/" />
+<link rel="alternate"  media="only screen and (max-width: 640px)" href="http://m.investorshangout.com/Chipotle-Mexican-Grill-CMG-50556/" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/board/boardfeeds?id=50556"/>
+<link rel="image_src" href="http://investorshangout.com/images/Investors-Hangout-Stock-Message-Boards-thumbnail-2015.png" alt="Stock Message Boards - Investors Hangout"/>
+<link href="http://investorshangout.com/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="http://investorshangout.com/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="http://investorshangout.com/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="http://investorshangout.com/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="http://investorshangout.com/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="http://investorshangout.com/icon-hires.png" rel="icon" sizes="192x192" />
+<link href="http://investorshangout.com/icon-normal.png" rel="icon" sizes="128x128" />
+<link href="/css/style.css" type="text/css" rel="stylesheet" />
+<!--<script type="text/javascript" src="/js/jquery.1.9.1.min.js"></script> -->
+	<script type="text/javascript">
+		function show(a,f,e,h) {
+			var a	=	document.getElementById(a);
+			var b=a.selectionStart;
+			var g=a.selectionEnd;
+			if(typeof(b)==="undefined"&&document.selection)
+			{
+				a.focus();
+				var c=document.selection.createRange();
+				if(c.parentElement()===a)
+				{
+					if(c.text)
+					{
+						c.text=f+c.text.replace(/http:\/\//i,"")+e;
+						c.select()
+					}
+					else
+					{
+						if(h==="+")
+						{
+							h="";
+						}
+						c.text=f+h+e;
+						c.moveStart("character",-h.length-e.length);
+						c.moveEnd("character",-h.length-e.length);
+						c.select()
+					}
+				}
+			}
+			else
+			{
+				var j;
+				if(b===g)
+				{
+					if(h==="+")
+					{
+						h="";
+					}
+					j=a.scrollTop;
+					a.value=a.value.substring(0,b)+f+h+e+a.value.substring(g,a.value.length);
+					a.focus();
+					a.setSelectionRange(g+f.length+h.length,g+f.length+h.length);
+					a.scrollTop=j;
+				}
+				else
+				{
+					var d=a.value.substring(b,g);
+					d=d.replace(/http:\/\//i,"");
+					var i=d.length-(g-b);
+					j=a.scrollTop;
+					a.value=a.value.substring(0,b)+f+d+e+a.value.substring(g,a.value.length);
+					a.focus();
+					a.setSelectionRange(g+f.length+e.length+i,g+f.length+e.length+i);
+					a.scrollTop=j
+				}
+			}return false
+		}
+	</script>
+	<script type="text/javascript">var site_url	=	''; </script>
+</head>
+
+<!--<div align="center" style="margin-top:8px; margin-bottom:8px;"><span style="font-size:23px; font-weight:bold; color:#060; text-decoration:underline;"><a style="font-size:23px; font-weight:bold; color:#060; text-decoration:underline;" href="http://investorshangout.com/post/view?id=3613452" target="_new">The Small Cap Stock Contest Entry Post - Win A T-Shirt! (Click Here)</a></span></div>-->
+
+<!--<div align="center" style="margin-top:8px; margin-bottom:8px;"><span style="font-size:17px; font-weight:bold; color:#060; text-decoration:underline;"><a style="font-size:17px; font-weight:bold; color:#060; text-decoration:underline;" href="http://investorshangout.com/2016-Presidential-Debate-91335/" target="_new">Roy wants to debate who should be the next president of the United States - (Click Here)</a></span></div>-->
+
+
+<body lang="en" dir="ltr">
+	<div id="super_wrapper">
+<div id="wrapper">
+  <div id="header">
+    <div class="ml_bg"></div>
+    <div class="mm_bg">
+      <div class="head_content"> 
+        <div style="padding-top:4px;" itemscope itemtype="http://schema.org/Organization" id="logo"><a itemprop="url" href="http://investorshangout.com"><img itemprop="logo" src="/images/Investors-Hangout-Stock-Message-Boards-Logo-1-2015.png" alt="Investors Hangout Stock Message Boards Logo"/></a></div>
+        <div id="menu">
+				<ul id="yw0">
+<li><a href="/">Home</a></li>
+<li><a href="/mailbox">Mailbox</a></li>
+<li><a href="/board">Boards</a></li>
+<li><a href="/board/favorite">Favorites</a></li>
+<li><a href="/whatshot/activeboard">Whats Hot!</a></li>
+<li><a class="thickbox" href="#TB_inline?height=auto&amp;width=738&amp;inlineId=popupContent&amp;modal=false">Login - Join Now!</a></li>
+</ul>        </div>
+        <div class="clear_all"></div>
+      </div>
+    </div>
+    <div class="mr_bg"></div>
+  </div>
+  <div id="main" style="padding-top:5px;">
+  <!-- commenting on 10-06 -->
+      <!--  <div id="left_advertise"> -->
+        <!--  <div class="board_add" align="center"> -->  <!-- </div> -->
+          <!-- </div> -->
+      <!-- till here 173 -->
+    <div style="float:left; width:600px;">
+      <div style="float:left">
+        <div id="google_translate_element"></div>
+      </div>
+            <div style="float:left; margin-top:8px; font-size:12px;">
+        <div class="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://investorshangout.com" rel="v:url" property="v:title">Home</a></span> > <span typeof="v:Breadcrumb"><a href="http://investorshangout.com/board" rel="v:url" property="v:title">Boards</a></span> > <span typeof="v:Breadcrumb"><a href="http://investorshangout.com/board" rel="v:url" property="v:title">Stock Boards</a></span> > <span typeof="v:Breadcrumb"><a href="http://investorshangout.com/board?categoryid=NYSE" rel="v:url" property="v:title">New York Stock Exchange</a></span> > <span typeof="v:Breadcrumb"><a href="/Chipotle-Mexican-Grill-CMG-50556/" rel="v:url" property="v:title">Chipotle Mexican Grill (CMG)</a></span></span></div>
+
+      </div>
+          </div>
+		<style>
+		#search_box .portlet{
+ 	 		float:left;
+			margin-right:5px;
+			width: 301px;
+		}
+		</style>
+		<!-- Search box -->
+		<div id="search_box"><div class="portlet" id="yw1">
+<div class="portlet-content">
+			<script type="text/javascript">
+				function SearchContent() {
+					var url = '/search';
+					var search_txt = document.getElementById('searchs').value;
+					if(search_txt=='') {
+						alert('Please enter search keyword');
+						return;
+					}
+					var search_type = document.getElementById("stype").value; 
+					url = url+'?q='+search_txt+'&type='+search_type+'&yt0=Go!';
+					window.location=url;
+				}
+	
+				function enterpress(e, input){
+						var code = (e.keyCode ? e.keyCode : e.which);
+						if(code == 13) { //Enter keycode
+						 SearchContent();
+						}
+				}
+			</script>
+			<input id="searchs" class="txt" type="text" name="q" value="Search" onblur="if(this.value == '') { this.value = 'Search'; }" onfocus="if(this.value == 'Search') { this.value = ''; }" onkeypress="enterpress(event, this);" style="width: 180px; height: 18px; float: left;" placeholder="">
+			<select id="stype" name="type" style="height:22.5px; float: left; padding:2px 0;">
+				<option value="1">Board</option>
+				<option value="2">Post</option>
+				<option value="3">Member</option>
+			</select>
+			<input type="submit" value="Go!" name="yt0" style="width:31px; padding:0 2px; height:22px; background-color:#476F97; color:#FFFFFF;" onclick="SearchContent();">
+				</div>
+</div>		
+		<div style="width: 90px; float: left;height:32px; margin-top:-6px;">
+		<!--IC 88x31-->
+		<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/searchbx/88x31.js?kval=searchbx' type='text/javascript' charset='utf-8'></script>
+		</div>
+	 </div>
+		<div style="clear:both"></div>
+    <div class="container">
+	<div id="content">
+		<link href="/css/pager.css" type="text/css" rel="stylesheet"/>
+
+<script type="text/javascript">
+	function showpageposts(url) {
+		$.get(url, function(data) {
+		  $('#boardpostslist').html(data);
+		});
+	}
+</script>
+<div class="content_wrapper subscribe">
+<style type="text/css" >
+.qmmt_main { background:#fff; border:1px solid #dddddd; width:500px; } 
+.qmmt_text { font: 10px  arial;color: #333333; padding:2px; text-align:left; }
+.qmmt_text_up { font: 10px  arial; color: #009900; }
+.qmmt_text_down	{ font: 10px  arial; color: #ff0000; }
+.qmmt_tab	{ font: 10px  arial; border:1px solid #ffffff; color:#666666; }
+.qmmt_tabactive { font: 10px  arial; border:1px solid #ffffff; }
+.qmmt_cycle	{ background-color:#f1f1f1; color: #333333; }
+.qmmt_header_text { font-family: arial, sans-serif; color: #333333; }
+.qmmt_header_bar { background-color:#fff; border:none; }
+a.qmmt { color: #666; text-decoration:none; }
+a:visited.qmmt{ color: #666; text-decoration:none; }
+a:hover.qmmt{ color: #000; text-decoration:none; }  
+.qmmt_exchangePopup_bg { background-color: #ffffff; border: 2px solid #dddddd; }
+#hideinfo{ display:none;}
+#com_info{  display:none;width:935px !important;margin-top:20px;}
+#showbanner{display:none;}
+#showquote{display:none;}
+</style>
+<script type="text/javascript">
+function toggleLayer(whichLayer){
+	if(whichLayer=='show')
+	{
+		document.getElementById('com_info').style.display='block';
+		document.getElementById('showinfo').style.display='none';
+		document.getElementById('hideinfo').style.display='block';
+			
+	}else{
+		document.getElementById('hideinfo').style.display='none';
+		document.getElementById('com_info').style.display='none';
+		document.getElementById('showinfo').style.display='block';
+	}
+}
+ function emailnotice(whichLayer,bid)
+	 {
+	  if(whichLayer=='showoff')
+		 {
+		    document.getElementById('boardon').style.display='block';
+				document.getElementById('boardoff').style.display='none';
+					$.ajax({  
+									 type: 'POST',  
+									 url: 'http://testing.investorshangout.com/post/test',
+									 data: {boardidoff:bid},  
+									 success: function()  
+										{} 
+			         });
+		  }
+		  else
+		  {
+		     document.getElementById('boardoff').style.display='block';
+				 document.getElementById('boardon').style.display='none';
+
+				 $.ajax({  
+								 type: 'POST',  
+								 url: 'http://testing.investorshangout.com/post/test',
+								 data: {boardidon:bid},  
+								 success: function()  
+									 {} 
+		           });
+		  }
+	}	  
+	
+	function toggleQuote(whichLayer)
+	 {
+	  if(whichLayer=='hideq')
+		  {
+				  document.getElementById('hidequote').style.display='none';
+					document.getElementById('com_quote').style.display='none';
+					document.getElementById('showquote').style.display='block';
+					 var cookieValue='1';
+					 var cookieName= 'hideme';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+		  else
+		  {
+				  document.getElementById('com_quote').style.display='block';
+					document.getElementById('showquote').style.display='none';
+					document.getElementById('hidequote').style.display='block';
+					var cookieValue='0';
+					 var cookieName= 'hideme';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+	}
+	
+	function toggleBanner(whichLayer)
+	 {
+	  if(whichLayer=='hideb')
+		  {
+				   
+					document.getElementById('hidebanner').style.display='none';
+					document.getElementById('board_banner').style.display='none';
+					document.getElementById('showbanner').style.display='block';
+					 var cookieValue='1';
+					 var cookieName= 'hidebanner';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+		  else
+		  {       
+				    document.getElementById('board_banner').style.display='block';
+					document.getElementById('showbanner').style.display='none';
+					document.getElementById('hidebanner').style.display='block';
+					var cookieValue='0';
+					 var cookieName= 'hidebanner';
+					 var nDays=2;
+					 var today = new Date();
+					 var expire = new Date();
+					 if (nDays==null || nDays==0) nDays=1;
+					 expire.setTime(today.getTime() + 3600000*24*nDays);
+					 document.cookie = cookieName+"="+escape(cookieValue)
+									 + ";expires="+expire.toGMTString();
+		  }
+	}	
+		  
+</script>
+<div id="board_advertise">
+    <div id="board_add"  align="center"> <div style="min-height:92px;">
+<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/728x90,970x90,970x250.js' type='text/javascript' charset='utf-8'></script>
+</div>
+ </div>
+  </div>
+<div style="clear:both"></div>
+<div id="board_msg" style=" font-size:14px; text-align:center;">
+   </div>
+ <style type="text/css" >
+#board_msg blockquote{
+	text-align:left; !important;
+}	
+</style>
+	
+<div class="boardview" style="background-color:#E6E8FA; padding:10px; -moz-border-radius:10px">
+  <!--Showboardinfoad-->
+<div align="center" style="padding-top:2px; padding-bottom:2px;">
+<div style="height:22px;">
+<!--<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/234x20.js?kval=content_ad' type='text/javascript' charset='utf-8'></script>-->
+</div>
+</div>	
+<!--Showboardinfoad-->
+   <!-- <div id="hideinfo1" style=" font-size:14px; margin:0px; text-align:center;"><a href="" >Hide Board Information</a></div> -->
+    <div id="hideinfo" style=" font-size:14px; margin:0px; text-align:center;"><a href="javascript:toggleLayer('hide');" id="hidecom">Hide Board Information</a></div>
+  <div id="showinfo" style="font-size:14px; margin:0px; text-align:center; " ><a href="javascript:toggleLayer('show');" id="showcom">Show Board Information</a></div>
+    
+  <div style="float:right; margin-bottom:5px; font-size:12px; ">
+    <script type="text/javascript" src="/js/live_clock.js"></script>
+    <script>function fun(){show_clock();} fun();</script>
+  </div>
+  <div style="clear:both"></div>
+  <!--<h1 style="margin:0 0 2px 0 !important; padding:0px !important;">-->
+  <div class="title" style="font-size:14px; " >
+ 
+    <div style="float:left;"><a class="board_name_tag"><h1>Chipotle Mexican Grill  CMG</h1></a></div>
+  
+    <div style="float:right;">
+      <a href="/board/boardfeeds?id=50556" id="f_link" 
+	   title="CMG RSS Feed"><img height="17px" width="40px" src="/images/rss.gif" alt="CMG RSS Feed" /></a>
+          </div>
+<script type="text/javascript">
+var addthis_share = addthis_share || {}
+addthis_share = {
+passthrough : {
+twitter: {
+text: "Chipotle Mexican Grill $CMG | Stock Message Board - Investors Hangout"
+}
+}
+}
+</script>
+    <div style="float:right; width:105px;">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox addthis_default_style "> <a class="addthis_button_preferred_1"></a> <a class="addthis_button_preferred_2"></a> <a class="addthis_button_preferred_3"></a> <a class="addthis_button_preferred_4"></a> <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4fb83d7e14ac1736" class="addthis_button_compact"></a> </div>
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fb83d7e14ac1736"></script>
+      <!-- AddThis Button END -->    
+    </div>
+  </div>
+  <div style="clear:both"></div>
+  <!--</h1>-->
+  <div class="author" style="font-size:12px;"> 
+  <div style="float:left">
+  <b>Board Mod: <span style="color:#1919FE;">
+   <a rel="nofollow" href="/profile/view?id=1444"><u>StockMarketFunding</u></a>    </span></b>
+	</div>
+	<div style="float:left; margin-left:5px;"><b>Asst Mods:</b><span style="color:#0080FF;">
+    	 </span></div>
+	 	<div style="clear:both"></div>
+	 </div>
+	 
+	<div id="board-last-post" class="last-post" style="font-size:12px;"> <b>Last Post: 04/27/2016 5:01:28 AM</b> </div>
+	<div class="board_marks" style="font-size:12px;"> <b>Board Marks: 8</b> </div>
+  <div class="post-count" style="font-size:12px;"> <b>Posts Today: 0</b> </div>
+  <div class="board-view-count" style="font-size:12px;"> <b>Board Views Today: 4</b> </div>
+
+  <div class="content">
+    <div id="com_info" style=" width:935px; overflow:hidden;">
+<!--belowshowboardad-->
+<div align="center" style="padding-top:10px; padding-bottom:10px;">
+  </div>
+<!--belowshowboardad-->	
+      <b> Chipotle Mexican Grill (NYSE: CMG) </b>  <br /> 
+<br /> 
+<b> Company Website: </b> <a href="http://www.chipotle.com/" title="http://www.chipotle.com/" target="_blank" rel="nofollow" class="parse_link">http://www.chipotle.com/</a> 	
+
+<!--belowshowboardad-->
+
+<!--belowshowboardad-->	
+<div style="font-size:14px; margin-top:20px;">
+<!--BoardDescriptionStockBoards-->
+
+<!--Quick Links Begin-->
+<div style="text-align:center;">
+<h2 style="font-size:15px; font-weight:bold;">Chipotle Mexican Grill (CMG) Research Links</h2>
+</div>
+<div align="center" style="padding-left:110px;">
+<style type="text/css">
+.board_info_research a:link {color:##0000FF; font-size:12px;} /* unvisited link */
+.board_info_research a:visited {color:#800080;} /* visited link */
+.board_info_research a:hover  /* mouse over link */
+.board_info_research a:active  /* selected link */
+  </style>
+<div align="left" style="margin-bottom:5px; overflow:hidden; padding-top:5px; max-width:992px; background:#E6E8FA">
+<div class="board_info_research" style=" float:left; padding:10px;">
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Company Profiles</h3>
+  <p><a href="http://www.otcmarkets.com/stock/CMG/company-info" rel="nofollow" target="_blank" title="OTC Markets">OTC Markets</a> , <a href="http://www.otcbb.com/asp/Info_Center.asp?symbol=CMG" rel="nofollow" target="_blank" title="OTCBB">OTCBB</a> , <a href="http://www.reuters.com/finance/stocks/companyProfile?symbol=CMG" rel="nofollow" target="_blank" title="Reuters">Reuters</a> , </p>
+  <p><a href="http://finance.yahoo.com/q/pr?s=CMG" rel="nofollow" target="_blank" title="Yahoo! Finance">Yahoo! Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Management</h3>
+  <p><a href="http://investing.businessweek.com/research/stocks/people/people.asp?ticker=CMG" title="Business Week" rel="nofollow" target="_blank">Business Week</a> , <a href="http://www.reuters.com/finance/stocks/companyOfficers?symbol=CMG" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="http://finance.yahoo.com/q/pr?s=CMG+Profile" title="Yahoo! Finance" rel="nofollow" target="_blank">Yahoo! Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Research Reports</h3>
+  <p><a href="http://www.reuters.com/finance/stocks/analystResearch?symbol=CMG" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="https://eresearch.fidelity.com/eresearch/goto/evaluate/analystsOpinions.jhtml?symbols=CMG" title="Fidelity" rel="nofollow" target="_blank">Fidelity</a> , <a href="http://www.thestreet.com/r/ratings/reports/analysis/CMG.html" title="The Street" rel="nofollow" target="_blank">The Street</a> , <a href="http://finance.yahoo.com/q/rr?s=CMG" title="Yahoo! Finance" rel="nofollow" target="_blank">Yahoo! Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Recent News</h3>
+  <p><a href="http://www.otcmarkets.com/stock/CMG/news" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.marketwire.com/news_room/advanced_search/" title="Market Wire" rel="nofollow" target="_blank">Market Wire</a> , <a href="http://www.businesswire.com/portal/site/home/search/?searchType=news&amp;searchTerm=CMG&amp;searchPage=1" title="Business Wire" rel="nofollow" target="_blank">Business Wire</a> ,</p>
+  <p><a href="http://www.prnewswire.com/search-results/news/CMG-180-days-page-1" title="PR News Wire" rel="nofollow" target="_blank">PR News Wire</a> , <a href="http://www.reuters.com/finance/stocks/companyNews?symbol=CMG" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="http://www.bloomberg.com/markets/symbolsearch?query=CMG" title="Bloomberg" rel="nofollow" target="_blank">Bloomberg</a> , </p>
+  <p><a href="https://news.google.com/news/search?q=CMG" title="Aggregated News at Google" rel="nofollow" target="_blank">Aggregated News at Google</a> , </p>
+  <p><a href="http://news.search.yahoo.com/search/news?p=CMG" title="Aggregated News at Yahoo!" rel="nofollow" target="_blank">Aggregated News at Yahoo!</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Financials</h3>
+  <p><a href="http://www.otcmarkets.com/stock/CMG/financials" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.google.com/finance?fstype=ii&amp;q=CMG" title="Google" rel="nofollow" target="_blank">Google</a> , <a href="http://investing.businessweek.com/research/stocks/financials/financials.asp?ticker=CMG" title="Business Week" rel="nofollow" target="_blank">Business Week</a> , </p>
+  <p><a href="http://investing.money.msn.com/investments/money-search?q=CMG&x=0&y=0&form=MONEY5&mkt=en-US&qs=n&sk=&sc=8-3" title="Money Central" rel="nofollow" target="_blank">Money Central</a> , <a href="http://www.reuters.com/finance/stocks/incomeStatement?symbol=CMG" title="Reuters" rel="nofollow" target="_blank">Reuters</a> , <a href="http://data.cnbc.com/quotes/CMG/tab/7" title="CNBC" rel="nofollow" target="_blank">CNBC</a></p>
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Earnings</h3>
+  <p><a href="http://investing.money.msn.com/investments/money-search?q=CMG&amp;x=0&amp;y=0&amp;form=MONEY5&amp;mkt=en-US&amp;qs=n&amp;sk=&amp;sc=8-3" title="MSN Money" rel="nofollow" target="_blank">MSN Money</a> , <a href="http://investing.businessweek.com/research/stocks/earnings/earnings.asp?ticker=CMG" title="Business Week" rel="nofollow" target="_blank">Business Week</a> , <a href="http://eresearch.fidelity.com/eresearch/evaluate/fundamentals/earnings.jhtml?stockspage=earnings&amp;symbols=CMG" title="Fidelity" rel="nofollow" target="_blank">Fidelity</a> , </p>
+  <p><a href="http://www.thestreet.com/find/results/index.html?q=CMG&amp;omorig=header" title="The Street" rel="nofollow" target="_blank">The Street</a> , <a href="http://www.earningswhispers.com/stocks.asp?symbol=CMG" title="Earnings Whisper" rel="nofollow" target="_blank">Earnings Whisper</a></p>
+</div>
+<div class="board_info_research" style="float:left; padding:10px;">    
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">SEC Filings</h3>
+  <p><a href="http://secsearch.sec.gov/search?utf8=?&amp;affiliate=secsearch&amp;query=CMG" title="SEC" rel="nofollow" target="_blank">SEC</a> , <a href="http://freeedgar.com/results/default.asp?cx=017929059329229388003%3At0nzbd312ts&amp;cof=FORID%3A11&amp;q=CMG#978" title="Free Edgar" rel="nofollow" target="_blank">Free Edgar</a> , <a href="http://www.otcmarkets.com/stock/CMG/filings" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.otcbb.com/asp/Info_Center.asp?symbol=CMG&amp;action=showFilingResults" title="OTCBB" rel="nofollow" target="_blank">OTCBB</a></p>
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Transcripts</h3>
+  <p><a href="http://www.morningstar.com/earnings/earnings-call-transcript.aspx?t=CMG&amp;region=USA&amp;culture=en-us" title="Morning Star" rel="nofollow" target="_blank">Morning Star</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Short Sale Data</h3>
+  <p><a href="http://www.otcmarkets.com/stock/CMG/short-sales" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.nasdaq.com/symbol/CMG/short-interest" title="NASDAQ" rel="nofollow" target="_blank">NASDAQ</a> , </p>
+  <p><a href="http://www.shortsqueeze.com/?symbol=CMG" title="Short Squeeze" rel="nofollow" target="_blank">Short Squeeze</a> , <a href="http://www.dailyfinance.com/company/company/CMG/nas/short-interest" title="Daily Finance" rel="nofollow" target="_blank"> Daily Finance</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Trading Info</h3>
+  <p><a href="http://www.tdameritrade.com/welcome3.html" title="Ameritrade" rel="nofollow" target="_blank">Ameritrade</a> , <a href="http://www.esignal.com/" title="Trading Software from E Signal" rel="nofollow" target="_blank">Trading Software from E Signal</a> , </p>
+  <p><a href="http://www.tradestation.com/default_2.shtm" title="Trading Software from Trade Station" rel="nofollow" target="_blank">Trading Software from Trade Station</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Is CMG a Buy?</h3>
+  <p><a href="http://quote.barchart.com/opinions/stocks/CMG" title="Barchart" rel="nofollow" target="_blank">Barchart</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Commentary</h3>
+  <p><a href="http://www.marketwatch.com/investing/stock/CMG/" title="Market Watch" rel="nofollow" target="_blank">Market Watch</a> , <a href="http://search.cnbc.com/main.do?keywords=CMG" title="CNBC" rel="nofollow" target="_blank">CNBC</a> , <a href="http://www.thestreet.com/find/results?q=CMG" title="The Street" rel="nofollow" target="_blank">The Street</a> ,</p>
+  <p><a href="http://www.zacks.com/search.php?q=CMG" title="Zacks" rel="nofollow" target="_blank">Zacks</a> , <a href="http://www.fool.com/search/solr.aspx?dataSource=article&amp;q=CMG" title="Motley Fool" rel="nofollow" target="_blank">Motley Fool</a> , <a href="http://247wallst.com/?s=CMG" title="24/7 Wall St." rel="nofollow" target="_blank">24/7 Wall St.</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Blogs</h3>
+  <p><a href="http://www.bloggingstocks.com/search/?q=CMG" title="Blogging Stocks" rel="nofollow" target="_blank">Blogging Stocks</a> , <a href="http://www.google.com/search?hl=en&amp;q=CMG&amp;tbm=blg" title="Google's Blog Search" rel="nofollow" target="_blank">Google's Blog Search</a> ,</p>
+  <p><a href="http://www.marketminute.com/search?q=CMG" title="Market Minute" rel="nofollow" target="_blank">Market Minute</a> , <a href="http://www.fool.com/search/solr.aspx?dataSource=blog&amp;q=CMG" title="Motley Fool" rel="nofollow" target="_blank">Motley Fool</a></p>
+</div>
+
+<div class="board_info_research" style="float:left; padding:10px;">
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Share Statistics</h3>
+  <p><a href="http://quote.barchart.com/profile.php?sym=CMG&amp;view=key_statistics" title="Barchart" rel="nofollow" target="_blank">Barchart</a> , <a href="http://eresearch.fidelity.com/eresearch/evaluate/fundamentals/keyStatistics.jhtml?stockspage=keyStatistics&amp;symbols=CMG" title="Fidelity" rel="nofollow" target="_blank">Fidelity</a> , <a href="http://finance.yahoo.com/q/ks?s=CMG" title="Yahoo! Finance" rel="nofollow" target="_blank">Yahoo! Finance</a> , </p>
+  <p><a href="http://www.smartmoney.com/quote/CMG/?story=keystatistics" title="Smart Money" rel="nofollow" target="_blank">Smart Money</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Share Holders</h3>
+  <p><a href="http://investors.morningstar.com/ownership/shareholders-overview.html?t=CMG" title="Morningstar" rel="nofollow" target="_blank">Morningstar</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Quotes</h3>
+  <p><a href="http://www.otcmarkets.com/stock/CMG/quote" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.barchart.com/quotes/stocks/CMG" title="Barchart" rel="nofollow" target="_blank">Barchart</a></p>
+  
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Technical Analysis</h3>
+  <p><a href="http://www.barchart.com/technicals/stocks/CMG" title="Barchart" rel="nofollow" target="_blank">Barchart</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Stock Charts</h3>
+  <p><a href="http://www.otcmarkets.com/stock/CMG/chart" title="OTC Markets" rel="nofollow" target="_blank">OTC Markets</a> , <a href="http://www.google.com/finance?q=CMG" title="Google" rel="nofollow" target="_blank">Google</a> , <a href="http://stockcharts.com/h-sc/ui?s=CMG" title="Stock Charts" rel="nofollow" target="_blank">Stock Charts</a> , </p>
+  <p><a href="http://bigcharts.marketwatch.com/advchart/frames/frames.asp?symb=CMG" title="Big Charts" rel="nofollow" target="_blank">Big Charts</a> , <a href="http://www.stockta.com/cgi-bin/analysis.pl?symb=CMG" title="Stock TA" rel="nofollow" target="_blank">Stock TA</a> , <a href="http://www.barchart.com/charts/stocks/CMG&amp;style=technical" title="Barchart" rel="nofollow" target="_blank">Barchart</a> ,</p>
+  <p><a href="http://investing.money.msn.com/investments/money-search?q=CMG&amp;x=0&amp;y=0&amp;form=MONEY5&amp;mkt=en-US&amp;qs=n&amp;sk=&amp;sc=8-3" title="MSN Money" rel="nofollow" target="_blank">MSN Money</a> , <a href="http://ycharts.com/companies/CMG" title="Y Charts" rel="nofollow" target="_blank">Y Charts</a> , <a href="http://www.investorguide.com/stock-charts.php?ticker=CMG" title="Investor Guide" rel="nofollow" target="_blank">Investor Guide</a> ,</p>
+  <p><a href="http://finviz.com/quote.ashx?t=CMG" title="FinViz" rel="nofollow" target="_blank">FinViz</a> , <a href="http://clearstation.etrade.com/cgi-bin/details?Symbol=CMG" title="Clear Station" rel="nofollow" target="_blank">Clear Station</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Free Level 2</h3>
+  <p><a href="http://www.aistockcharts.com/level-2-stock-quotes.html" title="AIStockCharts" rel="nofollow" target="_blank">AIStockCharts</a> , <a href="http://www.level2stockquotes.com/level-ii-quotes.html" title="Level2StockQuotes" rel="nofollow" target="_blank">Level2StockQuotes</a></p>
+
+  <h3 style="font-weight:bold; color:#000; font-size:14px;">Search Investors Hangout</h3>
+  <p><a href="https://www.google.com/#psj=1&q=site:investorshangout.com+CMG" title="Search Investors Hangout" rel="nofollow" target="_blank">Search Investors Hangout</a></p>
+
+</div>
+</div>
+</div>
+
+
+<!--Quick Links End-->
+
+
+<div style="text-align:center;">
+<h2 style="font-size:15px; font-weight:bold;">Chipotle Mexican Grill (CMG) Stock Message Board</h2>
+<img style="padding-top:15px;" src="http://investorshangout.com/images/stocks/logo-CMG%20Stock%20Message%20Board-40-83-0-17-fff-792015" width="360" height="144">
+</div>
+
+<!--BoardDescriptionStockBoards-->
+<!--BoardDescriptionTSXStockBoards-->
+<!--BoardDescriptionTSXStockBoards-->
+<!--BoardDescriptionOtherStockBoards-->
+<!--BoardDescriptionOtherStockBoards-->
+<!--boardinfoad-->
+<div id="below_rank" align="center" style="width:956px; background-color:#E6E8FA;">
+</div>
+<!--boardinfoad-->
+		 
+      </div>
+  </div>
+	
+			
+  	<div id="com_quote">
+
+<div style="float:right; padding-top:10px; padding-bottom:10px; height:auto; width:300px; min-height:250px;">
+			<!--IC 300x250-->
+            
+<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/300x250.js' type='text/javascript' charset='utf-8'></script>
+			
+</div>
+      <div style="background-color:#E6E8FA; padding:10px 10px 10px 5px;">      
+
+       <script language="javascript" type="text/javascript" src="http://app.quotemedia.com/quotetools/detailedQuoteTabCharts.go?webmasterId=101503&symbol=CMG&toolWidth=600&chscale=1d&chbg=ffffff&chbgch=ffffff&chgrd=dddddd&chln=333333&chbdr=cccccc&chfill=cc5D92B1&chfill2=5D92B1">
+			</script>
+
+
+                         <!-- below chart ad-->
+
+      </div>
+
+<!--stockboardotclinks-->
+<!--belowchartad-->
+<div align="center" style="padding-top:10px; padding-bottom:10px;"></div>
+<!--belowchartad-->
+<div style="clear:both;"></div>
+<div id="board_namesmb" align="center" style="width:900px; font-size:12px; font-weight:bold; padding-bottom:10px; padding-top:10px;">
+		<a style="padding-right:20px;" href="http://www.otcmarkets.com/stock/CMG/company-info" title="CMG Company Info" rel="nofollow" target="_new"><span id="ihb_ticker">CMG</span> Company Info</a>
+ 		<a href="http://www.otcmarkets.com/stock/CMG/news" title="CMG News" rel="nofollow" target="_new">CMG News</a> 		
+		<span style="color:#0000FD; padding-left:20px; position:relative; padding-right:90px;">Trade CMG With <span style="right:0px; position: absolute;top: -7px; width:90px;"><script src='http://ads.investingchannel.com/adtags/InvestorsHangout/tradenow/88x31.js?kval=tradenow' type='text/javascript' charset='utf-8'></script></span></span>
+		<a style="padding-left:20px;" href="http://www.otcmarkets.com/stock/CMG/filings" title="CMG Filings" rel="nofollow" target="_new">CMG Filings</a>
+	  <a style="padding-left:20px;" href="http://www.otcmarkets.com/stock/CMG/financials" title="CMG Financials" rel="nofollow" target="_new">CMG Financials</a>
+		<a style="padding-left:20px;" href="http://www.otcmarkets.com/stock/CMG/short-sales" title="CMG Short Sales" rel="nofollow" target="_new">CMG Short Sales</a>
+</div>
+
+<!--stockboardotclinks-->
+
+<!--newsfeeds-->
+<!--newsfeeds-->
+</div>
+                <div style="float:right; font-size:8px; padding-top:10px;">
+    <div id="hidequote" style=" font-size:12px;"><a href="javascript:toggleQuote('hideq');" id="hidecom">Hide Quote</a></div>
+    <div id="showquote" style="font-size:12px;"><a href="javascript:toggleQuote('showq');" id="showcom">Show Quote</a></div>
+  </div>
+  </div>
+<div style="clear:both"></div>
+</div><div style="clear:both"></div>
+		<div class="posts_menu">
+			<span class="postpost"><a href="/post/newpost/50556/">Create New Post</a></span>
+			<span class="postallpost">
+			<a href="/post/viewall?id=50556">View All Posts</a></span>
+						<span class="favorite"><a href="/board/follow/50556">Board Mark</a></span>
+			<span  class="banned" ><a href="/board/banneduser?id=50556">Banned</a></span>
+		</div>
+		<!--<div id="boardpostslist" class="board-posts forums"> -->
+				<script type="text/javascript">
+    function SearchPost(number){
+		var num=number;
+			if(num==1){
+				 window.location="/Chipotle-Mexican-Grill-CMG-50556/?search_id=mid_search";
+			}
+			else{
+				var txt = document.myForm.myText.value;
+			 window.location="/Chipotle-Mexican-Grill-CMG-50556/?search_id="+txt;
+			}
+	  } 
+</script>
+<div class="table_heading">
+  <div class="head_title" style="width:60px;">Post</div>
+  <div class="head_title" style="width:496px;">
+		<span id="spansub_head">Subject</span>
+		<span id="searchbx_post">
+		<span class="search_text">Search:</span>
+			<form name="myForm" method="post" action="javascript:SearchPost(1)">
+			  <input type="text" value="" name="myText" onBlur="SearchPost(2)" id="postid" />
+			</form>
+		</span>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="head_title" style="width:196px;">Author</div>
+	<div class="head_title" style="width:198px;">Posted On </div>
+	<div style="clear:both;"></div>
+</div>
+<div class="grid-view">
+  <table style="width:100%" cellpadding="2" cellspacing="0" class="items">  
+  <!-- generate sticy post data first -->
+			
+<!-- now show normal posts -->
+  		<tr id="post-68" class="even post-container">
+						<td id="post-id-3713442" align="left" width="55px" style="padding:4px;">
+					68				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3713442">$CMG For the first quarter, CMG had said it</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23803">Hattlem</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/27/2016 5:01:28 AM				</td>
+			</tr>
+					<tr id="post-67" class="odd post-container">
+						<td id="post-id-3605239" align="left" width="55px" style="padding:4px;">
+					67				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3605239">$CMG getting selling put spreads at open then</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23803">Hattlem</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						03/09/2016 4:57:37 AM				</td>
+			</tr>
+					<tr id="post-66" class="even post-container">
+						<td id="post-id-3578674" align="left" width="55px" style="padding:4px;">
+					66				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3578674">This is priming for a BIG drop!</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/26/2016 5:08:50 AM				</td>
+			</tr>
+					<tr id="post-65" class="odd post-container">
+						<td id="post-id-3569522" align="left" width="55px" style="padding:4px;">
+					65				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3569522">Friday's high of $526.23 (as well as the two gap <img src=/images/thumb-up.png height=15px><span style='color:#475472; font-size:10px; padding-left:2px; position:relative; top:-2px;'>(1)</span></a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/23/2016 4:23:30 AM				</td>
+			</tr>
+					<tr id="post-64" class="even post-container">
+						<td id="post-id-3553524" align="left" width="55px" style="padding:4px;">
+					64				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3553524">when is next ER? Please.</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/16/2016 4:05:03 AM				</td>
+			</tr>
+					<tr id="post-63" class="odd post-container">
+						<td id="post-id-3531340" align="left" width="55px" style="padding:4px;">
+					63				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3531340">$CMG is already down 38.52% from its 52 week</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27466">AlwaysTrading</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/05/2016 11:11:08 AM				</td>
+			</tr>
+					<tr id="post-62" class="even post-container">
+						<td id="post-id-3530398" align="left" width="55px" style="padding:4px;">
+					62				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3530398">Don't fall for the analyst upgrades this company</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/05/2016 4:38:45 AM				</td>
+			</tr>
+					<tr id="post-61" class="odd post-container">
+						<td id="post-id-3530016" align="left" width="55px" style="padding:4px;">
+					61				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3530016">Smokey, people get sick everyday from eating out.</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27466">AlwaysTrading</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/04/2016 11:53:45 PM				</td>
+			</tr>
+					<tr id="post-60" class="even post-container">
+						<td id="post-id-3524417" align="left" width="55px" style="padding:4px;">
+					60				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3524417">$CMG I think it is arrogant and wrong to still</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/03/2016 4:48:19 AM				</td>
+			</tr>
+					<tr id="post-59" class="odd post-container">
+						<td id="post-id-3508297" align="left" width="55px" style="padding:4px;">
+					59				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3508297">$CMG Sold half at $436. Letting the rest ride for</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/27/2016 4:23:45 AM				</td>
+			</tr>
+					<tr id="post-58" class="even post-container">
+						<td id="post-id-3496495" align="left" width="55px" style="padding:4px;">
+					58				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3496495">I lied & got another burrito. My goodness. Needed</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/22/2016 4:53:36 AM				</td>
+			</tr>
+					<tr id="post-57" class="odd post-container">
+						<td id="post-id-3481916" align="left" width="55px" style="padding:4px;">
+					57				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3481916">Smokey, at yesterdays ICR Conference in Orlando,</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27466">AlwaysTrading</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/14/2016 10:56:09 AM				</td>
+			</tr>
+					<tr id="post-56" class="even post-container">
+						<td id="post-id-3467344" align="left" width="55px" style="padding:4px;">
+					56				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3467344">CMG up +0.41% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/08/2016 10:57:11 AM				</td>
+			</tr>
+					<tr id="post-55" class="odd post-container">
+						<td id="post-id-3466676" align="left" width="55px" style="padding:4px;">
+					55				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3466676">I think it is too late imo. Gonna bounce soon if</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28723">pm5000</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/08/2016 6:27:54 AM				</td>
+			</tr>
+					<tr id="post-54" class="even post-container">
+						<td id="post-id-3466674" align="left" width="55px" style="padding:4px;">
+					54				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3466674">Very good point. The news is making it sound like</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27864">amy h</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/08/2016 6:26:29 AM				</td>
+			</tr>
+					<tr id="post-53" class="odd post-container">
+						<td id="post-id-3466654" align="left" width="55px" style="padding:4px;">
+					53				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3466654">You'd have to have balls the size of the bull on</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=27466">AlwaysTrading</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/08/2016 5:54:20 AM				</td>
+			</tr>
+					<tr id="post-52" class="even post-container">
+						<td id="post-id-3466642" align="left" width="55px" style="padding:4px;">
+					52				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3466642">$CMG What do you guys think about shorting at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23823">smokey1977</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/08/2016 5:35:57 AM				</td>
+			</tr>
+					<tr id="post-51" class="odd post-container">
+						<td id="post-id-3464055" align="left" width="55px" style="padding:4px;">
+					51				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3464055">Steinmeyer Law laun</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=28679">vectorinformatics</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/06/2016 9:18:27 PM				</td>
+			</tr>
+					<tr id="post-50" class="even post-container">
+						<td id="post-id-3459580" align="left" width="55px" style="padding:4px;">
+					50				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3459580">CMG up +0.75% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/05/2016 10:36:52 AM				</td>
+			</tr>
+					<tr id="post-49" class="odd post-container">
+						<td id="post-id-3449517" align="left" width="55px" style="padding:4px;">
+					49				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3449517">CMG 484.19 Chipotle Mexican Grill is number 85</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/30/2015 2:53:09 PM				</td>
+			</tr>
+					<tr id="post-48" class="even post-container">
+						<td id="post-id-3448078" align="left" width="55px" style="padding:4px;">
+					48				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3448078">$CMG same stock price now as 10/2013 when EPS was</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=23803">Hattlem</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/30/2015 5:40:02 AM				</td>
+			</tr>
+					<tr id="post-47" class="odd post-container">
+						<td id="post-id-3434692" align="left" width="55px" style="padding:4px;">
+					47				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3434692">CMG 522.01 Chipotle Mexican Grill $CMG Hit a 52</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9056">Emylers</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/21/2015 5:06:35 PM				</td>
+			</tr>
+					<tr id="post-46" class="even post-container">
+						<td id="post-id-3422231" align="left" width="55px" style="padding:4px;">
+					46				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3422231">CMG up +0.88% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/16/2015 2:37:17 PM				</td>
+			</tr>
+					<tr id="post-45" class="odd post-container">
+						<td id="post-id-3414842" align="left" width="55px" style="padding:4px;">
+					45				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3414842">CMG 557.53 Chipotle Mexican Grill is number 84</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=7204">Langan</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/14/2015 12:03:09 PM				</td>
+			</tr>
+					<tr id="post-44" class="even post-container">
+						<td id="post-id-3078470" align="left" width="55px" style="padding:4px;">
+					44				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=3078470">CMG up +0.36% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						07/28/2015 12:21:48 AM				</td>
+			</tr>
+					<tr id="post-43" class="odd post-container">
+						<td id="post-id-2932010" align="left" width="55px" style="padding:4px;">
+					43				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2932010">CMG up +0.80% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/09/2015 12:18:59 AM				</td>
+			</tr>
+					<tr id="post-42" class="even post-container">
+						<td id="post-id-2919032" align="left" width="55px" style="padding:4px;">
+					42				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2919032">CMG up +0.61% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/04/2015 12:15:11 PM				</td>
+			</tr>
+					<tr id="post-41" class="odd post-container">
+						<td id="post-id-2918898" align="left" width="55px" style="padding:4px;">
+					41				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2918898">CMG Stock Gapped up +2.28 $CMG Last Price 637.44</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9057">jim50</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/04/2015 12:05:07 PM				</td>
+			</tr>
+					<tr id="post-40" class="even post-container">
+						<td id="post-id-2915508" align="left" width="55px" style="padding:4px;">
+					40				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2915508">CMG up +1.70% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						05/01/2015 12:26:04 PM				</td>
+			</tr>
+					<tr id="post-39" class="odd post-container">
+						<td id="post-id-2890505" align="left" width="55px" style="padding:4px;">
+					39				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2890505">CMG Stock Gapped up +0.45 $CMG Last Price 692.52</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9057">jim50</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/21/2015 6:29:34 PM				</td>
+			</tr>
+					<tr id="post-38" class="even post-container">
+						<td id="post-id-2890210" align="left" width="55px" style="padding:4px;">
+					38				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2890210">CMG up +0.81% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/21/2015 5:51:43 PM				</td>
+			</tr>
+					<tr id="post-37" class="odd post-container">
+						<td id="post-id-2877913" align="left" width="55px" style="padding:4px;">
+					37				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2877913">CMG up +0.35% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/17/2015 8:59:48 PM				</td>
+			</tr>
+					<tr id="post-36" class="even post-container">
+						<td id="post-id-2874106" align="left" width="55px" style="padding:4px;">
+					36				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2874106">CMG 687.09 Chipotle Mexican Grill $CMG stock</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9061">clayton</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/15/2015 2:13:59 PM				</td>
+			</tr>
+					<tr id="post-35" class="odd post-container">
+						<td id="post-id-2872752" align="left" width="55px" style="padding:4px;">
+					35				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2872752">CMG up +0.99% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/15/2015 10:31:57 AM				</td>
+			</tr>
+					<tr id="post-34" class="even post-container">
+						<td id="post-id-2868485" align="left" width="55px" style="padding:4px;">
+					34				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2868485">CMG Stock is number 238 for the largest</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9064">danrocks</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/13/2015 3:15:32 PM				</td>
+			</tr>
+					<tr id="post-33" class="odd post-container">
+						<td id="post-id-2857178" align="left" width="55px" style="padding:4px;">
+					33				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2857178">CMG up +4.08% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/10/2015 10:31:14 AM				</td>
+			</tr>
+					<tr id="post-32" class="even post-container">
+						<td id="post-id-2856843" align="left" width="55px" style="padding:4px;">
+					32				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2856843">CMG 665.48 Chipotle Mexican Grill $CMG stock</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9061">clayton</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/10/2015 9:53:04 AM				</td>
+			</tr>
+					<tr id="post-31" class="odd post-container">
+						<td id="post-id-2856812" align="left" width="55px" style="padding:4px;">
+					31				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2856812">CMG Stock Gapped up +14.66 $CMG Last Price 669.16</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9057">jim50</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						04/10/2015 9:46:06 AM				</td>
+			</tr>
+					<tr id="post-30" class="even post-container">
+						<td id="post-id-2813437" align="left" width="55px" style="padding:4px;">
+					30				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2813437">CMG up +0.58% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						03/20/2015 10:40:46 AM				</td>
+			</tr>
+					<tr id="post-29" class="odd post-container">
+						<td id="post-id-2787728" align="left" width="55px" style="padding:4px;">
+					29				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2787728">CMG up +0.61% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						03/13/2015 7:12:43 PM				</td>
+			</tr>
+					<tr id="post-28" class="even post-container">
+						<td id="post-id-2745603" align="left" width="55px" style="padding:4px;">
+					28				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2745603">CMG up +0.91% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						03/02/2015 10:40:00 AM				</td>
+			</tr>
+					<tr id="post-27" class="odd post-container">
+						<td id="post-id-2718536" align="left" width="55px" style="padding:4px;">
+					27				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2718536">CMG 670.74 Chipotle Mexican Grill $CMG stock</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9061">clayton</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/25/2015 12:26:58 PM				</td>
+			</tr>
+					<tr id="post-26" class="even post-container">
+						<td id="post-id-2717537" align="left" width="55px" style="padding:4px;">
+					26				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2717537">CMG up +0.96% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/25/2015 10:35:22 AM				</td>
+			</tr>
+					<tr id="post-25" class="odd post-container">
+						<td id="post-id-2686113" align="left" width="55px" style="padding:4px;">
+					25				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2686113">CMG up +0.72% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/19/2015 10:44:33 AM				</td>
+			</tr>
+					<tr id="post-24" class="even post-container">
+						<td id="post-id-2640039" align="left" width="55px" style="padding:4px;">
+					24				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2640039">CMG up +0.83% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/11/2015 10:36:47 AM				</td>
+			</tr>
+					<tr id="post-23" class="odd post-container">
+						<td id="post-id-2636687" align="left" width="55px" style="padding:4px;">
+					23				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2636687">CMG 652.26 Chipotle Mexican Grill $CMG stock</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9061">clayton</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/10/2015 3:24:53 PM				</td>
+			</tr>
+					<tr id="post-22" class="even post-container">
+						<td id="post-id-2634464" align="left" width="55px" style="padding:4px;">
+					22				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2634464">CMG up +0.55% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						02/10/2015 10:53:11 AM				</td>
+			</tr>
+					<tr id="post-21" class="odd post-container">
+						<td id="post-id-2590139" align="left" width="55px" style="padding:4px;">
+					21				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2590139">CMG up +1.36% percent Today $CMG Stock High is at</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9544">Lucky Jimmy</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						01/26/2015 9:42:36 PM				</td>
+			</tr>
+					<tr id="post-20" class="even post-container">
+						<td id="post-id-2399963" align="left" width="55px" style="padding:4px;">
+					20				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2399963">CMG 664.50 Chipotle Mexican Grill $CMG stock</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9061">clayton</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/05/2014 11:02:19 AM				</td>
+			</tr>
+					<tr id="post-19" class="odd post-container">
+						<td id="post-id-2370656" align="left" width="55px" style="padding:4px;">
+					19				</td>
+								<td class="post-content"><a class="post-title" href="/post/view?id=2370656">CMG Stock Gapped up +0.32 $CMG Last Price 664.66</a></td>
+				<td align="left" width="195px" class="post-author">
+					<a href="/profile/view?id=9057">jim50</a>				</td>
+				<td align="left" width="198px" class="post-date">
+						12/01/2014 10:59:46 AM				</td>
+			</tr>
+					  </table>
+    	<div style="float:right">
+    		 	 <a href="http://investorshangout.com">Login</a> to continue reading.	
+  		</div>
+</div>
+<div style="clear:both"></div>
+</div>
+ <div id="board_advertise">
+	</div>	</div><!-- content -->
+</div>
+    <div style="clear:both"></div>
+  </div>
+  
+	<div align="center">
+	
+<!-- context -->
+			
+	
+	<div style="background-color:#FFF; margin-top:-10px; margin-right:14px; margin-left:14px;">
+		<div id="board_advertise">
+			<div id="board_add" align="center">
+            
+		<span style="width:302px; height:254px; display: inline-block;">
+		<script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=546343&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=124651"></script>
+		</span>
+		<span style="width:302px; height:254px; display: inline-block;">
+		<script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=546343&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=140931"></script>
+		</span>
+		<span style="width:302px; height:254px; display: inline-block;">
+		<script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=546343&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=140934"></script>
+		</span>
+
+			</div>
+		</div>
+	</div>
+	
+    <div align="left" style="margin-bottom:5px; overflow:hidden; padding-top:10px; max-width:992px; background:#4D6D94">
+			<div align="center" style="padding:5px;"></div>   
+      <div class="bottom_footer" style=" float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Investors Hangout</p>
+        <p><a href="http://investorshangout.com/" title="Investors Hangout - Home">Home</a></p>
+        <p><a href="http://investorshangout.com/mailbox" title="Investors Hangout - Mailbox">Mailbox</a></p>
+        <p><a href="http://investorshangout.com/board" title="Investors Hangout - Boards">Boards</a></p>
+        <p><a href="http://investorshangout.com/board/favorite" title="Investors Hangout - Favorites">Favorites</a></p>
+        <p><a href="http://investorshangout.com/whatshot/activeboard" title="Investors Hangout - Most Active Stock Message Boards">Whats Hot</a></p>
+        <p><a href="http://investorshangout.com/setting" title="Investors Hangout - Settings">Settings</a></p>
+        <p><a href="http://investorshangout.com/adpage" title="Investors Hangout - Ad Page">Ad Page</a></p>
+        <p><a href="http://investorshangout.com/privacy" title="Investors Hangout - Privacy Policy">Privacy Policy</a></p>
+        <p><a href="http://investorshangout.com/termsandcondition" title="Investors Hangout - Terms and Conditions">Terms and Conditions</a></p>
+        <p><a href="http://investorshangout.com/disclaimer" title="Investors Hangout - Disclaimer">Disclaimer</a></p>
+        <p><a href="http://investorshangout.com/contact" title="Investors Hangout - Contact Us">Contact Us</a></p>
+      </div>
+      <div class="bottom_footer" style="float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Whats Hot</p>
+        <p><a href="http://investorshangout.com/whatshot/activeboard" title="Investors Hangout - Recent Activity">Recent Activity</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostviewedboard" title="Investors Hangout - Top 100 Most Viewed Boards Today">Most Viewed Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostviewedpost" title="Investors Hangout - Top 50 Most Viewed Posts Today">Most Viewed Posts</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostposted" title="Investors Hangout - Top 25 Most Posted Boards Today">Most Posted Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/mostfollowed" title="Investors Hangout - Most Followed Members">Most Followed</a></p>
+        <p><a href="http://investorshangout.com/whatshot/topboard" title="Investors Hangout - Most Followed Boards">Top Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/newestboard" title="Investors Hangout - Newest Boards">Newest Boards</a></p>
+        <p><a href="http://investorshangout.com/whatshot/newestmembers" title="Investors Hangout - Newest Members">Newest Members </a></p>
+      </div>
+      <div class="bottom_footer" style="float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Investors Hangout Message Boards</p>
+        <p><a href="http://investorshangout.com/board?categoryid=WIH" title="Investors Hangout - Welcome To Investors Hangout">Welcome To Investors Hangout</a></p>
+        <p style="font-weight:bold; color:#FFF">Stock Message Boards</p>
+        <p><a href="http://investorshangout.com/board?categoryid=AMEX" title="Investors Hangout - American Stock Exchange (AMEX)">American Stock Exchange (AMEX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=NASDAQ" title="Investors Hangout - NASDAQ Stock Exchange (NASDAQ)">NASDAQ Stock Exchange (NASDAQ)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=NYSE" title="Investors Hangout - New York Stock Exchange (NYSE)">New York Stock Exchange (NYSE)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=OTC" title="Investors Hangout - OTC BB &amp; Pinks (US OTC)">OTC BB &amp; Pinks (US OTC)</a></p>
+        <p style="font-weight:bold; color:#FFF">User Boards</p>
+        <p><a href="http://investorshangout.com/board?categoryid=Hangout" title="Investors Hangout - The Hangout">The Hangout</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=PB" title="Investors Hangout - Private">Private</a></p>
+      </div>
+      <div class="bottom_footer" style="float:left; padding:10px;">
+        <p style="font-weight:bold; color:#FFF">Global Markets</p>
+        <p><a href="http://investorshangout.com/board?categoryid=ASX" title="Investors Hangout - Australian Securities Exchange (ASX)">Australian Securities Exchange (ASX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=AMS" title="Investors Hangout - Euronext Amsterdam (AMS)">Euronext Amsterdam (AMS)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=BRU" title="Investors Hangout - Euronext Brussels (BRU)">Euronext Brussels (BRU)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=LIS" title="Investors Hangout - Euronext Lisbon (LIS)">Euronext Lisbon (LIS)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=PAR" title="Investors Hangout - Euronext Paris (PAR)">Euronext Paris (PAR)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=FOREX" title="Investors Hangout - Foreign Exchange (FOREX)">Foreign Exchange (FOREX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=HKEX" title="Investors Hangout - Hong Kong Stock Exchange (HKEX)">Hong Kong Stock Exchange (HKEX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=LSE" title="Investors Hangout - London Stock Exchange (LSE)">London Stock Exchange (LSE)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=MLSE" title="Investors Hangout - Milan Stock Exchange (MLSE)">Milan Stock Exchange (MLSE)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=NZX" title="Investors Hangout - New Zealand Exchange (NZX)">New Zealand Exchange (NZX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=SGX" title="Investors Hangout - Singapore Stock Exchange (SGX)">Singapore Stock Exchange (SGX)</a></p>
+        <p><a href="http://investorshangout.com/board?categoryid=TSX" title="Investors Hangout - Toronto Stock Exchange (TSX)">Toronto Stock Exchange (TSX)</a></p>
+      </div>
+      <div class="clear_all"></div>
+      <div align="center" style="padding:5px;"></div>
+      <div align="center" style="padding:5px;"></div>
+    </div>
+  </div>
+  
+       
+  <div id="footer">
+    <div class="footer_text">
+      <div class="fl_bg"></div>
+      <div class="fm_bg">
+        <div class="footer_content">
+          <p>© 2016 Copyright Investors Hangout, LLC All Rights Reserved.</p>
+          <div class="links" style=" width:640px;">
+			<b>      		       		<a href="http://m.investorshangout.com/Chipotle-Mexican-Grill-CMG-50556/">Mobile Site </a></b> <b>|<a href="/shop">Shop </a></b>  <b>|<a href="/adpage">Ad Page </a></b>   <b>|<a href="/privacy">Privacy Policy </a></b>  <b>| <a href="/termsandcondition">Terms and Conditions</a></b>  <b>| <a href="/disclaimer ">Disclaimer</a></b>  <b>| <a href="/help ">Help</a></b>  <b>| <a href="/contact">Contact Us</a></b>
+		  </div>
+      <div class="clear_all"></div>
+		  <b><p class="footer_sitedetail" style="line-height:18px; margin:0; float:none; font-size:8px; padding-top: 8px; text-align:center;">Financial Market Data powered by <a href="http://www.quotemedia.com" style="color:#FFFFFF;" rel="nofollow"><u>Quotemedia.com</u></a>. All rights reserved. <a href="http://www.quotemedia.com/termsofuse.php" style="color:#FFFFFF;" rel="nofollow"><u>View the Terms</u></a> of Use.NYSE/AMEX data delayed 20 minutes. NASDAQ and other data delayed 15 minutes unless indicated.</p></b>
+        </div>
+        <div class="clear_all"></div>
+      </div>
+      <div class="fr_bg"></div>
+    </div>
+  
+ 
+   <!-- for mobile -->
+	<!-- <div id="board_advertise"> -->
+	<!--   </div> -->
+    	
+    	  
+<!-- end mobile -->
+   </div>  	  
+	<!-- pop register div -->
+				<div id="popupContent" class="pop_box" style="display:none;position:relative;">
+				<h1 style="color:#456d94;">Login Now To Join The Discussion</h1><span class="closepop" style="display:inline-block;position:absolute;top:10px;right:10px;"><img  title="Close" id="TB_closeWindowButton" src="/images/close_pop_box.gif" /></span>
+                
+<!--<div align="center" style="margin-left:5px; margin-top:0px; margin-bottom:10px;"><span style="color:#060; font-size:17px; font-weight:bold; text-decoration:underline;">Now with FREE Real Time Quotes!!</span></div>-->
+            
+			 <div class="popup_form_box">		 
+				<div class="text_section">
+				 <span class="headspan">31,320</span>
+				 <p>active traders have already chosen Investors Hangout to exchange their investment ideas. Join now and get in on the discussions. </p>
+				<img src="/images/Investors-Hangout-Stock-Message-Boards-Logo-1-2015.png" width="167" height="47">
+				</div>
+				<div id="registration_container" class="registration_border">
+					<div class="reg_section">
+					 <span class="headspan">Join Now!</span>
+					 <form id="joinform" method="post" action="" autocomplete="off"> 
+					 <div><label>Choose Alias</label><input id="YumPopupregisterForm_username" class="text" type="text" maxlength="20" name="YumPopupregisterForm[username]"></div>
+					 <div><label>Email Address</label><input id="YumProfile_email" class="text" type="text" maxlength="255" name="YumProfile[email]" autocomplete = "off"> <input type="hidden" id="si_email" value="YumProfile_email" onBlur="javascript:co_advertise();" /></div>
+					 <div id="auth_pass"><label>Create Password</label><input id="YumPopupregisterForm_password" class="text" type="password" name="YumPopupregisterForm[password]" autocomplete = "off"><input type="password" name="password" id="password_fake" class="hidden" autocomplete="off" style="display: none;"></div>
+					 <input type="checkbox" id="termschk" name="terms" checked="checked"><span class="ucontent">I agree by the <a href="/termsandcondition">Terms and conditions</a></span>
+					 <!--<div align="left" style="margin-left:5px; margin-top:0px; margin-bottom:-10px;"><span style="color:#F00; font-size:11px; font-weight:bold; margin-top:-20px; margin-bottom:-10px;">Review Offer Below!</span></div>-->
+					 <div class="btn_wrap"><input type="button" value="Register Now" onClick="javascript:submitform(this);"></div>
+					 </form>
+					</div>
+					<div id="emessage"></div>
+				</div><!-- reg container end -->
+				
+				<div class="login_section">
+				 <span class="headspan">Member Login</span>
+				 <form id="joinpopup" method="post" action="/user/auth/login">
+				 <div><label>Alias</label><input type="text" id="YumUserLogin_username" name="YumUserLogin[username]" class="text span3"></div>
+				 <div><label>Password</label><input type="password" id="YumUserLogin_password" name="YumUserLogin[password]" class="text span3"></div>
+				 <input id="YumUserLogin_rememberMe" type="hidden" name="YumUserLogin[rememberMe]" value="1">
+				 <a href="/recovery"><span class="ucontent">Lost password?</span></a>
+				 <div class="btn_wrap"><input type="submit" value="Login" name="yt0"></div>
+				 </form>
+				</div>
+				<!-- code for co_registration ads -->
+				<div class="clear_all"></div>
+	          <script type="text/javascript" src="http://coreg.investingchannel.com/coreg/coregScript.ashx?lid=895&pubid=134&inline=true&si_ajax=true"></script>
+				<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+				<script type="text/javascript">
+				/*ih_js(window).error(function(e){
+					e.preventDefault();
+				});
+				try{
+				ih_js('.popup_form_box').find(':checkbox').each(function(){ console.log('added');
+						ih_js(this).attr('checked', true);
+				}); 
+				}catch(e){}*/
+	            </script>
+	            </div>
+			 </div>
+			<!--</div>-->
+			<!-- pop register div end -->
+      <div id="left_advertise">
+       </div>
+    <div id="right_advertise" style="position:absolute; right:2px; top:100px;" class="out_right_ad">
+   					<div class="board_add" align="center"><div style="position:fixed;">
+<script src='http://ads.investingchannel.com/adtags/InvestorsHangout/equities/160x600.js' type='text/javascript' charset='utf-8'></script>
+</div></div>
+		    </div>
+    	
+  </div>
+</div>
+
+<!--GA-->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37395047-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  	<!--GA-->
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"bxypf1aUOO00Wz", domain:"investorshangout.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=bxypf1aUOO00Wz" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+
+<script>
+var cwfl = "http://investorshangout.com/cwfl.htm";
+</script>
+
+<script src="http://cdn.investingchannel.com/ic_beacon.js" type="text/javascript"></script>
+<script type="text/javascript"> icBeacon('InvestorsHangout'); </script>
+
+
+<!-- for mobile-->
+	    <!-- end mobile  -->
+
+    
+</body>
+</html>

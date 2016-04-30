@@ -1,0 +1,1767 @@
+<!-- hearst/home/commentsInit.tpl -->
+
+<!-- e hearst/home/commentsInit.tpl --><!DOCTYPE html>
+<html>
+    <head><!-- hearst/home/header_main.tpl -->
+        <!-- eid:article.6809714 -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script>
+        <meta name="format-detection" content="telephone=no">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Hotfix Top freeform -->
+        
+        <!-- hearst/item/standalone.tpl -->
+<!-- mid:freeform.38661 -->
+<!-- CFREE-7548 | Do not remove -->
+<script type='text/javascript'>
+function RProfiler(){} (function(){var restUrl ="g.3gl.net/jp/v2/M"; var cfgUrl ="g.3gl.net/jp/147/v2/C"; var gsTime=(new Date()).getTime();var RP=window.RProfiler;if(!RP||RP.d){return;}RP.a={};RP.addInfo=function(iType,key,value){if(iType===undefined||iType===null){return;}if(value===undefined||value===null){RP.a[iType]=key;}else{if(key===undefined||key===null){return;}if(!RP.a[iType]){RP.a[iType]={};}RP.a[iType][key]=value;}};if(!document.getElementById||!(window.attachEvent||window.addEventListener)){return;}RP.d={s:gsTime,lT:-1,jsC:undefined,jsE:undefined,Lf:-1};var $E=RP.$E=(function(){var sc={};function add(type,el,fn){if(!sc[type]){sc[type]=[];}sc[type].push([el,type,fn]);}var atEv=(window.attachEvent)?true:false;return{add:function(type,el,fn){add(type,el,fn);if(atEv){el.attachEvent('on'+type,fn);}else{el.addEventListener(type,fn,false);}},clearAll:function(){for(var type in sc){var e,evs=sc[type];if((evs) && (evs.length>0)){for(var i=0;i<evs.length;i++){e=evs[i];if(atEv){e[0].detachEvent(e[1],e[2]);}else{e[0].removeEventListener(e[1],e[2],false);}}}}sc={};}};})();function regPL(){RP.d.lT=(new Date()).getTime();RP.d.Lf=1;}$E.add('load',window,regPL);function addErrorToList(m,u,l){RP.d.jsC++;var k=[m,u,l].join(':'),bFound=false;var e=RP.d.jsE;for(var i=0;i<e.length;i++){if(e[i][0]===k){e[i][4]++;bFound=true;break;}}if(!bFound){e.push([k,m,u,l,1]);}}if(!!window.opera){function regJsError(e){var ev=(e.target)?e.target:e.srcElement;if(ev.nodeType==3){ev=ev.parentNode;}addErrorToList('N/A',ev.src||ev.URL,'N/A');return false;}RP.d.jsC=0;RP.d.jsE=[];$E.add('error',document,regJsError);}else if("onerror" in window){RP.d.jsC=0;RP.d.jsE=[];var orgOnErr=window.onerror;window.onerror=function(m,u,l){addErrorToList(m,u,l);var r=false;if(!!orgOnErr){r=orgOnErr(m,u,l);}return r;};}if(!!window.__cpCdnPath){restUrl=__cpCdnPath.trim();}var r=document.createElement("iframe");var s=r.style;s.position="absolute";s.top="-10000px";s.left="-1000px";var at=document.getElementsByTagName('script')[0];at.parentNode.insertBefore(r,at);var i=r.contentWindow.document.open('text/html','replace');var pr=window.location.protocol+'//';i.write("<body onload='function f(u){ var d=document, s = d.createElement(\"script\"); s.type=\"text/javascript\"; s.src=u; d.body.appendChild(s); } f(\""+pr+cfgUrl+"\"); f(\""+pr+restUrl+"\");'><\/body>");i.close();})(); 
+</script>
+<!-- e CFREE-7548 -->
+    
+        <script>var HDN = HDN || {}; HDN.t_firstbyte = Number(new Date());</script>
+    
+                        <!-- generated at 2016-02-15 17:48:05 on prodWCM3 running vr7.1.0.24 -->
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+                
+                                        <link rel="canonical" href="http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals" />
+                                                    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.sfgate.com/technology/businessinsider/article/Chipotle-reportedly-believes-it-found-the-source-6809714.php" />
+                                        <meta name="description" content="The source of Chipotle's E. coli outbreak might have been tainted Australian beef, according to a new report in The Wall Street Journal.Citing unidentified sources, Julie Jargon and Jesse Newman report Chipotle has concluded that the Australian beef was the most likely cause.  The report also highlights disagreements between the company and the Centers for Disease Control, which on Monday announced the end to the outbreak and said the source was never identified.  In the Northwest, it notes that &quot;local health authorities initially suspected locally sourced produce,&quot; according to Washington state epidemiologist Scott Lindquist.  [...] it states that &quot;government officials leaned toward produce.&quot;  [...] investigators were not able to determine a cause.  The company is also using a new procedure for marinating chicken and steak, &quot;which now happens distinct from and after the preparation of other fresh items&quot; in resealable plastic bags, rather than bowls." />
+                                
+        <script type="text/javascript">
+        // <![CDATA[
+            bizobject_identifier = "article_6809714";
+            var requestTime = new Date(1455580085 * 1000);
+
+                                                                                
+                                    
+                
+                // bizobject variables
+                var omni_channelPath = "Business :: Technology :: Business Insider";
+                                    var omni_title = "There's a new theory about the source of the Chipotle E. coli outbreak";
+                                var omni_bizObjectId = "6809714";
+                var omni_className = "article";
+                var omni_publicationDate = "2016-02-05 16:25:07";
+                var omni_sourceSite="thirdparty";
+
+                // article specific variables
+                var omni_authorName = "Hayley Peterson";
+                var omni_authorTitle = "provided by<br /><a href=\"http://www.businessinsider.com\" target=\"_blank\" style=\"text-decoration:none\"><img src=\"http://imgs.sfgate.com/graphics/partners/businessinsider/article_header.gif\" border=\"0\" /></a>";
+                var omni_pageNumber = "0";
+                var omni_breakingNewsFlag = "";
+                var omni_localNewsFlag = "";
+                                var omni_premiumStatus = "free";
+                var omni_premiumEndDate = "";
+                var omni_originalSource = "businessinsider";
+                var omni_isListView = "";
+                                                // ]]>
+        </script>
+        <!-- hmb:jsoutbrain main js for Outbrain -->
+    <script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+
+                <title>There’s a new theory about the source of the Chipotle E. coli outbreak - SFGate</title>
+        <link rel="SHORTCUT ICON" href="/favicon.ico"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon-precomposed" sizes="128x128" href="/apple-touch-icon-128x128.png">
+                                                
+                            <link rel="stylesheet" type="text/css" href="/external/css/global.less.allPages.r7.1.0.24.css" media="all" />
+                <link rel="stylesheet" type="text/css" href="/external/css/global.less.articlePages.r7.1.0.24.css" media="all" />
+                                        <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/external/css/global.iePages.r7.1.0.24.css" media="all" /><![endif]-->
+        <!-- hmb:jsmodernizr js for modernizr -->
+        <script type="text/javascript" src="/js/hdn/utils/modernizr-2.6.2.min.js?r7.1.0.24"></script>
+                        <!-- hmb:isa_allPages  include static asset for group js allPages  -->
+        <script type="text/javascript" src="/external/js/global.allPages.r7.1.0.24.js"></script>
+        <!-- hmb:isa_articlePages  include static asset for group js articlePages  -->
+            <script type="text/javascript" src="/external/js/global.articlePages.r7.1.0.24.js"></script>
+                                                <!-- hearst/home/header_sailthru.tpl -->
+<meta property="sailthru.title" content="There’s a new theory about the source of the Chipotle E. coli outbreak" />
+<meta name="sailthru.date" content="2016-02-05 8:25:00 -0800" />
+<meta name="sailthru.author" content="Hayley Peterson, provided by&lt;br /&gt;&lt;a href=&quot;http://www.businessinsider.com&quot; target=&quot;_blank&quot; style=&quot;text-decoration:none&quot;&gt;&lt;img src=&quot;http://imgs.sfgate.com/graphics/partners/businessinsider/article_header.gif&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;" />
+    <meta name="sailthru.tags" content="section-business,section-technology,section-business-insider,pubname-business-insider,chipotle,australian-beef,coli-outbreak,outbreak,raising-beef-cattle,importing-beef,beef,young-twin-models,resealable-plastic-bags,source" />
+<!-- e hearst/home/header_sailthru.tpl -->
+                    <!-- templates/hearst/home/viafouraHeadMeta.tpl -->
+<meta property="vf:unique_id" content="sfgate-article-6809714" />
+<meta property="vf:section" content="business">
+<!-- e templates/hearst/home/viafouraHeadMeta.tpl -->                        
+            <meta property="og:title" content="There’s a new theory about the source of the Chipotle E. coli outbreak" />
+                    <meta property="og:description" content="The source of Chipotle's E. coli outbreak might have been tainted Australian beef, according to a new report in The Wall Street Journal.Citing unidentified sources, Julie Jargon and Jesse Newman report Chipotle has concluded that the Australian beef was the most likely cause.  The report also highlights disagreements between the company and the Centers for Disease Control, which on Monday announced the end to the outbreak and said the source was never identified.  In the Northwest, it notes that &quot;local health authorities initially suspected locally sourced produce,&quot; according to Washington state epidemiologist Scott Lindquist.  [...] it states that &quot;government officials leaned toward produce.&quot;  [...] investigators were not able to determine a cause.  The company is also using a new procedure for marinating chicken and steak, &quot;which now happens distinct from and after the preparation of other fresh items&quot; in resealable plastic bags, rather than bowls." />
+                                            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://www.sfgate.com/technology/businessinsider/article/Chipotle-reportedly-believes-it-found-the-source-6809714.php" />
+        <meta property="og:image" content="http://www.sfgate.com/img/pages/article/opengraph_default.png" />
+        <meta property="og:site_name" content="SFGate" />
+        <!-- Twitter card metadata  -->
+    
+            <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@SFGate" />
+    
+        <!-- /business/templates/hearst/home/header_fbpage.tpl-->
+
+
+            <meta property="fb:admins" content="100006394927810"/>
+                <meta property="fb:app_id" content="1609422252616351"/>
+    
+<!-- e /business/templates/hearst/home/header_fbpage.tpl-->        <!-- CSS/JS Hotfix freeform - all free -->
+        <!-- hearst/item/standalone.tpl -->
+<!-- mid:freeform.46357 -->
+<style>
+/* WCM-280 */
+.ctpl-centerpiece .default > div:nth-child(n+4) { display: none; }
+
+/* WCM-297 */
+.ctpl-centerpiece .ctpl-centerpiece {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ctpl-centerpiece { overflow: hidden; }
+/* END WCM-297 */
+
+/* WCM-349 */
+header .timestamp { z-index: 100000; }
+
+/* WCM-400 */
+.hst-resgallery-container.full-captions .control-panel .caption-wedge { width: 100%; }
+</style>
+        <!-- CSS/JS Hotfix freeform -->
+            <!-- hearst/item/standalone.tpl -->
+<!-- mid:freeform.14477 -->
+<script>
+// WCM-254
+	$(document).ready(function () {
+		$(".articleComments #commentspage .header.clearfix").append('<h5>SFGATE welcomes a free exchange of ideas in the Comments section. We encourage commenters to help our moderators by flagging comments that threaten violence in any way, are spam, or use vulgarities including racist epithets or other obscene terms toward a specific group. Please read our <a href="/termsandconditions/">terms and conditions</a>. </h5>');
+                $(".articleComments #commentspage .header.clearfix a").css('text-decoration', 'underline');
+         });
+</script>
+
+<script>
+	$(document).ready(function () {
+		$("#nativo-latest-news").removeAttr("id");
+		$(".twelve-2").attr("id", "nativo-latest-news");
+	});
+</script>
+
+<style>
+.ctpl-centerpiece .item h4,
+.ctpl-centerpiece .item a {width: 100%;}
+
+.menu-bar.off-screen {top: 0};
+.search .autocomplete-suggestions {top: 170px !important;}
+
+/* CFREE-7531 */
+.hst-articletext img { height: auto;}
+</style>
+
+<!-- code below protects gallery (tool) buttons from over reaching css brought in by cars.sfgate.com Make/Model search box code -->
+<style>
+.hst-resgallery-container .control-bar .overlaylink.fullscreen, .hst-resgallery-container .control-bar .overlaylink.thumbs, .hst-lvgallery-container .control-bar .share-toggle, .hst-resgallery-container .control-bar .share-toggle {
+    box-sizing: content-box;
+}
+
+/* ad hotfix */
+iframe[id*='google_ads_iframe_/36117602/hnp-sfgate.com/News_5'][width*='970'][height*='415']{display:none!important;}
+
+/* SUP-764 */
+.article-content { float: left !important; }
+</style>
+
+<script type="text/javascript">
+/* AN-219 */
+window.atmDisabled = true;
+</script>
+                                
+        <!-- Bing Webmaster Tools verification -->
+    <meta name="msvalidate.01" content="9451CA04ABC9D1D5C6419C73B4C4F7B7" />
+
+    <!-- hearst/ensighten/ensighten.tpl -->
+<!-- hmb:ensighten Ensighten script -->
+
+<!-- Hearst analytics: Ensighten -->
+<script type="text/javascript">
+  (function(e) { 
+    var t = '//nexus.ensighten.com/hearst/news/Bootstrap.js'; 
+    if (e.cookie.indexOf("nsghtn") > -1) {
+      if(e.cookie.indexOf("nsghtn=test-dev") > -1) {
+      console.log("Ensighten :: Test-Dev"); t = "//nexus-test.ensighten.com/hearst/news-dev/Bootstrap.js";
+      } else if(e.cookie.indexOf("nsghtn=test") > -1) {
+      console.log("Ensighten :: Test"); t = "//nexus-test.ensighten.com/hearst/news/Bootstrap.js";
+      } else if(e.cookie.indexOf("nsghtn=dev") > -1) {
+      console.log("Ensighten :: Dev"); t = "//nexus.ensighten.com/hearst/news-dev/Bootstrap.js";
+      } 
+    }
+    e.write("<scr"+"ipt src='"+e.location.protocol+t+"'></"+"scr"+"ipt>");
+  })(document); 
+</script>
+<!-- End Hearst analytics: Ensighten -->
+
+<!-- e ensighten.tpl -->            
+<!-- hmb:jsadPositionManager js for adPositionManager (loadAds.js) -->
+        <script type="text/javascript" id="adPositionManagerScriptTag" src="http://aps.hearstnp.com/Scripts/loadAds.js"></script>
+                                    </head>
+        <body class="article technology technology-businessinsider business  article" location="business technology technology-businessinsider">
+
+        <!-- Begin Hearst Ad -->
+        <div id="OOP">
+            <script type="text/javascript">/*<![CDATA[*/hearstPlaceAd("OOP");/*]]>*/</script>
+        </div>
+        <!-- End Hearst Ad -->
+<!-- hmb:isa_top  include static asset for group js top  -->
+        
+<!-- e hearst/home/header_main.tpl --><!-- hearst/article/article_main.tpl - This comment would normally be at the very top but that would break the HTML markup because nothing can go above the header -->
+    <!-- hearst/home/navigation.tpl -->
+	<!-- hearst/home/navigation_main.tpl -->
+                                                        <header>
+
+                    <!-- hearst/ads/full_banner_A728.tpl -->
+    <!-- hmb:a728 full banner A728 ad -->
+    <div id="ctpl-fullbanner1" class="ctpl-fullbanner fixed" data-collapse-timer="5">
+    <div id="A728" class="ad_deferrable"><script type="text/javascript">/*<![CDATA[*/ hearstPlaceAd("A728"); /*]]>*/</script></div>
+   </div>
+<!-- e hearst/ads/full_banner_A728.tpl -->
+                    <!-- revisit why do we have specific channel codes set here? This looks like old river thing. -->
+                        <div id="subHead" class="subHead">
+                <div class="innerWrap">
+                    <div class="weatherWrapper">
+                        <div class="weather__current-forecast">
+                            <a href="/weather/"><div class="condition"><span class="icon"></span></div><span class="temp"></span></a>
+                            <span class="city"></span>
+                            <p id="weatherChange"></p>
+                        </div>
+                        <div class="weatherChange"><span class="icon"></span></div>
+                    </div>
+                    <form class="searchWrapper" id="search_form" action="/search/?" method="get" target="_top">
+                        <input type="hidden" name="action" value="search" />
+                        <input type="hidden" name="firstRequest" value="1" />
+                        
+                        <input type="hidden" name="searchindex" value="gsa" />
+                                                <input type="text" name="query" id="search_query" placeholder="Search" class="textInputNote" />
+                        <input type="submit" value="Submit" class="submit" disabled="disabled"/>
+                    </form>
+                    <div class="socialWrapper">
+                        <!-- ux hearst/home/social_links.tpl -->
+<ul>
+    <li class="socialIcon facebook"><a href="https://www.facebook.com/SFGate/" target="_blank"><span class="icon"></span></a></li>
+    <li class="socialIcon twitter"><a href="https://twitter.com/sfgate/" target="_blank"><span class="icon"></span></a></li>
+    <li class="socialIcon instagram"><a href="https://instagram.com/sfgate/" target="_blank"><span class="icon"></span></a></li>
+    <li class="socialIcon pinterest"><a href="http://www.pinterest.com/sfgate/" target="_blank"><span class="icon"></span></a></li>
+    <li class="socialIcon rss"><a href="/rss/"><span class="icon"></span></a></li>
+    <li class="text user_tools" id="reg_member">
+        
+        <script type="text/javascript">
+            // <![CDATA[
+            if ( typeof window.print_sfgate_un != "undefined" ){
+                print_sfgate_un('reg_member');
+            }
+            // ]]>
+        </script>
+        
+    </li>
+</ul>
+                    </div>
+                </div>
+            </div>
+            <nav id="siteNav" class="site-nav menu-slide">
+                <div class="innerWrap">
+                                        <!-- hearst/common/sitenav.tpl -->
+
+        <!-- hearst/sitemenu/dynamic_r1.tpl -->
+
+    <!-- hearst/sitemenu/menuSiteNav_r1.tpl -->
+<ul class="topnav">
+    
+            <!-- navMenu foreach -->
+                    <!-- navloop foreach -->
+                                                                                <li class="subMenuContainer homeLink home" location="home"><a href="/" class="subMenuLink homeLink hdn-analytics" data-hdn-analytics="visit|Home|navigation-www|1"><span class="icon" onclick="siteHeader.openSubMenu(event)"></span><span class="logo"></span><span class="label">Home</span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="/chronicle-contacts/" class="subMenuItemLink hdn-analytics home hasSubmenu" data-hdn-analytics="visit|Home-Contact SFGate|navigation-www|1">Contact SFGate <span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                                                                                    <div class="submenu">
+                                                        <ul class="submenuUlList">
+                                                            <li class="desktop"><a href="/chronicle-contacts/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Contact SFGate|navigation-www|1">Contact SFGate</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <li><a href="/feedback/" class="hdn-analytics" data-hdn-analytics="visit|Home-Contact SFGate-Customer Support|navigation-www|2">Customer Support</a></li>
+                                                                                                                                                                                            <li><a href="/submissions/" class="hdn-analytics" data-hdn-analytics="visit|Home-Contact SFGate-Submissions & Tips|navigation-www|3">Submissions & Tips</a></li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://sfgate.kaango.com/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Classifieds|navigation-www|2">Classifieds</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/aboutsfgate/" class="subMenuItemLink hdn-analytics home hasSubmenu" data-hdn-analytics="visit|Home-About SFGate|navigation-www|3">About SFGate <span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                                                                                    <div class="submenu">
+                                                        <ul class="submenuUlList">
+                                                            <li class="desktop"><a href="/aboutsfgate/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-About SFGate|navigation-www|3">About SFGate</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <li><a href="/faq/" class="hdn-analytics" data-hdn-analytics="visit|Home-About SFGate-FAQ|navigation-www|2">FAQ</a></li>
+                                                                                                                                                                                            <li><a href="http://www.sfgate.com/cgi-bin/webreg/user/reg_cnt" class="hdn-analytics" data-hdn-analytics="visit|Home-About SFGate-Register on SFGate|navigation-www|3">Register on SFGate</a></li>
+                                                                                                                                                                                            <li><a href="http://www.sfgate.com/cgi-bin/newsletter/services/main" class="hdn-analytics" data-hdn-analytics="visit|Home-About SFGate-SFGate Newsletters|navigation-www|4">SFGate Newsletters</a></li>
+                                                                                                                                                                                            <li><a href="/staff/" class="hdn-analytics" data-hdn-analytics="visit|Home-About SFGate-SFGate Staff|navigation-www|5">SFGate Staff</a></li>
+                                                                                                                                                                                            <li><a href="/chronicle/hr/" class="hdn-analytics" data-hdn-analytics="visit|Home-About SFGate-Careers|navigation-www|6">Careers</a></li>
+                                                                                                                                                                                            <li><a href="http://www.hearst.com/" class="hdn-analytics" data-hdn-analytics="visit|Home-About SFGate-Hearst|navigation-www|7">Hearst</a></li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.hearst.com/newspapers/san-francisco-chronicle" class="subMenuItemLink hdn-analytics home hasSubmenu" data-hdn-analytics="visit|Home-About The Chronicle|navigation-www|4">About The Chronicle <span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                                                                                    <div class="submenu">
+                                                        <ul class="submenuUlList">
+                                                            <li class="desktop"><a href="http://www.hearst.com/newspapers/san-francisco-chronicle" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-About The Chronicle|navigation-www|4">About The Chronicle</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <li><a href="http://www.sfchronicle.com/newsroom_contacts/" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-The Chronicle Staff|navigation-www|2">The Chronicle Staff</a></li>
+                                                                                                                                                                                            <li><a href="http://www.sfchronicle.com/ultimate_access/?cmpid=sfg_nav" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-Become a Subscriber|navigation-www|3">Become a Subscriber</a></li>
+                                                                                                                                                                                            <li><a href="https://myaccount.sfchronicle.com/" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-Manage Your Subscription|navigation-www|4">Manage Your Subscription</a></li>
+                                                                                                                                                                                            <li><a href="http://www.sfchronicle.com/customer_service/" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-Customer Service|navigation-www|5">Customer Service</a></li>
+                                                                                                                                                                                            <li><a href="http://www.sfchronicle.com/e-edition" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-e-edition|navigation-www|6">e-edition</a></li>
+                                                                                                                                                                                            <li><a href="http://www.sfgate.com/faq/#faq10" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-Back Copies|navigation-www|7">Back Copies</a></li>
+                                                                                                                                                                                            <li><a href="http://nieonline.com/sfchronicle" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-Chronicle in Education|navigation-www|8">Chronicle in Education</a></li>
+                                                                                                                                                                                            <li><a href="/corrections/" class="hdn-analytics" data-hdn-analytics="visit|Home-About The Chronicle-Corrections|navigation-www|9">Corrections</a></li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://extras.sfgate.com/chronicle/new/pages/home.php" class="subMenuItemLink hdn-analytics home hasSubmenu" data-hdn-analytics="visit|Home-Advertise with us|navigation-www|5">Advertise with us <span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                                                                                    <div class="submenu">
+                                                        <ul class="submenuUlList">
+                                                            <li class="desktop"><a href="http://extras.sfgate.com/chronicle/new/pages/home.php" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Advertise with us|navigation-www|5">Advertise with us</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <li><a href="http://extras.sfgate.com/chronicle/new/pages/home.php" class="hdn-analytics" data-hdn-analytics="visit|Home-Advertise with us-Media Kit|navigation-www|2">Media Kit</a></li>
+                                                                                                                                                                                            <li><a href="http://sfgate.kaango.com//" class="hdn-analytics" data-hdn-analytics="visit|Home-Advertise with us-Place a Classified Ad|navigation-www|3">Place a Classified Ad</a></li>
+                                                                                                                                                                                            <li><a href="/privacy-policy/" class="hdn-analytics" data-hdn-analytics="visit|Home-Advertise with us-About Our Ads|navigation-www|4">About Our Ads</a></li>
+                                                                                                                                                                                            <li><a href="http://www.legalnotice.org/pl/SFGate/landing1.aspx" class="hdn-analytics" data-hdn-analytics="visit|Home-Advertise with us-Public Notices|navigation-www|5">Public Notices</a></li>
+                                                                                                                                                                                            <li><a href="http://local.sfgate.com/" class="hdn-analytics" data-hdn-analytics="visit|Home-Advertise with us-Local Business Directory|navigation-www|6">Local Business Directory</a></li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/chronicle/hr/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Careers|navigation-www|6">Careers</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://sfchronicle.myshopify.com/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Store|navigation-www|7">Store</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/privacy-policy/" class="subMenuItemLink hdn-analytics home hasSubmenu" data-hdn-analytics="visit|Home-Privacy policy|navigation-www|8">Privacy policy <span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                                                                                    <div class="submenu">
+                                                        <ul class="submenuUlList">
+                                                            <li class="desktop"><a href="/privacy-policy/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Privacy policy|navigation-www|8">Privacy policy</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <li><a href="http://www.aboutads.info/choices/" class="hdn-analytics" data-hdn-analytics="visit|Home-Privacy policy-Ad Choices|navigation-www|2">Ad Choices</a></li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/archive/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Chronicle Archives|navigation-www|9">Chronicle Archives</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/termsandconditions/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Terms of Use|navigation-www|10">Terms of Use</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/index/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Site Index|navigation-www|11">Site Index</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/cgi-bin/newsletter/services/main" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Newsletters|navigation-www|12">Newsletters</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/getus/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Get news alerts|navigation-www|13">Get news alerts</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://local.sfgate.com/" class="subMenuItemLink hdn-analytics home" data-hdn-analytics="visit|Home-Gate List|navigation-www|14">Gate List</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/feedbackredesign/" class="hdn-analytics" data-hdn-analytics="visit|channel-11753|Home-nav-hcat|1">
+                                                <img src="http://ww1.hdnux.com/photos/34/12/05/7381320/3/landscape_32.jpg" alt="SFGate Customer support - Photo" />                                                <h4 class="headline">SFGate Customer support</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="https://myaccount.sfchronicle.com/dsssubscribe.aspx?pid=1249&z=00000" class="hdn-analytics" data-hdn-analytics="visit|link-28248|Home-nav-hcat|2">
+                                                <img src="http://ww2.hdnux.com/photos/31/52/13/6726389/4/landscape_32.jpg" alt="Get VIP access with SF Chronicle Membership - Photo" />                                                <h4 class="headline">Get VIP access with SF Chronicle Membership</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://www.sfgate.com/newsletters" class="hdn-analytics" data-hdn-analytics="visit|link-28249|Home-nav-hcat|3">
+                                                <img src="http://ww1.hdnux.com/photos/31/61/66/6757800/5/landscape_32.jpg" alt="Get SFGate newsletters for the latest from the Bay - Photo" />                                                <h4 class="headline">Get SFGate newsletters for the latest from the Bay</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://www.sfgate.com/food/top100/2014/" class="hdn-analytics" data-hdn-analytics="visit|link-28250|Home-nav-hcat|4">
+                                                <img src="http://ww2.hdnux.com/photos/31/62/41/6760529/7/landscape_32.jpg" alt="Check out the Top 100 Bay Area restaurants - Photo" />                                                <h4 class="headline">Check out the Top 100 Bay Area restaurants</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer news" location="news"><a href="/news/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|News|navigation-www|2">News<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="/bayarea/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Bay Area & State|navigation-www|1">Bay Area & State</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/traffic" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Traffic|navigation-www|2">Traffic</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/nation/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Nation|navigation-www|3">Nation</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/world/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-World|navigation-www|4">World</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/politics/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Politics|navigation-www|5">Politics</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/crime/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Crime|navigation-www|6">Crime</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/technology/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Tech|navigation-www|7">Tech</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.legacy.com/obituaries/sfgate/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Obituaries|navigation-www|8">Obituaries</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/opinion/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Opinion|navigation-www|9">Opinion</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/health/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Health|navigation-www|10">Health</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/education/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Education|navigation-www|11">Education</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://video.sfgate.com/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Video|navigation-www|12">Video</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/news/blogs/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-News Blogs|navigation-www|13">News Blogs</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/pge/" class="subMenuItemLink hdn-analytics news" data-hdn-analytics="visit|News-Sponsored: California Clean Energy|navigation-www|14">Sponsored: California Clean Energy</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/bayarea/article/Sunny-weather-brings-new-temperature-record-for-6832249.php" class="hdn-analytics" data-hdn-analytics="visit|article-6832249|News-nav-hcat|1">
+                                                <img src="http://ww3.hdnux.com/photos/43/70/50/9407002/3/landscape_32.jpg" alt="Sunny weather brings new temperature record for San Francisco - Photo" />                                                <h4 class="headline">Sunny weather brings new temperature record for San Francisco</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/world/article/Pope-hails-indigenous-people-in-Mexico-s-6832236.php" class="hdn-analytics" data-hdn-analytics="visit|article-6832236|News-nav-hcat|2">
+                                                <img src="http://ww4.hdnux.com/photos/43/70/61/9407579/5/landscape_32.jpg" alt="Pope hails indigenous people in Mexico’s poorest state - Photo" />                                                <h4 class="headline">Pope hails indigenous people in Mexico’s poorest state</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/world/article/Air-strikes-on-Syrian-clinics-school-kill-about-6832196.php" class="hdn-analytics" data-hdn-analytics="visit|article-6832196|News-nav-hcat|3">
+                                                <img src="http://ww2.hdnux.com/photos/43/70/25/9405765/3/landscape_32.jpg" alt="Air strikes on Syrian clinics, school kill about 50 civilians - Photo" />                                                <h4 class="headline">Air strikes on Syrian clinics, school kill about 50 civilians</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/nation/article/Judge-raises-questions-about-Scalia-s-health-in-6832172.php" class="hdn-analytics" data-hdn-analytics="visit|article-6832172|News-nav-hcat|4">
+                                                <img src="http://ww3.hdnux.com/photos/43/70/25/9405806/5/landscape_32.jpg" alt="Judge raises questions about Scalia’s health in final days - Photo" />                                                <h4 class="headline">Judge raises questions about Scalia’s health in final days</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer sports" location="sports"><a href="/sports/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Sports|navigation-www|3">Sports<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="/49ers/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-49ers|navigation-www|1">49ers</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/raiders/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Raiders|navigation-www|2">Raiders</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/giants/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Giants|navigation-www|3">Giants</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/athletics/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-A's|navigation-www|4">A's</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/warriors/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Warriors|navigation-www|5">Warriors</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/superbowl/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Super Bowl 50|navigation-www|6">Super Bowl 50</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sports/49ersfandom/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-49ers Fandom|navigation-www|7">49ers Fandom</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sports/blogs/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Sports Blogs|navigation-www|8">Sports Blogs</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sports/tv/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Sports Calendar|navigation-www|9">Sports Calendar</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://sfgate.stats.com/fb/front.asp" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-NFL|navigation-www|10">NFL</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://sfgate.stats.com/nba/front.asp" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-NBA|navigation-www|11">NBA</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/collegesports/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-College|navigation-www|12">College</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/preps/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Preps|navigation-www|13">Preps</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://sfgate.stats.com/golf/front.asp" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Golf|navigation-www|14">Golf</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/outdoors/" class="subMenuItemLink hdn-analytics sports" data-hdn-analytics="visit|Sports-Outdoors|navigation-www|15">Outdoors</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/collegesports/article/Cal-s-Jabari-Bird-named-Pac-12-Player-of-the-6831902.php" class="hdn-analytics" data-hdn-analytics="visit|article-6831902|Sports-nav-hcat|1">
+                                                <img src="http://ww1.hdnux.com/photos/43/64/73/9391828/5/landscape_32.jpg" alt="Cal’s Jabari Bird named Pac-12 Player of the Week - Photo" />                                                <h4 class="headline">Cal’s Jabari Bird named Pac-12 Player of the Week</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/collegesports/article/Cal-receives-8-votes-in-AP-poll-6831867.php" class="hdn-analytics" data-hdn-analytics="visit|article-6831867|Sports-nav-hcat|2">
+                                                <img src="http://ww3.hdnux.com/photos/43/70/43/9406686/3/landscape_32.jpg" alt="Cal receives 8 votes in AP poll - Photo" />                                                <h4 class="headline">Cal receives 8 votes in AP poll</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/outdoors/article/When-drivers-cyclists-share-hilly-roads-6830634.php" class="hdn-analytics" data-hdn-analytics="visit|article-6830634|Sports-nav-hcat|3">
+                                                <img src="http://ww4.hdnux.com/photos/27/66/33/6252271/9/landscape_32.jpg" alt="When drivers, cyclists share hilly roads, courtesy is key - Photo" />                                                <h4 class="headline">When drivers, cyclists share hilly roads, courtesy is key</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/warriors/article/West-rolls-sets-records-in-NBA-All-Star-Game-rout-6830897.php" class="hdn-analytics" data-hdn-analytics="visit|article-6830897|Sports-nav-hcat|4">
+                                                <img src="http://ww4.hdnux.com/photos/43/67/77/9404379/3/landscape_32.jpg" alt="West rolls, sets records in NBA All-Star Game rout - Photo" />                                                <h4 class="headline">West rolls, sets records in NBA All-Star Game rout</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer business" location="business"><a href="/business/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Business|navigation-www|4">Business<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="/technology/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Technology|navigation-www|1">Technology</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/mortgagerates/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Mortgage Rates|navigation-www|2">Mortgage Rates</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://homeguides.sfgate.com/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Home Guides|navigation-www|3">Home Guides</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.legalnotice.org/pl/SFGate/landing1.aspx" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Public Notices|navigation-www|4">Public Notices</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sponsoredarticles/business/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Sponsored Content|navigation-www|5">Sponsored Content</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/officespace/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Office Space|navigation-www|6">Office Space</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/techchron/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-The Tech Chronicles|navigation-www|7">The Tech Chronicles</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/pender/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Net Worth Plus|navigation-www|8">Net Worth Plus</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/energy/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Fossils & Photons|navigation-www|9">Fossils & Photons</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/mindyourbusiness/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Mind Your Business|navigation-www|10">Mind Your Business</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/visionsf/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-VisionSF|navigation-www|11">VisionSF</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/jobs/" class="subMenuItemLink hdn-analytics business" data-hdn-analytics="visit|Business-Jobs|navigation-www|12">Jobs</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/business/article/App-of-the-Week-Audiots-6829423.php" class="hdn-analytics" data-hdn-analytics="visit|article-6829423|Business-nav-hcat|1">
+                                                <img src="http://ww2.hdnux.com/photos/43/67/06/9400721/5/landscape_32.jpg" alt="App of the Week: Audiots - Photo" />                                                <h4 class="headline">App of the Week: Audiots</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/business/article/TV-producers-may-start-making-you-wait-for-new-6827664.php" class="hdn-analytics" data-hdn-analytics="visit|article-6827664|Business-nav-hcat|2">
+                                                <img src="http://ww4.hdnux.com/photos/43/60/11/9372259/5/landscape_32.jpg" alt="TV producers may start making you wait for new shows online - Photo" />                                                <h4 class="headline">TV producers may start making you wait for new shows online</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/business/article/App-of-the-week-Day-One-2-6829365.php" class="hdn-analytics" data-hdn-analytics="visit|article-6829365|Business-nav-hcat|3">
+                                                <img src="http://ww1.hdnux.com/photos/43/66/21/9397356/3/landscape_32.jpg" alt="App of the week: Day One 2 - Photo" />                                                <h4 class="headline">App of the week: Day One 2</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/business/article/Youth-video-game-league-plugged-in-for-2nd-season-6829320.php" class="hdn-analytics" data-hdn-analytics="visit|article-6829320|Business-nav-hcat|4">
+                                                <img src="http://ww2.hdnux.com/photos/37/23/73/8208101/11/landscape_32.jpg" alt="Youth video game league plugged in for 2nd season - Photo" />                                                <h4 class="headline">Youth video game league plugged in for 2nd season</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer entertainment" location="entertainment"><a href="/entertainment/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Entertainment|navigation-www|5">Entertainment<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/dailydish/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-The Daily Dish|navigation-www|1">The Daily Dish</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/movies/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Movies|navigation-www|2">Movies</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/music/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Music & Nightlife|navigation-www|3">Music & Nightlife</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/performance/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Performance|navigation-www|4">Performance</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/art/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Art|navigation-www|5">Art</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/entertainment/blogs/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Blogs|navigation-www|6">Blogs</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/entertainment/video/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Videos|navigation-www|7">Videos</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/events/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Events|navigation-www|8">Events</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/books/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Books|navigation-www|9">Books</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/tv/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-TV|navigation-www|10">TV</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/horoscope/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Horoscope|navigation-www|11">Horoscope</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/comics/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Comics|navigation-www|12">Comics</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/games/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Crosswords & Puzzles|navigation-www|13">Crosswords & Puzzles</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/thingstodo/" class="subMenuItemLink hdn-analytics entertainment" data-hdn-analytics="visit|Entertainment-Things To Do|navigation-www|14">Things To Do</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/music/article/Kamasi-Washington-brings-jazz-to-the-masses-at-6821063.php" class="hdn-analytics" data-hdn-analytics="visit|article-6821063|Entertainment-nav-hcat|1">
+                                                <img src="http://ww3.hdnux.com/photos/43/52/47/9349614/3/landscape_32.jpg" alt="Kamasi Washington brings jazz to the masses at Noise Pop - Photo" />                                                <h4 class="headline">Kamasi Washington brings jazz to the masses at Noise Pop</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/performance/article/Mythical-Selkie-searches-for-identity-in-Z-6830837.php" class="hdn-analytics" data-hdn-analytics="visit|article-6830837|Entertainment-nav-hcat|2">
+                                                <img src="http://ww4.hdnux.com/photos/43/64/61/9391179/3/landscape_32.jpg" alt="Mythical ‘Selkie’ searches for identity in Z Space play - Photo" />                                                <h4 class="headline">Mythical ‘Selkie’ searches for identity in Z Space play</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/performance/article/A-tale-of-food-family-and-forgiveness-6829183.php" class="hdn-analytics" data-hdn-analytics="visit|article-6829183|Entertainment-nav-hcat|3">
+                                                <img src="http://ww1.hdnux.com/photos/43/61/76/9379748/3/landscape_32.jpg" alt="‘Aubergine’ a tale of food, family and forgiveness - Photo" />                                                <h4 class="headline">‘Aubergine’ a tale of food, family and forgiveness</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/music/article/PBO-goes-for-baroque-to-honor-McGegan-6826286.php" class="hdn-analytics" data-hdn-analytics="visit|article-6826286|Entertainment-nav-hcat|4">
+                                                <img src="http://ww1.hdnux.com/photos/43/65/03/9392320/15/landscape_32.jpg" alt="PBO goes for Baroque to honor McGegan - Photo" />                                                <h4 class="headline">PBO goes for Baroque to honor McGegan</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer food" location="food"><a href="/food/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Food|navigation-www|6">Food<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="/restaurants/" class="subMenuItemLink hdn-analytics food" data-hdn-analytics="visit|Food-Restaurants|navigation-www|1">Restaurants</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/wine/" class="subMenuItemLink hdn-analytics food" data-hdn-analytics="visit|Food-Wine|navigation-www|2">Wine</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/top100restaurants2015" class="subMenuItemLink hdn-analytics food" data-hdn-analytics="visit|Food-Top 100 Restaurants|navigation-www|3">Top 100 Restaurants</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/wine/article/2016-San-Francisco-Chronicle-Wine-Competition-6749722.php" class="subMenuItemLink hdn-analytics food" data-hdn-analytics="visit|Food-Chronicle Wine Competition|navigation-www|4">Chronicle Wine Competition</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.opentable.com/start.aspx?m=4&ref=7801" class="subMenuItemLink hdn-analytics food" data-hdn-analytics="visit|Food-Reservations|navigation-www|5">Reservations</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://insidescoopsf.sfgate.com/" class="subMenuItemLink hdn-analytics food" data-hdn-analytics="visit|Food-Inside Scoop SF|navigation-www|6">Inside Scoop SF</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://healthyeating.sfgate.com/" class="subMenuItemLink hdn-analytics food" data-hdn-analytics="visit|Food-Healthy Eating|navigation-www|7">Healthy Eating</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="http://insidescoopsf.sfgate.com/blog/2016/02/15/volta-gives-a-scandinavia-bent-to-french-food/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1812664|Food-nav-hcat|1">
+                                                <img src="http://ww4.hdnux.com/photos/43/70/25/9405811/5/landscape_32.jpg" alt="Volta gives a Scandinavia bent to French food - Photo" />                                                <h4 class="headline">Volta gives a Scandinavia bent to French food</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/food/article/A-rare-romance-in-Bay-Area-s-niche-meat-industry-6828943.php" class="hdn-analytics" data-hdn-analytics="visit|article-6828943|Food-nav-hcat|2">
+                                                <img src="http://ww1.hdnux.com/photos/43/51/23/9344212/10/landscape_32.jpg" alt="A rare romance in Bay Area’s niche meat industry - Photo" />                                                <h4 class="headline">A rare romance in Bay Area’s niche meat industry</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://insidescoopsf.sfgate.com/blog/2016/02/12/ron-siegel-taking-over-the-kitchen-at-marin-roadhouse-rancho-nicasio/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1812159|Food-nav-hcat|3">
+                                                <img src="http://ww2.hdnux.com/photos/43/66/22/9397385/3/landscape_32.jpg" alt="Ron Siegel taking over the kitchen at Marin roadhouse, Rancho Nicasio - Photo" />                                                <h4 class="headline">Ron Siegel taking over the kitchen at Marin roadhouse, Rancho</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://insidescoopsf.sfgate.com/blog/2016/02/12/basalt-heading-to-downtown-napas-shuttered-fish-story-space/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1812147|Food-nav-hcat|4">
+                                                <img src="http://ww2.hdnux.com/photos/43/66/13/9396941/3/landscape_32.jpg" alt="Basalt heading to downtown Napa&#8217;s shuttered Fish Story space - Photo" />                                                <h4 class="headline">Basalt heading to downtown Napa&#8217;s shuttered Fish Story</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer living" location="living"><a href="/living/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Living|navigation-www|7">Living<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="/homeandgarden/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Home & Garden|navigation-www|1">Home & Garden</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/style/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Style|navigation-www|2">Style</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sfsocial/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Parties|navigation-www|3">Parties</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/lust/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Lust|navigation-www|4">Lust</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/slopedope/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Ski|navigation-www|5">Ski</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/lgbt/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-LGBT|navigation-www|6">LGBT</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://remodeling.sfgate.com/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Houzz|navigation-www|7">Houzz</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/outdoors/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Outdoors|navigation-www|8">Outdoors</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/slopedope/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Slope Dope|navigation-www|9">Slope Dope</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/living/blogs/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Blogs|navigation-www|10">Blogs</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sponsoredarticles/lifestyle/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Sponsored|navigation-www|11">Sponsored</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/campguide/" class="subMenuItemLink hdn-analytics living" data-hdn-analytics="visit|Living-Schools, Camps & Activities|navigation-www|12">Schools, Camps & Activities</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/outdoors/article/When-drivers-cyclists-share-hilly-roads-6830634.php" class="hdn-analytics" data-hdn-analytics="visit|article-6830634|Living-nav-hcat|1">
+                                                <img src="http://ww4.hdnux.com/photos/27/66/33/6252271/9/landscape_32.jpg" alt="When drivers, cyclists share hilly roads, courtesy is key - Photo" />                                                <h4 class="headline">When drivers, cyclists share hilly roads, courtesy is key</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/outdoors/article/Study-finds-mountain-lions-are-feasting-on-house-6829205.php" class="hdn-analytics" data-hdn-analytics="visit|article-6829205|Living-nav-hcat|2">
+                                                <img src="http://ww2.hdnux.com/photos/35/24/70/7687741/9/landscape_32.jpg" alt="Study finds mountain lions are feasting on house pets - Photo" />                                                <h4 class="headline">Study finds mountain lions are feasting on house pets</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/living/article/Yelp-top-100-places-eat-Cheeseboard-Gary-Danko-6823746.php" class="hdn-analytics" data-hdn-analytics="visit|article-6823746|Living-nav-hcat|3">
+                                                <img src="http://ww4.hdnux.com/photos/26/61/16/5968803/2/landscape_32.jpg" alt="Berkeley spot ranks No. 2 on Yelp's top 100 places to eat in U.S., and it's not Chez Panisse - Photo" />                                                <h4 class="headline">Berkeley spot ranks No. 2 on Yelp's top 100 places to eat in</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/outdoors/article/Secrets-to-Rancho-Corral-de-Tierra-area-s-6821764.php" class="hdn-analytics" data-hdn-analytics="visit|article-6821764|Living-nav-hcat|4">
+                                                <img src="http://ww2.hdnux.com/photos/43/60/53/9374461/11/landscape_32.jpg" alt="Secrets to Rancho Corral de Tierra, area’s newest park jewel - Photo" />                                                <h4 class="headline">Secrets to Rancho Corral de Tierra, area’s newest park jewel</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer travel" location="travel"><a href="/travel/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Travel|navigation-www|8">Travel<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/lakecounty/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Lake County|navigation-www|1">Lake County</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/exoticdestinations/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Exotic Destinations|navigation-www|2">Exotic Destinations</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/monterey-carmel/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Monterey-Carmel|navigation-www|3">Monterey-Carmel</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/getaways/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Weekend Getaways|navigation-www|4">Weekend Getaways</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/winecountry/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Wine Country|navigation-www|5">Wine Country</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sanluisobispo/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-San Luis Obispo|navigation-www|6">San Luis Obispo</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/napa/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Napa|navigation-www|7">Napa</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/sonoma/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Sonoma|navigation-www|8">Sonoma</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/renotahoe/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Tahoe|navigation-www|9">Tahoe</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/hawaii/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Hawaii|navigation-www|10">Hawaii</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/vegas/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Vegas|navigation-www|11">Vegas</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/santacruz/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Santa Cruz|navigation-www|12">Santa Cruz</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/destinationbc/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Destination BC|navigation-www|13">Destination BC</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/travelalberta/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Travel Alberta|navigation-www|14">Travel Alberta</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/siliconvalley/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Silicon Valley|navigation-www|15">Silicon Valley</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/californiawinemonth/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-California Wine Month|navigation-www|16">California Wine Month</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/lodi/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Lodi|navigation-www|17">Lodi</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/yolocounty/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Yolo County|navigation-www|18">Yolo County</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/tuolumne/" class="subMenuItemLink hdn-analytics travel" data-hdn-analytics="visit|Travel-Tuolumne County|navigation-www|19">Tuolumne County</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/travel/article/Lyon-tourist-nirvana-sans-the-hordes-6830632.php" class="hdn-analytics" data-hdn-analytics="visit|article-6830632|Travel-nav-hcat|1">
+                                                <img src="http://ww4.hdnux.com/photos/43/50/60/9341971/9/landscape_32.jpg" alt="Lyon: tourist nirvana sans the hordes - Photo" />                                                <h4 class="headline">Lyon: tourist nirvana sans the hordes</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/travel/article/Waikiki-s-Surfjack-Hotel-Swim-Club-6830628.php" class="hdn-analytics" data-hdn-analytics="visit|article-6830628|Travel-nav-hcat|2">
+                                                <img src="http://ww3.hdnux.com/photos/43/55/16/9360278/5/landscape_32.jpg" alt="Waikiki’s Surfjack Hotel & Swim Club - Photo" />                                                <h4 class="headline">Waikiki’s Surfjack Hotel & Swim Club</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/travel/ingear/article/Chaco-Cordova-sandals-review-6830624.php" class="hdn-analytics" data-hdn-analytics="visit|article-6830624|Travel-nav-hcat|3">
+                                                <img src="http://ww4.hdnux.com/photos/43/55/11/9359979/7/landscape_32.jpg" alt="Chaco Cordova sandals review - Photo" />                                                <h4 class="headline">Chaco Cordova sandals review</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/travel/article/Quiet-Kauai-s-wild-west-6824014.php" class="hdn-analytics" data-hdn-analytics="visit|article-6824014|Travel-nav-hcat|4">
+                                                <img src="http://ww1.hdnux.com/photos/43/60/30/9373220/11/landscape_32.jpg" alt="Quiet Kauai’s wild west - Photo" />                                                <h4 class="headline">Quiet Kauai’s wild west</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer realestate" location="realestate"><a href="http://www.sfgate.com/realestate/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Real Estate|navigation-www|9">Real Estate<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="/newhomes/" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-New Homes|navigation-www|1">New Homes</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/openhomes/" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Open Homes|navigation-www|2">Open Homes</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/luxuryhomes/" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Luxury|navigation-www|3">Luxury</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/rentals/" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Rentals|navigation-www|4">Rentals</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/mortgagerates/" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Mortgage Rates|navigation-www|5">Mortgage Rates</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.loopnet.com/looplink/sfgate/searchpage.aspx" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Commercial|navigation-www|6">Commercial</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/realestate/advertise/" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Place an ad|navigation-www|7">Place an ad</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://homeguides.sfgate.com/" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Home Guides|navigation-www|8">Home Guides</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/webdb/homesales" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-Home Sales|navigation-www|9">Home Sales</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/ontheblock" class="subMenuItemLink hdn-analytics realestate" data-hdn-analytics="visit|Real Estate-On the Block Blog|navigation-www|10">On the Block Blog</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="http://blog.sfgate.com/ontheblock/2016/02/15/does-the-cow-stay-wackily-wonderful-two-home-lot-in-nopa/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1812548|Real Estate-nav-hcat|1">
+                                                <img src="http://ww3.hdnux.com/photos/43/70/12/9405082/3/landscape_32.jpg" alt="Does the cow stay? Wackily wonderful two-home lot in NoPa - Photo" />                                                <h4 class="headline">Does the cow stay? Wackily wonderful two-home lot in NoPa</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/realestate/article/Hot-Property-Above-the-clouds-highest-living-6827697.php" class="hdn-analytics" data-hdn-analytics="visit|article-6827697|Real Estate-nav-hcat|2">
+                                                <img src="http://ww3.hdnux.com/photos/43/64/66/9391502/3/landscape_32.jpg" alt="Hot Property: Above the clouds—highest living room in Northern California hits the market - Photo" />                                                <h4 class="headline">Hot Property: Above the clouds—highest living room in Northern</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://blog.sfgate.com/ontheblock/2016/02/12/if-you-love-wine-basketball-and-views-this-house-is-for-you/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1811709|Real Estate-nav-hcat|3">
+                                                <img src="http://ww1.hdnux.com/photos/43/65/07/9392628/3/landscape_32.jpg" alt="If you love wine, basketball and views, 415 Buena Vista is for you - Photo" />                                                <h4 class="headline">If you love wine, basketball and views, 415 Buena Vista is for</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/realestate/walkthrough/article/Upper-Rockridge-Mediterranean-embodies-6824695.php" class="hdn-analytics" data-hdn-analytics="visit|article-6824695|Real Estate-nav-hcat|4">
+                                                <img src="http://ww2.hdnux.com/photos/43/64/12/9388733/3/landscape_32.jpg" alt="Upper Rockridge Mediterranean embodies indoor/outdoor experience - Photo" />                                                <h4 class="headline">Upper Rockridge Mediterranean embodies indoor/outdoor experience</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                <!-- end navMenu foreach -->
+            <!-- navMenu foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer more cars" location="cars"><a href="http://cars.sfgate.com" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Cars|navigation-www|1">Cars<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="http://cars.sfgate.com/Dealers?zipCode=94103&make=&maxDistance=100&sortBy=1" class="subMenuItemLink hdn-analytics cars" data-hdn-analytics="visit|Cars-Dealers|navigation-www|1">Dealers</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/columns/clickandclack/" class="subMenuItemLink hdn-analytics cars" data-hdn-analytics="visit|Cars-Click and Clack|navigation-www|2">Click and Clack</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/topdown/" class="subMenuItemLink hdn-analytics cars" data-hdn-analytics="visit|Cars-Car Blog|navigation-www|3">Car Blog</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/columns/myride/" class="subMenuItemLink hdn-analytics cars" data-hdn-analytics="visit|Cars-My Ride|navigation-www|4">My Ride</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/cars/sellyourcar/" class="subMenuItemLink hdn-analytics cars" data-hdn-analytics="visit|Cars-Sell Your Car|navigation-www|5">Sell Your Car</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="/cars/clickandclack/article/Second-catalytic-converter-isn-t-extra-6824422.php" class="hdn-analytics" data-hdn-analytics="visit|article-6824422|Cars-nav-hcat|1">
+                                                <img src="http://ww3.hdnux.com/photos/33/32/57/7187406/143/landscape_32.jpg" alt="Second catalytic converter isn’t ‘extra’ - Photo" />                                                <h4 class="headline">Second catalytic converter isn’t ‘extra’</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/cars/article/Toyota-hybrid-pioneer-rewrites-the-rulebook-6824425.php" class="hdn-analytics" data-hdn-analytics="visit|article-6824425|Cars-nav-hcat|2">
+                                                <img src="http://ww2.hdnux.com/photos/43/61/50/9378321/3/landscape_32.jpg" alt="Toyota hybrid pioneer rewrites the rulebook - Photo" />                                                <h4 class="headline">Toyota hybrid pioneer rewrites the rulebook</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/cars/myride/article/Golden-anniversary-with-Yellow-Bird-6807122.php" class="hdn-analytics" data-hdn-analytics="visit|article-6807122|Cars-nav-hcat|3">
+                                                <img src="http://ww1.hdnux.com/photos/43/52/17/9348092/3/landscape_32.jpg" alt="Golden anniversary with Yellow Bird - Photo" />                                                <h4 class="headline">Golden anniversary with Yellow Bird</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="/cars/article/Sustainable-commuter-fun-to-drive-versatile-6785639.php" class="hdn-analytics" data-hdn-analytics="visit|article-6785639|Cars-nav-hcat|4">
+                                                <img src="http://ww4.hdnux.com/photos/43/31/45/9279827/3/landscape_32.jpg" alt="Sustainable commuter fun to drive, versatile - Photo" />                                                <h4 class="headline">Sustainable commuter fun to drive, versatile</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer more jobs" location="jobs"><a href="/jobs/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Jobs|navigation-www|2">Jobs<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="http://events.sfgate.com/search?acat=&new=n&sort=0&srad=50&srss=10&ssrss=5&st=event&svt=text&swhat=&swhen=&swhere=San+Francisco%2CCA&trim=1&cat=1111" class="subMenuItemLink hdn-analytics jobs" data-hdn-analytics="visit|Jobs-Job Events|navigation-www|1">Job Events</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://hiring.local-jobs.monster.com/recruitment/Standard-Postings.aspx?ch=sanfranchron" class="subMenuItemLink hdn-analytics jobs" data-hdn-analytics="visit|Jobs-Advertise|navigation-www|2">Advertise</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://bayarea.salary.com/SalaryWizard/LayoutScripts/Swzl_NewSearch.aspx" class="subMenuItemLink hdn-analytics jobs" data-hdn-analytics="visit|Jobs-Salary Wizard|navigation-www|3">Salary Wizard</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://blog.sfgate.com/gettowork/" class="subMenuItemLink hdn-analytics jobs" data-hdn-analytics="visit|Jobs-Get To Work|navigation-www|4">Get To Work</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="http://blog.sfgate.com/gettowork/2016/02/11/find-a-job-you-love/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1811437|Jobs-nav-hcat|1">
+                                                <img src="http://ww2.hdnux.com/photos/43/63/67/9387489/3/landscape_32.jpg" alt="Find a job you love - Photo" />                                                <h4 class="headline">Find a job you love</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://blog.sfgate.com/gettowork/2016/02/03/can-you-trust-job-postings-2/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1808664|Jobs-nav-hcat|2">
+                                                <img src="http://ww2.hdnux.com/photos/43/51/77/9347017/3/landscape_32.jpg" alt="Can you trust job postings? - Photo" />                                                <h4 class="headline">Can you trust job postings?</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://blog.sfgate.com/gettowork/2016/01/28/lessons-from-handling-multiple-job-offers/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1806549|Jobs-nav-hcat|3">
+                                                <img src="http://ww4.hdnux.com/photos/43/42/40/9316359/3/landscape_32.jpg" alt="Lessons from handling multiple job offers - Photo" />                                                <h4 class="headline">Lessons from handling multiple job offers</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://blog.sfgate.com/gettowork/2016/01/21/handle-interviews-in-weird-places-with-confidence/" class="hdn-analytics" data-hdn-analytics="visit|blogPost-1803904|Jobs-nav-hcat|4">
+                                                <img src="http://ww2.hdnux.com/photos/43/32/33/9283273/3/landscape_32.jpg" alt="Handle interviews in weird places with confidence - Photo" />                                                <h4 class="headline">Handle interviews in weird places with confidence</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                            <li class="subMenuContainer more findsave" location="findsave"><a href="http://findnsave.sfgate.com/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Find&Save|navigation-www|3">Find&Save</a></li>
+                        
+            <!-- end navloop foreach -->
+                    <!-- navloop foreach -->
+                                                            <li class="subMenuContainer more chronicle" location="chronicle"><a href="http://www.sfchronicle.com/" class="subMenuLink hdn-analytics" data-hdn-analytics="visit|Chronicle|navigation-www|4">Chronicle<span class="icon" onclick="siteHeader.openSubMenu(event)"></span></a>
+                                        <ul class="subnav">
+                            <div class="shadow"></div>
+                            <div class="subnavLeft">
+                                <ul class="subnavlinks">
+                                                                                                                        <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/local/columnists" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Latest columns|navigation-www|1">Latest columns</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/michael-bauer" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Michael Bauer|navigation-www|2">Michael Bauer</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/jon-carroll/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Jon Carroll|navigation-www|3">Jon Carroll</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/leah-garchik/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Leah Garchik|navigation-www|4">Leah Garchik</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/columnists/jenkins" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Bruce Jenkins|navigation-www|5">Bruce Jenkins</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/chip-johnson" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Chip Johnson|navigation-www|6">Chip Johnson</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfgate.com/columnists/killion/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Ann Killion|navigation-www|7">Ann Killion</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/thomas-lee/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Thomas Lee|navigation-www|8">Thomas Lee</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/matier-ross/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Matier & Ross|navigation-www|9">Matier & Ross</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/c-w-nevius/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-C.W Nevius|navigation-www|10">C.W Nevius</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/kathleen-pender/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Kathleen Pender|navigation-www|11">Kathleen Pender</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="/columnists/ostler/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Scott Ostler|navigation-www|12">Scott Ostler</a>
+                                                                                            </li>
+                                                                                                                                                                <li class="subMenuItem">
+                                                <a href="http://www.sfchronicle.com/author/debra-saunders/" class="subMenuItemLink hdn-analytics chronicle" data-hdn-analytics="visit|Chronicle-Debra J Saunders|navigation-www|13">Debra J Saunders</a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                            <div class="subnavRight">
+                                                                <!-- widgetdataprovider -->
+                                
+                                <!-- e widgetdataprovider -->
+                                                                                                        <div class="subnavPreview">
+                                                                                <div class="nav-hcat">
+                                            <a href="http://www.sfchronicle.com/food/top-100-2015/" class="hdn-analytics" data-hdn-analytics="visit|link-31039|Chronicle-nav-hcat|1">
+                                                <img src="http://ww3.hdnux.com/photos/31/22/63/6630598/5/landscape_32.jpg" alt="Top 100 Restaurants 2015 - Photo" />                                                <h4 class="headline">Top 100 Restaurants 2015</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://www.sfchronicle.com/bayarea/article/San-Francisco-s-strange-detour-from-paradise-to-6489844.php" class="hdn-analytics" data-hdn-analytics="visit|link-33235|Chronicle-nav-hcat|2">
+                                                <img src="http://ww4.hdnux.com/photos/40/63/03/8597739/4/landscape_32.jpg" alt="#surrealSF: How our city has been transformed - Photo" />                                                <h4 class="headline">#surrealSF: How our city has been transformed</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://www.sfchronicle.com/oursf/" class="hdn-analytics" data-hdn-analytics="visit|link-30168|Chronicle-nav-hcat|3">
+                                                <img src="http://ww3.hdnux.com/photos/35/34/64/7720226/3/landscape_32.jpg" alt="Our San Francisco: Exploring The Archives - Photo" />                                                <h4 class="headline">Our San Francisco: Exploring The Archives</h4>
+                                            </a>
+                                        </div>
+                                                                                <div class="nav-hcat">
+                                            <a href="http://www.sfchronicle.com/starwars" class="hdn-analytics" data-hdn-analytics="visit|link-33236|Chronicle-nav-hcat|4">
+                                                <img src="http://ww2.hdnux.com/photos/42/36/60/9038853/14/landscape_32.jpg" alt="'Star Wars' and S.F.: A force forever united - Photo" />                                                <h4 class="headline">'Star Wars' and S.F.: A force forever united</h4>
+                                            </a>
+                                        </div>
+                                                                            </div>
+                                                            </div>
+                        </ul>
+                    </li>
+                        
+            <!-- end navloop foreach -->
+                <!-- end navMenu foreach -->
+    </ul>
+<!-- e hearst/sitemenu/menuSiteNav_r1.tpl -->
+<!-- e hearst/sitemenu/dynamic_r1.tpl --><!-- e hearst/common/sitenav.tpl -->
+                </div>
+            </nav>
+            <div class="menu-bar">
+                <a href="/" class="homeLink"><span class="icon"></span></a><a id="menu-open" class="nav-btn" onclick="siteHeader.openMenu()"><span class="icon">Menu</span><span class="label">Sections</span></a>
+                <div class="title"><span class="icon"></span></div>
+            </div>
+            <span id="subHead-spacer"></span>
+            <span id="ctpl-fullbanner-spacer"></span>
+            <span id="site-nav-spacer"></span>
+        </header>
+                                                                        <article>
+                                <!-- ux hearst/ads/large_scale_ads.tpl -->
+<div class="ctpl-billboard">
+            <!-- hmb:rm rm ad -->
+        <div id="RM"><script type="text/javascript">/*<![CDATA[*/ hearstPlaceAd("RM"); /*]]>*/</script></div>
+        <!-- hmb:a951 a951 ad -->
+    <div id="A951" class="ad_deferrable"><script type="text/javascript">/*<![CDATA[*/ hearstPlaceAd("A951"); /*]]>*/</script></div>
+</div>
+<!-- e ux hearst/ads/large_scale_ads.tpl -->
+            
+                            <div id="content">
+                        <!-- e hearst/home/navigation_main.tpl -->
+<!-- e hearst/home/navigation.tpl -->
+<!-- commentsOn: 1, commentKey: sfgate-article-6809714 -->
+    <div class="page-content business ">
+    
+            <!-- templates/design/article/story_page_r2.tpl -->
+    <!-- hearst/article/types/story_r2.tpl -->
+
+<div class="article-content">
+        
+    <!-- ux hearst/article/types/standard_title.tpl -->
+	<div class="print-header">
+		<img src="/img/print-header-logo.png">
+		<span>http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals</span>
+	</div>
+		<div class="article-title">
+		<!-- src/business/templates/hearst/article/headline.tpl -->
+    <h1 class="headline entry-title">There’s a new theory about the source of the Chipotle E. coli outbreak</h1>
+    <!-- e src/business/templates/hearst/article/headline.tpl -->
+									                <!-- hearst/common/author_name.tpl -->
+<p class="byline">Hayley Peterson, provided by<br /><a href="http://www.businessinsider.com" target="_blank" style="text-decoration:none"><img src="http://imgs.sfgate.com/graphics/partners/businessinsider/article_header.gif" border="0" /></a></p>
+<!-- e hearst/common/author_name.tpl -->
+		<h5 class="timestamp" title="2016-02-05T08:25:07Z">
+			Published 8:25&nbsp;am, Friday, February 5, 2016
+		</h5>
+	</div>
+<!-- e ux hearst/article/types/standard_title.tpl -->
+    <div class="article-share">
+        <!-- ux hearst/article/mobile_share.tpl -->
+
+<div class="social-links "
+    social-url="http%3A%2F%2Fwww.sfgate.com%2Ftechnology%2Fbusinessinsider%2Farticle%2FChipotle-reportedly-believes-it-found-the-source-6809714.php%3Fcmpid%3D"
+    social-hashId="" social-blurb="%20The%20source%20of%20Chipotle%27s%20E.%20coli%20outbreak%20might%26nbsp%3Bhave%26nbsp%3Bbeen%20tainted%20Australian%20beef%2C%20according%20to%20a%20new%20report%20in%20The%20Wall%20Street%20Journal.Citing%20unidentified%26nbsp%3Bsources%2C%20Julie%20Jargon%20and%20Jesse%20Newman%26nbsp%3Breport%20Chipotle%20has%20concluded%20that%26nbsp%3Bthe%20Australian%20beef%20was%20the%20most%20likely%20cause.%20%20The%20report%20also%20highlights%20disagreements%20between%20the%20company%20and%20the%26nbsp%3BCenters%20for%20Disease%20Control%2C%20which%20on%20Monday%20announced%20the%20end%20to%20the%20outbreak%20and%20said%20the%20source%20was%20never%20identified.%20%20In%20the%20Northwest%2C%20it%20notes%20that%20%22local%20health%20authorities%20initially%20suspected%20locally%20sourced%20produce%2C%22%20according%20to%20Washington%20state%20epidemiologist%20Scott%20Lindquist.%20%20%5B...%5D%20it%20states%20that%20%22government%20officials%20leaned%20toward%20produce.%22%20%20%5B...%5D%20investigators%20were%20not%20able%20to%20determine%20a%20cause.%20%20The%20company%20is%20also%20using%20a%20new%20procedure%20for%20marinating%20chicken%20and%20steak%2C%20%22which%20now%20happens%20distinct%20from%20and%20after%20the%20preparation%20of%20other%20fresh%20items%22%20in%20resealable%20plastic%20bags%2C%20rather%20than%20bowls.%20"
+    media-url="http%3A%2F%2Fwww.sfgate.com%2Fimg%2Fpages%2Farticle%2Fopengraph_default.png" social-title="There%E2%80%99s%20a%20new%20theory%20about%20the%20source%20of%20the%20Chipotle%20E.%20coli%20outbreak">
+    <ul class="right">
+                    <li class="socialIcon print">
+                <a class="hdn-analytics" href="javascript:hst_print();"
+                    data-hdn-analytics="print_article|article-6809714|article-share-redesign|7">
+                    <span class="icon"></span>
+                </a>
+            </li>
+                <li class="socialIcon comments">
+                        <a class="hdn-analytics" href="#comments"
+                data-hdn-analytics="comments_jump|article-6809714|article-share-redesign|1">
+                <span class="icon"></span>
+            </a>
+            <div class="viafoura">
+                <span class="vf-counter vf-widget" data-widget="counter"></span>
+            </div>
+                    </li>
+            </ul>
+    <ul class="left">
+        <li class="socialIcon email" share-id="email">
+            <a class="hdn-analytics"
+                href=""
+                                onclick="return false;"
+                data-hdn-analytics="email_share|article-6809714|article-share-redesign|1">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon facebook" share-id="facebook">
+            <a class="hdn-analytics"
+                href=""
+                                onclick="return false;"
+                data-hdn-analytics="facebook_share|article-6809714|article-share-redesign|2">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon twitter" share-id="twitter">
+            <a class="hdn-analytics"
+                href=""
+                                onclick="return false;"
+                data-hdn-analytics="twitter_share|article-6809714|article-share-redesign|3">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon pinterest" share-id="pinterest">
+            <a class="hdn-analytics"
+                href=""
+                                onclick="return false;"
+                data-hdn-analytics="pinterest_share|article-6809714|article-share-redesign|4">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon reddit" share-id="reddit">
+            <a class="hdn-analytics"
+                href=""
+                                onclick="return false;"
+                data-hdn-analytics="reddit_share|article-6809714|article-share-redesign|5">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon google" share-id="google">
+            <a class="hdn-analytics"
+                href=""
+                                onclick="return false;" data-hdn-analytics="google_share|article-6809714|article-share-redesign|6">
+                <span class="icon"></span>
+            </a>
+        </li>
+                    </ul>
+</div>
+<!-- e ux hearst/article/mobile_share.tpl -->
+    </div>
+        <div class="article-body">
+        <!-- hearst/article/types/story_body_r2.tpl -->
+
+<!-- fixed-asset perfectPixelWide --><!-- hearst/item/standalone.tpl -->
+<div class="hdnce-e hdnce-item-48266"><!-- mid:freeform.48266 -->
+<div class="fixed-asset perfectPixelWide ndn_embed" id="ndn-video-player-1" data-config-distributor-id="45981" data-config-width="100%" data-config-height="9/16w"></div>
+</div><!-- e fixed-asset perfectPixelWide --><div class="fixed-asset perfectPixel"><!-- hearst/item/standalone.tpl -->
+<div class="hdnce-e hdnce-item-33813"><!-- mid:freeform.33813 -->
+<div id="hst-mediumrectangle4" class="hst-mediumrectangle">
+	<div id="TMP300_3" class="ad_deferrable">
+		<script type="text/javascript">/*<![CDATA[*/hearstPlaceAd("TMP300_3");/*]]>*/</script>
+	</div>
+</div>
+</div></div><p><img style="float: right;" src="http://static4.businessinsider.com/image/561bfdf4bd86ef18008c1283-1778-1334/moe-chipotle-17.jpg" alt="Moe Chipotle 17" /><span class="source">Hollis Johnson/Business Insider</span></p>
+<p>The source of Chipotle's E. coli outbreak might&nbsp;have&nbsp;been tainted Australian beef, according to a new report in The Wall Street Journal. Citing unidentified&nbsp;sources, Julie Jargon and Jesse Newman&nbsp;report Chipotle has concluded that&nbsp;the Australian beef was the most likely cause. The report also highlights disagreements between the company and the&nbsp;Centers for Disease Control, which on Monday announced the end to the outbreak and said the source was never identified.</p>
+<p><span>When asked to confirm whether the company believed Australian beef was the source of the outbreak, Chipotle spokesman Chris Arnold said:</span></p><div class="asset_zone zoneInlineD" data-config-asset-position="3">
+
+
+
+
+<div class="hst-simplelist">
+<div class="header clearfix"><h2>More from Business Insider</h2></div>
+<ul>
+<li class="item"><h4><a href="http://www.businessinsider.com/tidal-screws-up-release-kanye-west-new-album-2016-2" target="_blank">Tidal screwed up the release of Kanye's new album and people are furious</a></h4>
+</li><li class="item"><h4><a href="http://www.businessinsider.com/abraham-lincoln-procrastinated-on-the-gettysburg-address-2016-2" target="_blank">Abraham Lincoln didn't finish the Gettysburg Address until just hours before he spoke — and that might be why it was so great</a></h4>
+</li><li class="item"><h4><a href="http://www.businessinsider.com/astenbeck-bullish-oil-2016-2" target="_blank">The oil-trading 'god' has been burned by his bullish bet, but he's not giving up</a></h4>
+</li><li class="item"><h4><a href="http://www.businessinsider.com/nba-power-rankings-all-star-break-2015-12" target="_blank">NBA POWER RANKINGS: Where all 30 teams stand at the All-Star break</a></h4>
+</li><li class="item last"><h4><a href="http://www.businessinsider.com/paul-reubens-actors-digital-retouching-2016-2" target="_blank">Pee-wee star Paul Reubens blows the lid off Hollywood's biggest secret: digital retouching of actors</a></h4>
+</li></ul></div><!--/.hst-simplelist-->
+</div>
+<blockquote>
+<p class="p1"><span class="s1">We are not going to comment on theories or speculation. The investigation has concluded and no ingredient was identified as the cause.</span></p>
+<p class="p1"><span class="s1">I'd note that the same article highlights a few theories. In the Northwest, it notes that "local health authorities initially suspected locally sourced produce," according to Washington state epidemiologist Scott Lindquist. And it states that "government officials leaned toward produce."</span></p>
+<p class="p1"><span class="s1">In the end, investigators were not able to determine a cause.</span></p>
+</blockquote>
+<p class="p1"><span style="color: #222222; line-height: 1.5em;">Chipotle began importing beef from Australia two years ago because it couldn't find enough domestically raised grass-fed beef to meet growing demand, according to </span><a href="http://www.huffingtonpost.com/steve-ells/conventional-vs-grassfed-_b_5405894.html">Chipotle founder Steve Ells</a><span style="color: #222222; line-height: 1.5em;">.</span></p>
+<p class="p1">"We recently began sourcing some steak from ranches in Southern Australia, which is among the very best places in the world for raising beef cattle entirely on grass," <a href="http://www.huffingtonpost.com/steve-ells/conventional-vs-grassfed-_b_5405894.html">Ells</a> said in a 2014 op-ed article. "The meat produced by these ranchers is 'grass-fed' in the truest sense of the term: The cattle spend their entire lives grazing on pastures or rangelands, eating only grass or forages (by definition, forages are hay and grass — corn is not forage)."</p>
+<p>The E. coli outbreak sickened more than 50 people in 11 states between October and December. A second, smaller outbreak linked to a different strain of E. coli sickened five people in three states in December.</p>
+<p>The company is making a <a href="http://www.businessinsider.com/changes-that-chipotle-is-making-to-food-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals">numerous changes</a> to how it prepares and handles food to avoid another outbreak.</p>
+<p class="p1"><span class="s1">For example, Chipotle is now marinating chopped onions, jalapenos, and cilantro in citrus juice when it makes salsas and guacamole.</span></p>
+<p class="p1"><span class="s1"><span class="s1">The company is also using a new procedure for marinating chicken and steak, "which now happens distinct from and after the preparation of other fresh items" in resealable plastic bags, rather than bowls.</span></span></p>
+<p><a href="http://www.businessinsider.com/chipotle-source-of-e-coli-outbreaks-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals#comments">Join the conversation about this story »</a></p>
+<p>NOW WATCH: <a href="http://www.businessinsider.com/criminal-investigation-underway-chipotle-2016-1?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals">A criminal investigation is underway at Chipotle</a></p>
+<p><strong>See Also:</strong></p>
+<ul>
+<li><a href="http://www.businessinsider.com/twin-models-kelsey-and-baylee-soles-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals">These gorgeous young twin models just got hired by Calvin Klein —&nbsp;and now they're taking over fashion</a></li>
+<li><a href="http://www.businessinsider.com/consumer-and-retail-news-february-4-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals">Consumer and retail news: 10 things you need to know today</a></li>
+<li><a href="http://www.businessinsider.com/taco-bell-wants-to-be-millennials-favorite-brand-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals">Taco Bell is using one key advantage to overtake Chipotle</a></li>
+</ul>
+<p><strong>SEE ALSO:&nbsp;<a href="http://www.businessinsider.com/changes-that-chipotle-is-making-to-food-2016-2?utm_source=hearst&amp;utm_medium=referral&amp;utm_content=allverticals">Chipotle is making 5 major changes to its food</a></strong></p>
+
+<!-- e hearst/article/types/story_body_r2.tpl -->
+    </div><!--/article-body-->
+
+        <div class="article-footer">
+                    
+                        <!-- business/templates/design/item/default.tpl -->
+<!-- mid:freeform.31285 -->
+<div class="hst-freeform hdnce-e hdnce-item-31285">
+        <div class="OUTBRAIN" data-widget-id="AR_8" data-ob-template="sfgate" ></div>
+<script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+</div>
+                
+                        <!-- business/templates/design/item/default.tpl -->
+<!-- mid:freeform.31286 -->
+<div class="hst-freeform hdnce-e hdnce-item-31286">
+        <div class="OUTBRAIN" data-widget-id="AR_7" data-ob-template="sfgate" ></div>
+<script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+</div>
+                
+        
+                        <!-- hearst/ads/full_banner_B728.tpl -->
+<div id="ctpl-fullbanner2" class="ctpl-fullbanner">
+            <!-- hmb:b728 b728 ad -->
+       <div id="B728" class="ad_deferrable"><script type="text/javascript">/*<![CDATA[*/ hearstPlaceAd("B728"); /*]]>*/</script></div>
+    </div>
+<!-- e hearst/ads/full_banner_B728.tpl -->            </div><!--/article-footer-->
+</div><!--/article-content-->
+
+<!-- hearst/article/types/story_right_r2.tpl  -->
+	<div class="article-sidebar">
+		    
+                        <!-- business/templates/design/item/default.tpl -->
+<!-- mid:freeform.38541 -->
+<div class="hst-freeform hdnce-e hdnce-item-38541">
+        <div class="OUTBRAIN" data-widget-id= "SB_5" data-ob-template="sfgate" ></div>
+<script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+</div>
+            		<!-- ux/sfgate medium_rectangle_ad_first.tpl -->
+<div id="hst-mediumrectangle1" class="hst-mediumrectangle clearfix">
+
+         <!-- hmb:a300 full banner a300 ad -->
+          <div id="A300" class="A300 ad_deferrable"><script type="text/javascript">/*<![CDATA[*/ hearstPlaceAd("A300"); /*]]>*/</script></div>
+                   <!-- hmb:a300x600 a300x600 ad -->
+         <div id="A300x600" class="A300x600 ad_deferrable"><script type="text/javascript">/*<![CDATA[*/ hearstPlaceAd("A300x600"); /*]]>*/</script></div>
+     
+</div>
+<!-- e ux/sfgate medium_rectangle_ad_first.tpl --> 
+		    
+                        <!-- business/templates/design/item/default.tpl -->
+<!-- mid:freeform.31287 -->
+<div class="hst-freeform hdnce-e hdnce-item-31287">
+        <div class="OUTBRAIN" data-widget-id="SB_3" data-ob-template="sfgate" ></div>
+<script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+</div>
+                
+    
+<!-- hearst/home/mostPopular.tpl -->
+
+    <div class="most-popular">
+    <!-- hearst/home/most_popular_header.tpl -->
+    <div class="header clearfix">
+                    <h2>Most Popular</h2>
+            </div>
+<!-- e hearst/home/most_popular_header.tpl -->
+                    <div class="content">
+            <div class="contentGroups">
+            <ul>
+                            <li>
+                    <span>1</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/news/article/Comcast-outage-Internet-and-TV-customers-6831691.php" title="Comcast outage impacts Internet and TV customers across the nation"
+    data-hdn-analytics="visit|article-6831691|most_popular|1">Comcast outage impacts Internet and TV customers across the...</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>2</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/entertainment/article/Kanye-West-Says-He-s-53-Million-in-Debt-6830486.php" title="Kanye West Says He’s $53 Million in Debt"
+    data-hdn-analytics="visit|article-6830486|most_popular|2">Kanye West Says He’s $53 Million in Debt</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>3</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/technology/businessinsider/article/Instagram-and-Pinterest-are-killing-Gap-6830762.php" title="Instagram and Pinterest are killing Gap, Abercrombie, & J. Crew"
+    data-hdn-analytics="visit|article-6830762|most_popular|3">Instagram and Pinterest are killing Gap, Abercrombie, & J. Crew</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>4</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/entertainment/movies-tv/article/First-footage-of-Star-Wars-Episode-VIII-6831334.php" title="First footage of 'Star Wars: Episode VIII' released, new cast members confirmed"
+    data-hdn-analytics="visit|article-6831334|most_popular|4">First footage of 'Star Wars: Episode VIII' released, new cast...</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>5</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/crime/article/Shooting-at-S-F-Twin-Peaks-leaves-2-men-dead-6830758.php" title="Shooting at S.F. Twin Peaks leaves 2 men dead"
+    data-hdn-analytics="visit|article-6830758|most_popular|5">Shooting at S.F. Twin Peaks leaves 2 men dead</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>6</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/news/us/article/Oregon-man-expected-to-survive-wood-chipper-6828977.php" title="Oregon man expected to survive wood chipper accident"
+    data-hdn-analytics="visit|article-6828977|most_popular|6">Oregon man expected to survive wood chipper accident</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>7</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/bayarea/article/Twin-Peaks-homicide-victims-ID-d-6832055.php" title="Twin Peaks homicide victims ID’d"
+    data-hdn-analytics="visit|article-6832055|most_popular|7">Twin Peaks homicide victims ID’d</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>8</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/bayarea/article/Best-views-of-San-Francisco-and-some-offbeat-6816228.php" title="Best views of San Francisco, and some offbeat spots to get them"
+    data-hdn-analytics="visit|article-6816228|most_popular|8">Best views of San Francisco, and some offbeat spots to get them</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li>
+                    <span>9</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/news/article/Employee-skips-work-for-six-years-and-nobody-6831832.php" title="Employee skipped work for six years and still received full salary"
+    data-hdn-analytics="visit|article-6831832|most_popular|9">Employee skipped work for six years and still received full...</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                            <li class="last">
+                    <span>10</span>
+                    <h5><!-- src hearst/home/most_popular_title_link.tpl -->
+
+<a class="hdn-analytics" href="/news/texas/article/While-affluenza-teen-went-free-similar-case-6831513.php" title="While 'affluenza' teen went free, similar case led to prison"
+    data-hdn-analytics="visit|article-6831513|most_popular|10">While 'affluenza' teen went free, similar case led to prison</a>
+<!-- e src hearst/home/most_popular_title_link.tpl --></h5>
+                </li>
+                        </ul>
+            </div>
+        </div>
+                </div><!--/most-popular-->
+<!--e hearst/home/mostPopular.tpl -->		<!-- hearst/ads/medium_rectangle_ad_second.tpl -->
+
+<div id="hst-mediumrectangle2" class="hst-mediumrectangle clearfix">
+            <!-- hmb:b300 b300 ad -->
+        <div id="B300" class="B300 ad_deferrable"><script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("B300"); /*]]>*/ </script></div>
+    </div>
+<!-- e medium_rectangle_ad_second.tpl -->		<!-- src/business/widgets/hearst/collection/widget.tpl -->
+
+    <!-- hearst/collections/river_multiple_slideshows.tpl -->
+<!-- hearst/collections/cards/1col-ss.tpl -->
+
+<div class="news-box onecol-ss titleCard news">
+                          <a class="hdn-analytics "  href="/news/slideshow/Food-stops-on-the-way-to-Tahoe-Readers-124853.php" data-hdn-analytics="visit-from-img|slideshow-124853|river_multiple_slideshows|1">
+        <img src="http://ww4.hdnux.com/photos/43/62/61/9383007/6/270x0.jpg" alt="Cook's Station , Pioneer.  Right on Highway 88, this family-owned diner dishes up hearty breakfast and lunch fare. 31950 CA-88, (209) 295-2244." />
+        </a>
+                <h3 class="title">
+        <a class="hdn-analytics "  href="/news/slideshow/Food-stops-on-the-way-to-Tahoe-Readers-124853.php" data-hdn-analytics="visit|slideshow-124853|river_multiple_slideshows|1">
+        <div class="icon"></div>Food stops on the way to Tahoe
+        </a>
+    </h3>
+</div>
+<!-- e  hearst/collections/cards/1col-ss.tpl -->
+<!-- e river_multiple_slideshows.tpl -->
+<!-- e src/business/widgets/hearst/collection/widget.tpl -->        <!-- hearst/ads/medium_rectangle_ad_third.tpl -->
+
+<div id="hst-mediumrectangle3" class="hst-mediumrectangle clearfix">
+            <!-- hmb:s300 s300 ad -->
+        <div id="S300" class="S300 ad_deferrable"><script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("S300"); /*]]>*/ </script></div>
+    </div>
+<!-- e medium_rectangle_ad_third.tpl -->	</div><!--/article-sidebar-->
+<!-- e hearst/article/types/story_right_r2.tpl  -->
+<div class="article-comments">
+        <div id="comments" class="hdn-comments">
+        <a href="http://www.sfgate.com/technology/businessinsider/articleComments/Chipotle-reportedly-believes-it-found-the-source-6809714.php" class="comments-btn" rel="nofollow"> View Comments </a>
+    </div>
+    </div>
+
+<div class="print-footer">
+    <span>&copy; 2016 Hearst Communications, Inc.</span>
+    <img src="/img/print-footer-logo.png">
+</div>
+<!-- e hearst/article/types/story_r2.tpl --><!-- e templates/design/article/story_page_r2.tpl -->        </div>
+
+
+<script>
+    var HDN = HDN || {};
+  
+    HDN.ping( {
+        "id": 6809714,
+        "site": "sfgate",
+        "type": "article"
+    });
+    $(document).ready(function () {
+        return hst_get_fprefs(this);
+    });
+</script>
+
+
+
+            <!-- hearst/common/site_footer.tpl -->
+        <!-- THIRDPARTY FOOTER MARKER --><!-- DONT REMOVE -->
+                                		                    		                                                                    </article>
+                        <footer>
+                
+                <!-- hearst/item/standalone.tpl -->
+<div class="hdnce-e hdnce-item-4249"><!-- mid:freeform.4249 -->
+<div class="header">
+    <span class="logo">Logo</span>
+    <span class="top"><a href="#">Return to Top</a></span>
+</div>
+<div class="body">
+    <div class="about">
+         <h3>About</h3>
+         <ul>
+                 <li><a href="/aboutsfgate/">Our Company</a></li>
+                 <li><a href="/chronicle/hr/">Careers</a></li>
+                 <li><a href="http://extras.sfgate.com/chronicle/new/pages/home.php">Advertising</a></li>
+                 <li><a href="http://www.aboutads.info/choices/" class="adchoices">Ad Choices</a></li>
+                 <li><a href="/termsandconditions/">Terms & Conditions</a></li>
+                 <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                 <li><a href="/privacy-policy/#caprivacyrights">Your California Privacy Rights</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h3>Contact</h3>
+        <ul>
+                <li><a href="/feedback/">Customer Service</a></li>
+                <li><a href="/chronicle-contacts/">Newsroom Contacts</a></li>
+        </ul>
+    </div>
+    <div class="connect">
+        <h3>Connect</h3>
+        <ul>
+                <li><a href="https://www.facebook.com/SFGate/" class="facebook">Facebook</a></li>
+                <li><a href="https://twitter.com/sfgate/" class="twitter">Twitter</a></li>
+                <li><a href="http://www.pinterest.com/sfgate/" class="pinterest">Pinterest</a></li>
+                <!-- <li><a href="#" class="reddit">Reddit</a></li> -->
+                <li><a href="https://plus.google.com/118071641239908367285/posts/" class="google">Google</a></li>
+                <li><a href="https://instagram.com/sfgate/" class="instagram">Instagram</a></li>
+        </ul>
+    </div>
+   <div class="subscribe">
+            <h3>Subscribe</h3>
+            <ul>
+                    <li><a href="http://www.sfchronicle.com/">SFChronicle.com</a></li>
+                    <li><a href="http://www.sfchronicle.com/app/?cmpid=sfg_footer">App</a></li>
+                    <li><a href="http://www.sfchronicle.com/e-edition/?cmpid=sfg_footer">e-edition</a></li>     
+                    <li><a href="http://www.sfchronicle.com/archive">The Chronicle Archives</a></li>           
+                    <li><a href="http://www.sfchronicle.com/ultimate_access/?cmpid=sfg_footer">Subscription Offers</a></li>
+<li><a href="https://myaccount.sfchronicle.com/">Member Services</a></li>
+            </ul>
+    </div>
+</div>
+<div class="footer">
+    <span class="logo">Hearst Newspapers</span>
+    <span class="copyright"><a href="/copyright-notice/">&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Hearst Communications, Inc.</a></span>
+</div>
+</div>        
+            </footer><!--/footer-->
+            <div id="hst-richmedia" class="hst-richmedia">
+            <!-- hmb:mrm mrm ad -->
+        <div id="MRM" class="ad_deferrable"><script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("MRM"); /*]]>*/ </script></div>
+    </div>            <!-- hearst/ads/mobile_ad_MAD.tpl -->
+<div id="hst-adhesion" class="hst-adhesion clearfix">
+             <!-- hmb:mad mad ad -->
+         <div id="MAD" class="ad_deferrable"><script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("MAD"); /*]]>*/ </script></div>
+    </div>
+<!-- e mobile_ad_MAD.tpl -->        <!-- hmb:isa_bottom  include static asset for group js bottom  -->
+        <script type="text/javascript" src="/external/js/global.bottom.r7.1.0.24.js"></script>
+        <!-- cmf/sites/sfgate/tmpl/analytics_footer.php -->
+
+<!-- e cmf/sites/sfgate/tmpl/analytics_footer.php -->
+
+            <!-- templates/hearst/home/viafouraFooterJS.tpl -->
+<script>
+        
+    
+    (function (v, s) {
+        v.type = 'text/javascript';
+        v.async = !0;
+        v.src = location.protocol !== 'https:' ? '//cdn.viafoura.net/vf.js' : '//api.viafoura.com/app/js/vf.js';
+        s.parentNode.insertBefore(v, s)
+    }(document.createElement('script'), document.getElementsByTagName('script')[0]));
+
+    $(document).ready(function () {
+        if ($('#hdn-vf-comments').length) {HDN.authOnReady('free',false)}
+        var vfDomains = {};
+        $('body').find('div.viafoura span.vf-counter[data-path^="http://"]').each(function () {
+            var matches = $(this).attr('data-path').match(/^https?\:\/\/([^\/?#]+)(?:[\/?#]|$)/i);
+            var domain = matches && matches[1];
+            if (!!domain) {
+                vfDomains[domain.replace(/^m\./, 'www.')] = 1;
+            }
+        });
+        for (d in vfDomains) {
+            HDN.getVfCommentCount(undefined,d,1);
+        }
+    });
+    
+</script>
+<!-- e templates/hearst/home/viafouraFooterJS.tpl -->
+            <!-- /src/business/templates/hearst/common/opengraph_load.tpl -->
+    <div id="fb-root"></div>
+  
+  <script type="text/javascript">
+  //the window.name is a hack to fix errors in the actual facebook.js file
+  window.name=window.name || "";
+    window.fbAsyncInit = function() {
+      FB.init({
+	appId      : '1609422252616351', // App ID
+	channelURL : 'http://www.sfgate.com/channel.html', // Channel File
+	status     : true, // check login status
+	cookie     : true, // enable cookies to allow the server to access the session
+	oauth      : true, // enable OAuth 2.0
+	xfbml      : true  // parse XFBML
+      });
+      
+            		
+	// Additional initialization code
+	FB.Event.subscribe('comment.create', function(response) {	  
+	    HDN.comment_ping( {
+	      "id": 6809714,
+	      "site": "sfgate",
+	      "type": "article"
+	    });      
+	});
+	
+            
+    };
+    // Load the SDK Asynchronously
+    (function(d){
+       var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       d.getElementsByTagName('head')[0].appendChild(js);
+     }(document));
+    
+  </script>
+  
+              <!-- hearst/common/sailthruJS.tpl -->
+
+<!-- hmb:jssailthru js for SailThru -->
+<script type="text/javascript" src="http://ak.sail-horizon.com/horizon/v1.js"></script>
+<script type="text/javascript">
+    $(function() {
+        // Sailthru Concierge
+        if (window.Sailthru) {
+            Sailthru.setup({
+                domain: 'horizon.sfgate.com'
+            });
+        }
+    });
+</script>
+
+<!-- e hearst/common/sailthruJS.tpl -->
+    <!-- hmb:jsperfectmarket js for perfect market pro -->
+                  <script src="http://widget.perfectmarket.com/wwwsfgate/load.js"></script>
+
+         <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3fd06eaac1","applicationID":"147157","transactionName":"MwQBZ0RXV0NTVhBdDgpONkFfGVBeVlAcGhEMEQ==","queueTime":0,"applicationTime":56,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<!-- hearst/common/site_footer.tpl -->
+</html>
+<!-- e hearst/article/article_main.tpl -->

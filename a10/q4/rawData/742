@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgADUlBRGwAJVlhSAAc="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(14),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(15),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7);t("loader").features.stn=!0,t(6);var c=NREUM.o.EV;o.on("fn-start",function(t,e){var n=t[0];n instanceof c&&(this.bstStart=Date.now())}),o.on("fn-end",function(t,e){var n=t[0];n instanceof c&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),s.on("fn-start",function(){this.bstStart=Date.now()}),s.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on("pushState-start",function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on("pushState-end",function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",r,!1),document.addEventListener("keypress",r,!1),document.addEventListener("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(16)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(16)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(16)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(16)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){w.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(16)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(11),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(13),m=window.XMLHttpRequest;s.features.xhr=!0,t(9),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(14),a=t(15);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],14:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],15:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],16:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(15),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},w={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return w}function i(){return new r}var a="nr@context",s=t("gos"),c=t(14),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(14),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Honey Chipotle Chicken Wings In a Slow Cooker - A Lot Of Recipes</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.alotofrecipes.com/xmlrpc.php">
+<link rel="stylesheet" href="http://www.alotofrecipes.com/wp-content/themes/rexus-child-theme/style.css" type="text/css" media="screen" />
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Chipotle Chicken Wings. This is a fantastic slow cooker recipe for wings."/>
+<link rel="canonical" href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/" />
+<link rel="next" href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Honey Chipotle Chicken Wings In a Slow Cooker - A Lot Of Recipes" />
+<meta property="og:description" content="Chipotle Chicken Wings. This is a fantastic slow cooker recipe for wings." />
+<meta property="og:url" content="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/" />
+<meta property="og:site_name" content="A Lot Of Recipes" />
+<meta property="article:publisher" content="https://www.facebook.com/alotofrecipes" />
+<meta property="article:author" content="https://www.facebook.com/pages/A-Lot-of-Recipes/858591754158906" />
+<meta property="article:tag" content="chicken,chipotle,crock pot,slow cooker,wings" />
+<meta property="article:section" content="Main Dish - Chicken" />
+<meta property="article:published_time" content="2015-05-02T22:08:04+00:00" />
+<meta property="article:modified_time" content="2016-02-05T18:13:16+00:00" />
+<meta property="og:updated_time" content="2016-02-05T18:13:16+00:00" />
+<meta property="og:image" content="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/05/0cae40fd3cfbd02b9ec9216f519f8b74.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.alotofrecipes.com\/","name":"A Lot Of Recipes"}</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="A Lot Of Recipes &raquo; Feed" href="http://www.alotofrecipes.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="A Lot Of Recipes &raquo; Comments Feed" href="http://www.alotofrecipes.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="A Lot Of Recipes &raquo; Honey Chipotle Chicken Wings In a Slow Cooker Comments Feed" href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/feed/" />
+<!-- This site is powered by Shareaholic - https://shareaholic.com -->
+<script type='text/javascript' data-cfasync='false'>
+  //<![CDATA[
+    _SHR_SETTINGS = {"endpoints":{"local_recs_url":"http:\/\/www.alotofrecipes.com\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","share_counts_url":"http:\/\/www.alotofrecipes.com\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"}};
+
+    (function() {
+      var shr = document.createElement('script');
+      shr.setAttribute('data-cfasync', 'false');
+      shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+      shr.type = 'text/javascript'; shr.async = 'true';
+      shr.onload = shr.onreadystatechange = function() {
+        var rs = this.readyState;
+        if (rs && rs != 'complete' && rs != 'loaded') return;
+        var site_id = '68ea32ca6017c6337af3855c037e773f';
+        var page_config = {"endpoints":{"local_recs_url":"http:\/\/www.alotofrecipes.com\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","share_counts_url":"http:\/\/www.alotofrecipes.com\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"},"apps":{"share_buttons":{"get_share_counts":  function(url, services, cb) {
+    Shareaholic.Utils.ajax({
+      cache: true,
+      cache_ttl: '1 minute',
+      url: 'http://www.alotofrecipes.com/wp-admin/admin-ajax.php',
+      data: { action: 'shareaholic_share_counts_api', url: url, services: services },
+      success: function(res) {
+        if(res && res.data) {
+          cb(res.data, true);
+        }
+      }
+    })
+  }}}};
+        try { Shareaholic.init(site_id, page_config); } catch (e) {}
+      };
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(shr, s);
+    })();
+  //]]>
+</script>
+
+<!-- Shareaholic Content Tags -->
+<meta name='shareaholic:site_name' content='A Lot Of Recipes' />
+<meta name='shareaholic:language' content='en-US' />
+<meta name='shareaholic:url' content='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/' />
+<meta name='shareaholic:keywords' content='chicken, chipotle, crock pot, slow cooker, wings, chipotle chicken wings, main dish - chicken' />
+<meta name='shareaholic:article_published_time' content='2015-05-03T03:08:04+00:00' />
+<meta name='shareaholic:article_modified_time' content='2016-04-28T02:27:02+00:00' />
+<meta name='shareaholic:shareable_page' content='true' />
+<meta name='shareaholic:article_author_name' content='alotofrecipes' />
+<meta name='shareaholic:site_id' content='68ea32ca6017c6337af3855c037e773f' />
+<meta name='shareaholic:wp_version' content='7.6.1.4' />
+<meta name='shareaholic:image' content='http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/05/0cae40fd3cfbd02b9ec9216f519f8b74.jpg' />
+<!-- Shareaholic Content Tags End -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.alotofrecipes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='rexus-style-css'  href='http://www.alotofrecipes.com/wp-content/themes/rexus/style.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rexus-child-style-css'  href='http://www.alotofrecipes.com/wp-content/themes/rexus-child-theme/style.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rexus-responsive-css'  href='http://www.alotofrecipes.com/wp-content/themes/rexus/assets/css/responsive.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rexus-switcher-style-css'  href='http://www.alotofrecipes.com/wp-content/themes/rexus/assets/css/switcher.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rexus-color-schemes-css'  href='http://www.alotofrecipes.com/wp-content/themes/rexus/assets/colors/cyan.css' type='text/css' media='all' />
+<link rel='stylesheet' id='spm-css'  href='http://www.alotofrecipes.com/wp-content/mu-plugins/theme-extras/style.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.alotofrecipes.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.alotofrecipes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.alotofrecipes.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.alotofrecipes.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.1" />
+<link rel='shortlink' href='http://www.alotofrecipes.com/?p=5029' />
+
+			<style type='text/css'>
+				#wpadminbar .quicklinks li#wp-admin-bar-clickystats {
+					height: 28px
+				}
+
+				#wpadminbar .quicklinks li#wp-admin-bar-clickystats a {
+					height: 28px;
+					padding: 0
+				}
+
+				#wpadminbar .quicklinks li#wp-admin-bar-clickystats a img {
+					padding: 4px 5px;
+					height: 20px;
+					width: 99px;
+				}
+			</style>
+		<meta name="google-site-verification" content="JKX8kxYzZZ6MoGdFhjHSYeS-P6MKRfaeRWKLES1yfv4" /><meta name="template" content="Rexus 1.0.5" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #000000; }
+</style>
+<style>
+ins {background: none;}
+</style>
+
+<script type='text/javascript'><!--// <![CDATA[
+var OA_zones = {
+'alotofrecipes_300' : 510,
+'alotofrecipes_468' : 509,
+'alotofrecipes_728' : 644,
+'alotofrecipes_contentad' : 574,
+'alotofrecipes_infolinks' : 596,
+'alotofrecipes_336' : 508
+}
+// ]]> -->
+</script>
+<script type='text/javascript' src='http://adnetworktech.com/network/www/delivery/spcjs.php'></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54383832-1', 'auto');
+  ga('send', 'pageview');
+
+</script><!--[if lte IE 9]>
+<script src="http://www.alotofrecipes.com/wp-content/themes/rexus/assets/js/html5shiv.js"></script>
+<![endif]-->
+<meta name="p:domain_verify" content="a0a879cce3588713e2f5d6cca62a624e"/>
+
+<style>
+.top-ad .textwidget {
+max-width: 728px;
+margin: 0 auto;
+margin-top: 10px;
+}
+.top-ad {
+margin-bottom: 0;
+}
+</style>
+</head>
+
+<body class="single single-post postid-5029 single-format-standard custom-background layout-2c-l no-pattern">
+
+	<div class="container">
+		<a id="secondary-mobile-menu" href="#primary-nav">
+			<i class="fa fa-bars"></i> Primary Menu		</a>
+	</div>
+
+	<!-- Header Ad / Start -->
+		<!-- Header Ad / End -->
+
+	<header id="masthead" class="site-header container clearfix" role="banner">
+
+		<div id="logo"><h1 class="site-title"><a href="http://www.alotofrecipes.com" rel="home">A Lot Of Recipes</a></h1></div>
+		<div class="header-social-icons"></div>
+		
+	<nav id="secondary-nav" class="secondary-navigation" role="navigation">
+
+		<div class="menu-pages-menu-container"><ul id="secondary-menu" class="menu-secondary-items sf-menu"><li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="http://www.alotofrecipes.com/about/">About Us</a></li>
+<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="http://www.alotofrecipes.com/contact/">Contact Us</a></li>
+</ul></div>
+		<div id="header-search">
+	<form method="get" id="searchform" action="http://www.alotofrecipes.com/" role="search">
+		<input type="text" name="s" id="s" placeholder="Search">
+		<button type="submit" name="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+	</form>
+</div>
+	</nav><!-- #site-navigation -->
+
+
+	</header><!-- #masthead -->
+
+	<a id="primary-mobile-menu" class="container" href="#primary-nav">
+		<i class="fa fa-bars"></i> <span>Secondary Menu</span>
+	</a>
+
+	
+	<nav id="primary-nav" class="main-navigation container clearfix" role="navigation">
+
+		<div class="menu-categories-menu-container"><ul id="primary-menu" class="menu-primary-items sf-menu"><li id="menu-item-376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-376"><a href="http://www.alotofrecipes.com/">Home</a></li>
+<li id="menu-item-328" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-328"><a href="http://www.alotofrecipes.com/category/appetizers-extras/">Appetizers &#038; Extras</a></li>
+<li id="menu-item-334" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-334"><a href="http://www.alotofrecipes.com/category/main-dish/">Main Dish</a>
+<ul class="sub-menu">
+	<li id="menu-item-329" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-329"><a href="http://www.alotofrecipes.com/category/main-dish/main-dish-beef/">Main Dish &#8211; Beef</a></li>
+	<li id="menu-item-335" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-335"><a href="http://www.alotofrecipes.com/category/main-dish/main-dish-chicken/">Main Dish &#8211; Chicken</a></li>
+	<li id="menu-item-584" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584"><a href="http://www.alotofrecipes.com/category/main-dish/main-dish-pork/">Main Dish &#8211; Pork</a></li>
+	<li id="menu-item-371" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-371"><a href="http://www.alotofrecipes.com/category/main-dish/main-dish-fish/">Main Dish &#8211; Sea Food</a></li>
+	<li id="menu-item-811" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-811"><a href="http://www.alotofrecipes.com/category/main-dish/main-dish-vegan/">Main Dish &#8211; Vegan</a></li>
+	<li id="menu-item-483" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-483"><a href="http://www.alotofrecipes.com/category/main-dish/main-dish-other/">Main Dish &#8211; Other</a></li>
+</ul>
+</li>
+<li id="menu-item-327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327"><a href="http://www.alotofrecipes.com/category/desserts/">Desserts</a></li>
+<li id="menu-item-609" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-609"><a href="http://www.alotofrecipes.com/category/tips/">Tips</a></li>
+<li id="menu-item-389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a href="http://www.alotofrecipes.com/common-measurements/">Measurements</a></li>
+<li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="http://www.alotofrecipes.com/ingredient-substitutions/">Substitutions</a></li>
+</ul></div>
+	</nav><!-- #site-navigation -->
+
+	
+		<div class="top-ad" style="list-style-type: none;">
+		<li id="text-3" class="widget widget_text">			<div class="textwidget"><script type='text/javascript'><!--// <![CDATA[
+OA_show('alotofrecipes_728');
+// ]]> --></script></div>
+		</li>
+	</div> <!-- .top-ad -->
+	
+	<div id="page" class="hfeed site container clearfix">
+
+		
+		
+	<div id="primary" class="content-area" data-mh="equal">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+	<div class="breadcrumbs clearfix">
+		<span class="post-nav post-nav-prev"><i class="fa fa-angle-left"></i> <a href="http://www.alotofrecipes.com/snickerdoodles-dipped-in-white-chocolate/" rel="prev">Snickerdoodles Dipped In White Chocolate</a></span>		<span class="post-nav post-nav-next"><a href="http://www.alotofrecipes.com/cheesy-homemade-meatball-parmesan-casserole/" rel="next">Cheesy Homemade Meatball Parmesan Casserole</a> <i class="fa fa-angle-right"></i></span>	</div><!-- .breadcrumbs -->
+
+
+			<article id="post-5029" class="post-5029 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken tag-chicken tag-chipotle tag-crock-pot tag-slow-cooker tag-wings clearfix">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Honey Chipotle Chicken Wings In a Slow Cooker</h1>
+		<div class="entry-meta">
+			by <span class="entry-author"><span class="author vcard"><a class="url fn n" href="http://www.alotofrecipes.com/author/alotofrecipes/">alotofrecipes</a></span></span> on <a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/" rel="bookmark"><time class="entry-date published" datetime="2015-05-02T22:08:04+00:00">May 2, 2015</time></a> in <span class="entry-categories"><a href="http://www.alotofrecipes.com/category/main-dish/main-dish-chicken/" rel="category tag">Main Dish - Chicken</a></span>
+							<span class="entry-comment"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comments">22</a></span>
+					</div><!-- .entry-meta -->
+		
+					<div class="title-sidebar" style="list-style-type: none;">
+				<li id="text-4" class="widget widget_text">			<div class="textwidget"><div class='shareaholic-canvas' data-app-id='7641060' data-app='share_buttons' data-title='Honey Chipotle Chicken Wings In a Slow Cooker' data-link='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/' data-summary=''></div></div>
+		</li>
+			</div> <!-- .title-sidebar -->
+				
+					<div class="post-thumb"><img width="679" height="917" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/05/0cae40fd3cfbd02b9ec9216f519f8b74.jpg" class="attachment-post-thumbnail wp-post-image" alt="0cae40fd3cfbd02b9ec9216f519f8b74" /></div>
+		
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+	
+			
+		<center>
+<div style="width: 468px;">
+<div style="width: 100%; text-align: left; font-size: 10px;"><img class="spm-adhead" src="http://adnetworktech.com/network/images/ad-header.png" width="92" height="9" /></div>
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('alotofrecipes_468');
+// ]]&gt; --></script>
+</div>
+</center><p>&nbsp;</p>
+<p>This is a fantastic slow cooker recipe for wings. They are cooked in a sweet and spicy honey chipotle sauce that is to die for! The recipe has 2 options: using chicken wings or boneless breast wings&#8230;take your pick as it&#8217;s just a preference for this recipe. We want real wings so we choose bone-in. You will love these!</p>
+<p style="text-align: center;"><em>For The Full List Of Ingredients &amp; The Step By Step Directions To Follow Please Head On Over To The Next Page Where We Show You How To Put Everything Together…</em></p>
+<h2 class="nextpage" style="text-align: center;"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/2/">Next Page &raquo;</a></h2><!--nextpage-->
+<p>&nbsp;</p>
+<center>
+<div style="width: 336px;">
+<div style="width: 100%; text-align: left; font-size: 10px;"><img class="spm-adhead" src="http://adnetworktech.com/network/images/ad-header.png" width="92" height="9" /></div>
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('alotofrecipes_336');
+// ]]&gt; --></script>
+ </div>
+</center>
+<br />
+
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('alotofrecipes_contentad');
+// ]]&gt; --></script><div class='shareaholic-canvas' data-app-id='7641056' data-app='share_buttons' data-title='Honey Chipotle Chicken Wings In a Slow Cooker' data-link='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/' data-summary=''></div>		<div class="page-links">Pages: 1 <a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/2/">2</a></div>	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+
+					<div class="entry-share-icons">
+				Share This Post: 					<span class="entry-share-icons">
+		<span class="entry-share-icons">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.alotofrecipes.com%2Fhoney-chipotle-chicken-wings-in-a-slow-cooker%2F" class="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/intent/tweet?text=Honey Chipotle Chicken Wings In a Slow Cooker&url=http%3A%2F%2Fwww.alotofrecipes.com%2Fhoney-chipotle-chicken-wings-in-a-slow-cooker%2F" class="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a>
+			<a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.alotofrecipes.com%2Fhoney-chipotle-chicken-wings-in-a-slow-cooker%2F" class="tooltip" title="GooglePlus"><i class="fa fa-google-plus"></i></a>
+			<a href="https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.alotofrecipes.com%2Fhoney-chipotle-chicken-wings-in-a-slow-cooker%2F&media=http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/05/0cae40fd3cfbd02b9ec9216f519f8b74.jpg&description=&nbsp; This is a fantastic slow cooker recipe for wings. They are cooked in a sweet and spicy honey chipotle sauce that is to die for! The recipe has 2 options:&hellip;" class="tooltip" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+			<a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.alotofrecipes.com%2Fhoney-chipotle-chicken-wings-in-a-slow-cooker%2F&title=Honey Chipotle Chicken Wings In a Slow Cooker&summary=&nbsp; This is a fantastic slow cooker recipe for wings. They are cooked in a sweet and spicy honey chipotle sauce that is to die for! The recipe has 2 options:&hellip;&source=A Lot Of Recipes" class="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+		</span>
+	</span>
+			</div><!-- .entry-share-icons -->
+		
+		<div class="entry-tags">
+						Tags: <a href="http://www.alotofrecipes.com/tag/chicken/" rel="tag">chicken</a><a href="http://www.alotofrecipes.com/tag/chipotle/" rel="tag">chipotle</a><a href="http://www.alotofrecipes.com/tag/crock-pot/" rel="tag">crock pot</a><a href="http://www.alotofrecipes.com/tag/slow-cooker/" rel="tag">slow cooker</a><a href="http://www.alotofrecipes.com/tag/wings/" rel="tag">wings</a>		</div>
+
+			</footer><!-- .entry-footer -->
+	
+</article><!-- #post-## -->
+
+
+			
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			22 thoughts on &ldquo;<span>Honey Chipotle Chicken Wings In a Slow Cooker</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist clearfix">
+				<li class="comment even thread-even depth-1" id="li-comment-2747">
+		<article id="comment-2747" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/960182230692591/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='https://www.facebook.com/app_scoped_user_id/960182230692591/' rel='external nofollow' class='url'>Karen Whitley</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-2747"><time datetime="2015-05-03T23:28:43+00:00">May 3, 2015 at 11:28 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=2747#respond' onclick='return addComment.moveForm( "comment-2747", "2747", "respond", "5029" )' aria-label='Reply to Karen Whitley'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Yum</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2767">
+		<article id="comment-2767" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/821586921256962/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='https://www.facebook.com/app_scoped_user_id/821586921256962/' rel='external nofollow' class='url'>Ginger LovesHalloween Frydrych</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-2767"><time datetime="2015-05-04T16:38:09+00:00">May 4, 2015 at 4:38 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=2767#respond' onclick='return addComment.moveForm( "comment-2767", "2767", "respond", "5029" )' aria-label='Reply to Ginger LovesHalloween Frydrych'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>.</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-2802">
+		<article id="comment-2802" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/954327841278174/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='https://www.facebook.com/app_scoped_user_id/954327841278174/' rel='external nofollow' class='url'>Ashley N Rene Mujica</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-2802"><time datetime="2015-05-06T23:31:46+00:00">May 6, 2015 at 11:31 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=2802#respond' onclick='return addComment.moveForm( "comment-2802", "2802", "respond", "5029" )' aria-label='Reply to Ashley N Rene Mujica'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>I know clips were winning did they win cuz</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2808">
+		<article id="comment-2808" class="comment">
+
+			<img alt='' src='http://2.gravatar.com/avatar/?s=60&#038;d=identicon&#038;r=g' srcset='http://1.gravatar.com/avatar/?s=120&amp;d=identicon&amp;r=g 2x' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='https://www.facebook.com/coolhomerecipes' rel='external nofollow' class='url'>Cool Home Recipes</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-2808"><time datetime="2015-05-07T10:37:40+00:00">May 7, 2015 at 10:37 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=2808#respond' onclick='return addComment.moveForm( "comment-2808", "2808", "respond", "5029" )' aria-label='Reply to Cool Home Recipes'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>This yummy recipe has been shared at: <a href="https://www.facebook.com/coolhomerecipes" rel="nofollow">https://www.facebook.com/coolhomerecipes</a></p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-2835">
+		<article id="comment-2835" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/844035578965131/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='https://www.facebook.com/app_scoped_user_id/844035578965131/' rel='external nofollow' class='url'>Teresa Roberts</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-2835"><time datetime="2015-05-08T15:47:32+00:00">May 8, 2015 at 3:47 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=2835#respond' onclick='return addComment.moveForm( "comment-2835", "2835", "respond", "5029" )' aria-label='Reply to Teresa Roberts'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Looks good</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2917">
+		<article id="comment-2917" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/10152838540471569/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='https://www.facebook.com/app_scoped_user_id/10152838540471569/' rel='external nofollow' class='url'>Stephanie Mckinnie</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-2917"><time datetime="2015-05-12T09:28:48+00:00">May 12, 2015 at 9:28 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=2917#respond' onclick='return addComment.moveForm( "comment-2917", "2917", "respond", "5029" )' aria-label='Reply to Stephanie Mckinnie'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Wonder can you cook this in a crock pot?</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-5570">
+		<article id="comment-5570" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/10100848833986965/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/10100848833986965' rel='external nofollow' class='url'>Amy Lauren</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-5570"><time datetime="2015-08-15T09:04:30+00:00">August 15, 2015 at 9:04 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=5570#respond' onclick='return addComment.moveForm( "comment-5570", "5570", "respond", "5029" )' aria-label='Reply to Amy Lauren'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>@[1375050137:2048:Kristy Winter]</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-5580">
+		<article id="comment-5580" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/1454683408098193/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/1454683408098193' rel='external nofollow' class='url'>Daily Kitchen and Cooking Tips</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-5580"><time datetime="2015-08-15T13:00:15+00:00">August 15, 2015 at 1:00 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=5580#respond' onclick='return addComment.moveForm( "comment-5580", "5580", "respond", "5029" )' aria-label='Reply to Daily Kitchen and Cooking Tips'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>oh my &#8230; sure looks yummy :p</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-5589">
+		<article id="comment-5589" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/10204595903997670/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/10204595903997670' rel='external nofollow' class='url'>Mary Ann Haiman</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-5589"><time datetime="2015-08-15T15:34:39+00:00">August 15, 2015 at 3:34 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=5589#respond' onclick='return addComment.moveForm( "comment-5589", "5589", "respond", "5029" )' aria-label='Reply to Mary Ann Haiman'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>In my book if they&#8217;re not crispy they&#8217;re not very good :-).</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-5593">
+		<article id="comment-5593" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/125247401144699/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/125247401144699' rel='external nofollow' class='url'>Quantez Brock</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-5593"><time datetime="2015-08-15T17:03:44+00:00">August 15, 2015 at 5:03 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=5593#respond' onclick='return addComment.moveForm( "comment-5593", "5593", "respond", "5029" )' aria-label='Reply to Quantez Brock'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>@[100006973090272:2048:Candase Williams]</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-5638">
+		<article id="comment-5638" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/1099308653430306/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/1099308653430306' rel='external nofollow' class='url'>Jon Vliet</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-5638"><time datetime="2015-08-16T10:48:16+00:00">August 16, 2015 at 10:48 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=5638#respond' onclick='return addComment.moveForm( "comment-5638", "5638", "respond", "5029" )' aria-label='Reply to Jon Vliet'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>no thanks i like my wings crispy so i use the deep fryer</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-7860">
+		<article id="comment-7860" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/807100772661826/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/807100772661826' rel='external nofollow' class='url'>Paleo For Beginners</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-7860"><time datetime="2015-09-22T23:30:19+00:00">September 22, 2015 at 11:30 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=7860#respond' onclick='return addComment.moveForm( "comment-7860", "7860", "respond", "5029" )' aria-label='Reply to Paleo For Beginners'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>anyone else loves this  as much as i do  :p</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-7866">
+		<article id="comment-7866" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/501073536722700/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/501073536722700' rel='external nofollow' class='url'>Anne Wright</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-7866"><time datetime="2015-09-23T03:10:03+00:00">September 23, 2015 at 3:10 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=7866#respond' onclick='return addComment.moveForm( "comment-7866", "7866", "respond", "5029" )' aria-label='Reply to Anne Wright'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Yummy.</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-7905">
+		<article id="comment-7905" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/913605845378924/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/913605845378924' rel='external nofollow' class='url'>Gail Gentry</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-7905"><time datetime="2015-09-23T16:20:41+00:00">September 23, 2015 at 4:20 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=7905#respond' onclick='return addComment.moveForm( "comment-7905", "7905", "respond", "5029" )' aria-label='Reply to Gail Gentry'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Need to try</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-10549">
+		<article id="comment-10549" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/155543281452289/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/155543281452289' rel='external nofollow' class='url'>Jo Pilcher</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-10549"><time datetime="2015-11-16T10:29:51+00:00">November 16, 2015 at 10:29 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=10549#respond' onclick='return addComment.moveForm( "comment-10549", "10549", "respond", "5029" )' aria-label='Reply to Jo Pilcher'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>My girls  would like this</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-10589">
+		<article id="comment-10589" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/1564768577104123/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/1564768577104123' rel='external nofollow' class='url'>Awesome Home Recipes</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-10589"><time datetime="2015-11-16T20:02:06+00:00">November 16, 2015 at 8:02 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=10589#respond' onclick='return addComment.moveForm( "comment-10589", "10589", "respond", "5029" )' aria-label='Reply to Awesome Home Recipes'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Shared this yummy recipe at:</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-11039">
+		<article id="comment-11039" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/1454683408098193/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/1454683408098193' rel='external nofollow' class='url'>Daily Kitchen and Cooking Tips</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-11039"><time datetime="2015-11-27T18:30:09+00:00">November 27, 2015 at 6:30 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=11039#respond' onclick='return addComment.moveForm( "comment-11039", "11039", "respond", "5029" )' aria-label='Reply to Daily Kitchen and Cooking Tips'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Looks delicious :/</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-11051">
+		<article id="comment-11051" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/4777773378485/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/4777773378485' rel='external nofollow' class='url'>Kelly Michele Christie</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-11051"><time datetime="2015-11-28T08:36:15+00:00">November 28, 2015 at 8:36 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=11051#respond' onclick='return addComment.moveForm( "comment-11051", "11051", "respond", "5029" )' aria-label='Reply to Kelly Michele Christie'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Brian Fafford</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-11054">
+		<article id="comment-11054" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/1449999065301711/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/1449999065301711' rel='external nofollow' class='url'>Bonnie Crouch</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-11054"><time datetime="2015-11-28T11:29:06+00:00">November 28, 2015 at 11:29 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=11054#respond' onclick='return addComment.moveForm( "comment-11054", "11054", "respond", "5029" )' aria-label='Reply to Bonnie Crouch'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>looks good</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-16303">
+		<article id="comment-16303" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/1257863570893902/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/1257863570893902' rel='external nofollow' class='url'>Kevin Sandidge</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-16303"><time datetime="2016-02-07T08:14:47+00:00">February 7, 2016 at 8:14 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=16303#respond' onclick='return addComment.moveForm( "comment-16303", "16303", "respond", "5029" )' aria-label='Reply to Kevin Sandidge'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Gillian Lee Sandidge</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-22007">
+		<article id="comment-22007" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/412813188912685/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/412813188912685' rel='external nofollow' class='url'>Cooking with KnowHow</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-22007"><time datetime="2016-04-05T00:30:14+00:00">April 5, 2016 at 12:30 am</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=22007#respond' onclick='return addComment.moveForm( "comment-22007", "22007", "respond", "5029" )' aria-label='Reply to Cooking with KnowHow'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Anything  related to recipe  is  important</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-22095">
+		<article id="comment-22095" class="comment">
+
+			<img alt='' src='http://graph.facebook.com/10204486844640503/picture?type=square&width=60&height=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' />			
+			<div class="comment-des">
+
+				<div class="arrow-comment"></div>
+
+				<div class="comment-by">
+					<p class="author"><strong><a href='http://www.facebook.com/10204486844640503' rel='external nofollow' class='url'>Catherine Amjad</a></strong></p>
+					<p class="date"><a href="http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/#comment-22095"><time datetime="2016-04-06T12:59:42+00:00">April 6, 2016 at 12:59 pm</time></a> - <a href="" title="Edit Comment">Edit</a></p>					<span class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/?replytocom=22095#respond' onclick='return addComment.moveForm( "comment-22095", "22095", "respond", "5029" )' aria-label='Reply to Catherine Amjad'>Reply</a>					</span><!-- .reply -->
+				</div><!-- .comment-by -->
+
+				<section class="comment-content comment">
+										<p>Yum</p>
+				</section><!-- .comment-content -->
+
+			</div><!-- .comment-des -->
+
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+	
+							<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Add Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/honey-chipotle-chicken-wings-in-a-slow-cooker/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://www.alotofrecipes.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+																										<input class="comment-name" id="author" name="author" type="text" value="" size="30" placeholder="Name (required)" aria-required='true' />
+<input class="comment-email" id="email" name="email" type="text" value="" size="30" placeholder="Email (required)" aria-required='true' />
+<input class="comment-website" id="url" name="url" type="text" value="" size="30" placeholder="Website (optional)" />
+												<textarea class="comment-text" id="comment" name="comment" cols="45" rows="6" placeholder="Comment" aria-required="true"></textarea>						
+						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='5029' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="b6037af385" /></p><script type="text/javascript" src="http://challenge.asirra.com/js/AsirraClientSide.js"></script>
+<script type="text/javascript">
+asirraState.SetEnlargedPosition("top");
+asirraState.SetCellsPerRow(5);
+
+(function ($) {
+var __asirra_request_flag = false;
+$(function () {
+$("form").each(function () {
+	var me = $(this);
+	if (!me.attr("action").match(/wp-comments-post/)) return true;
+
+	me.on("submit", function () {
+		if (__asirra_request_flag) return false;
+		__asirra_request_flag = true;
+		return Asirra_CheckIfHuman(function (is_human) {
+			__asirra_request_flag = false;
+			if (!is_human) return false;
+
+			me.unbind("submit");
+			var sb = me.find(":submit");
+			if (sb.length) sb.click();
+			else me.submit();
+
+			return false;
+		});
+		return false;
+	});
+});
+});
+})(jQuery);
+</script><button type="submit" id="submit">Submit Comment</button><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="245"/></p>					</form>
+							</div><!-- #respond -->
+			
+</div><!-- #comments -->
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area widget-primary" data-mh="equal" role="complementary">
+	<aside id="text-2" class="widget widget_text">			<div class="textwidget"><script type='text/javascript'><!--// <![CDATA[
+OA_show('alotofrecipes_300');
+// ]]> --></script></div>
+		</aside><aside id="facebook-like-widget-3" class="widget Facebook_like">
+		<h1 class="widget-title">Follow Us On Facebook</h1>
+		<div class="facebook-like-wrap">
+
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Falotofrecipes&amp;width=289&amp;border_color=%23DFDFDF&amp;show_faces=true&amp;stream=false&amp;header=true&amp;height=200" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:289px; height: 200px; " allowTransparency="true"></iframe>
+
+		</div>
+
+		</aside><aside id="rexus-views-3" class="widget widget-rexus-views posts-thumbnail-widget"><h1 class="widget-title">Most Views Posts</h1><ul><li><a href="http://www.alotofrecipes.com/kid-friendly-delicious-taco-casserole/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/08/978ab5cb1ead76d3481845a999fd9a47-45x45.jpg" class="entry-thumb wp-post-image" alt="Kid Friendly Delicious Taco Casserole" /></a><a href="http://www.alotofrecipes.com/kid-friendly-delicious-taco-casserole/" rel="bookmark">Kid Friendly Delicious Taco Casserole</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/awesome-comfort-meal-ground-beef-burrito-casserole/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/08/ea628a1dc4039f76e660a818c016c0c8-45x45.jpg" class="entry-thumb wp-post-image" alt="Awesome Comfort Meal &#8211; Ground Beef Burrito Casserole" /></a><a href="http://www.alotofrecipes.com/awesome-comfort-meal-ground-beef-burrito-casserole/" rel="bookmark">Awesome Comfort Meal &#8211; Ground Beef Burrito Casserole</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/grilled-buffalo-chicken-stuffed-with-mozzarella/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/04/9e86f781fbd323843fb9b2f92a765c57-45x45.jpg" class="entry-thumb wp-post-image" alt="Grilled Buffalo Chicken Stuffed With Mozzarella" /></a><a href="http://www.alotofrecipes.com/grilled-buffalo-chicken-stuffed-with-mozzarella/" rel="bookmark">Grilled Buffalo Chicken Stuffed With Mozzarella</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/cream-cheese-cool-whip-and-pineapple-dream-dessert/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/07/14dcd8c382988682399339db790f4555-45x45.jpg" class="entry-thumb wp-post-image" alt="Cream Cheese, Cool Whip and Pineapple Dream Dessert" /></a><a href="http://www.alotofrecipes.com/cream-cheese-cool-whip-and-pineapple-dream-dessert/" rel="bookmark">Cream Cheese, Cool Whip and Pineapple Dream Dessert</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/unbelievable-lemony-cream-cheese-bars/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/05/7cb47d7ca4cd329c5b0a3404cca15e30-45x45.jpg" class="entry-thumb wp-post-image" alt="Unbelievable Lemony Cream Cheese Bars" /></a><a href="http://www.alotofrecipes.com/unbelievable-lemony-cream-cheese-bars/" rel="bookmark">Unbelievable Lemony Cream Cheese Bars</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/casserole-taco-cornbread/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/05/03d31ffcf32c68f5545e7cc22a417067-45x45.jpg" class="entry-thumb wp-post-image" alt="Casserole &#8211; Taco Cornbread" /></a><a href="http://www.alotofrecipes.com/casserole-taco-cornbread/" rel="bookmark">Casserole &#8211; Taco Cornbread</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/easy-and-awesome-tasting-chicken-tetrazzini-bake/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/08/chicken-tetrazinni-3-45x45.jpg" class="entry-thumb wp-post-image" alt="Easy and Awesome Tasting Chicken Tetrazzini Bake" /></a><a href="http://www.alotofrecipes.com/easy-and-awesome-tasting-chicken-tetrazzini-bake/" rel="bookmark">Easy and Awesome Tasting Chicken Tetrazzini Bake</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/slow-cooker-sirloin-tips-and-gravy/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/09/524c359e2b417854181f8fe51a5ffd59-45x45.jpg" class="entry-thumb wp-post-image" alt="Slow Cooker Sirloin Tips and Gravy" /></a><a href="http://www.alotofrecipes.com/slow-cooker-sirloin-tips-and-gravy/" rel="bookmark">Slow Cooker Sirloin Tips and Gravy</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/perfect-lo-mein-everytime-made-from-scratch/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/08/a8e3198df776b985eed27b3a67a5e827-45x45.jpg" class="entry-thumb wp-post-image" alt="Perfect Lo Mein Everytime Made From Scratch" /></a><a href="http://www.alotofrecipes.com/perfect-lo-mein-everytime-made-from-scratch/" rel="bookmark">Perfect Lo Mein Everytime Made From Scratch</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/chicken-with-garlic-brown-sugar-glaze/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/04/3967099540_15b89b2f52_b-45x45.jpg" class="entry-thumb wp-post-image" alt="Chicken With Garlic Brown Sugar Glaze" /></a><a href="http://www.alotofrecipes.com/chicken-with-garlic-brown-sugar-glaze/" rel="bookmark">Chicken With Garlic Brown Sugar Glaze</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/homemade-lemon-meringue-pie/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/03/2224112901_87042d7439_o-45x45.jpg" class="entry-thumb wp-post-image" alt="Homemade Lemon Meringue Pie" /></a><a href="http://www.alotofrecipes.com/homemade-lemon-meringue-pie/" rel="bookmark">Homemade Lemon Meringue Pie</a><div class="entry-info"></div></li><li><a href="http://www.alotofrecipes.com/salisbury-steak-the-lazy-mans-way/" rel="bookmark"><img width="45" height="45" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2015/05/9734c046c808acaa96f35cedbda274b7-45x45.jpg" class="entry-thumb wp-post-image" alt="Salisbury Steak the Lazy Man&#8217;s Way" /></a><a href="http://www.alotofrecipes.com/salisbury-steak-the-lazy-mans-way/" rel="bookmark">Salisbury Steak the Lazy Man&#8217;s Way</a><div class="entry-info"></div></li></ul></aside></div><!-- #secondary -->
+
+<div class="clearfix"></div>			<div id="carousel-1" class="carousel-loop"><h2 class="section-title">Related Posts</h2><div class="jcarousel"><ul><li><article class="post-13124 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/franks-buffalo-chicken-bowls-that-absolutely-rock/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/88d69a3961f6efcc29e9aca6ee63277c-230x157.jpg" class="entry-thumb wp-post-image" alt="Franks Buffalo Chicken Bowls That Absolutely Rock" /><h2 class="entry-title">Franks Buffalo Chicken Bowls That Absolutely Rock</h1><div class="entry-meta"><time datetime="2016-04-25T15:51:43+00:00">April 25, 2016</time></div></a></article></li><li><article class="post-13054 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/5-ingredient-chicken-bake-with-stuffing-mix-topping/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/chicken_bake-230x157.jpg" class="entry-thumb wp-post-image" alt="5 Ingredient Chicken Bake With Stuffing Mix Topping" /><h2 class="entry-title">5 Ingredient Chicken Bake With Stuffing Mix Topping</h1><div class="entry-meta"><time datetime="2016-04-20T17:36:01+00:00">April 20, 2016</time></div></a></article></li><li><article class="post-13021 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/chicken-tetrazzini-casserole-that-the-family-will-fall-in-love-with/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/chicken_tetrazinni-230x157.jpg" class="entry-thumb wp-post-image" alt="Chicken Tetrazzini Casserole That The Family Will Fall In Love With" /><h2 class="entry-title">Chicken Tetrazzini Casserole That The Family Will Fall In Love With</h1><div class="entry-meta"><time datetime="2016-04-19T14:55:56+00:00">April 19, 2016</time></div></a></article></li><li><article class="post-12946 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/similar-to-kung-pao-is-this-spicy-cashew-chicken-stir-fry-dish/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/acfaa54500badf73e3bf286602653462-230x157.jpg" class="entry-thumb wp-post-image" alt="Similar To Kung Pao Is This Spicy Cashew Chicken Stir Fry Dish" /><h2 class="entry-title">Similar To Kung Pao Is This Spicy Cashew Chicken Stir Fry Dish</h1><div class="entry-meta"><time datetime="2016-04-12T18:44:44+00:00">April 12, 2016</time></div></a></article></li><li><article class="post-12875 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/greek-lemon-chicken-that-even-the-kids-will-love/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/3f6a7a88a6a81c0bc169c22f5f64335e-230x157.jpg" class="entry-thumb wp-post-image" alt="Greek Lemon Chicken That Even The Kids Will Love" /><h2 class="entry-title">Greek Lemon Chicken That Even The Kids Will Love</h1><div class="entry-meta"><time datetime="2016-04-09T14:37:17+00:00">April 9, 2016</time></div></a></article></li><li><article class="post-12872 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/fettucini-alfredo-with-chicken-broccoli-and-bacon/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/16c7177672dcb8e6059a231880f7153a-230x157.jpg" class="entry-thumb wp-post-image" alt="Fettucini Alfredo With Chicken, Broccoli and Bacon" /><h2 class="entry-title">Fettucini Alfredo With Chicken, Broccoli and Bacon</h1><div class="entry-meta"><time datetime="2016-04-09T14:16:58+00:00">April 9, 2016</time></div></a></article></li><li><article class="post-12861 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/why-make-the-same-salad-over-and-over-when-you-can-enjoy-this-grilled-chicken-salad-with-ginger-sesame-marinade/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/fefe54acde479f706a3971cf1f344541-230x157.jpg" class="entry-thumb wp-post-image" alt="Why Make the Same Salad Over and Over When You Can Enjoy This Grilled Chicken Salad With Ginger Sesame Marinade" /><h2 class="entry-title">Why Make the Same Salad Over and Over When You Can Enjoy This Grilled Chicken Salad With Ginger Sesame Marinade</h1><div class="entry-meta"><time datetime="2016-04-08T17:30:48+00:00">April 8, 2016</time></div></a></article></li><li><article class="post-12855 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/easy-chicken-breasts-stuffed-with-broccoli-and-cheese/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/5d5eb3bf1c9fd6755140a5a257e8693d-230x157.jpg" class="entry-thumb wp-post-image" alt="Easy Chicken Breasts Stuffed with Broccoli and Cheese" /><h2 class="entry-title">Easy Chicken Breasts Stuffed with Broccoli and Cheese</h1><div class="entry-meta"><time datetime="2016-04-08T15:37:41+00:00">April 8, 2016</time></div></a></article></li><li><article class="post-12811 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/the-finest-white-cheese-and-chicken-lasagna/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/04/bb4e11edb298278cb3819cccf37a0727-230x157.jpg" class="entry-thumb wp-post-image" alt="The Finest White Cheese and Chicken Lasagna" /><h2 class="entry-title">The Finest White Cheese and Chicken Lasagna</h1><div class="entry-meta"><time datetime="2016-04-05T15:31:49+00:00">April 5, 2016</time></div></a></article></li><li><article class="post-12736 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dish-chicken clearfix"><a href="http://www.alotofrecipes.com/baked-and-not-fried-creamy-chicken-taquitos/" rel="bookmark"><img width="230" height="157" src="http://www.alotofrecipes.com/wp-content/uploads/sites/441/2016/03/47b2a4d7ba325638099d23ccb99e32ab-230x157.jpg" class="entry-thumb wp-post-image" alt="Baked and Not Fried Creamy Chicken Taquitos" /><h2 class="entry-title">Baked and Not Fried Creamy Chicken Taquitos</h1><div class="entry-meta"><time datetime="2016-03-30T15:57:42+00:00">March 30, 2016</time></div></a></article></li></ul></div><!-- .jcarousel --><a href="#" class="jcarousel-control-prev"><i class="fa fa-chevron-left"></i></a><a href="#" class="jcarousel-control-next"><i class="fa fa-chevron-right"></i></a></div><!-- .carousel-loop -->	
+	
+</div><!-- #page -->
+
+	<footer id="footer" class="site-footer container clearfix">
+
+		<div class="footer-column footer-column-1">
+			<aside id="nav_menu-5" class="widget widget_nav_menu"><div class="menu-curation-container"><ul id="menu-curation" class="menu"><li id="menu-item-377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-377"><a href="http://www.alotofrecipes.com/curation/">Curation Policy</a></li>
+</ul></div></aside>		</div>
+
+		<div class="footer-column footer-column-2">
+			<aside id="nav_menu-6" class="widget widget_nav_menu"><div class="menu-dmca-container"><ul id="menu-dmca" class="menu"><li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="http://www.alotofrecipes.com/dmca/">DMCA Policy</a></li>
+</ul></div></aside>		</div>
+
+		<div class="footer-column footer-column-3">
+			<aside id="nav_menu-7" class="widget widget_nav_menu"><div class="menu-privacy-container"><ul id="menu-privacy" class="menu"><li id="menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a href="http://www.alotofrecipes.com/privacy/">Privacy Policy</a></li>
+</ul></div></aside>		</div>
+
+		<div class="footer-column footer-column-4">
+			<aside id="nav_menu-8" class="widget widget_nav_menu"><div class="menu-terms-of-use-container"><ul id="menu-terms-of-use" class="menu"><li id="menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-379"><a href="http://www.alotofrecipes.com/terms/">Terms of Use</a></li>
+</ul></div></aside>		</div>
+
+	</footer><!-- #colophon -->
+
+	<div id="site-bottom" class="container" role="contentinfo">
+		&copy; Copyright 2016 <a href=" http://www.alotofrecipes.com">A Lot Of Recipes</a>.		<span class="copyright"></span>
+	</div>
+
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('alotofrecipes_infolinks');
+// ]]> --></script><script>document.documentElement.className = 'js';</script>
+<script type="text/javascript">/* <![CDATA[ */ jQuery(document).ready( function() { jQuery.post( "http://www.alotofrecipes.com/wp-admin/admin-ajax.php", { action : "entry_views", _ajax_nonce : "3cd03d2087", post_id : 5029 } ); } ); /* ]]> */</script>
+<script type='text/javascript' src='http://www.alotofrecipes.com/wp-content/plugins/akismet/_inc/form.js?ver=3.1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rexus_localize = {"title":"Breaking"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.alotofrecipes.com/wp-content/themes/rexus/assets/js/rexus.min.js'></script>
+<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rexus_path = {"assets":"http:\/\/www.alotofrecipes.com\/wp-content\/themes\/rexus\/assets\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.alotofrecipes.com/wp-content/themes/rexus/assets/js/switcher.js'></script>
+<script type='text/javascript' src='http://www.alotofrecipes.com/wp-includes/js/comment-reply.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://www.alotofrecipes.com/wp-content/mu-plugins/theme-extras/script.js?ver=1.0'></script>
+
+	<section id="style-switcher">
+		<h2>Style Switcher <a href="#"></a></h2>
+		<div>
+		<h3>Predefined Colors</h3>
+			<ul class="colors" id="color1">
+				<li><a href="#" class="blue" title="Blue"></a></li>
+				<li><a href="#" class="green" title="Green"></a></li>
+				<li><a href="#" class="orange" title="Orange"></a></li>
+				<li><a href="#" class="navy" title="Navy"></a></li>
+				<li><a href="#" class="yellow" title="Yellow"></a></li>
+				<li><a href="#" class="peach" title="Peach"></a></li>
+				<li><a href="#" class="beige" title="Beige"></a></li>
+				<li><a href="#" class="purple" title="Purple"></a></li>
+				<li><a href="#" class="red" title="Red"></a></li>
+				<li><a href="#" class="pink" title="Pink"></a></li>
+				<li><a href="#" class="celadon" title="Celadon"></a></li>
+				<li><a href="#" class="brown" title="Brown"></a></li>
+				<li><a href="#" class="cherry" title="Cherry"></a></li>
+				<li><a href="#" class="gray" title="Gray"></a></li>
+				<li><a href="#" class="deep-blue" title="Deep Blue"></a></li>
+				<li><a href="#" class="cyan" title="Cyan"></a></li>
+				<li><a href="#" class="olive" title="Olive"></a></li>
+				<li><a href="#" class="dirty-green" title="Dirty Green"></a></li>
+			</ul>
+
+			<h3>Background Image</h3>
+			 <ul class="colors bg" id="bg">
+				<li><a href="#" class="bg1"></a></li>
+				<li><a href="#" class="bg2"></a></li>
+				<li><a href="#" class="bg3"></a></li>
+				<li><a href="#" class="bg4"></a></li>
+				<li><a href="#" class="bg5"></a></li>
+				<li><a href="#" class="bg6"></a></li>
+				<li><a href="#" class="bg7"></a></li>
+				<li><a href="#" class="bg8"></a></li>
+				<li><a href="#" class="bg9"></a></li>
+				<li><a href="#" class="bg10"></a></li>
+				<li><a href="#" class="bg11"></a></li>
+				<li><a href="#" class="bg12"></a></li>
+				<li><a href="#" class="bg13"></a></li>
+				<li><a href="#" class="bg14"></a></li>
+				<li><a href="#" class="bg15"></a></li>
+				<li><a href="#" class="bg16"></a></li>
+				<li><a href="#" class="bg17"></a></li>
+				<li><a href="#" class="bg18"></a></li>
+			</ul>
+		</div>
+
+		<div id="reset"><a href="#" class="button color blue">Reset</a></div>
+
+	</section>
+
+		<script type='text/javascript'>
+			function clicky_gc(name) {
+				var ca = document.cookie.split(';');
+				for (var i in ca) {
+					if (ca[i].indexOf(name + '=') != -1) {
+						return decodeURIComponent(ca[i].split('=')[1]);
+					}
+				}
+				return '';
+			}
+			var username_check = clicky_gc('comment_author_4cddc6e18b648facf0618a38e816d92f');
+			if (username_check) var clicky_custom_session = {username: username_check};
+		</script>
+		<script type="text/javascript">
+				var statify = { log : function () { return true;	}, goal: function () { return true;	} };
+		var statify_site_ids = statify_site_ids || [];
+		statify_site_ids.push(100786909);
+		(function () {
+			var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//hello.staticstuff.net/w/statify.js';
+			( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild(s);
+		})();
+	</script>
+	<noscript><p><img alt="Statify Analytics" width="1" height="1" src="//clicky.statify.com/100786909ns.gif" /></p></noscript>
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"288c74d262","applicationID":"3929076","transactionName":"YlFTNkVWD0ZYVUcPXFsbZBBeGAhbXVNLSENdRA==","queueTime":0,"applicationTime":2,"atts":"ThZQQA1MHEg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- ZenCache file path: /cache/zencache/cache/http/www-alotofrecipes-com/honey-chipotle-chicken-wings-in-a-slow-cooker.html -->
+<!-- ZenCache file built for (http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/) in 0.39777 seconds, on: Apr 28th, 2016 @ 4:23 am UTC. -->
+<!-- This ZenCache file will auto-expire (and be rebuilt) on: May 5th, 2016 @ 4:23 am UTC (based on your configured expiration time). -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ZenCache fully functional :-) Cache file served for (http://www.alotofrecipes.com/honey-chipotle-chicken-wings-in-a-slow-cooker/) in 0.00089 seconds, on: Apr 28th, 2016 @ 4:33 am UTC. -->

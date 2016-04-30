@@ -1,0 +1,606 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+<head><!--[if IE]><![endif]-->
+	<meta charset="UTF-8" />
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Google Mail -->
+	<meta name="google-site-verification" content="pjWc6PmjtrLh17-lda6iYK_VrUrVSnHSOdCmMF_BLdA" />
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://www.ancestral-nutrition.com/xmlrpc.php" />
+
+	<title>E. Coli Outbreak at Chipotle: Is It Sabotage? - Ancestral Nutrition</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Let&#039;s talk about whether or not Chipotle has been sabotaged by this E. Coli outbreak and if it&#039;s random chance or a coordinated effort. "/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="E. Coli Outbreak at Chipotle: Is It Sabotage? - Ancestral Nutrition" />
+<meta property="og:description" content="Let&#039;s talk about whether or not Chipotle has been sabotaged by this E. Coli outbreak and if it&#039;s random chance or a coordinated effort. " />
+<meta property="og:url" content="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" />
+<meta property="og:site_name" content="Ancestral Nutrition" />
+<meta property="article:section" content="Blog" />
+<meta property="article:published_time" content="2016-01-05T15:53:06+00:00" />
+<meta property="article:modified_time" content="2016-01-05T16:00:39+00:00" />
+<meta property="og:updated_time" content="2016-01-05T16:00:39+00:00" />
+<meta property="og:image" content="http://www.ancestral-nutrition.com/wp-content/uploads/2016/01/ECOLI.jpg" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Let&#039;s talk about whether or not Chipotle has been sabotaged by this E. Coli outbreak and if it&#039;s random chance or a coordinated effort. "/>
+<meta name="twitter:title" content="E. Coli Outbreak at Chipotle: Is It Sabotage? - Ancestral Nutrition"/>
+<meta name="twitter:image" content="http://www.ancestral-nutrition.com/wp-content/uploads/2016/01/ECOLI.jpg"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Ancestral Nutrition &raquo; Feed" href="http://www.ancestral-nutrition.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ancestral Nutrition &raquo; Comments Feed" href="http://www.ancestral-nutrition.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ancestral Nutrition &raquo; E. Coli Outbreak at Chipotle: Is It Sabotage? Comments Feed" href="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.ancestral-nutrition.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='related-post-style-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/related-post/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ParaAdmin-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/related-post/ParaAdmin/css/ParaAdmin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-color-picker-css'  href='http://www.ancestral-nutrition.com/wp-admin/css/color-picker.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='related-post-style-text-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/related-post/themes/text/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='related-post-style-flat-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/related-post/themes/flat/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ssbp_styles-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/simple-share-buttons-plus/ssbp.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wolf-shortcodes-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/wolf-shortcodes/assets/css/shortcodes.min.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='spu-public-css-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/popups/public/assets/css/public.css?ver=1.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='normalize-css'  href='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/css/normalize.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/css/font-awesome.min.css?ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='gridsystem-css'  href='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/css/grid.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Ancestral Nutrition-fonts-css'  href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|Arvo:400&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ubermenu-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.2.0.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-includes/js/jquery/jquery.js?ver=1.12.3'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/q2w3-fixed-widget/js/q2w3-fixed-widget.min.js?ver=4.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_post_ajax = {"related_post_ajaxurl":"http:\/\/www.ancestral-nutrition.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/related-post/js/related-post-scripts.js'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/related-post/ParaAdmin/js/ParaAdmin.js'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/js/modernizr-2.8.3-min.js?ver=2.8.3'></script>
+<link rel='https://api.w.org/' href='http://www.ancestral-nutrition.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ancestral-nutrition.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.ancestral-nutrition.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.1" />
+<link rel='shortlink' href='http://www.ancestral-nutrition.com/?p=11777' />
+<link rel="alternate" type="application/json+oembed" href="http://www.ancestral-nutrition.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.ancestral-nutrition.com%2Fe-coli-outbreak-chipotle-sabotage%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.ancestral-nutrition.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.ancestral-nutrition.com%2Fe-coli-outbreak-chipotle-sabotage%2F&#038;format=xml" />
+
+<style type="text/css">
+#above-post-ad{
+    position:relative;
+    top:30px;
+}</style>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+var ybotq = ybotq || [];
+
+var adthriveAdOptions = {
+yieldbotId: '67a5',
+inImageAdsZone: '14d761d5',
+dfpSingleRequest: 1,
+siteAds: {"version":"v1","adUnitPrefix":"AncestralNutrition","targeting":[{"key":"siteId","value":"56547b24e932c2f60c7685c7"},{"key":"siteName","value":"Ancestral Nutrition"},{"key":"service","value":"AdThrive Edge"},{"key":"bidding","value":"on"},{"key":"verticals","value":["Food","Health and Fitness","Lifestyle"]}],"adOptions":{"mobile":{"appNexusId":"6186504"},"desktop":{"appNexusId":"6188525"}},"adUnits":{"AncestralNutrition_Above_Post_ATF_728x90":{"name":"AncestralNutrition_Above_Post_ATF_728x90","location":"Above Post","aboveTheFold":true,"sticky":false,"targeting":[{"key":"location","value":["Above Post","ATF"]}],"adSizes":[[728,90]]},"AncestralNutrition_Sidebar_1_ATF_300x250":{"name":"AncestralNutrition_Sidebar_1_ATF_300x250","location":"Sidebar","aboveTheFold":true,"sticky":false,"targeting":[{"key":"location","value":["Sidebar","ATF"]}],"adSizes":[[300,250]]},"AncestralNutrition_Sidebar_2_ATF_300x250_300x600_300x1050_160x600":{"name":"AncestralNutrition_Sidebar_2_ATF_300x250_300x600_300x1050_160x600","location":"Sidebar","aboveTheFold":true,"sticky":false,"targeting":[{"key":"location","value":["Sidebar","ATF"]}],"adSizes":[[300,250],[300,600],[300,1050],[160,600]]},"AncestralNutrition_Sidebar_3_300x250_300x600_300x1050_160x600":{"name":"AncestralNutrition_Sidebar_3_300x250_300x600_300x1050_160x600","location":"Sidebar","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Sidebar"]}],"adSizes":[[300,250],[300,600],[300,1050],[160,600]]},"AncestralNutrition_Sidebar_4_300x250":{"name":"AncestralNutrition_Sidebar_4_300x250","location":"Sidebar","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Sidebar"]}],"adSizes":[[300,250]]},"AncestralNutrition_Sidebar_5_300x250":{"name":"AncestralNutrition_Sidebar_5_300x250","location":"Sidebar","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Sidebar"]}],"adSizes":[[300,250]]},"AncestralNutrition_Sidebar_6_300x250_300x600_300x1050_160x600":{"name":"AncestralNutrition_Sidebar_6_300x250_300x600_300x1050_160x600","location":"Sidebar","aboveTheFold":false,"sticky":true,"targeting":[{"key":"location","value":["Sidebar"]},{"key":"sticky","value":true}],"adSizes":[[300,250],[300,600],[300,1050],[160,600]]},"AncestralNutrition_Mid_Post_1_728x90":{"name":"AncestralNutrition_Mid_Post_1_728x90","location":"Mid Post","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Mid Post"]}],"adSizes":[[728,90]]},"AncestralNutrition_Mid_Post_2_728x90":{"name":"AncestralNutrition_Mid_Post_2_728x90","location":"Mid Post","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Mid Post"]}],"adSizes":[[728,90]]},"AncestralNutrition_Below_Post_728x90_300x250_600x250_400x300":{"name":"AncestralNutrition_Below_Post_728x90_300x250_600x250_400x300","location":"Below Post","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Below Post"]}],"adSizes":[[728,90],[300,250],[600,250],[400,300]]},"AncestralNutrition_Above_Footer_728x90":{"name":"AncestralNutrition_Above_Footer_728x90","location":"Above Footer","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Above Footer"]}],"adSizes":[[728,90]]},"AncestralNutrition_Special_Ads_1x1":{"name":"AncestralNutrition_Special_Ads_1x1","location":"Special Ads","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Special Ads"]}],"adSizes":[[1,1]]},"AncestralNutrition_Mobile_Footer_320x50":{"name":"AncestralNutrition_Mobile_Footer_320x50","location":"Mobile Footer","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Mobile Footer"]}],"adSizes":[[300,250],[320,50],[1,1]]},"AncestralNutrition_Mobile_Home_300x250":{"name":"AncestralNutrition_Mobile_Home_300x250","location":"Mobile Home","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Mobile Home"]}],"adSizes":[[300,250],[320,50],[1,1]]},"AncestralNutrition_Mobile_Single_300x250":{"name":"AncestralNutrition_Mobile_Single_300x250","location":"Mobile Single","aboveTheFold":false,"sticky":false,"targeting":[{"key":"location","value":["Mobile Single"]}],"adSizes":[[300,250],[320,50],[1,1]]}}},
+baseUrl: 'http://cloud.adthrive.com/ads/v1',
+};
+
+(function() {
+  var script = document.createElement('script');
+  script.async = true;
+  script.type = 'text/javascript';
+  script.src = 'http://cloud.adthrive.com/ads/v1/js/adthrive.min.js';
+  var node = document.getElementsByTagName('script')[0];
+  node.parentNode.insertBefore(script, node);
+})();
+</script>
+<script type="text/javascript" async defer data-pin-color="red"  data-pin-hover="true" src="http://www.ancestral-nutrition.com/wp-content/plugins/pinterest-pin-it-button-on-image-hover-and-post/js/pinit.js"></script><style id="ubermenu-custom-generated-css">
+/** UberMenu Responsive Styles (Breakpoint Setting) **/
+@media screen and (min-width: 961px){
+  .ubermenu{ display:block !important; } .ubermenu-responsive .ubermenu-item.ubermenu-hide-desktop{ display:none !important; } .ubermenu-responsive.ubermenu-retractors-responsive .ubermenu-retractor-mobile{ display:none; }   //Force current submenu always open but below others .ubermenu-force-current-submenu .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-submenu-drop, .ubermenu-force-current-submenu .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-submenu-drop {     display: block!important;     opacity: 1!important;     visibility: visible!important;     margin: 0!important;     top: auto!important;     //max-height: 600px;     height: auto;     //overflow: auto!important;     z-index:19; }   //Invert Horizontal menu to make subs go up .ubermenu-invert.ubermenu-horizontal .ubermenu-item-level-0 > .ubermenu-submenu-drop{      top:auto;      bottom:100%; } .ubermenu-invert.ubermenu-horizontal.ubermenu-sub-indicators .ubermenu-item-level-0.ubermenu-has-submenu-drop > .ubermenu-target:after{      content:"\f106"; }    //Invert Vertical menu to make subs go left  .ubermenu-invert.ubermenu-vertical .ubermenu-item-level-0 > .ubermenu-submenu-drop{   right:100%;   left:auto; } .ubermenu-invert.ubermenu-vertical.ubermenu-sub-indicators .ubermenu-item-level-0.ubermenu-item-has-children > a.ubermenu-target:after{   right:auto;   left:10px;   margin-top:-7px;   content:"\f104"; } .ubermenu-vertical.ubermenu-invert .ubermenu-item > .ubermenu-submenu-drop {   clip: rect(-5000px,5000px,5000px,-5000px); } .ubermenu-responsive-toggle{ display:none; }
+}
+@media screen and (max-width: 960px){
+   .ubermenu-responsive-toggle, .ubermenu-sticky-toggle-wrapper { display: block; }  .ubermenu-responsive{ width:100%; max-height:500px; visibility:visible; overflow:visible;  -webkit-transition:max-height 1s ease-in; transition:max-height .3s ease-in; } .ubermenu-responsive.ubermenu{ margin:0; } .ubermenu-responsive.ubermenu .ubermenu-nav{ display:block; }  .ubermenu-responsive.ubermenu-responsive-nocollapse, .ubermenu-repsonsive.ubermenu-no-transitions{ display:block; max-height:none; }  .ubermenu-responsive.ubermenu-responsive-collapse{ max-height:none; visibility:visible; overflow:visible; } .ubermenu-responsive.ubermenu-responsive-collapse{ max-height:0; overflow:hidden !important; visibility:hidden; } .ubermenu-responsive.ubermenu-in-transition, .ubermenu-responsive.ubermenu-in-transition .ubermenu-nav{ overflow:hidden !important; visibility:visible; } .ubermenu-responsive.ubermenu-responsive-collapse:not(.ubermenu-in-transition){ border-top-width:0; border-bottom-width:0; }  .ubermenu-responsive .ubermenu-item-level-0{ width:50%; } .ubermenu-responsive .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target{ border:none; box-shadow:none; } .ubermenu-responsive .ubermenu-item.ubermenu-has-submenu-flyout{ position:static; } .ubermenu-responsive.ubermenu-sub-indicators .ubermenu-submenu-type-flyout .ubermenu-has-submenu-drop > .ubermenu-target:after{ content:"\f107"; }  .ubermenu-responsive .ubermenu-nav .ubermenu-item .ubermenu-submenu.ubermenu-submenu-drop{ width:100%; min-width:100%; max-width:100%; top:auto; left:0 !important; } .ubermenu-responsive.ubermenu-has-border .ubermenu-nav .ubermenu-item .ubermenu-submenu.ubermenu-submenu-drop{ left: -1px !important; /* For borders */ } .ubermenu-responsive .ubermenu-item.ubermenu-active > .ubermenu-submenu.ubermenu-submenu-type-mega{     max-height:none;     height:auto;/*prevent overflow scrolling since android is still finicky*/     overflow:visible; } .ubermenu-responsive.ubermenu-transition-slide .ubermenu-item.ubermenu-in-transition > .ubermenu-submenu-drop{ max-height:1000px; /* because of slide transition */ } .ubermenu .ubermenu-submenu-type-flyout .ubermenu-submenu-type-mega{ min-height:0; } .ubermenu.ubermenu-responsive .ubermenu-column, .ubermenu.ubermenu-responsive .ubermenu-column-auto{ min-width:50%; } .ubermenu.ubermenu-responsive .ubermenu-autoclear > .ubermenu-column{ clear:none; } .ubermenu.ubermenu-responsive .ubermenu-column:nth-of-type(2n+1){ clear:both; } .ubermenu.ubermenu-responsive .ubermenu-submenu-retractor-top:not(.ubermenu-submenu-retractor-top-2) .ubermenu-column:nth-of-type(2n+1){ clear:none; } .ubermenu.ubermenu-responsive .ubermenu-submenu-retractor-top:not(.ubermenu-submenu-retractor-top-2) .ubermenu-column:nth-of-type(2n+2){ clear:both; }   .ubermenu.ubermenu-responsive .ubermenu-tabs, .ubermenu.ubermenu-responsive .ubermenu-tabs-group, .ubermenu.ubermenu-responsive .ubermenu-tab, .ubermenu.ubermenu-responsive .ubermenu-tab-content-panel{ /** TABS SHOULD BE 100%  ACCORDION */ width:100%; min-width:100%; max-width:100%; left:0; } .ubermenu.ubermenu-responsive .ubermenu-tabs, .ubermenu.ubermenu-responsive .ubermenu-tab-content-panel{ min-height:0 !important;/* Override Inline Style from JS */ } .ubermenu.ubermenu-responsive .ubermenu-tabs{ z-index:15; } .ubermenu.ubermenu-responsive .ubermenu-tab-content-panel{ z-index:20; } //Tab Layering .ubermenu-responsive .ubermenu-tab{ position:relative; } .ubermenu-responsive .ubermenu-tab.ubermenu-active{ position:relative; z-index:20; } .ubermenu-responsive .ubermenu-tab > .ubermenu-target{ border-width:0 0 1px 0; } .ubermenu-responsive.ubermenu-sub-indicators .ubermenu-tabs > .ubermenu-tabs-group > .ubermenu-tab.ubermenu-has-submenu-drop > .ubermenu-target:after{ content:"\f107"; }  .ubermenu-responsive .ubermenu-tabs > .ubermenu-tabs-group > .ubermenu-tab > .ubermenu-tab-content-panel{ //position:relative; top:auto; //border-width:0 0 2px 0; border-width:1px; } .ubermenu-responsive .ubermenu-tab-layout-bottom > .ubermenu-tabs-group{ //position:relative; }   .ubermenu-reponsive .ubermenu-item-level-0 > .ubermenu-submenu-type-stack{ /* Top Level Stack Columns */ position:relative; }  .ubermenu-responsive .ubermenu-submenu-type-stack .ubermenu-column, .ubermenu-responsive .ubermenu-submenu-type-stack .ubermenu-column-auto{ /* Stack Columns */ width:100%; max-width:100%; }   .ubermenu-responsive .ubermenu-item-mini{ /* Mini items */ min-width:0; width:auto; float:left; clear:none !important; } .ubermenu-responsive .ubermenu-item.ubermenu-item-mini > a.ubermenu-target{ padding-left:20px; padding-right:20px; }   .ubermenu-responsive .ubermenu-item.ubermenu-hide-mobile{ /* Hiding items */ display:none !important; }  .ubermenu-responsive.ubermenu-hide-bkgs .ubermenu-submenu.ubermenu-submenu-bkg-img{ /** Hide Background Images in Submenu */ background-image:none; } .ubermenu.ubermenu-responsive .ubermenu-item-level-0.ubermenu-item-mini{ min-width:0; width:auto; }  .ubermenu-responsive-toggle{ display:block; }
+}
+@media screen and (max-width: 480px){
+  .ubermenu.ubermenu-responsive .ubermenu-item-level-0{ width:100%; } .ubermenu.ubermenu-responsive .ubermenu-column, .ubermenu.ubermenu-responsive .ubermenu-column-auto{ min-width:100%; } 
+}
+
+
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+.ubermenu-main.ubermenu-transition-fade .ubermenu-item .ubermenu-submenu-drop { margin-top:0; }
+
+
+/* Status: Loaded from Transient */
+
+</style>
+<style>
+
+.smallprint { text-align: center; }
+</style>
+<script type="text/javascript" async="" src="http://www.ancestral-nutrition.com/wp-content/plugins/zip-recipes/scripts/zlrecipe_print.js"></script>
+
+  <link href="http://www.ancestral-nutrition.com/wp-content/plugins/zip-recipes/styles/zlrecipe-std.css" rel="stylesheet" type="text/css" />
+
+<!-- BEGIN GADWP v4.9.3.1 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-35891902-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+
+    <script type="text/javascript" src="http://www.seven.blmdevelopment.com/wp-content/themes/ancestral/js/classie.js"></script>
+    <script type="text/javascript" src="http://www.seven.blmdevelopment.com/wp-content/themes/ancestral/js/header-fold.js"></script>
+    
+	<script src="https://use.typekit.net/jbw7mch.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
+<body class="single single-post postid-11777 single-format-standard">
+
+<div id="wrapper" class="hfeed site">
+
+	<div id="headercontainer">
+
+		<header id="masthead" class="site-header row" role="banner">
+				<div id="logo">
+                    <a href="http://www.ancestral-nutrition.com/" title="Ancestral Nutrition" rel="home">
+													<img src="http://www.ancestral-nutrition.com/wp-content/themes/ancestral/images/logo.png" height="150" width="197" alt="" />
+											</a>
+				</div>
+                
+                <div class="social-media-icons">
+                	<ul><li><a href="https://twitter.com/ancestralnut" title="Follow us on Twitter" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li><li><a href="https://www.facebook.com/AncestralNutrition" title="Like us on Facebook" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://www.linkedin.com/in/ancestralnutrition" title="Connect with us on LinkedIn" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://instagram.com/ancestralnutrition" title="Follow us on Instagram" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://pinterest.com/ancestralnut/" title="Follow us on Pinterest" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a></li></ul>                </div>
+
+				<div id="mainnav">
+            		  					<nav id="site-navigation" class="uber-navigation" role="navigation">
+					
+<!-- UberMenu [Configuration:main] [Theme Loc:primary] [Integration:api] -->
+<a class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-none ubermenu-loc-primary" data-ubermenu-target="ubermenu-main-18-primary"><i class="fa fa-bars"></i>Menu</a><nav id="ubermenu-main-18-primary" class="ubermenu ubermenu-nojs ubermenu-main ubermenu-menu-18 ubermenu-loc-primary ubermenu-responsive ubermenu-responsive-960 ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-slide ubermenu-trigger-hover_intent ubermenu-skin-none  ubermenu-bar-align-full ubermenu-items-align-left ubermenu-bound ubermenu-retractors-responsive"><ul id="ubermenu-nav-main-18-primary" class="ubermenu-nav"><li id="menu-item-7831" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-7831 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/about-2/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">About</span></a></li><li id="menu-item-10363" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-current-post-ancestor ubermenu-current-menu-parent ubermenu-current-post-parent ubermenu-item-10363 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/blog/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Blog</span></a></li><li id="menu-item-9457" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-9457 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Programs</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-9457 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item" ><li id="menu-item-9456" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-9456 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/programs-2/21-day-lifestyle-transformation/"><span class="ubermenu-target-title ubermenu-target-text">21 Day Transformation</span></a></li><li id="menu-item-9458" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-9458 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/programs-2/essential-glow/"><span class="ubermenu-target-title ubermenu-target-text">Clearer Skin</span></a></li><li id="menu-item-9459" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-9459 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/programs-2/essential-weight-loss-lose-weight-keep-life-just-30-days/"><span class="ubermenu-target-title ubermenu-target-text">Healthy Weight Loss</span></a></li><li id="menu-item-9475" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-9475 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/free-meal-plan/"><span class="ubermenu-target-title ubermenu-target-text">Free Meal Plan</span></a></li><li id="menu-item-9497" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-9497 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/other-freebies/"><span class="ubermenu-target-title ubermenu-target-text">Other Freebies</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-9447" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-has-children ubermenu-parent-item ubermenu-item-9447 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/recipes/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Food</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-9447 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item ubermenu-autoclear" ><li id="menu-item-9996" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-9996 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/beef/"><span class="ubermenu-target-title ubermenu-target-text">Beef</span></a></li><li id="menu-item-9997" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-9997 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/breakfast/"><span class="ubermenu-target-title ubermenu-target-text">Breakfast</span></a></li><li id="menu-item-9998" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-9998 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/condiments/"><span class="ubermenu-target-title ubermenu-target-text">Condiments</span></a></li><li id="menu-item-9999" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-9999 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/desserts/"><span class="ubermenu-target-title ubermenu-target-text">Desserts</span></a></li><li id="menu-item-10000" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10000 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/drinks/"><span class="ubermenu-target-title ubermenu-target-text">Drinks</span></a></li><li id="menu-item-10001" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10001 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/main-course/"><span class="ubermenu-target-title ubermenu-target-text">Main Course</span></a></li><li id="menu-item-10002" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10002 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/poultry/"><span class="ubermenu-target-title ubermenu-target-text">Poultry</span></a></li><li id="menu-item-10003" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10003 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/salads/"><span class="ubermenu-target-title ubermenu-target-text">Salads</span></a></li><li id="menu-item-10004" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10004 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/seafood/"><span class="ubermenu-target-title ubermenu-target-text">Seafood</span></a></li><li id="menu-item-10005" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10005 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/side-dishes/"><span class="ubermenu-target-title ubermenu-target-text">Side Dishes</span></a></li><li id="menu-item-10006" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10006 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/snacks/"><span class="ubermenu-target-title ubermenu-target-text">Snacks</span></a></li><li id="menu-item-10007" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-10007 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/soups/"><span class="ubermenu-target-title ubermenu-target-text">Soups</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-11711" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-parent-item ubermenu-item-11711 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/shop/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Shop</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-11711 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item" ><li id="menu-item-11793" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-11793 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://ancestralorganics.com/"><span class="ubermenu-target-title ubermenu-target-text">Ancestral Organics</span></a></li><li id="menu-item-11794" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-11794 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://ancestralorganics.com/pages/essential-oils"><span class="ubermenu-target-title ubermenu-target-text">Essential Oils</span></a></li><li id="menu-item-11712" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-11712 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/shop/supplements/"><span class="ubermenu-target-title ubermenu-target-text">Supplements</span></a></li><li id="menu-item-11718" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-11718 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/shop/makeup/"><span class="ubermenu-target-title ubermenu-target-text">Makeup</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-11860" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-parent-item ubermenu-item-11860 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/topics/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Topics</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-11860 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width" ><li id="menu-item-11865" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-11865 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/acne/"><span class="ubermenu-target-title ubermenu-target-text">Acne</span></a></li><li id="menu-item-11866" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-11866 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/anxiety/"><span class="ubermenu-target-title ubermenu-target-text">Anxiety</span></a></li><li id="menu-item-11864" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-11864 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/beauty/"><span class="ubermenu-target-title ubermenu-target-text">Beauty</span></a></li><li id="menu-item-11862" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-11862 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/essential-oils/"><span class="ubermenu-target-title ubermenu-target-text">Essential Oils</span></a></li><li id="menu-item-11861" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-11861 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/natural-remedies/"><span class="ubermenu-target-title ubermenu-target-text">Natural Remedies</span></a></li><li id="menu-item-11868" class="ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-category ubermenu-item-11868 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/category/protein-reviews/"><span class="ubermenu-target-title ubermenu-target-text">Protein Reviews</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-7880" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-7880 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/book/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">My Book</span></a></li><li id="menu-item-7837" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-parent-item ubermenu-item-7837 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/contact/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Contact</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-7837 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item" ><li id="menu-item-9454" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-9454 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.ancestral-nutrition.com/work-with-me/"><span class="ubermenu-target-title ubermenu-target-text">Work With Me</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li></ul></nav>
+<!-- End UberMenu -->
+           			</nav>
+					                </div>
+                
+        </header> <!-- /#masthead.site-header.row -->
+    </div> <!-- /#headercontainer -->
+    
+    <div class="clear"></div>
+    
+	<div id="maincontentcontainer">
+		
+	<div id="page-title-area">
+    	<div class="page-title-box blog">	
+      	<div class="category-box"><span><a href="http://www.ancestral-nutrition.com/category/blog/" rel="category tag">Blog</a></span></div>
+        <h1 class="entry-title">E. Coli Outbreak at Chipotle: Is It Sabotage?</h1>
+		<p class="category-date">January 5, 2016</p>
+        </div>
+        <div class="page-title-texture"></div>
+    </div>
+<div id="above-post-ad"><center><div class="adthrive-ad" id="AncestralNutrition_Above_Post_ATF_728x90">
+</div></center></div>
+	<div id="primary" class="site-content row" role="main">
+
+			<div class="col grid_8_of_12">
+				
+								<img width="800" height="500" src="http://www.ancestral-nutrition.com/wp-content/uploads/2016/01/ECOLI.jpg" class="attachment-news_feed_image size-news_feed_image wp-post-image" alt="ECOLI" srcset="http://www.ancestral-nutrition.com/wp-content/uploads/2016/01/ECOLI.jpg 800w, http://www.ancestral-nutrition.com/wp-content/uploads/2016/01/ECOLI-300x188.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" />								
+				
+					
+	<article id="post-11777" class="post-11777 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+				<header class="entry-header">
+											</header> <!-- /.entry-header -->
+
+					<div class="entry-content">
+				<!-- Simple Share Buttons Plus (v1.1.5) simplesharebuttons.com/plus --><div class="ssbp-set--one ssbp--state-hidden ssbp-wrap ssbp-- ssbp--theme-1" data-ssbp-toggle="true"><button class="ssbp-toggle-switch ssbp-toggle-close"><span></span></button><div class="ssbp-container" data-ssbp-share-text="SHARE" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-short-url="" data-ssbp-post-id="11777"><span class="ssbp-share-text">SHARE</span><ul class="ssbp-list"><li class="ssbp-li--facebook"><a href="http://www.facebook.com/sharer.php?u=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-facebook ssbp-facebook--standard"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Facebook" ><span class="ssbp-text">Facebook</span></a></li><li class="ssbp-li--google"><a href="https://plus.google.com/share?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-google"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Google+" ><span class="ssbp-text">Google+</span></a></li><li class="ssbp-li--linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-linkedin"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="LinkedIn" ><span class="ssbp-text">Linkedin</span></a></li><li class="ssbp-li--twitter"><a href="https://twitter.com/share?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/&amp;text=E.+Coli+Outbreak+at+Chipotle%3A+Is+It+Sabotage%3F+&amp;hashtags=" class="ssbp-btn ssbp-twitter ssbp-twitter--standard" data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Twitter" ><span class="ssbp-text">Twitter</span></a></li><li class="ssbp-li--ellipsis"><a href="javascript:;" class="ssbp-btn ssbp-ellipsis" data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Ellipsis"><span class="ssbp-text">More</span></a></li></ul><div class="ssbp-input-url-div"><input class="ssbp-input-url" type="text" value="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" /></div></div></div><p>Before beginning this article, I&#8217;d like to let everyone know that I am not a conspiracy theorist. I don&#8217;t know if what is happening with Chipotle is sabotage or random chance, but I&#8217;d like to explore both possibilities. I have to admit, I was pretty surprised when I heard there was an E. Coli outbreak at Chipotle. By the time it reached my region (the Mid-Atlantic), I felt that something was off, that it wasn&#8217;t just a coincidental outbreak. So I went out and had Chipotle for lunch. I had a suspicion that this outbreak wasn&#8217;t an unfortunate occurrence, and after diving into some research and information, I have to admit that I&#8217;m questioning the entire situation.</p>
+<p>Cue Beastie Boys. You know you love this song.</p>
+<p><iframe src="https://www.youtube.com/embed/z5rRZdiu1UE" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Listen, I&#8217;m not one for conspiracy theories. I don&#8217;t think the government is planning to enslave us all. I do think we landed on the moon. I don&#8217;t think ebola was some sort of coordinated outbreak. I do kind of maybe believe in aliens, but that&#8217;s just from watching too many episodes of Ancient Aliens .My point is, I&#8217;m not much for outlandish, outrageous theories. I&#8217;m not sure if this was a coincidence or if it was indeed an act of sabotage. My point in writing this is to shed some light on the situation and the reality that companies like Monsanto do participate in sketchy behavior and often attack people and organizations that threaten the GMO industry. Even with the outbreaks, I want to emphasize that Chipotle is a great company that deserves our support. I&#8217;m not saying that is definitely what happened, there&#8217;s no way for me to know. But I do intend to explore the potential.</p>
+<p>The idea that Chipotle could&#8217;ve been targeted by the biotech industry is neither outlandish nor outrageous. Earlier this year, <a href="http://chipotle.com/GMO" target="_blank">Chipotle announced </a>they had removed all genetically modified organisms from their menu. In the weeks and months after, they were slammed by the media. The media backlash to this was so strong, you&#8217;d think they had just announced they were switching to child labor instead of non-GMO food. Despite the backlash, Chipotle saw increased sales and a soaring stock. By all means, this was a genius move for the company.</p>
+<p>Because of this, Chipotle became a huge threat to the biotech industry. Let&#8217;s explore some other threats to the industry that were factually sabotaged and not nearly as large, influential or financially profitable as Chipotle.</p>
+<h3>RACHEL PARENT</h3>
+<p>Rachael Parent is a teenage non-GMO activist and the founder of <a href="http://www.kidsrighttoknow.com/" target="_blank">Kids Right To Know</a>. At just 14-years-old, Rachel would travel, give speeches and promote GMO labeling. In documents released in a freedom of information request by US Right to Know,  it turns out that <a href="http://globalnews.ca/news/2414720/documents-reveal-canadian-teenager-the-target-of-gmo-lobby/" target="_blank">Monsanto had been working with</a> University of Florida professor, Kevin Folta to target Rachel Parent with plans to discredit her, her work and her website. Kevin Folta has been described as a mouthpiece for Monsanto, and with emails like this, it&#8217;s not hard to see why:</p>
+<p><em>“I’m glad to sign on to whatever you like, or write whatever you like….I’d be happy to write the op-ed on making decisions on facts,”</em> Folta wrote in an email in October 2014 to Monsanto.</p>
+<p>Further emails revealed that Folta was asked to take on &#8220;14-yr old GMO Labeling activist Rachel Parent.&#8221; Nine days after that email was sent, Folta released a video stating,</p>
+<p><em>“So when I think about answering Rachel Parent, who’s the activist child – well, young woman – who’s running the website Kids Right to Know…The things I just adore about Rachel is that she’s clearly very articulate, clearly intelligent. The problem that I have is when <strong>Rachel starts to let non-scientific thinking really kind of cloud her final decision-making process</strong>.” </em>(emphasis mine)</p>
+<p>If Monsanto wasn&#8217;t threatened by her, why would they need to hire Kevin Folta to personally attack her? Folta went on to come up with a counter website to Rachel&#8217;s and it was released that Monsanto had granted him at least $25,000.</p>
+<p><strong>If they&#8217;re willing to attack and sabotage a teenage GMO activist &#8211; what makes anyone think they wouldn&#8217;t attack a multimillion dollar non-GMO chain restaurant?</strong></p>
+<h3>DR. OZ</h3>
+<p>Dr. Oz is a prominent, outspoken doctor with his own TV show that reaches millions. After airing an episode that suggested Monsanto&#8217;s RoundUp weedkiller could potentially cause cancer, he found himself at the center of an attack. Ten physicians, ranging from institutions like Stanford to University of North Carolina, wrote Columbia University urging them to fire Dr. Oz for promoting &#8220;quack&#8221; ideas and remedies.</p>
+<p>The media jumped on this, loving the opportunity to attack a doctor who would dare to promote any type of natural remedy. What the media failed to do, as it so often does, is its homework. Had they done it, they would have immediately recognized the fact that these doctors had strong ties to the GMO industry.</p>
+<p>Most prominent of the group, Dr. Miller, has long promoted genetically modified organisms and was even a part of the anti-GMO labeling campaign in California. Dr. Ross is the executive director of the American Council on Science and Health, an organization that regularly promotes the benefits and safety of GMOs. He was also convicted of Medicare fraud and spent time in federal prison.</p>
+<p>The agrochemical industry used these doctors to run a smear campaign, to try to ruin a man&#8217;s career.</p><!--Ad Injection:random-->
+<div style=''><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontalskinnyadwithinpost -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7269738981836234"
+     data-ad-slot="1108313077"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+<p><strong>These are just two of thousands of incidences of Monsanto&#8217;s tactics. They<a href="http://www.huffingtonpost.com/elizabeth-kucinich/the-enemy-of-family-farmers_b_4064134.html" target="_blank"> sue small farmers</a>. They <a href="http://www.globalresearch.ca/toxicity-of-gmos-and-pesticides-seralinis-team-wins-defamation-and-forgery-court-cases/5492480" target="_blank">defame scientists</a> brave enough to publish their independent research (aka not funded by Monsanto). Other scientists <a href="http://www.globalresearch.ca/gmo-researchers-attacked-evidence-denied-and-a-population-at-risk/5305324" target="_blank">lose their jobs</a> for not falsifying their research. What aren&#8217;t these people willing to do?</strong></p>
+<p>Again, I&#8217;d like to reiterate that I am not a conspiracy theorist. But knowing this information and the lengths companies like Monsanto will go to to silence its detractors&#8230;it does make me seriously question the outbreaks at Chipotle.</p>
+<h3>THE OUTBREAK(S).</h3>
+<p>During most E. coli outbreaks, the source is quickly identified and dealt with. More often than not, several companies will be affected. This is because to supply food to a massive chain like Chipotle, they need to source from producers on a massive scale, and these producers sell to many restaurants and chains across the US. Oddly enough, only Chipotle has been affected by these outbreaks.</p>
+<p>What many people fail to realize and the media is poorly reporting on, is that Chipotle hasn&#8217;t been affected by just one outbreak.  Even more puzzling, there have been several, with different viral strains.</p>
+<p>From Food Safety News,</p>
+<p><strong>Seattle</strong><br />
+When: July<br />
+Sickened: 5 people<br />
+Culprit: <em>E. coli </em>O157:H7<br />
+Source: Unknown</p>
+<p><strong><a href="http://vcportal.ventura.org/CEO/docs/releases/09-03-15-County_investigation_of_recent_foodborne_illness_completed.pdf">Simi Valley, CA</a></strong><br />
+When: August<br />
+Sickened: At least 234<br />
+Culprit: Norovirus<br />
+Source: Unknown</p>
+<p><strong><a href="http://www.health.state.mn.us/news/pressrel/2015/salmonella091615.html">Minnesota</a></strong><br />
+When: August and September<br />
+Sickened: 64 people<br />
+Culprit: <em>Salmonella</em> Newport<br />
+Source: Tomatoes</p>
+<p><strong><a href="http://www.cdc.gov/ecoli/2015/O26-11-15/index.html">CA, IL, MD, MN, NY, OH, OR, PA, WA</a></strong><br />
+When: Began Oct. 19<br />
+Sickened: 52 people<br />
+Culprit: <em>E. coli</em> O26<br />
+Source: Unknown</p>
+<p><strong><a href="http://www.bphc.org/onlinenewsroom/Blog/Lists/Posts/Post.aspx?List=24ee0d58-2a85-4a4a-855b-f5af9d781627&amp;ID=878&amp;RootFolder=%2Fonlinenewsroom%2FBlog%2FLists%2FPosts&amp;Source=http%3A%2F%2Fwww%2Ebphc%2Eorg%2FPages%2Fdefault%2Easpx&amp;Web=03126e14-4972-4333-b8a3-800cbc1cafce">Boston</a></strong><br />
+When: December<br />
+Sickened: At least 136 people<br />
+Culprit: Norovirus<br />
+Source: Unknown</p>
+<p>So in total, Chipotle has been affected by two different strains of E. Coli, salmonella, and two norovirus outbreaks in different parts of the country.</p>
+<p>Even now, the sources of the outbreaks have not been identified. What has been identified is the type of outbreaks. The latest, the CDC has named a &#8220;<a href="http://www.cdc.gov/ecoli/2015/o26-11-15/" target="_blank">different, rare DNA fingerprint of Shiga toxin-producing <em>E. coli.</em></a>&#8221; This rare E. coli is not normally seen in foods. Chipotle performed hundreds of tests on their food and is still unable to identify the source.</p>
+<h3>THE RESULT.</h3>
+<p>My intention in writing this is to highlight the possibility that this could be more than just an unfortunate coincidence. I don&#8217;t know if it is a coordinated effort, but knowing the above information I provided, I wouldn&#8217;t be shocked.  Unsurprisingly, Chipotle has taken a financial hit and their stock prices have gone down.</p>
+<p>My main intention in writing this is to urge people to still support Chipotle. They are doing amazing things. They were bravely the first chain restaurant to go GMO-free, opening themselves up to ridicule and backlash. Now that these outbreaks have happened, they are being bashed by the media yet again. Articles like &#8220;Was Chipotle too busy avoiding the fake dangers of GMOs to focus on actual food safety?&#8221; As if <a href="http://www.gmoseralini.org/research-papers/" target="_blank">tumors</a> from GMO feed are fake.</p>
+<p>The media is dragging them through the mud. I encourage all of you to continue to support Chipotle. They have a commitment to healthy, sustainable food in a time when junk food, pesticides, sugar, trans fat and processed foods rule the American diet. They source from grass-fed farmers, they try to buy locally and they don&#8217;t use GMOs &#8211; a huge feat in itself. They have also taken extra measures to ensure food safety,</p>
+<p><em>&#8220;&#8230;we have partnered with Seattle-based <a href="http://iehinc.com/" target="_blank">IEH Laboratories and Consulting Group</a>, a preeminent food safety testing and consulting company. Led by company founder and CEO Dr. Mansour Samadpour, IEH is working directly with Chipotle’s Supply Chain and Operations departments to implement a set of industry-leading practices, including some changes to our previous protocols.&#8221;</em></p>
+<p>You can read the full food safety changers <a href="http://www.chipotle.com/food-safety" target="_blank">here</a>.</p>
+<p>Keep in mind that Chipotle is still the healthiest fast food option. They have good intentions and are a great company. They&#8217;ve fallen on hard times but that is no reason to vilify them.</p><!--Ad Injection:random-->
+<div style=''><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontalskinnyadwithinpost -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7269738981836234"
+     data-ad-slot="1108313077"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+<p>© <a href="http://www.dreamstime.com/bigapplestock_info#res6454012">Bigapplestock</a> | <a href="http://www.dreamstime.com/#res6454012">Dreamstime.com</a> &#8211; <a href="http://www.dreamstime.com/royalty-free-stock-photography-chipotle-image39039407#res6454012">Chipotle Photo</a></p>
+<div id="adthrive_ad_widget-6" class="widget_adthrive_ad_widget"><div style="text-align: center;">
+<div class="adthrive-ad" id="AncestralNutrition_Below_Post_728x90_300x250_600x250_400x300">
+</div></div></div><p><a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-color="red" data-pin-height="128"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a></p>							</div> <!-- /.entry-content -->
+		
+		<footer class="entry-meta">
+											</footer> <!-- /.entry-meta -->
+	</article> <!-- /#post -->
+                
+                	
+<section id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			3 responses on &ldquo;<span>E. Coli Outbreak at Chipotle: Is It Sabotage?</span>&rdquo;		</h2>
+
+		<ol class="commentlist">
+						<li class="comment even thread-even depth-1" id="li-comment-13773">
+				<article id="comment-13773" class="comment">
+					<header class="comment-meta comment-author vcard">
+						<img alt='' src='http://0.gravatar.com/avatar/619909afd971a1e6b5fcd8123c175fd3?s=44&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/619909afd971a1e6b5fcd8123c175fd3?s=88&amp;d=mm&amp;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://none' rel='external nofollow' class='url'>Mary Parker</a> </cite><a href="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/#comment-13773" title="Posted January 7, 2016 @ 3:23 pm"><time itemprop="datePublished" datetime="2016-01-07T15:23:34+00:00">January 7, 2016 at 3:23 pm</time></a>					</header> <!-- .comment-meta -->
+
+					
+					<section class="comment-content comment">
+						<p>I too smell a rat. Logically doesn&#8217;t make sense.</p>
+											</section> <!-- .comment-content -->
+
+					<div class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/?replytocom=13773#respond' onclick='return addComment.moveForm( "comment-13773", "13773", "respond", "11777" )' aria-label='Reply to Mary Parker'>Reply</a> <i class="fa fa-comments"></i>
+					</div> <!-- .reply -->
+				</article> <!-- #comment-## -->
+			</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-19939">
+				<article id="comment-19939" class="comment">
+					<header class="comment-meta comment-author vcard">
+						<img alt='' src='http://1.gravatar.com/avatar/d290350a9f4d57a6838ff2f623686545?s=44&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/d290350a9f4d57a6838ff2f623686545?s=88&amp;d=mm&amp;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn">Kimberly </cite><a href="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/#comment-19939" title="Posted February 23, 2016 @ 2:24 am"><time itemprop="datePublished" datetime="2016-02-23T02:24:12+00:00">February 23, 2016 at 2:24 am</time></a>					</header> <!-- .comment-meta -->
+
+					
+					<section class="comment-content comment">
+						<p>I worked at Chipotle for many years. I had also was one of a handful that trained to teach the employees at our local stores what FWI meant. To knew exactly where our produce and meats came from. </p>
+<p>I will say one thing&#8230; there is no possible way that happened! NONE!</p>
+											</section> <!-- .comment-content -->
+
+					<div class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/?replytocom=19939#respond' onclick='return addComment.moveForm( "comment-19939", "19939", "respond", "11777" )' aria-label='Reply to Kimberly'>Reply</a> <i class="fa fa-comments"></i>
+					</div> <!-- .reply -->
+				</article> <!-- #comment-## -->
+			</li><!-- #comment-## -->
+			<li class="comment even thread-even depth-1" id="li-comment-25746">
+				<article id="comment-25746" class="comment">
+					<header class="comment-meta comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/5343de5c453500859dd1b59d42da2883?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5343de5c453500859dd1b59d42da2883?s=88&amp;d=mm&amp;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn">Alicia Dishman </cite><a href="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/#comment-25746" title="Posted April 6, 2016 @ 12:17 am"><time itemprop="datePublished" datetime="2016-04-06T00:17:45+00:00">April 6, 2016 at 12:17 am</time></a>					</header> <!-- .comment-meta -->
+
+					
+					<section class="comment-content comment">
+						<p>I too am not a conspiracy theorist but would you look at that! !!! Are they so scared to switch tactics and promote food, feed, seed, etc that will save the planet?  They could make out with more money!  Apologize and be forgiven!  Presidents do it!</p>
+											</section> <!-- .comment-content -->
+
+					<div class="reply">
+						<a rel='nofollow' class='comment-reply-link' href='http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/?replytocom=25746#respond' onclick='return addComment.moveForm( "comment-25746", "25746", "respond", "11777" )' aria-label='Reply to Alicia Dishman'>Reply</a> <i class="fa fa-comments"></i>
+					</div> <!-- .reply -->
+				</article> <!-- #comment-## -->
+			</li><!-- #comment-## -->
+		</ol> <!-- /.commentlist -->
+
+		
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/e-coli-outbreak-chipotle-sabotage/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://www.ancestral-nutrition.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required="true" /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required="true" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='11777' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8f5fa36761" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="246"/></p>				</form>
+					</div><!-- #respond -->
+		
+</section> <!-- /#comments.comments-area -->
+
+				
+			</div> <!-- /.col.grid_8_of_12 -->
+				<div class="col grid_4_of_12">
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="adthrive_ad_widget-8" class="widget widget_adthrive_ad_widget"><div style="text-align: center;">
+<div class="adthrive-ad" id="AncestralNutrition_Sidebar_1_ATF_300x250">
+</div></div></aside><aside id="text-4" class="widget widget_text"><h3 class="widget-title">     Free Meal Plan</h3>			<div class="textwidget">Sign up for the Free Meal Plan below<br/> or <a href="mailto:dani@ancestralnutrition.com">email me directly.</a>
+
+                <div class='gf_browser_gecko gform_wrapper' id='gform_wrapper_4' ><form method='post' enctype='multipart/form-data'  id='gform_4'  action='/e-coli-outbreak-chipotle-sabotage/'>
+                        <div class='gform_body'><ul id='gform_fields_4' class='gform_fields top_label form_sublabel_below description_below'><li id='field_4_1' class='gfield field_sublabel_below field_description_below' ><label class='gfield_label' for='input_4_1_3' >Name</label><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_4_1'>
+                            
+                            <span id='input_4_1_3_container' class='name_first' >
+                                                    <input type='text' name='input_1.3' id='input_4_1_3' value='' aria-label='First name' tabindex='2'  />
+                                                    <label for='input_4_1_3' >First</label>
+                                                </span>
+                            
+                            <span id='input_4_1_6_container' class='name_last' >
+                                                    <input type='text' name='input_1.6' id='input_4_1_6' value='' aria-label='Last name' tabindex='4'  />
+                                                    <label for='input_4_1_6' >Last</label>
+                                                </span>
+                            
+                        </div></li><li id='field_4_2' class='gfield gfield_contains_required field_sublabel_below field_description_below' ><label class='gfield_label' for='input_4_2' >Email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_4_2' type='text' value='' class='large' tabindex='6'   />
+                        </div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_4' class='gform_button button' value='Submit' tabindex='7' onclick='if(window["gf_submitting_4"]){return false;}  window["gf_submitting_4"]=true;  ' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_4' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='4' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_4' value='WyJbXSIsImYyY2RkZWRiZjgwODA5Nzk0NTkxNzQwNjE2ZjhkMjhlIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_4' id='gform_target_page_number_4' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_4' id='gform_source_page_number_4' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 4) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [4, 1]) } ); </script></div>
+		</aside><aside id="adthrive_ad_widget-2" class="widget widget_adthrive_ad_widget"><div style="text-align: center;">
+<div class="adthrive-ad" id="AncestralNutrition_Sidebar_2_ATF_300x250_300x600_300x1050_160x600">
+</div></div></aside><aside id="search-3" class="widget widget_search"><h3 class="widget-title">Search</h3><form role="search" method="get" id="searchform" class="searchform" action="http://www.ancestral-nutrition.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://www.ancestral-nutrition.com/canola-oil-not-healthy/">Canola Oil Is NOT Healthy</a>
+						</li>
+					<li>
+				<a href="http://www.ancestral-nutrition.com/tea-ive-drinking-help-fall-asleep-stay-asleep/">The Tea I&#8217;ve Been Drinking to Help Me Fall Asleep + Stay Asleep</a>
+						</li>
+					<li>
+				<a href="http://www.ancestral-nutrition.com/one-food-ive-given-since-anxiety-improved/">The One Food I&#8217;ve Given Up Since My Anxiety Has Improved</a>
+						</li>
+					<li>
+				<a href="http://www.ancestral-nutrition.com/thai-pork-stir-fry/">Thai Pork Stir Fry</a>
+						</li>
+					<li>
+				<a href="http://www.ancestral-nutrition.com/shrimp-ceviche-2/">Shrimp Ceviche</a>
+						</li>
+				</ul>
+		</aside>		<aside id="adthrive_ad_widget-7" class="widget widget_adthrive_ad_widget"><div style="text-align: center;">
+<div class="adthrive-ad" id="AncestralNutrition_Sidebar_3_300x250_300x600_300x1050_160x600">
+</div></div></aside><aside id="adthrive_ad_widget-3" class="widget widget_adthrive_ad_widget"><div style="text-align: center;">
+<div class="adthrive-ad" id="AncestralNutrition_Sidebar_5_300x250">
+</div></div></aside><aside id="adthrive_ad_widget-4" class="widget widget_adthrive_ad_widget"><div style="text-align: center;">
+<div class="adthrive-ad" id="AncestralNutrition_Sidebar_6_300x250_300x600_300x1050_160x600">
+</div></div></aside>
+		</div> <!-- /#secondary.widget-area -->
+
+	</div> <!-- /.col.grid_4_of_12 -->
+
+	</div> <!-- /#primary.site-content.row -->
+
+<div class="adthrive-ad-shortcode" style="text-align: center">
+<div class="adthrive-ad" id="AncestralNutrition_Above_Footer_728x90">
+</div></div>		</div> <!-- /#maincontentcontainer -->
+    
+	<div id="pre-footercontainer">
+    	<div class="pre-footer row">
+
+													<div class="col grid_3_of_12">
+							<div class="widget-area" role="complementary">
+								<aside id="text-11" class="widget widget_text"><h3 class="widget-title">Food</h3>			<div class="textwidget"><p><a href="http://www.ancestral-nutrition.com/category/recipes/">Recipes</a><br />
+<a href="http://www.ancestral-nutrition.com/free-meal-plan/">Free Meal Plans</a></p>
+</div>
+		</aside><aside id="text-15" class="widget widget_text">			<div class="textwidget"><script type="text/javascript" language="JavaScript">
+glam_affiliate_id = '1747671966';
+</script>
+<script src="http://www8.glam.com/js/widgets/glammedia_logo.js"></script></div>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6035233" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035233&cv=2.0&cj=1" />
+</noscript></div>
+		</aside>							</div>
+						</div> <!-- /.col.grid_3_of_12 -->
+											<div class="col grid_3_of_12">
+							<div class="widget-area" role="complementary">
+								<aside id="text-12" class="widget widget_text"><h3 class="widget-title">Programs</h3>			<div class="textwidget"><p><a href="http://www.ancestral-nutrition.com/programs-2/21-day-lifestyle-transformation/">21 Day Lifestyle Transformation</a><br />
+<a href="http://www.ancestral-nutrition.com/programs-2/essential-glow/">Clearer Skins in 30 Days</a><br />
+<a href="http://www.ancestral-nutrition.com/programs-2/essential-weight-loss-lose-weight-keep-life-just-30-days/">Lose Weight and Keep it Off</a></p>
+</div>
+		</aside>							</div>
+						</div> <!-- /.col.grid_3_of_12 -->
+											<div class="col grid_3_of_12">
+							<div class="widget-area" role="complementary">
+								<aside id="text-13" class="widget widget_text"><h3 class="widget-title">Shop</h3>			<div class="textwidget"><p><a href="http://www.ancestral-nutrition.com/essential-oils-2/">Essential Oils</a><br />
+<a href="http://www.ancestral-nutrition.com/book/">My Book</a></p>
+</div>
+		</aside>							</div>
+						</div> <!-- /.col.grid_3_of_12 -->
+											<div class="col grid_3_of_12">
+							<div class="widget-area" role="complementary">
+								<aside id="text-14" class="widget widget_text"><h3 class="widget-title">Contact</h3>			<div class="textwidget"><p><a href="http://www.ancestral-nutrition.com/contact/">Get In Touch</a><br />
+<a href="http://www.ancestral-nutrition.com/work-with-me/">Work With Me</a></p>
+</div>
+		</aside>							</div>
+						</div> <!-- /.col.grid_3_of_12 -->
+					
+			
+        </div>
+    <div class="clear"></div>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div id="footercontainer">
+        <div class="site-footer row">
+            <div class="col grid_12_of_12">
+            <div class="smallprint"><p>© 2015 Ancestral Nurtrition. All rights reserved.   <a href="http://www.ancestral-nutrition.com/about-2/disclaimer/">Disclaimer</a>  |   <a href="http://www.ancestral-nutrition.com/about-2/privacy-policy/">Privacy Policy</a>   |   <a href="http://www.ancestral-nutrition.com/contact/">Contact Us</a></p>
+</div> <!-- /.smallprint -->            
+            <div class="social-media-icons">
+            	<ul><li><a href="https://twitter.com/ancestralnut" title="Follow us on Twitter" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li><li><a href="https://www.facebook.com/AncestralNutrition" title="Like us on Facebook" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://www.linkedin.com/in/ancestralnutrition" title="Connect with us on LinkedIn" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://instagram.com/ancestralnutrition" title="Follow us on Instagram" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://pinterest.com/ancestralnut/" title="Follow us on Pinterest" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a></li></ul>            </div>
+            
+            </div>
+        </div>
+	</div> <!-- /.footercontainer -->
+
+</div> <!-- /.#wrapper.hfeed.site -->
+
+<div id="ssbp-ellipsis-div"><span class="ssbp-x ssbp-close-ellipsis-div"></span><a href="https://simplesharebuttons.com/plus/?utm_source=plus&amp;utm_medium=plugin_powered_by&utm_campaign=powered_by&amp;utm_content=plus_ellipsis" target="_blank"><img class="ssbp-ellipsis-powered-by" src="http://www.ancestral-nutrition.com/wp-content/plugins/simple-share-buttons-plus/images/simple-share-buttons-logo-white.png" alt="Simple Share Buttons" /></a><span class="ssbp-share-text">SHARE</span><ul class="ssbp-list"><li class="ssbp-li--buffer"><a href="https://bufferapp.com/add?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/&amp;text= E. Coli Outbreak at Chipotle: Is It Sabotage?" class="ssbp-btn ssbp-buffer"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Buffer" ><span class="ssbp-text">Buffer</span></a></li><li class="ssbp-li--diggit"><a href="http://www.digg.com/submit?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-diggit"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Digg" ><span class="ssbp-text">Diggit</span></a></li><li class="ssbp-li--email"><a href="mailto:?Subject=E. Coli Outbreak at Chipotle: Is It Sabotage?&amp;Body=%20http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-email ssbp-email-popup" data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Email" ><span class="ssbp-text">Email</span></a></li><li class="ssbp-li--ellipsis"><a href="javascript:;" class="ssbp-btn ssbp-ellipsis" data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Ellipsis"><span class="ssbp-text">More</span></a></li><li class="ssbp-li--facebook"><a href="http://www.facebook.com/sharer.php?u=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-facebook ssbp-facebook--standard"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Facebook" ><span class="ssbp-text">Facebook</span></a></li><li class="ssbp-li--flattr"><a href="https://flattr.com/submit/auto?user_id=&amp;title=E. Coli Outbreak at Chipotle: Is It Sabotage?&amp;url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-flattr"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Flattr" ><span class="ssbp-text">Flattr</span></a></li><li class="ssbp-li--google"><a href="https://plus.google.com/share?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-google"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Google+" ><span class="ssbp-text">Google+</span></a></li><li class="ssbp-li--linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-linkedin"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="LinkedIn" ><span class="ssbp-text">Linkedin</span></a></li><li class="ssbp-li--pinterest"><a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());' class='ssbp-btn ssbp-pinterest' data-ssbp-title='E. Coli Outbreak at Chipotle: Is It Sabotage?' data-ssbp-url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/ data-ssbp-site='Pinterest'><span class="ssbp-text">Pinterest</span></a></li><li class="ssbp-li--print"><a href="#" class="ssbp-btn ssbp-print" onclick="window.print()" data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Print"><span class="ssbp-text">Print</span></a></li><li class="ssbp-li--reddit"><a href="http://reddit.com/submit?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/&amp;title=E. Coli Outbreak at Chipotle: Is It Sabotage?" class="ssbp-btn ssbp-reddit"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Reddit" ><span class="ssbp-text">Reddit</span></a></li><li class="ssbp-li--stumbleupon"><a href="http://www.stumbleupon.com/submit?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/&amp;title=E. Coli Outbreak at Chipotle: Is It Sabotage?" class="ssbp-btn ssbp-stumbleupon"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="StumbleUpon" ><span class="ssbp-text">Stumble</span></a></li><li class="ssbp-li--tumblr"><a href="http://www.tumblr.com/share/link?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-tumblr"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Tumblr" ><span class="ssbp-text">tumblr</span></a></li><li class="ssbp-li--twitter"><a href="https://twitter.com/share?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/&amp;text=E.+Coli+Outbreak+at+Chipotle%3A+Is+It+Sabotage%3F+&amp;hashtags=" class="ssbp-btn ssbp-twitter ssbp-twitter--standard" data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Twitter" ><span class="ssbp-text">Twitter</span></a></li><li class="ssbp-li--vk"><a href="http://vkontakte.ru/share.php?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-vk"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="VK" ><span class="ssbp-text">VK</span></a></li><li class="ssbp-li--whatsapp"><a href="whatsapp://send?text=http%3A%2F%2Fwww.ancestral-nutrition.com%2Fe-coli-outbreak-chipotle-sabotage%2F+E.+Coli+Outbreak+at+Chipotle%3A+Is+It+Sabotage%3F" class="ssbp-btn ssbp-whatsapp"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="WhatsApp" ><span class="ssbp-text">WhatsApp</span></a></li><li class="ssbp-li--yummly"><a href="http://www.yummly.com/urb/verify?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/&title=E.+Coli+Outbreak+at+Chipotle%3A+Is+It+Sabotage%3F" class="ssbp-btn ssbp-yummly"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Yummly" ><span class="ssbp-text">Yummly</span></a></li><li class="ssbp-li--xing"><a href="https://www.xing.com/spi/shares/new?url=http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" class="ssbp-btn ssbp-xing"  data-ssbp-title="E. Coli Outbreak at Chipotle: Is It Sabotage?" data-ssbp-url="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" data-ssbp-site="Xing" ><span class="ssbp-text">Xing</span></a></li></ul><div class="ssbp-input-url-div"><input class="ssbp-input-url" type="text" value="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" /></div></div><script>
+                jQuery("body").on("click", ".ssbp-ellipsis", function() {
+                    jQuery("#ssbp-ellipsis-div").fadeIn(500);
+                });
+                jQuery("body").on("click", ".ssbp-close-ellipsis-div", function() {
+                    jQuery("#ssbp-ellipsis-div").fadeOut(500);
+                });
+              </script><div id="ssbp-email-div"><span class="ssbp-x ssbp-close-email-div"></span><div class="ssbp-email-alert" id="ssbp-email-alert"></div><input type="hidden" id="_wpnonce" name="_wpnonce" value="0edbdab151" /><input type="hidden" name="_wp_http_referer" value="/e-coli-outbreak-chipotle-sabotage/" /><form id="js-ssbp-email-form" method="post" action=""
+                data-success-alert-text="Thanks, your email has been sent"
+                data-warning-alert-text="Please check the fields and try again"
+                data-brute-alert-text="The email to friend functionality is restricted to one email every five minutes, please try again soon">
+                <input type="hidden" id="fill_me" name="fill_me" value="" />
+                <input type="hidden" id="url" name="url" value="http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/" /><input type="hidden" id="_wpnonce" name="_wpnonce" value="0edbdab151" /><input type="hidden" name="_wp_http_referer" value="/e-coli-outbreak-chipotle-sabotage/" />
+                <div class="ssbp-form-group">
+                    <label for="email" class="ssbp-required">Friend's email</label>
+                    <input type="email" class="ssbp-form-control ssbp-required" id="email" name="email" placeholder="friends@email.com" required>
+                </div>
+                <div class="ssbp-form-group">
+                    <label for="message" class="ssbp-required">Message</label>
+                    <textarea maxlength="250" class="ssbp-form-control ssbp-required" rows="6" id="message" name="message" required> http://www.ancestral-nutrition.com/e-coli-outbreak-chipotle-sabotage/</textarea>
+                </div>
+                <div class="ssbp-form-group ssbp-text-align-right">
+                    <button id="ssbp-email-send" type="submit" class="ssbp-btn-primary">Send</button>
+                </div>
+             </form><a href="https://simplesharebuttons.com/plus/?utm_source=plus&amp;utm_medium=plugin_powered_by&utm_campaign=powered_by&amp;utm_content=plus_email" target="_blank"><img class="ssbp-email-powered-by" src="http://www.ancestral-nutrition.com/wp-content/plugins/simple-share-buttons-plus/images/simple-share-buttons-logo-white.png" alt="Simple Share Buttons" /></a></div><script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/akismet/_inc/form.js?ver=3.1.10'></script>
+<link rel='stylesheet' id='gforms_reset_css-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/gravityforms/css/formreset.min.css?ver=1.9.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=1.9.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=1.9.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='http://www.ancestral-nutrition.com/wp-content/plugins/gravityforms/css/browsers.min.css?ver=1.9.18' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/simple-share-buttons-plus/js/ssbp_standard.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ssbpEmail = {"ajax_url":"http:\/\/www.ancestral-nutrition.com\/wp-admin\/admin-ajax.php","security":"0364194f5f"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/simple-share-buttons-plus/js/ssbp_email.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var spuvar = {"is_admin":"","disable_style":"","safe_mode":"","ajax_mode":"","ajax_url":"http:\/\/www.ancestral-nutrition.com\/wp-admin\/admin-ajax.php","ajax_mode_url":"http:\/\/www.ancestral-nutrition.com\/?spu_action=spu_load&lang=","pid":"11777","is_front_page":"","is_category":"","site_url":"http:\/\/www.ancestral-nutrition.com","is_archive":"","is_search":"","seconds_confirmation_close":"5"};
+var spuvar_social = [""];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/popups/public/assets/js/min/public-min.js?ver=1.4.6'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/js/jquery.validate.min.1.13.0.js?ver=1.13.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comments_object = {"req":"1","author":"Please enter your name","email":"Please enter a valid email address","comment":"Please add a comment"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/js/comment-form-validation.js?ver=1.13.0'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/themes/ancestral/js/small-menu.js?ver=20130130'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"960","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","v":"3.2.0.2","ajax_url":"http:\/\/www.ancestral-nutrition.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=3.2.0.2'></script>
+<script type='text/javascript' src='http://www.ancestral-nutrition.com/wp-includes/js/wp-embed.min.js'></script>
+</body>
+
+</html>
+
+<!-- This website is like a Rocket, isn't it ? Performance optimized by WP Rocket. Learn more: http://wp-rocket.me - Debug: cached@1461780725 -->

@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta property="og:title" content="Cafe Rio | Mexican Grill-60 Awards and counting." />
+<meta property="og:description" content="Cafe Rio has won over 60 awards from groups such as Best of City Search, City Weekly, INC 500, Utah Business Magazine, Utah's Best of State and more... There aren't any microwaves or freezers in any of our locations. Nothing is premade. We don't have mechanized processed food. We are fresh my friend." />
+<meta property="og:image" content="http://www.caferio.com/uploads/images/home/1351772053_1.jpg" />	
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<title>Fresh Mexican Food Restaurants | Cafe Rio Mexican Grill</title>
+<meta name="viewport" content="width=1200">
+
+<link rel="stylesheet" type="text/css" href="/css/main.css?14" /><link rel="stylesheet" type="text/css" href="/css/animate.css" />
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/css/ie.css" /><![endif]-->
+
+
+<!-- only use scripts inside frontend/ so we can avoid problems when we upgrade js scripts for admin -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+<!-- get variables from config that will be needed on frontend.js -->
+<script>
+CMS_CONFIG = {};
+CMS_CONFIG.embedded_num_thumbs = '5';
+</script>
+
+<script type="text/javascript" src="/js/frontend/main.min.js"></script>
+
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "ur-d59acfdb-ccf8-401c-cf67-b337ab643536", popup: true});</script>
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+
+<script type="text/javascript">
+	
+	function randOrd() {
+    return (Math.round(Math.random())-0.5); 
+    }
+    
+    function randomValue(arr) {
+	    var count = arr.length;
+	    var i = Math.floor(Math.random() * count);
+	    return arr[i];
+    }
+
+	
+	$(document).ready(function(){
+		
+		var badBrowsers = {
+			"safari" : 531.22,
+			"mozilla" : 1.9,
+			"msie" : 8
+		};
+		
+		for(var i in badBrowsers) {
+			if (typeof $.browser[i] != 'undefined' && parseFloat($.browser.version) < badBrowsers[i]) {
+				$(".browserUpdate").show();
+			}
+		}
+		
+		$(".browserUpdate .dismiss").click(function() {
+			$(".browserUpdate").hide();
+		});
+
+		$("#logo").hover(
+			function () {
+				$(this).attr('class', 'animated swing');
+			},
+			function () {
+				$(this).removeClass('animated swing');
+			}
+		);
+		
+		$(".blogEventsWrap ul li").hover(
+			function () {
+				$(this).addClass('animated swing');
+			},
+			function () {
+				$(this).removeClass('animated swing');
+			}
+		);
+
+		
+		
+		$('.home #logo').addClass("animated bounceInDown");
+
+	
+		$('.cycle').cycle({
+			fx: 'fade',
+			timeout: 6000,
+			speed: 1000,
+			pager:  '#pagerNav',
+			pause: true,
+			slides: '> *'
+		});
+		
+		$('.locationsAlert').cycle({
+			fx: 'scrollHorz',
+			timeout: 3000,
+			speed: 1000,
+			slides: '> *'
+		});		
+		
+		if ($('#pagerNav span').length == 1) {
+		    $('#pagerNav').hide();
+		}
+		
+		
+		$('.categoryGallery li div:first').addClass('default');
+		$('.default').children('.tooltip').show();
+		$('.default').children('.node').addClass('active');
+
+		
+		$('.categoryGallery .nodeBox').hover(function(){
+		    $('.tooltip').hide();
+		    $('.nodeBox').removeClass('topMost');
+		    $('.node').removeClass('active');
+		    $(this).find('.tooltip').fadeIn();
+		    $(this).find('.node').addClass('active');
+		    $(this).addClass('topMost');
+		}, 
+		function(){
+		    $('.tooltip').hide();
+		});
+	
+		$('body.home #vipContent').delay(10000).animate({bottom: '-25'}, 500).delay(10000).animate({bottom: '-125'}, 1000);
+		
+		$('.hoursMore a').hover(function(){
+		    $('.displayHours').fadeIn();
+		}, 
+		function(){
+		    $('.displayHours').fadeOut();
+		});
+		
+		
+		$('.closeOrder').click(function(){
+		    $(this).parent().show();
+		    $('.sideBanner').find('.tooltip').animate({left: '+=430'}, 200);
+		    $('.sideBannerButton').delay(1000).fadeIn();
+		});
+		
+		$('.sideBanner').delay(6000).animate({
+			right: '0'
+		}, 2000);
+		
+		$('.sideBannerClose').click(function(){
+			$('.sideBanner').animate({
+				right: '-1000'
+			}, 2000);
+		});
+		    
+		$('.closeButton').click(function(){
+		    $(this).parent().hide();
+		});
+		
+		
+		$('#pinterestFeed div.feed').hover(function(){
+		    $(this).animate({right: '+=428'}, 1000);
+		}, function(){
+		    $(this).animate({right: '-=428'}, 200);
+		});
+				
+				
+			
+		$('.mapButton').click(function(){
+			$('.locationWindow').hide();
+			$('#locationMap').show();
+			$('ul.popMenu li').removeClass('active');
+			$(this).addClass('active');
+		});
+		$('.yelpButton').click(function(){
+			$('.locationWindow').hide();
+			$('#locationYelp').show();
+			$('ul.popMenu li').removeClass('active');
+			$(this).addClass('active');
+		});
+		$('.fbButton').click(function(){
+			$('.locationWindow').hide();
+			$('#locationFacebook').show();
+			$('ul.popMenu li').removeClass('active');
+			$(this).addClass('active');
+		});
+		$('.photosButton').click(function(){
+			$('.locationWindow').hide();
+			$('#locationPhotos').show();
+			$('ul.popMenu li').removeClass('active');
+			$(this).addClass('active');
+		});
+	
+	
+		if ($('#locationGallery').length != 0) {
+			$('#locationGallery').galleryView({
+				
+				panel_width: 160,
+				panel_height: 160,
+				frame_width: 40,
+				frame_height: 40,
+			
+				// nav_theme: 'light',
+			
+				// show_panels: false,
+				// show_filmstrip: false,
+				//show_filmstrip_nav: false,
+				//show_panel_nav: false,
+			
+				filmstrip_size: 3,					
+				// transition_speed: 1000,
+				// transition_interval: 5000,
+		
+				// overlay_opacity: 0.6,
+				// frame_opacity: 0.3,
+			
+		
+				filmstrip_position: 'right',
+				// overlay_position: 'top',
+		
+				// panel_scale: 'nocrop',
+				// frame_scale: 'nocrop',
+		
+				// show_captions: false,
+				// fade_panels: false,					
+				// pause_on_hover: false,
+			
+				theme_path: '/img/gallery_themes/'
+			});
+		}
+		
+		if ($('.slideshow .embedAlbum').length != 0) {
+			$('.slideshow .embedAlbum').galleryView({
+				
+				panel_width: 865,
+				panel_height: 425,
+				frame_width: 80,
+				frame_height: 40,
+			
+				// nav_theme: 'light',
+			
+				// show_panels: false,
+				show_filmstrip: false,
+				// show_filmstrip_nav: false,
+				// show_panel_nav: false,
+			
+				filmstrip_size: 6,					
+				// transition_speed: 1000,
+				// transition_interval: 5000,
+		
+				// overlay_opacity: 0.6,
+				// frame_opacity: 0.3,
+			
+		
+				filmstrip_position: 'bottom',
+				// overlay_position: 'top',
+		
+				panel_scale: 'nocrop',
+				frame_scale: 'nocrop',
+		
+				// show_captions: false,
+				// fade_panels: false,					
+				// pause_on_hover: false,
+			
+				theme_path: '/img/gallery_themes/'
+			});
+		}
+		
+
+
+		/* $('#locationGallery .panel a').addClass('zoom'); */
+		/* $('.locationSingleImg a').addClass('zoom'); */
+		
+		$('.zoom').attr('rel','gallery').fancybox();
+
+		
+		$("#twitter-feed").tweet({
+            username: "caferio",
+            join_text: "auto",
+            avatar_size: 32,
+            count: 6,
+            auto_join_text_default: " we said,", 
+            auto_join_text_ed: " we",
+            auto_join_text_ing: " we were",
+            auto_join_text_reply: " we replied to",
+            auto_join_text_url: " we were checking out",
+            loading_text: "loading tweets..."
+        });
+        
+        $('#pinterestFeed div.feed').rssfeed('http://www.pinterest.com/caferio/feed.rss', {
+			limit: 10,
+			snippet: false,
+			header: false,
+			date: false
+		});        
+		
+		$("#sidebar ul li").hover(
+			function () {
+				$(this).find('ul').fadeIn('fast');
+			}, 
+			function () {
+				$(this).find('ul').fadeOut('fast');
+			}
+		);
+		
+  		$(".scrollButtons a.up").bind("click", function(){
+  		  $(".scrollContent").animate({top: '+=55'}, 500);
+  		});
+  		
+  		$(".scrollButtons a.dn").bind("click", function(){
+  		  $(".scrollContent").animate({top: '-=55'}, 500);
+  		});
+  		
+  		
+        if ($('.scrollContent').height() > ($('.scrollContainer').height() - 40)) {
+            $('.scrollButtons').show();
+        }
+        
+        $(".scrollButtonsSub a.up").bind("click", function(){
+  		  $(".scrollContentSub").animate({top: '+=55'}, 500);
+  		});
+  		
+  		$(".scrollButtonsSub a.dn").bind("click", function(){
+  		  $(".scrollContentSub").animate({top: '-=55'}, 500);
+  		});
+  		
+  		
+        if ($('.scrollContentSub').height() > ($('.scrollContainerSub').height() - 40)) {
+            $('.scrollButtonsSub').show();
+        }
+        
+        $('#locationsSubMenu.animateSub').animate({left: '+=250'}, 500);
+        
+        
+        $('.teamPhotos li').hover(function(){
+			$(this).addClass('bounce');
+		}, function() {
+			$(this).removeClass('bounce');
+		});
+		
+		$('.bioNames a').hover(function(){
+			var menuid = $(this).attr("id")
+			$('.teamPhotos li#pic_'+menuid).addClass('bounce');
+		}, function() {
+			$('.teamPhotos li').removeClass('bounce');
+		});
+		
+		$('.briefDesc img').addClass('imgBorder');
+		
+
+		// search feature
+		var xhr = false;
+		$("#SearchField").keyup(function() {
+			var q = $(this).val();
+			if (q.length > 1) {
+				// allow search
+				if (xhr !== false) {
+					xhr.abort();
+				}
+				xhr = $.get('/full_search/q:' + encodeURI(q), function(data) {
+					if (data.Location.length == 0 && data.Menu.length == 0 && data.Catering.length == 0) {
+						$("#searchResults").html("<div>No Results</div>");
+					}
+					else {
+						$("#searchResults").html("");
+						if (data.Menu.length > 0) {
+							var menuHTML = '';
+							menuHTML += '<div>Menu</div>';
+							menuHTML += '<ul>';
+							for(var i in data.Menu) {
+								menuHTML += '<li><a href="/food/menu/' + data.Menu[i].Product.slug + '">' + data.Menu[i].Product.name + '</a></li>';
+							}
+							menuHTML += '</ul>';
+							$("#searchResults").append(menuHTML);
+						}
+						if (data.Catering.length > 0) {
+							var catHTML = '';
+							catHTML += '<div>Catering</div>';
+							catHTML += '<ul>';
+							for(var i in data.Catering) {
+								catHTML += '<li><a href="/food/catering/' + data.Catering[i].Product.slug + '">' + data.Catering[i].Product.name + '</a></li>';
+							}
+							catHTML += '</ul>';
+							$("#searchResults").append(catHTML);
+						}
+						if (data.Location.length > 0) {
+							var locHTML = '';
+							locHTML += '<div>Locations</div>';
+							locHTML += '<ul>';
+							for(var i in data.Location) {
+								locHTML += '<li><a href="/locations/store/' + data.Location[i].Location.slug + '">' + data.Location[i].Location.title + '</a></li>';
+							}
+							locHTML += '</ul>';
+							$("#searchResults").append(locHTML);
+						}
+					}
+				}, "json");
+			}
+			else {
+				$("#searchResults").html("");
+			}
+		});
+
+
+
+		
+		$('.slideContent').animate({left: '+=470'}, 200);
+		$('.slideContent').css('width','480px');
+				
+		
+		$('.slideContent .close').click(function(){
+		    $('.slideContent').animate({left: '-=470'}, 200);
+		    $('.slideContent').css('width','450px');
+		});
+		
+		$('.hideJob').click(function(){
+		    $('#jobOp').hide();
+		});
+		
+		$('.showJob').click(function(){
+		    $('#jobOp').show();
+		});
+		
+		$('.hideCareer').click(function(){
+		    $('#careerPath').hide();
+		    $('.slideContent').hide();
+		});
+		
+		$('.careers .modalSlideshow .slideText').cycle({
+			fx: 'fade',
+			timeout: 4000,
+			speed: 1000,
+			nowrap: true
+		});
+		$('.careers .modalSlideshow .slideImages').cycle({
+			fx: 'fade',
+			timeout: 4000,
+			speed: 1000
+		});
+		$('.careers .modalClose').click(function(){
+		    $('.careers .modalContainer').hide();
+		    $('.careers .modalSlideshow').hide();
+		});
+		
+		$('.careers').click(function(){
+		  	$('.modalContainer').hide();
+		  	//return false;
+		});
+		
+		$(".careers #empApplication .teamMember a.continue").click(function(){
+		    $(".careers #memberApp").show();
+		    $(".careers #empApplication").hide();
+		    return false;
+		});
+		
+		$('.careerApply').click(function(){
+		  	$('#empApplication').show();
+		  	return false;
+		});
+		
+
+			
+	});
+		 	
+</script>
+<style>
+			#mainContent {}
+	</style>
+
+</head>
+
+<body class="home">
+
+	<div class="browserUpdate">
+
+	<div class="dismiss">X</div>
+
+	<h1>Wow, we haven't seen your browser since 1982!</h1>
+	<p>Seriously though, update your browser to something more modern or this site is gonna look CRAZY! Here are the browsers we recommend:</p>
+	
+	<ul>
+		<li><a href="http://www.google.com/chrome"><img src="/img/browserChrome.png" alt="" /></a><span>Google Chrome</span></li>
+		<li><a href="http://www.apple.com/safari"><img src="/img/browserSafari.png" alt="" /></a><span>Safari</span></li>
+		<li><a href="http://www.mozilla.org/firefox"><img src="/img/browserFirefox.png" alt="" /></a><span>Mozilla Firefox</span></li>
+		<li><a href="http://windows.microsoft.com/en-US/internet-explorer/download-ie"><img src="/img/browserIE.png" alt="" /></a><span>Internet Explorer</span></li>
+	</ul>
+	
+</div>
+	<div id="socialTab">
+	<ul>
+		<li><a href="https://www.facebook.com/CafeRio" class="facebook" target="_blank">Facebook</a></li>
+		<li><a href="http://twitter.com/caferio" class="twitter" target="_blank">Twitter</a></li>
+		<li><a href="http://pinterest.com/caferio/" class="pinterest" target="_blank">Pinterest</a></li>
+		<li><a href="http://www.youtube.com/user/CafeRioMexGrill" class="youtube" target="_blank">YouTube</a></li>
+	</ul>
+</div>
+	
+<ul id='nav'>
+<li id='nav_230'><span class='tree_item_content '><a href="/food/menu" class="tree_item_name">Menu</a></span>
+  <ul id=''>
+  <li id='nav_237'><span class='tree_item_content '><a href="/ingredients" class="tree_item_name">Ingredients</a></span>  </li>
+  <li id='nav_268'><span class='tree_item_content '><a href="/nutritional-new" class="tree_item_name">Nutritional Info</a></span>  </li>
+  <li id='nav_270'><span class='tree_item_content '><a href="/allergen-info" class="tree_item_name">Allergen Info</a></span>  </li>
+  <li id='nav_271'><span class='tree_item_content '><a href="/veggie-info" class="tree_item_name">Veggie Info</a></span>  </li>
+  <li id='nav_195'><span class='tree_item_content '><a href="/locations/printable_menu" class="tree_item_name">Printable Menu</a></span>  </li>
+  <li id='nav_266'><span class='tree_item_content '><a href="/locations/specials" class="tree_item_name">Daily Specials</a></span>  </li>
+  </ul>
+</li>
+<li id='nav_279'><span class='tree_item_content '><a href="/location-selector-catering" class="tree_item_name">Catering</a></span>
+  <ul id=''>
+  <li id='nav_260'><span class='tree_item_content '><a href="/general_info" class="tree_item_name">General Info</a></span>  </li>
+  <li id='nav_188'><span class='tree_item_content '><a href="/food/weddings" class="tree_item_name">Weddings</a></span>  </li>
+  <li id='nav_189'><span class='tree_item_content '><a href="/delivery" class="tree_item_name">Delivery</a></span>  </li>
+  <li id='nav_284'><span class='tree_item_content '><a href="/printable-menu" class="tree_item_name">Printable Menu</a></span>  </li>
+  <li id='nav_190'><span class='tree_item_content '><a href="/catering-rewards" class="tree_item_name">Rewards</a></span>  </li>
+  <li id='nav_238'><span class='tree_item_content '><a href="/ingredients" class="tree_item_name">Ingredients</a></span>  </li>
+  </ul>
+</li>
+<li id='nav_259'><span class='tree_item_content '><a href="/vip" class="tree_item_name">VIP</a></span></li>
+<li id='nav_174'><span class='tree_item_content '><a href="/our-story" class="tree_item_name">Our Story</a></span>
+  <ul id=''>
+  <li id='nav_244'><span class='tree_item_content '><a href="/careers" class="tree_item_name">Careers</a></span>  </li>
+  <li id='nav_233'><span class='tree_item_content '><a href="/bios" class="tree_item_name">Bios</a></span>  </li>
+  <li id='nav_204'><span class='tree_item_content '><a href="/blogs/press" class="tree_item_name">Press</a></span>  </li>
+  <li id='nav_208'><span class='tree_item_content '><a href="/difference" class="tree_item_name">The Cafe Rio Difference</a></span>  </li>
+  <li id='nav_209'><span class='tree_item_content '><a href="/commercials" class="tree_item_name">Commercials</a></span>  </li>
+  <li id='nav_247'><span class='tree_item_content '><a href="/contact" class="tree_item_name">Contact</a></span>  </li>
+  <li id='nav_261'><span class='tree_item_content '><a href="/press" class="tree_item_name">Press Kit</a></span>  </li>
+  <li id='nav_251'><span class='tree_item_content '><a href="/feedback" class="tree_item_name">Feedback</a></span>  </li>
+  </ul>
+</li>
+<li id='nav_272'><span class='tree_item_content '><a href="/gift-cards" class="tree_item_name">Gift Cards</a></span>
+  <ul id=''>
+  <li id='nav_240'><span class='tree_item_content '><a href="/register" class="tree_item_name">Check Your Balance</a></span>  </li>
+  <li id='nav_239'><span class='tree_item_content '><a href="/faq" class="tree_item_name">FAQ</a></span>  </li>
+  </ul>
+</li>
+<li id='nav_276'><span class='tree_item_content '><a href="/community-partners" class="tree_item_name">Community</a></span>
+  <ul id=''>
+  <li id='nav_199'><span class='tree_item_content '><a href="/blogs/blog" class="tree_item_name">Blog</a></span>  </li>
+  <li id='nav_280'><span class='tree_item_content '><a href="/donations-requests" class="tree_item_name">Donation Requests</a></span>  </li>
+  <li id='nav_281'><span class='tree_item_content '><a href="/forms/fundraiser-request" class="tree_item_name">Fundraisers</a></span>  </li>
+  </ul>
+</li>
+<li id='nav_257'><span class='tree_item_content '><a href="/locations" class="tree_item_name">Locations</a></span>
+  <ul id=''>
+  <li id='nav_245'><span class='tree_item_content '><a href="/careers" class="tree_item_name">Careers</a></span>  </li>
+  <li id='nav_242'><span class='tree_item_content '><a href="/feedback" class="tree_item_name">Feedback</a></span>  </li>
+  <li id='nav_256'><span class='tree_item_content '><a href="/contact" class="tree_item_name">Contact</a></span>  </li>
+  <li id='nav_267'><span class='tree_item_content '><a href="/locations/specials" class="tree_item_name">Daily Specials</a></span>  </li>
+  </ul>
+</li>
+</ul>
+
+	
+	<div id="stickyWrapper">
+	
+		<div id="container">
+			
+			<form id="search" action="/full_search">
+				<input type="text" id="SearchField" name="data[Search][field]" />
+				<div id="searchResults">
+				
+				</div>
+			</form>
+		
+			<div id="header">
+				<div id="leftWood1"></div>
+				<div id="leftWood2"></div>
+				<div id="rightWood1"></div>
+				<div id="rightWood2"></div>
+				<div id="topWood"></div>
+				<div id="orderOnline"><a href="https://caferio.alohaorderonline.com">Order Online</a></div>
+				<div id="locations"><a href="/locations">Locations</a></div>
+				<a href="/" id="logo">Cafe Rio</a>			</div>
+	
+			<div id="mainContent">
+								
+				<script type="text/javascript">
+		
+	$(document).ready(function(){
+	
+		$(".cycle").cycle({
+			timeout: 0,
+			speed: 1000,
+			fx: "scrollHorz",
+			prev: ".prev",
+			next: ".next",
+			after: function(el, next_el) {
+		        $(next_el).addClass('active');
+		    },
+		    before: function(el) {
+		        $(el).removeClass('active');
+		    }
+		});
+		
+		$("#parallax1a").smart3d({
+			vertical: false,
+			invertHorizontal: true
+		});
+		
+		$("#parallax1b").smart3d({
+			vertical: false,
+			invertHorizontal: true
+		});
+		
+		$("#parallax2a").smart3d({
+			vertical: false,
+			invertHorizontal: true
+		});
+		
+		$("#parallax2b").smart3d({
+			vertical: false,
+			invertHorizontal: true
+		});
+		
+		$("#parallax3a").smart3d({
+			vertical: false,
+			invertHorizontal: true
+		});
+		
+		$("#parallax3b").smart3d({
+			vertical: false,
+			invertHorizontal: true
+		});
+		
+		$(".flip").click(function(){
+			var $active = $("div.slide.active");
+			$active.toggleClass("flipped");
+			if (typeof $.browser.webkit == 'undefined' || $.browser.webkit === false) { 
+				$active.toggleClass('noWebKit');
+				$active.find(".front").fadeToggle();
+			}
+		});
+			
+	
+	$('.cycleContainer .nodeBox').toggle(function(){
+	    $('.tooltip').hide();
+	    $('.nodeBox').removeClass('topMost').hide();
+	    $(this).show();
+	    $('.node').removeClass('active');
+	    $(this).find('.tooltip').fadeIn();
+	    $(this).find('.node').addClass('active');
+	    $(this).addClass('topMost');
+	    $('.flip').fadeOut();
+	    $('.prev').fadeOut();
+	    $('.next').fadeOut();
+	    
+	}, 
+	function(){
+	    $('.tooltip').hide();
+	    $('.nodeBox').show();
+	    $('.flip').fadeIn();
+	    $('.prev').fadeIn();
+	    $('.next').fadeIn();
+	});
+	
+	var originalPositions = { "imageBack" : { "width" : 0, "height" : 0, "margin" : "" }, "imageMid" : { "width" : 0, "height" : 0, "margin" : "" }, "imageFore" : { "width" : 0, "height" : 0, "margin" : "" } };
+	var slideNodes = {
+		"0" : {
+			"front" : {
+				"node1a-1" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-370px 0 0 -420px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-320px 0 0 -420px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-200px 0 0 -500px"
+					}
+				},
+				"node1a-2" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -500px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-200px 0 0 -500px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-150px 0 0 -520px"
+					}
+				},
+				"node1a-3" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-400px 0 0 -650px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-350px 0 0 -650px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -700px"
+					}
+				}
+			},
+			"back" : {
+				"node1b-1" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-350px 0 0 -400px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-280px 0 0 -400px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "0 0 0 0"
+					}
+				},
+				"node1b-2" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-350px 0 0 -640px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-280px 0 0 -640px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "0 0 0 0"
+					}
+				},
+				"node1b-3" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-200px 0 0 -550px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-50px 0 0 -550px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "0 0 0 0"
+					}
+				}
+			}
+		}, // end node 0
+		
+		"1" : {
+			"front" : {
+				"node2a-1" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-80px 0 0 -710px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-50px 0 0 -710px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "50px 0 0 -710px"
+					}
+				},
+				"node2a-2" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-350px 0 0 -400px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-300px 0 0 -400px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -400px"
+					}
+				},
+				"node2a-3" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-360px 0 0 -550px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-300px 0 0 -550px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-240px 0 0 -550px"
+					}
+				}
+			},
+			"back" : {
+				"node2b-1" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-300px 0 0 -200px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -200px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-200px 0 0 -100px"
+					}
+				},
+				"node2b-2" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-200px 0 0 -550px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-100px 0 0 -500px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-50px 0 0 -500px"
+					}
+				},
+				"node2b-3" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-450px 0 0 -800px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-400px 0 0 -850px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-350px 0 0 -890px"
+					}
+				}
+			}
+		}, // end node 1
+		
+		"2" : {
+			"front" : {
+				"node3a-1" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-320px 0 0 -210px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-270px 0 0 -210px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-220px 0 0 -210px"
+					}
+				},
+				"node3a-2" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-320px 0 0 -600px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-270px 0 0 -600px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-220px 0 0 -600px"
+					}
+				},
+				"node3a-3" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-360px 0 0 -750px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-300px 0 0 -750px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-240px 0 0 -650px"
+					}
+				}
+				,
+				"node3a-4" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -750px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-210px 0 0 -750px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-170px 0 0 -650px"
+					}
+				}
+			},
+			"back" : {
+				"node3b-1" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-310px 0 0 -270px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-280px 0 0 -270px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-280px 0 0 -240px"
+					}
+				},
+				"node3b-2" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -410px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -430px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -430px"
+					}
+				},
+				"node3b-3" : {
+					"imageBack" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-250px 0 0 -820px"
+					},
+					"imageMid" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-200px 0 0 -850px"
+					},
+					"imageFore" : {
+						"width" : 2177,
+						"height" : 990,
+						"margin" : "-150px 0 0 -870px"
+					}
+				}
+			}
+		} // end node 2
+	}
+	
+	$('.nodeBox').toggle(function(){
+		// store starting position
+		var $currentSlide = $("div.slide.active");
+		var curIndex = $("div.slide").index($currentSlide);
+		var curID = $(this).attr("id");
+		
+		var forb = 'front';
+		if ($currentSlide.hasClass('flipped')) {
+			forb = 'back';
+		}
+		var $frontback = $currentSlide.find("." + forb);
+		var $imageBack = $frontback.find(".imageBack");
+		var $imageMid = $frontback.find(".imageMid");
+		var $imageFore = $frontback.find(".imageFore");
+		
+		// cache original values
+		originalPositions.imageBack.width = $imageBack.width();
+		originalPositions.imageBack.height = $imageBack.height();
+		originalPositions.imageBack.margin = $imageBack.css('margin');
+		
+		originalPositions.imageMid.width = $imageMid.width();
+		originalPositions.imageMid.height = $imageMid.height();
+		originalPositions.imageMid.margin = $imageMid.css('margin');
+		
+		originalPositions.imageFore.width = $imageFore.width();
+		originalPositions.imageFore.height = $imageFore.height();
+		originalPositions.imageFore.margin = $imageFore.css('margin');
+		
+		var nodeValues = slideNodes[curIndex][forb][curID];
+		var easeInTime = 1000;
+		var easeInType = "easeInOutQuad";
+		
+	    $(".imageBack").animate({
+	    	"width" : nodeValues.imageBack.width,
+	    	"height" : nodeValues.imageBack.height,
+	    	"margin" : nodeValues.imageBack.margin
+	    }, easeInTime, easeInType);
+	    $(".imageMid").animate({
+	    	"width" : nodeValues.imageMid.width,
+	    	"height" : nodeValues.imageMid.height,
+	    	"margin" : nodeValues.imageMid.margin
+	    }, easeInTime, easeInType);
+	    $(".imageFore").animate({
+	    	"width" : nodeValues.imageFore.width,
+	    	"height" : nodeValues.imageFore.height,
+	    	"margin" : nodeValues.imageFore.margin
+	    }, easeInTime, easeInType);
+	}, 
+	function() {
+		var easeOutTime = 500;
+		var easeOutType = "easeOutQuad";
+	
+		$(".imageBack").animate({
+	    	"width" : originalPositions.imageBack.width,
+	    	"height" : originalPositions.imageBack.height,
+	    	"margin" : originalPositions.imageBack.margin
+	    }, easeOutTime, easeOutType);
+	    $(".imageMid").animate({
+	    	"width" : originalPositions.imageMid.width,
+	    	"height" : originalPositions.imageMid.height,
+	    	"margin" : originalPositions.imageMid.margin
+	    }, easeOutTime, easeOutType);
+	    $(".imageFore").animate({
+	    	"width" : originalPositions.imageFore.width,
+	    	"height" : originalPositions.imageFore.height,
+	    	"margin" : originalPositions.imageFore.margin
+	    }, easeOutTime, easeOutType);
+	});
+	
+			
+});
+	
+</script>		
+
+
+
+<div class="cycleContainer">
+
+<!--
+		<div class="cycle-slideshow"
+			data-cycle-speed=1000
+			data-cycle-timeout=0
+			data-cycle-slides=".slide"
+			data-cycle-fx="scrollHorz"
+			data-cycle-easing=easeInOutQuad
+			data-cycle-prev=".prev"
+		    data-cycle-next=".next"
+			data-cycle-loader=true
+		>
+-->
+		
+		<div class="cycle">
+		
+			<div class="slide">
+		
+				<div class="front">
+						
+					<ul id="parallax1a" class="parallax">
+						<li><img class="image imageBack" src="/img/parallax/plx-tortilla2-back.jpg" /></li>
+						<li><img class="image imageMid" src="/img/parallax/plx-tortilla2-mid.png" />
+						
+						<div id="node1a-1" class="nodeBox" style="top:310px;left:450px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-left tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Handmade Tortillas</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb1a-1.jpg" /></p>
+				            		<p class="productDescription">Our Flour, Wheat, and Corn Tortillas are prepared from scratch by the minute under the gentle care of our experienced tortilla makers. We don't want to brag, but they're so good they should be their own food group.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        <div id="node1a-2" class="nodeBox" style="top:190px;left:490px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-left tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Experienced Tortilla Makers</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb1a-2.jpg" /></p>
+				            		<p class="productDescription">Our tortilla makers are the best in the business. They mix dough from scratch and hand-roll hundreds of tortillas a day, just for you. You can trust these fine artisans to give you the perfect foundation to build your meal.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        <div id="node1a-3" class="nodeBox" style="top:320px;left:620px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Traditional Comal</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb1a-3.jpg" /></p>
+				            		<p class="productDescription">The hot flat circle thingy is called a Comal...or, as we like to call it, the "magic tortilla spinner". This fancy contraption helps us make the best tortillas on the planet: hot, fresh, and cooked to perfection. Spinning is winning.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+			
+			
+						</li>
+						<li><img class="image imageFore" src="/img/parallax/plx-tortilla2-fore.png" /></li>
+					</ul>
+					
+				</div>
+				
+				<div class="back">
+
+					<ul id="parallax1b" class="parallax">
+						<li><img class="image imageBack" src="/img/parallax/plx-tortilla1-back.jpg" />
+						
+						<div id="node1b-3" class="nodeBox" style="top:180px;left:520px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Open-View Kitchens</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb1b-3.jpg" /></p>
+				            		<p class="productDescription">Our open-view kitchens allow you to see your meal being prepared right in front of your eyes. Watch us grill your meat, cook your tortillas, chop your veggies, and build your meal fresh to order. Seeing is believing!</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        </li>
+						<li><img class="image imageMid" src="/img/parallax/plx-tortilla1-mid.png" />
+						
+						<div id="node1b-1" class="nodeBox" style="top:250px;left:400px;">
+					        <div class="node"></div>
+					        <div class="down tooltip tooltip-left tipWindow">
+					        	<div class="tipWrapper">			
+					        		<h1 class="productName">Flour, Corn, or Wheat</h1>
+					        		<p class="productImage"><img src="/img/parallax/plx-thumb1b-1.jpg" /></p>
+					        		<p class="productDescription">No need to be boxed in when it comes to tortilla deliciousness! We can make practically any meal with any one of our three tortilla options. Choose between Flour, Corn, or Wheat tortillas made from scratch every day.</p>
+					        	</div>
+					        	<div class="closeButton">X</div>
+					        	<div class="tipBottomWrapper"></div>
+					        </div>
+					    </div>
+				        
+				        <div id="node1b-2" class="nodeBox" style="top:280px;left:640px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Fresh By The Minute</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb1b-2.jpg" /></p>
+				            		<p class="productDescription">We have a high demand for our delicious tortillas...so not only are we making them fresh, we?re making them fast! There?s no time for breaks as we continue to whip out new tortillas by the minute. That is the epitome of fresh.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        </li>
+						<li><img class="image imageFore" src="/img/parallax/plx-tortilla1-fore.png" /></li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+			<div class="slide">
+
+
+				<div class="front">
+				
+					<ul id="parallax2a" class="parallax">
+						<li><img class="image imageBack" src="/img/parallax/plx-line2-back.jpg" />
+						
+							<div id="node2a-1" class="nodeBox" style="top:70px;left:730px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Real Limes and Tomatoes</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb2a-1.jpg" /></p>
+				            		<p class="productDescription">We're not dealing with your mom's decorative plastic displays here...these limes and tomatoes are real! We use them every day to make our fresh hand- squeezed limeades, handmade salsas, and sauces.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        </li>
+						<li><img class="image imageMid" src="/img/parallax/plx-line2-mid.png" /></li>
+						<li><img class="image imageFore" src="/img/parallax/plx-line2-fore.png" />
+						
+						<div id="node2a-2" class="nodeBox" style="top:280px;left:390px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-left tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Open-View Kitchens</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb2a-2.jpg" /></p>
+				            		<p class="productDescription">Our open-view kitchens allow you to see your meal being prepared right in front of your eyes. Watch us grill your meat, cook your tortillas, chop your veggies, and build your meal fresh to order. Seeing is believing!</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        <div id="node2a-3" class="nodeBox" style="top:260px;left:600px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Made-From-Scratch Meals</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb2a-3.jpg" /></p>
+				            		<p class="productDescription">When we say every meal is a masterpiece, we mean it. As soon as you give us your favorite order, we go to work, building it from scratch with our famous display of fresh ingredients. You won't find any pre-prepared food here!</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        </li>
+					</ul>
+				
+				</div>
+				
+				
+				<div class="back">
+					
+					<ul id="parallax2b" class="parallax">
+						<li><img class="image imageBack" src="/img/parallax/plx-line1-back.jpg" />
+						
+						<div id="node2b-1" class="nodeBox" style="top:280px;left:220px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-left tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Fresh Ingredients</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb2b-1.jpg" /></p>
+				            		<p class="productDescription">By using only fresh ingredients, we create the best flavors possible. We're up with the sun every day hand-scooping avocados, squeezing limes, chopping veggies, and cooking our sauces from scratch.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        <div id="node2b-2" class="nodeBox" style="top:140px;left:550px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Handmade Tortillas</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb2b-2.jpg" /></p>
+				            		<p class="productDescription">Our Flour, Wheat, and Corn Tortillas are prepared from scratch by the minute under the gentle care of our experienced tortilla makers. We don't want to brag, but they're so good they should be their own food group.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        </li>
+						<li><img class="image imageMid" src="/img/parallax/plx-line1-mid.png" /></li>
+						<li><img class="image imageFore" src="/img/parallax/plx-line1-fore.png" />
+						
+						<div id="node2b-3" class="nodeBox" style="top:350px;left:950px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Fire-Grilled Meats</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb2b-3.jpg" /></p>
+				            		<p class="productDescription">Our meats are prepared fresh continuously throughout each day. You won't find any frozen alternatives here! Just take a look into our kitchens...we're grilling machines! Whether it's beef, chicken, or fish, we'll fire-grill it.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+
+				        </li>
+					</ul>
+					
+				</div>
+				
+				
+			</div>
+			
+			<div class="slide">
+		
+				<div class="front">
+						
+					<ul id="parallax3a" class="parallax">
+						<li><img class="image imageBack" src="/img/parallax/plx-drink2-back.jpg" /></li>
+						<li><img class="image imageMid" src="/img/parallax/plx-drink2-mid.png" />
+						
+						<div id="node3a-1" class="nodeBox" style="top:277px;left:227px;">
+				            <div class="node"></div>
+				            <div class="down tooltip tooltip-left tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Specialty Drinks</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb3a-1.jpg" /></p>
+				            		<p class="productDescription">Our specialty drinks are made from scratch every day with love. Drink options can include Horchata, Mint Limeade, Southwestern Limeade, and Sugar-Free Strawberry Lemonade (made with Stevia sweetener!)</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        <div id="node3a-2" class="nodeBox" style="top:280px;left:655px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper noImage">			
+				            		<h1 class="productName">Drink Fountain</h1>
+				            		<p class="productDescription">We have a drink fountain with 12 different options! That’s right, amigos. We’re serious about our sodas. </p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        <div id="node3a-3" class="nodeBox" style="top:255px;left:740px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper noImage">			
+				            		<h1 class="productName">Hot Sauces</h1>
+				            		<p class="productDescription">Some like it HOT...and we’re ready for them! Each restaurant is stocked with a large variety of Hot Sauces to make your meal a little crazy.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        <div id="node3a-4" class="nodeBox" style="top:165px;left:735px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper noImage">			
+				            		<h1 class="productName">Padre</h1>
+				            		<p class="productDescription">Our little amigo. Find him at your location!<br><br></p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+			
+			
+						</li>
+						<li><img class="image imageFore" src="/img/parallax/plx-drink2-fore.png" /></li>
+					</ul>
+					
+				</div>
+				
+				<div class="back">
+
+					<ul id="parallax3b" class="parallax">
+						<li><img class="image imageBack" src="/img/parallax/plx-drink1-back.jpg" /></li>
+						<li><img class="image imageMid" src="/img/parallax/plx-drink1-mid.png" />
+						
+						<div id="node3b-1" class="nodeBox" style="top:150px;left:270px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-left tipWindow">
+				            	<div class="tipWrapper">			
+				            		<h1 class="productName">Fresh Ingredients</h1>
+				            		<p class="productImage"><img src="/img/parallax/plx-thumb3b-1.jpg" /></p>
+				            		<p class="productDescription">Not only are we making meals from scratch, we’ve covered drinks as well. Whether it’s hand-pressed mint, crushed flowers, or fresh squeezed limes, we put a lot of effort into making our drinks delicious.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+
+						<div id="node3b-2" class="nodeBox" style="top:265px;left:380px;">
+					        <div class="node"></div>
+					        <div class="up tooltip tooltip-left tipWindow">
+					        	<div class="tipWrapper noImage">			
+					        		<h1 class="productName">Flavor Shots</h1>
+					        		<p class="productDescription">Not only are we making meals from scratch, we’ve covered drinks as well. Whether it’s hand-pressed mint, crushed flowers, or fresh squeezed limes, we put a lot of effort into making our drinks delicious.</p>
+					        	</div>
+					        	<div class="closeButton">X</div>
+					        	<div class="tipBottomWrapper"></div>
+					        </div>
+					    </div>
+				        
+				        <div id="node3b-3" class="nodeBox" style="top:185px;left:870px;">
+				            <div class="node"></div>
+				            <div class="up tooltip tooltip-right tipWindow">
+				            	<div class="tipWrapper noImage">			
+				            		<h1 class="productName">Flavored Teas</h1>
+				            		<p class="productDescription">Not only are we making meals from scratch, we’ve covered drinks as well. Whether it’s hand-pressed mint, crushed flowers, or fresh squeezed limes, we put a lot of effort into making our drinks delicious.</p>
+				            	</div>
+				            	<div class="closeButton">X</div>
+				            	<div class="tipBottomWrapper"></div>
+				            </div>
+				        </div>
+				        
+				        </li>
+						<li><img class="image imageFore" src="/img/parallax/plx-drink1-fore.png" /></li>
+					</ul>
+					
+				</div>
+				
+			</div>
+		
+		</div>
+		
+		<div class="prev"></div>
+		<div class="next"></div>
+		<div class="flip"></div>
+	
+	</div>
+	
+	
+	
+	
+				
+				<div class="clear"></div>
+			</div>
+			
+			<div id="mainContentBottom">
+				<div id="bottomWood"></div>	
+			</div>
+			
+			<div id="sidebar">
+	<!-- <h1>Home</h1> -->
+	
+<ul id='sidebar_ul'>
+<li id='sidebar_ul_217'><span class='tree_item_content '><a href="/ingredients" class="tree_item_name">Ingredients</a></span></li>
+<li id='sidebar_ul_218'><span class='tree_item_content '><a href="/locations" class="tree_item_name">Restaurants</a></span></li>
+<li id='sidebar_ul_221'><span class='tree_item_content '><a href="/difference" class="tree_item_name">The Cafe Rio Difference</a></span></li>
+<li id='sidebar_ul_232'><span class='tree_item_content '><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="tree_item_name" target="_blank">I Don&#039;t Care</a></span></li>
+<li id='sidebar_ul_243'><span class='tree_item_content '><a href="/careers" class="tree_item_name">Careers</a></span></li>
+<li id='sidebar_ul_253'><span class='tree_item_content '><a href="/contact" class="tree_item_name">Contact</a></span></li>
+<li id='sidebar_ul_252'><span class='tree_item_content '><a href="/feedback" class="tree_item_name">Feedback</a></span></li>
+</ul>
+</div>
+	
+			
+		</div><!--Container Ends Here-->
+		
+		<div id="stickyPush"></div>
+		
+	</div>
+
+	<div id="vipContent">
+	<a href="/vip" class="vipShow">You look like a VIP. Let&#039;s make it official. [Click Here]</a>	</div>
+	
+		
+	<div id="footer">
+	<div class="inner">
+		<div class="copyright">&copy; Cafe Rio. All Rights Reserved</div>
+				
+		<div id="footer_ul">
+			<ul>
+				<li><a href="#">Resources</a></li>
+				<li><a href="/blogs/press">Press</a></li>
+				<li><a href="/blogs/blog">Blog</a></li>
+			</ul>
+		</div>
+    </div>
+</div>
+	<!-- insert google analytics code here -->
+<!-- Start Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2924417-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Google Analytics -->
+<!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+	window.__insp = window.__insp || [];
+	__insp.push(['wid', 2135036805]);
+	(function() {
+		function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+		if (window.attachEvent){
+			window.attachEvent('onload', __ldinsp);
+		}else{
+			window.addEventListener('load', __ldinsp, false);
+		}
+	})();
+</script>
+<!-- End Inspectlet Embed Code -->
+
+<!-- Start Google Code for Remarketing Tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 998097268;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/998097268/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- End Google Code for Remarketing Tag -->
+<script type="text/javascript">
+
+	function trackOutboundLink(link, category, action) { 
+ 
+		try { 
+			_gaq.push(['_trackEvent', category , action]); 
+		} catch(err){}
+	 
+		setTimeout(function() {
+			document.location.href = link.href;
+		}, 100);
+	}
+
+</script>
+
+	
+</body>
+</html>

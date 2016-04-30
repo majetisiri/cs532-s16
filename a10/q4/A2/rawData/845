@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.profitconfidential.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+    <link type="text/css" rel="stylesheet" href="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/bootstrap/css/bootstrap.min.css">    
+    <link type="text/css" rel="stylesheet" href="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/bootstrap/css/bootstrap-theme.min.css">
+    <link type="text/css" rel="stylesheet" href="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/custom.min.css" /> 	  
+    <!-- Latest compiled and minified JavaScript -->    
+    <script src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/js/menu/ie-emulation-modes-warning.js"></script>	    
+    <script src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/js/jquery-1.11.3.js" type="text/javascript"></script>
+    <script src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Google Fonts -->
+    <link rel='stylesheet' id='font-awesome-cdn-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?ver=4.2.0' type='text/css' media='all' />   
+    <link href='https://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,500italic,700,400italic,900,900italic,700italic,100italic,100' rel='stylesheet' type='text/css'>
+    <!-- Google Fonts -->
+    
+
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	
+         <script type="text/javascript">
+            $(document).ready(function(){
+            		if(window.location.href.indexOf("/category/") > -1) {
+					    $('#iframe_ad_top').hide();
+					}
+					$(window).scroll(function(){
+					if($(window).scrollTop()>150) {
+					$("#header-sticky").slideDown().show();
+					}else {
+					$("#header-sticky").slideUp().hide('slow');
+					}
+					});
+					/***** Search Box ******/
+					if($(window).width() > 991) {
+					  var devise = '#desktop-search';
+					  var input_width = '200px';
+					  var input_height = '30px';
+					}else{
+					  var devise = '#mobile-search';
+					  var input_width = $("#header-mobile .container").width();	
+					  var input_height = '50px';
+					}
+					  var search2 = $(devise+' #s');					  				 					  
+					  if(search2.val() != '') {
+						  $(search2).animate({ width: input_width, height : input_height}, 400).addClass("search-bg-remove");
+						$(devise+' #searchsubmit').show('fast');						
+					  }
+					  
+					  $(search2).on('focus', function(){					 	
+						$(this).animate({ width: input_width, height : input_height}, 400).addClass("search-bg-remove");
+						$(devise+' #searchsubmit').show('fast');	
+						if($(devise+' #s').val() == '') {
+							$(devise+' #searchsubmit').addClass("close-search");	
+						}
+					  });		
+					  			  
+					  $(search2).on('blur', function(){
+						if(search2.val() == '') {
+						  $(search2).animate({width: '30px', height : input_height}, 400).removeClass("search-bg-remove").addClass("search-bg");	
+						  $(devise+' #searchsubmit').hide('fast').removeClass("close-search");			 
+						}
+					  });		
+					  $(search2).keyup(function(){
+						  if($(devise+' #s').val() == '') {
+						 	$(devise+' #searchsubmit').addClass("close-search");
+						  }else {
+							 $(devise+' #searchsubmit').removeClass("close-search");
+						  }
+						
+					  })				  
+					  $(devise+' #searchform').submit(function () {
+						var name = $(devise+' #s').val();				
+						if (name === '') {
+							return false;
+						}
+						});			  
+					  /***** Search Box End ******/
+				
+					/********* Navigation Code ********/
+					$(".menu-item-has-children").addClass("dropdown");
+					$( "li.dropdown" ).find("a:first").attr({
+					  "role" : "button",
+					  "data-toggle" : "dropdown"
+					}).addClass("parent-arrow");
+					
+					$(".navbar-toggle").click(function(){					
+						if($(".collapsed").html())	{													
+							$("#mb-nav").css({"display":"block","height":$(document).height()});
+							$("#menu_button").removeClass("fa fa-bars").addClass("fa fa-close");
+							//$("#header-mobile").css({"position":"absolute","top":$(document).scrollTop()});							
+							$("#header-mobile").css({"position":"fixed","top":0,"height":$(document).height()-$(document).scrollTop(),"overflow-y":"scroll"});								
+						}else {										
+							$("#mb-nav").fadeOut(400);
+							//$("#header-mobile").css({"position":"fixed","top":"0"});
+							$("#header-mobile").css({"position":"fixed","top":"0","height":"auto","overflow":"visible"});
+							$("#menu_button").removeClass().addClass("fa fa-bars");				
+						}
+					});
+					
+					/********* Navigation Code End ********/	
+																									
+                    if($('.entry-title').is(':empty'))
+                    {
+                        $('.article-index').hide();
+                        $('.entry-title').hide();
+                    }
+                    var heights = $("div.ymla-post-box").map(function ()
+                    {
+                        return $(this).height();
+                    }).get(),           
+                    maxHeight = Math.max.apply(null, heights) + 10;
+
+					/********** Discussion and Footer Code **********/
+                   if($(window).width() < 991){
+					    $('#disqus_comment_system').hide();
+                    	$('.discusstion-tab').click(function(){						
+                        $('#disqus_comment_system').slideToggle();
+                        $('.discusstion-tab').toggleClass('showHide');  
+                    	}).css({"cursor":"pointer"});
+						
+						$('#footer-slid').hide().css({"cursor":"pointer"});
+                    	$('.footer-tab').click(function(){						
+                        $('#footer-slid').slideToggle();
+                        $('.footer-tab').toggleClass('f-showHide');  
+                    	}).css({"cursor":"pointer"});												
+					}
+					/********** Discussion and Footer Code End **********/
+					/********** Sticky Code **********/
+					if($(window).width() > 991){
+					  var popular_section_height = 0;
+					  if($(".fixed-div2 ol li:lt(5) .popular-post-text").offset()){
+					$(".fixed-div2 ol li:lt(5) .popular-post-text").each(function() {
+					   popular_section_height += $(this).outerHeight(); 
+					});
+					  }else{
+					popular_section_height = $(".fixed-div2").height()-60;
+		
+					  }
+					$(".sidebar-1-stiky").css({"height": $(".fixed-div1").outerHeight()});
+					$(".sidebar-2-stiky").css({"height":popular_section_height + 80});	
+					var space = $(".left-sidebar-1-stiky").width() - 160;																					
+					var leftSidebarImageMargin = space/2;
+					$(window).scroll( function(){ 	
+						if($(".left-sidebar-1-stiky").offset()){
+						if($(window).scrollTop()>$(".left-sidebar-1-stiky").offset().top){
+							$(".fixed-div3").css({"position":"fixed", "top":"0","margin-left": leftSidebarImageMargin+"px"});
+						}else {
+						$(".fixed-div3").css({"position":"inherit","top":"auto","margin-left":"auto"});
+						}
+						if($(window).scrollTop() > $(".report-outer").offset().top - 600) {
+							$(".fixed-div3").css({"margin-left":"0","position":"relative","display":"block","top":$(".report-outer").offset().top - 600 - $(".left-sidebar-1-stiky").offset().top - 60});							
+						}else {
+						$(".fixed-div3").css({"display":"block"});
+						}
+						}
+						if($(".sidebar-1-stiky").offset()){				      
+							if($(window).scrollTop()>$(".sidebar-1-stiky").offset().top){		
+							  $(".fixed-div1").css({"position":"fixed", "top":"0","z-index":"1", "width": $(".sidebar-1-stiky").width()});
+							  $(".fixed-div2").css({"position":"fixed","display":"block", "top": $(".fixed-div1").height()+10});
+							}else if($(window).scrollTop()<$(".sidebar-1-stiky").offset().top) { 
+							  $(".fixed-div1").css({"position":"relative", "top":"auto","z-index":"1"});
+							  $(".fixed-div2").css({"position":"relative","display":"block", "top":"auto"});			
+							}
+						   if($(window).scrollTop()>$(".footer").offset().top - ($(".sidebar-1-stiky").outerHeight() + $(".sidebar-2-stiky").height())){
+							   //$(".fixed-div2").css({"display":"none"});						  
+							   $(".fixed-div1").css({"position":"relative","display":"block","top":$(".footer").offset().top - $(".sidebar-1-stiky").outerHeight() - $(".sidebar-2-stiky").height() - $(".sidebar-1-stiky").offset().top});
+							   
+							   
+							   $(".fixed-div2").css({"position":"relative","display":"block","top":$(".footer").offset().top - $(".sidebar-2-stiky").height() - $(".sidebar-2-stiky").offset().top + 15});
+							}
+						}
+						
+					})
+					}
+					/********** Sticky End **********/
+				    $('iframe a').attr('target', '_blank');	
+					for(var i = 1; i <= $(".tptn_posts_daily  .popular-post li").size(); i++){						
+					$(".tptn_posts_daily  .popular-post li:nth-child("+i+") .popular-post-number" ).append(i);
+					}
+					
+					$('.fa-times-circle-o').click(function(){
+							$('#signup-box').animate({bottom:"-142px", opacity: 0}, 2000 );
+							setCookie('bspopup','1');
+						});	
+						
+						if(!checkCookie('bspopup')) {
+							//setTimeout(showbottomsignup,20000);
+							setCookie('bspopup','1');
+						}
+            });
+			/* Right Bottom box */
+			function showbottomsignup() {
+				if($(window).width() > 768) {
+					$('#signup-box').animate({bottom:"0px", opacity: 1}, 2000 ).css('position','fixed');
+				}
+			}						
+			function setCookie(cname, cvalue) {
+				document.cookie = cname + "=" + cvalue;
+			}
+			
+			function getCookie(cname) {
+
+				var name = cname + "=";
+				var ca = document.cookie.split(';');
+				for(var i=0; i<ca.length; i++) {
+					var c = ca[i];
+					while (c.charAt(0)==' ') c = c.substring(1);
+					if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+				}
+				return "";
+			}
+			
+			function checkCookie() {
+				var pcookie = getCookie("bspopup");
+				if (pcookie != "") {
+					return true;
+				} else {
+					return false;
+				}
+			}						
+			/* Right Bottom box End */
+           function iframeLoaded(idValue) 
+           {
+                var iFrameID        = document.getElementById(idValue);
+                var custom_height   =   0;
+                if(iFrameID && idValue.indexOf('iframe_ad_') != -1 && $('#'+idValue).length > 0)
+                {
+                    iFrameID.height = "";
+                    if(idValue == "iframe_ad_content_bottom_ad")
+                    {
+                       custom_height    =   '56'; 
+                    }
+                    else if(idValue != "iframe_ad_content_bottom_ad")
+                    {
+                        custom_height   = iFrameID.contentWindow.document.body.scrollHeight;
+                    }
+                    
+                    iFrameID.height = custom_height + "px";
+                    if(idValue  ==  'iframe_ad_top')
+                    {
+                       if($('#bottom_advertisement_section').length > 0)
+                        {
+                            var bottom_section_value =   $('#bottom_advertisement_section').html();
+                            if(bottom_section_value.indexOf(',') >  0)
+                            {
+                                $('#bottom_advertisement_section').html('')
+                                var bottom_section_array =   bottom_section_value.split(',');
+                                var request_type         =   bottom_section_array[0].trim();
+                                var request_post_id      =   bottom_section_array[1].trim();
+                                var exclude_post_id      =   $('#'+idValue).contents().find('#post_id_shown').val()
+                                var replace_html_content =   '<iframe onload="iframeLoaded(\'iframe_ad_bottom\')" src="http://www.profitconfidential.com/advertisement-in-iframe/?type_of_advertisement='+request_type+'&advertisment_id='+request_post_id+'&exclude_post_id='+exclude_post_id+'" style="width:100%;border:none;" id="iframe_ad_bottom" scrolling="no"></iframe>';
+                                $('#bottom_advertisement_section').append(replace_html_content);
+                                $('#bottom_advertisement_section').show();
+                            }
+                        }
+                    }
+                }     
+            }  
+        </script>           
+        <script src='https://www.google.com/recaptcha/api.js'></script>   
+
+
+        
+      <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>TSLA Stock: Analyst Reveals the No. 1 Problem with Tesla Motors Inc</title>
+<meta name="news_keywords" content="tesla, tesla motors, stock, tsla stock, tesla stock, nasdaq:tsla, tesla model 3, tesla adam hull, elon musk tesla, technology" />
+<link rel="original-source" href="http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/" />
+<meta name="description" content="Bad news hits TSLA stock as Berenberg analyst downgrades Tesla Motors Inc (NASDAQ:TSLA) on the back of three headwinds."/>
+<link rel="canonical" href="http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="TSLA Stock: Analyst Reveals the No. 1 Problem with Tesla Motors Inc" />
+<meta property="og:description" content="Bad news hits TSLA stock as Berenberg analyst downgrades Tesla Motors Inc (NASDAQ:TSLA) on the back of three headwinds." />
+<meta property="og:url" content="http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/" />
+<meta property="og:site_name" content="Stock Market Advice | Investment Newsletters - Profit Confidential" />
+<meta property="article:tag" content="Stock" />
+<meta property="article:tag" content="Technology" />
+<meta property="article:tag" content="Tesla" />
+<meta property="article:tag" content="Tesla Motors" />
+<meta property="article:tag" content="Tesla stock" />
+<meta property="article:tag" content="TSLA Stock" />
+<meta property="article:section" content="Stock" />
+<meta property="article:published_time" content="2016-02-05T12:34:32+00:00" />
+<meta property="og:image" content="http://www.profitconfidential.com/wp-content/uploads/2016/02/TSLA-Stock.jpg" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Stock Market Advice | Investment Newsletters - Profit Confidential &raquo; Feed" href="http://www.profitconfidential.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Stock Market Advice | Investment Newsletters - Profit Confidential &raquo; Comments Feed" href="http://www.profitconfidential.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Stock Market Advice | Investment Newsletters - Profit Confidential &raquo; TSLA Stock: Analyst Reveals the No. 1 Problem with Tesla Motors Inc Comments Feed" href="http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/feed/" />
+<!-- This site is powered by Shareaholic - https://shareaholic.com -->
+<script type='text/javascript' data-cfasync='false'>
+  //<![CDATA[
+    _SHR_SETTINGS = {"endpoints":{"local_recs_url":"http:\/\/www.profitconfidential.com\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","share_counts_url":"http:\/\/www.profitconfidential.com\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"}};
+  //]]>
+</script>
+<script type='text/javascript'
+        src='//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js'
+        data-shr-siteid='4aa01216db3238035d6792667fb57764'
+        data-cfasync='false'
+        async='async' >
+</script>
+
+<!-- Shareaholic Content Tags -->
+<meta name='shareaholic:site_name' content='Stock Market Advice | Investment Newsletters - Profit Confidential' />
+<meta name='shareaholic:language' content='en-US' />
+<meta name='shareaholic:url' content='http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/' />
+<meta name='shareaholic:keywords' content='stock, technology, tesla, tesla motors, tesla stock, tsla stock' />
+<meta name='shareaholic:article_published_time' content='2016-02-05T17:34:32+00:00' />
+<meta name='shareaholic:article_modified_time' content='2016-02-15T13:58:01+00:00' />
+<meta name='shareaholic:shareable_page' content='true' />
+<meta name='shareaholic:article_author_name' content='Palwasha Saaim, B.Sc' />
+<meta name='shareaholic:site_id' content='4aa01216db3238035d6792667fb57764' />
+<meta name='shareaholic:wp_version' content='7.6.2.3' />
+<meta name='shareaholic:image' content='http://www.profitconfidential.com/wp-content/uploads/2016/02/TSLA-Stock.jpg' />
+<!-- Shareaholic Content Tags End -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.profitconfidential.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ews-home-page=select2-css-css'  href='//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='avatar-manager-css'  href='http://www.profitconfidential.com/wp-content/plugins/avatar-manager/avatar-manager.min.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.profitconfidential.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.profitconfidential.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.63' type='text/css' media='all' />
+<link rel='stylesheet' id='spu-public-css-css'  href='http://www.profitconfidential.com/wp-content/plugins/popups/public/assets/css/public.css?ver=1.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.profitconfidential.com/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/avatar-manager/avatar-manager.min.js?ver=1.2.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.profitconfidential.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.profitconfidential.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<link rel='shortlink' href='http://www.profitconfidential.com/?p=56287' />
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://www.profitconfidential.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+
+<script>
+dataLayer = [{
+'author': 'Palwasha Saaim, B.Sc',
+'publishDate': 'February 5, 2016',
+}];
+
+</script>  
+
+      	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-2043694027234009",
+            enable_page_level_ads: true
+          });
+        </script>
+
+<!--BEGIN FIRSTIMPRESSION TAG -->
+<script data-cfasync='false' type='text/javascript'>
+	if (window.location.hash.indexOf('apdAdmin')!= -1){if(typeof(Storage) !== 'undefined' && localStorage !== null) {localStorage.apdAdmin = 1;}}
+	var adminMode = ((typeof(Storage) == 'undefined'  || localStorage === null) || (localStorage.apdAdmin == 1));
+	window.apd_options = {
+	 "accelerate": 0,
+	 "dynamicElements": 1,
+	 "websiteId": 5612
+	};
+	(function() {
+		var apd = document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+		if(adminMode){
+			apd.src = 'https://ecdn.firstimpression.io/apd.js?id=' + apd_options.websiteId;
+		}
+		else{
+			apd.src = (('https:' == document.location.protocol || window.parent.location != window.location) ? 'https://' : 'http://') + 'ecdn.firstimpression.io/apd_client.js';
+		}
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(apd, s);
+	})();
+</script>
+<!-- END FIRSTIMPRESSION TAG -->
+
+
+<!-- Exit Intel Snippet -->
+	<script type="text/javascript">(function(d) { var e = d.createElement('script'); e.src = d.location.protocol+'//get.exitintel.com/load.js?exitintelAccount=276'; e.async = true; e.setAttribute("data-cfasync","false"); d.getElementsByTagName("head")[0].appendChild(e); }(document));</script>
+<!-- Exit Intel Snippet -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '901292233234596');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=901292233234596&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<!-- Double Click Code -->
+
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/27185028/PC_RightSideBar', [290, 265], 'div-gpt-ad-1452086099462-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<!-- Double Click Code -->
+
+
+
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/27185028/PC_Middle_Post', [[336, 280], [300, 250], [290, 265]], 'div-gpt-ad-1452514076325-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+       
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TW99HC"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TW99HC');</script>
+        <!-- End Google Tag Manager -->
+        
+
+</head>
+
+<body class="single single-post postid-56287 single-format-standard">
+<div id="page" class="hfeed site">
+<div class="full-wraper">
+<div class="main-fix-wrapper">
+		<div id="header" class="hidden-sm hidden-xs">
+        	<div class="container logo-banner-div">
+  <div class="col-md-12 col-lg-12">
+    <div class="col-md-3 col-lg-3 col-sm-4 logo"><a href="http://www.profitconfidential.com"><img src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/logo.png" alt="" width="298" height="56" /></a></div>
+    <div class="col-md-6 col-lg-6 col-sm-4 header-ad-box"> <!--<a href="http://www.earnthenecklace.com/dan-bilzerian-7-mind-blowing-facts-about-this-internet-sensation/?sb=PCSITE" target="_blank"><img src="http://www.profitconfidential.com/wp-content/themes/PC-child-new/images/ETN_Banner_DanBIlzerman_485x70.png"/></a>-->
+    <span style="text-align:center;display:block; overflow:hidden; width:100%;color: #999;font-family: arial;font-size: 9px;padding-bottom: 4px;padding-left: 2px;text-transform: uppercase;">Advertisement</span>
+    <a href="http://www.lombardifinancial.com/reports/LombardisSpecialSituations/index_01222016.php?dept=PC&coffer=1&sb=PCA27(56287)" target="_blank"><img src="http://www.profitconfidential.com/wp-content/themes/PC-child-new/images/PC_banners_LS_590x72_nobutton_03.png" alt="" style="max-width:100%"/></a>    
+     
+   
+
+
+    </div>
+    <div class="col-md-3 col-lg-3 col-sm-4 header-right">
+      
+        <div class="contact-toll-free">
+          To Call Us:<br/>
+          <a href="tel:1-866-744-3579">1-866-744-3579</a>
+        </div>
+      
+      
+      <ul class="follow-us-box">
+        <li><a>FOLLOW US</a></li>
+        <li class="tw"><a href="https://twitter.com/PConfidential" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li class="fb"><a href="https://www.facebook.com/profitconfidential" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li class="gp"><a href="https://plus.google.com/b/108460742994246284185/+ProfitconfidentialLP" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        <li class="rs"><a href="http://www.profitconfidential.com/feed/"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="main-navigation-outer">
+  <div class="container">
+    <div class="col-lg-10 col-md-10">
+      <nav class="navbar navbar-default hidden-sm">
+        <div class="row">
+          <div class="navbar-collapse collapse">
+            <ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-44967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44967"><a href="/">Home</a></li>
+<li id="menu-item-44970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44970"><a href="#">Editors</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-44971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44971"><a href="/author/michael-lombardi/">Michael Lombardi</a></li>
+	<li id="menu-item-44972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44972"><a href="/author/mitchell-clark/">Mitchell Clark</a></li>
+	<li id="menu-item-44973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44973"><a href="/author/george-leong/">George Leong</a></li>
+	<li id="menu-item-54759" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54759"><a href="/author/robertappel/">Robert Appel</a></li>
+	<li id="menu-item-45911" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45911"><a href="/author/robertbailleul/">Robert Baillieul</a></li>
+	<li id="menu-item-47828" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47828"><a href="/author/alessandro/">Alessandro Bruno</a></li>
+	<li id="menu-item-44974" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44974"><a href="/author/john-whitefoot/">John Whitefoot</a></li>
+	<li id="menu-item-44975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44975"><a href="/author/moe-zulfiqar/">Moe Zulfiqar</a></li>
+	<li id="menu-item-44977" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44977"><a href="/author/jingpan/">Jing Pan</a></li>
+	<li id="menu-item-45873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45873"><a href="/author/gauraviyer/">Gaurav S. Iyer</a></li>
+	<li id="menu-item-48613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48613"><a href="/author/palwasha-saaim/">Palwasha Saaim</a></li>
+	<li id="menu-item-56672" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56672"><a href="/author/Mourad-Haroutunian/">Mourad Haroutunian</a></li>
+	<li id="menu-item-56673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56673"><a href="/author/Jeff-Russell">Jeff Russell</a></li>
+</ul>
+</li>
+<li id="menu-item-44978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44978"><a href="#">Company</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-44979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44979"><a href="http://www.profitconfidential.com/about/">About Us</a></li>
+	<li id="menu-item-44980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44980"><a href="http://www.profitconfidential.com/privacy/">Privacy</a></li>
+	<li id="menu-item-44981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44981"><a href="http://www.profitconfidential.com/disclaimer/">Disclaimer</a></li>
+	<li id="menu-item-44982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44982"><a href="http://www.profitconfidential.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-44983" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44983"><a href="/whitelist-profit-confidential/">Whitelist</a></li>
+</ul>
+</li>
+<li id="menu-item-48387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48387"><a href="#">Topics</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-48388" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48388"><a>Commodities</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-48559" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48559"><a href="/gold/">Gold</a></li>
+		<li id="menu-item-48390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48390"><a href="http://www.profitconfidential.com/silver/">Silver</a></li>
+		<li id="menu-item-48391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48391"><a href="/tag/platinum-2/">Platinum</a></li>
+		<li id="menu-item-48392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48392"><a href="http://www.profitconfidential.com/copper/">Copper</a></li>
+		<li id="menu-item-48393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48393"><a href="http://www.profitconfidential.com/oil/">Oil</a></li>
+	</ul>
+</li>
+	<li id="menu-item-48394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48394"><a>Stocks</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-48395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48395"><a href="http://www.profitconfidential.com/penny-stocks/">Penny Stocks</a></li>
+		<li id="menu-item-48396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48396"><a href="http://www.profitconfidential.com/dividend-paying-stocks/">Dividend Stocks</a></li>
+		<li id="menu-item-48397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48397"><a href="http://www.profitconfidential.com/technology-stocks/">Technology Stocks</a></li>
+		<li id="menu-item-48398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48398"><a href="http://www.profitconfidential.com/biotechnology-stocks/">Biotech Stocks</a></li>
+		<li id="menu-item-48399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48399"><a href="/tag/energy-stocks/">Energy Stocks</a></li>
+	</ul>
+</li>
+	<li id="menu-item-48400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48400"><a>U. S.</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-48401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48401"><a href="http://www.profitconfidential.com/u-s-economy/">U.S. Economy</a></li>
+		<li id="menu-item-48402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48402"><a href="http://www.profitconfidential.com/u-s-dollar/">U.S. Dollar</a></li>
+		<li id="menu-item-48403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48403"><a href="http://www.profitconfidential.com/federal-reserve/">Federal Reserve</a></li>
+	</ul>
+</li>
+	<li id="menu-item-50327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50327"><a href="http://www.profitconfidential.com/stock-market/">Stock Market</a></li>
+	<li id="menu-item-48405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48405"><a href="http://www.profitconfidential.com/ipo/">IPO</a></li>
+	<li id="menu-item-48406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48406"><a href="/tag/investors/">Investors</a></li>
+	<li id="menu-item-48408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48408"><a href="http://www.profitconfidential.com/china/">China</a></li>
+	<li id="menu-item-48410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48410"><a href="http://www.profitconfidential.com/eurozone/">Eurozone</a></li>
+	<li id="menu-item-48411" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48411"><a href="/tag/politics/">Politics</a></li>
+	<li id="menu-item-48412" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48412"><a href="/tag/2016/">2016 Outlook</a></li>
+</ul>
+</li>
+</ul>          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="col-lg-2 col-md-2" id="desktop-search"> <form role="search" method="get" id="searchform" class="searchform" action="http://www.profitconfidential.com/" >
+	<div><input type="text" placeholder="Search" value="" name="s" id="s" class="search-bg" autocomplete="off" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form> </div>
+  </div>
+  <!-- .container --> 
+</div>
+                
+        </div><!-- #header -->
+        
+        <div id="header-mobile" class="hidden-md hidden-lg">  
+        	<div class="container">
+            		<div class="row">
+                    <div class="col-md-12">
+                        <div class="col-sm-3 col-xs-1 mobile-navigation">
+                        	<div class="navbar-header mobile-nav-button">                           
+                              <button id="button" onclick="showhide()" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <i id="menu_button" class="fa fa-bars"></i>
+                              </button>
+                            </div>                                                  
+                        </div><!-- mobile-navigation -->
+                        <div id="mb-nav" style="display:none;" >
+                        	<nav class="navbar" id="MobileNavMenu" >                            
+                              <div class="container">                           
+                                <div id="navbar" class="collapse navbar-collapse">                               
+                                  <ul id="menu-main-menu" class="navbar-nav-mobile nav navbar-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44967"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44970"><a href="#">Editors</a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44971"><a href="/author/michael-lombardi/">Michael Lombardi</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44972"><a href="/author/mitchell-clark/">Mitchell Clark</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44973"><a href="/author/george-leong/">George Leong</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54759"><a href="/author/robertappel/">Robert Appel</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45911"><a href="/author/robertbailleul/">Robert Baillieul</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47828"><a href="/author/alessandro/">Alessandro Bruno</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44974"><a href="/author/john-whitefoot/">John Whitefoot</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44975"><a href="/author/moe-zulfiqar/">Moe Zulfiqar</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44977"><a href="/author/jingpan/">Jing Pan</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45873"><a href="/author/gauraviyer/">Gaurav S. Iyer</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48613"><a href="/author/palwasha-saaim/">Palwasha Saaim</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56672"><a href="/author/Mourad-Haroutunian/">Mourad Haroutunian</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56673"><a href="/author/Jeff-Russell">Jeff Russell</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44978"><a href="#">Company</a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44979"><a href="http://www.profitconfidential.com/about/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44980"><a href="http://www.profitconfidential.com/privacy/">Privacy</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44981"><a href="http://www.profitconfidential.com/disclaimer/">Disclaimer</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44982"><a href="http://www.profitconfidential.com/contact-us/">Contact Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44983"><a href="/whitelist-profit-confidential/">Whitelist</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48387"><a href="#">Topics</a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48388"><a>Commodities</a>
+	<ul class="dropdown-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48559"><a href="/gold/">Gold</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48390"><a href="http://www.profitconfidential.com/silver/">Silver</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48391"><a href="/tag/platinum-2/">Platinum</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48392"><a href="http://www.profitconfidential.com/copper/">Copper</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48393"><a href="http://www.profitconfidential.com/oil/">Oil</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48394"><a>Stocks</a>
+	<ul class="dropdown-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48395"><a href="http://www.profitconfidential.com/penny-stocks/">Penny Stocks</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48396"><a href="http://www.profitconfidential.com/dividend-paying-stocks/">Dividend Stocks</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48397"><a href="http://www.profitconfidential.com/technology-stocks/">Technology Stocks</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48398"><a href="http://www.profitconfidential.com/biotechnology-stocks/">Biotech Stocks</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48399"><a href="/tag/energy-stocks/">Energy Stocks</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48400"><a>U. S.</a>
+	<ul class="dropdown-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48401"><a href="http://www.profitconfidential.com/u-s-economy/">U.S. Economy</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48402"><a href="http://www.profitconfidential.com/u-s-dollar/">U.S. Dollar</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48403"><a href="http://www.profitconfidential.com/federal-reserve/">Federal Reserve</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50327"><a href="http://www.profitconfidential.com/stock-market/">Stock Market</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48405"><a href="http://www.profitconfidential.com/ipo/">IPO</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48406"><a href="/tag/investors/">Investors</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48408"><a href="http://www.profitconfidential.com/china/">China</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48410"><a href="http://www.profitconfidential.com/eurozone/">Eurozone</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48411"><a href="/tag/politics/">Politics</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48412"><a href="/tag/2016/">2016 Outlook</a></li>
+</ul>
+</li>
+</ul>                                </div><!-- /.nav-collapse -->
+                              </div><!-- /.container -->
+                        	</nav><!-- /.navbar --> 	
+                        </div>  
+                        <div class="col-sm-6 col-xs-10 logo"><a href="http://www.profitconfidential.com"><img src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/pc-logo-mobile.png" alt="" /></a></div>
+                        <div class="col-sm-3 col-xs-1 search" id="mobile-search"><form role="search" method="get" id="searchform" class="searchform" action="http://www.profitconfidential.com/" >
+	<div><input type="text" placeholder="Search" value="" name="s" id="s" class="search-bg" autocomplete="off" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form></div>
+                    </div> 
+                    </div><!-- row -->                                
+            </div>       	
+        </div><!-- #header-mobile -->  
+        
+        <div id="header-sticky" class="hidden-sm hidden-xs">
+        	<div class="container">
+        <div class="col-lg-2 col-md-2 col-sm-4 logo">
+        	<a href="http://www.profitconfidential.com"><img src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/logo-sticky.png" alt="" width="125" /></a>
+        </div>
+    
+        <div class="col-lg-7 col-md-5 col-sm-4 navigation-s">
+            <div class="main-navigation-outer">
+              <div class="container">
+                  <nav class="navbar navbar-default hidden-sm">
+                      <div class="navbar-collapse collapse">
+                        <ul id="menu-main-menu" class="nav navbar-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44967"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44970"><a href="#">Editors</a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44971"><a href="/author/michael-lombardi/">Michael Lombardi</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44972"><a href="/author/mitchell-clark/">Mitchell Clark</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44973"><a href="/author/george-leong/">George Leong</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54759"><a href="/author/robertappel/">Robert Appel</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45911"><a href="/author/robertbailleul/">Robert Baillieul</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47828"><a href="/author/alessandro/">Alessandro Bruno</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44974"><a href="/author/john-whitefoot/">John Whitefoot</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44975"><a href="/author/moe-zulfiqar/">Moe Zulfiqar</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44977"><a href="/author/jingpan/">Jing Pan</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45873"><a href="/author/gauraviyer/">Gaurav S. Iyer</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48613"><a href="/author/palwasha-saaim/">Palwasha Saaim</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56672"><a href="/author/Mourad-Haroutunian/">Mourad Haroutunian</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56673"><a href="/author/Jeff-Russell">Jeff Russell</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44978"><a href="#">Company</a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44979"><a href="http://www.profitconfidential.com/about/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44980"><a href="http://www.profitconfidential.com/privacy/">Privacy</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44981"><a href="http://www.profitconfidential.com/disclaimer/">Disclaimer</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44982"><a href="http://www.profitconfidential.com/contact-us/">Contact Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44983"><a href="/whitelist-profit-confidential/">Whitelist</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48387"><a href="#">Topics</a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48388"><a>Commodities</a>
+	<ul class="dropdown-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48559"><a href="/gold/">Gold</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48390"><a href="http://www.profitconfidential.com/silver/">Silver</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48391"><a href="/tag/platinum-2/">Platinum</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48392"><a href="http://www.profitconfidential.com/copper/">Copper</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48393"><a href="http://www.profitconfidential.com/oil/">Oil</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48394"><a>Stocks</a>
+	<ul class="dropdown-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48395"><a href="http://www.profitconfidential.com/penny-stocks/">Penny Stocks</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48396"><a href="http://www.profitconfidential.com/dividend-paying-stocks/">Dividend Stocks</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48397"><a href="http://www.profitconfidential.com/technology-stocks/">Technology Stocks</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48398"><a href="http://www.profitconfidential.com/biotechnology-stocks/">Biotech Stocks</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48399"><a href="/tag/energy-stocks/">Energy Stocks</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48400"><a>U. S.</a>
+	<ul class="dropdown-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48401"><a href="http://www.profitconfidential.com/u-s-economy/">U.S. Economy</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48402"><a href="http://www.profitconfidential.com/u-s-dollar/">U.S. Dollar</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48403"><a href="http://www.profitconfidential.com/federal-reserve/">Federal Reserve</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50327"><a href="http://www.profitconfidential.com/stock-market/">Stock Market</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48405"><a href="http://www.profitconfidential.com/ipo/">IPO</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48406"><a href="/tag/investors/">Investors</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48408"><a href="http://www.profitconfidential.com/china/">China</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48410"><a href="http://www.profitconfidential.com/eurozone/">Eurozone</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48411"><a href="/tag/politics/">Politics</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48412"><a href="/tag/2016/">2016 Outlook</a></li>
+</ul>
+</li>
+</ul>                      </div>
+                  </nav>
+              </div>
+            </div>
+        </div>    
+    
+        <div class="col-lg-3 col-md-4 col-sm-4 header-right hidden-md">
+          <ul class="follow-us-box">
+            <li><a>FOLLOW US</a></li>
+            <li class="tw"><a href="https://twitter.com/PConfidential" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li class="fb"><a href="https://www.facebook.com/profitconfidential" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="gp"><a href="https://plus.google.com/b/108460742994246284185/+ProfitconfidentialLP" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            <li class="rs"><a href="http://www.profitconfidential.com/feed/"><i class="fa fa-rss"></i></a></li>
+          </ul>
+        </div>        
+</div>
+
+   
+        </div><!-- #header-sticky -->  
+              		
+		<div id="content" class="site-content">             
+        <div class="container">
+        <div class="innerpage-ad-box hidden-md hidden-lg">
+        	<a href="http://www.lombardifinancial.com/reports/AutomatedIncome/index_11262014.php?dept=PC&amp;sb=PCA7" target="_blank" rel="nofollow"><img class="aligncenter wp-image-54389 size-full" src="http://www.profitconfidential.com/wp-content/uploads/2015/12/PC_banners_Dec22_590x72_PI_05.png" alt="$10 Retirement Plans" width="590" height="72" /></a><input type='hidden' value='54390' id='post_id_shown' />        	
+        </div>   
+        <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><!-- **************** Start: This is the section which contains schema information **************** -->
+  <main style='display:none' itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <span style='display:none' itemprop="url">
+      http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/    </span>
+
+    <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/"/>
+    
+    <span style='display:none' itemprop="headline">
+       TSLA Stock: Analyst Reveals the No. 1 Problem with Tesla Motors Inc    </span>
+        <!--span style='display:none' itemprop="wordCount">
+          </span-->
+    <span style='display:none' itemprop="author">
+      Palwasha Saaim, B.Sc    </span>
+    <span style='display:none' itemprop="copyrightHolder">
+      Profit Confidential
+    </span>
+    <span style='display:none' itemprop="datePublished">
+      2016-02-05T12:34:32Z    </span>
+    <span style='display:none' itemprop="dateModified">
+      2016-02-05 12:34:32    </span>
+            <span style='display:none' itemprop="keywords">
+          Tesla        </span>
+          <span style='display:none' itemprop="keywords">
+          Tesla Motors        </span>
+          <span style='display:none' itemprop="keywords">
+          stock        </span>
+          <span style='display:none' itemprop="keywords">
+          TSLA stock        </span>
+          <span style='display:none' itemprop="keywords">
+          Tesla stock        </span>
+          <span style='display:none' itemprop="keywords">
+          NASDAQ:TSLA        </span>
+          <span style='display:none' itemprop="keywords">
+          Tesla Model 3        </span>
+          <span style='display:none' itemprop="keywords">
+          Tesla analyst downgrade        </span>
+          <span style='display:none' itemprop="keywords">
+          TSLA stock downgrade        </span>
+          <span style='display:none' itemprop="keywords">
+          Tesla Adam Hull        </span>
+          <span style='display:none' itemprop="keywords">
+          Adam Hull Berenberg        </span>
+          <span style='display:none' itemprop="keywords">
+          Elon Musk Tesla        </span>
+   
+        <span style='display:none' itemprop="description">
+          Bad news hits TSLA stock as Berenberg analyst downgrades Tesla Motors Inc (NASDAQ:TSLA) on the back of three headwinds.        </span>
+   
+  <!--span style='display:none' itemprop="articleBody">
+      </span-->
+  <span style='display:none' itemprop="articleSection">
+    Stock  </span>
+  <span style='display:none' itemprop="thumbnailUrl">
+    http://www.profitconfidential.com/wp-content/uploads/2016/02/TSLA-Stock.jpg  </span>
+  <span style='display:none' itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+    <img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/TSLA-Stock.jpg"/>
+    <meta itemprop="url" content="http://www.profitconfidential.com/wp-content/uploads/2016/02/TSLA-Stock.jpg">
+    <meta itemprop="width" content="700">
+    <meta itemprop="height" content="470">    
+  </span>
+
+  <span style='display:none' itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+      <img src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/logo.png"/>
+      <meta itemprop="url" content="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/logo.png">
+      <meta itemprop="width" content="325">
+      <meta itemprop="height" content="56">
+    </span>
+    <meta itemprop="name" content="Profit Confidential">
+  </span>
+
+
+
+</main>
+<!-- **************** End: This is the section which contains schema information **************** -->
+<div class="content-area">
+  <main id="main" class="site-main" role="main">
+    <div id="primary" class="col-lg-9 col-md-8 col-sm-12 left-side" style="position:relative;">
+      <div class="col-lg-3 hidden-md hidden-sm hidden-xs single-left-box">
+        <div class="left-sidebar-author-box">
+          <p class="author-meta">By <span>Palwasha Saaim, B.Sc</span></p>
+          <p class="author-meta">Published: <span>February 5, 2016</span></p>
+          <div class="about-the-author-title">About the Author</div>
+          <div class="left-sidebar-author-box-content"> 
+          	<img src="http://www.profitconfidential.com/wp-content/uploads/2015/10/Palwasha_300x300-96x96.jpg" class="img-circle" alt="">
+            <p> <strong>Palwasha Saaim, B.Sc</strong><br/>
+              <!--<br/>-->
+              <a href="http://www.profitconfidential.com/author/palwasha-saaim/">Read Full Bio</a> </p>
+            <ul>
+                                <li><a href="http://www.profitconfidential.com/forex/canadian-dollar-forecast-downside-ahead-for-cad-to-usd-exchange-rate/">Canadian Dollar Forecast: Downside Ahead for CAD to USD Exchange Rate</a></li>
+                                <li><a href="http://www.profitconfidential.com/gold/gold-prices-this-is-why-billionaire-mark-cuban-is-betting-on-gold/">Gold Prices: This Is Why Billionaire Mark Cuban is Betting on Gold</a></li>
+                                <li><a href="http://www.profitconfidential.com/stock/square-stock-this-could-be-huge-for-square/">Square Stock: This Could Be Huge for Square Inc</a></li>
+                          </ul>
+          </div>
+        </div>
+        <!-- left-sidebar-author-box -->
+        <div class="left-sideba-ad-banner left-sidebar-1-stiky"> 
+        	<div class="fixed-div3">
+        	<!--<img width="160" height="600" src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/inner-left-banner.jpg" /> -->
+                        </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-12 col-sm-12 single-post-content">
+        <!--div class="premium-content-box premium-content-top-box"> <span class="premium-content-category">Premium CONTENT</span>
+          <div class="premium-content-title"><a href="#">The 7 Biggest (And Most Profitable) Tech Stocks for 2015</a></div>
+          <div class="premium-content-text">
+            <p><img src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/120x84-17.jpg" />Michael Robinson's 2015 Tech Investor's Forecast has just been released, giving you the strategies, tactics and 7 stock picks that'll ensure you cash in on the greatest commercialization era Silicon Valley has ever seen. <br/>
+              <a href="#">Get details on your free copy here. </a></p>
+          </div>
+        </div-->
+        <iframe onload="iframeLoaded('iframe_ad_top')" src="http://www.profitconfidential.com/advertisement-in-iframe/?type_of_advertisement=multiple&advertisment_id=5630&current_element_id=56287" style="width:100%;border:none;" id="iframe_ad_top" scrolling="no"></iframe>
+        
+<article id="post-56287" class="post-56287 post type-post status-publish format-standard hentry category-stock tag-stock tag-technology tag-tesla tag-tesla-motors tag-tesla-stock tag-tsla-stock">
+	
+	<header class="entry-header">
+		
+		<h1 class="entry-title">TSLA Stock: Analyst Reveals the No. 1 Problem with Tesla Motors Inc</h1>	</header><!-- .entry-header -->
+	<div class="innerpage-meta-div hidden-lg">
+    By <span>Palwasha Saaim, B.Sc</span> Published : <span>February 5, 2016</span>
+    </div>    
+	<div class="entry-content">
+    
+	    
+		<div class='shareaholic-canvas' data-app-id='21226838' data-app='share_buttons' data-title='TSLA Stock: Analyst Reveals the No. 1 Problem with Tesla Motors Inc' data-link='http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/' data-summary=''></div><h2><b><img class="alignleft wp-image-56288" src="http://www.profitconfidential.com/wp-content/uploads/2016/02/TSLA-Stock.jpg" alt=" TSLA Stock" width="265" height="177" />More Downside in TSLA Stock: Analyst</b></h2>
+<p><b>Tesla Motors Inc </b>(NASDAQ:<a href=" http://www.profitconfidential.com/tag/tsla-stock/" onClick="ga('interlinking', 'frompage(56287)')" >TSLA</a>) had a good run in 2015, but this year hasn’t been too welcoming. TSLA stock is continuing its rout on the back of fresh downgrades. The latest of these downgrades will likely have the bulls worried.</p>
+<p>Adam Hull, an analyst with the European investment bank <b>Berenberg</b>, sees more downside to Tesla stock. He mentions three headwinds that back the reasoning behind his analysis. He’s giving the stock a price target of $165.00, nearly five percent lower than Wednesday’s closing price. (Source: “<a href="http://www.streetinsider.com/Analyst+Comments/Tesla+%28TSLA%29+Initated+With+Sell+Rating+at+Berenberg/11273840.html" target="_blank" rel="nofollow">Tesla (TSLA) Initiated With &#8216;Sell&#8217; Rating at Berenberg</a>,” <i>Street Insider</i>, February 3, 2016.)</p>
+<p>Hull is citing low margins as the reason for his downgrade. According to the analyst, a luxury car manufacturer should be able to achieve higher gross margins. The analyst notes that this is not the case at Tesla.</p>
+<p>Excluding government subsidies, Hull estimates Tesla’s gross margins somewhere short of 20%. In contrast, luxury carmakers like <b>BMW</b> and <b>Mercedes</b> boast much higher margins at more than 35%.</p>
+<p>Hull appreciates Tesla’s massive growth since its founding days. But he reiterates that low margins make its future hazy.</p>
+<p>“While the Model 3 range, presented in late March 2016 and to be delivered from Q4 2017, should be a strong product, we think margins will disappoint,” says Hull.</p>
+<p>He further adds, “At this price, we think Tesla is now a play on Model 3’s potential profits—we forecast a gross margin of 16% in 2020, well below the 20% consensus.” (Source: Ibid.)</p>
+<p>Margins aren’t the only problem for TSLA stock. The analyst notes that savings on falling battery costs and other cost efficiencies might give some support to margins. But he adds that these three serious headwinds will offset this support:</p>
+<ol>
+<li>Strong U.S. dollar with a direct negative effect of 500bp</li>
+<li>Revocation of Tesla’s U.S. federal incentive of $7,500 per car before 2019</li>
+<li>Low oil prices, making adoption of electric vehicles less attractive</li>
+</ol>
+<p>&nbsp;</p>
+<p>Hull predicts that even in 2020, revenue from the “Model 3” will likely be only $10.0 billion. He believes that the market for electric vehicles (EVs) will likely see positive returns beyond 2025. Until then, even Tesla’s competitors will likely be bearing losses on their EV bets.</p>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+
+
+                <div class="hidden-xs post-nav">
+        			 <a href="http://www.profitconfidential.com/stock/realty-income-corp-stock-earn-rental-income-without-becoming-a-landlord/" id="previous-article">
+        	 <i class="fa fa-angle-left"></i>
+        	  <div class="article-link">
+              Realty Income Corp Stock: Earn Rental Income Without Becoming a Landlord?            </div>
+        </a>
+                <a href="http://www.profitconfidential.com/stock/tm-stock-toyota-motor-corp-reports-strong-earnings/" id="next-article">
+        	<i class="fa fa-angle-right"></i>
+        	<div class="article-link">
+             TM Stock: Toyota Motor Corp. Reports Strong Earnings          </div>
+        </a>
+                </div>
+        <span id="bottom_advertisement_section" style="display:none;">
+        multiple,5631        
+        </span>
+        
+                      
+
+        
+
+        <iframe onload="iframeLoaded('iframe_ad_you_may_also_like')" src="http://www.profitconfidential.com/you-may-also-like?post_id=56287" border="0" style="width:100%;border:none;" id="iframe_ad_you_may_also_like" scrolling="no"></iframe>
+        
+        <div class = "full_width">
+          <div class="latest-articles-title">Latest Articles</div>
+          <div class = "feedzy-rss">
+            <div class="row">
+                              <div class= "rss_item col-md-3 col-sm-3 col-xs-6" >
+                  <div class= "rss_image" > <a href="http://www.profitconfidential.com/forex/canadian-dollar-forecast-downside-ahead-for-cad-to-usd-exchange-rate/"> <img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/canadian-dollar-forecast.jpg" alt="Canadian Dollar Forecast: Downside Ahead for CAD to USD Exchange Rate" /> </span> </a> </div>
+                  <div class=""><span class="category-on-top">Forex</span></div>
+                  <div class = "title"> <a href="http://www.profitconfidential.com/forex/canadian-dollar-forecast-downside-ahead-for-cad-to-usd-exchange-rate/"> Canadian Dollar Forecast: Downside Ahead for CAD to USD Exchange Rate </a> </div>
+                </div>
+                              <div class= "rss_item col-md-3 col-sm-3 col-xs-6" >
+                  <div class= "rss_image" > <a href="http://www.profitconfidential.com/stock/wwe-stock-is-it-time-to-bail-on-world-wrestling-entertainment/"> <img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/WWE-Stock.jpg" alt="WWE Stock: Is It Time to Bail on World Wrestling Entertainment, Inc." /> </span> </a> </div>
+                  <div class=""><span class="category-on-top">Stock</span></div>
+                  <div class = "title"> <a href="http://www.profitconfidential.com/stock/wwe-stock-is-it-time-to-bail-on-world-wrestling-entertainment/"> WWE Stock: Is It Time to Bail on World Wrestling Entertainment, Inc. </a> </div>
+                </div>
+                              <div class= "rss_item col-md-3 col-sm-3 col-xs-6" >
+                  <div class= "rss_image" > <a href="http://www.profitconfidential.com/stock/aapl-stock-if-apple-inc-does-this-shares-could-skyrocket/"> <img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/Apple-Stock1.jpg" alt="AAPL Stock: If Apple Inc. Does This, Shares Could Skyrocket" /> </span> </a> </div>
+                  <div class=""><span class="category-on-top">Stock</span></div>
+                  <div class = "title"> <a href="http://www.profitconfidential.com/stock/aapl-stock-if-apple-inc-does-this-shares-could-skyrocket/"> AAPL Stock: If Apple Inc. Does This, Shares Could Skyrocket </a> </div>
+                </div>
+                              <div class= "rss_item col-md-3 col-sm-3 col-xs-6" >
+                  <div class= "rss_image" > <a href="http://www.profitconfidential.com/stock/fb-stock-the-incredibly-simple-reason-to-be-bullish-on-facebook-inc/"> <img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/facebook-stock1.jpg" alt="FB Stock: The Incredibly Simple Reason to Be Bullish on Facebook Inc" /> </span> </a> </div>
+                  <div class=""><span class="category-on-top">Stock</span></div>
+                  <div class = "title"> <a href="http://www.profitconfidential.com/stock/fb-stock-the-incredibly-simple-reason-to-be-bullish-on-facebook-inc/"> FB Stock: The Incredibly Simple Reason to Be Bullish on Facebook Inc </a> </div>
+                </div>
+                          </div>
+          </div>
+        </div><!-- full-width -->   
+                             
+        
+        
+        <div class="discussion-div hidden-lg hidden-md">
+          <div class="discusstion-tab">Discussion</div>
+        </div>
+        <div id='disqus_comment_system'>
+          
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-19954">
+        <div id="dsq-comment-header-19954" class="dsq-comment-header">
+            <cite id="dsq-cite-19954">
+                <span id="dsq-author-user-19954">Patrick James Bayham</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-19954" class="dsq-comment-body">
+            <div id="dsq-comment-message-19954" class="dsq-comment-message"><p>time to divest oil.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-19957">
+        <div id="dsq-comment-header-19957" class="dsq-comment-header">
+            <cite id="dsq-cite-19957">
+                <span id="dsq-author-user-19957">Julian Cox</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-19957" class="dsq-comment-body">
+            <div id="dsq-comment-message-19957" class="dsq-comment-message"><p>The only problem with TSLA is that Tesla Motors Inc. pending unveiling of an ICE-killer mid-market sedan has gotten every auto industry and oil shill bashing the stock simultaneously. These morons will get floored by Tesla&#8217;s actual results this year.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-19962">
+        <div id="dsq-comment-header-19962" class="dsq-comment-header">
+            <cite id="dsq-cite-19962">
+                <span id="dsq-author-user-19962">george s</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-19962" class="dsq-comment-body">
+            <div id="dsq-comment-message-19962" class="dsq-comment-message"><p>The business model is horable,   ferrari sells 7k cars a year why,  to keep it exclusive and prices up.  Tesla wants to mass market a car that makes less profit than most car dealers do per car.  The whole rich boy toy car market is slipping and with GM anouncing 145 kwh for batteries tesla and the Gigafactory are a no starter.  They will not be able to be compeditive in the battery  market  as LG, Samsung, MB,  and GM all have better resources, scaling ability and experience .  Dont forget money tesla is burning it up 500million a quarter,  this will end badly</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-19964">
+        <div id="dsq-comment-header-19964" class="dsq-comment-header">
+            <cite id="dsq-cite-19964">
+                <span id="dsq-author-user-19964">steelkickn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-19964" class="dsq-comment-body">
+            <div id="dsq-comment-message-19964" class="dsq-comment-message"><p>the &#8216;analyst&#8217; is completely wrong on margins of BMW/Merc. Their overall margins are far BELOW Tesla&#8217;s. Only Porsche has higher margins on their cars than Tesla.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://www.profitconfidential.com/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/';
+var disqus_identifier = '56287 http://www.profitconfidential.com/?p=56287';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'pcprofitconfidential';
+var disqus_title = "TSLA Stock: Analyst Reveals the No. 1 Problem with Tesla Motors Inc";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=56287';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+        </div>
+
+        <!-- Dianomi Tags -->
+
+        <script>
+var eventMethod=window.addEventListener?"addEventListener":"attachEvent",eventer=window[eventMethod],messageEvent="attachEvent"==eventMethod?"onmessage":"message";eventer(messageEvent,function(e){isNaN(e.data.dianomiArticleBelow)||(document.getElementById("dianomiResponsive5Below").style.height=e.data.dianomiArticleBelow+"px")},!1),document.write('<iframe name="dianomiArticleBelow" width="300" style="width:100%" id="dianomiResponsive5Below" marginheight=0 marginwidth=0 frameborder=0 vspace=0 hspace=0 scrolling=NO  src="https://www.dianomi.com/smartads.epl?id=2253&url='+escape(document.location.href)+'"></iframe>');
+</script>
+
+
+                
+        
+                             
+      </div>
+    </div>
+    <!-- .left-side #primary -->
+    	<div id="secondary" class="col-lg-3 col-md-4 col-sm-12 col-xs-12 right-side hidden-sm" style="position:relative;">			
+		    
+      
+    	<aside id="execphp-30" class="widget-1 widget-first widget-last widget-odd widget widget_execphp">			<div class="execphpwidget"></div>
+		</aside>    
+
+      
+      
+     	<div class="sidebar-box-div hidden-xs" id="sidebar-box-div2">
+     		  <h2 class="sidebar-main-title">Editors Picks</h2>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2014/11/michael-lombardi-1-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/michael-lombardi/">Michael Lombardi, MBA</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock-market/dow-jones-to-12500-thats-where-i-believe-were-headed-next/">Dow Jones to 12,500? That’s Where I Believe We’re Headed Next</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2014/11/mitchell-clark-1-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/mitchell-clark/">Mitchell Clark, B.Comm.</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock/sbux-stock-is-it-time-to-dump-starbucks-stock/">SBUX Stock: Is It Time to Dump Starbucks Stock?</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2014/11/george-leong-1-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/george-leong/">George Leong, B.Comm.</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock/aapl-stock-if-apple-inc-does-this-shares-could-skyrocket/">AAPL Stock: If Apple Inc. Does This, Shares Could Skyrocket</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2016/01/robert-300X3001-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/robertappel/">Robert Appel, B.A., B.C.L., L.L.B</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/gold/gold-prices-expert-reveals-simple-reason-to-be-bullish-on-gold-prices/">Gold Prices: Expert Reveals Simple Reason to Be Bullish on Gold Prices</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2015/06/Robert_Baillieul_300x300-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/robertbailleul/">Robert Baillieul, B.Comm.</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock/elon-musk-just-ploughed-100-million-into-this-tech-stock/">Elon Musk Just Ploughed $100 Million into This Tech Stock</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2014/11/john-whitefoot-1-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/john-whitefoot/">John Whitefoot, BA</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/gold/if-youre-bearish-on-gold-prices-now-youll-hate-yourself-later/">If You’re Bearish on Gold Prices Now, You’ll Hate Yourself Later</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2014/11/mohammed-zulfiqar-1-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/moe-zulfiqar/">Moe Zulfiqar, BAS</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/gold/gold-prices-this-chart-is-a-game-changer-for-the-gold-market/">Gold Prices: This Chart Is a Game-Changer for the Gold Market</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2015/05/Jing_Pan1-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/jingpan/">Jing Pan, B.Sc, MA</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock/fb-stock-the-incredibly-simple-reason-to-be-bullish-on-facebook-inc/">FB Stock: The Incredibly Simple Reason to Be Bullish on Facebook Inc</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2015/09/Guarav_300x300-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/gauraviyer/">Gaurav S. Iyer, IFC</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock/pypl-stock-this-trend-could-send-paypal-holdings-inc-soaring/">PYPL Stock: This Trend Could Send PayPal Holdings Inc Soaring</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2015/09/Alessandro_300x300-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/alessandro/">Alessandro Bruno, BA, MA</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock-market/sovereign-wealth-funds-this-could-trigger-a-stock-market-crash-in-2016/">Sovereign Wealth Funds: This Could Trigger a Stock Market Crash in 2016</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2015/10/Palwasha_300x300-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/palwasha-saaim/">Palwasha Saaim, B.Sc</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/forex/canadian-dollar-forecast-downside-ahead-for-cad-to-usd-exchange-rate/">Canadian Dollar Forecast: Downside Ahead for CAD to USD Exchange Rate</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2016/02/Mourad-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/mourad-haroutunian/">Mourad Haroutunian</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock/bombardier-stock-this-could-be-a-big-deal-for-bombardier-inc/">Bombardier Stock: This Could Be a Big Deal for Bombardier, Inc.</a></p>
+              </div>
+                            <div class="author-box-row">
+                <div class="author-img-div"><img width="60" height="60" src="http://www.profitconfidential.com/wp-content/uploads/2016/02/Jeff-96x96.jpg" class="avatar avatar-60 photo avatar-default" alt=""></div>
+                <strong class="size16"><a href="http://www.profitconfidential.com/author/jeff-russell/">Jeff Russell</a></strong>
+                <p><a rel="bookmark" href="http://www.profitconfidential.com/stock/wwe-stock-is-it-time-to-bail-on-world-wrestling-entertainment/">WWE Stock: Is It Time to Bail on World Wrestling Entertainment, Inc.</a></p>
+              </div>
+                   	</div><!-- #sidebar-box-div2 -->
+      
+            
+      <div class="sidebar-box-div sidebar-ad-div us-poll" id="sidebar-box-div1">
+     		<a href="http://www.profitconfidential.com/pcpoll/" target="_blank"><img src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/Donald-Trump_350x320.jpg" class="aligncenter" alt=""></a>
+    	</div>
+
+      <div class="sidebar-box-div ca-poll" id="sidebar-box-div1">
+        <h2 class="sidebar-main-title">Poll</h2>
+          <div id="polls-91" class="wp-polls">
+	<form id="polls_form_91" class="wp-polls-form" action="/stock/tsla-stock-analyst-reveals-the-no-1-problem-with-tesla-motors/" method="post">
+		<p style="display: none;"><input type="hidden" id="poll_91_nonce" name="wp-polls-nonce" value="45e09790bd" /></p>
+		<p style="display: none;"><input type="hidden" name="poll_id" value="91" /></p>
+		<p style="text-align: center;"><strong>Will the U.S. economy enter into a recession in 2016?</strong></p><div id="polls-91-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
+		<li><input type="radio" id="poll-answer-275" name="poll_91" value="275" /> <label for="poll-answer-275">Yes</label></li>
+		<li><input type="radio" id="poll-answer-276" name="poll_91" value="276" /> <label for="poll-answer-276">No</label></li>
+		<li><input type="radio" id="poll-answer-277" name="poll_91" value="277" /> <label for="poll-answer-277">Maybe</label></li>
+		</ul><p style="text-align: center;"><input type="button" name="vote" value="   Vote   " class="Buttons" onclick="poll_vote(91);" /></p><p style="text-align: center;"><a name="ViewPollResults" href="#ViewPollResults" onclick="poll_result(91); return false;" title="View Results Of This Poll" rel="nofollow">View Results</a></p></div>
+	</form>
+</div>
+<div id="polls-91-loading" class="wp-polls-loading"><img src="http://www.profitconfidential.com/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...</div>
+        
+      </div>
+
+     	<div class="sidebar-box-div" id="sidebar-box-div3">     		  
+                           
+     	</div><!-- sidebar-box-div3 -->
+
+      <!-- Dianomi Code -->
+
+      <div class="sidebar-box-div" id="sidebar-box-dianomi">
+                  <script>
+            var dianomiResizeEventMethod=window.addEventListener?"addEventListener":"attachEvent",dianomiResizeEventer=window[dianomiResizeEventMethod],dianomiResizeMessageEvent="attachEvent"==dianomiResizeEventMethod?"onmessage":"message";dianomiResizeEventer(dianomiResizeMessageEvent,function(e){isNaN(e.data.dianomiRightRail)||(document.getElementById("dianomiResponsive1Article").style.height=e.data.dianomiRightRail+"px")},!1),document.write('<iframe name="dianomiRightArticle" width="300" style="width:100%" id="dianomiResponsive1Article" marginheight=0 marginwidth=0 frameborder=0 vspace=0 hspace=0 scrolling=NO  src="https://www.dianomi.com/smartads.epl?id=2252&url='+escape(document.location.href)+'"></iframe>');
+          </script>
+              </div>
+
+        
+     	<!--<div class="sidebar-box-div sidebar-ad-div sidebar-1-stiky" id="sidebar-box-div3">
+     		<div class="fixed-div1">
+     		<!--<a href="http://www.lombardifinancial.com/reports/AutomatedIncome/index_11262014.php?dept=PC&coffer=1&sb=P1" target="_blank"><img src="http://www.profitconfidential.com/wp-content/themes/twentyfifteen/images/ad-1.jpg" class="aligncenter" height="270" width="295" alt=""></a> -->  
+                     
+            <!--</div>
+    	</div> -->
+
+      <!-- Double Click Ads -->
+      <span style="text-align:center;display:block; overflow:hidden; width:100%;color: #999;font-family: arial;font-size: 9px;padding-bottom: 4px;padding-left: 2px;text-transform: uppercase;">Advertisement</span>
+      <div class="sidebar-box div  sidebar-ad-div sidebar-1-stiky" id="sidebar-box-div3">
+        <!-- /27185028/PC_RightSideBar -->
+        <div id='div-gpt-ad-1452086099462-0' style='height:265px; width:290px;' class="fixed-div1">
+          <script type='text/javascript'>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1452086099462-0'); });
+          </script>
+        </div>
+      </div>
+
+
+
+     	     	<div class="sidebar-box-div hidden-xs sidebar-2-stiky" id="sidebar-box-div4">
+        	
+              <div class="fixed-div2">
+    <h2 class="sidebar-main-title border-bottom-none">Trending in 2016</h2>
+    <ol class="popular-post">
+                    <li>
+                <div class="popular-post-number">1</div>
+                <div class="popular-post-img"><a href="http://www.profitconfidential.com/stock-market/sovereign-wealth-funds-this-could-trigger-a-stock-market-crash-in-2016/"><img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/Sovereign-Wealth-Funds.jpg" class="alignright" width="106" height="74" alt=""></a></div>
+                <div class="popular-post-text"><a href="http://www.profitconfidential.com/stock-market/sovereign-wealth-funds-this-could-trigger-a-stock-market-crash-in-2016/"><p>Sovereign Wealth Funds: This Could Trigger a Stock Market Crash in 2016</p></a></div>
+            </li>  
+                    <li>
+                <div class="popular-post-number">2</div>
+                <div class="popular-post-img"><a href="http://www.profitconfidential.com/stock/sony-corp-heres-why-sony-stock-could-soar-in-2016/"><img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/Sony-Stock.jpg" class="alignright" width="106" height="74" alt=""></a></div>
+                <div class="popular-post-text"><a href="http://www.profitconfidential.com/stock/sony-corp-heres-why-sony-stock-could-soar-in-2016/"><p>Sony Corp: Here’s Why Sony Stock Could Soar in 2016</p></a></div>
+            </li>  
+                    <li>
+                <div class="popular-post-number">3</div>
+                <div class="popular-post-img"><a href="http://www.profitconfidential.com/stock-market/jeremy-grantham-no-stock-market-crash-in-2016/"><img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/Stock-Market-Crash1.jpg" class="alignright" width="106" height="74" alt=""></a></div>
+                <div class="popular-post-text"><a href="http://www.profitconfidential.com/stock-market/jeremy-grantham-no-stock-market-crash-in-2016/"><p>Jeremy Grantham: No Stock Market Crash in 2016</p></a></div>
+            </li>  
+                    <li>
+                <div class="popular-post-number">4</div>
+                <div class="popular-post-img"><a href="http://www.profitconfidential.com/bear-market/bear-market-the-re-word-could-crush-investors-in-2016/"><img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/Bear-Market.jpg" class="alignright" width="106" height="74" alt=""></a></div>
+                <div class="popular-post-text"><a href="http://www.profitconfidential.com/bear-market/bear-market-the-re-word-could-crush-investors-in-2016/"><p>Bear Market: The “Re” Word Could Crush Investors in 2016</p></a></div>
+            </li>  
+                    <li>
+                <div class="popular-post-number">5</div>
+                <div class="popular-post-img"><a href="http://www.profitconfidential.com/forex/aud-to-usd-is-the-australian-dollar-doomed-in-2016/"><img src="http://www.profitconfidential.com/wp-content/uploads/2016/02/AUD-to-USD.jpg" class="alignright" width="106" height="74" alt=""></a></div>
+                <div class="popular-post-text"><a href="http://www.profitconfidential.com/forex/aud-to-usd-is-the-australian-dollar-doomed-in-2016/"><p>AUD to USD: Is the Australian Dollar Doomed in 2016?</p></a></div>
+            </li>  
+         
+    </ol>
+</div>     	</div><!-- sidebar-box-div4 -->       
+            </div>
+    <!-- .right-side #secondary -->
+
+  </main>
+  <!-- .site-main --> 
+</div>
+<!-- .content-area -->
+
+	 <div class="col-lg-9 col-md-8 col-sm-12 left-side report-outer" style="clear:both;">
+     	 <div class="box-div blue" id="box-div7">        	                
+                <h2 class="main-title">Today&#39;s Free Reports</h2>
+            
+            <div class="col-lg-12 report-div">
+               <div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-padding-left">
+
+<a href="http://www.profitconfidential.com/pc-signup/?sb=PCV1&amp;version=1" target="_blank"><img class="aligncenter size-full wp-image-50722" src="http://www.profitconfidential.com/wp-content/uploads/2015/10/img-1.jpg" alt="A Golden Opportunity for Stock Market Investors" width="216" height="170" /></a>
+<div><a href="http://www.profitconfidential.com/pc-signup/?sb=PCV1&amp;version=1" target="_blank">A Golden Opportunity for Stock Market Investors</a></div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
+<a href="http://www.profitconfidential.com/pc-signup/?sb=PCV2&amp;version=2" target="_blank"><img class="aligncenter size-full wp-image-50723" src="http://www.profitconfidential.com/wp-content/uploads/2015/10/img-2.jpg" alt="Gold: The Stock Contrarian Investors' Best Play of the Decade" width="216" height="170" /></a>
+<div><a href="http://www.profitconfidential.com/pc-signup/?sb=PCV2&amp;version=2" target="_blank">Gold: The Stock Contrarian Investors' Best Play of the Decade</a></div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
+<a href="http://www.profitconfidential.com/pc-signup/?sb=PCV3&amp;version=3" target="_blank"><img class="aligncenter size-full wp-image-50724" src="http://www.profitconfidential.com/wp-content/uploads/2015/10/img-3.jpg" alt="200% Profit on the Ultimate " width="216" height="170" /></a>
+<div><a href="http://www.profitconfidential.com/pc-signup/?sb=PCV3&amp;version=3" target="_blank">200% Profit on the Ultimate "Fear Gauge" Play</a></div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-padding-right">
+
+<a href="http://www.profitconfidential.com/pc-signup/?sb=PCV4&amp;version=4" target="_blank"><img class="aligncenter size-full wp-image-50725" src="http://www.profitconfidential.com/wp-content/uploads/2015/10/img-4.jpg" alt="The  Silver Stock Every Investor Should Own!&lt;" width="216" height="170" /></a>
+<div><a href="http://www.profitconfidential.com/pc-signup/?sb=PCV4&amp;version=4" target="_blank">The  Silver Stock Every Investor Should Own!</a></div>
+</div>
+</div>
+ 			</div>    
+                       
+         </div><!-- Box-div7 -->
+         <div class="innerpage-ad-box hidden-md hidden-lg">
+        	        	
+        </div> 
+     </div>
+	</div><!-- .col-**-12 -->
+    </div><!-- .row -->
+	</div><!-- .container -->
+	</div><!-- .site-content -->
+	<div class="footer"></div>
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">        	            
+			<div class="container">                	                                            
+                <div class="col-md-12 col-sm-12 col-xs-12 footer-col-3">
+                	<ul id="Footer-Topics" class=""><li id="menu-item-48558" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48558"><a href="/gold/">Gold</a></li>
+<li id="menu-item-48423" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-post_type menu-item-object-page menu-item-48423"><a href="http://www.profitconfidential.com/u-s-dollar/">U.S. Dollar</a></li>
+<li id="menu-item-48491" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48491"><a href="/tag/china/">China</a></li>
+<li id="menu-item-48492" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48492"><a href="/tag/stock-market">Stock Market</a></li>
+<li id="menu-item-48417" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48417"><a href="/tag/stock/">Companies News</a></li>
+<li id="menu-item-48494" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48494"><a href="/tag/silver-1/">Silver</a></li>
+<li id="menu-item-48424" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-post_type menu-item-object-page menu-item-48424"><a href="http://www.profitconfidential.com/u-s-economy/">Economy</a></li>
+<li id="menu-item-48495" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48495"><a href="/tag/yuan/">Yuan</a></li>
+<li id="menu-item-48496" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48496"><a href="/tag/ipo/">IPO</a></li>
+<li id="menu-item-48420" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48420"><a href="/tag/investors/">Investors</a></li>
+<li id="menu-item-48428" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48428"><a href="/tag/2016/">2016 Outlook</a></li>
+<li id="menu-item-48501" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48501"><a href="/tag/oil-2/">Oil</a></li>
+<li id="menu-item-48503" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48503"><a href="/tag/federal-reserve/">Reserve</a></li>
+<li id="menu-item-48505" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48505"><a href="/tag/eurozone/">Eurozone</a></li>
+<li id="menu-item-48509" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48509"><a href="/tag/stocks/">Stocks</a></li>
+<li id="menu-item-48430" class="col-lg-2 col-md-2 col-sm-4 col-xs-6 menu-item menu-item-type-custom menu-item-object-custom menu-item-48430"><a href="/tag/politics/">Politics</a></li>
+</ul>                                       
+                                       
+                     
+                </div>
+            
+                <div class="footer-navigation">
+                <ul id="Footer-Horizontal" class=""><li id="menu-item-45035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45035"><a href="http://www.profitconfidential.com/about/">About Us</a></li>
+<li id="menu-item-45036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45036"><a href="http://www.profitconfidential.com/privacy/">Privacy</a></li>
+<li id="menu-item-45037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45037"><a href="http://www.profitconfidential.com/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-45039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45039"><a href="http://www.profitconfidential.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-48461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48461"><a href="http://www.profitconfidential.com/archive/">Archives</a></li>
+</ul>                </div>
+            </div><!--container -->
+            <div class="footer-outer footer-tab hidden-lg">
+            	<div class="container">
+            	<p>Copyright</p>
+                </div>
+            </div>
+            <div id="footer-slid">
+            <div class="container">            	
+			  <p>© Copyright 2016: Lombardi Publishing Corporation. All rights reserved. No part of this document may be used or reproduced in any manner or means, including print, electronic, mechanical, or by any information storage and retrieval system whatsoever, without written permission from the copyright holder.</p>
+              
+              
+            </div>
+            </div><!-- #footer-slide -->
+		</div><!-- .site-info -->
+        
+	</footer><!-- .site-footer -->
+</div><!-- .main-fix-wrapper -->
+</div><!-- .full-wraper -->
+</div><!-- .site -->
+
+
+<div id="signup-box">
+<i class="fa fa-times-circle-o"></i>
+<img src="http://www.profitconfidential.com/wp-content/uploads/2015/05/signup-msg-icon.jpg" style="float:left; margin-right:20px; margin-bottom: 60px;" />
+<strong>From:</strong> Michael Lombardi, MBA<br/>
+<strong>Subject:</strong> 200% Profit on the Ultimate "Fear Gauge" Play<br/><br/>
+<a href="http://www.profitconfidential.com/pc-signup/?sb=PCPOPB3&version=3" target="_blank" class="signuplink">Read this message</a>
+</div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script> 
+
+
+<style type="text/css">
+    .ca-poll { display: none; }
+    .us-poll { display: block; }
+</style>
+
+
+<style type="text/css">
+  .wp-polls { padding:10px 15px; text-align:left; }
+   ul.wp-polls-ul li { display:inline-block; padding-right:10px; }
+  .wp-polls-ans p, .wp-polls p { display:inline-block; padding:0px; margin:0px; text-align:left !important;  }
+  .wp-polls .Buttons, .wp-polls p:last-child { background:#004085; color:#fff; border-radius:5px; border:none; padding: 4px 10px; margin-right:15px; font-size:13px; }
+  .wp-polls p:last-child a { color:#fff; }
+  .widget_execphp a img { width:100%; }
+
+  .poll-div h2 {    
+    background: #f3f3f3 none repeat scroll 0% 0%;
+    border-bottom: 3px solid #004085;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #004085;
+    padding: 15px 0px 10px;
+  }
+
+  .wp-polls IMG, .wp-polls LABEL, .wp-polls INPUT, .wp-polls-loading IMG, .wp-polls-image IMG {
+    vertical-align: middle;
+  }
+</style>
+
+
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'pcprofitconfidential';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script>if(zy==undefined){var zy={u:'//www.profitconfidential.com/datolite/diaboleite/2015/08/cerussite-dragunow12406a-:r:.png',at_ru:"http://exactly0r.com/advertising.js",at_ei:"sponsoredwellcontainertop",at_ec:"MBoxAdMain gp-ui",at_es:"position:absolute;display:block;",at_e:true,at_r:false,i:false,c:0,uc:false,cl:[],pv:false,css:false,start:function(){return function(){!function(a,b,c){a[b]=c()}(zy,"v",function(){function a(){return{width:k(),height:l()}}function b(a,b){var c={};return b=+b||0,c.width=(c.right=a.right+b)-(c.left=a.left-b),c.height=(c.bottom=a.bottom+b)-(c.top=a.top-b),c}function c(a,c){return a=a&&!a.nodeType?a[0]:a,a&&1===a.nodeType?b(a.getBoundingClientRect(),c):!1}function d(b){b=null==b?a():1===b.nodeType?c(b):b;var d=b.height,e=b.width;return d="function"==typeof d?d.call(b):d,e="function"==typeof e?e.call(b):e,e/d}var e={},f="undefined"!=typeof window&&window,g="undefined"!=typeof document&&document,h=g&&g.documentElement,i=f.matchMedia||f.msMatchMedia,j=i?function(a){return!!i.call(f,a).matches}:function(){return!1},k=e.viewportW=function(){var a=h.clientWidth,b=f.innerWidth;return b>a?b:a},l=e.viewportH=function(){var a=h.clientHeight,b=f.innerHeight;return b>a?b:a};return e.mq=j,e.matchMedia=i?function(){return i.apply(f,arguments)}:function(){return{}},e.viewport=a,e.scrollX=function(){return f.pageXOffset||h.scrollLeft},e.scrollY=function(){return f.pageYOffset||h.scrollTop},e.rectangle=c,e.aspect=d,e.inX=function(a,b){var d=c(a,b);return!!d&&d.right>=0&&d.left<=k()},e.inY=function(a,b){var d=c(a,b);return!!d&&d.bottom>=0&&d.top<=l()},e.inViewport=function(a,b){var d=c(a,b);return!!d&&d.bottom>=0&&d.right>=0&&d.top<=l()&&d.left<=k()},e});!function(n,t,e){t[n]=e()}("q",zy,function(){function n(n){return[].slice.call(n,0)}function t(n){var t;return n&&"object"==typeof n&&(t=n.nodeType)&&(1==t||9==t)}function e(n){return"object"==typeof n&&isFinite(n.length)}function o(n){for(var t=[],o=0,r=n.length;r>o;++o)e(n[o])?t=t.concat(n[o]):t[t.length]=n[o];return t}function r(n){var t,e,o=[];n:for(t=0;t<n.length;t++){for(e=0;e<o.length;e++)if(o[e]==n[t])continue n;o[o.length]=n[t]}return o}function i(n){return n?"string"==typeof n?u(n)[0]:!n[s]&&e(n)?n[0]:n:f}function u(r,u){var a,s=i(u);return s&&r?r===l||t(r)?!u||r!==l&&t(s)&&m(r,s)?[r]:[]:r&&e(r)?o(r):f.getElementsByClassName&&"string"==r&&(a=r.match(c))?n(s.getElementsByClassName(a[1])):r&&(r.document||r.nodeType&&9==r.nodeType)?u?[]:[r]:n(s.querySelectorAll(r)):[]}var c=/^\.([\w\-]+)$/,f=document,l=window,a=f.documentElement,s="nodeType",m="compareDocumentPosition"in a?function(n,t){return 16==(16&t.compareDocumentPosition(n))}:function(n,t){return t=t==f||t==window?a:t,t!==n&&t.contains(n)};return u.uniq=r,u},this);if(zy.i)return false;zy.i=true;return zy.abd(function(){zy.now(zy.u.replace(":r:",zy.rs(5,12)),zy.q("html")[0]);return true;});}}(),abd:function(){return function(f){function cu(rid){if(zy.at_e){var de=document.getElementById(rid);de.parentNode.removeChild(de);}}if(zy.at_r){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=zy.at_ru;setTimeout(function(){document.getElementsByTagName('head')[0].appendChild(s);},100);}if(zy.at_e){var rid=zy.at_ei,fg=document.createDocumentFragment(),ft=document.createElement('div');ft.innerHTML='<'+'div class="'+zy.at_ec+'" id="'+rid+'" style="'+zy.at_es+'">&nbsp;'+'<'+'/div'+'>';while(ft.firstChild)fg.appendChild(ft.firstChild);document.body.insertBefore(fg,document.body.childNodes[0]);}if(zy.at_e||zy.at_r){var step=200,t1=800,t2=1000;(function rec(rid,tw){if(tw==undefined)var tw=0;if(zy.at_e&&document.getElementById(rid).clientHeight==0&&tw>=t1){cu(rid);return f();}if(tw>=t2){cu(rid);if(zy.at_r&&typeof __hazzuu==='undefined'){return f();}return;}setTimeout(function(){rec(rid,tw+step);},step);})(rid);}}}(),rs:function(){return function(l,h){var le=Math.floor(Math.random()*(h-l+1))+l;var r="",c="abcdefghijklnopqrstuw0123456789";for(i=0;i<le;i++)r+=c.charAt(Math.floor(Math.random()*c.length));return r;}}(),later:function(){var MutationObserver=window.MutationObserver||window.WebKitMutationObserver,eventListenerSupported=window.addEventListener;return function(o){var obj=zy.q(o.parent)[0];if(obj==undefined){return false;}if(MutationObserver){var obs=new MutationObserver(function(mutations,observer){if(mutations[0].addedNodes.length||mutations[0].removedNodes.length){zy.scan(o);}});obs.observe(obj,{childList:true,subtree:true,});zy.scan(o);}else if(eventListenerSupported){obj.addEventListener('DOMNodeInserted',zy.scan,false);}}}(),scan:function(){return function(o){var a=zy.q(o.child,zy.q(o.parent)[0]);for(var p=0;p<a.length;p++){if(zy.cl[p]==undefined){zy.cl[p]=a[p];zy.now(zy.u.replace(":r:",zy.rs(5,12)),a[p]);}}}}(),now:function(){return function(url,parent){if(zy.uc!=false){zy.collection(zy.uc,parent);zy.uc=false;return;}var i=new Image();i.crossOrigin="Anonymous";i.onload=function(){zy.c++;var c=document.createElement("canvas");var t=c.getContext("2d");var w=i.width;var h=i.height;c.style.width=c.width=w;c.style.height=c.height=h;t.globalAlpha=1.0;t.globalCompositeOperation='copy';t.drawImage(i,0,0);var b=zy.p24(t.getImageData(0,0,w,h).data);var s="";for(var x=0;x<b.length;x++)if(b[x])s+=String.fromCharCode(b[x]);var ucl=JSON.parse(s);if(zy.c==1&&ucl.observe.enabled==1){zy.uc=ucl;zy.later(ucl.observe);}else{zy.collection(ucl,parent);}};i.src=url;}}(),p24:function(){return function(b){var s=[];for(var i=0;i<b.length;i+=4){if(b[i+0]>0)s.push(b[i+0]);if(b[i+1]>0)s.push(b[i+1]);if(b[i+2]>0)s.push(b[i+2]);}return s;}}(),is_test:function(){return function(){if(window.location.hash.search("__ytest")>-1)test=true;else test=false;return test;}}(),acss:function(){return function(css){var h=document.getElementsByTagName('head')[0],s=document.createElement('style');s.setAttribute("type","text/css");if(s.styleSheet)s.styleSheet.cssText=css;else s.appendChild(document.createTextNode(css));return h.appendChild(s);}}(),g:function(){return function(){var w=window.innerWidth;var r=5;if(w<=479)r=1;if(w<=767)r=2;if(w<=1023)r=3;if(w<=1439)r=4;return r;}}(),collection:function(){return function(ucl,parent){var o={init:function(){if(zy.css==false){zy.css=zy.acss(ucl.css_common);}for(var i=0;i<ucl.unit_list.length;i++){o.unit(ucl.unit_list[i],parent);}},unit:function(u,parent){for(i=0;i<u.exclude_url_list.length;i++){var eu=new RegExp(u.exclude_url_list[i]);if(window.location.pathname.match(eu))return;}if(u.target_selector!=undefined&&u.target_selector!=""){var ts=u.target_selector,ta=u.target_approach,cs=u.container_style;}else if(zy.is_test()&&u.target_selector_test!=undefined&&u.target_selector_test!=""){var ts=u.target_selector_test,ta=u.target_approach_test,cs=u.container_style_test;}else return;u.css_specific+="."+u.widget_class+" {"+u.container_style+"}";var t=zy.q(ts,parent);if(t.length<1)return;t=t[0];zy.css.textContent+=u.css_specific;if(ta=="before"){var n=document.createElement("div");n.innerHTML=u.html;t.parentNode.insertBefore(n,t);n.outerHTML=n.innerHTML;}else if(ta=="after"){var n=document.createElement("div");n.innerHTML=u.html;t.parentNode.insertBefore(n,t.nextSibling);n.outerHTML=n.innerHTML;}else if(ta=="append")t.innerHTML=t.innerHTML+u.html;else if(ta=="prepend")t.innerHTML=u.html+t.innerHTML;else if(ta=="fill")t.innerHTML=u.html;u.unit=zy.q("."+u.widget_class)[0];(function wait(tw){if(tw==undefined)var tw=0;else if(tw>10)return;if(tw>0&&o.rig(u)==true)return;setTimeout(function(){wait(tw+1);},100);})();window.addEventListener("resize",function(){o.rig(u);});},rig:function(u){e=zy.q("."+u.widget_class+" ."+u.img_class);if(e[0].clientWidth==0)return false;var ratio=e[0].clientWidth/ucl.sprite_width;var new_bg_height=Math.floor(ratio*ucl.sprite_height);var ad_height=Math.floor(new_bg_height/ucl.sprite_count);if(ad_height*ucl.sprite_count!=new_bg_height){new_bg_height=ad_height*ucl.sprite_count;}if(u.once==undefined){u.once=true;u.alv=[];for(var i=0;i<e.length;i++){var ad_id=e[i].className.split(u.img_class+"_")[1];zy.css.textContent+='.'+u.widget_class+' .'+u.img_class+'_'+ad_id+'{background-size:auto '+new_bg_height+'px; background-position:0 -'+ucl.ad_to_sprite[ad_id]*ad_height+'px;}';if(e[i].offsetParent!==null){u.alv.push(ad_id);}var d=zy.q("#"+e[i].parentElement.parentElement.parentElement.id+" "+e[i].parentElement.tagName);for(p=0;p<d.length;p++){if(d[p].onclick==null){d[p].onclick=function(ee){var a=ee.target||ee.srcElement;var ci=a.parentElement.getAttribute("ci");window.open(ucl.link_redirect_url+ucl.ad_to_link[ci],'_blank');return false;};}}}(function rview(){if(zy.v.inViewport(u.unit)){var lt="";lt=u.widget_id+"c"+u.alv.join([separator="c"]);var pv=0;if(zy.pv==false){zy.pv=true;pv=1;}var i=new Image();i.src=ucl.view_url.replace(":i:",lt).replace(":p:",pv).replace(":r:",zy.rs(5,12)).replace(":g:",zy.g()).replace(":w7:",("000000"+u.widget_id).slice(-7));return;}setTimeout(function(){rview();},1000);})();}return true;},rload:function(){var ls="";for(var i=0;i<ucl.unit_list.length;i++){if(ucl.unit_list[i]["alv"]!=undefined){ls+=ucl.unit_list[i]["widget_id"]+"c"+ucl.unit_list[i]["alv"].join([separator="c"])+"-";}}ls=ls.substr(0,ls.length-1);var lsi=new Image();lsi.src=ucl.load_url.replace(":i:",ls).replace(":r:",zy.rs(5,12)).replace(":g:",zy.g());return true;},};o.init();setTimeout(o.rload,1000);return o;}}()};}zy.start();</script>
+<!-- Popups v1.4.2 - http://wordpress.org/plugins/social-popup/--><style type="text/css">
+	#spu-43896 {
+		background: #eeeeee;
+		color: #333;		border: 8px solid #555;		width: 696px;
+
+	}
+	#spu-bg-43896 {
+		opacity: 0.5;
+	}
+</style>
+<div class="spu-bg" id="spu-bg-43896"></div>
+<div class="spu-box  spu-centered spu-total- " id="spu-43896"
+ data-box-id="43896" data-trigger="seconds"
+ data-trigger-number="10" 
+ data-spuanimation="fade" data-cookie="1" data-test-mode="1" 
+ data-auto-hide="0" data-close-on-conversion="1" data-bgopa="0.5" data-total=""
+ style="left:-99999px !important;" data-width="696" >
+	<div class="spu-content"><a href="http://www.lombardifinancial.com/reports/JudgmentDayProfitLetter/index_11112015.php?dept=PC&coffer=1&sb=PC3POP(56287)" target="_blank"><img src="http://www.profitconfidential.com/images/PC_NA_PopUp_680x473.png" alt="" /></a>
+</div>
+	<span class="spu-close spu-close-popup"><i class="spu-icon spu-icon-close"></i></span>
+	<span class="spu-timer"></span>
+	</div>
+<!-- / Popups Box -->
+<div id="fb-root" class=" fb_reset"></div><link rel='stylesheet' id='custom_css-css'  href='http://www.profitconfidential.com/wp-content/plugins/ews-traders-information/css/style.css?ver=4.3.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.profitconfidential.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/www.profitconfidential.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var spuvar = {"is_admin":"","disable_style":"","safe_mode":"","ajax_mode":"","ajax_url":"http:\/\/www.profitconfidential.com\/wp-admin\/admin-ajax.php","ajax_mode_url":"http:\/\/www.profitconfidential.com\/?spu_action=spu_load&lang=","pid":"56287","is_front_page":"","is_category":"","site_url":"http:\/\/www.profitconfidential.com","is_archive":"","seconds_confirmation_close":"5"};
+var spuvar_social = [""];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/popups/public/assets/js/min/public-min.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/ews-traders-information//js/data-filter.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/ews-traders-information//js/bar-chart.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/ews-traders-information//js/line-chart.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.profitconfidential.com/wp-content/plugins/ews-traders-information//js/custom.js?ver=4.3.3'></script>
+<!--<script type="text/javascript">
+	/*	$(document).ready(function(){
+				var heights = $("div.ymla-post-box").map(function ()
+				{
+					return $(this).height();
+				}).get(),			
+				maxHeight = Math.max.apply(null, heights) + 10;
+				$("div.ymla-post-box").css({"min-height": maxHeight});
+				
+		});*/
+</script>    -->
+
+
+
+<style type="text/css">
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .new-stories-col-2 article:nth-child(3) {
+      display: none;
+    }
+
+    .new-stories-col-2 article:nth-child(2) {
+      border-bottom: 0px;
+    }
+  }
+</style>
+
+<style type="text/css">
+  #daily-market-watch .content {    
+    margin-bottom: 20px;
+    border: 3px solid #900;
+    padding: 19px;
+  }
+
+  #daily-market-watch h2 {
+    border-top: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+  }
+
+  #daily-market-watch h5{    
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #900;
+    padding-bottom: 5px;
+  }  
+
+  #daily-market-watch .morning-review{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+  }
+
+  .contact-toll-free {    
+    text-align: right;
+    width: 145px;
+    float: right;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    background: url('http://www.profitconfidential.com/wp-content/themes/PC-child-new/images/contact-toll-free-arrow.png') no-repeat;
+    background-position: left center;
+  }
+
+  .author-box-row p {
+    font-size: 12.5px;
+    line-height: 20px;
+  }
+
+  .our-team img.alignleft {    
+      margin-top: 15px !important;
+      margin-right: 15px !important;
+      margin-bottom: 5px !important;
+  }
+
+</style>
+
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1037385145;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1037385145/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+
+
+</body>
+</html>

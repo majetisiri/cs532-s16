@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+	<meta property="fb:app_id" content="176377349106902" />
+	<meta property="og:title" content="Moo Moo's Burger Barn" />
+        <meta property="og:type" content="Restaurant" />
+        <meta property="og:url" content="http://moomoosburgerbarn.dinehere.us" />
+        <meta property="og:image" content="http://dinehere.us/foo.png" />
+        <meta property="og:site_name" content="Moo Moo's Burger Barn Food" />
+        <meta property="og:latitude" content="37.954806"/>
+        <meta property="og:longitude" content="-121.289202"/>
+        <meta property="og:street-address" content="222 N El Dorado St"/>
+        <meta property="og:locality" content="Stockton"/>
+        <meta property="og:region" content="CA"/>
+        <meta property="og:postal-code" content="95202-2312"/>
+        <meta property="og:country-name" content="CA"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <meta name="description" content="Moo Moo's Burger Barn is an average American Food Restaurant. "/>
+<meta name="keywords" content="Moo Moo's Burger Barn, Moo, Moos, Burger, Barn,  American Food, Restaurant"/>
+
+
+
+
+
+
+
+
+        <title>Moo Moo's Burger Barn, 222 N El Dorado St, Stockton Downtown</title>
+        <link rel="canonical" href="http://moomoosburgerbarn.dinehere.us"/>
+
+
+
+
+ 
+      <link href="http://dinehere.us/newassets/css/bootplus.min.css" rel="stylesheet">
+      <link href="http://dinehere.us/cstyle.min.css" rel="stylesheet">
+      <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+	background-color: #f1f1f1;
+      }
+      .hero-unit {
+          padding: 60px;
+      }
+      @media (max-width: 980px) {
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+
+a { transition: all .3s ease;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease; }
+/* Visitor */
+a.visitor i,.visitor h4.list-group-item-heading { color:#4D90FE; }
+a.visitor:hover { background-color:#4D90FE; }
+a.visitor:hover * { color:#000; }
+
+.wrapperp: {min-height:700px}
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+
+.tree li {
+    margin: 0px 0;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0px 5px;
+}
+.tree li::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    right: auto;
+    left: -20px;
+    border-left: 1px solid #ccc;
+    bottom: 50px;
+}
+.tree li::after {
+    content:'';
+    position: absolute;
+    top: 30px;
+    width: 25px;
+    height: 20px;
+    right: auto;
+    left: -20px;
+    border-top: 1px solid #ccc;
+}
+.tree li a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #666;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+/*Remove connectors before root*/
+ .tree > ul > li::before, .tree > ul > li::after {
+    border: 0;
+}
+/*Remove connectors after last child*/
+ .tree li:last-child::before {
+    height: 30px;
+}
+/*Time for some hover effects*/
+
+/*We will apply the hover effect the the lineage of the element also*/
+ .tree li a:hover, .tree li a:hover+ul li a {
+    background: #c8e4f8;
+    color: #000;
+    border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+ .tree li a:hover+ul li::after, .tree li a:hover+ul li::before, .tree li a:hover+ul::before, .tree li a:hover+ul ul::before {
+    border-color: #94a0b4;
+}
+
+
+      </style>
+      <link href="http://dinehere.us/newassets/css/bootplus-responsive.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://dinehere.us/newassets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://dinehere.us/newassets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://dinehere.us/newassets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://dinehere.us/newassets/ico/apple-touch-icon-57-precomposed.png">
+<link rel="SHORTCUT ICON" href="http://dinehere.us/favicon.png" />
+
+<script src="//load.sumome.com/" data-sumo-site-id="c05002a1a162bc0b590451fe841eeb4111613be9220727468dca9d823228d079" async="async"></script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8095515467317747",
+    enable_page_level_ads: true
+  });
+</script>
+
+   </head>
+
+   <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+
+
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+
+<a href="http://dinehere.us" class="brand"><i class="icon-home"></i></a>
+
+
+
+
+
+
+
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+
+            </p>
+            <ul class="nav">
+
+<li class="active"><a href="http://moomoosburgerbarn.dinehere.us" title="Moo Moo's Burger Barn Home Page"><b title="Moo Moo's Burger Barn Home Page">HOME</b></a></li>
+
+
+
+
+                <li><a id="_menu" itemprop="Menu" href="http://moomoosburgerbarn.dinehere.us/?vmenuo=1" title="Moo Moo's Burger Barn Menu">Menus</a></li>
+
+
+
+
+	<li><a href="http://dinehere.us/moomoosburgerbarn.pics"><i class="icon-camera-retro"></i> Photos</a></li>
+
+
+                <li><a href="http://moomoosburgerbarn.dinehere.us/?reviewo=1" title="Moo Moo's Burger Barn Reviews"> <span class="badge pull-right">1</span> Reviews</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+
+<div itemscope itemtype="http://schema.org/WebSite">
+	<meta itemprop="url" content="http://dinehere.us/"/>
+	<form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" class="navbar-search pull-right" action="http://dinehere.us" method="get">
+	<meta itemprop="target" content="http://dinehere.us/?q={search_term_string}"/>
+	<input type="hidden" name="ptx" value="37.954806">
+	<input type="hidden" name="pty" value="-121.289202">
+<div class="input-append">
+        <input itemprop="query-input" id="appendedInputButton" name="q" type="text" class="span3" placeholder="Search by name/type/cuisine">
+                <button class="btns btn-default add-on" type="submit"><i class="icon-search"></i></button>
+</div>
+	</form>
+</div>
+
+
+          </div><!--/.nav-collapse -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+
+
+      <div class="row-fluid">
+        <div class="span3">
+
+
+		<div id="wrapperpp">
+
+
+                <div itemscope itemtype="http://schema.org/LocalBusiness" style="min-height: 160px; background-image:linear-gradient(rgba(255,255,255,0.99),rgba(255,255,255,0.79)), url(http://moomoosburgerbarn.dinehere.us/coupon/smmap?s=579468); background-repeat:no-repeat;">
+
+
+<div itemprop='aggregateRating' itemscope='' itemtype='http://schema.org/aggregateRating'>
+<meta content='4.0' itemprop='ratingValue'>
+<meta content='5' itemprop='bestRating'>
+<meta content='0' itemprop='worstRating'>
+<meta content='1' itemprop='reviewCount'>
+<meta content='1' itemprop='ratingCount'>
+<meta content='Foodpages Rating' itemprop='name'>
+
+<a class="pull-right badge" href="http://dinehere.us/moomoosburgerbarn.rate">&#9733;&#9733;&#9733;&#9733;</a>
+</div>
+
+		<h1 itemprop="name" style="text-transform: capitalize; text-shadow: 1px 1px 1px #002868;">Moo Moo's Burger Barn
+
+</h1>
+        <span class="pull-right"> <a href="http://dinehere.us/moomoosburgerbarn.rate"><span class="fa-stack fa-sm"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-car fa-stack-1x"></i></span></a></span>
+
+<h2 itemprop="address">
+ <a href="http://moomoosburgerbarn.dinehere.us/?showmap=1">
+		<i class="icon-map-marker"></i> 
+
+<span class="label label-inverse">
+			222
+		N El Dorado St, Stockton CA
+</span>		
+</a>
+
+
+
+
+
+</h2>
+
+<span class="pull-right"> <a href="http://moomoosburgerbarn.dinehere.us/?vmenuo=1"><span class="fa-stack fa-sm"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-book fa-stack-1x"></i></span></a></span>
+
+
+
+
+		<h2 itemprop="telephone">
+<a href="tel:+12094699450">
+		<i class="icon-phone"></i>
+		<span class="label label-inverse">
+		(209) 469-9450
+		</span>
+</a>
+		</h2>	
+<br>	
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+<a href="http://moomoosburgerbarn.dinehere.us/?qqq=contact#contact" class="pull-right label"><i class="fa fa-send"></i> Contact </a>
+<a href="http://moomoosburgerbarn.dinehere.us/?reviewo=1" class="pull-left label"><i class="fa fa-pencil"></i> Review </a>
+</h3>
+<br>
+
+
+                </div> <!-- itemscope-->
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<div class="tree">
+
+    <ul>
+      <li>
+
+
+<a href="#">     <i class="icon-time"></i> <strong>
+
+Hours Today, 
+
+Wednesday April 27<sup>th</sup><br> 11:00 AM – 8:00 PM
+</strong>
+      </a>
+
+
+
+<ul>
+<li><i class="icon-li icon-ok"></i><small>Price:</small> Affordable </li>
+<li> <a href="http://dinehere.us/?ptx=37.954806&amp;pty=-121.289202"><i class="icon-move"></i> on N El Dorado St between Miner & Channel </a></li>
+        <li><a href="http://dinehere.us/?find=Restaurants&amp;near=37.954806,-121.289202&amp;onmap=1" rel="nofollow"><i class="icon-road"></i> Street View: N El Dorado St</a> </li>
+
+<li>      <a href="http://dinehere.us/moomoosburgerbarn.rate">Click for Map and Directions<img src="http://dinehere.us/m/directionsm.png"></a>
+              </li>
+
+
+ <li><i class="icon-external-link"></i> <a rel="nofollow" target="_blank" href="http://www.moo-moos.com">WebSite</a> </li>
+
+
+
+</ul>
+</li>
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="tree">
+    <ul>
+      <li>
+<a href="#">     <i class="icon-time"></i>
+Hours of Operation 
+</a>
+<ul>
+<li><a href="#">Monday 11:00 AM – 8:00 PM </a></li>
+<li><a href="#">Tuesday 11:00 AM – 8:00 PM </a></li>
+<li><a href="#">Wednesday 11:00 AM – 8:00 PM </a></li>
+<li><a href="#">Thursday 11:00 AM – 8:00 PM </a></li>
+<li><a href="#">Friday 11:00 AM – 9:00 PM </a></li>
+<li><a href="#">Saturday 11:00 AM – 9:00 PM </a></li>
+
+
+<li><a href="#">Sunday 11:00 AM – 8:00 PM </a></li>
+
+
+
+
+</ul>
+</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ReviewRessp -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8211201286524148"
+     data-ad-slot="7791263427"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<hr class="colorgraph">
+
+<strong style="color:#DDD; text-shadow: 1px 1px 1px #000000;">
+Moo Moo's Burger Barn
+</strong>
+
+<ul class="nav nav-list">
+ <li class="active"><a href="http://moomoosburgerbarn.dinehere.us/?reviewo=1" title="Moo Moo's Burger Barn Reviews"> <span class="badge pull-right">1</span><i class="icon-comments"></i> Reviews</a></li>
+</ul>
+<ul class="nav nav-list">
+<li class="active"><a href="http://moomoosburgerbarn.dinehere.us/?vmenuo=1"> <i class="icon-book"></i> Menu</a></li>
+</ul>
+<li><a href="http://dinehere.us/moomoosburgerbarn.pics"><i class="icon-camera-retro"></i> Photos</a></li>
+<br>
+
+
+
+
+
+
+	<div class="card">
+	   <div class="card-body">
+
+
+
+
+
+
+		<a class="pull-right" href="http://moomoosburgerbarn.dinehere.us/?badges=1" rel="nofollow"><i class="icon-certificate"></i> badges</a> <br>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="sidebar-nav">
+
+<hr class="colorgraph">
+<i class="icon-user"></i> 21<sup>st</sup> visitor. <a href="http://moomoosburgerbarn.dinehere.us/?qqq=contact#contact" class="pull-right"> Contact us <i class="icon-envelope"></i></a>
+
+
+
+	</div> <!--/.sidebar nav -->
+
+
+
+          </div><!--/.well -->
+
+        </div><!--/span-->
+
+        <div class="span9">
+
+<div id="wrapperp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="pull-right"><h3>
+         <a class="pull-right badge" href="http://moomoosburgerbarn.dinehere.us/?ratethisgo=1">21<sup>st</sup> visitor, <i class="icon-pencil"></i>Write a Review</a>
+</h3>
+</span>
+
+        <ul class="breadcrumb">
+<li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://dinehere.us/CA" itemprop="url"><span itemprop="title">CA</span></a>  <span class="divider">/</span></li>
+<li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://dinehere.us/CA/Stockton" itemprop="url"><span itemprop="title">Stockton</span></a>  <span class="divider">/</span></li>
+<li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://dinehere.us/CA/Stockton/Downtown" itemprop="url"><span itemprop="title">Downtown</span></a>  <span class="divider">/</span></li>
+<li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://moomoosburgerbarn.dinehere.us" itemprop="url"><span itemprop="title" style="text-transform: capitalize">Moo Moo's Burger Barn</span></a>  
+<small>
+<span style="border-bottom: 1px dotted #333;" data-time="2015-07-29 08:15:13">Updated nine months and three days ago</span>
+</small>
+<span class="divider">/</span></li>
+
+
+<li><a href="http://dinehere.us/CA/Stockton/restaurants/cuisine.2663">American Food</a></li>
+
+
+
+
+
+
+
+
+
+
+        <li>
+<div itemscope itemtype="http://schema.org/Organization">
+  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+      <a href="http://foodpages.ca/moomoosburgerbarn.rate">
+                                                        <span class="badge badge-success">
+
+    <div>rating:
+      <span class="label" itemprop="ratingValue">4.0</span> out of
+      <span class="label" itemprop="bestRating">5</span> with
+      <span class="label" itemprop="ratingCount">1</span> ratings
+    </div>
+
+
+</span></a></li>
+
+
+
+
+
+<li><span itemprop="title">Rank <a href="#rank">#2</a></span>  </li>
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+<div class="row-fluid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- responssive content -->
+
+
+
+
+<div class="row-fluid">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="row-fluid">
+
+
+</div>
+
+
+
+
+
+
+
+<div id="target" class="target" style="display: none;">
+
+
+<div class="span5">
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- halfpage -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8095515467317747"
+     data-ad-slot="3186196511"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>
+
+
+
+
+            <div id="reviews" class="span7">
+               <div class="card">
+<div class="card-body">
+<ul class="breadcrumb"><li>
+<b>Moo Moo's Burger Barn</b>
+
+is Ranked #2 of 27 Restaurants in Downtown Stockton.
+
+                                
+
+		Some say it is negative, awesome. 
+</li></ul>
+
+.
+The Latest Review: &#9733;&#9733;&#9733;&#9733;
+
+<blockquote>Sent on the 28<sup>th</sup> of August, 2007</blockquote>
+<div class="well">
+<i class="icon-quote-left icon-2x pull-left icon-muted"></i>
+
+Conviently located next to the new downtown cinema, Moo's is always a good lunch option.  They have all kinds of hamburgers and sandwiches, and of course, their awesome sweet potato fries.  The humburgers are big and juicy, and the sandwiches stacked high and full of meat and other goodies.  Did I say the sweet potato fries are awesome?  Most of the servers here are on the ball, and do a good job.  It can get packed at lunch sometimes, so get there before the crowd.  Only negative comment I have about Moo's is that their iced tea tastes gross, like they haven't cleaned the ice tea tank out for weeks.
+
+<i class="icon-quote-right icon-2x pull-right icon-muted"></i>
+
+</div>
+
+
+
+
+<!-- reviews -->
+
+<form enctype="multipart/form-data" name=rate action="/moomoosburgerbarn#ratings" method=POST>
+<input type=hidden name=ckv value="289474793">
+<table class="table table-bordered table-striped"><thead><th align="center">Your Vote</th><th align="center">Your Review</th></thead><tbody><tr><td align="center" valign="top" style="max-width: 95px">
+<button type="submit" class="btns" value="Excellent" name="rating" STYLE="background:#3d9400; min-width:95px; font-weight:bold">&#9733;&#9733;&#9733;&#9733;&#9733;<br />Excellent</button><br />
+<button type="submit" class="btns" value="Very Good" name="rating" STYLE="background:#629400; min-width:95px; font-weight:bold">&#9733;&#9733;&#9733;&#9733;<br />Very Good</button><br />
+<button type="submit" class="btns" value="Good" name="rating" STYLE="background:#5bc0de; min-width:95px; font-weight:bold">&#9733;&#9733;&#9733;<br />Good</button><br />
+<button type="submit" class="btns" value="Fair" name="rating" STYLE="background:#c09853; min-width:95px; font-weight:bold">&#9733;&#9733;<br />Fair</button><br />
+<button type="submit" class="btns" value="Poor" name="rating" STYLE="background:#dd4b39; min-width:95px; font-weight:bold">&#9733;<br />Poor</button><br />
+</td><td align="center" valign="top">
+<textarea class="input-block-level" name="comments" rows="11" cols="20"></textarea>
+</td></tr></tbody></table>
+<!-- revimgup -->
+<div class="alert alert-info">
+<i class="icon-camera-retro"></i> Upload a picture with your review (Optional)<input class="btn" type="file" name="revimgup" id="revimgup">
+</div>
+<input type=hidden name=storeid value="579468">
+<input type=hidden name=ck value="289474793">
+</form>
+
+
+
+<!-- reviews -->
+
+
+</div></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row-fluid">
+
+<div class="span12">
+
+<div class="span5">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- MediumAd -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8095515467317747"
+     data-ad-slot="6003390916"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+            <div class="span7">
+               <div class="card">
+<div id="contactform">
+        <div class="col-mid-4">
+            <form action="/moomoosburgerbarn" method="post" class="form">
+                <input type=hidden name=sidc value="579468">
+                <input type=hidden name=cik value="">
+            <div class="get-in-touch">
+                <h3 class="text-center">
+                    Contact us</h3> re: <a href="http://moomoosburgerbarn.dinehere.us">Moo Moo's Burger Barn</a> on 222 N El Dorado St, Stockton (209) 469-9450
+<i class="icon-external-link"></i><a rel="nofollow" target="_blank" href="http://www.moo-moos.com">WebSite</a>
+                <div class="form-group">
+                    <input type="email" name="Email" class="form-control" id="Email" placeholder="Your Email" required/>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="contactus" rows="3" placeholder="Message" required></textarea>
+                </div>
+<input class="btn btn-info btn-sm btn-block" type=submit name=sendcomment value=" Send Message ">
+            </div>
+            </form>
+        </div>
+<div class="alert alert-info">Please include your correct email address.</div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="row-fluid">
+
+                     <div id="FAQ" class="span12">
+               <div class="card">
+<p><b>Frequently Asked  Questions:</b></p>
+          <p>
+           This is a list of typical questions we have received on our <a href="http://moomoosburgerbarn.dinehere.us?qqq=contact#contact">contact page</a>.
+           <p>
+<p><b>Q. What is this web page?</b></p>
+<p class=indent>
+<b>A.</b> This is the food page of Moo Moo's Burger Barn on 222 N El Dorado St  Stockton.
+</p>
+<p><b>Q. How does it work?</b></p>
+<p class=indent>
+<b>A.</b> Restaurant staff <a href="http://dinehere.us/?logn=1">logs in</a> to edit this page or respond to visitors' reviews.  Visitors do not have to log in to write reviews. Optionally they can <a href="http://dinehere.us/?personalize=1&amp;logn=1">personalize</a> their Food, however the default visitor profile is anonymous.
+
+</p>
+
+
+<p><b>Q. You have a visitor counter. Do you track your web page visitors?</b></p>
+<p class=indent>
+
+<b>A.</b> 
+Your privacy is our number one concern. No personally identifiable information about you is stored at foodpages. Unless you have <a href="http://dinehere.us/?personalize=1&amp;logn=1">logged in</a> and set your user name, your reviews will be signed by an anonymous nickname <b>21<sup>st</sup></b>. This word links your visitor number to the time of your visit. 
+As of today, 21 visitors have visited this page. You are the 21<sup>st</sup>.
+
+</p>
+
+					
+<p><b>Q. How long has <a href="http://moomoosburgerbarn.dinehere.us">moomoosburgerbarn.dinehere.us</a> been around?</b></p>
+
+<p class=indent>
+
+<b>A.</b> 
+
+For quite some time. It got its first review on August 28, 2007 and was last updated on July 29, 2015.
+
+</p>
+
+
+
+<p><b>
+Q. Does Moo Moo's Burger Barn pay a fee to be listed here?
+</b></p>
+<p class=indent>
+<b>A.</b> No. This service is free, and it will always be. 
+</p>
+
+
+
+<p><b>
+Q. How do you ensure that the information you are displaying on these pages is correct?
+</b></p>
+<p class=indent>
+
+<b>A.</b> 
+That depends on visitors who frequent this Restaurant and <a href="http://moomoosburgerbarn.dinehere.us/?edit=1">suggest corrections</a>, and to a greater extent on Moo Moo's Burger Barn representatives who have the option of <a href="http://moomoosburgerbarn.dinehere.us?qqq=contact&amp;rep=1">claiming this page</a> and keeping their information up to date.
+</p>
+
+<p><b>
+Q. How do you rank Restaurants?
+</b></p>
+<p class=indent>
+
+<b>A.</b>
+We rank Restaurants by first grouping them together by proximity, then analyzing their ratings, reviews and comments. Recent reviews carry more ranking weight.
+Moo Moo's Burger Barn is currently ranked number 2 of 27 nearby Restaurants in Downtown Stockton.
+</p>
+
+
+<p><b>
+Q. What if someone submits an "abusive" review?
+</b></p>
+<p class=indent>
+<b>A.</b> We moderate all reviews that are posted anonymously.
+Only constructive criticism or various amounts of praise will be posted on this page.
+If you think we have missed something, <a href="http://moomoosburgerbarn.dinehere.us?qqq=contact#contact">let us know</a>.
+</p>
+
+
+
+
+<i>This F.A.Q. (<b>F</b>requently <b>A</b>sked <b>Q</b>uestions) summary was last updated on July 29, 2015.</i>
+<p>
+													      <br>
+
+<b>Did we answer your questions?</b>
+<p>
+If you have another question <a href="http://moomoosburgerbarn.dinehere.us?qqq=contact#contact">send it here</a>.
+<br>
+If yours is a frequent question, we may add it to this list.
+
+</div></div>
+
+</div>
+
+
+
+
+
+
+<div class="row-fluid">
+
+
+
+<div id="rank" class="span4">
+<div class="card">
+   <div class="card-body">
+  <table class="table table-bordered table-striped table-hover">
+    <thead>
+<tr>
+<th colspan="3">
+Ranking of nearby Restaurants
+</th>
+</tr>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr><td>1</td><td><a href="http://goldenpalacerestaurant-south-stockton.dinehere.us/#rank">Golden palace</a>, 130 S El Dorado St</td><td>4.50</td></tr><tr><td>2</td><td><a href="http://yasoo.dinehere.us/#rank">Yasoo Yani&#39;s</a>, 326 E Main St</td><td>4.00</td></tr><tr><td><a name="rank"></a><b>2</b></td><td><b>Moo Moo&#39;s Burger Barn, 222 N El Dorado St</b></td><td><b>4.00</b></td></tr><tr><td>3</td><td><a href="http://tiopepes-e.dinehere.us/#rank">Tio Pepe&#39;s II</a>, 135 E Lindsay St</td><td>2.00</td></tr><tr><td>4</td><td><a href="http://mcdonalds-s-stockton.dinehere.us/#rank">McDonalds</a>, 310 S. Center</td><td>1.00</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="row-fluid">
+
+<div class="span6">
+
+
+
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- TopResponssive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8211201286524148"
+     data-ad-slot="1260915027"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br>
+
+<div class="well">
+  Chicken Breast Basted with Chipotle Sauce, Topped with Pepper Jack Cheese, Green Chile, and Bacon, Served on a Kaiser Bun with Lettuce, Tomato and Chipotle Sauce <a href="http://moomoosburgerbarn.dinehere.us/?vmenuo=1">&raquo; More on Moo Moo's Burger Barn Menu</a>
+</div>
+
+
+<hr class="colorgraph">
+<p class="pull-right">
+
+</p>
+
+<a href="http://dinehere.us/?my=visits">
+ <span class="list-group-item visitor label label-inverse">
+                            <span class="list-group-item-heading count">
+                       21 </span> visits to this page. You are the <span>21<sup>st</sup></span>.
+                        </span>
+</a>
+
+ <a href="http://moomoosburgerbarn.dinehere.us/?edit=1" class="badge badge-info"><i class="icon-edit"></i> Edit page</a>
+
+<a href="http://dinehere.us" class="pull-right">dinehere.us</a>
+
+
+
+
+
+
+</div>
+<div class="span6">
+
+<div id="links"></div>
+
+<div class="tree">
+
+    <ul>
+      <li>
+
+
+       <a href="#" onclick="$('#target').toggle();" class="btn">
+<small>negative, awesome</small>
+<i class="fa fa-arrows-alt"> </i>
+
+
+
+
+
+</a>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- test -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8095515467317747"
+     data-ad-slot="4393524910"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+      </li>
+    </ul>
+  </div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+        </div><!--/span-->
+
+    </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; <a href="http://dinehere.us">dinehere.us</a> 2015 
+( <i class="icon-calendar"></i> Moo Moo's Burger Barn on 222 N El Dorado St, 
+
+Stockton CA 
+
+
+was last Updated on <time>2015-07-29 08:15:13</time> ) | <a href="http://dinehere.us/?qqq=privacy#info">Terms</a> | <a href="http://moomoosburgerbarn.dinehere.us/?qqq=contact#contact">Contact</a> 
+<span class="pull-right">
+<a href="https://www.facebook.com/dinehere.us"><i class="icon-facebook"></i> FaceBook</a> <a href="https://twitter.com/dine_here"><i class="icon-twitter"></i> Twitter </a>
+</span>
+</p>
+
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "http://dinehere.us/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://dinehere.us/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+    <script src="http://dinehere.us/newassets/js/jquery1.9.min.js"></script>
+
+
+
+ <script async src="http://dinehere.us/newassets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-101085-38']);
+  _gaq.push(['_setDomainName', '.dinehere.us']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+(function() {
+    var $win = $(window);
+    function checkScroll() {
+        if ($win.scrollTop() > 10) {
+            $win.off('scroll', checkScroll);
+            $('#target').fadeIn(2000);
+        }
+    }    
+    $win.scroll(checkScroll);
+})();
+</script>
+
+
+	<script>
+		$(function () {
+    $('.tree li').on('click', function (e) {
+        var children = $(this).find('> ul > li');
+        if (children.is(":visible")) children.hide('fast');
+        else children.show('fast');
+        e.stopPropagation();
+    });
+});
+	</script>
+
+
+
+
+
+        
+<script type="text/javascript">
+        // Animate the element's value from x to y:
+$({ someValue: 0 }).animate({ someValue: Math.floor( 21) }, {
+    duration: 3000,
+    easing: 'swing', // can be anything
+    step: function () { // called on every step
+        // Update the element's text with rounded-up value:
+        $('.count').text(commaSeparateNumber(Math.round(this.someValue)));
+    }
+});
+
+function commaSeparateNumber(val) {
+    while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+    }
+    return val;
+}        
+</script>
+
+
+<script>
+ function get_places(lat,lng,distance){
+    var sap=0; 
+
+
+  $.get("https://api.instagram.com/v1/media/search","lat="+lat+"&lng="+lng+"&distance="+distance+"&client_id=c75ce8e5bd344be395b1953b9f580685&type=image",function(data){
+
+
+     var vec=data["data"];
+var srcd = 'http://dinehere.us/moomoosburgerbarn.pics';
+     for(i in vec){
+        var name=vec[i]["location"]["name"];
+if (name) {
+
+
+
+var nname = "Moo Moo's Burger Barn";
+var thre=55;
+var similar = similar_text(name,nname,80);
+if (similar>thre ) {
+         var src=vec[i]["images"]["standard_resolution"]["url"];
+        var srclow=vec[i]["images"]["low_resolution"]["url"];
+        var thumbnail=vec[i]["images"]["thumbnail"]["url"];
+         var locname=vec[i]["caption"];
+         var from_username=vec[i]["user"]["username"];
+         var from_profile=vec[i]["user"]["profile_picture"];
+        var linku = vec[i]["link"];
+         var from_text="";
+         var say = vec[i]["caption"]!=null?from_text=vec[i]["caption"]["text"]:from_text="-";
+         var from_fullname=vec[i]["user"]["username"];
+         var created_time=vec[i]["created_time"];
+        var sayit = vec[i]["comments"]["data"]["text"];
+         var date = new Date(created_time*1000);
+         var year = date.getFullYear();
+         var month=date.getMonth();
+         var day = date.getDate();
+         var hour = date.getHours();
+         var min = date.getMinutes();
+         var sec = date.getSeconds();
+var timeago=year+"-"+month+"-"+day+"T"+hour+":"+min+":"+sec+"Z";
+ sap++;
+
+         var imghtml='<a href="'+srcd+'" data-link="'+linku+'" title="'+name+ ' ' +timeago+'">';
+             imghtml+= '<img src="'+thumbnail+'" alt="'+name+' ' +timeago+'" class="img-polaroid"></a>';
+
+
+    $("#links").append(imghtml);
+    $("#photoslink").append(imghtml);
+
+
+var latname = vec[i]["location"]["latitude"];
+var lonname = vec[i]["location"]["longitude"];
+var storeid = 579468;
+var sayit = vec[i]["comments"]["data"]["text"];
+var say = vec[i]["caption"]!=null?from_text=vec[i]["caption"]["text"]:from_text="-";
+var saythat = say + sayit;
+if (saythat) {
+jQuery.ajax({
+            type: "GET",
+            url:  "http://dinehere.us",
+            data: 'atsid='+storeid+'&atnam='+name+'&atlat='+latname+'&atlon='+lonname+'&comms='+sayit+say,
+            cache: false
+        });
+}
+
+
+
+}
+}
+    }
+  },'jsonp');
+return sap;
+}
+function similar_text(first, second, percent) {
+  //  discuss at: http://phpjs.org/functions/similar_text/
+  // original by: Rafał Kukawski (http://blog.kukawski.pl)
+  // bugfixed by: Chris McMacken
+  // bugfixed by: Jarkko Rantavuori original by findings in stackoverflow (http://stackoverflow.com/questions/14136349/how-does-similar-text-work)
+  // improved by: Markus Padourek (taken from http://www.kevinhq.com/2012/06/php-similartext-function-in-javascript_16.html)
+  //   example 1: similar_text('Hello World!', 'Hello phpjs!');
+  //   returns 1: 7
+  //   example 2: similar_text('Hello World!', null);
+  //   returns 2: 0
+
+  if (first === null || second === null || typeof first === 'undefined' || typeof second === 'undefined') {
+    return 0;
+  }
+
+  first += '';
+  second += '';
+
+  var pos1 = 0,
+    pos2 = 0,
+    max = 0,
+    firstLength = first.length,
+    secondLength = second.length,
+    p, q, l, sum;
+  max = 0;
+
+  for (p = 0; p < firstLength; p++) {
+    for (q = 0; q < secondLength; q++) {
+      for (l = 0;
+        (p + l < firstLength) && (q + l < secondLength) && (first.charAt(p + l) === second.charAt(q + l)); l++)
+      ;
+      if (l > max) {
+        max = l;
+        pos1 = p;
+        pos2 = q;
+      }
+    }
+  }
+  sum = max;
+  if (sum) {
+    if (pos1 && pos2) {
+      sum += this.similar_text(first.substr(0, pos1), second.substr(0, pos2));
+    }
+
+    if ((pos1 + max < firstLength) && (pos2 + max < secondLength)) {
+      sum += this.similar_text(first.substr(pos1 + max, firstLength - pos1 - max), second.substr(pos2 + max,
+        secondLength - pos2 - max));
+    }
+  }
+
+  if (!percent) {
+    return sum;
+  } else {
+    return (sum * 200) / (firstLength + secondLength);
+  }
+}
+var saplaces=0;
+saplaces=get_places("37.954806","-121.289202","20");
+ 
+</script>
+
+
+
+
+   </body>
+</html>
+

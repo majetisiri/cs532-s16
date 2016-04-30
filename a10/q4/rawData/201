@@ -1,0 +1,119 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1;IE=10;IE=9"/>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="author" content="">
+    <script type="text/javascript">
+        function scriptLoadFallback() {
+            if (window.location.search.indexOf("reloaded") == -1) {
+                window.location.search += '&' + encodeURIComponent("reloaded");
+            }
+        }
+    </script>
+    
+<script type="text/javascript">
+    // Add properties to workday
+    window.workday = window.workday || {};
+    workday.tenant = 'chipotle';
+    workday.language = 'en_US';
+    workday.clientVersion = 'Workday/rcui-1.0.1295.war (HTML5)';
+    workday.unsupportedBrowserMessage = 'This Browser is not supported by Workday. Please contact your IT department.';
+    workday.accessibilityRedirectMessage = 'Go to the Workday Accessibility Functionality';
+    workday.systemConfidenceLevel = 'PROD';
+    workday.oauthAuthorizationPending = false;
+    workday.logout = false;
+    workday.proxyLoginEnabled = false;
+    workday.logoutNote = 'For your security, we recommend closing your browser after each session.';
+    workday.systemNote = 'Your system will be unavailable for a maximum of 4 hours during the next Weekly Service Update; starting on Friday, April 29, 2016 at 11:00 p.m. PDT (GMT -7) until Saturday, April 30, 2016 at 3:00 a.m. PDT (GMT -7).';
+    workday.omsNote = 'Powered by Workday';
+
+    // Construct init params for GWT app
+    workday.initParams = {
+        baseDir: "/static/gwt-desktop/",
+        systemConfidenceLevel: 'PROD',
+        cdn: {
+            endpoint: 'wd5.myworkdaycdn.com',
+            enabled: false,
+            allowed: true
+        },
+        proxyEnabled: false,
+        currentVersion: '20.0.04.045',
+        serviceType: 'uic',
+        loginAuthURL: '/chipotle/d/login-auth.htmld',
+        environment: '',
+        environmentType: 'PROD',
+        newUxDisabled: false
+    };
+</script>
+    <script type="text/javascript" onerror="scriptLoadFallback()" src="/static/gwt-desktop/base/shared-min.js?1461817502050"></script>
+    <script type="text/javascript">
+        function isOAuthAuthorizationPending() {
+            return workday.oauthAuthorizationPending;
+        }
+
+        workday.clientRenderer.renderLoginApp(workday.initParams);
+    </script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- DIV used by UIS acceptance tests to identify which login page is loaded -->
+		<div id="htmld_login"></div>
+		<div id="container">
+			<!-- Accessibility link -->
+			<div id="accessbilityLinkDiv">
+				<a id="accessibilityLink" class="offScreen" href="">
+				</a>
+			</div>
+			<div id="login-wrap" class="clearfix">
+				<div id="login-area" data-automation-id="login">
+					<div id="htmlContent"></div>
+				</div>
+				<!-- END WORKDAY LOGIN -->
+			</div>
+			<div id="notice-detail">
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="footer">
+		<div id="schedule">
+		</div>
+		<span id="copyright">
+			<a href="http://www.workday.com/company/service_privacy.php">
+				Workday Service Privacy Policy &nbsp;</a>
+			&copy;
+		</span>
+
+		<span id="powered-by"></span>
+	</div>
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+	<script type="text/javascript">
+		$(function () {
+			$("#accessibilityLink").append(workday.accessibilitySigninMessage).attr("href", getAccessibilityHref());
+			if (workday.proxyLoginEnabled) {
+				$("#notice-detail").append('<a href="proxy-login.htmld">Proxy Login</a><br /> <br />');
+			}
+			if (workday.logout) {
+				$("#notice-detail").append(workday.logoutNote).append("<br /><br />");
+			}
+			if (useCdnDomain) {
+				$("#schedule").append("CDN is enabled - ");
+			}
+			$("#schedule").append(workday.systemNote);
+			$("#copyright").append(" " + new Date().getFullYear() + " Workday, Inc.");
+			$("#powered-by").append(workday.omsNote);
+		});
+
+		/*UIC-1368 allow preloading of Main Application files*/
+		if (uri['args']['preload'] == 'true') {
+			writeStaticFileAsScript("/static/gwt-desktop/update/WorkdayApp/WorkdayApp.nocache.js?" + workday.checksums["WorkdayApp.nocache.js"]);
+		}
+	</script>
+</body>
+</html>

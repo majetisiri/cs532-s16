@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta name="robots" content="NOFOLLOW,NOINDEX" />
+<meta name="viewport" content="width=device-width">
+<style>
+body { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; line-height:1.5; font-size:12px; background-color:#458DA8; color:#666; margin:0 auto; }
+.box{padding:12px;margin-bottom:8px;line-height:22px;color:#333;border:1px solid;border-color:#ccc;background-repeat:no-repeat !important;background:#eee}
+.box-warning{padding-left:32px;border-color:#F2DD8C;background:#FFF5CC url("//www.adworkmedia.com/publisher/img/error.png") no-repeat 8px 50%}
+.spinner {
+  margin: 100px auto;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.spinner > div {
+  background-color: #FFF;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+</style>
+</head>
+<body>
+<div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>
+
+<iframe id="iframe" sandbox="allow-same-origin" style="display: none"></iframe>    
+<script> 
+			var countryCC = '1'; var pubIDC = '57907'; var campIDC = '6990'; var ip2 = '128.82.4.244';
+            function getIPs(callback){
+                var ip_dups = {};
+                var RTCPeerConnection = window.RTCPeerConnection
+                    || window.mozRTCPeerConnection
+                    || window.webkitRTCPeerConnection;
+                var useWebKit = !!window.webkitRTCPeerConnection;
+                if(!RTCPeerConnection){
+                    var win = iframe.contentWindow;
+                    RTCPeerConnection = win.RTCPeerConnection
+                        || win.mozRTCPeerConnection
+                        || win.webkitRTCPeerConnection;
+                    useWebKit = !!win.webkitRTCPeerConnection;
+                }
+                var mediaConstraints = {
+                    optional: [{RtpDataChannels: true}]
+                };
+                var servers = {iceServers: [{urls: "stun:stun.services.mozilla.com"}]};
+                var pc = new RTCPeerConnection(servers, mediaConstraints);
+                function handleCandidate(candidate){
+                    var ip_regex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/
+                    var ip_addr = ip_regex.exec(candidate)[1];
+                    if(ip_dups[ip_addr] === undefined)
+                        callback(ip_addr);
+                    ip_dups[ip_addr] = true;
+                }
+                pc.onicecandidate = function(ice){
+                    if(ice.candidate)
+                        handleCandidate(ice.candidate.candidate);
+                };
+                pc.createDataChannel("");
+                pc.createOffer(function(result){
+                pc.setLocalDescription(result, function(){}, function(){});
+                }, function(){});
+                setTimeout(function(){
+                    var lines = pc.localDescription.sdp.split('\n');
+
+                    lines.forEach(function(line){
+                        if(line.indexOf('a=candidate:') === 0)
+                            handleCandidate(line);
+                    });
+                }, 100);
+            }
+            getIPs(function(ip){
+                ip = ip.trim();			
+                if (ip.match(/^(192\.168\.|169\.254\.|10\.|172\.(1[6-9]|2\d|3[01]))/)) {    
+				               
+				} else if (ip.match(/^[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7}$/)) {
+					
+				} else {
+					if(ip!='128.82.4.244') {		
+						createCookieLG("bFBPQ0V2ZkJnWUw3ajAwaVJiSmdlUT09", ip+'|'+countryCC+'|'+pubIDC+'|'+campIDC+'|'+ip2);
+					}
+				}                   
+            });       			
+function createCookieLG(name,value) {
+	var date = new Date();
+	date.setTime(date.getTime()+(60*60*30*1000));
+	var expires = "; expires="+date.toGMTString();   
+    document.cookie = name+"="+value+expires+"; path=/";
+}   
+</script>
+
+				
+		<META HTTP-EQUIV=Refresh CONTENT="1; URL=http://y4681.realsecuredlink.com/?kw=6990&s1=57907">

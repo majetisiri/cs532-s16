@@ -1,0 +1,927 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="fb:admins" content="800480,1205329541,1106460173,1710625"/>
+    <meta property="fb:app_id" content="254128108124361"/>
+
+    
+    
+    
+    
+
+    
+        <meta property="og:type" content="article" />
+    
+    
+        <meta property="og:image" content="http://www.greentechmedia.com/assets/content/cache/made/content/images/articles/reno-tesla_500_334.jpg"/>
+        <meta name="twitter:image:src" content="http://www.greentechmedia.com/assets/content/cache/made/content/images/articles/reno-tesla_500_334.jpg">
+    
+
+    
+        <meta property="og:title" content="Reports: Tesla Selects Nevada as Giga Battery Factory Site"/>
+        <meta name="twitter:title" content="Reports: Tesla Selects Nevada as Giga Battery Factory Site">
+    
+
+            <title>Reports: Tesla Selects Nevada as Giga Battery Factory Site | Greentech Media</title>
+        <meta name="description" content="Tesla has finally decided that it will build its battery factory near Reno, Nevada." />
+        
+    
+    
+
+    <meta property="twitter:account_id" content="16826617" />
+
+            
+        <meta name='parsely-page' content='{"title": "Reports: Tesla Selects Nevada as Giga Battery Factory Site","link": "http://www.greentechmedia.com/articles/read/Reports-Tesla-Selects-Nevada-as-Giga-Battery-Factory-Site","image_url": "//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/reno-tesla_600_400.jpg","type": "post","post_id": "353378","pub_date": "2014-09-03T15:15:53+00:00","section": "Grid Edge","author": "Eric Wesoff","tags": ["batteries","elon musk","lithium ion","model s","new mexico","panasonic","reno","solar city","tesla","tsla"]}'>
+
+        <meta name="twitter:site" content="@greentechmedia">
+        <meta name="twitter:domain" content="www.greentechmedia.com">
+        <meta name="twitter:description" content="Tesla has finally decided that it will build its battery factory near Reno, Nevada.">
+                <meta name="twitter:card" content="summary">
+        
+        
+    
+    
+    <meta name="google-site-verification" content="ZT-DcO_xvQQlq24mmHM5sBzzkHlbxIb9K0jgkv_ws6A" />
+
+        <link rel="stylesheet" href="//dqbasmyouzti2.cloudfront.net/assets/css/bootstrap.css?v=1459457744">
+        <link rel="stylesheet" href="//dqbasmyouzti2.cloudfront.net/assets/css/all.css?v=1460754326">
+            <link rel="shortcut icon" type="image/png" href="/img/gtm-favicon.png">
+    
+    
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.greentechmedia.com/GreentechMedia">
+
+    <!-- include HTML5 IE enabling script and stylesheet for IE -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    <script type="text/javascript" src="//fast.fonts.net/jsapi/1055e144-bd15-43a9-bb7e-38b53cd6811e.js"></script>
+
+    <script src="//dqbasmyouzti2.cloudfront.net/assets/js/squared-paywall.js?v=1460668415"></script>
+    <script>(function(){var m=location.search.match(/[\?\&]utm_source=([a-zA-Z0-9_-]+)(\&|$)/);window.utm_source=m?m[1]:""})()</script>
+    <script>document.write('<script src="//www.greentechmedia.com/?ACT=148&amp;entry_id=353378&amp;tp_created=1409757353&amp;tp_author=Eric+Wesoff&amp;tp_section=Grid+Edge&amp;utm_source='+utm_source+'"><\/script>')</script>
+    <script>
+    var tp = window["tp"] || [];
+    (function(src){var a=document.createElement("script");a.type = "text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a, b)})("//cdn.tinypass.com/api/tinypass.min.js");
+    </script>
+
+    
+    <script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-2335964-1', 'auto');
+        </script>
+
+                    <script type="text/javascript" charset="utf-8">
+                var primary_category_url = "pv-ev-storage";
+                if (typeof primary_category_url != "undefined" && primary_category_url != "") {
+                    ga('set', 'dimension1', primary_category_url);
+                };
+            </script>
+        
+        <script type="text/javascript" charset="utf-8">
+            var article_parent_channel = "Grid Edge";
+            if (typeof article_parent_channel != "undefined" && article_parent_channel != "") {
+                ga('set', 'dimension2', article_parent_channel);
+            };
+        </script>
+
+                    <script>
+                ga('send', 'pageview');
+            </script>
+                
+</head>
+<body id="news" class="articles read Reports-Tesla-Selects-Nevada-as-Giga-Battery-Factory-Site ">
+<div id="wrapper">
+						<div class="container-row">
+						<aside id="sidebar" class="win-height">
+				<div class="sidebar-holder">
+					<div class="sidebar-header">
+						<a href="#search-drop1" class="search-opener collapsed" data-toggle="collapse" data-parent="#header" aria-expanded="false"><i class="icon-magnify"></i></a>
+						<a href="#" class="nav-opener"><span>menu</span></a>
+						<div class="logo"><a href="/"><img src="/assets/images/css/logo.svg" alt="gtm" width="120" height="59" onerror="this.onerror=null; this.src='/assets/images/logo.png'"></a></div>
+						<div class="collapse search-box" id="search-drop1">
+							<div class="drop-holder">
+								<form method="post" action="/">
+									<div class="hiddenFields">
+										<input type="hidden" name="params" value="eyJjaGFubmVsIjoiYXJ0aWNsZXMiLCJvcmRlcmJ5IjoiZGF0ZSIsInNvcnQiOiJkZXNjIiwia2V5d29yZHMiOiJoYXdhaWkifQ">
+										<input type="hidden" name="ACT" value="138">
+										<input type="hidden" name="site_id" value="1">
+									</div>
+									<fieldset>
+										<button class="btn btn-submit" type="submit"><i class="icon-arrow-right"></i></button>
+										<div class="input-wrap">
+											<input type="search" name="keywords" placeholder="Search Greentech Media">
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="jcf-scroll-wrap">
+						<div class="jcf-scrollable">
+							<div class="side-nav-holder">
+								<div class="side-nav-wrap">
+									<nav id="nav">
+										<ul id="accordion">
+											<li class="panel">
+												<a href="#one" class="collapsed" data-parent="#accordion" data-toggle="collapse" aria-expanded="false">SOLAR</a>
+												<div id="one" class="collapse">
+													<ul>
+														<li><a class="all" href="http://www.greentechmedia.com/channel/solar">All</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/projects">Solar Projects</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/utility-scale-solar">Utility-Scale Solar</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/thin-film">PV Modules</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/markets-and-policy">Markets &amp; Policy</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/solar-finance-vc">Solar Finance &amp; VC</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/bos-inverters">BOS/Inverters</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/manufacturing">Manufacturing</a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="panel">
+												<a href="#two" class="collapsed" data-parent="#accordion" data-toggle="collapse" aria-expanded="false">GRID EDGE</a>
+												<div id="two" class="collapse">
+													<ul>
+														<li><a class="all" href="http://www.greentechmedia.com/channel/gridedge">All</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/network-infrastructure-ami">Network Infrastructure </a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/grid-optimization">Grid Optimization</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/home-area-networks">HAN/BAN</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/demand-response">Demand Response</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/storage">Energy Storage</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/software-and-applications">Software/Analytics</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/transmission-distribution">Utilities</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/regulation-and-policy">Regulation &amp; Policy</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/ev-integration">EV Integration</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/microgrids">Microgrids</a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="panel">
+												<a href="#three" class="collapsed" data-parent="#accordion" data-toggle="collapse" aria-expanded="false">ETC.</a>
+												<div id="three" class="collapse">
+													<ul>
+														<li><a class="all" href="http://www.greentechmedia.com/channel/etc">All</a></li>
+														<li><a  href="http://www.greentechmedia.com/channel/next-generation-utility">Next Generation Utility</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/fossil-fuels">Fossil Fuels</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/biofuels">Biofuels</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/transportation">Transportation</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/water">Water</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/wind">Wind</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/finance-and-vc">Finance &amp; VC</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/policy">Policy</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/energy-efficiency">Efficiency</a></li>
+														<li><a  href="http://www.greentechmedia.com/articles/category/other-energy">Other Energy</a></li>
+														<li><a  href="http://www.greentechmedia.com/industry">Press Releases</a></li>
+														<li><a  href="http://www.greentechmedia.com/events/industry">Industry Events</a></li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</nav>
+									<nav class="side-nav">
+										<ul class="hidden-sm hidden-xs">
+											<li><a href="/multimedia">Videos</a></li>
+											<li><a href="/podcast/the-energy-gang"><span>The Energy Gang</span> <span class="icon-podcast"></span></a></li>
+											<li><a href="/events/webinars">Webinars</a></li>
+											<li><a href="/sponsored/resource-center">White Papers</a></li>
+										</ul>
+										<ul class="hidden-md hidden-lg">
+											<li><a href="/multimedia">Videos</a></li>
+											<li><a href="/podcast/the-energy-gang">Energy Gang Podcast</a></li>
+											<li><a href="/events/webinars">Webinars</a></li>
+											<li><a href="/sponsored/resource-center">White Papers</a></li>
+										</ul>
+									</nav>
+									<ul class="utility-events-links">
+										<li class="primary"><a href="/events"><span>GTM Events</span><span class="icon-arrow-01"></span></a></li>
+										<li class="info"><a href="/research"><span>GTM Research</span><span class="icon-arrow-01"></span></a></li>
+										<li class="primary"><a href="/squared"><span>GTM Squared</span><span class="icon-arrow-01"></span></a></li>
+									</ul>
+									<div class="sidebar-footer">
+										<div class="side-footer-link">
+											<ul class="side-link">
+												<li><a href="/about">About</a></li>
+												<li><a href="/about/advertise">Advertising</a></li>
+												<li><a href="/about/jobs">Careers</a></li>
+												<li><a href="/about/contact">Contact</a></li>
+												<li><a id="newsletter-settings-link" href="/newsletters">Newsletter<span class="logged-in-only-inline"> Setting</span>s</a></li>
+												<li><a href="/about/terms-of-use">Terms &amp; Conditions</a></li>
+												<li><a href="/about/privacy-policy">Privacy Policy</a></li>
+											</ul>
+											<ul class="social-networks">
+												<li class="facebook"><a href="https://www.facebook.com/greentechmedia"><i class="icon-fb"></i></a></li>
+												<li class="twitter"><a href="https://twitter.com/greentechmedia"><i class="icon-twitter"></i></a></li>
+												<li class="linkedin"><a href="https://www.linkedin.com/company/greentech-media"><i class="icon-linkedin"></i></a></li>
+												<li class="rss"><a href="/about/subscribe/rss"><i class="icon-rss"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</aside>				<div class="container-wrapper" id="content">
+					<div class="container-holder">
+							<header id="header">
+					<div class="container-holder">
+						<ul class="utility-events-links">
+							<li class="primary"><a href="/events"><span>gtm events</span><span class="icon-arrow-01"></span></a></li>
+							<li class="info"><a href="/research"><span>GTM Research</span><span class="icon-arrow-01"></span></a></li>
+							<li class="primary"><a href="/squared"><span>GTM Squared</span><span class="icon-arrow-01"></span></a></li>
+						</ul>
+						
+						<form method="post" action="/">
+							<div class="hiddenFields">
+								<input type="hidden" name="params" value="eyJjaGFubmVsIjoiYXJ0aWNsZXMiLCJvcmRlcmJ5IjoiZGF0ZSIsInNvcnQiOiJkZXNjIiwia2V5d29yZHMiOiJoYXdhaWkifQ">
+								<input type="hidden" name="ACT" value="138">
+								<input type="hidden" name="site_id" value="1">
+							</div>
+							<div class="search">
+								<input type="text" name="keywords" placeholder="Search Greentech Media">
+								<button><i class="icon-magnify"></i></button>
+							</div>
+						</form>
+					</div>
+				</header>
+				
+			
+		
+	
+<div class="js-carousel header-slider">
+	<div class="mask">
+		<div class="slideset">
+			
+			<div class="slide">
+				<div class="img-holder">
+					<a href="/articles/read/rhone-resch-exit-interview">
+						<span data-picture data-alt="image description">
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Iwo_Jima_Sunrise_XL.png" ></span>
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Iwo_Jima_Sunrise_XL.png" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)" ></span> <!-- retina 2x tablet -->
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Iwo_Jima_Sunrise_XL.png" data-media="(max-width:767px)" ></span> <!-- retina 1x mobile -->
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Iwo_Jima_Sunrise_XL.png" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)" ></span> <!-- retina 2x mobile -->
+							<!--[if (lt IE 9) & (!IEMobile)]>
+								<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Iwo_Jima_Sunrise_XL.png"></span>
+							<![endif]-->
+							<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+							<noscript><img src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Iwo_Jima_Sunrise_XL.pngg" width="93" height="69" alt="image description" ></noscript>
+						</span>
+					</a>
+				</div>
+				<strong class="general-caption">
+					<a href="/articles/read/rhone-resch-exit-interview"> Rhone Resch Exit Interview: A Crash Course on the Modern Political History of Solar in Washington</a>
+				</strong>
+			</div>
+			
+			<div class="slide">
+				<div class="img-holder">
+					<a href="/articles/read/is-distributed-generation-the-answer-to-regulatory-dysfunction">
+						<span data-picture data-alt="image description">
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/DukeChops100MDistributedSolarProjectinHalf_medium_image1_1222.jpg" ></span>
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/DukeChops100MDistributedSolarProjectinHalf_medium_image1_1222.jpg" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)" ></span> <!-- retina 2x tablet -->
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/DukeChops100MDistributedSolarProjectinHalf_medium_image1_1222.jpg" data-media="(max-width:767px)" ></span> <!-- retina 1x mobile -->
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/DukeChops100MDistributedSolarProjectinHalf_medium_image1_1222.jpg" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)" ></span> <!-- retina 2x mobile -->
+							<!--[if (lt IE 9) & (!IEMobile)]>
+								<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/DukeChops100MDistributedSolarProjectinHalf_medium_image1_1222.jpg"></span>
+							<![endif]-->
+							<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+							<noscript><img src="//dqbasmyouzti2.cloudfront.net/content/images/articles/DukeChops100MDistributedSolarProjectinHalf_medium_image1_1222.jpgg" width="93" height="69" alt="image description" ></noscript>
+						</span>
+					</a>
+				</div>
+				<strong class="general-caption">
+					<a href="/articles/read/is-distributed-generation-the-answer-to-regulatory-dysfunction"> Is Distributed Generation the Answer to Regulatory Dysfunction?</a>
+				</strong>
+			</div>
+			
+			<div class="slide">
+				<div class="img-holder">
+					<a href="/articles/read/batteries-will-not-be-the-future-of-grid-balancing-in-germany">
+						<span data-picture data-alt="image description">
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Younicos_Storage_XL.png" ></span>
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Younicos_Storage_XL.png" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)" ></span> <!-- retina 2x tablet -->
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Younicos_Storage_XL.png" data-media="(max-width:767px)" ></span> <!-- retina 1x mobile -->
+							<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Younicos_Storage_XL.png" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)" ></span> <!-- retina 2x mobile -->
+							<!--[if (lt IE 9) & (!IEMobile)]>
+								<span data-src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Younicos_Storage_XL.png"></span>
+							<![endif]-->
+							<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+							<noscript><img src="//dqbasmyouzti2.cloudfront.net/content/images/articles/Younicos_Storage_XL.pngg" width="93" height="69" alt="image description" ></noscript>
+						</span>
+					</a>
+				</div>
+				<strong class="general-caption">
+					<a href="/articles/read/batteries-will-not-be-the-future-of-grid-balancing-in-germany"> Report: Batteries Will Not Be the Future of Grid Balancing in Germany</a>
+				</strong>
+			</div>
+			
+		</div>
+	</div>
+	<a class="btn-prev" href="#"><span class="icon-caret-left"></span></a>
+	<a class="btn-next" href="#"><span class="icon-caret-right"></span></a>
+</div>
+
+
+<div class="article-header-box" >
+	<strong class="small-header">PV, EV, & Storage</strong>
+	<div class="row">
+		<div class="col-sm-12">
+			
+			<h1 class="article-page-heading">
+				Reports: Tesla Selects Nevada as Giga Battery Factory Site
+			</h1>
+			<div class="img-desc hidden-sm hidden-md hidden-lg">
+				<p>Tesla has finally decided that it will build its battery factory near Reno, Nevada.</p>
+				<div class="meta">
+					<span class="by-info">by Eric Wesoff </span>
+					<br>
+					September 03, 2014
+				</div>
+			</div>
+			<div class="img-holder">
+				<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/reno-tesla_410_282_c1.jpg" alt="Reports: Tesla Selects Nevada as Giga Battery Factory Site" width="410" height="282" />
+							</div>
+			<div class="img-desc hidden-xs">
+				<p>Tesla has finally decided that it will build its battery factory near Reno, Nevada.</p>
+				<div class="meta">
+					<span class="by-info">by Eric Wesoff </span>
+					<br>
+					September 03, 2014
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="misc-box">
+				<span class="comment-count"><a href="/articles/read/Reports-Tesla-Selects-Nevada-as-Giga-Battery-Factory-Site#disqus_thread">1</a></span>
+				<ul class="social-networks ">
+	<li class="email"><a href="#" class="link-mail"><i class="icon-email"></i></a></li>
+	<li class="facebook"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.greentechmedia.com%2Farticles%2Fread%2FReports-Tesla-Selects-Nevada-as-Giga-Battery-Factory-Site" target="_blank"><i class="icon-fb"></i></a></li>
+	<li class="twitter"><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.greentechmedia.com%2Farticles%2Fread%2FReports-Tesla-Selects-Nevada-as-Giga-Battery-Factory-Site&amp;text=Reports%3A+Tesla+Selects+Nevada+as+Giga+Battery+Factory+Site&amp;via=greentechmedia" target="_blank"><i class="icon-twitter"></i></a></li>
+	<li class="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.greentechmedia.com%2Farticles%2Fread%2FReports-Tesla-Selects-Nevada-as-Giga-Battery-Factory-Site" target="_blank"><i class="icon-linkedin"></i></a></li>
+</ul>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<article class="article-body">
+	<div class="row custom add">
+		<div class="col-md-5 pull-right">
+			
+			<section class="ad-container" style="text-align:center;margin-bottom: 20px;">
+				<div id='div-gpt-ad-4327936056410-0' class="ad medium-rectangle">
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.defineSlot('/1062325/gridtechArticleMediumRectangle', [300, 250], 'div-gpt-ad-4327936056410-0')
+				.addService(googletag.pubads())
+				.setTargeting("pg_url", window.location.pathname);
+			googletag.enableServices();
+			googletag.display('div-gpt-ad-4327936056410-0');
+		});
+	</script>
+</div>
+			</section>
+		</div>
+		<div class="col-md-9">
+			
+			
+				
+					
+						<p>
+	As we reported in July, Tesla has broken ground on its immense battery factory outside of Reno, Nevada. That spot represented at least one of the two candidates for the factory.</p>
+<p>
+	Today, sources cited by <a href="http://www.cnbc.com/id/101937267" target="_blank">CNBC</a> say that Tesla has decided that it will build its battery factory in Nevada.</p>
+<p>
+	A press conference is planned for tomorrow in Carson City, as per a Dow Jones report. We&#39;ll keep you updated.</p>
+<p>
+	Here&#39;s our earlier reporting:</p>
+<p>
+	It appears that work has already begun on the site of the new $5 billion Tesla Giga factory near Reno, Nevada. It&#39;s the planned location of the world&#39;s largest lithium-ion battery factory and the potential enabler of lower-cost Tesla electric vehicles.</p>
+<p>
+	Yesterday, our unnamed source (Bob Tregilus) hiked a few high-desert ridges in Storey County, Nevada to take pictures of 50 earthmovers moving earth at a site that Tregilus estimated to be large enough to accommodate the proposed 10-million-square-foot factory. Tregilus has also heard whispers about a secret project from construction industry folks and locals.</p>
+<p>
+	The site is located at the Reno Tahoe Industrial Center at 2641 Portofino Drive. Here&#39;s one of Tregilus&#39; photos:</p>
+<p>
+	<em>(click to enlarge)</em></p>
+<h3>
+	<a href="http://www.greentechmedia.com/content/images/articles/tesla-giga-1.jpg" target="_blank"><img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/tesla-giga-1_558_266.jpg" alt="" width="558" height="266" /></a></h3>
+<p>
+	<em>Photo credit: Bob Tregilus</em></p>
+<p>
+	It&#39;s a great photo, but it turns out that last month, the<em> Reno Gazette-Journal</em> <a href="http://www.rgj.com/story/money/reno-rebirth/2014/06/09/reno-san-antonio-tesla-gigafactory/10261205/" target="_blank">reported</a> that "an excavation permit to begin site work for a sizable project has been pulled [on May 22] by the Tahoe-Reno Industrial Center" at 2641 Portofino Drive. The paper notes, "The business park could potentially begin site preparation work before any official contract with Tesla is signed, adding, "In addition to the excavation permit in Storey County, the contractor for the Portofino Drive project has air quality and storm water permits from the state&#39;s Environmental Protection Division." There was no confirmation that this is indeed the Tesla site.</p>
+<p>
+	Reno has been considered the front-runner for Tesla&#39;s vertically integrated super factory.</p>
+<p>
+	<a href="http://www.greentechmedia.com/articles/read/Teslas-5B-Giga-Battery-Factory-and-Deep-Politics-in-AZ-TX-NV-and-NM">In March we covered the deep politics</a> surrounding the Tesla battery Giga factory -- which pitted Texas, Arizona, New Mexico, Nevada and California against each other for the rights to the $5 billion high-tech manufacturing site. Tesla aims to build 500,000 cars per year by 2020 and will need an unprecedented volume of lithium-ion batteries to hit this target.&nbsp; &nbsp;&nbsp;</p>
+<p>
+	We recently covered a presentation from <a href="http://www.greentechmedia.com/articles/read/Tesla-CTO-on-Energy-Storage-We-Should-All-Be-Thinking-Bigger">Tesla CTO JB Straubel</a>, in which he spoke of attacking the battery&#39;s cost with the Giga factory by "doubling the worldwide capacity in a single factory and reinventing the supply chain." A total of 35 gigawatt-hours of cell production from the new plant will be devoted to meeting the needs of the Fremont automotive plant, and 15 gigawatt-hours will be devoted to stationary battery packs. Straubel said that Tesla was "bullish" about the California energy storage mandate. Straubel also said he was bullish that stationary energy storage "can scale faster than automotive."</p>
+<p>
+	The project has the potential to provide more than 6,000 jobs.&nbsp;</p>
+<p>
+	Elon Musk, Tesla CEO, is intent on moving forward with two sites, according to Bloomberg, saying in an earlier interview, "What we&rsquo;re going to do is move forward with more than one state, at least two, all the way to breaking ground, just in case there are last-minute issues."</p>
+<p>
+	<em>Current occupants of the Nevada site</em></p>
+<p>
+	<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/tesla-giga-horses_559_192.jpg" alt="" width="559" height="192" /></p>
+<p>
+	<em>Photo credit: Bob Tregilus</em></p>
+<p>
+	<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/tesla-giga-cows_567_301.jpg" alt="" width="567" height="301" /></p>
+<p>
+	<em>Photo credit: Bob Tregilus</em></p>
+<h3>
+	Giga factory facts and figures</h3>
+<ul>
+	<li>
+		Tesla announced a $1.6 billion convertible debt offering. Tesla looks to offer $800 million of convertible senior notes due in 2019 and $800 million due in 2021 to build the world&#39;s largest battery factory.</li>
+	<li>
+		Elon Musk predicts that the new factory will produce batteries for 500,000 vehicles by 2020.</li>
+	<li>
+		Tesla expects to reduce the kilowatt-hour price of batteries by 30 percent.</li>
+	<li>
+		The plan is for construction to start in 2014, with production beginning in 2017.</li>
+	<li>
+		The facility will house more than 6,000 workers in 10 million square feet of factory space.</li>
+	<li>
+		The plant will provide recycling capability for old battery packs.</li>
+	<li>
+		Musk also said that Panasonic, currently supplying hundreds of millions of cells to Tesla, would likely join in on the new factory, but no commitments have been made.</li>
+</ul>
+<p>
+	Here&#39;s a rendering of the proposed plant:</p>
+<p>
+	<img src="//dqbasmyouzti2.cloudfront.net/content/images/articles/tesla-gigfactory-rendering-582px.png" alt="" width="582" height="327" /></p>
+
+					
+				
+			
+		</div>
+	</div>
+</article>
+
+<div class="adv-block add2 hidden-xs hidden-sm">
+	<div id='div-gpt-ad-5576817760636-0' class="">
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.defineSlot('/1062325/gridtechArticleLeaderboard', [728, 90], 'div-gpt-ad-5576817760636-0')
+				.addService(googletag.pubads())
+				.setTargeting("pg_url", window.location.pathname);
+			googletag.enableServices();
+			googletag.display('div-gpt-ad-5576817760636-0');
+		});
+	</script>
+</div>
+</div>
+
+<div class="tag-article"><ul class="tag-list"><li><a href="http://www.greentechmedia.com/articles/tag/batteries">batteries</a></li><li><a href="http://www.greentechmedia.com/articles/tag/elon+musk">elon musk</a></li><li><a href="http://www.greentechmedia.com/articles/tag/lithium+ion">lithium ion</a></li><li><a href="http://www.greentechmedia.com/articles/tag/model+s">model s</a></li><li><a href="http://www.greentechmedia.com/articles/tag/new+mexico">new mexico</a></li><li><a href="http://www.greentechmedia.com/articles/tag/panasonic">panasonic</a></li><li><a href="http://www.greentechmedia.com/articles/tag/reno">reno</a></li><li><a href="http://www.greentechmedia.com/articles/tag/solar+city">solar city</a></li><li><a href="http://www.greentechmedia.com/articles/tag/tesla">tesla</a></li><li><a href="http://www.greentechmedia.com/articles/tag/tsla">tsla</a></li></ul></div>
+<div class="article-author">
+	
+	<div class="row">
+		<ul class="social-networks">
+			<li class="twitter"><a target="_blank" href="https://www.twitter.com/ewesoff" target="_blank"><i class="icon-twitter"></i></a></li>						<li class="rss"><a target="_blank" href="/articles/feed/author/Eric+Wesoff"><i class="icon-rss"></i></a></li>
+		</ul>
+		<div class="col-md-6 col-sm-7">
+						<div class="author-img">
+				<a href="/authors/Eric+Wesoff">
+					<img src="//dqbasmyouzti2.cloudfront.net/images/avatars/uploads/avatar_11.jpg" width="80" height="80" alt="" />
+				</a>
+			</div>
+			
+			<div class="author-info">
+				<strong class="name"><a href="/authors/Eric+Wesoff"> Eric Wesoff</a></strong>
+				<p> <br>Greentech Media</p>
+			</div>
+		</div>
+		<div class="col-md-7 col-sm-6">
+			<div class="text">
+				Eric Wesoff is the Editor-in-Chief at Greentech Media. Prior to joining GTM, Eric Wesoff founded Sage Marketing Partners in 2000 to provide sales and marketing-consulting services to venture-capital firms and their portfolio companies in the alternative energy and telecommunications sectors. Mr. Wesoff has become a well-known, respected authority and speaker in these fields. <br />
+<br />
+His expertise covers solar power, fuel cells, biofuels and advanced batteries. His strengths are in market research and analysis, business development and due diligence for investors. He frequently consults for energy startups and Silicon Valley's premier venture capitalists.			</div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="related-articles">
+	<div class="row">
+		
+<div class="col-sm-4">
+	<article class="article-box">
+		<div class="img-holder">
+			<a href="/articles/read/Aquion-Energy-Continues-Funding-Momentum-With-a-33M-Round-For-Its-New-Batt">
+				<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Aquion_Energy_XL_244_183_c1.png" alt="Aquion Energy Continues Funding Momentum With a $33M Round for New Battery Technology" width="244" height="183" />
+			</a>
+		</div>
+		<div class="meta small-header">
+			04.27.16 <span class="category">Energy Storage</span>
+		</div>
+		<h3><a href="/articles/read/Aquion-Energy-Continues-Funding-Momentum-With-a-33M-Round-For-Its-New-Batt">Aquion Energy Continues Funding Momentum With a $33M Round for New Battery Technology</a></h3>
+	</article>
+</div>
+
+<div class="col-sm-4">
+	<article class="article-box">
+		<div class="img-holder">
+			<a href="/articles/read/slideshow-demand-response-at-the-grid-edge">
+				<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/transmissionwires620x448_244_183_c1.png" alt="Slideshow: Demand Response at the Grid Edge" width="244" height="183" />
+			</a>
+		</div>
+		<div class="meta small-header">
+			04.27.16 <span class="category">Demand Response</span>
+		</div>
+		<h3><a href="/articles/read/slideshow-demand-response-at-the-grid-edge">Slideshow: Demand Response at the Grid Edge</a></h3>
+	</article>
+</div>
+
+<div class="col-sm-4">
+	<article class="article-box">
+		<div class="img-holder">
+			<a href="/articles/read/rhone-resch-exit-interview">
+				<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Iwo_Jima_Sunrise_XL_244_183_c1.png" alt="Rhone Resch Exit Interview: A Crash Course on the Modern Political History of Solar in Washington" width="244" height="183" />
+			</a>
+		</div>
+		<div class="meta small-header">
+			04.27.16 <span class="category">Markets & Policy</span>
+		</div>
+		<h3><a href="/articles/read/rhone-resch-exit-interview">Rhone Resch Exit Interview: A Crash Course on the Modern Political History of Solar in Washington</a></h3>
+	</article>
+</div>
+
+<div class="col-sm-4">
+	<article class="article-box">
+		<div class="img-holder">
+			<a href="/articles/read/ten-big-utilities-collectively-spent-250-million-on-lobbying">
+				<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_244_183_c1.png" alt="10 Big Utilities Collectively Spent $250 Million on Lobbying and Political Campaigns Since 2011" width="244" height="183" />
+			</a>
+		</div>
+		<div class="meta small-header">
+			04.27.16 <span class="category">Utilities</span>
+		</div>
+		<h3><a href="/articles/read/ten-big-utilities-collectively-spent-250-million-on-lobbying">10 Big Utilities Collectively Spent $250 Million on Lobbying and Political Campaigns Since 2011</a></h3>
+	</article>
+</div>
+
+	</div>
+</div>
+
+<a name="comments"></a>
+<div id="disqus_thread" style="padding: 20px;"></div>
+<script type="text/javascript">var disqus_shortname = 'greentechmedia';</script>
+<script type="text/javascript">
+	var disqus_title = 'Reports: Tesla Selects Nevada as Giga Battery Factory Site';
+	var disqus_url = 'http://www.greentechmedia.com/articles/read/Reports-Tesla-Selects-Nevada-as-Giga-Battery-Factory-Site';
+	var disqus_identifier = '353378';
+
+    	var disqus_config = function () {
+		this.callbacks.onNewComment = [function(comment) {
+			$.ajax({
+				type: 'POST',
+				url: 'http://www.greentechmedia.com/ajax/disqus_comment_record',
+				data: {'entry_id': '353378', 'comment_id': comment.id, 'comment_text': comment.text},
+				dataType: 'json',
+				success: function(data)
+				{console.log(data);}
+			});
+		}];
+	};
+	
+	(function() {
+		var d = document, s = d.createElement('script');
+
+		s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//greentechmedia.disqus.com/count.js" async></script>
+
+
+<img src="http://www.greentechmedia.com/?ACT=119&amp;site_id=1&amp;entry_id=353378" alt="Tracker Pixel for Entry"/>
+
+
+<div class="aside-article-holder">
+	<div class="aside-article-filter">
+		<div class="article-filter-block">
+			<nav class="filter-nav">
+				<ul>
+					<li class="active"><a href="#" data-block="most-popular">MOST POPULAR</a></li>
+					<li><a href="#" data-block="most-comments">MOST COMMENTS</a></li>
+				</ul>
+			</nav>
+			<div class="article-filter most-popular active">
+				<ul class="aside-article-list">
+				
+					
+					<li>
+						<div class="img-holder">
+							<a href="/articles/read/is-teslas-powerwall-luster-already-fading">
+								<span data-picture data-alt="image description">
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png"></span>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)"></span> <!-- retina 2x tablet -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" data-media="(max-width:767px)"></span> <!-- retina 1x mobile -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)"></span> <!-- retina 2x mobile -->
+									<!--[if (lt IE 9) & (!IEMobile)]>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png"></span>
+									<![endif]-->
+									<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+									<noscript>
+										<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" width="93" height="69" alt="image description">
+									</noscript>
+								</span>
+							</a>
+						</div>
+						<strong class="title-text"><a href="/articles/read/is-teslas-powerwall-luster-already-fading">Is the Luster of Tesla&#8217;s Powerwall Already Fading?</a></strong>
+					</li>
+					
+					<li>
+						<div class="img-holder">
+							<a href="/articles/read/If-Tesla-Model-X-Rollout-is-Any-Indication-Autonomous-Driving-is-Going-to">
+								<span data-picture data-alt="image description">
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png"></span>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)"></span> <!-- retina 2x tablet -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" data-media="(max-width:767px)"></span> <!-- retina 1x mobile -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)"></span> <!-- retina 2x mobile -->
+									<!--[if (lt IE 9) & (!IEMobile)]>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png"></span>
+									<![endif]-->
+									<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+									<noscript>
+										<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" width="93" height="69" alt="image description">
+									</noscript>
+								</span>
+							</a>
+						</div>
+						<strong class="title-text"><a href="/articles/read/If-Tesla-Model-X-Rollout-is-Any-Indication-Autonomous-Driving-is-Going-to">If the Tesla Model X Rollout Is Any Indication, Autonomous Driving Is Going to Be a Bloodbath</a></strong>
+					</li>
+					
+					<li>
+						<div class="img-holder">
+							<a href="/articles/read/SunEdison-Just-Filed-For-Chapter-11-Bankruptcy">
+								<span data-picture data-alt="image description">
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/icarus_93_69_c1.jpg"></span>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/icarus_93_69_c1.jpg" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)"></span> <!-- retina 2x tablet -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/icarus_93_69_c1.jpg" data-media="(max-width:767px)"></span> <!-- retina 1x mobile -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/icarus_93_69_c1.jpg" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)"></span> <!-- retina 2x mobile -->
+									<!--[if (lt IE 9) & (!IEMobile)]>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/icarus_93_69_c1.jpg"></span>
+									<![endif]-->
+									<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+									<noscript>
+										<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/icarus_93_69_c1.jpg" width="93" height="69" alt="image description">
+									</noscript>
+								</span>
+							</a>
+						</div>
+						<strong class="title-text"><a href="/articles/read/SunEdison-Just-Filed-For-Chapter-11-Bankruptcy">Breaking: SunEdison Just Filed for Chapter 11 Bankruptcy</a></strong>
+					</li>
+					
+				
+				</ul>
+			</div>
+			<div class="article-filter most-comments">
+				<ul class="aside-article-list">
+					
+					<li>
+						<div class="img-holder">
+							<a href="/articles/read/is-teslas-powerwall-luster-already-fading">
+								<span data-picture data-alt="image description">
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png"></span>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)"></span> <!-- retina 2x tablet -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" data-media="(max-width:767px)"></span> <!-- retina 1x mobile -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)"></span> <!-- retina 2x mobile -->
+									<!--[if (lt IE 9) & (!IEMobile)]>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png"></span>
+									<![endif]-->
+									<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+									<noscript>
+										<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Tesla_Power_Wall_Graphic_93_69_c1.png" width="93" height="69" alt="image description">
+									</noscript>
+								</span>
+								<span class="comment-count">105</span>
+							</a>
+						</div>
+						<strong class="title-text"><a href="/articles/read/is-teslas-powerwall-luster-already-fading">Is the Luster of Tesla&#8217;s Powerwall Already Fading?</a></strong>
+					</li>
+					
+					<li>
+						<div class="img-holder">
+							<a href="/articles/read/net-metering-fights-are-bad-for-business.-heres-how-utilities-and-solar-adv">
+								<span data-picture data-alt="image description">
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/compromise_shutterstock_93_69_c1.png"></span>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/compromise_shutterstock_93_69_c1.png" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)"></span> <!-- retina 2x tablet -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/compromise_shutterstock_93_69_c1.png" data-media="(max-width:767px)"></span> <!-- retina 1x mobile -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/compromise_shutterstock_93_69_c1.png" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)"></span> <!-- retina 2x mobile -->
+									<!--[if (lt IE 9) & (!IEMobile)]>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/compromise_shutterstock_93_69_c1.png"></span>
+									<![endif]-->
+									<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+									<noscript>
+										<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/compromise_shutterstock_93_69_c1.png" width="93" height="69" alt="image description">
+									</noscript>
+								</span>
+								<span class="comment-count">55</span>
+							</a>
+						</div>
+						<strong class="title-text"><a href="/articles/read/net-metering-fights-are-bad-for-business.-heres-how-utilities-and-solar-adv">Net Metering Fights Are Bad for Business. Here&#8217;s How Utilities and Solar Advocates Can Avoid Them</a></strong>
+					</li>
+					
+					<li>
+						<div class="img-holder">
+							<a href="/articles/read/If-Tesla-Model-X-Rollout-is-Any-Indication-Autonomous-Driving-is-Going-to">
+								<span data-picture data-alt="image description">
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png"></span>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" data-media="(max-width:991px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:991px) and (min-resolution:144dpi)"></span> <!-- retina 2x tablet -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" data-media="(max-width:767px)"></span> <!-- retina 1x mobile -->
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" data-media="(max-width:767px) and (-webkit-min-device-pixel-ratio:1.5), (max-width:767px) and (min-resolution:144dpi)"></span> <!-- retina 2x mobile -->
+									<!--[if (lt IE 9) & (!IEMobile)]>
+									<span data-src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png"></span>
+									<![endif]-->
+									<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+									<noscript>
+										<img src="//dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/XL_Editors-news-feed_New_93_69_c1.png" width="93" height="69" alt="image description">
+									</noscript>
+								</span>
+								<span class="comment-count">50</span>
+							</a>
+						</div>
+						<strong class="title-text"><a href="/articles/read/If-Tesla-Model-X-Rollout-is-Any-Indication-Autonomous-Driving-is-Going-to">If the Tesla Model X Rollout Is Any Indication, Autonomous Driving Is Going to Be a Bloodbath</a></strong>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		
+			<div class="side-whitepaper">
+				<strong class="title">White Papers</strong>				<h3><a href="http://forms.greentechmedia.com/af2?LinkID=CH00095679eR00000430AD&Source=website" data-location="Article - Sidebar">Utility Security: Exceeding Mandates to Mitigate Risk</a></h3>
+				<a href="http://forms.greentechmedia.com/af2?LinkID=CH00095679eR00000430AD&Source=website" class="link-download" data-location="Article - Sidebar"><span>DOWNLOAD NOW</span><span class="icon-arrow"></span></a>
+			</div>
+		
+			<div class="side-whitepaper">
+								<h3><a href="http://forms.greentechmedia.com/af2?LinkID=CH00095679eR00000431AD&Source=website" data-location="Article - Sidebar">Mercatus Global Advanced Energy Insights Report: Vol. IV</a></h3>
+				<a href="http://forms.greentechmedia.com/af2?LinkID=CH00095679eR00000431AD&Source=website" class="link-download" data-location="Article - Sidebar"><span>DOWNLOAD NOW</span><span class="icon-arrow"></span></a>
+			</div>
+		
+
+	</div>
+</div>
+
+	
+
+<div id="newsletter-popout" class="popup-active" style="display:none;">
+	<form class="newsletter-subscription popup coockie-popup" method="post">
+		<a href="#" class="popup-close"><i class="icon-close"></i></a>
+		<input type=hidden name="Customer" value="ch000095679eArad">
+		<input type=hidden name="cke" value="1">
+		<input type=hidden name="ownerid" value="29">
+		<input type=hidden name="overwrite" value="0">
+		<input type=hidden name="TriggerID" value="3891">
+		<input type=hidden name="DialogID" value="373">
+		<input type=hidden name="auth_token__c" value="">
+		
+		<fieldset>
+			<strong class="sub-article-heading">Sign-Up for our Newsletter</strong>
+
+			<div class="field-box">
+				<div class="input-wrap required-row">
+					<input name="Email" type="email" placeholder="Email Address" class="input-field required-email">
+					<button class="btn btn-submit" type="submit"><i class="icon-arrow-right"></i></button>
+				</div>
+			</div>
+		</fieldset>
+		<div class="messages">
+			<div class="success">
+				<p><span>Thanks for submitting!</span></p>
+				<p>Check your inbox to confirm your subscription.</p>
+			</div>
+			<div class="error">
+				<p>
+					<span>Oh no!</span>
+					There seems to be an error.
+				</p>
+			</div>
+		</div>
+	</form>
+</div>
+
+	<a href="#" class="btn-go-top"><i class="icon-arrow-up"></i><span class="text">top</span></a>
+</div>
+</div>
+</div><!-- #wrapper -->
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="//dqbasmyouzti2.cloudfront.net/assets/js/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="//dqbasmyouzti2.cloudfront.net/assets/js/bootstrap.min.js?v=1443026580"></script>
+<script src="//dqbasmyouzti2.cloudfront.net/assets/js/jquery.main.js?v=1459460108"></script>
+
+
+<script>
+	if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport{width:auto !important}'
+			)
+		)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+
+<script>
+	var gtm_default_modal_days = '';
+	var gtm_research_modal_days = '';
+</script>
+
+<script>
+	gtm_default_modal_days = '8';
+</script>
+	<div id="modal-advertisement-default" class="not-squared">
+		<div class="modal-overlay"></div>
+		<div class="modal modal-advertisement">
+			<a href="#" class="close-modal">Close</a>
+								<a href="http://www.greentechmedia.com/events/live/solar-summit-2016?utm_source=website&utm_medium=popout&utm_campaign=gtmss16">
+						<img src="//dqbasmyouzti2.cloudfront.net/images/uploads/SS2016-Roadblock-speakers.png" width="768" height="420" alt="" />
+					</a>
+					</div>
+	</div>
+
+
+
+
+
+		
+		<div class="tooltip-hidden" id="article-tip">
+			<a href="#" class="close-tooltip">Close</a>
+			<a href="http://www.greentechmedia.com/events/live/solar-summit-2016?utm_source=website&utm_medium=popout&utm_campaign=gtmss16" target="_blank">
+				<img src="//dqbasmyouzti2.cloudfront.net/images/uploads/SS16-hover-popup.png" width="311" height="120" alt="" />
+			</a>
+		</div>
+	
+
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+    <div id="parsely-cfg" data-parsely-site="www.greentechmedia.com"></div>
+</div>
+<script>
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+
+<script id="dsq-count-scr" src="//greentechmedia.disqus.com/count.js" async></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0e18cea408","applicationID":"7436635","transactionName":"NgRWbURRDEEDUkJaXA9OdVpCWQ1cTXRzHFoPBVFB","queueTime":0,"applicationTime":968,"atts":"GkNVGwxLH08=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

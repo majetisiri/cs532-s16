@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>Chipotle Now Hiring Hourly Managers Make Up To 16 Hr Jobs in Houston, TX | jobfindly.com</title>
+<meta name="description" content="View all available Chipotle Now Hiring Hourly Managers Make Up To 16 Hr jobs in Houston, TX from company sites, job boards and the web at jobfindly.com - thousands of new jobs added daily!">
+<meta name="google-site-verification" content="iZFbbrrqhmnaczkl90QWwqp2Q5cOaLEuuuH2VZkpL34" />
+<script type="text/javascript" src="//use.typekit.net/mun1sln.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+<script src="/js/thickbox.js"></script>
+<script src="/js/placeholders.min.js"></script>
+<link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" media="screen" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70432940-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+	function getEmailRegistration(){
+		email = email_registration.elements["email"].value;
+		what = email_registration.elements["what"].value;
+		where = email_registration.elements["where"].value;
+		var url = "/scripts/email_registration.php?email="+email+"&what="+what+"&where="+where;
+		if(window.XMLHttpRequest){
+			xmlhttp=new XMLHttpRequest();
+		}else{
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function(){
+			if(xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("report_response").innerHTML = '';
+				document.getElementById("report_response").innerHTML=xmlhttp.responseText;
+			}
+		}
+		document.getElementById("report_response").innerHTML = 'Registering email for job alerts..';
+		xmlhttp.open("GET",url,true);
+		xmlhttp.send();
+	}
+</script>
+<script type="text/javascript">
+$(function() {
+	//autocomplete
+	$(".location").autocomplete({
+		source: "location.php",
+		minLength: 1
+	});				
+});
+$(function() {
+	//autocomplete
+	$(".jobtitle").autocomplete({
+		source: "jobtitle.php",
+		minLength: 1
+	});				
+});
+</script>
+<script type="text/javascript">
+function indeed_clk(a,sig) { var hr = a.href; var si = hr.indexOf('&jsa='); if (si > 0) return; var jsh = hr + '&jsa=' + sig; if ( jsh.indexOf('&inchal') == -1 ) jsh += '&inchal=apiresults'; a.href = jsh; }function init(){(new Image()).src=document.location.protocol+'//gdc.indeed.com/rpc/apilog?a=apiresults';}if (window.addEventListener){window.addEventListener('load', init, false);}else if (window.attachEvent){window.attachEvent('onload', init);}
+</script>
+
+
+</head><body class="tk-museo-sans">
+<div class="wrapper">
+<div class="header">
+<div align="center">
+<table border="0" width="70%">
+	<tr>
+		<td>
+			<table width="100%" border="0">
+				<tr>
+					<td>
+					<table width="100%" border="0">
+					<tr>
+					<td width="25%" align="left" valign="top"><span onclick="window.document.location='/';" style="cursor:pointer;"><img src="/img/jobfindly.png" width="275px"></span></td>
+					<td width="75%" align="right">
+						<form method="post" action="/">
+						<table border="0" width="80%">
+							<tr>
+								<td valign="top"><input type="text" name="what" value="chipotle now hiring hourly managers make up to 16 hr" placeholder="what?" size="30" class="jobtitle" style="font-size: 18px;"><div id="resultStats">job title, company, or keywords</div></td>
+								<td valign="top"><input type="text" name="where" value="Houston, TX" placeholder="where?" size="30" class="location" style="font-size: 18px;"><div id="resultStats">city, state, or zip</div></td>
+								<td align="center" valign="top"><input type="submit" name="submit" value=" find jobs " size="15" style="font-size: 19px;"></td>
+							</tr>
+						</table>
+						</form>
+					</td>
+					</tr>
+					</table>
+					</td>
+				</tr>
+						<tr>
+				<td colspan="2" align="center">
+				<form name="email_registration">
+				<table border=0 cellpadding="2" cellspacing="2" width="100%">
+					<tr><td colspan="2"><hr></td></tr>
+					<tr>
+												<td colspan="2" style="font-family:Verdana; font-size: 14px;">Sign up for free mail job alerts for <b>"chipotle now hiring hourly managers make up to 16 hr"</b> jobs in <b>"Houston, TX"</b></td>
+											</tr>
+					<tr>
+						<td width="125px" style="font-family:Verdana; font-size: 13px;" nowrap>Enter your email: </td><td align="left" style="font-family:Verdana; font-size: 13px;"><input type="text" placeholder="Your Email Address" name="email" value="" size="45"><input type="hidden" name="what" value="chipotle now hiring hourly managers make up to 16 hr"><input type="hidden" name="where" value="Houston, TX">&nbsp;<input type="button" name="submit" value=" Get Job Alerts! " onclick="getEmailRegistration();"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><div id="report_response" style="font-family:Verdana; font-size: 12px; color: blue; font-weight: bold"></div></td>
+					</tr>
+					<tr><td colspan="2"><hr></td></tr>
+				</table>
+				</form>
+				</td>
+			</tr>
+				<tr><td colspan="2" align="left"><div id="resultStats">About 0 jobs found</div></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table width="100%"border="0">
+
+			<tr>
+			<td valign="top" width="80%">
+			<table width="100%"border="0">
+							<tr><td align="center" valign="center">
+					<table width="100%"border="0">
+						<tr><td><hr></td></tr>
+						<tr><td align="center" valign="center"><font font-size="14px" family="Verdana" color="red"><strong>Your search criteria returned no results.</font></font></td></tr>
+						<tr><td><hr></td></tr>
+					</table>
+			</td></tr>
+					<tr>
+				<td align="center">
+									</td>
+			</tr>
+						</table>
+			</td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+</table></div>
+</div>
+</div>
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-533ae6e374c931d6"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 5
+    }   
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+
+<footer>
+	 <a href="https://www.indeed.com/" target="_blank"><img src="/img/job_search_indeed.png" width="100px"></a><br>
+		  <small class="copyright">Copyright &#169; 2016 <b>jobfindly.com</b> | <a href="/">job search engine</a>
+</footer>
+</body>
+</html>

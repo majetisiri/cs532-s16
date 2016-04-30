@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png"/>
+<style type="text/css">
+  body, header, a, p {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: #F2F3F7;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  header {
+    text-align: center;
+    border-bottom: 1px solid #DBDBDB;
+    display: block;
+    height: 39px;
+  }
+  header a
+  {
+    display: inline-block;
+    width: 77px;
+    height: 31px;
+    padding-top: 8px;
+  }
+  header img
+  {
+    height: 24px;
+    width: 77px;
+    margin: 0;
+  }
+  div {
+    margin-top: -15px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 15px;
+    left: 15px;
+  }
+  img {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 145px;
+  }
+  p {
+    color: #949e9f;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  a {
+    color: #ff6647;
+    font-size: 18px;
+    text-decoration: none;
+  }
+</style>
+<title>Page Not Found - ASKfm</title>
+</head>
+<body>
+  <header>
+    <a href="/"><img src="/images/welcomeLogo-160.png" alt=""/></a>
+  </header>
+  <div>
+    <a href="/"><img src="/images/sad-owl.png" alt="" title="Return to the main page"/></a>
+    <p>Page not found</p>
+    <a href="/">Return to the main page</a>
+  </div>
+</body>
+</html>
